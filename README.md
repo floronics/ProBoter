@@ -1,5 +1,24 @@
 # PROBoter - A platform for automated embedded system security analysis
 
+## Floronics-Nachbau
+
+Dieser Fork von [SCHUTZWERK/PROBoter](https://github.com/schutzwerk/PROBoter)
+sammelt unsere Unterlagen für einen nachvollziehbaren Nachbau. Die
+[Bestellliste](bom/Bestellliste.md) ist ein **Arbeitsstand ohne Bestellfreigabe**:
+Das CAD-Modell enthält Platzhalter und widerspricht teilweise dem beschriebenen
+Aufbau mit vier Prüfeinheiten. Offene Positionen sind ausdrücklich markiert.
+
+| Unterlage | Inhalt |
+|---|---|
+| [Nachbau-Übersicht](docs/Floronics-Nachbau.md) | Struktur, Herkunft und nächster Schritt |
+| [Quellen](docs/Quellen.md) | Öffentlich zugängliche Belege und Lizenzhinweise |
+| [Aufbau](docs/Aufbau.md) | Mechanik, Elektronik und Software im Überblick |
+| [Bestellliste](bom/Bestellliste.md) | Menschenlesbare Beschaffungsplanung |
+| [CAD-Teileliste](bom/CAD-Teileliste.md) | Alle 120 benannten Blattteile mit Mengen und Klärstatus |
+| [Offene Punkte](docs/Offene-Punkte.md) | Entscheidungen vor Konstruktion und Bestellung |
+
+---
+
 ![PROBoter title image](/docs/title.png)
 
 The PROBoter is a hardware and software platform to automate embedded system security analysis. The initial prototype was developed during the master's thesis **Automatisierung der hardwarenahen Sicherheitsanalyse von eingebetteten Systemen** in cooperation with [SCHUTZWERK GmbH](https://www.schutzwerk.com) and
