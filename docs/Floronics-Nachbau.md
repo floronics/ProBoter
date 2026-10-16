@@ -25,11 +25,12 @@ Quellen steht in [Quellen.md](Quellen.md).
 ## Arbeitsstand und Herkunft
 
 Die [Bestellliste](../bom/Bestellliste.md) ist noch nicht bestellfertig. Das
-veröffentlichte STEP-Modell enthält 447 Einbauvorkommen, darunter 416
-Blattteil-Vorkommen mit 120 verschiedenen Namen. Ihre Anzahl und Benennung
+veröffentlichte STEP-Modell enthält 447 Baugruppenbeziehungen. Nach rekursiver
+Auflösung wiederverwendeter Baugruppen ergeben sich 1.066 Blattteil-Vorkommen
+mit 120 verschiedenen Namen und 53 Unterbaugruppen-Vorkommen. Anzahl und Benennung
 liefern keine geprüften Bestellnummern oder Fertigungszeichnungen. Mehrere
-Mengen widersprechen dem beschriebenen Vier-Prüfspitzen-Aufbau; die
-[offenen Punkte](Offene-Punkte.md) dokumentieren diese Abweichungen.
+Zuordnungen müssen noch geometrisch und elektrisch geprüft werden; die
+[offenen Punkte](Offene-Punkte.md) dokumentieren diese Aufgaben.
 
 Der Fork bewahrt die Originalhistorie. Die Basis ist
 [`b6184ad`](https://github.com/schutzwerk/PROBoter/commit/b6184ada8ddee74df746ce800c81038e8d482e1e)

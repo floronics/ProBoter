@@ -5,8 +5,8 @@
 Dieser Fork von [SCHUTZWERK/PROBoter](https://github.com/schutzwerk/PROBoter)
 sammelt unsere Unterlagen für einen nachvollziehbaren Nachbau. Die
 [Bestellliste](bom/Bestellliste.md) ist ein **Arbeitsstand ohne Bestellfreigabe**:
-Das CAD-Modell enthält Platzhalter und widerspricht teilweise dem beschriebenen
-Aufbau mit vier Prüfeinheiten. Offene Positionen sind ausdrücklich markiert.
+Das CAD-Modell enthält Platzhalter; elektrische Zuordnungen und
+Fertigungsangaben sind noch offen. Offene Positionen sind ausdrücklich markiert.
 
 | Unterlage | Inhalt |
 |---|---|

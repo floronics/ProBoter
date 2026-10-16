@@ -134,6 +134,9 @@ def main() -> None:
     args = parser.parse_args()
     rows = list(csv.DictReader(args.inventory.open(encoding="utf-8-sig", newline="")))
     leaves = [row for row in rows if row["kind"] == "leaf"]
+    assemblies = [row for row in rows if row["kind"] == "assembly_not_additional_purchase"]
+    assembly_count = sum(int(row["quantity"]) for row in assemblies)
+    leaf_count = sum(int(row["quantity"]) for row in leaves)
     if len(leaves) != 120:
         raise ValueError(f"Expected 120 CAD leaf names, found {len(leaves)}")
 
@@ -145,8 +148,10 @@ def main() -> None:
     lines = [
         "# CAD-Teileliste (vollständige Rohinventur)", "",
         "Stand: 16.10.2026. Quelle: `hardware/3d_models/proboter.stp` "
-        "(SCHUTZWERK, 19.04.2022). Die Mengen sind **Vorkommen im STEP-Modell**, "
-        "keine geprüften Bestellmengen. Die 31 Baugruppen sind nicht zusätzlich zu bestellen.", "",
+        "(SCHUTZWERK, 19.04.2022). Die Mengen sind **rekursiv gezählte Vorkommen im STEP-Modell**, "
+        f"keine geprüften Bestellmengen. Wiederverwendete Baugruppen werden je Einbau aufgelöst: "
+        f"{leaf_count} Blattteil-Vorkommen und {assembly_count} Unterbaugruppen-Vorkommen. "
+        "Die Unterbaugruppen sind nicht zusätzlich zu bestellen.", "",
         "**Status:** `MODELL BELEGT` = Hersteller/Modell aus CAD und Herstellerquelle nachvollziehbar; "
         "`KLÄREN` = konkrete Variante oder Menge offen; `FERTIGEN` = Sonderteil mit "
         "Fertigungsangaben offen; `PLATZHALTER` = vor Bestellung durch reales Teil ersetzen/prüfen.", "",
@@ -164,7 +169,7 @@ def main() -> None:
     lines += [
         "## Abgrenzung", "",
         "Alle 120 Blattteil-Namen aus dem Modell sind oben aufgeführt. Die zusätzliche "
-        "[CSV-Inventur](cad-inventory.csv) enthält auch 14 Baugruppennamen (31 Vorkommen), "
+        f"[CSV-Inventur](cad-inventory.csv) enthält auch {len(assemblies)} Baugruppennamen ({assembly_count} Vorkommen), "
         "damit keine Baugruppe doppelt gezählt wird. Die Klassifikation ist eine "
         "Beschaffungshilfe; sie ersetzt keine technische Freigabe des CAD-Modells.", "",
     ]

@@ -34,15 +34,16 @@ keine aktuelle Kalkulation.
   Beschreibung nennt GT2-Riemen, NEMA-14- und NEMA-17-Motoren sowie
   Linearführungen. Individuelle Formteile sind für 3D-Druck ausgelegt;
   andere Teile benötigen Zuschnitt oder Bearbeitung.
-- Das STEP-Modell enthält **447 Einbauvorkommen**. Nach Abzug von
-  31 Unterbaugruppen-Vorkommen bleiben **416 Blattteil-Vorkommen mit 120 Namen**.
+- Das STEP-Modell enthält **447 Baugruppenbeziehungen**. Bei rekursiver
+  Auflösung aller Einbauten ergeben sich **1.066 Blattteil-Vorkommen mit 120 Namen**
+  und 53 Unterbaugruppen-Vorkommen.
   Diese sind vollständig in der [CAD-Teileliste](../bom/CAD-Teileliste.md)
   erfasst. Die Geometrie liegt als Gesamtbaugruppe vor; eigenständige
   Fertigungsdateien je Sonderteil und eine geprüfte Zuschnittliste fehlen.
-- Die Bestückung des STEP-Modells ist nicht konsistent mit vier vollständigen
-  Prüfeinheiten: Es zeigt vier SKR-Boards, aber sechs Motoren, zwei
-  Prüfspitzenplatinen und zwei Z-Riemen. Diese Zählung ist eine **CAD-Beobachtung**,
-  keine Vorgabe für den Aufbau.
+- Das STEP-Modell zählt vier SKR-Boards, 20 Motorvorkommen (12 NEMA 17 und
+  8 NEMA 14), vier Prüfspitzenplatinen und vier Z-Riemen. Die frühere
+  niedrigere Zählung übersah wiederverwendete Baugruppen. Diese korrigierte
+  Zählung ist eine **CAD-Beobachtung**, keine geprüfte Vorgabe für den Aufbau.
 
 ## Sensorik, Elektronik und Optik
 
@@ -53,12 +54,12 @@ keine aktuelle Kalkulation.
   In `Configuration.h` sind X, X2, Y und Z als TMC2130 konfiguriert;
   daraus folgen **bis zu vier Treibersteckplätze je Board**. Die tatsächlich
   benötigte Anzahl muss gegen den realen Motorplan geprüft werden.
-- Im STEP erscheinen ein Mean-Well-RSP-200-24-Netzteil, zwölf induktive
-  M8-Näherungsschalter und zwei optische Endschalter. Ihre elektrischen
+- Im STEP erscheinen ein Mean-Well-RSP-200-24-Netzteil, 24 induktive
+  M8-Näherungsschalter und vier optische Endschalter. Ihre elektrischen
   Schnittstellen und die komplette Verdrahtung sind nicht veröffentlicht.
 - Der Blog beschreibt **ein** auf einer Prüfeinheit befestigtes USB-Mikroskop
   für zusammengesetzte Detailbilder sowie **eine** statische hochauflösende
-  Kamera für die Übersicht. Im STEP sind dagegen **zwei** `usb_microscope`
+  Kamera für die Übersicht. Im STEP sind dagegen **vier** `usb_microscope`
   benannt. Kamera-Modelle, Linsen, Beleuchtung und Halterung der statischen
   Kamera müssen abgeglichen werden.
 - Ein eigens entwickeltes Signal-Multiplexer-Board routet Prüfspitzensignale

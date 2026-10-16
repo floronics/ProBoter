@@ -7,14 +7,14 @@ als Modellzählung gekennzeichnet.
 
 | Prio | Frage / belegte Lücke | Nächste Prüfung |
 |---|---|---|
-| P0 | Vier Prüfeinheiten laut [Blog Teil II](https://www.schutzwerk.com/en/blog/proboter-02/) und [Firmware](../firmware/README.md), aber im STEP nur 6 Motoren, 2 `probe_tip_pcb`, 2 `z_drive_belt` und 4 Steuerplatinen. | Zielkonfiguration (zwei oder vier funktionierende Spitzen) festlegen; STEP-Baugruppenbaum je Einheit in CAD öffnen und Motoren, Z-Antriebe und Prüfspitzen abgleichen. |
+| P0 | Rekursiv ergeben sich 20 Motorvorkommen, 4 `probe_tip_pcb`, 4 `z_drive_belt` und 4 Steuerplatinen. Die erste, niedrigere Zählung war fehlerhaft; die Geometrieprüfung steht noch aus. | Für den Vier-Prüfeinheiten-Aufbau jede CAD-Instanz zuordnen und auf Alternativteile, doppelte Geometrie und tatsächlichen Einbau prüfen. |
 | P0 | `signal_multiplexer_dummy` statt realer Multiplexer-Platine. | Schaltplan, PCB-Layout, Fertigungsdaten, Bestückung und elektrisches Interface beim Originalprojekt ermitteln oder neu konstruieren. |
 | P0 | `probe_tip_pcb` ist nur ein CAD-Körper; keine Schaltpläne/Gerber für die Prüfspitzenplatinen. | Pinbelegung, Kontaktgeometrie, Fertigungsdaten und reale Stückzahl klären. |
 | P0 | Für 61 individuell benannte CAD-Teile fehlen Einzelteilzeichnungen, Material, Toleranzen und Fertigungsverfahren. | Gesamt-STEP in einem CAD-System in Einzelteile zerlegen; Druck-, Fräs-, Laser- und Profilteile trennen; Zuschnittliste und Herstellzeichnungen erstellen. |
 | P0 | Riemenlängen und teils Breiten/Bohrungen der GT2-Rollen sind nicht bestellfähig spezifiziert. | Aus STEP die Umlenkwege, Achsabstände und Wellenmaße prüfen; Riemenlängen mit Spannreserve berechnen. |
-| P0 | Die [Firmware-Konfiguration](../firmware/Marlin/Configuration.h) nennt X/X2/Y/Z mit TMC2130, im STEP sind aber nur sechs Motoren. | Motor-/Treiberplan je Probe erstellen; Treibermodule (möglicherweise bis 16) erst danach bestellen. |
+| P0 | Die [Firmware-Konfiguration](../firmware/Marlin/Configuration.h) nennt 16 Treiberkanäle für vier Boards; die rekursive STEP-Zählung liefert 20 Motorvorkommen. | Motor-/Treiberplan je Probe erstellen; Modellvarianten und mögliche gemeinsame Treiberbelegung anhand Geometrie und Verdrahtung prüfen. |
 | P0 | `signal_multiplexer_dummy`, `pcb_dummy` und `base_drawer_dummy_plate` sind Platzhalternamen. | Für jeden entscheiden: echtes Teil ersetzen, nur Demonstrationskörper oder konstruktiv erforderlich. |
-| P1 | Blog nennt eine bewegliche und eine statische Kamera; STEP nennt zwei USB-Mikroskope. | Kameramodelle, Optik, Halterung, Arbeitsabstand und Beleuchtung gegen Fotos/CAD verifizieren. |
+| P1 | Blog nennt eine bewegliche und eine statische Kamera; die rekursive STEP-Zählung ergibt vier USB-Mikroskope. | Kameramodelle, Optik, Halterung, Arbeitsabstand und tatsächliche Bestückung gegen Fotos/CAD verifizieren. |
 | P1 | Statische Kamera, weißer LED-Streifen und Kalibrierplatte mit Messingreferenzen fehlen als bestellfähige CAD-Positionen. | Technische Spezifikation, Mengen und Befestigung festlegen. |
 | P1 | Sensoren sind nur `inductive_proximity_sensor_m8` bzw. `optical_endstop` benannt. | NPN/PNP, Spannung, Schaltabstand, Logik, Stecker und Kabellänge mit SKR-Eingängen abgleichen. |
 | P1 | Netzanschluss, Absicherung, Erdung, Verteilung, Kabel, Stecker und Energieketten-Endanschlüsse sind nicht vollständig beschrieben. | Verdrahtungsplan und Leitungsliste erstellen; Netzteil- und 24-V-Leistungsbedarf prüfen. |

@@ -10,7 +10,7 @@ import argparse
 import csv
 import re
 import sys
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 
 
@@ -39,9 +39,42 @@ def inventory(step_file: Path) -> tuple[Counter[str], Counter[str], int, int]:
 
     parents = {parent for _, parent, _ in occurrences}
     children = {child for _, _, child in occurrences}
-    leaves = Counter(name for name, _, child in occurrences if child not in parents)
-    assemblies = Counter(name for name, _, child in occurrences if child in parents)
-    return leaves, assemblies, len(occurrences), len(parents - children)
+    roots = parents - children
+    if len(roots) != 1:
+        raise ValueError(f"Expected one assembly root, found {len(roots)}")
+    graph: dict[str, list[tuple[str, str]]] = defaultdict(list)
+    for name, parent, child in occurrences:
+        graph[parent].append((name, child))
+
+    # A STEP assembly definition can be placed multiple times. Expand each
+    # placement from the root; counting definition edges alone undercounts it.
+    cache: dict[str, tuple[Counter[str], Counter[str]]] = {}
+    active: set[str] = set()
+
+    def expand(node: str) -> tuple[Counter[str], Counter[str]]:
+        if node in active:
+            raise ValueError(f"Cycle in assembly definitions at #{node}")
+        if node in cache:
+            return cache[node]
+        active.add(node)
+        leaves: Counter[str] = Counter()
+        assemblies: Counter[str] = Counter()
+        for name, child in graph[node]:
+            if child in parents:
+                assemblies[name] += 1
+                child_leaves, child_assemblies = expand(child)
+                leaves.update(child_leaves)
+                assemblies.update(child_assemblies)
+            else:
+                leaves[name] += 1
+        active.remove(node)
+        cache[node] = leaves, assemblies
+        return leaves, assemblies
+
+    leaves, assemblies = expand(next(iter(roots)))
+    if set(cache) != parents:
+        raise ValueError("Assembly definitions are disconnected from the root")
+    return leaves, assemblies, len(occurrences), len(roots)
 
 
 def main() -> None:
@@ -72,7 +105,7 @@ def main() -> None:
             stream.close()
 
     print(
-        f"{occurrence_count} occurrences; {sum(leaves.values())} leaf parts "
+        f"{occurrence_count} definition relationships; {sum(leaves.values())} expanded leaf occurrences "
         f"across {len(leaves)} names; {sum(assemblies.values())} subassemblies "
         f"across {len(assemblies)} names",
         file=sys.stderr,

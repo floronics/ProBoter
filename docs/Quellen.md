@@ -13,7 +13,7 @@ Quellenherkunft erkennbar.
 |---|---|---|
 | Gesamtdarstellung | [`README.md`](../README.md) | Plattform und Teilprojekte; Originaltext mit Floronics-Einstieg |
 | Konstruktion | [`hardware/`](../hardware/) | STEP-Gesamtbaugruppe, Rendering, Lizenzen; keine separaten Fertigungszeichnungen oder Stückliste |
-| CAD-Datei | [`proboter.stp`](../hardware/3d_models/proboter.stp) | Solid-Edge-Export vom 19.04.2022; 447 benannte Einbauvorkommen, 416 Blattteil-Vorkommen, 120 Blattteil-Namen |
+| CAD-Datei | [`proboter.stp`](../hardware/3d_models/proboter.stp) | Solid-Edge-Export vom 19.04.2022; 447 Beziehungen, rekursiv 1.066 Blattteil-Vorkommen mit 120 Namen und 53 Unterbaugruppen-Vorkommen |
 | CAD-PDF | [`proboter.pdf`](../hardware/3d_models/proboter.pdf) | Bei Prüfung leer gerendert; auch [Upstream-Issue #2](https://github.com/schutzwerk/PROBoter/issues/2) meldet das Problem |
 | Firmware | [`firmware/`](../firmware/) | Modifiziertes Marlin für vier SKR-V1.3-Controller, je Probe zu konfigurieren; Firmware-README und Konfiguration |
 | Software | [`software/`](../software/) | Docker-Compose, Web-UI, Hardwaresteuerung, Bild-, Signal- und Projektdaten-Dienste |
@@ -24,6 +24,16 @@ Der Fork basiert auf dem Originalstand
 [`b6184ada8ddee74df746ce800c81038e8d482e1e`](https://github.com/schutzwerk/PROBoter/commit/b6184ada8ddee74df746ce800c81038e8d482e1e)
 auf `master`. Im lokalen Klon zeigt `upstream` auf SCHUTZWERK; GitHub führt
 `floronics/ProBoter` als Fork des Originals.
+
+**Korrektur der ersten Inventur:** Die frühere Auswertung zählte die
+STEP-Beziehungen einmal je Definition. Sie berücksichtigte nicht, dass dieselbe
+Baugruppe mehrfach eingebaut wird. Die damaligen 416 Blattteil-Vorkommen waren
+deshalb keine vollständige Modellmenge. Das Skript löst jetzt jede Baugruppe
+vom Wurzelknoten aus je Einbau auf. Insbesondere ergeben sich vier
+Prüfspitzenplatinen und vier Z-Riemen; die frühere Aussage, hiervon seien nur
+zwei im Modell, war falsch. Auch die früher genannten Motor- und Sensormengen
+sind durch die neu erzeugte Inventur ersetzt. Diese Modellzählung muss noch
+auf Alternativteile, Platzhalter und tatsächliche Einbausituation geprüft werden.
 
 ## Veröffentlichte Erläuterungen
 
