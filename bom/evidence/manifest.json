@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-16",
+  "fusion_document": "proboter",
+  "step_sha256": "c6f32bb716f8eab7ef43fbc01638905d4a762801d562d4a545ff093c8220170c",
+  "fusion_export_sha256": "19d5e72e28031d7c31e73007e3a162e6ddc506e121837ae78212526ea0b47f99",
+  "step_leaf_names": 120,
+  "step_occurrences": 1066,
+  "fusion_occurrences": 1054,
+  "mismatches": [
+    "nanotec_nema_17_ST4118M1804-A"
+  ]
+}

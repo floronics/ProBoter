@@ -1,0 +1,121 @@
+﻿id,cad_name,step_qty,fusion_qty,visible_qty,local_aabb_mm,solid_volume_cm3,imported_material,sample_path,count_agrees
+CAD-001,TR10x2_GT2_belt_adapter,4,4,4,15.0 x 20.0 x 22.0,3.981555,Stahl,y_slide_mirrored (1):1+TR10x2_GT2_belt_adapter:1,True
+CAD-002,TR10x2_GT2_belt_adapter_cover,4,4,4,7.0 x 20.0 x 20.494,1.770131,Stahl,y_slide_mirrored (1):1+TR10x2_GT2_belt_adapter_cover:1,True
+CAD-003,base_back_plate,1,1,1,650.0 x 3.0 x 270.0,519.940673,Stahl,base:1+base_back_plate:1,True
+CAD-004,base_cable_holder_m3_flat,2,2,2,18.0 x 10.0 x 8.0,0.966242,Stahl,base:1+base_cable_holder_m3_flat:1,True
+CAD-005,base_cable_holder_m4,1,1,1,18.0 x 12.0 x 10.5,1.508093,Stahl,base:1+base_cable_holder_m4:1,True
+CAD-006,base_cable_holder_m5_flat,4,4,4,18.0 x 14.0 x 10.0,1.496717,Stahl,x_slide:1+base_cable_holder_m5_flat:1,True
+CAD-007,base_cover_long_side,2,2,2,660.0 x 5.0 x 135.5,444.939419,Stahl,base:1+base_cover_long_side:1,True
+CAD-008,base_cover_top,2,2,2,656.0 x 5.0 x 182.5,594.205633,Stahl,base:1+base_cover_top:1,True
+CAD-009,base_drag_chain_holder,4,4,4,80.0 x 650.0 x 16.0,606.011318,Stahl,base:1+base_drag_chain_holder:1,True
+CAD-010,base_drawer_dummy_plate,1,1,1,564.0 x 410.0 x 12.0,1586.778407,Stahl,base:1+base_drawer_dummy_plate:1,True
+CAD-011,base_drawer_long_side,2,2,2,30.0 x 564.0 x 30.0,313.869744,Stahl,base:1+base_drawer_long_side:1,True
+CAD-012,base_frame_long_side,3,3,3,30.0 x 590.0 x 30.0,328.338917,Stahl,base:1+base_frame_long_side:1,True
+CAD-013,base_frame_short,8,8,8,30.0 x 350.0 x 30.0,194.777323,Stahl,base:1+base_frame_short:1,True
+CAD-014,base_frame_side,2,2,2,30.0 x 650.0 x 60.0,790.966595,Stahl,base:1+base_frame_side:1,True
+CAD-015,base_nema_14_to_17_adapter,12,12,12,40.0 x 45.0 x 52.0,20.242618,Stahl,base:1+x_belt_drive:1+base_nema_14_to_17_adapter:1,True
+CAD-016,base_plate_adapter_1,2,2,2,130.4 x 10.0 x 91.0,75.20469,Stahl,base:1+base_plate_adapter:1+base_plate_adapter_1:1,True
+CAD-017,base_plate_adapter_2,2,2,2,130.5 x 10.0 x 91.0,74.711929,Stahl,base:1+base_plate_adapter:1+base_plate_adapter_2:1,True
+CAD-018,base_plate_adapter_left,2,2,2,162.0 x 10.0 x 67.079,49.256445,Stahl,base:1+base_plate_adapter_left:1,True
+CAD-019,base_plate_adapter_right,2,2,2,162.0 x 10.0 x 67.079,49.256445,Stahl,base:1+base_plate_adapter_right:1,True
+CAD-020,base_vertical,4,4,4,30.0 x 350.0 x 30.0,194.777323,Stahl,base:1+base_vertical:1,True
+CAD-021,belt_tightener_GT2_base,20,20,20,44.0 x 35.0 x 20.0,10.843249,Stahl,base:1+x_belt_drive:1+belt_tightener_GT2:1+belt_tightener_GT2_base:1,True
+CAD-022,belt_tightener_GT2_wing,20,20,20,40.0 x 20.0 x 10.0,4.903973,Stahl,base:1+x_belt_drive:1+belt_tightener_GT2:1+belt_tightener_GT2_wing:1,True
+CAD-023,bigtreetech_skr_v1_3,4,4,4,109.67 x 1.55 x 84.3,14.277002,Stahl,base:1+bigtreetech_skr_v1_3:1,True
+CAD-024,cable_cover,4,4,4,22.0 x 58.0 x 3.0,1.12083,Stahl,base:1+cable_cover:1,True
+CAD-025,camera_holder,1,1,1,37.0 x 42.0 x 19.0,7.664257,Stahl,base:1+camera_holder (1):1+camera_holder:1,True
+CAD-026,camera_holder_top,1,1,1,104.0 x 56.63 x 5.0,11.238009,Stahl,base:1+camera_holder (1):1+camera_holder_top:1,True
+CAD-027,cpc_MR12ML,8,8,8,47.6 x 10.0 x 27.0,9.647897,Stahl,x_slide:1+cpc_MR12ML:1,True
+CAD-028,din_466_knurled_nut_high_m4,8,8,8,16.0 x 16.0 x 9.5,0.923975,Stahl,base:1+pcb_holder:1+din_466_knurled_nut_high_m4:1,True
+CAD-029,din_562_m3_square_nut,8,8,8,5.5 x 1.8 x 5.5,0.045902,Stahl,y_slide_mirrored (1):1+din_562_m3_square_nut:1,True
+CAD-030,din_562_m4_square_nut,12,12,12,7.0 x 2.2 x 7.0,0.089639,Stahl,y_slide_mirrored (1):1+din_562_m4_square_nut:1,True
+CAD-031,din_7991_m3x8,32,32,32,8.0 x 6.0 x 6.0,0.068469,Stahl,x_slide:1+din_7991_m3x8:1,True
+CAD-032,din_7991_m6x12,16,16,16,12.0 x 12.0 x 12.0,0.406376,Stahl,x_slide:1+din_7991_m6x12:1,True
+CAD-033,din_7991_m6x14,6,6,6,14.0 x 12.0 x 12.0,0.462925,Stahl,base:1+din_7991_m6x14:1,True
+CAD-034,din_7991_m6x20,22,22,22,20.0 x 12.0 x 12.0,0.632571,Stahl,base:1+din_7991_m6x20:1,True
+CAD-035,din_912_m3x10,76,76,76,13.0 x 5.5 x 5.5,0.125205,Stahl,y_slide_mirrored (1):1+din_912_m3x10:1,True
+CAD-036,din_912_m3x12,8,8,8,15.0 x 5.5 x 5.5,0.139343,Stahl,y_slide_mirrored (1):1+din_912_m3x12:1,True
+CAD-037,din_912_m3x14,4,4,4,17.0 x 5.5 x 5.5,0.15348,Stahl,y_slide_mirrored (1):1+din_912_m3x14:1,True
+CAD-038,din_912_m3x16,28,28,28,19.0 x 5.5 x 5.5,0.167617,Stahl,y_slide_mirrored (1):1+din_912_m3x16:1,True
+CAD-039,din_912_m3x18,32,32,32,21.0 x 5.5 x 5.5,0.181754,Stahl,base:1+x_belt_drive:1+din_912_m3x18:1,True
+CAD-040,din_912_m3x20,4,4,4,23.0 x 5.5 x 5.5,0.195891,Stahl,y_slide_mirrored (1):1+din_912_m3x20:1,True
+CAD-041,din_912_m3x30,8,8,8,33.0 x 5.5 x 5.5,0.266577,Stahl,y_slide_mirrored (1):1+din_912_m3x30:1,True
+CAD-042,din_912_m3x8,52,52,52,11.0 x 5.5 x 5.5,0.111068,Stahl,y_slide_mirrored (1):1+din_912_m3x8:1,True
+CAD-043,din_912_m4x10,1,1,1,14.0 x 7.0 x 7.0,0.255545,Stahl,base:1+pcb_holder:1+din_912_m4x10:1,True
+CAD-044,din_912_m4x20,20,20,20,24.0 x 7.0 x 7.0,0.381208,Stahl,base:1+x_belt_drive:1+belt_tightener_GT2:1+din_912_m4x20:1,True
+CAD-045,din_912_m4x30,36,36,36,34.0 x 7.0 x 7.0,0.506872,Stahl,y_slide_mirrored (1):1+din_912_m4x30:1,True
+CAD-046,din_912_m5x10,32,32,32,15.0 x 8.5 x 8.5,0.437674,Stahl,x_slide:1+din_912_m5x10:1,True
+CAD-047,din_912_m5x14,4,4,4,19.0 x 8.5 x 8.5,0.516214,Stahl,x_slide:1+din_912_m5x14:1,True
+CAD-048,din_933_m4x20,8,8,8,7.0 x 21.4 x 8.083,0.309849,Stahl,base:1+pcb_holder:1+din_933_m4x20:1,True
+CAD-049,drag_chain_0_24m_E2i_10_10_028_0_4,16,16,16,193.0 x 17.8 x 71.0,59.53816,Stahl,x_slide:1+drag_chain_0_24m_E2i_10_10_028_0_4:1,True
+CAD-050,drag_chain_0_28m_E2i_10_20_028_0_igus,8,8,8,248.0 x 27.8 x 71.0,118.195727,Stahl,base:1+drag_chain_0_28m_E2i_10_20_028_0_igus:1,True
+CAD-051,handle_l100_dold,1,1,1,113.0 x 20.0 x 49.0,32.122406,Stahl,base:1+handle_l100_dold:1,True
+CAD-052,hinged_M6_40_dold,4,4,4,40.0 x 40.0 x 30.4,7.969592,Stahl,base:1+hinged_M6_40_dold:1,True
+CAD-053,hiwin_rail_MGNR12R150HM,4,4,4,12.0 x 150.0 x 8.0,12.847003,Stahl,z_slide:1+hiwin_rail_MGNR12R150HM:1,True
+CAD-054,hiwin_slide_MGN12CZ0H,4,4,4,27.0 x 35.688 x 10.0,6.886423,Stahl,y_slide_mirrored (1):1+hiwin_slide_MGN12CZ0H:1,True
+CAD-055,inductive_proximity_sensor_m8,24,24,24,8.0 x 60.0 x 8.0,2.694328,Stahl,base:1+inductive_proximity_sensor_m8:1,True
+CAD-056,iso_8673_nut_m3,44,44,44,5.5 x 2.4 x 6.351,0.045283,Stahl,y_slide_mirrored (1):1+iso_8673_nut_m3:1,True
+CAD-057,iso_8673_nut_m4,64,64,64,7.0 x 3.2 x 8.083,0.094291,Stahl,y_slide_mirrored (1):1+iso_8673_nut_m4:1,True
+CAD-058,iso_8673_nut_m8,48,48,48,13.0 x 6.8 x 15.011,0.64517,Stahl,base:1+iso_8673_nut_m8:1,True
+CAD-059,mean_well_MHS-012_mounting_bracket,4,4,4,16.0 x 15.0 x 19.2,0.470494,Stahl,base:1+mean_well_MHS-012_mounting_bracket:1,True
+CAD-060,mean_well_RSP-200-24,1,1,1,115.0 x 30.0 x 215.0,717.089602,Stahl,base:1+mean_well_RSP-200-24:1,True
+CAD-061,mmcx_male_end,4,4,4,54.154 x 4.02 x 15.714,0.374788,Stahl,z_slide:1+probe_tip:1+mmcx_male_end:1,True
+CAD-062,mmcx_male_end_with_angle,4,4,4,72.342 x 4.02 x 28.475,0.501989,Stahl,z_slide_long:1+probe_tip_with_angle:1+mmcx_male_end_with_angle:1,True
+CAD-063,nanotec_nema_14_ST3518M1004-A,8,8,8,35.0 x 65.0 x 60.0,34.540912,Stahl,y_slide_mirrored (1):1+nanotec_nema_14_ST3518M1004-A:1,True
+CAD-064,nanotec_nema_17_ST4118M1804-A,12,0,0,,,,,False
+CAD-065,optical_endstop,4,4,4,35.0 x 11.0 x 11.7,1.479532,Stahl,y_slide_mirrored (1):1+optical_endstop:1,True
+CAD-066,pcb_dummy,1,1,1,200.0 x 300.0 x 50.0,3000.0,Stahl,base:1+pcb_dummy:1,True
+CAD-067,pcb_holder_glider,4,4,4,24.0 x 30.0 x 18.0,7.265163,Stahl,base:1+pcb_holder:1+pcb_holder_glider:1,True
+CAD-068,pcb_holder_guiding_holder_round_d10,4,4,4,37.0 x 14.0 x 26.5,6.961743,Stahl,base:1+pcb_holder:1+pcb_holder_guiding_holder_round_d10:1,True
+CAD-069,pcb_holder_guiding_round,2,2,2,10.0 x 356.8 x 10.0,28.023006,Stahl,base:1+pcb_holder:1+pcb_holder_guiding_round:1,True
+CAD-070,pcb_holder_rect_rod,2,2,2,11.5 x 205.0 x 11.5,12.3,Stahl,base:1+pcb_holder:1+pcb_holder_rect_rod:1,True
+CAD-071,pcb_holder_rod_short_round_d10,2,2,2,30.0 x 30.0 x 18.0,9.311414,Stahl,base:1+pcb_holder:1+pcb_holder_rod_short_round_d10:1,True
+CAD-072,pcb_holder_rod_short_round_d10_mirrored,2,2,2,30.0 x 30.0 x 18.0,9.311414,Stahl,base:1+pcb_holder:1+pcb_holder_rod_short_round_d10_mirrored:1,True
+CAD-073,plug_sleeve_P75-2_W,8,8,8,25.4 x 1.2 x 1.2,0.008778,Stahl,z_slide:1+probe_tip:1+plug_sleeve_P75-2_W:1,True
+CAD-074,power_switch_holder,1,1,1,65.0 x 30.0 x 41.0,22.245151,Stahl,base:1+power_switch_holder:1,True
+CAD-075,probe_tip_pcb,4,4,4,26.67 x 10.96 x 1.6,0.272651,Stahl,z_slide:1+probe_tip:1+probe_tip_pcb:1,True
+CAD-076,pulley_gt2_9mm,8,8,8,11.0 x 18.0 x 18.0,1.026339,Stahl,y_slide_mirrored (1):1+pulley_gt2_9mm:1,True
+CAD-077,pulley_gt2_z16_6mm,12,12,12,14.1 x 13.0 x 13.0,1.161722,Stahl,base:1+x_belt_drive:1+pulley_gt2_z16_6mm:1,True
+CAD-078,return_pulley_gt2_z16_6mm,20,20,20,8.5 x 13.0 x 13.0,0.669134,Stahl,base:1+x_belt_drive:1+belt_tightener_GT2:1+return_pulley_gt2_z16_6mm:1,True
+CAD-079,rod_holder_flange_d10_dold,16,16,16,10.0 x 24.0 x 43.0,3.657445,Stahl,x_slide:1+rod_holder_flange_d10_dold:1,True
+CAD-080,rod_slide_d10_l19,16,16,16,29.0 x 19.0 x 19.0,5.869123,Stahl,y_slide_mirrored (1):1+rod_slide_d10_l19:1,True
+CAD-081,screw_on_bracket_30_6,26,26,26,28.0 x 28.0 x 28.0,13.202,Stahl,base:1+screw_on_bracket_30_6:1,True
+CAD-082,signal_multiplexer_dummy,1,1,1,110.0 x 40.0 x 100.0,440.0,Stahl,base:1+signal_multiplexer_dummy:1,True
+CAD-083,signal_multiplexer_holder,1,1,1,117.0 x 103.0 x 45.0,35.446738,Stahl,base:1+signal_multiplexer_holder:1,True
+CAD-084,telescopic_bar_tsaa514613-350,2,2,2,45.5 x 12.7 x 350.0,78.367125,Stahl,base:1+telescopic_bar_tsaa514613-350:1,True
+CAD-085,usb_microscope,4,4,4,108.0 x 60.0 x 36.0,84.210164,Stahl,y_slide_mirrored (1):1+usb_microscope:1,True
+CAD-086,vandalism_switch_d19,1,1,1,17.91 x 23.0 x 23.0,5.23962,Stahl,base:1+vandalism_switch_d19:1,True
+CAD-087,x_belt,8,8,8,710.3 x 6.0 x 11.3,11.833483,Stahl,base:1+x_belt_drive:1+x_belt:1,True
+CAD-088,x_belt_holder,4,4,4,47.0 x 20.0 x 44.0,14.729328,Stahl,x_slide:1+x_belt_holder:1,True
+CAD-089,x_belt_holder_1,12,12,12,35.0 x 20.0 x 44.0,12.473,Stahl,x_slide:1+x_belt_holder_1:1,True
+CAD-090,x_drag_chain_adapter,8,8,8,45.7 x 30.0 x 7.0,5.763221,Stahl,x_slide:1+x_drag_chain_adapter:1,True
+CAD-091,x_end_stop_holder_side_short,4,4,4,12.0 x 68.5 x 12.0,6.096681,Stahl,x_slide:1+x_end_stop_holder_side_short:1,True
+CAD-092,x_end_stop_holder_top_long,4,4,4,15.0 x 98.5 x 18.2,13.721216,Stahl,x_slide:1+x_end_stop_holder_top_long:1,True
+CAD-093,x_end_stop_top_long,4,4,4,125.0 x 8.0 x 8.0,6.277164,Stahl,x_slide:1+x_end_stop_top_long:1,True
+CAD-094,x_end_stop_top_short,4,4,4,75.0 x 8.0 x 8.0,3.76389,Stahl,x_slide:1+x_end_stop_top_short:1,True
+CAD-095,x_guiding_cpc_MR12M,2,2,2,600.0 x 7.5 x 12.0,49.818965,Stahl,base:1+x_guiding_cpc_MR12M:1,True
+CAD-096,x_motor_plate,1,1,1,550.0 x 5.0 x 135.0,335.704102,Stahl,base:1+x_motor_plate:1,True
+CAD-097,x_motor_plate_2,1,1,1,550.0 x 5.0 x 135.0,335.571042,Stahl,base:1+x_motor_plate_2:1,True
+CAD-098,x_round_rail,8,8,8,10.0 x 450.0 x 10.0,35.335325,Stahl,x_slide:1+x_round_rail:1,True
+CAD-099,x_side_plate,4,4,4,55.0 x 5.0 x 166.5,40.662747,Stahl,x_slide:1+x_side_plate:1,True
+CAD-100,x_side_plate_moving,4,4,4,55.0 x 5.0 x 166.5,41.473401,Stahl,x_slide:1+x_side_plate_moving:1,True
+CAD-101,x_slide_inductive_endstop_adapter,4,4,4,20.5 x 50.0 x 48.5,12.153573,Stahl,x_slide:1+x_slide_inductive_endstop_adapter:1,True
+CAD-102,x_slide_inductive_endstop_adapter_mirrored,4,4,4,20.5 x 50.0 x 48.5,12.153573,Stahl,x_slide:1+x_slide_inductive_endstop_adapter_mirrored:1,True
+CAD-103,x_slide_stiffener_beam,4,4,4,40.0 x 436.0 x 16.0,194.501744,Stahl,x_slide:1+x_slide_stiffener_beam:1,True
+CAD-104,y_belt,4,4,4,503.3 x 6.0 x 11.3,8.405563,Stahl,x_slide:1+y_belt_drive:1+y_belt:1,True
+CAD-105,y_camera_holder,2,2,2,50.816 x 51.0 x 35.0,23.701206,Stahl,y_slide (1):1+y_camera_holder:1,True
+CAD-106,y_camera_holder_compact,2,2,2,55.982 x 42.0 x 40.0,14.609185,Stahl,y_slide_mirrored (1):1+y_camera_holder_compact:1,True
+CAD-107,y_slide,2,2,2,65.0 x 19.8 x 136.0,83.210787,Stahl,y_slide (1):1+y_slide:1,True
+CAD-108,y_slide_distance_rod,8,8,8,4.0 x 70.0 x 4.0,0.876766,Stahl,y_slide_mirrored (1):1+y_slide_distance_rod:1,True
+CAD-109,y_slide_distance_tube_2mm,4,4,4,3.0 x 10.0 x 10.0,0.099787,Stahl,y_slide_mirrored (1):1+y_slide_distance_tube_2mm:1,True
+CAD-110,y_slide_mirrored,2,2,2,65.0 x 19.8 x 136.0,83.210787,Stahl,y_slide_mirrored (1):1+y_slide_mirrored:1,True
+CAD-111,y_slide_mirrored_top,2,2,2,65.0 x 14.0 x 82.0,44.189726,Stahl,y_slide_mirrored (1):1+y_slide_mirrored_top:1,True
+CAD-112,y_slide_top,2,2,2,65.0 x 14.0 x 82.0,44.189726,Stahl,y_slide (1):1+y_slide_top:1,True
+CAD-113,z_drive_belt,4,4,4,11.3 x 9.0 x 119.3,3.069784,Stahl,y_slide_mirrored (1):1+z_drive_belt:1,True
+CAD-114,z_drive_belt_holder_v3,4,4,4,35.0 x 15.0 x 35.0,8.11167,Stahl,z_slide:1+z_drive_belt_holder_v3:1,True
+CAD-115,z_pogo_pin,8,8,8,16.6 x 1.0 x 1.0,0.011231,Stahl,z_slide:1+probe_tip:1+z_pogo_pin:1,True
+CAD-116,z_probe_tip_pcb_holder,2,2,2,79.382 x 16.0 x 12.0,8.592166,Stahl,z_slide:1+z_probe_tip_pcb_holder:1,True
+CAD-117,z_probe_tip_pcb_holder_long,2,2,2,103.413 x 16.0 x 55.0,16.318702,Stahl,z_slide_long:1+z_probe_tip_pcb_holder_long:1,True
+CAD-118,z_slide_cable_holder,4,4,4,16.0 x 8.0 x 10.0,0.762873,Stahl,z_slide_long:1+z_slide_cable_holder:1,True
+CAD-119,z_slide_end_stop_trigger.psm,2,2,2,9.05 x 22.5 x 15.0,0.30959,Stahl,z_slide:1+z_slide_end_stop_trigger.psm:1,True
+CAD-120,z_slide_end_stop_trigger_mirrored.psm,2,2,2,9.05 x 22.5 x 15.0,0.30959,Stahl,z_slide_long:1+z_slide_end_stop_trigger_mirrored.psm:1,True
