@@ -61,7 +61,7 @@ EXACT = {
     "hinged_M6_40_dold": ("Gelenkfuß M6/40", "KLÄREN", "Fußdurchmesser, Gewindelänge und Lieferant bestätigen"),
     "screw_on_bracket_30_6": ("Anschraubwinkel 30/6", "KLÄREN", "Profilserie und Lochbild bestätigen"),
     "rod_holder_flange_d10_dold": ("Flanschhalter für Ø10-mm-Stange", "KLÄREN", "Lochbild und Bauform bestätigen"),
-    "rod_slide_d10_l19": ("Gleitlager für Ø10 mm, L19", "KLÄREN", "Material und Außenmaß bestätigen"),
+    "rod_slide_d10_l19": ("Gleitlager Ø10 innen / Ø19 außen / Länge29mm", "KLÄREN", "Fusion:29mm lang; CAD-Name irreführend. RJ4JP-01-10 Kandidat, siehe neue Teileliste"),
     "pulley_gt2_9mm": ("GT2-Riemenscheibe für 9-mm-Riemen", "KLÄREN", "Zähnezahl, Bohrung und Befestigung fehlen"),
     "pulley_gt2_z16_6mm": ("GT2-Riemenscheibe 16 Zähne / 6 mm", "KLÄREN", "Bohrung und Befestigung fehlen"),
     "return_pulley_gt2_z16_6mm": ("GT2-Umlenkrolle 16 Zähne / 6 mm", "KLÄREN", "Lager/Bohrung und Befestigung fehlen"),
@@ -155,7 +155,10 @@ def main() -> None:
         "**Status:** `MODELL BELEGT` = Hersteller/Modell aus CAD und Herstellerquelle nachvollziehbar; "
         "`KLÄREN` = konkrete Variante oder Menge offen; `FERTIGEN` = Sonderteil mit "
         "Fertigungsangaben offen; `PLATZHALTER` = vor Bestellung durch reales Teil ersetzen/prüfen.", "",
-        "Die Prioritäten und nicht im CAD enthaltenen Positionen stehen in [Bestellliste](Bestellliste.md).", "",
+        "**Diese Datei ist die Rohinventur nach CAD-Namen.** Die aktuellen geometrischen Erkenntnisse, "
+        "Fertigungsgruppen und Planmengen stehen in [Teileliste](Teileliste.md), "
+        "[CAD-Prüfung](CAD-Pruefung.md) und [Bestellliste](Bestellliste.md). "
+        "Die ältere Klassifikation unten ist keine aktuelle Fertigungsfreigabe.", "",
     ]
     for category in CATEGORIES:
         items = grouped.get(category, [])

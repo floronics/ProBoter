@@ -4,7 +4,7 @@ Stand: 16.10.2026. Quelle: `hardware/3d_models/proboter.stp` (SCHUTZWERK, 19.04.
 
 **Status:** `MODELL BELEGT` = Hersteller/Modell aus CAD und Herstellerquelle nachvollziehbar; `KLÄREN` = konkrete Variante oder Menge offen; `FERTIGEN` = Sonderteil mit Fertigungsangaben offen; `PLATZHALTER` = vor Bestellung durch reales Teil ersetzen/prüfen.
 
-Die Prioritäten und nicht im CAD enthaltenen Positionen stehen in [Bestellliste](Bestellliste.md).
+**Diese Datei ist die Rohinventur nach CAD-Namen.** Die aktuellen geometrischen Erkenntnisse, Fertigungsgruppen und Planmengen stehen in [Teileliste](Teileliste.md), [CAD-Prüfung](CAD-Pruefung.md) und [Bestellliste](Bestellliste.md). Die ältere Klassifikation unten ist keine aktuelle Fertigungsfreigabe.
 
 ## Elektronik, Kameras und Prüfkontakte (11 Positionen)
 
@@ -31,7 +31,7 @@ Die Prioritäten und nicht im CAD enthaltenen Positionen stehen in [Bestellliste
 | `hiwin_slide_MGN12CZ0H` | 4 | HIWIN MGN12CZ0H Führungswagen | **KLÄREN** | Exakte Suffixvariante und Paarung zur Schiene bestätigen |
 | `nanotec_nema_14_ST3518M1004-A` | 8 | Nanotec ST3518M1004-A, NEMA-14-Schrittmotor | **KLÄREN** | Nur im Nanotec-Archiv gefunden; Verfügbarkeit/Ersatz prüfen |
 | `nanotec_nema_17_ST4118M1804-A` | 12 | Nanotec ST4118M1804-A, NEMA-17-Schrittmotor | **MODELL BELEGT** | Motorzahl mit vier Achseinheiten abgleichen |
-| `rod_slide_d10_l19` | 16 | Gleitlager für Ø10 mm, L19 | **KLÄREN** | Material und Außenmaß bestätigen |
+| `rod_slide_d10_l19` | 16 | Gleitlager Ø10 innen / Ø19 außen / Länge29mm | **KLÄREN** | Fusion:29mm lang; CAD-Name irreführend. RJ4JP-01-10 Kandidat, siehe neue Teileliste |
 | `x_guiding_cpc_MR12M` | 2 | CPC MR12M X-Führungsschiene | **KLÄREN** | Länge und genaue Ausführung fehlen im Namen |
 
 ## Energieketten, Riemen und Kaufmechanik (14 Positionen)

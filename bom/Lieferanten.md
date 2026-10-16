@@ -25,7 +25,8 @@ Es wurden weder Konten angelegt noch Anfragen oder Bestellungen versandt.
 |---|---|
 | RBS | [DE: 4,45 € brutto; ab 99 € Warenwert kostenlos](https://www.roboter-bausatz.de/c/information/versand-und-zahlung/). Geplanter zusammengefasster Warenkorb überschreitet 99 €; deshalb belegter Versand **0 €**, keine unbekannte Position. Teillieferungen nicht unterstellt. |
 | DOLD | [Gewicht/Abmessungen bestimmen Versand](https://www.dold-mechatronik.de/Versandinformationen); bei Profilen/Zuschnitten Warenkorb nötig. Bis dahin **offen**. |
-| REICHELT, TME | Warenkorb-/Kontoabhängige finale Fracht noch nicht bestimmt; **offen**, nicht null. |
+| REICHELT | [DHL Deutschland bis10kg:5,95€ brutto](https://www.reichelt.de/versandkosten); als Tarif unter der Annahme einer Sammelsendung unter10kg kalkuliert. Finale Gewichtsprüfung im Warenkorb offen. |
+| TME | Warenkorb-/Kontoabhängige finale Fracht noch nicht bestimmt; **offen**, nicht null. |
 | SCHRAUBEN | 5 € Rechnungsgebühr als **vorläufiger Bruttobudgetansatz** zusätzlich zum Normteilebudget; Steuerdarstellung der Gebühr im Checkout bestätigen. Fracht offen. |
 | CNC, PCB, übrige Angebotslieferanten | Transport im Angebot separat ausweisen lassen; offen. |
 

@@ -18,18 +18,28 @@ Quellen steht in [Quellen.md](Quellen.md).
 | [`docs/Aufbau.md`](Aufbau.md) | Zusammenfassung des veröffentlichten Aufbaus |
 | [`docs/Offene-Punkte.md`](Offene-Punkte.md) | Technische Klärpunkte vor der Bestellung |
 | [`bom/Bestellliste.md`](../bom/Bestellliste.md) | Menschenlesbare Beschaffungsplanung |
+| [`bom/Teileliste.md`](../bom/Teileliste.md) | 160 Positionen: alle 120 CAD-Teile plus 40 System-/Abgrenzungspositionen |
+| [`bom/Fertigung.md`](../bom/Fertigung.md) | 3D-Druck, Blech, CNC, weitere Fertigung und PCB getrennt |
+| [`bom/Kosten.md`](../bom/Kosten.md) | Webpreise, eigene Schätzungen, Packungsrechnung und unbezifferte Bedarfe |
+| [`bom/Lieferanten.md`](../bom/Lieferanten.md) | DE-/EU-Anbieter mit belegten Rechnungskaufbedingungen |
+| [`bom/Reproduktion.md`](../bom/Reproduktion.md) | Datenfluss und reproduzierbare Prüfung |
 | [`bom/CAD-Teileliste.md`](../bom/CAD-Teileliste.md) | Vollständige Inventur der 120 benannten CAD-Blattteile |
 | [`bom/cad-inventory.csv`](../bom/cad-inventory.csv) | STEP-Rohinventur inklusive Unterbaugruppen |
 | [`tools/`](../tools/) | Skripte zum erneuten Auslesen des STEP-Modells |
 
 ## Arbeitsstand und Herkunft
 
-Die [Bestellliste](../bom/Bestellliste.md) ist noch nicht bestellfertig. Das
+Die [Bestellliste](../bom/Bestellliste.md) enthält jetzt recherchierte Artikel,
+Preise und Budgetansätze; eine vollständige Komplettbestellung bleibt wegen
+der dokumentierten Elektronik-/Fertigungslücken offen. Das
 veröffentlichte STEP-Modell enthält 447 Baugruppenbeziehungen. Nach rekursiver
 Auflösung wiederverwendeter Baugruppen ergeben sich 1.066 Blattteil-Vorkommen
 mit 120 verschiedenen Namen und 53 Unterbaugruppen-Vorkommen. Anzahl und Benennung
 liefern keine geprüften Bestellnummern oder Fertigungszeichnungen. Mehrere
-Zuordnungen müssen noch geometrisch und elektrisch geprüft werden; die
+Zuordnungen müssen noch elektrisch und hinsichtlich Passungen geprüft werden. Der
+[Fusion-Abgleich](../bom/CAD-Pruefung.md) ist durchgeführt: 12 NEMA17 fehlen im
+Import, acht NEMA14-Vorkommen werden als vier alternative Paare untersucht.
+Planung: 12 NEMA17 + 4 NEMA14, 16 Treiber; Z-Menge weiterhin Hypothese. Die
 [offenen Punkte](Offene-Punkte.md) dokumentieren diese Aufgaben.
 
 Der Fork bewahrt die Originalhistorie. Die Basis ist

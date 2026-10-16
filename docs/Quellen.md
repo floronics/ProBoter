@@ -51,6 +51,31 @@ auf Alternativteile, Platzhalter und tatsächliche Einbausituation geprüft werd
 
 ## Herstellerbelege für ausdrücklich benannte Modelle
 
+### Ergänzende Nachweise der Beschaffungsrunde
+
+- [Fusion-Messdaten und Abgleich](../bom/CAD-Pruefung.md): 1.054 importierte
+  Blattvorkommen gegenüber 1.066 STEP-Vorkommen; Rohpfade, Volumen und Messungen
+  sind unter `bom/evidence/` gespeichert.
+- [Shopartikel mit Preisbasis und Einschränkungen](../bom/data/offers.json),
+  [Lieferantenbedingungen](../bom/Lieferanten.md) und
+  [vollständige Bestell-CSV](../bom/bestellliste.csv): Abrufstand 16.10.2026.
+  Eigene Budgetansätze sind getrennt von beobachteten Webpreisen ausgewiesen.
+- [ReferenceBoard-Code](../software/hardware-control/proboter/tasks/utils/reference_board.py):
+  innere Durchmesser7/8/9/10mm, erhöhte Niveaus6/8/10/12mm, äußere Punkte,
+  Hamming-Marker-IDs1/3/6/12. Die Koordinatenkonvention ersetzt keine Zeichnung.
+- [Referenzkonfiguration](../software/hardware-control/proboter/cli.py):
+  Rastermaße sind Punktabstände, nicht Zylinderdurchmesser.
+- [LED-Konfiguration](../firmware/Marlin/Configuration_adv.h):
+  `PROBOTER_LIGHT_CONTROL_PIN=HEATER_BED_PIN`, bei `PROBE_2` aktiviert.
+- [ISO8673:2012](https://www.iso.org/standard/61673.html) und
+  [ISO8673:2023](https://www.iso.org/standard/75027.html): Feingewindemuttern
+  abM8; CAD-Namen mitM3/M4 passen nicht zum Normumfang. Diese Positionen bleiben
+  trotz bekannter Schlüsselweite klärungsbedürftig.
+- [CPC-MR-Katalog](https://cpc-europe.com/wp-content/uploads/2025/01/20250109_MR-02-Y11-EN_compressed.pdf):
+  aktuelle MR12ML-Abmessungen gegen älteres CAD prüfen.
+
+### Originalmodell-Identifikation
+
 - [BIGTREETECH SKR V1.3](https://github.com/bigtreetech/BIGTREETECH-SKR-V1.3)
   bestätigt das Controller-Modell und seine TMC2130-Schnittstelle.
 - [Mean Well RSP-200-Datenblatt](https://www.meanwell.com/Upload/PDF/RSP-200/RSP-200-SPEC.PDF)
