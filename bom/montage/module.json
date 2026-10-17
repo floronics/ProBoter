@@ -314,10 +314,16 @@
           "grund": "M3×10 der Riemenspanner haben keine Mutter; die Platten haben je 16 Kernlöcher Ø2,46 für M3. Bearbeitung, kein Kaufteil."
         },
         {
-          "teil": "Gewinde M5 in den Wagen-Seitenplatten bzw. Muttern M5",
+          "teil": "Gewinde M3 in den Adapterplatten",
+          "menge": 32,
+          "bezug": "CAD-016–019",
+          "grund": "Für die M3×18 der NEMA-Adapter; Werkstattbearbeitung (Entscheidung 17.10.2026)."
+        },
+        {
+          "teil": "Gewinde M5 in den Seitenplatten der X-Wagen",
           "menge": 36,
           "bezug": "CAD-099/100",
-          "grund": "M5×10/M5×14 an Flanschhaltern und Versteifung haben im CAD keine Mutter. Ob die 5-mm-Platten Gewinde bekommen, an der Geometrie prüfen."
+          "grund": "Für M5×10/M5×14 an Flanschhaltern und Versteifung; Werkstattbearbeitung (Entscheidung 17.10.2026)."
         }
       ],
       "entfernt": [
@@ -326,7 +332,6 @@
         "Y-Riemenantrieb auf dem Wagen (y_belt_drive) und die 4 M3×10 direkt am Wagen: Modul Y-Achse."
       ],
       "offen": [
-        "M3×18 (32) zwischen NEMA-Adapter, Motorplatte und Adapterplatte: im CAD keine Mutter und kein Gewinde (Adapterplatte nur Ø3,4). Mutter M3 oder Gewinde in der Adapterplatte klären.",
         "Senkschrauben M6×12 am Wagen greifen in den Versteifungsträger 40×16: Gewinde im Träger oder Nutenstein klären.",
         "Versteifungsträger CAD-103 (16×40, 436 mm): Profil nicht identifiziert."
       ],

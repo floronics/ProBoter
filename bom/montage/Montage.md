@@ -110,7 +110,8 @@ X-Führungen und 8 X-Riemenantriebe auf den Motorplatten sowie die 4 X-Wagen als
 | Teil | Stück | Bezug | Grund |
 | --- | --- | --- | --- |
 | Gewinde M3 in den Motorplatten (Bohrungen Ø2,46) | 32 | CAD-096/097 | M3×10 der Riemenspanner haben keine Mutter; die Platten haben je 16 Kernlöcher Ø2,46 für M3. Bearbeitung, kein Kaufteil. |
-| Gewinde M5 in den Wagen-Seitenplatten bzw. Muttern M5 | 36 | CAD-099/100 | M5×10/M5×14 an Flanschhaltern und Versteifung haben im CAD keine Mutter. Ob die 5-mm-Platten Gewinde bekommen, an der Geometrie prüfen. |
+| Gewinde M3 in den Adapterplatten | 32 | CAD-016–019 | Für die M3×18 der NEMA-Adapter; Werkstattbearbeitung (Entscheidung 17.10.2026). |
+| Gewinde M5 in den Seitenplatten der X-Wagen | 36 | CAD-099/100 | Für M5×10/M5×14 an Flanschhaltern und Versteifung; Werkstattbearbeitung (Entscheidung 17.10.2026). |
 
 **Bei der Prüfung aus dem Modul genommen**
 
@@ -120,7 +121,6 @@ X-Führungen und 8 X-Riemenantriebe auf den Motorplatten sowie die 4 X-Wagen als
 
 **Offene Fragen**
 
-- M3×18 (32) zwischen NEMA-Adapter, Motorplatte und Adapterplatte: im CAD keine Mutter und kein Gewinde (Adapterplatte nur Ø3,4). Mutter M3 oder Gewinde in der Adapterplatte klären.
 - Senkschrauben M6×12 am Wagen greifen in den Versteifungsträger 40×16: Gewinde im Träger oder Nutenstein klären.
 - Versteifungsträger CAD-103 (16×40, 436 mm): Profil nicht identifiziert.
 
