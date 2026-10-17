@@ -40,13 +40,13 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-008](#cad-008) Grundgestell: Abdeckung oben | direkt | `base_cover_top` | 2 | Fertigung noch offen |
 | [CAD-009](#cad-009) Grundgestell: Schlepp Energiekette Halter | direkt | `base_drag_chain_holder` | 4 | Fertigung noch offen |
 | [CAD-010](#cad-010) Schubladen-Dummyplatte | direkt | `base_drawer_dummy_plate` | 1 | nicht identifiziert |
-| [CAD-011](#cad-011) Grundgestell: Schublade lang Seite | direkt | `base_drawer_long_side` | 2 | bestellfähig |
-| [CAD-012](#cad-012) Grundgestell: Rahmen lang Seite | direkt | `base_frame_long_side` | 3 | bestellfähig |
-| [CAD-013](#cad-013) Grundgestell: Rahmen kurz | direkt | `base_frame_short` | 8 | bestellfähig |
-| [CAD-014](#cad-014) Grundgestell: Rahmen Seite | direkt | `base_frame_side` | 2 | bestellfähig |
+| [CAD-011](#cad-011) Grundgestell: Schublade lang Seite | direkt | `base_drawer_long_side` | 2 | Fertigung noch offen |
+| [CAD-012](#cad-012) Grundgestell: Rahmen lang Seite | direkt | `base_frame_long_side` | 3 | Fertigung noch offen |
+| [CAD-013](#cad-013) Grundgestell: Rahmen kurz | direkt | `base_frame_short` | 8 | Fertigung noch offen |
+| [CAD-014](#cad-014) Grundgestell: Rahmen Seite | direkt | `base_frame_side` | 2 | Fertigung noch offen |
 | [CAD-018](#cad-018) Grundgestell: Platte Adapter links | direkt | `base_plate_adapter_left` | 2 | Fertigung noch offen |
 | [CAD-019](#cad-019) Grundgestell: Platte Adapter rechts | direkt | `base_plate_adapter_right` | 2 | Fertigung noch offen |
-| [CAD-020](#cad-020) Grundgestell: vertikal | direkt | `base_vertical` | 4 | bestellfähig |
+| [CAD-020](#cad-020) Grundgestell: vertikal | direkt | `base_vertical` | 4 | Fertigung noch offen |
 | [CAD-023](#cad-023) BIGTREETECH SKR V1.3 Steuerplatine | direkt | `bigtreetech_skr_v1_3` | 4 | teilweise geklärt |
 | [CAD-024](#cad-024) Kabel Abdeckung | direkt | `cable_cover` | 4 | Fertigung noch offen |
 | [CAD-033](#cad-033) DIN 7991 M6×14 | direkt | `din_7991_m6x14` | 6 | bestellfähig; Plan gesamt 8 statt 6 |
@@ -681,11 +681,11 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | CAD / Fusion / Plan | Status | Geometrie / Werkstoff | Quelle und konkreter Klärbedarf |
 | --- | --- | --- | --- | --- |
-| <a id="cad-011"></a>**CAD-011** Grundgestell: Schublade lang Seite<br>`base_drawer_long_side` | 2 / 2 / **2 Stück** | bestellfähig | 30.0 x 564.0 x 30.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-002` |
-| <a id="cad-012"></a>**CAD-012** Grundgestell: Rahmen lang Seite<br>`base_frame_long_side` | 3 / 3 / **3 Stück** | bestellfähig | 30.0 x 590.0 x 30.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-002` |
-| <a id="cad-013"></a>**CAD-013** Grundgestell: Rahmen kurz<br>`base_frame_short` | 8 / 8 / **8 Stück** | bestellfähig | 30.0 x 350.0 x 30.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-002` |
-| <a id="cad-014"></a>**CAD-014** Grundgestell: Rahmen Seite<br>`base_frame_side` | 2 / 2 / **2 Stück** | bestellfähig | 30.0 x 650.0 x 60.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-003` |
-| <a id="cad-020"></a>**CAD-020** Grundgestell: vertikal<br>`base_vertical` | 4 / 4 / **4 Stück** | bestellfähig | 30.0 x 350.0 x 30.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD (4×350 mm). Unten M6-Gewinde in die Kernbohrung Ø5 für die Gelenkfüße, intern schneiden (Entscheidung 17.10.2026). Profilserie siehe M01.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-002` |
+| <a id="cad-011"></a>**CAD-011** Grundgestell: Schublade lang Seite<br>`base_drawer_long_side` | 2 / 2 / **2 Stück** | Fertigung noch offen | 30.0 x 564.0 x 30.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-002` |
+| <a id="cad-012"></a>**CAD-012** Grundgestell: Rahmen lang Seite<br>`base_frame_long_side` | 3 / 3 / **3 Stück** | Fertigung noch offen | 30.0 x 590.0 x 30.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-002` |
+| <a id="cad-013"></a>**CAD-013** Grundgestell: Rahmen kurz<br>`base_frame_short` | 8 / 8 / **8 Stück** | Fertigung noch offen | 30.0 x 350.0 x 30.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-002` |
+| <a id="cad-014"></a>**CAD-014** Grundgestell: Rahmen Seite<br>`base_frame_side` | 2 / 2 / **2 Stück** | Fertigung noch offen | 30.0 x 650.0 x 60.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-003` |
+| <a id="cad-020"></a>**CAD-020** Grundgestell: vertikal<br>`base_vertical` | 4 / 4 / **4 Stück** | Fertigung noch offen | 30.0 x 350.0 x 30.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD (4×350 mm). Unten M6-Gewinde in die Kernbohrung Ø5 für die Gelenkfüße, intern schneiden (Entscheidung 17.10.2026). Profilserie siehe M01.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-002` |
 | <a id="cad-069"></a>**CAD-069** Platine Halter Führung rund<br>`pcb_holder_guiding_round` | 2 / 2 / **2 Stück** | Fertigung noch offen | 10.0 x 356.8 x 10.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-004` |
 | <a id="cad-070"></a>**CAD-070** Platine Halter rechteckig Stange<br>`pcb_holder_rect_rod` | 2 / 2 / **2 Stück** | Fertigung noch offen | 11.5 x 205.0 x 11.5; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-005` |
 | <a id="cad-093"></a>**CAD-093** X-Achse Endschalter oben lang<br>`x_end_stop_top_long` | 4 / 4 / **4 Stück** | Fertigung noch offen | 125.0 x 8.0 x 8.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-005` |
