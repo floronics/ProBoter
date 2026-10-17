@@ -1381,6 +1381,14 @@
             "z_slide_long:2"
           ],
           "cad_name": "mmcx_male_end_with_angle"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-057"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-058"
         }
       ],
       "zusatz": [
@@ -1393,8 +1401,10 @@
       ],
       "entfernt": [],
       "offen": [
-        "Schaltplan und Gerber der Prüfspitzen-Platine fehlen.",
-        "Federkontakt und Hülse P75-2 W nicht identifiziert (Hersteller, Federkraft, Spitze)."
+        "Prüfspitzen-Platine CAD-075: Originaldaten bei SCHUTZWERK anfragen (Entscheidung Luis 17.10.2026; noch nicht angefragt).",
+        "Aufnahmehülse R75 mit Drahtende: Bezugsquelle mit Preis fehlt.",
+        "Flachspitze P75: Code und Bezugsquelle fehlen; Spitzenzeichnung beim Händler anfordern.",
+        "MMCX-RG316: Kabellänge (1–1,5 m) und Gegenseite am Messgerät festlegen."
       ]
     },
     {

@@ -7,10 +7,6 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | ID / Teil | Bedarf | Nächsterkonkreter Schritt |
 | --- | --- | --- |
 | CAD-010 Schubladen-Dummyplatte | 1 Stück | Schubladen-Dummy 564×410×12 mm: unklar, ob reale Platte benötigt und welches Material. Nicht stillschweigend ausschließen oder aus Stahl fertigen. |
-| CAD-061 MMCX-Stecker gerade / Messleitung | 4 Stück | 4 CAD-Modelle enthalten Kabelansätze. Impedanz, Kabeltyp, Crimp/Lötanschluss, Gegenstecker und Länge unbekannt. |
-| CAD-062 MMCX-Stecker gewinkelt / Messleitung | 4 Stück | 4 CAD-Modelle; Kabel-/Buchsenpaarung mit CAD-061/075 und Multiplexer offen. |
-| CAD-073 Prüfkontakt-Hülse P75-2 W | 8 Stück | 8 Stück, CADØ1,2×25,4 mm. Hersteller und passender Federkontakt CAD-115 unklar; Kontaktpaar vollständig spezifizieren. |
-| CAD-115 Federkontakt der Prüfspitze | 8 Stück | 8 Stück, CADØ1×16,6 mm. Spitzenform, Hub, Federkraft, Kontaktmaterial und Paarung mit P75-2-W unklar. |
 
 ## Fertigung noch offen
 
@@ -25,7 +21,7 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | CAD-019 Grundgestell: Platte Adapter rechts | 2 Stück | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten. |
 | CAD-026 Kamera Halter oben | 1 Stück | Halterplatte der Übersichtskamera, 104×56,6×5 mm, 4 Bohrungen Ø5,5. Zeichnung aus CAD ableiten. |
 | CAD-070 Platine Halter rechteckig Stange | 2 Stück | ABWEICHUNG (Entscheidung Luis 17.10.2026): CAD-Vierkantrohr 11,5×11,5×1,5×205 mm (Fusion-Messung) wird durch Alu-Vierkantrohr 12×12×1 mm ersetzt (keine Last; 12×12×1,5 in DE/EU nicht gefunden); gedruckte Schieber CAD-067 auf 12 mm anpassen. Bezugsquelle z. B. e Bay metalexpres (Al Mg Si 0,5, ab 500 mm), Preis und Lager noch prüfen. |
-| CAD-075 Prüfspitzen-PCB, unbestückt | 4 Stück | 4 Stück;26,67×10,96×1,6 mm Hülle. Schaltplan, Kupfer, Bohrungen, Gerber und Bestückungsdaten fehlen. Bestückung SYS-024 separat. |
+| CAD-075 Prüfspitzen-PCB, unbestückt | 4 Stück | 4 Stück; CAD nur Quader 26,67×10,96×1,6 mm ohne Daten. Entscheidung Luis 17.10.2026: Originaldaten bei SCHUTZWERK anfragen (noch nicht angefragt). |
 | CAD-096 X-Achse Motor Platte | 1 Stück | 5 mm Stahl, 550×135 mm. Fusion-Messung: 16 Kernlöcher Ø2,46 für M3-Gewinde (Riemenspanner), Senkungen für M6 und Ø22-Durchbrüche für die Motoren. Kontur und Bohrungen aus CAD; Gewinde und Senkungen intern. Zeichnung mit Lagetoleranzen der Führungsbohrungen fehlt. |
 | CAD-097 X-Achse Motor Platte 2 | 1 Stück | 5 mm Stahl, 550×135 mm. Fusion-Messung: 16 Kernlöcher Ø2,46 für M3-Gewinde (Riemenspanner), Senkungen für M6 und Ø22-Durchbrüche für die Motoren. Kontur und Bohrungen aus CAD; Gewinde und Senkungen intern. Zeichnung mit Lagetoleranzen der Führungsbohrungen fehlt. |
 | CAD-099 X-Achse Seite Platte | 4 Stück | 5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten. Zeichnung aus CAD ableiten. |
@@ -48,6 +44,9 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | --- | --- | --- |
 | CAD-009 Grundgestell: Schlepp Energiekette Halter | 4 Stück | Fusion-Messung: Alu-Flachprofil 16×80×650 mm (932 mm², 2 Kerne Ø5) mit 18 M3-Gewinden. Kandidat DOLD 80x 16S I-Typ Nut 8 (60886-Z), gleiche Serie wie CAD-103, aber 813 mm² und laut Produktseite M8-Kern. Kerngröße an der DOLD-Zeichnung prüfen; M3-Gewinde in der Werkstatt. |
 | CAD-058 ISO 8673 Mutter M8 | 53 Stück | Norm und Maße mit CAD abgeglichen; Artikel 24122 08 1. A4 statt A2; H 6,5 statt 6,8. Datenblatt nennt Linksgewinde, vermutlich Datenfehler: vor Bestellung klären. Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026). ISO 8673 M8×1 passt zu den M8×1-Gewinden der induktiven Sensoren. Sensoren liefern meist 2 Muttern mit; dann nur Reserve kaufen. |
+| CAD-061 MMCX-Stecker gerade mit RG316, offenes Ende | 4 Stück | Fusion: MMCX-Stecker mit Kabel Ø2,5 = RG316. rf-connectors.pl liefert MMCX-Pigtails RG316 offen nur bis 30 cm; 1 m nur mit SMA-Gegenstecker (abschneiden) oder als Sonderanfertigung. Länge an Kette/Messgerät festlegen. |
+| CAD-062 MMCX-Stecker gewinkelt mit RG316, offenes Ende | 4 Stück | rf-connectors.pl PT_MMCX MLS030Q: gewinkelt, RG316, offen, 30 cm, 33,95 zł. Für 1–1,5 m Sonderlänge anfragen oder MMCX–SMA 1 m kürzen. |
+| CAD-073 Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W) | 8 Stück | Fusion-Messung: Ø1,2 × 25,4 mm, Drahtende Ø0,6 × 5 mm = R75-Aufnahmehülse für P75 (Bohrung ca. 1,4 mm). Kein EU-Angebot mit Preis gefunden; Peaktest R75-Serie nur auf Anfrage. |
 | SYS-001 TMC2130 SPI Treibermodule | 16 Stück | 4 je SKR für X/X2/Y/Z. RBS13024: 4 Treiber mit Kühlkörpern und Kabel, SPI-Pins laut Fotos vorgelötet. Revision nicht angegeben; SPI-Modus laut Datenblatt per Lötbrücke CFG4/CFG5 prüfen. |
 | SYS-002 Stationäre Übersichtskamera ELP-USBFHD01M-H100 | 1 Stück | Gewählt (Luis 17.10.2026): ELP-USBFHD01M-H100, 1080p, UVC, 100°, Preis auf Anfrage; Lochraster beim Kauf bestätigen. Fusion-Messung: Halter CAD-025 hat 4 M2-Bohrungen im Raster 28×28 mm = 32×32-mm-USB-Platinenkamera (z. B. ELP, 1080p, UVC, M12-Objektiv), keine Webcam (Entscheidung Luis 17.10.2026). Logitech C920 passt nicht. |
 | SYS-007 Weißer 24-V-LED-Streifen | 2 m | 2 m vorläufig;5 m-Rolle. Weiß 4500K vorgeschlagen; Leistung, Flimmern und Lichtverteilung testen. |
@@ -72,6 +71,7 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | SYS-031 Lötzinn, Schrumpfschlauch, Binder, Labels, Kleber | 1 Satz | Verbrauchsmaterialbudget; vorhan dene Bestände später abziehen. Werkzeuge nicht enthalten. |
 | SYS-032 Controller-Befestigung und Kühlung | 1 Satz | Abstandshalter, Isolierung, ggf.Lüfter; SKR/TMC-Beipack und thermische Auslegung prüfen. |
 | SYS-038 Kalibrier-Kontaktleitungen und gemeinsame Messreferenz | 1 Satz | 4 SKR-Zentriereingänge P0_17 mit Pull-up/aktiv Low sowie Referenzkörper/Kontaktkreis verdrahten. Netzplan, Stecker, Länge und Bezugspotenzial mit Multiplexer klären; keine Verbindung ungeprüft festlegen. |
+| SYS-058 Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl) | 10 Stück | Wunsch Luis (17.10.2026). Flachspitzen-Code uneinheitlich (Peaktest: F flach, A konkav, D2 Kuppe); kein Lagerangebot gefunden, Spitzenzeichnung beim Händler anfordern. |
 
 ## Reihenfolge zum Schließen der Lücken
 

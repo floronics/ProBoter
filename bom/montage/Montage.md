@@ -12,7 +12,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | [M06 Kabelführung](#modul-06) | 17 | 304 | 10 | 1 | 0 | 6 | 0 | 0 |
 | [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 11 | 1 | 0 | 6 | 0 | 0 |
 | [M08 Optik](#modul-08) | 8 | 22 | 4 | 0 | 1 | 3 | 0 | 0 |
-| [M09 Prüfspitzen](#modul-09) | 5 | 28 | 0 | 0 | 1 | 0 | 4 | 0 |
+| [M09 Prüfspitzen](#modul-09) | 7 | 48 | 2 | 4 | 1 | 0 | 0 | 0 |
 | [M10 Verkleidung](#modul-10) | 2 | 4 | 0 | 0 | 2 | 0 | 0 | 0 |
 
 <a id="modul-01"></a>
@@ -386,11 +386,13 @@ Die 4 Prüfspitzen an den Z-Schlitten: Platine, Federkontakt, Kontakthülse und 
 
 | ID / Teil | CAD-Name | Stück | Status | Beschaffungsart |
 | --- | --- | --- | --- | --- |
+| [CAD-115](../Teileliste.md#cad-115) Federkontakt P75-B1 (Nadelspitze, wie CAD) | `z_pogo_pin` | 8 | bestellfähig | Kaufteile |
+| [SYS-057](../Teileliste.md#sys-057) Prüfstifte P75-E2 Kegelspitze (Spitzenauswahl) | nicht im CAD | 10 | bestellfähig | Kaufteile |
+| [CAD-061](../Teileliste.md#cad-061) MMCX-Stecker gerade mit RG316, offenes Ende | `mmcx_male_end` | 4 | teilweise geklärt | Kaufteile |
+| [CAD-062](../Teileliste.md#cad-062) MMCX-Stecker gewinkelt mit RG316, offenes Ende | `mmcx_male_end_with_angle` | 4 | teilweise geklärt | Kaufteile |
+| [CAD-073](../Teileliste.md#cad-073) Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W) | `plug_sleeve_P75-2_W` | 8 | teilweise geklärt | Kaufteile |
+| [SYS-058](../Teileliste.md#sys-058) Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl) | nicht im CAD | 10 | teilweise geklärt | Kaufteile |
 | [CAD-075](../Teileliste.md#cad-075) Prüfspitzen-PCB, unbestückt | `probe_tip_pcb` | 4 | Fertigung noch offen | PCB extern |
-| [CAD-061](../Teileliste.md#cad-061) MMCX-Stecker gerade / Messleitung | `mmcx_male_end` | 4 | nicht identifiziert | Ungeklärte Teile |
-| [CAD-062](../Teileliste.md#cad-062) MMCX-Stecker gewinkelt / Messleitung | `mmcx_male_end_with_angle` | 4 | nicht identifiziert | Ungeklärte Teile |
-| [CAD-073](../Teileliste.md#cad-073) Prüfkontakt-Hülse P75-2 W | `plug_sleeve_P75-2_W` | 8 | nicht identifiziert | Ungeklärte Teile |
-| [CAD-115](../Teileliste.md#cad-115) Federkontakt der Prüfspitze | `z_pogo_pin` | 8 | nicht identifiziert | Ungeklärte Teile |
 
 **Zusätzlich nötig, nicht im CAD**
 
@@ -400,8 +402,10 @@ Die 4 Prüfspitzen an den Z-Schlitten: Platine, Federkontakt, Kontakthülse und 
 
 **Offene Fragen**
 
-- Schaltplan und Gerber der Prüfspitzen-Platine fehlen.
-- Federkontakt und Hülse P75-2 W nicht identifiziert (Hersteller, Federkraft, Spitze).
+- Prüfspitzen-Platine CAD-075: Originaldaten bei SCHUTZWERK anfragen (Entscheidung Luis 17.10.2026; noch nicht angefragt).
+- Aufnahmehülse R75 mit Drahtende: Bezugsquelle mit Preis fehlt.
+- Flachspitze P75: Code und Bezugsquelle fehlen; Spitzenzeichnung beim Händler anfordern.
+- MMCX-RG316: Kabellänge (1–1,5 m) und Gegenseite am Messgerät festlegen.
 
 <a id="modul-10"></a>
 

@@ -51,6 +51,7 @@ SUPPLIER_URL = {
     'ELCO': 'https://shop.elco-automation.de/',
     'VOELKNER': 'https://www.voelkner.de/',
     'ELP': 'https://www.elpcctv.com/',
+    'DOMOTICX': 'https://domoticx.net/',
     'OFFEN': '',
 }
 
@@ -112,7 +113,7 @@ CNC = []  # adapter plates moved to the workshop (decision 17.10.2026)
 WORKSHOP = ids(3,16,17,18,19,96,97,99,100)
 STOCK = ids(9,11,12,13,14,20,69,70,93,94,98,103,108)
 PCB = ids(75)
-UNIDENTIFIED = ids(10,61,62,73,115)
+UNIDENTIFIED = ids(10)
 EXCLUDED = ids(66,82)
 NORM = ids(*range(28,49),56,57,58)
 NORM_RESERVE = 'Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026).'
@@ -137,13 +138,13 @@ DETAIL = {
 55: ('Induktiver Näherungsschalter ELCO NI4-M08-ON6L-Q8 (AUSWAHL, Original unbekannt)', 'Spezifikation aus CAD und Firmware: M8, nicht bündig, NPN-Schließer (HIT_STATE LOW mit Pull-up), M8-Stecker. Gewählt (17.10.2026, günstigste passende Option): ELCO NI4-M08-ON6L-Q8, Sn 4 mm, 59,6 mm (CAD 60 mm), 10,44 EUR netto. Teurere Alternative SICK IME08-04NNSZT0S (RS). Datenblatt und Muttern im Lieferumfang noch prüfen.', 'ELCO'),
 59: ('Mean Well MHS012 Montagewinkel', '4 Winkel für RSP-200. Mean-Well-Zeichnung 15×16,2×19,5 mm = CAD (Abweichung höchstens 0,3 mm). Reichelt MHS-012.', 'REICHELT'),
 60: ('Mean Well RSP-200-24 Netzteil,24V/8,4A', 'Originalmodell,215×115×30mm. Lastbilanz, Absicherung, Berührungsschutz und Schutzleiter separat.', 'REICHELT'),
-61: ('MMCX-Stecker gerade / Messleitung', '4 CAD-Modelle enthalten Kabelansätze. Impedanz, Kabeltyp, Crimp/Lötanschluss, Gegenstecker und Länge unbekannt.', 'TME'),
-62: ('MMCX-Stecker gewinkelt / Messleitung', '4 CAD-Modelle; Kabel-/Buchsenpaarung mitCAD-061/075 und Multiplexer offen.', 'TME'),
+61: ('MMCX-Stecker gerade mit RG316, offenes Ende', 'Fusion: MMCX-Stecker mit Kabel Ø2,5 = RG316. rf-connectors.pl liefert MMCX-Pigtails RG316 offen nur bis 30 cm; 1 m nur mit SMA-Gegenstecker (abschneiden) oder als Sonderanfertigung. Länge an Kette/Messgerät festlegen.', 'OFFEN'),
+62: ('MMCX-Stecker gewinkelt mit RG316, offenes Ende', 'rf-connectors.pl PT_MMCX MLS030Q: gewinkelt, RG316, offen, 30 cm, 33,95 zł. Für 1–1,5 m Sonderlänge anfragen oder MMCX–SMA 1 m kürzen.', 'OFFEN'),
 63: ('NEMA14 Z-Motor, ERSATZ: STEPPERONLINE 14HS13-0804S statt Nanotec ST3518M1004-A', 'ORIGINALMOTOR AUSGETAUSCHT (Entscheidung Luis 17.10.2026). Original nur im Nanotec-Archiv. Ersatz 34,8 mm statt 36 mm lang, Welle Ø5×24 mit D-Abflachung, 0,8 A statt 1,0 A, 18 statt 14 Ncm, Litzen ohne Stecker. Motorstrom in der Firmware auf 0,8 A begrenzen. Fusion-Messung: nur 2,8 mm Luft zum Endschalter, kürzerer Motor passt.', 'STEPPERONLINE'),
 64: ('Nanotec ST4118M1804-A NEMA17 X/Y-Motor', 'Originalmodell, aktuelle Nanotec-Serie: 1,8 A, 0,28 Nm, 38 mm, Welle Ø5×24, Litzen 300 mm mit JST XHP-4. 12 laut STEP (8 X + 4 Y), im Fusion-Import fehlend. Verfügbarkeit beim Hersteller anfragen.', 'NANOTEC'),
 65: ('Optischer Endschalter 11×35 mm', 'RBS12901: 35×11 mm und Lochabstand 28 mm stimmen mit der Fusion-Messung überein. VCC/GND/SIG, 2,7–5 V, HIGH bei Unterbrechung. Pinfolge am SKR-Stecker vor dem Anschluss prüfen.', 'RBS'),
-73: ('Prüfkontakt-Hülse P75-2 W', '8 Stück, CADØ1,2×25,4mm. Hersteller und passender FederkontaktCAD-115 unklar; Kontaktpaar vollständig spezifizieren.', 'TME'),
-75: ('Prüfspitzen-PCB, unbestückt', '4 Stück;26,67×10,96×1,6mm Hülle. Schaltplan, Kupfer, Bohrungen, Gerber und Bestückungsdaten fehlen. Bestückung SYS-024 separat.', 'BETA'),
+73: ('Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W)', 'Fusion-Messung: Ø1,2 × 25,4 mm, Drahtende Ø0,6 × 5 mm = R75-Aufnahmehülse für P75 (Bohrung ca. 1,4 mm). Kein EU-Angebot mit Preis gefunden; Peaktest R75-Serie nur auf Anfrage.', 'OFFEN'),
+75: ('Prüfspitzen-PCB, unbestückt', '4 Stück; CAD nur Quader 26,67×10,96×1,6 mm ohne Daten. Entscheidung Luis 17.10.2026: Originaldaten bei SCHUTZWERK anfragen (noch nicht angefragt).', 'BETA'),
 76: ('GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG', 'Exaktes Teil (Ø18×11) in der EU nicht lieferbar. RBS12867 (Ø13×19,5, für 10-mm-Riemen) wird verwendet; Y-Schlitten-Druckteil und Umlenkachse müssen angepasst werden (Entscheidung Luis 17.10.2026). Fusion-Messung: Umlenkscheibe hat nur 3 mm Luft zum Schlitten.', 'RBS'),
 77: ('GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm', '12 X/Y-Antriebe. RBS10278: Bordscheibe Ø14 statt CAD Ø13; Fusion-Messung zeigt 4,6 mm Abstand zum nächsten Teil, passt.', 'RBS'),
 78: ('GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm', '20 Stück. Tinytronics 002225: Bohrung 3, Ø13, Breite 8,5 mm = CAD exakt (Rollen sitzen paarweise ohne Luft zwischen den Spannerflügeln).', 'TINYTRONICS'),
@@ -157,7 +158,7 @@ DETAIL = {
 95: ('CPC MR12M Führungsschiene 600 mm', '2 Stück MR12M-N-600: 12×7,5 mm, Teilung 25, 24 Bohrungen Ø3,5/Ø6, Endabstand 12,5 = CAD. Nicht mit HIWIN MGN mischen.', 'MOTEDIS'),
 104: ('GT2-Riemen Y, 6 mm breit', '4 Verläufe. Fusion-Messung: 492 mm Trum, Teillänge 1.016 mm; Zuschnitt mit 2×40 mm Klemmzugabe ca. 1,10 m. Einkauf gemeinsam mit CAD-087, nicht doppelt rechnen.', 'DOLD'),
 113: ('GT2-Riemen Z, 9 mm breit', '4 Verläufe, offen am Z-Riemenhalter geklemmt. Fusion-Messung: Achsabstand 108 mm, Teillänge 248 mm; Zuschnitt mit 2×35 mm Klemmzugabe ca. 0,32 m, zusammen 1,3 m. RBS14040 als Meterware.', 'RBS'),
-115: ('Federkontakt der Prüfspitze', '8 Stück, CADØ1×16,6mm. Spitzenform, Hub, Federkraft, Kontaktmaterial und Paarung mitP75-2-W unklar.', 'TME'),
+115: ('Federkontakt P75-B1 (Nadelspitze, wie CAD)', 'Fusion-Messung: Ø1,0 × 16,6 mm, 30°-Spitze = Standard P75-B1. Domoticx 0,18 EUR/Stück. Spitzenauswahl ergänzt: P75-E2 Kegel (SYS-057) und Flachspitze (SYS-058).', 'DOMOTICX'),
 }
 
 # Explicit non-CAD system inventory. Quantities are planning values, not discoveries.
@@ -219,6 +220,8 @@ SYSTEM = [
 ('054','Linsenkopfschraube ISO 7380-1 M4×8 A2, Kabelführung',11,'Stück','Kaufteile','SCHRAUBEN','1× Kabelhalter M4 auf dem Rahmenprofil (4,5 mm + Nutenstein), 8× Kettenadapter auf dem Versteifungsträger (ANNAHME, Gegenstück hängt vom Profil CAD-103 ab). Planmenge mit Reserve +10 %, mindestens +2.',CAD),
 ('055','Nutenstein I-Typ Nut 6, M4, Kabelhalter',3,'Stück','Kaufteile','DOLD','Für den Kabelhalter M4 am Rahmenprofil. Planmenge mit Reserve +10 %, mindestens +2.',CAD),
 ('056','Zylinderschraube DIN 912 M5×10 A2, Kabelhalter M5',6,'Stück','Kaufteile','SCHRAUBEN','Fusion: Kabelhalter 5,5 mm auf der Seitenplatte des X-Wagens (M5-Gewinde). Planmenge mit Reserve +10 %, mindestens +2.',CAD),
+('057','Prüfstifte P75-E2 Kegelspitze (Spitzenauswahl)',10,'Stück','Kaufteile','DOMOTICX','Spitzenauswahl nach Wunsch Luis (17.10.2026): zusätzlich Kegelspitzen; 8 + Reserve.',CAD),
+('058','Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl)',10,'Stück','Kaufteile','OFFEN','Wunsch Luis (17.10.2026). Flachspitzen-Code uneinheitlich (Peaktest: F flach, A konkav, D2 Kuppe); kein Lagerangebot gefunden, Spitzenzeichnung beim Händler anfordern.',CAD),
 ]
 
 def make_parts():
@@ -297,7 +300,7 @@ def make_parts():
         if key=='CAD-063': quantity=4
         if key=='CAD-085': quantity=1
         if key in EXCLUDED: quantity=0
-        if key in ids(11,12,13,14,20,23,27,51,55,85,63,86,93,94,103,69,76,77,78,98,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
+        if key in ids(11,12,13,14,20,23,27,51,55,85,115,63,86,93,94,103,69,76,77,78,98,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
         if key=='CAD-080': title='GleitbuchseØ10 innen / Ø19 außen / Länge29mm'
         if key=='CAD-001': title='Y-Riemenklemme (CAD-Name TR10x2 GT2 Adapter)'
         if key=='CAD-002': title='Y-Riemenklemme, Deckel'
@@ -351,7 +354,7 @@ def make_parts():
         if group in ['PCB extern','3D-Druck intern','Weitere Fertigung']: status='Fertigung noch offen'
         if group=='Ungeklärte Teile': status='nicht identifiziert'
         if group=='Nicht benötigt': status='nicht benötigt'
-        if key in ('016','041','042','043','044','045','046','047','048','049','050','051','052','053','054','055','056'): status='bestellfähig'
+        if key in ('016','057','041','042','043','044','045','046','047','048','049','050','051','052','053','054','055','056'): status='bestellfähig'
         result.append(dict(id='SYS-'+key,name=title,cad_name='',cad_quantity='',fusion_quantity='',quantity=qty,
                            unit=unit,group=group,status=status,geometry_mm='',solid_volume_cm3='',
                            material='nicht belegt',process_evidence='Planungsbedarf; '+source,
@@ -433,6 +436,7 @@ def make_orders(parts):
     add('BUY-024','16 Anschlusssätze E2.10 schmal',['SYS-027'],16,unit='Satz',offer='O-050')
     add('BUY-025','8 Anschlusssätze E2.10 breit',['SYS-028'],8,unit='Satz',offer='O-051')
     add('BUY-017','Z-Riemen 9 mm',ids(113),D('1.28'),unit='m',offer='O-044',note='Zuschnitt aus Fusion-Messung 4×0,32 m.')
+    add('BUY-SYS-057','10 Prüfstifte P75-E2',['SYS-057'],10,offer=cad_offers['SYS-057'])
     for key in ['SYS-0'+str(k) for k in range(41,57)]:
         add('BUY-'+key,byid[key]['name'],[key],byid[key]['quantity'],offer=cad_offers[key])
     add('MAT-007','Aluprofil 40x16S Nut 8, Zuschnitt',ids(103),1,unit='Los',offer=cad_offers['CAD-103'])
@@ -441,6 +445,7 @@ def make_orders(parts):
     add('BUY-SEN','24 induktive Sensoren ELCO NI4-M08-ON6L-Q8',ids(55),24,offer=cad_offers['CAD-055'])
     add('BUY-SW','Netzschalter Ø19 ONPOW LAS1A',ids(86),1,offer=cad_offers['CAD-086'])
     add('BUY-CAB','24 Sensorleitungen ifm EVC141',['SYS-016'],24,offer=cad_offers['SYS-016'])
+    add('BUY-PIN','Prüfstifte P75-B1 (CAD-Spitze)',ids(115),10,offer=cad_offers['CAD-115'])
     for n in (51,52,59,81,84):
         p=byid[f'CAD-{n:03}']
         add(f'BUY-C{n:03}',p['name'],[p['id']],p['quantity'],offer=cad_offers[p['id']])

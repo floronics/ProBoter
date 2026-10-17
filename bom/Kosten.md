@@ -10,11 +10,11 @@ im Shop bestätigen. Kein Warenkorb wurde bestellt.
 
 | Umfang | netto | brutto |
 | --- | --- | --- |
-| 1. Beobachtete Webpreise × geplante Bestellpackungen | 3.084,47 € | 3.670,61 € |
-| Davon Positionen mit Status bestellfähig | 2.659,12 € | 3.164,45 € |
+| 1. Beobachtete Webpreise × geplante Bestellpackungen | 3.087,49 € | 3.674,21 € |
+| Davon Positionen mit Status bestellfähig | 2.662,14 € | 3.168,05 € |
 | Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 425,35 € | 506,16 € |
 | Eigene Budgetschätzungen zusätzlich | 825,25 € | 982,03 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.909,72 € | 4.652,64 € |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.912,74 € | 4.656,24 € |
 | 3. Noch unbezifferte Positionen: 20 | nicht berechenbar | nicht berechenbar |
 
 **Der Gesamtpreis eines funktionierenden Nachbaus bleibt offen.** Die Summe unter 2
@@ -65,6 +65,7 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | DAMEN | 370,09 € | 0,00 € | 370,09 € |
 | DIGIKEY | 175,55 € | 0,00 € | 175,55 € |
 | DOLD | 636,43 € | 365,00 € | 1.001,43 € |
+| DOMOTICX | 3,60 € | 0,00 € | 3,60 € |
 | EISEN2000 | 113,65 € | 0,00 € | 113,65 € |
 | ELCO | 298,17 € | 0,00 € | 298,17 € |
 | IGUS | 172,70 € | 0,00 € | 172,70 € |
@@ -85,11 +86,10 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | --- | --- | --- |
 | BUY-010 | Übersichtskamera ELP-USBFHD01M-H100 | OV2710, UVC/Linux, M12, Platine 38×38 auf 32×32 kürzbar. Lochraster 28×28 nicht schriftlich bestätigt. |
 | OPEN-CAD-010 | Schubladen-Dummyplatte | Schubladen-Dummy 564×410×12 mm: unklar, ob reale Platte benötigt und welches Material. Nicht stillschweigend ausschließen oder aus Stahl fertigen. |
-| OPEN-CAD-061 | MMCX-Stecker gerade / Messleitung | 4 CAD-Modelle enthalten Kabelansätze. Impedanz, Kabeltyp, Crimp/Lötanschluss, Gegenstecker und Länge unbekannt. |
-| OPEN-CAD-062 | MMCX-Stecker gewinkelt / Messleitung | 4 CAD-Modelle; Kabel-/Buchsenpaarung mit CAD-061/075 und Multiplexer offen. |
-| OPEN-CAD-073 | Prüfkontakt-Hülse P75-2 W | 8 Stück, CADØ1,2×25,4 mm. Hersteller und passender Federkontakt CAD-115 unklar; Kontaktpaar vollständig spezifizieren. |
-| OPEN-CAD-075 | Prüfspitzen-PCB, unbestückt | 4 Stück;26,67×10,96×1,6 mm Hülle. Schaltplan, Kupfer, Bohrungen, Gerber und Bestückungsdaten fehlen. Bestückung SYS-024 separat. |
-| OPEN-CAD-115 | Federkontakt der Prüfspitze | 8 Stück, CADØ1×16,6 mm. Spitzenform, Hub, Federkraft, Kontaktmaterial und Paarung mit P75-2-W unklar. |
+| OPEN-CAD-061 | MMCX-Stecker gerade mit RG316, offenes Ende | Fusion: MMCX-Stecker mit Kabel Ø2,5 = RG316. rf-connectors.pl liefert MMCX-Pigtails RG316 offen nur bis 30 cm; 1 m nur mit SMA-Gegenstecker (abschneiden) oder als Sonderanfertigung. Länge an Kette/Messgerät festlegen. |
+| OPEN-CAD-062 | MMCX-Stecker gewinkelt mit RG316, offenes Ende | rf-connectors.pl PT_MMCX MLS030Q: gewinkelt, RG316, offen, 30 cm, 33,95 zł. Für 1–1,5 m Sonderlänge anfragen oder MMCX–SMA 1 m kürzen. |
+| OPEN-CAD-073 | Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W) | Fusion-Messung: Ø1,2 × 25,4 mm, Drahtende Ø0,6 × 5 mm = R75-Aufnahmehülse für P75 (Bohrung ca. 1,4 mm). Kein EU-Angebot mit Preis gefunden; Peaktest R75-Serie nur auf Anfrage. |
+| OPEN-CAD-075 | Prüfspitzen-PCB, unbestückt | 4 Stück; CAD nur Quader 26,67×10,96×1,6 mm ohne Daten. Entscheidung Luis 17.10.2026: Originaldaten bei SCHUTZWERK anfragen (noch nicht angefragt). |
 | OPEN-SYS-003 | Signal-Multiplexer, unbestückte Leiterplatte | CAD-082 ist nur Platzhalter. Schaltplan/Gerber/Board-BOM fehlen; USB/9600Baud-Protokoll ist keine Schaltung. |
 | OPEN-SYS-005 | Innere Messing-Referenzzylinder | Je 1×Ø7/8/9/10 mm nach Reference Board.inner_brass_pin_position_map; Raster 11,95×19,95 mm. Endfläche auf Bezugsebene; Gesamtlänge, Einbau, Toleranzen und Messprotokoll fehlen. |
 | OPEN-SYS-006 | Kalibriermarker / matte Druckvorlage | 4 Hamming-Marker mit IDs 1/3/6/12 laut Reference Board, je 18,2×18,2 mm, Raster 60×80 mm. Mtracker-Format verwenden, keine beliebigen Ar Uco-Marker. Maßstab 1:1 und reale Abstände vermessen. |
@@ -103,6 +103,7 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | OPEN-SYS-038 | Kalibrier-Kontaktleitungen und gemeinsame Messreferenz | 4 SKR-Zentriereingänge P0_17 mit Pull-up/aktiv Low sowie Referenzkörper/Kontaktkreis verdrahten. Netzplan, Stecker, Länge und Bezugspotenzial mit Multiplexer klären; keine Verbindung ungeprüft festlegen. |
 | OPEN-SYS-039 | Erhöhte Messing-Referenzzylinder | Ø7 mm laut Reference Board-Skizze; Code setzt vier Endflächen 6/8/10/12 mm über Bezugsebene auf Raster 59,6×39,9 mm. Gesamtlängen und Einstecktiefe sind nicht diese Höhen; Zeichnung und Toleranzen fehlen. |
 | OPEN-SYS-040 | Äußere flache Messing-Referenzzylinder | Ø7 mm laut Reference Board-Skizze; Mittelpunkte(±54,95;0) und(0;±44,9)mm. Endflächen auf Bezugsebene; Länge und Montage offen. Insgesamt 12Messingzylinder plus 4weiße Referenzen. |
+| OPEN-SYS-058 | Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl) | Wunsch Luis (17.10.2026). Flachspitzen-Code uneinheitlich (Peaktest: F flach, A konkav, D2 Kuppe); kein Lagerangebot gefunden, Spitzenzeichnung beim Händler anfordern. |
 
 ## Größte Kostenrisiken
 

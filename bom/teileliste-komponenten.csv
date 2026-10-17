@@ -318,54 +318,54 @@ K10 z_slide:1,z_slide:1,Z-Achse,,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_sq
 K10 z_slide:1,z_slide:1,Z-Achse,,CAD-035,DIN 912 M3×10,din_912_m3x10,1,Stück,ja,Kaufteile,bestellfähig
 K10 z_slide:1,z_slide:1,Z-Achse,,CAD-042,DIN 912 M3×8,din_912_m3x8,2,Stück,ja,Kaufteile,bestellfähig
 K10 z_slide:1,z_slide:1,Z-Achse,,CAD-053,"HIWIN MGNR12R150HM, Z-Schiene 150 mm",hiwin_rail_MGNR12R150HM,1,Stück,ja,Kaufteile,bestellfähig
-K10 z_slide:1,z_slide:1,Z-Achse,,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
+K10 z_slide:1,z_slide:1,Z-Achse,,CAD-073,Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W),plug_sleeve_P75-2_W,1,Stück,ja,Kaufteile,teilweise geklärt
 K10 z_slide:1,z_slide:1,Z-Achse,,CAD-114,Z-Achse Antrieb Riemen Halter v 3,z_drive_belt_holder_v3,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K10 z_slide:1,z_slide:1,Z-Achse,,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
+K10 z_slide:1,z_slide:1,Z-Achse,,CAD-115,"Federkontakt P75-B1 (Nadelspitze, wie CAD)",z_pogo_pin,1,Stück,ja,Kaufteile,bestellfähig
 K10 z_slide:1,z_slide:1,Z-Achse,,CAD-116,Z-Achse Prüfspitze Platine Halter,z_probe_tip_pcb_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K10 z_slide:1,z_slide:1,Z-Achse,,CAD-119,Z-Achse Schlitten Endschalter Auslöser,z_slide_end_stop_trigger.psm,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K10 z_slide:1,z_slide:1,Z-Achse,probe_tip,CAD-061,MMCX-Stecker gerade / Messleitung,mmcx_male_end,2,Stück,ja,Ungeklärte Teile,nicht identifiziert
-K10 z_slide:1,z_slide:1,Z-Achse,probe_tip,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
+K10 z_slide:1,z_slide:1,Z-Achse,probe_tip,CAD-061,"MMCX-Stecker gerade mit RG316, offenes Ende",mmcx_male_end,2,Stück,ja,Kaufteile,teilweise geklärt
+K10 z_slide:1,z_slide:1,Z-Achse,probe_tip,CAD-073,Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W),plug_sleeve_P75-2_W,1,Stück,ja,Kaufteile,teilweise geklärt
 K10 z_slide:1,z_slide:1,Z-Achse,probe_tip,CAD-075,"Prüfspitzen-PCB, unbestückt",probe_tip_pcb,1,Stück,ja,PCB extern,Fertigung noch offen
-K10 z_slide:1,z_slide:1,Z-Achse,probe_tip,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
+K10 z_slide:1,z_slide:1,Z-Achse,probe_tip,CAD-115,"Federkontakt P75-B1 (Nadelspitze, wie CAD)",z_pogo_pin,1,Stück,ja,Kaufteile,bestellfähig
 K11 z_slide:2,z_slide:2,Z-Achse,,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,bestellfähig
 K11 z_slide:2,z_slide:2,Z-Achse,,CAD-035,DIN 912 M3×10,din_912_m3x10,1,Stück,ja,Kaufteile,bestellfähig
 K11 z_slide:2,z_slide:2,Z-Achse,,CAD-042,DIN 912 M3×8,din_912_m3x8,2,Stück,ja,Kaufteile,bestellfähig
 K11 z_slide:2,z_slide:2,Z-Achse,,CAD-053,"HIWIN MGNR12R150HM, Z-Schiene 150 mm",hiwin_rail_MGNR12R150HM,1,Stück,ja,Kaufteile,bestellfähig
-K11 z_slide:2,z_slide:2,Z-Achse,,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
+K11 z_slide:2,z_slide:2,Z-Achse,,CAD-073,Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W),plug_sleeve_P75-2_W,1,Stück,ja,Kaufteile,teilweise geklärt
 K11 z_slide:2,z_slide:2,Z-Achse,,CAD-114,Z-Achse Antrieb Riemen Halter v 3,z_drive_belt_holder_v3,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K11 z_slide:2,z_slide:2,Z-Achse,,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
+K11 z_slide:2,z_slide:2,Z-Achse,,CAD-115,"Federkontakt P75-B1 (Nadelspitze, wie CAD)",z_pogo_pin,1,Stück,ja,Kaufteile,bestellfähig
 K11 z_slide:2,z_slide:2,Z-Achse,,CAD-116,Z-Achse Prüfspitze Platine Halter,z_probe_tip_pcb_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K11 z_slide:2,z_slide:2,Z-Achse,,CAD-119,Z-Achse Schlitten Endschalter Auslöser,z_slide_end_stop_trigger.psm,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K11 z_slide:2,z_slide:2,Z-Achse,probe_tip,CAD-061,MMCX-Stecker gerade / Messleitung,mmcx_male_end,2,Stück,ja,Ungeklärte Teile,nicht identifiziert
-K11 z_slide:2,z_slide:2,Z-Achse,probe_tip,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
+K11 z_slide:2,z_slide:2,Z-Achse,probe_tip,CAD-061,"MMCX-Stecker gerade mit RG316, offenes Ende",mmcx_male_end,2,Stück,ja,Kaufteile,teilweise geklärt
+K11 z_slide:2,z_slide:2,Z-Achse,probe_tip,CAD-073,Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W),plug_sleeve_P75-2_W,1,Stück,ja,Kaufteile,teilweise geklärt
 K11 z_slide:2,z_slide:2,Z-Achse,probe_tip,CAD-075,"Prüfspitzen-PCB, unbestückt",probe_tip_pcb,1,Stück,ja,PCB extern,Fertigung noch offen
-K11 z_slide:2,z_slide:2,Z-Achse,probe_tip,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
+K11 z_slide:2,z_slide:2,Z-Achse,probe_tip,CAD-115,"Federkontakt P75-B1 (Nadelspitze, wie CAD)",z_pogo_pin,1,Stück,ja,Kaufteile,bestellfähig
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,bestellfähig
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-035,DIN 912 M3×10,din_912_m3x10,1,Stück,ja,Kaufteile,bestellfähig
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-053,"HIWIN MGNR12R150HM, Z-Schiene 150 mm",hiwin_rail_MGNR12R150HM,1,Stück,ja,Kaufteile,bestellfähig
-K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
+K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-073,Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W),plug_sleeve_P75-2_W,1,Stück,ja,Kaufteile,teilweise geklärt
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-114,Z-Achse Antrieb Riemen Halter v 3,z_drive_belt_holder_v3,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
+K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-115,"Federkontakt P75-B1 (Nadelspitze, wie CAD)",z_pogo_pin,1,Stück,ja,Kaufteile,bestellfähig
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-117,Z-Achse Prüfspitze Platine Halter lang,z_probe_tip_pcb_holder_long,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-118,Z-Achse Schlitten Kabel Halter,z_slide_cable_holder,2,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-120,Z-Achse Schlitten Endschalter Auslöser gespiegelt,z_slide_end_stop_trigger_mirrored.psm,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-062,MMCX-Stecker gewinkelt / Messleitung,mmcx_male_end_with_angle,2,Stück,ja,Ungeklärte Teile,nicht identifiziert
-K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
+K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-062,"MMCX-Stecker gewinkelt mit RG316, offenes Ende",mmcx_male_end_with_angle,2,Stück,ja,Kaufteile,teilweise geklärt
+K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-073,Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W),plug_sleeve_P75-2_W,1,Stück,ja,Kaufteile,teilweise geklärt
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-075,"Prüfspitzen-PCB, unbestückt",probe_tip_pcb,1,Stück,ja,PCB extern,Fertigung noch offen
-K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
+K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-115,"Federkontakt P75-B1 (Nadelspitze, wie CAD)",z_pogo_pin,1,Stück,ja,Kaufteile,bestellfähig
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,bestellfähig
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-035,DIN 912 M3×10,din_912_m3x10,1,Stück,ja,Kaufteile,bestellfähig
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-053,"HIWIN MGNR12R150HM, Z-Schiene 150 mm",hiwin_rail_MGNR12R150HM,1,Stück,ja,Kaufteile,bestellfähig
-K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
+K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-073,Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W),plug_sleeve_P75-2_W,1,Stück,ja,Kaufteile,teilweise geklärt
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-114,Z-Achse Antrieb Riemen Halter v 3,z_drive_belt_holder_v3,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
+K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-115,"Federkontakt P75-B1 (Nadelspitze, wie CAD)",z_pogo_pin,1,Stück,ja,Kaufteile,bestellfähig
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-117,Z-Achse Prüfspitze Platine Halter lang,z_probe_tip_pcb_holder_long,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-118,Z-Achse Schlitten Kabel Halter,z_slide_cable_holder,2,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-120,Z-Achse Schlitten Endschalter Auslöser gespiegelt,z_slide_end_stop_trigger_mirrored.psm,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-062,MMCX-Stecker gewinkelt / Messleitung,mmcx_male_end_with_angle,2,Stück,ja,Ungeklärte Teile,nicht identifiziert
-K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
+K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-062,"MMCX-Stecker gewinkelt mit RG316, offenes Ende",mmcx_male_end_with_angle,2,Stück,ja,Kaufteile,teilweise geklärt
+K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-073,Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W),plug_sleeve_P75-2_W,1,Stück,ja,Kaufteile,teilweise geklärt
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-075,"Prüfspitzen-PCB, unbestückt",probe_tip_pcb,1,Stück,ja,PCB extern,Fertigung noch offen
-K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
+K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-115,"Federkontakt P75-B1 (Nadelspitze, wie CAD)",z_pogo_pin,1,Stück,ja,Kaufteile,bestellfähig
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-001,TMC2130 SPI Treibermodule,,16,Stück,nein,Kaufteile,teilweise geklärt
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-002,Stationäre Übersichtskamera ELP-USBFHD01M-H100,,1,Stück,nein,Kaufteile,teilweise geklärt
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-003,"Signal-Multiplexer, unbestückte Leiterplatte",,1,Stück,nein,PCB extern,Fertigung noch offen
@@ -422,3 +422,5 @@ K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-053,"Sechskantmutter 
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-054,"Linsenkopfschraube ISO 7380-1 M4×8 A2, Kabelführung",,11,Stück,nein,Kaufteile,bestellfähig
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-055,"Nutenstein I-Typ Nut 6, M4, Kabelhalter",,3,Stück,nein,Kaufteile,bestellfähig
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-056,"Zylinderschraube DIN 912 M5×10 A2, Kabelhalter M5",,6,Stück,nein,Kaufteile,bestellfähig
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-057,Prüfstifte P75-E2 Kegelspitze (Spitzenauswahl),,10,Stück,nein,Kaufteile,bestellfähig
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-058,Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl),,10,Stück,nein,Kaufteile,teilweise geklärt

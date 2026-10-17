@@ -25,7 +25,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [K11 z_slide:2](#komp-11) | Z-Achse | 11 | 15 |
 | [K12 z_slide_long:1](#komp-12) | Z-Achse, lange Ausführung | 11 | 15 |
 | [K13 z_slide_long:2](#komp-13) | Z-Achse, lange Ausführung | 11 | 15 |
-| [K14 Nicht im CAD-Modell](#komp-14) | Systemteile ohne CAD-Körper | 56 | – |
+| [K14 Nicht im CAD-Modell](#komp-14) | Systemteile ohne CAD-Körper | 58 | – |
 
 <a id="komp-01"></a>
 
@@ -415,15 +415,15 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 1 | bestellfähig; Plan gesamt 84 statt 76 |
 | [CAD-042](#cad-042) DIN 912 M3×8 | direkt | `din_912_m3x8` | 2 | bestellfähig; Plan gesamt 58 statt 52 |
 | [CAD-053](#cad-053) HIWIN MGNR12R150HM, Z-Schiene 150 mm | direkt | `hiwin_rail_MGNR12R150HM` | 1 | bestellfähig |
-| [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | direkt | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
+| [CAD-073](#cad-073) Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W) | direkt | `plug_sleeve_P75-2_W` | 1 | teilweise geklärt |
 | [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung spezifiziert |
-| [CAD-115](#cad-115) Federkontakt der Prüfspitze | direkt | `z_pogo_pin` | 1 | nicht identifiziert |
+| [CAD-115](#cad-115) Federkontakt P75-B1 (Nadelspitze, wie CAD) | direkt | `z_pogo_pin` | 1 | bestellfähig |
 | [CAD-116](#cad-116) Z-Achse Prüfspitze Platine Halter | direkt | `z_probe_tip_pcb_holder` | 1 | Fertigung spezifiziert |
 | [CAD-119](#cad-119) Z-Achse Schlitten Endschalter Auslöser | direkt | `z_slide_end_stop_trigger.psm` | 1 | Fertigung spezifiziert |
-| [CAD-061](#cad-061) MMCX-Stecker gerade / Messleitung | `probe_tip` | `mmcx_male_end` | 2 | nicht identifiziert |
-| [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | `probe_tip` | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
+| [CAD-061](#cad-061) MMCX-Stecker gerade mit RG316, offenes Ende | `probe_tip` | `mmcx_male_end` | 2 | teilweise geklärt |
+| [CAD-073](#cad-073) Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W) | `probe_tip` | `plug_sleeve_P75-2_W` | 1 | teilweise geklärt |
 | [CAD-075](#cad-075) Prüfspitzen-PCB, unbestückt | `probe_tip` | `probe_tip_pcb` | 1 | Fertigung noch offen |
-| [CAD-115](#cad-115) Federkontakt der Prüfspitze | `probe_tip` | `z_pogo_pin` | 1 | nicht identifiziert |
+| [CAD-115](#cad-115) Federkontakt P75-B1 (Nadelspitze, wie CAD) | `probe_tip` | `z_pogo_pin` | 1 | bestellfähig |
 
 <a id="komp-11"></a>
 
@@ -435,15 +435,15 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 1 | bestellfähig; Plan gesamt 84 statt 76 |
 | [CAD-042](#cad-042) DIN 912 M3×8 | direkt | `din_912_m3x8` | 2 | bestellfähig; Plan gesamt 58 statt 52 |
 | [CAD-053](#cad-053) HIWIN MGNR12R150HM, Z-Schiene 150 mm | direkt | `hiwin_rail_MGNR12R150HM` | 1 | bestellfähig |
-| [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | direkt | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
+| [CAD-073](#cad-073) Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W) | direkt | `plug_sleeve_P75-2_W` | 1 | teilweise geklärt |
 | [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung spezifiziert |
-| [CAD-115](#cad-115) Federkontakt der Prüfspitze | direkt | `z_pogo_pin` | 1 | nicht identifiziert |
+| [CAD-115](#cad-115) Federkontakt P75-B1 (Nadelspitze, wie CAD) | direkt | `z_pogo_pin` | 1 | bestellfähig |
 | [CAD-116](#cad-116) Z-Achse Prüfspitze Platine Halter | direkt | `z_probe_tip_pcb_holder` | 1 | Fertigung spezifiziert |
 | [CAD-119](#cad-119) Z-Achse Schlitten Endschalter Auslöser | direkt | `z_slide_end_stop_trigger.psm` | 1 | Fertigung spezifiziert |
-| [CAD-061](#cad-061) MMCX-Stecker gerade / Messleitung | `probe_tip` | `mmcx_male_end` | 2 | nicht identifiziert |
-| [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | `probe_tip` | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
+| [CAD-061](#cad-061) MMCX-Stecker gerade mit RG316, offenes Ende | `probe_tip` | `mmcx_male_end` | 2 | teilweise geklärt |
+| [CAD-073](#cad-073) Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W) | `probe_tip` | `plug_sleeve_P75-2_W` | 1 | teilweise geklärt |
 | [CAD-075](#cad-075) Prüfspitzen-PCB, unbestückt | `probe_tip` | `probe_tip_pcb` | 1 | Fertigung noch offen |
-| [CAD-115](#cad-115) Federkontakt der Prüfspitze | `probe_tip` | `z_pogo_pin` | 1 | nicht identifiziert |
+| [CAD-115](#cad-115) Federkontakt P75-B1 (Nadelspitze, wie CAD) | `probe_tip` | `z_pogo_pin` | 1 | bestellfähig |
 
 <a id="komp-12"></a>
 
@@ -454,16 +454,16 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | bestellfähig; Plan gesamt 10 statt 8 |
 | [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 1 | bestellfähig; Plan gesamt 84 statt 76 |
 | [CAD-053](#cad-053) HIWIN MGNR12R150HM, Z-Schiene 150 mm | direkt | `hiwin_rail_MGNR12R150HM` | 1 | bestellfähig |
-| [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | direkt | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
+| [CAD-073](#cad-073) Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W) | direkt | `plug_sleeve_P75-2_W` | 1 | teilweise geklärt |
 | [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung spezifiziert |
-| [CAD-115](#cad-115) Federkontakt der Prüfspitze | direkt | `z_pogo_pin` | 1 | nicht identifiziert |
+| [CAD-115](#cad-115) Federkontakt P75-B1 (Nadelspitze, wie CAD) | direkt | `z_pogo_pin` | 1 | bestellfähig |
 | [CAD-117](#cad-117) Z-Achse Prüfspitze Platine Halter lang | direkt | `z_probe_tip_pcb_holder_long` | 1 | Fertigung spezifiziert |
 | [CAD-118](#cad-118) Z-Achse Schlitten Kabel Halter | direkt | `z_slide_cable_holder` | 2 | Fertigung spezifiziert |
 | [CAD-120](#cad-120) Z-Achse Schlitten Endschalter Auslöser gespiegelt | direkt | `z_slide_end_stop_trigger_mirrored.psm` | 1 | Fertigung spezifiziert |
-| [CAD-062](#cad-062) MMCX-Stecker gewinkelt / Messleitung | `probe_tip_with_angle` | `mmcx_male_end_with_angle` | 2 | nicht identifiziert |
-| [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | `probe_tip_with_angle` | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
+| [CAD-062](#cad-062) MMCX-Stecker gewinkelt mit RG316, offenes Ende | `probe_tip_with_angle` | `mmcx_male_end_with_angle` | 2 | teilweise geklärt |
+| [CAD-073](#cad-073) Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W) | `probe_tip_with_angle` | `plug_sleeve_P75-2_W` | 1 | teilweise geklärt |
 | [CAD-075](#cad-075) Prüfspitzen-PCB, unbestückt | `probe_tip_with_angle` | `probe_tip_pcb` | 1 | Fertigung noch offen |
-| [CAD-115](#cad-115) Federkontakt der Prüfspitze | `probe_tip_with_angle` | `z_pogo_pin` | 1 | nicht identifiziert |
+| [CAD-115](#cad-115) Federkontakt P75-B1 (Nadelspitze, wie CAD) | `probe_tip_with_angle` | `z_pogo_pin` | 1 | bestellfähig |
 
 <a id="komp-13"></a>
 
@@ -474,16 +474,16 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | bestellfähig; Plan gesamt 10 statt 8 |
 | [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 1 | bestellfähig; Plan gesamt 84 statt 76 |
 | [CAD-053](#cad-053) HIWIN MGNR12R150HM, Z-Schiene 150 mm | direkt | `hiwin_rail_MGNR12R150HM` | 1 | bestellfähig |
-| [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | direkt | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
+| [CAD-073](#cad-073) Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W) | direkt | `plug_sleeve_P75-2_W` | 1 | teilweise geklärt |
 | [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung spezifiziert |
-| [CAD-115](#cad-115) Federkontakt der Prüfspitze | direkt | `z_pogo_pin` | 1 | nicht identifiziert |
+| [CAD-115](#cad-115) Federkontakt P75-B1 (Nadelspitze, wie CAD) | direkt | `z_pogo_pin` | 1 | bestellfähig |
 | [CAD-117](#cad-117) Z-Achse Prüfspitze Platine Halter lang | direkt | `z_probe_tip_pcb_holder_long` | 1 | Fertigung spezifiziert |
 | [CAD-118](#cad-118) Z-Achse Schlitten Kabel Halter | direkt | `z_slide_cable_holder` | 2 | Fertigung spezifiziert |
 | [CAD-120](#cad-120) Z-Achse Schlitten Endschalter Auslöser gespiegelt | direkt | `z_slide_end_stop_trigger_mirrored.psm` | 1 | Fertigung spezifiziert |
-| [CAD-062](#cad-062) MMCX-Stecker gewinkelt / Messleitung | `probe_tip_with_angle` | `mmcx_male_end_with_angle` | 2 | nicht identifiziert |
-| [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | `probe_tip_with_angle` | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
+| [CAD-062](#cad-062) MMCX-Stecker gewinkelt mit RG316, offenes Ende | `probe_tip_with_angle` | `mmcx_male_end_with_angle` | 2 | teilweise geklärt |
+| [CAD-073](#cad-073) Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W) | `probe_tip_with_angle` | `plug_sleeve_P75-2_W` | 1 | teilweise geklärt |
 | [CAD-075](#cad-075) Prüfspitzen-PCB, unbestückt | `probe_tip_with_angle` | `probe_tip_pcb` | 1 | Fertigung noch offen |
-| [CAD-115](#cad-115) Federkontakt der Prüfspitze | `probe_tip_with_angle` | `z_pogo_pin` | 1 | nicht identifiziert |
+| [CAD-115](#cad-115) Federkontakt P75-B1 (Nadelspitze, wie CAD) | `probe_tip_with_angle` | `z_pogo_pin` | 1 | bestellfähig |
 
 <a id="komp-14"></a>
 
@@ -547,6 +547,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [SYS-054](#sys-054) Linsenkopfschraube ISO 7380-1 M4×8 A2, Kabelführung | 11 Stück | Kaufteile | bestellfähig |
 | [SYS-055](#sys-055) Nutenstein I-Typ Nut 6, M4, Kabelhalter | 3 Stück | Kaufteile | bestellfähig |
 | [SYS-056](#sys-056) Zylinderschraube DIN 912 M5×10 A2, Kabelhalter M5 | 6 Stück | Kaufteile | bestellfähig |
+| [SYS-057](#sys-057) Prüfstifte P75-E2 Kegelspitze (Spitzenauswahl) | 10 Stück | Kaufteile | bestellfähig |
+| [SYS-058](#sys-058) Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl) | 10 Stück | Kaufteile | teilweise geklärt |
 
 # Details nach Beschaffungsart
 
@@ -589,9 +591,12 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="cad-058"></a>**CAD-058** ISO 8673 Mutter M8<br>`iso_8673_nut_m8` | 48 / 48 / **53 Stück** | teilweise geklärt | 13.0 x 6.8 x 15.011; Edelstahl A4-80 statt A2; A2 in M8×1 nicht gefunden | Norm und Maße mit CAD abgeglichen; Artikel 24122 08 1. A4 statt A2; H 6,5 statt 6,8. Datenblatt nennt Linksgewinde, vermutlich Datenfehler: vor Bestellung klären. Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026). ISO 8673 M8×1 passt zu den M8×1-Gewinden der induktiven Sensoren. Sensoren liefern meist 2 Muttern mit; dann nur Reserve kaufen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `N-058` |
 | <a id="cad-059"></a>**CAD-059** Mean Well MHS012 Montagewinkel<br>`mean_well_MHS-012_mounting_bracket` | 4 / 4 / **4 Stück** | bestellfähig | 16.0 x 15.0 x 19.2; nicht belegt | 4 Winkel für RSP-200. Mean-Well-Zeichnung 15×16,2×19,5 mm = CAD (Abweichung höchstens 0,3 mm). Reichelt MHS-012.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-C059` |
 | <a id="cad-060"></a>**CAD-060** Mean Well RSP-200-24 Netzteil,24 V/8,4 A<br>`mean_well_RSP-200-24` | 1 / 1 / **1 Stück** | bestellfähig | 115.0 x 30.0 x 215.0; nicht belegt | Originalmodell,215×115×30 mm. Lastbilanz, Absicherung, Berührungsschutz und Schutzleiter separat.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-001` |
+| <a id="cad-061"></a>**CAD-061** MMCX-Stecker gerade mit RG316, offenes Ende<br>`mmcx_male_end` | 4 / 4 / **4 Stück** | teilweise geklärt | 54.154 x 4.02 x 15.714; nicht belegt | Fusion: MMCX-Stecker mit Kabel Ø2,5 = RG316. rf-connectors.pl liefert MMCX-Pigtails RG316 offen nur bis 30 cm; 1 m nur mit SMA-Gegenstecker (abschneiden) oder als Sonderanfertigung. Länge an Kette/Messgerät festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `OPEN-CAD-061` |
+| <a id="cad-062"></a>**CAD-062** MMCX-Stecker gewinkelt mit RG316, offenes Ende<br>`mmcx_male_end_with_angle` | 4 / 4 / **4 Stück** | teilweise geklärt | 72.342 x 4.02 x 28.475; nicht belegt | rf-connectors.pl PT_MMCX MLS030Q: gewinkelt, RG316, offen, 30 cm, 33,95 zł. Für 1–1,5 m Sonderlänge anfragen oder MMCX–SMA 1 m kürzen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `OPEN-CAD-062` |
 | <a id="cad-063"></a>**CAD-063** NEMA14 Z-Motor, ERSATZ: STEPPERONLINE 14HS13-0804S statt Nanotec ST3518M1004-A<br>`nanotec_nema_14_ST3518M1004-A` | 8 / 8 / **4 Stück** | bestellfähig | 35.0 x 65.0 x 60.0; nicht belegt | ORIGINALMOTOR AUSGETAUSCHT (Entscheidung Luis 17.10.2026). Original nur im Nanotec-Archiv. Ersatz 34,8 mm statt 36 mm lang, Welle Ø5×24 mit D-Abflachung, 0,8 A statt 1,0 A, 18 statt 14 Ncm, Litzen ohne Stecker. Motorstrom in der Firmware auf 0,8 A begrenzen. Fusion-Messung: nur 2,8 mm Luft zum Endschalter, kürzerer Motor passt.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-015` |
 | <a id="cad-064"></a>**CAD-064** Nanotec ST4118M1804-A NEMA17 X/Y-Motor<br>`nanotec_nema_17_ST4118M1804-A` | 12 / 0 / **12 Stück** | bestellfähig | offen; nicht belegt | Originalmodell, aktuelle Nanotec-Serie: 1,8 A, 0,28 Nm, 38 mm, Welle Ø5×24, Litzen 300 mm mit JST XHP-4. 12 laut STEP (8 X + 4 Y), im Fusion-Import fehlend. Verfügbarkeit beim Hersteller anfragen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-014` |
 | <a id="cad-065"></a>**CAD-065** Optischer Endschalter 11×35 mm<br>`optical_endstop` | 4 / 4 / **4 Stück** | bestellfähig | 35.0 x 11.0 x 11.7; nicht belegt | RBS12901: 35×11 mm und Lochabstand 28 mm stimmen mit der Fusion-Messung überein. VCC/GND/SIG, 2,7–5 V, HIGH bei Unterbrechung. Pinfolge am SKR-Stecker vor dem Anschluss prüfen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-009` |
+| <a id="cad-073"></a>**CAD-073** Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W)<br>`plug_sleeve_P75-2_W` | 8 / 8 / **8 Stück** | teilweise geklärt | 25.4 x 1.2 x 1.2; nicht belegt | Fusion-Messung: Ø1,2 × 25,4 mm, Drahtende Ø0,6 × 5 mm = R75-Aufnahmehülse für P75 (Bohrung ca. 1,4 mm). Kein EU-Angebot mit Preis gefunden; Peaktest R75-Serie nur auf Anfrage.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `OPEN-CAD-073` |
 | <a id="cad-076"></a>**CAD-076** GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG<br>`pulley_gt2_9mm` | 8 / 8 / **8 Stück** | bestellfähig | 11.0 x 18.0 x 18.0; nicht belegt | Exaktes Teil (Ø18×11) in der EU nicht lieferbar. RBS12867 (Ø13×19,5, für 10-mm-Riemen) wird verwendet; Y-Schlitten-Druckteil und Umlenkachse müssen angepasst werden (Entscheidung Luis 17.10.2026). Fusion-Messung: Umlenkscheibe hat nur 3 mm Luft zum Schlitten.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-006` |
 | <a id="cad-077"></a>**CAD-077** GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm<br>`pulley_gt2_z16_6mm` | 12 / 12 / **12 Stück** | bestellfähig | 14.1 x 13.0 x 13.0; nicht belegt | 12 X/Y-Antriebe. RBS10278: Bordscheibe Ø14 statt CAD Ø13; Fusion-Messung zeigt 4,6 mm Abstand zum nächsten Teil, passt.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-004` |
 | <a id="cad-078"></a>**CAD-078** GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm<br>`return_pulley_gt2_z16_6mm` | 20 / 20 / **20 Stück** | bestellfähig | 8.5 x 13.0 x 13.0; nicht belegt | 20 Stück. Tinytronics 002225: Bohrung 3, Ø13, Breite 8,5 mm = CAD exakt (Rollen sitzen paarweise ohne Luft zwischen den Spannerflügeln).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-005` |
@@ -605,6 +610,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="cad-095"></a>**CAD-095** CPC MR12M Führungsschiene 600 mm<br>`x_guiding_cpc_MR12M` | 2 / 2 / **2 Stück** | bestellfähig | 600.0 x 7.5 x 12.0; nicht belegt | 2 Stück MR12M-N-600: 12×7,5 mm, Teilung 25, 24 Bohrungen Ø3,5/Ø6, Endabstand 12,5 = CAD. Nicht mit HIWIN MGN mischen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-019` |
 | <a id="cad-104"></a>**CAD-104** GT2-Riemen Y, 6 mm breit<br>`y_belt` | 4 / 4 / **4 Stück** | bestellfähig | 503.3 x 6.0 x 11.3; nicht belegt | 4 Verläufe. Fusion-Messung: 492 mm Trum, Teillänge 1.016 mm; Zuschnitt mit 2×40 mm Klemmzugabe ca. 1,10 m. Einkauf gemeinsam mit CAD-087, nicht doppelt rechnen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-007` |
 | <a id="cad-113"></a>**CAD-113** GT2-Riemen Z, 9 mm breit<br>`z_drive_belt` | 4 / 4 / **4 Stück** | bestellfähig | 11.3 x 9.0 x 119.3; nicht belegt | 4 Verläufe, offen am Z-Riemenhalter geklemmt. Fusion-Messung: Achsabstand 108 mm, Teillänge 248 mm; Zuschnitt mit 2×35 mm Klemmzugabe ca. 0,32 m, zusammen 1,3 m. RBS14040 als Meterware.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-017` |
+| <a id="cad-115"></a>**CAD-115** Federkontakt P75-B1 (Nadelspitze, wie CAD)<br>`z_pogo_pin` | 8 / 8 / **8 Stück** | bestellfähig | 16.6 x 1.0 x 1.0; nicht belegt | Fusion-Messung: Ø1,0 × 16,6 mm, 30°-Spitze = Standard P75-B1. Domoticx 0,18 EUR/Stück. Spitzenauswahl ergänzt: P75-E2 Kegel (SYS-057) und Flachspitze (SYS-058).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-PIN` |
 | <a id="sys-001"></a>**SYS-001** TMC2130 SPI Treibermodule | – / – / **16 Stück** | teilweise geklärt | offen; nicht belegt | 4 je SKR für X/X2/Y/Z. RBS13024: 4 Treiber mit Kühlkörpern und Kabel, SPI-Pins laut Fotos vorgelötet. Revision nicht angegeben; SPI-Modus laut Datenblatt per Lötbrücke CFG4/CFG5 prüfen.<br>[Beleg](../firmware/Marlin/Configuration.h); Kostenzeile `BUY-002` |
 | <a id="sys-002"></a>**SYS-002** Stationäre Übersichtskamera ELP-USBFHD01M-H100 | – / – / **1 Stück** | teilweise geklärt | offen; nicht belegt | Gewählt (Luis 17.10.2026): ELP-USBFHD01M-H100, 1080p, UVC, 100°, Preis auf Anfrage; Lochraster beim Kauf bestätigen. Fusion-Messung: Halter CAD-025 hat 4 M2-Bohrungen im Raster 28×28 mm = 32×32-mm-USB-Platinenkamera (z. B. ELP, 1080p, UVC, M12-Objektiv), keine Webcam (Entscheidung Luis 17.10.2026). Logitech C920 passt nicht.<br>[Beleg](https://www.schutzwerk.com/en/blog/proboter-02/); Kostenzeile `BUY-010` |
 | <a id="sys-007"></a>**SYS-007** Weißer 24-V-LED-Streifen | – / – / **2 m** | teilweise geklärt | offen; nicht belegt | 2 m vorläufig;5 m-Rolle. Weiß 4500K vorgeschlagen; Leistung, Flimmern und Lichtverteilung testen.<br>[Beleg](https://www.schutzwerk.com/en/blog/proboter-02/); Kostenzeile `BUY-013` |
@@ -646,6 +652,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="sys-054"></a>**SYS-054** Linsenkopfschraube ISO 7380-1 M4×8 A2, Kabelführung | – / – / **11 Stück** | bestellfähig | offen; nicht belegt | 1× Kabelhalter M4 auf dem Rahmenprofil (4,5 mm + Nutenstein), 8× Kettenadapter auf dem Versteifungsträger (ANNAHME, Gegenstück hängt vom Profil CAD-103 ab). Planmenge mit Reserve +10 %, mindestens +2.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-054` |
 | <a id="sys-055"></a>**SYS-055** Nutenstein I-Typ Nut 6, M4, Kabelhalter | – / – / **3 Stück** | bestellfähig | offen; nicht belegt | Für den Kabelhalter M4 am Rahmenprofil. Planmenge mit Reserve +10 %, mindestens +2.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-055` |
 | <a id="sys-056"></a>**SYS-056** Zylinderschraube DIN 912 M5×10 A2, Kabelhalter M5 | – / – / **6 Stück** | bestellfähig | offen; nicht belegt | Fusion: Kabelhalter 5,5 mm auf der Seitenplatte des X-Wagens (M5-Gewinde). Planmenge mit Reserve +10 %, mindestens +2.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-056` |
+| <a id="sys-057"></a>**SYS-057** Prüfstifte P75-E2 Kegelspitze (Spitzenauswahl) | – / – / **10 Stück** | bestellfähig | offen; nicht belegt | Spitzenauswahl nach Wunsch Luis (17.10.2026): zusätzlich Kegelspitzen; 8 + Reserve.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-057` |
+| <a id="sys-058"></a>**SYS-058** Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl) | – / – / **10 Stück** | teilweise geklärt | offen; nicht belegt | Wunsch Luis (17.10.2026). Flachspitzen-Code uneinheitlich (Peaktest: F flach, A konkav, D2 Kuppe); kein Lagerangebot gefunden, Spitzenzeichnung beim Händler anfordern.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `OPEN-SYS-058` |
 
 ## 3D-Druck intern
 
@@ -738,7 +746,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | CAD / Fusion / Plan | Status | Geometrie / Werkstoff | Quelle und konkreter Klärbedarf |
 | --- | --- | --- | --- | --- |
-| <a id="cad-075"></a>**CAD-075** Prüfspitzen-PCB, unbestückt<br>`probe_tip_pcb` | 4 / 4 / **4 Stück** | Fertigung noch offen | 26.67 x 10.96 x 1.6; FR4 1,6 mm vorgeschlagen; Dicke geometrisch belegt | 4 Stück;26,67×10,96×1,6 mm Hülle. Schaltplan, Kupfer, Bohrungen, Gerber und Bestückungsdaten fehlen. Bestückung SYS-024 separat.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `OPEN-CAD-075` |
+| <a id="cad-075"></a>**CAD-075** Prüfspitzen-PCB, unbestückt<br>`probe_tip_pcb` | 4 / 4 / **4 Stück** | Fertigung noch offen | 26.67 x 10.96 x 1.6; FR4 1,6 mm vorgeschlagen; Dicke geometrisch belegt | 4 Stück; CAD nur Quader 26,67×10,96×1,6 mm ohne Daten. Entscheidung Luis 17.10.2026: Originaldaten bei SCHUTZWERK anfragen (noch nicht angefragt).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `OPEN-CAD-075` |
 | <a id="sys-003"></a>**SYS-003** Signal-Multiplexer, unbestückte Leiterplatte | – / – / **1 Stück** | Fertigung noch offen | offen; nicht belegt | CAD-082 ist nur Platzhalter. Schaltplan/Gerber/Board-BOM fehlen; USB/9600Baud-Protokoll ist keine Schaltung.<br>[Beleg](../software/hardware-control/proboter/cli.py); Kostenzeile `OPEN-SYS-003` |
 | <a id="sys-019"></a>**SYS-019** Sensor-Pegelanpassung / Eingangsschutz | – / – / **24 Kanäle** | Fertigung noch offen | offen; nicht belegt | Bedarf abhängig von M8-Ausgang; 24 V/3,3 V-Interface. Keine Schaltung/BOM vorhan den; nicht blind 24Module bestellen.<br>[Beleg](../firmware/Marlin/Configuration.h); Kostenzeile `OPEN-SYS-019` |
 | <a id="sys-023"></a>**SYS-023** Signal-Multiplexer Bestückung | – / – / **1 Baugruppe** | Fertigung noch offen | offen; nicht belegt | MCU, USB/Versorgung, Schalter/Relais, Schutz, Stecker, Passives und Montage nach noch fehlendem Schaltplan. Keine Stückzahlen erfinden.<br>[Beleg](../software/hardware-control/proboter/cli.py); Kostenzeile `OPEN-SYS-023` |
@@ -750,10 +758,6 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | ID / Teil | CAD / Fusion / Plan | Status | Geometrie / Werkstoff | Quelle und konkreter Klärbedarf |
 | --- | --- | --- | --- | --- |
 | <a id="cad-010"></a>**CAD-010** Schubladen-Dummyplatte<br>`base_drawer_dummy_plate` | 1 / 1 / **1 Stück** | nicht identifiziert | 564.0 x 410.0 x 12.0; nicht belegt | Schubladen-Dummy 564×410×12 mm: unklar, ob reale Platte benötigt und welches Material. Nicht stillschweigend ausschließen oder aus Stahl fertigen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `OPEN-CAD-010` |
-| <a id="cad-061"></a>**CAD-061** MMCX-Stecker gerade / Messleitung<br>`mmcx_male_end` | 4 / 4 / **4 Stück** | nicht identifiziert | 54.154 x 4.02 x 15.714; nicht belegt | 4 CAD-Modelle enthalten Kabelansätze. Impedanz, Kabeltyp, Crimp/Lötanschluss, Gegenstecker und Länge unbekannt.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `OPEN-CAD-061` |
-| <a id="cad-062"></a>**CAD-062** MMCX-Stecker gewinkelt / Messleitung<br>`mmcx_male_end_with_angle` | 4 / 4 / **4 Stück** | nicht identifiziert | 72.342 x 4.02 x 28.475; nicht belegt | 4 CAD-Modelle; Kabel-/Buchsenpaarung mit CAD-061/075 und Multiplexer offen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `OPEN-CAD-062` |
-| <a id="cad-073"></a>**CAD-073** Prüfkontakt-Hülse P75-2 W<br>`plug_sleeve_P75-2_W` | 8 / 8 / **8 Stück** | nicht identifiziert | 25.4 x 1.2 x 1.2; nicht belegt | 8 Stück, CADØ1,2×25,4 mm. Hersteller und passender Federkontakt CAD-115 unklar; Kontaktpaar vollständig spezifizieren.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `OPEN-CAD-073` |
-| <a id="cad-115"></a>**CAD-115** Federkontakt der Prüfspitze<br>`z_pogo_pin` | 8 / 8 / **8 Stück** | nicht identifiziert | 16.6 x 1.0 x 1.0; nicht belegt | 8 Stück, CADØ1×16,6 mm. Spitzenform, Hub, Federkraft, Kontaktmaterial und Paarung mit P75-2-W unklar.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `OPEN-CAD-115` |
 
 ## Optional
 
