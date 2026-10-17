@@ -42,3 +42,30 @@ M02,X-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-031,DIN 7991 M3×8,din_7
 M02,X-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-032,DIN 7991 M6×12,din_7991_m6x12,16,16,bestellfähig,Kaufteile,
 M02,X-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4+,CAD-046,DIN 912 M5×10,din_912_m5x10,32,32,bestellfähig,Kaufteile,
 M02,X-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4+,CAD-047,DIN 912 M5×14,din_912_m5x14,4,4,bestellfähig,Kaufteile,
+M03,Y-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4+y_belt_drive,CAD-015,Grundgestell: NEMA 14 auf 17 Adapter,base_nema_14_to_17_adapter,4,4,Fertigung noch offen,3D-Druck intern,
+M03,Y-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4+y_belt_drive,CAD-064,Nanotec ST4118M1804-A NEMA17 X/Y-Motor,nanotec_nema_17_ST4118M1804-A,4,4,bestellfähig,Kaufteile,
+M03,Y-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4+y_belt_drive,CAD-077,GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm,pulley_gt2_z16_6mm,4,4,teilweise geklärt,Kaufteile,
+M03,Y-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4+y_belt_drive,CAD-078,GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm,return_pulley_gt2_z16_6mm,4,4,teilweise geklärt,Kaufteile,
+M03,Y-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4+y_belt_drive,CAD-104,"GT2-Riemen Y, 6 mm breit",y_belt,4,4,bestellfähig,Kaufteile,
+M03,Y-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4+y_belt_drive,CAD-021,Riemen Spanner GT2 Basis,belt_tightener_GT2_base,4,4,Fertigung noch offen,3D-Druck intern,
+M03,Y-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4+y_belt_drive,CAD-022,Riemen Spanner GT2 Flügel,belt_tightener_GT2_wing,4,4,Fertigung noch offen,3D-Druck intern,
+M03,Y-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4+y_belt_drive,CAD-035,DIN 912 M3×10,din_912_m3x10,8,8,bestellfähig,Kaufteile,
+M03,Y-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4+y_belt_drive,CAD-038,DIN 912 M3×16,din_912_m3x16,4,4,bestellfähig,Kaufteile,
+M03,Y-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4+y_belt_drive,CAD-044,DIN 912 M4×20,din_912_m4x20,4,4,bestellfähig,Kaufteile,
+M03,Y-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4+y_belt_drive,CAD-045,DIN 912 M4×30,din_912_m4x30,4,4,bestellfähig,Kaufteile,
+M03,Y-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4+y_belt_drive,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,4,4,bestellfähig,Kaufteile,
+M03,Y-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4+y_belt_drive,CAD-057,Sechskantmutter DIN 934 M4 A2,iso_8673_nut_m4,8,8,bestellfähig,Kaufteile,
+M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-107,Y-Achse Schlitten,y_slide,2,2,Fertigung noch offen,3D-Druck intern,
+M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-112,Y-Achse Schlitten oben,y_slide_top,2,2,Fertigung noch offen,3D-Druck intern,
+M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-110,Y-Achse Schlitten gespiegelt,y_slide_mirrored,2,2,Fertigung noch offen,3D-Druck intern,
+M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-111,Y-Achse Schlitten gespiegelt oben,y_slide_mirrored_top,2,2,Fertigung noch offen,3D-Druck intern,
+M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-108,Y-Achse Schlitten Abstand Stange,y_slide_distance_rod,8,8,Fertigung noch offen,Weitere Fertigung,
+M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-080,GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm,rod_slide_d10_l19,16,16,bestellfähig,Kaufteile,
+M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-001,Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter),TR10x2_GT2_belt_adapter,4,4,Fertigung noch offen,3D-Druck intern,"Klemmt den Y-Riemen am Schlitten (Fusion-Kontakt mit y_belt), keine Spindelmutter."
+M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-002,"Y-Riemenklemme, Deckel",TR10x2_GT2_belt_adapter_cover,4,4,Fertigung noch offen,3D-Druck intern,
+M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-045,DIN 912 M4×30,din_912_m4x30,16,16,bestellfähig,Kaufteile,
+M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-038,DIN 912 M3×16,din_912_m3x16,8,8,bestellfähig,Kaufteile,Riemenklemme.
+M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-057,Sechskantmutter DIN 934 M4 A2,iso_8673_nut_m4,24,24,bestellfähig,Kaufteile,
+M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,8,24,bestellfähig,Kaufteile,"8 von 24 an der Riemenklemme; Rest Z-Antrieb, Endschalter, Kamera."
+M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-030,DIN 562 M4 Vierkantmutter,din_562_m4_square_nut,8,12,bestellfähig,Kaufteile,8 von 12 an den Abstandsstangen; 4 am Z-Endschalter-Auslöser.
+M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-041,DIN 912 M3×30,din_912_m3x30,4,8,bestellfähig,Kaufteile,4 von 8 an den Abstandsstangen; 4 halten den Kamerahalter.

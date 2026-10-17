@@ -279,8 +279,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
 | --- | --- | --- | --- | --- |
-| [CAD-001](#cad-001) TR10x 2 GT2 Riemen Adapter | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung noch offen |
-| [CAD-002](#cad-002) TR10x 2 GT2 Riemen Adapter Abdeckung | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung noch offen |
+| [CAD-001](#cad-001) Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung noch offen |
+| [CAD-002](#cad-002) Y-Riemenklemme, Deckel | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung noch offen |
 | [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | bestellfähig; Plan gesamt 10 statt 8 |
 | [CAD-030](#cad-030) DIN 562 M4 Vierkantmutter | direkt | `din_562_m4_square_nut` | 3 | bestellfähig; Plan gesamt 14 statt 12 |
 | [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 4 | bestellfähig; Plan gesamt 84 statt 76 |
@@ -312,8 +312,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
 | --- | --- | --- | --- | --- |
-| [CAD-001](#cad-001) TR10x 2 GT2 Riemen Adapter | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung noch offen |
-| [CAD-002](#cad-002) TR10x 2 GT2 Riemen Adapter Abdeckung | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung noch offen |
+| [CAD-001](#cad-001) Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung noch offen |
+| [CAD-002](#cad-002) Y-Riemenklemme, Deckel | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung noch offen |
 | [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | bestellfähig; Plan gesamt 10 statt 8 |
 | [CAD-030](#cad-030) DIN 562 M4 Vierkantmutter | direkt | `din_562_m4_square_nut` | 3 | bestellfähig; Plan gesamt 14 statt 12 |
 | [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 4 | bestellfähig; Plan gesamt 84 statt 76 |
@@ -345,8 +345,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
 | --- | --- | --- | --- | --- |
-| [CAD-001](#cad-001) TR10x 2 GT2 Riemen Adapter | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung noch offen |
-| [CAD-002](#cad-002) TR10x 2 GT2 Riemen Adapter Abdeckung | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung noch offen |
+| [CAD-001](#cad-001) Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung noch offen |
+| [CAD-002](#cad-002) Y-Riemenklemme, Deckel | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung noch offen |
 | [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | bestellfähig; Plan gesamt 10 statt 8 |
 | [CAD-030](#cad-030) DIN 562 M4 Vierkantmutter | direkt | `din_562_m4_square_nut` | 3 | bestellfähig; Plan gesamt 14 statt 12 |
 | [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 4 | bestellfähig; Plan gesamt 84 statt 76 |
@@ -378,8 +378,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
 | --- | --- | --- | --- | --- |
-| [CAD-001](#cad-001) TR10x 2 GT2 Riemen Adapter | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung noch offen |
-| [CAD-002](#cad-002) TR10x 2 GT2 Riemen Adapter Abdeckung | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung noch offen |
+| [CAD-001](#cad-001) Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung noch offen |
+| [CAD-002](#cad-002) Y-Riemenklemme, Deckel | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung noch offen |
 | [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | bestellfähig; Plan gesamt 10 statt 8 |
 | [CAD-030](#cad-030) DIN 562 M4 Vierkantmutter | direkt | `din_562_m4_square_nut` | 3 | bestellfähig; Plan gesamt 14 statt 12 |
 | [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 4 | bestellfähig; Plan gesamt 84 statt 76 |
@@ -617,8 +617,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | CAD / Fusion / Plan | Status | Geometrie / Werkstoff | Quelle und konkreter Klärbedarf |
 | --- | --- | --- | --- | --- |
-| <a id="cad-001"></a>**CAD-001** TR10x 2 GT2 Riemen Adapter<br>`TR10x2_GT2_belt_adapter` | 4 / 4 / **4 Stück** | Fertigung noch offen | 15.0 x 20.0 x 22.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-002"></a>**CAD-002** TR10x 2 GT2 Riemen Adapter Abdeckung<br>`TR10x2_GT2_belt_adapter_cover` | 4 / 4 / **4 Stück** | Fertigung noch offen | 7.0 x 20.0 x 20.494; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-001"></a>**CAD-001** Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter)<br>`TR10x2_GT2_belt_adapter` | 4 / 4 / **4 Stück** | Fertigung noch offen | 15.0 x 20.0 x 22.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-002"></a>**CAD-002** Y-Riemenklemme, Deckel<br>`TR10x2_GT2_belt_adapter_cover` | 4 / 4 / **4 Stück** | Fertigung noch offen | 7.0 x 20.0 x 20.494; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
 | <a id="cad-004"></a>**CAD-004** Grundgestell: Kabel Halter M3 flach<br>`base_cable_holder_m3_flat` | 2 / 2 / **2 Stück** | Fertigung noch offen | 18.0 x 10.0 x 8.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
 | <a id="cad-005"></a>**CAD-005** Grundgestell: Kabel Halter M4<br>`base_cable_holder_m4` | 1 / 1 / **1 Stück** | Fertigung noch offen | 18.0 x 12.0 x 10.5; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
 | <a id="cad-006"></a>**CAD-006** Grundgestell: Kabel Halter M5 flach<br>`base_cable_holder_m5_flat` | 4 / 4 / **4 Stück** | Fertigung noch offen | 18.0 x 14.0 x 10.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |

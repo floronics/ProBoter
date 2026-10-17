@@ -329,6 +329,287 @@
         "M3×18 (32) zwischen NEMA-Adapter, Motorplatte und Adapterplatte: im CAD keine Mutter und kein Gewinde (Adapterplatte nur Ø3,4). Mutter M3 oder Gewinde in der Adapterplatte klären.",
         "Senkschrauben M6×12 am Wagen greifen in den Versteifungsträger 40×16: Gewinde im Träger oder Nutenstein klären."
       ]
+    },
+    {
+      "id": "M03",
+      "name": "Y-Achse",
+      "beschreibung": "4 Y-Riemenantriebe auf den X-Wagen und die 4 Y-Schlitten (2 normal, 2 gespiegelt) mit Gleitbuchsen auf den Ø10-Wellen und Riemenklemme. Ohne Z-Antrieb, Kamera, Endschalter und Energiekette.",
+      "stand": "Am 17.10.2026 angelegt und per Fusion-Kontaktanalyse geprüft (y_slide (1):1, y_slide_mirrored (1):1 und Y-Antrieb 1 stellvertretend).",
+      "teile": [
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "sub": "y_belt_drive",
+          "cad_name": "base_nema_14_to_17_adapter"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "sub": "y_belt_drive",
+          "cad_name": "nanotec_nema_17_ST4118M1804-A"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "sub": "y_belt_drive",
+          "cad_name": "pulley_gt2_z16_6mm"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "sub": "y_belt_drive",
+          "cad_name": "return_pulley_gt2_z16_6mm"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "sub": "y_belt_drive",
+          "cad_name": "y_belt"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "sub": "y_belt_drive",
+          "cad_name": "belt_tightener_GT2_base"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "sub": "y_belt_drive",
+          "cad_name": "belt_tightener_GT2_wing"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "sub": "y_belt_drive",
+          "cad_name": "din_912_m3x10"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "sub": "y_belt_drive",
+          "cad_name": "din_912_m3x16"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "sub": "y_belt_drive",
+          "cad_name": "din_912_m4x20"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "sub": "y_belt_drive",
+          "cad_name": "din_912_m4x30"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "sub": "y_belt_drive",
+          "cad_name": "iso_8673_nut_m3"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "sub": "y_belt_drive",
+          "cad_name": "iso_8673_nut_m4"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "y_slide"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "y_slide_top"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "y_slide_mirrored"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "y_slide_mirrored_top"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "y_slide_distance_rod"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "rod_slide_d10_l19"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "TR10x2_GT2_belt_adapter",
+          "hinweis": "Klemmt den Y-Riemen am Schlitten (Fusion-Kontakt mit y_belt), keine Spindelmutter."
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "TR10x2_GT2_belt_adapter_cover"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "din_912_m4x30"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "din_912_m3x16",
+          "hinweis": "Riemenklemme."
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "iso_8673_nut_m4"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "iso_8673_nut_m3",
+          "menge": 8,
+          "hinweis": "8 von 24 an der Riemenklemme; Rest Z-Antrieb, Endschalter, Kamera."
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "din_562_m4_square_nut",
+          "menge": 8,
+          "hinweis": "8 von 12 an den Abstandsstangen; 4 am Z-Endschalter-Auslöser."
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "din_912_m3x30",
+          "menge": 4,
+          "hinweis": "4 von 8 an den Abstandsstangen; 4 halten den Kamerahalter."
+        }
+      ],
+      "zusatz": [],
+      "entfernt": [
+        "Z-Antrieb auf dem Y-Schlitten (NEMA14, 9-mm-Zahnscheiben, Z-Riemen, HIWIN-Wagen samt M3×8, M3×20 mit Distanzrohr): Modul Z-Achse.",
+        "Kamerahalter, Mikroskop, optischer Endschalter mit M3×12 und Muttern, Energiekette: Optik bzw. Elektrik.",
+        "CAD-001/002 heißen TR10x2-Adapter, sind laut Fusion aber die Klemme des Y-Riemens; Bezeichnung in der Teileliste angepasst."
+      ],
+      "offen": [
+        "Gleitbuchsen RJ4JP-01-10 werden mit Sicherungsringen in der Nut gehalten; Ringe sind nicht im CAD. Prüfen, ob die gedruckten Schlitten die Buchsen formschlüssig halten."
+      ]
     }
   ]
 }

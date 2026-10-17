@@ -264,6 +264,8 @@ def make_parts():
         if key in EXCLUDED: quantity=0
         if key in ids(27,49,50,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
         if key=='CAD-080': title='GleitbuchseØ10 innen / Ø19 außen / Länge29mm'
+        if key=='CAD-001': title='Y-Riemenklemme (CAD-Name TR10x2 GT2 Adapter)'
+        if key=='CAD-002': title='Y-Riemenklemme, Deckel'
         if key=='CAD-010':
             note='Schubladen-Dummy564×410×12mm: unklar, ob reale Platte benötigt und welches Material. Nicht stillschweigend ausschließen oder aus Stahl fertigen.'
         if key=='CAD-109':

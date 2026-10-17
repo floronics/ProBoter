@@ -18,8 +18,8 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 
 | ID / Teil | Bedarf | Nächsterkonkreter Schritt |
 | --- | --- | --- |
-| CAD-001 TR10x 2 GT2 Riemen Adapter | 4 Stück | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf. |
-| CAD-002 TR10x 2 GT2 Riemen Adapter Abdeckung | 4 Stück | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf. |
+| CAD-001 Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | 4 Stück | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf. |
+| CAD-002 Y-Riemenklemme, Deckel | 4 Stück | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf. |
 | CAD-003 Grundgestell: Rückseite Platte | 1 Stück | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen. |
 | CAD-004 Grundgestell: Kabel Halter M3 flach | 2 Stück | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf. |
 | CAD-005 Grundgestell: Kabel Halter M4 | 1 Stück | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf. |

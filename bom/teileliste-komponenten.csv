@@ -210,8 +210,8 @@ K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-064,Nanotec 
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-077,GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm,pulley_gt2_z16_6mm,1,Stück,ja,Kaufteile,teilweise geklärt
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-078,GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm,return_pulley_gt2_z16_6mm,1,Stück,ja,Kaufteile,teilweise geklärt
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-104,"GT2-Riemen Y, 6 mm breit",y_belt,1,Stück,ja,Kaufteile,bestellfähig
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-001,TR10x 2 GT2 Riemen Adapter,TR10x2_GT2_belt_adapter,1,Stück,ja,3D-Druck intern,Fertigung noch offen
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-002,TR10x 2 GT2 Riemen Adapter Abdeckung,TR10x2_GT2_belt_adapter_cover,1,Stück,ja,3D-Druck intern,Fertigung noch offen
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-001,Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter),TR10x2_GT2_belt_adapter,1,Stück,ja,3D-Druck intern,Fertigung noch offen
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-002,"Y-Riemenklemme, Deckel",TR10x2_GT2_belt_adapter_cover,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,bestellfähig
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-030,DIN 562 M4 Vierkantmutter,din_562_m4_square_nut,3,Stück,ja,Kaufteile,bestellfähig
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,bestellfähig
@@ -236,8 +236,8 @@ K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-108,Y-Achse Schlitten Abstand S
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-109,Y-Achse Schlitten Abstand Rohr 2 mm,y_slide_distance_tube_2mm,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-112,Y-Achse Schlitten oben,y_slide_top,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-113,"GT2-Riemen Z, 9 mm breit",z_drive_belt,1,Stück,ja,Kaufteile,bestellfähig
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-001,TR10x 2 GT2 Riemen Adapter,TR10x2_GT2_belt_adapter,1,Stück,ja,3D-Druck intern,Fertigung noch offen
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-002,TR10x 2 GT2 Riemen Adapter Abdeckung,TR10x2_GT2_belt_adapter_cover,1,Stück,ja,3D-Druck intern,Fertigung noch offen
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-001,Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter),TR10x2_GT2_belt_adapter,1,Stück,ja,3D-Druck intern,Fertigung noch offen
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-002,"Y-Riemenklemme, Deckel",TR10x2_GT2_belt_adapter_cover,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,bestellfähig
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-030,DIN 562 M4 Vierkantmutter,din_562_m4_square_nut,3,Stück,ja,Kaufteile,bestellfähig
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,bestellfähig
@@ -262,8 +262,8 @@ K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-108,Y-Achse Schlitten Abstand S
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-109,Y-Achse Schlitten Abstand Rohr 2 mm,y_slide_distance_tube_2mm,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-112,Y-Achse Schlitten oben,y_slide_top,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-113,"GT2-Riemen Z, 9 mm breit",z_drive_belt,1,Stück,ja,Kaufteile,bestellfähig
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-001,TR10x 2 GT2 Riemen Adapter,TR10x2_GT2_belt_adapter,1,Stück,ja,3D-Druck intern,Fertigung noch offen
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-002,TR10x 2 GT2 Riemen Adapter Abdeckung,TR10x2_GT2_belt_adapter_cover,1,Stück,ja,3D-Druck intern,Fertigung noch offen
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-001,Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter),TR10x2_GT2_belt_adapter,1,Stück,ja,3D-Druck intern,Fertigung noch offen
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-002,"Y-Riemenklemme, Deckel",TR10x2_GT2_belt_adapter_cover,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,bestellfähig
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-030,DIN 562 M4 Vierkantmutter,din_562_m4_square_nut,3,Stück,ja,Kaufteile,bestellfähig
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,bestellfähig
@@ -288,8 +288,8 @@ K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-110,Y-Achse Schlitten gespiegelt,y_slide_mirrored,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-111,Y-Achse Schlitten gespiegelt oben,y_slide_mirrored_top,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-113,"GT2-Riemen Z, 9 mm breit",z_drive_belt,1,Stück,ja,Kaufteile,bestellfähig
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-001,TR10x 2 GT2 Riemen Adapter,TR10x2_GT2_belt_adapter,1,Stück,ja,3D-Druck intern,Fertigung noch offen
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-002,TR10x 2 GT2 Riemen Adapter Abdeckung,TR10x2_GT2_belt_adapter_cover,1,Stück,ja,3D-Druck intern,Fertigung noch offen
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-001,Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter),TR10x2_GT2_belt_adapter,1,Stück,ja,3D-Druck intern,Fertigung noch offen
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-002,"Y-Riemenklemme, Deckel",TR10x2_GT2_belt_adapter_cover,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,bestellfähig
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-030,DIN 562 M4 Vierkantmutter,din_562_m4_square_nut,3,Stück,ja,Kaufteile,bestellfähig
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,bestellfähig

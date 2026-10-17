@@ -6,6 +6,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [M01 Grundgerüst](#modul-01) | 10 | 50 | 2 | 1 | 7 | 0 | 0 | 0 |
 | [M02 X-Achse](#modul-02) | 33 | 434 | 18 | 2 | 13 | 0 | 0 | 0 |
+| [M03 Y-Achse](#modul-03) | 27 | 168 | 15 | 2 | 10 | 0 | 0 | 0 |
 
 <a id="modul-01"></a>
 
@@ -109,3 +110,51 @@ X-Führungen und 8 X-Riemenantriebe auf den Motorplatten sowie die 4 X-Wagen als
 
 - M3×18 (32) zwischen NEMA-Adapter, Motorplatte und Adapterplatte: im CAD keine Mutter und kein Gewinde (Adapterplatte nur Ø3,4). Mutter M3 oder Gewinde in der Adapterplatte klären.
 - Senkschrauben M6×12 am Wagen greifen in den Versteifungsträger 40×16: Gewinde im Träger oder Nutenstein klären.
+
+<a id="modul-03"></a>
+
+## M03 Y-Achse
+
+4 Y-Riemenantriebe auf den X-Wagen und die 4 Y-Schlitten (2 normal, 2 gespiegelt) mit Gleitbuchsen auf den Ø10-Wellen und Riemenklemme. Ohne Z-Antrieb, Kamera, Endschalter und Energiekette.
+
+*Am 17.10.2026 angelegt und per Fusion-Kontaktanalyse geprüft (y_slide (1):1, y_slide_mirrored (1):1 und Y-Antrieb 1 stellvertretend).*
+
+| ID / Teil | CAD-Name | Stück | Status | Beschaffungsart |
+| --- | --- | --- | --- | --- |
+| [CAD-030](../Teileliste.md#cad-030) DIN 562 M4 Vierkantmutter | `din_562_m4_square_nut` | 8 von 12 | bestellfähig; 8 von 12 an den Abstandsstangen; 4 am Z-Endschalter-Auslöser. | Kaufteile |
+| [CAD-035](../Teileliste.md#cad-035) DIN 912 M3×10 | `din_912_m3x10` | 8 | bestellfähig | Kaufteile |
+| [CAD-038](../Teileliste.md#cad-038) DIN 912 M3×16 | `din_912_m3x16` | 4 | bestellfähig | Kaufteile |
+| [CAD-038](../Teileliste.md#cad-038) DIN 912 M3×16 | `din_912_m3x16` | 8 | bestellfähig; Riemenklemme. | Kaufteile |
+| [CAD-041](../Teileliste.md#cad-041) DIN 912 M3×30 | `din_912_m3x30` | 4 von 8 | bestellfähig; 4 von 8 an den Abstandsstangen; 4 halten den Kamerahalter. | Kaufteile |
+| [CAD-044](../Teileliste.md#cad-044) DIN 912 M4×20 | `din_912_m4x20` | 4 | bestellfähig | Kaufteile |
+| [CAD-045](../Teileliste.md#cad-045) DIN 912 M4×30 | `din_912_m4x30` | 4 | bestellfähig | Kaufteile |
+| [CAD-045](../Teileliste.md#cad-045) DIN 912 M4×30 | `din_912_m4x30` | 16 | bestellfähig | Kaufteile |
+| [CAD-056](../Teileliste.md#cad-056) Sechskantmutter DIN 934 M3 A2 | `iso_8673_nut_m3` | 4 | bestellfähig | Kaufteile |
+| [CAD-056](../Teileliste.md#cad-056) Sechskantmutter DIN 934 M3 A2 | `iso_8673_nut_m3` | 8 von 24 | bestellfähig; 8 von 24 an der Riemenklemme; Rest Z-Antrieb, Endschalter, Kamera. | Kaufteile |
+| [CAD-057](../Teileliste.md#cad-057) Sechskantmutter DIN 934 M4 A2 | `iso_8673_nut_m4` | 8 | bestellfähig | Kaufteile |
+| [CAD-057](../Teileliste.md#cad-057) Sechskantmutter DIN 934 M4 A2 | `iso_8673_nut_m4` | 24 | bestellfähig | Kaufteile |
+| [CAD-064](../Teileliste.md#cad-064) Nanotec ST4118M1804-A NEMA17 X/Y-Motor | `nanotec_nema_17_ST4118M1804-A` | 4 | bestellfähig | Kaufteile |
+| [CAD-080](../Teileliste.md#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | `rod_slide_d10_l19` | 16 | bestellfähig | Kaufteile |
+| [CAD-104](../Teileliste.md#cad-104) GT2-Riemen Y, 6 mm breit | `y_belt` | 4 | bestellfähig | Kaufteile |
+| [CAD-077](../Teileliste.md#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `pulley_gt2_z16_6mm` | 4 | teilweise geklärt | Kaufteile |
+| [CAD-078](../Teileliste.md#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `return_pulley_gt2_z16_6mm` | 4 | teilweise geklärt | Kaufteile |
+| [CAD-001](../Teileliste.md#cad-001) Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | `TR10x2_GT2_belt_adapter` | 4 | Fertigung noch offen; Klemmt den Y-Riemen am Schlitten (Fusion-Kontakt mit y_belt), keine Spindelmutter. | 3D-Druck intern |
+| [CAD-002](../Teileliste.md#cad-002) Y-Riemenklemme, Deckel | `TR10x2_GT2_belt_adapter_cover` | 4 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-015](../Teileliste.md#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `base_nema_14_to_17_adapter` | 4 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-021](../Teileliste.md#cad-021) Riemen Spanner GT2 Basis | `belt_tightener_GT2_base` | 4 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-022](../Teileliste.md#cad-022) Riemen Spanner GT2 Flügel | `belt_tightener_GT2_wing` | 4 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-107](../Teileliste.md#cad-107) Y-Achse Schlitten | `y_slide` | 2 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-108](../Teileliste.md#cad-108) Y-Achse Schlitten Abstand Stange | `y_slide_distance_rod` | 8 | Fertigung noch offen | Weitere Fertigung |
+| [CAD-110](../Teileliste.md#cad-110) Y-Achse Schlitten gespiegelt | `y_slide_mirrored` | 2 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-111](../Teileliste.md#cad-111) Y-Achse Schlitten gespiegelt oben | `y_slide_mirrored_top` | 2 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-112](../Teileliste.md#cad-112) Y-Achse Schlitten oben | `y_slide_top` | 2 | Fertigung noch offen | 3D-Druck intern |
+
+**Bei der Prüfung aus dem Modul genommen**
+
+- Z-Antrieb auf dem Y-Schlitten (NEMA14, 9-mm-Zahnscheiben, Z-Riemen, HIWIN-Wagen samt M3×8, M3×20 mit Distanzrohr): Modul Z-Achse.
+- Kamerahalter, Mikroskop, optischer Endschalter mit M3×12 und Muttern, Energiekette: Optik bzw. Elektrik.
+- CAD-001/002 heißen TR10x2-Adapter, sind laut Fusion aber die Klemme des Y-Riemens; Bezeichnung in der Teileliste angepasst.
+
+**Offene Fragen**
+
+- Gleitbuchsen RJ4JP-01-10 werden mit Sicherungsringen in der Nut gehalten; Ringe sind nicht im CAD. Prüfen, ob die gedruckten Schlitten die Buchsen formschlüssig halten.
