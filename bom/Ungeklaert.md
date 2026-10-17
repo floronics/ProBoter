@@ -37,7 +37,6 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | CAD-099 X-Achse Seite Platte | 4 Stück | 5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten. Zeichnung aus CAD ableiten. |
 | CAD-100 X-Achse Seite Platte beweglich | 4 Stück | 5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten. Zeichnung aus CAD ableiten. |
 | CAD-103 X-Achse Schlitten Versteifung Träger | 4 Stück | Profil 16×40, 436 mm, CAD-Querschnitt 446 mm², Kernbohrungen Ø2,46/Ø5. Kein passendes Nut-5-Profil gefunden (Recherche 17.10.2026); Kandidat norelem 16×40 Typ I hat Nut 8. Profil identifizieren. |
-| CAD-109 Y-Achse Schlitten Abstand Rohr 2 mm | 4 Stück | Fusion-Messung: Hülse Ø3/Ø4,8 × 3 mm (Name sagt 2 mm). Kauf gewünscht (Luis 17.10.2026), aber keine verifizierte Hülse gefunden. Hinweise: RS 0109470 (Polystyrol Ø3,2, L 3, AD unbekannt), RS 1363712 (Messing Ø3,2×6×3). |
 | SYS-003 Signal-Multiplexer, unbestückte Leiterplatte | 1 Stück | CAD-082 ist nur Platzhalter. Schaltplan/Gerber/Board-BOM fehlen; USB/9600Baud-Protokoll ist keine Schaltung. |
 | SYS-004 Kalibrier-Referenzkörper / Platte | 1 Stück | Geometrie mit aktueller Software festlegen; Plattendicke 5,1 mm ist Konfigurationswert, keine validierte Zeichnung. |
 | SYS-005 Innere Messing-Referenzzylinder | 4 Stück | Je 1×Ø7/8/9/10 mm nach Reference Board.inner_brass_pin_position_map; Raster 11,95×19,95 mm. Endfläche auf Bezugsebene; Gesamtlänge, Einbau, Toleranzen und Messprotokoll fehlen. |

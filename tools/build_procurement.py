@@ -105,7 +105,7 @@ def ids(*numbers):
 SHEET = ids(3,16,17,18,19,7,8,9,24,26,96,97,99,100)
 CNC = []  # adapter plates moved to the workshop (decision 17.10.2026)
 WORKSHOP = ids(3,16,17,18,19,96,97,99,100)
-STOCK = ids(11,12,13,14,20,69,70,93,94,98,103,108,109)
+STOCK = ids(11,12,13,14,20,69,70,93,94,98,103,108)
 PCB = ids(75)
 UNIDENTIFIED = ids(10,55,61,62,73,86,115)
 EXCLUDED = ids(66,82)
@@ -233,6 +233,9 @@ def make_parts():
                 note = '5mm geometrische Dicke; Kontur und Bohrungen aus CAD, Gewinde/Senkungen und Bezugs-/Lagetoleranzen fehlen. Entgraten vor Montage.'
             if key in ids(119,120):
                 note = 'CAD .psm und dünner Körper sprechen für Blech; Dicke, Biegung und Sensor-Triggerwirkung nachweisen. Hüllmaß ist keine Abwicklung.'
+        if key=='CAD-109':
+            group, status, supplier = '3D-Druck intern', 'Fertigung noch offen', 'RBS'
+            material = 'PETG (Entscheidung Luis 17.10.2026)'
         if key in ids(119,120):
             group, status, supplier = '3D-Druck intern', 'Fertigung noch offen', 'RBS'
             material = 'PETG (Entscheidung Luis 17.10.2026); Original Blechteil'
@@ -301,7 +304,7 @@ def make_parts():
         if key=='CAD-020':
             note='Querschnitt und Länge aus CAD (4×350 mm). Unten M6-Gewinde in die Kernbohrung Ø5 für die Gelenkfüße, intern schneiden (Entscheidung 17.10.2026). Profilserie siehe M01.'
         if key=='CAD-109':
-            note='Fusion-Messung: Hülse Ø3/Ø4,8 × 3 mm (Name sagt 2 mm). Kauf gewünscht (Luis 17.10.2026), aber keine verifizierte Hülse gefunden. Hinweise: RS 0109470 (Polystyrol Ø3,2, L 3, AD unbekannt), RS 1363712 (Messing Ø3,2×6×3).'
+            note='Fusion-Messung: Hülse Ø3/Ø4,8 × 3 mm (Name sagt 2 mm). Als PETG-Druckteil (Entscheidung Luis 17.10.2026); kein passender Kaufartikel gefunden.'
         if key in ids(107,110,111,112,116,117):
             process_evidence='3D-Druck belegt (Thesis PDF-Seite67); Druckparameter/Werkstoff vorgeschlagen'
         result.append(dict(id=key,name=title,cad_name=name,cad_quantity=g['step_qty'],fusion_quantity=g['fusion_qty'],
@@ -408,7 +411,7 @@ def make_orders(parts):
     add('MAT-002','30×30 Nut 6 Aluprofil, Zuschnitt-Los',profiles,1,unit='Los',offer='O-058')
     add('MAT-003','60×30 Nut 6 Aluprofil schwer, Zuschnitt',ids(14),1,unit='Los',offer='O-059')
     add('MAT-004','Präzisionswellen Ø10, Zuschnitt-Los',ids(69,98),1,unit='Los',offer='O-064')
-    add('MAT-005','Versteifungsprofile40×16 undHalte-/Distanzstäbe',ids(70,93,94,103,108,109),1,unit='Los',estimate='100',note='Eigenes100EUR-Bruttobudget fürProfile4×436mm, Rechteck2×205mm, Ø8Trigger4×125+4×75mm, Ø4Stäbe8×70mm und4Distanzteile. Material/Profile noch klären.')
+    add('MAT-005','Versteifungsprofile40×16 undHalte-/Distanzstäbe',ids(70,93,94,103,108),1,unit='Los',estimate='100',note='Eigenes100EUR-Bruttobudget fürProfile4×436mm, Rechteck2×205mm, Ø8Trigger4×125+4×75mm, Ø4Stäbe8×70mm und4Distanzteile. Material/Profile noch klären.')
     add('MAT-006','Blechrohmaterial undVerschnitt',[p['id'] for p in parts if p['group']=='Blech intern'],1,unit='Los',estimate='200',note='Eigener200EUR-Bruttobudgettopf für3/5mmPlatten und noch nicht abgewickelteTeile. Kein Händlerangebot; Material/Flachzuschnitte noch nicht bestellfähig. InterneArbeits-/Maschinenzeit ausgeschlossen.')
     for key,amount in [('008','30'),('011','20'),('012','15'),('013','15'),('014','64'),('015','25'),('018','60'),('020','35'),('021','15'),('022','60'),('025','20'),('029','35'),('030','20'),('031','35'),('032','30')]:
         p=byid['SYS-'+key]

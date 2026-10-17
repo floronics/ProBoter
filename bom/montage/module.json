@@ -847,7 +847,8 @@
       "werkstatt": [
         "ERSATZ: NEMA14 Z-Motor STEPPERONLINE 14HS13-0804S statt Original Nanotec ST3518M1004-A (Entscheidung Luis 17.10.2026). Motorstrom auf 0,8 A begrenzen.",
         "ANPASSUNG: Z-Zahnscheibe RBS12867 (Ø13×19,5) statt Original Ø18×11; Y-Schlitten-Druckteil und Umlenkachse anpassen.",
-        "Endschalter-Auslöser CAD-119/120 als PETG-Druckteil statt Blech."
+        "Endschalter-Auslöser CAD-119/120 als PETG-Druckteil statt Blech.",
+        "Distanzhülsen CAD-109 (Ø3/Ø4,8 × 3 mm) als PETG-Druckteil."
       ]
     },
     {
