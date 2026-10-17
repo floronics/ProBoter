@@ -6,13 +6,13 @@ K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CA
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-008,Grundgestell: Abdeckung oben,base_cover_top,2,Stück,ja,Blech intern,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-009,Grundgestell: Schlepp Energiekette Halter,base_drag_chain_holder,4,Stück,ja,Blech intern,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-010,Schubladen-Dummyplatte,base_drawer_dummy_plate,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-011,Grundgestell: Schublade lang Seite,base_drawer_long_side,2,Stück,ja,Weitere Fertigung,Fertigung noch offen
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-012,Grundgestell: Rahmen lang Seite,base_frame_long_side,3,Stück,ja,Weitere Fertigung,Fertigung noch offen
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-013,Grundgestell: Rahmen kurz,base_frame_short,8,Stück,ja,Weitere Fertigung,Fertigung noch offen
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-014,Grundgestell: Rahmen Seite,base_frame_side,2,Stück,ja,Weitere Fertigung,Fertigung noch offen
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-011,Grundgestell: Schublade lang Seite,base_drawer_long_side,2,Stück,ja,Weitere Fertigung,bestellfähig
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-012,Grundgestell: Rahmen lang Seite,base_frame_long_side,3,Stück,ja,Weitere Fertigung,bestellfähig
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-013,Grundgestell: Rahmen kurz,base_frame_short,8,Stück,ja,Weitere Fertigung,bestellfähig
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-014,Grundgestell: Rahmen Seite,base_frame_side,2,Stück,ja,Weitere Fertigung,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-018,Grundgestell: Platte Adapter links,base_plate_adapter_left,2,Stück,ja,CNC extern,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-019,Grundgestell: Platte Adapter rechts,base_plate_adapter_right,2,Stück,ja,CNC extern,Fertigung noch offen
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-020,Grundgestell: vertikal,base_vertical,4,Stück,ja,Weitere Fertigung,Fertigung noch offen
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-020,Grundgestell: vertikal,base_vertical,4,Stück,ja,Weitere Fertigung,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-023,BIGTREETECH SKR V1.3 Steuerplatine,bigtreetech_skr_v1_3,4,Stück,ja,Kaufteile,teilweise geklärt
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-024,Kabel Abdeckung,cable_cover,4,Stück,ja,Blech intern,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-033,DIN 7991 M6×14,din_7991_m6x14,6,Stück,ja,Kaufteile,bestellfähig
