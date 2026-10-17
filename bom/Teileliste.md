@@ -6,6 +6,534 @@ CAD/Fusion-Mengen bleiben unverändert; die Planmenge ist eine getrennte Entsche
 
 **Status:** bestellfähig = Modell und Bezugsquelle eindeutig (Liefertermin trotzdem prüfen); teilweise geklärt = Familie bekannt, mindestens eine Passungs-/Mengenfrage offen; Fertigung spezifiziert = Material, Zeichnung und Verfahren freigegeben; Fertigung noch offen = mindestens eine dieser Angaben fehlt; nicht identifiziert = erforderliche genaueIdentität unbekannt; nicht benötigt = begründeter Ausschluss. Aktuell erreicht kein Sonderteil den Status Fertigung spezifiziert.
 
+# Teile nach Komponente
+
+Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell; K14 sammelt die Teile ohne CAD-Körper. Teile aus Unterbaugruppen bleiben bei ihrer Komponente, die Unterbaugruppe steht in der zweiten Spalte. Die Stückzahlen sind STEP-Mengen je Komponente; die Planmenge gilt für die ganze Maschine und steht in den Details. [CSV je Komponente](teileliste-komponenten.csv)
+
+| Komponente | Inhalt | Positionen | Stück laut CAD |
+| --- | --- | --- | --- |
+| [K01 base:1](#komp-01) | Grundgestell mit X-Antrieben, Platinen- und Kamerahalter | 63 | 454 |
+| [K02 x_slide:1](#komp-02) | X-Wagen einer Prüfeinheit | 36 | 82 |
+| [K03 x_slide:2](#komp-03) | X-Wagen einer Prüfeinheit | 36 | 82 |
+| [K04 x_slide:3](#komp-04) | X-Wagen einer Prüfeinheit | 36 | 82 |
+| [K05 x_slide:4](#komp-05) | X-Wagen einer Prüfeinheit | 36 | 82 |
+| [K06 y_slide (1):1](#komp-06) | Y-Schlitten | 26 | 56 |
+| [K07 y_slide (1):2](#komp-07) | Y-Schlitten | 26 | 56 |
+| [K08 y_slide_mirrored (1):1](#komp-08) | Y-Schlitten, gespiegelt | 26 | 56 |
+| [K09 y_slide_mirrored (1):2](#komp-09) | Y-Schlitten, gespiegelt | 26 | 56 |
+| [K10 z_slide:1](#komp-10) | Z-Achse | 11 | 15 |
+| [K11 z_slide:2](#komp-11) | Z-Achse | 11 | 15 |
+| [K12 z_slide_long:1](#komp-12) | Z-Achse, lange Ausführung | 11 | 15 |
+| [K13 z_slide_long:2](#komp-13) | Z-Achse, lange Ausführung | 11 | 15 |
+| [K14 Nicht im CAD-Modell](#komp-14) | Systemteile ohne CAD-Körper | 40 | – |
+
+<a id="komp-01"></a>
+
+## K01 base:1 – Grundgestell mit X-Antrieben, Platinen- und Kamerahalter
+
+| ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
+| --- | --- | --- | --- | --- |
+| [CAD-003](#cad-003) Grundgestell: Rückseite Platte | direkt | `base_back_plate` | 1 | Fertigung noch offen |
+| [CAD-004](#cad-004) Grundgestell: Kabel Halter M3 flach | direkt | `base_cable_holder_m3_flat` | 2 | Fertigung noch offen |
+| [CAD-005](#cad-005) Grundgestell: Kabel Halter M4 | direkt | `base_cable_holder_m4` | 1 | Fertigung noch offen |
+| [CAD-007](#cad-007) Grundgestell: Abdeckung lang Seite | direkt | `base_cover_long_side` | 2 | Fertigung noch offen |
+| [CAD-008](#cad-008) Grundgestell: Abdeckung oben | direkt | `base_cover_top` | 2 | Fertigung noch offen |
+| [CAD-009](#cad-009) Grundgestell: Schlepp Energiekette Halter | direkt | `base_drag_chain_holder` | 4 | Fertigung noch offen |
+| [CAD-010](#cad-010) Schubladen-Dummyplatte | direkt | `base_drawer_dummy_plate` | 1 | nicht identifiziert |
+| [CAD-011](#cad-011) Grundgestell: Schublade lang Seite | direkt | `base_drawer_long_side` | 2 | Fertigung noch offen |
+| [CAD-012](#cad-012) Grundgestell: Rahmen lang Seite | direkt | `base_frame_long_side` | 3 | Fertigung noch offen |
+| [CAD-013](#cad-013) Grundgestell: Rahmen kurz | direkt | `base_frame_short` | 8 | Fertigung noch offen |
+| [CAD-014](#cad-014) Grundgestell: Rahmen Seite | direkt | `base_frame_side` | 2 | Fertigung noch offen |
+| [CAD-018](#cad-018) Grundgestell: Platte Adapter links | direkt | `base_plate_adapter_left` | 2 | Fertigung noch offen |
+| [CAD-019](#cad-019) Grundgestell: Platte Adapter rechts | direkt | `base_plate_adapter_right` | 2 | Fertigung noch offen |
+| [CAD-020](#cad-020) Grundgestell: vertikal | direkt | `base_vertical` | 4 | Fertigung noch offen |
+| [CAD-023](#cad-023) BIGTREETECH SKR V1.3 Steuerplatine | direkt | `bigtreetech_skr_v1_3` | 4 | teilweise geklärt |
+| [CAD-024](#cad-024) Kabel Abdeckung | direkt | `cable_cover` | 4 | Fertigung noch offen |
+| [CAD-033](#cad-033) DIN 7991 M6×14 | direkt | `din_7991_m6x14` | 6 | teilweise geklärt |
+| [CAD-034](#cad-034) DIN 7991 M6×20 | direkt | `din_7991_m6x20` | 22 | teilweise geklärt |
+| [CAD-050](#cad-050) igus E2i.10.20.028.0, 8 lange Abschnitte | direkt | `drag_chain_0_28m_E2i_10_20_028_0_igus` | 8 | teilweise geklärt |
+| [CAD-051](#cad-051) Schubladengriff, Lochabstand vermutlich 100 mm | direkt | `handle_l100_dold` | 1 | teilweise geklärt |
+| [CAD-052](#cad-052) Gelenkfuß M6 / TellerØ40 mm | direkt | `hinged_M6_40_dold` | 4 | teilweise geklärt |
+| [CAD-055](#cad-055) Induktiver Näherungsschalter M8, Bauhülle 60 mm | direkt | `inductive_proximity_sensor_m8` | 8 | nicht identifiziert |
+| [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 8 | teilweise geklärt |
+| [CAD-059](#cad-059) Mean Well MHS012 Montagewinkel | direkt | `mean_well_MHS-012_mounting_bracket` | 4 | teilweise geklärt |
+| [CAD-060](#cad-060) Mean Well RSP-200-24 Netzteil,24 V/8,4 A | direkt | `mean_well_RSP-200-24` | 1 | bestellfähig |
+| [CAD-066](#cad-066) Prüfobjekt-Platzhalter im CAD | direkt | `pcb_dummy` | 1 | nicht benötigt; Plan gesamt 0 statt 1 |
+| [CAD-074](#cad-074) Stromversorgung Schalter Halter | direkt | `power_switch_holder` | 1 | Fertigung noch offen |
+| [CAD-081](#cad-081) Anschraubwinkel 30 / Nut 6 | direkt | `screw_on_bracket_30_6` | 26 | teilweise geklärt |
+| [CAD-082](#cad-082) Multiplexer-Platzhalter im CAD | direkt | `signal_multiplexer_dummy` | 1 | nicht benötigt; Plan gesamt 0 statt 1 |
+| [CAD-083](#cad-083) Signal-Multiplexer Halter | direkt | `signal_multiplexer_holder` | 1 | Fertigung noch offen |
+| [CAD-084](#cad-084) Teleskopschiene TSAA514613-350 | direkt | `telescopic_bar_tsaa514613-350` | 2 | teilweise geklärt |
+| [CAD-086](#cad-086) Bedientaster/-schalterØ19 mm | direkt | `vandalism_switch_d19` | 1 | nicht identifiziert |
+| [CAD-095](#cad-095) CPC MR12M Führungsschiene 600 mm | direkt | `x_guiding_cpc_MR12M` | 2 | teilweise geklärt |
+| [CAD-096](#cad-096) X-Achse Motor Platte | direkt | `x_motor_plate` | 1 | Fertigung noch offen |
+| [CAD-097](#cad-097) X-Achse Motor Platte 2 | direkt | `x_motor_plate_2` | 1 | Fertigung noch offen |
+| [CAD-016](#cad-016) Grundgestell: Platte Adapter 1 | `base_plate_adapter` | `base_plate_adapter_1` | 2 | Fertigung noch offen |
+| [CAD-017](#cad-017) Grundgestell: Platte Adapter 2 | `base_plate_adapter` | `base_plate_adapter_2` | 2 | Fertigung noch offen |
+| [CAD-025](#cad-025) Kamera Halter | `camera_holder` | `camera_holder` | 1 | Fertigung noch offen |
+| [CAD-026](#cad-026) Kamera Halter oben | `camera_holder` | `camera_holder_top` | 1 | Fertigung noch offen |
+| [CAD-028](#cad-028) DIN 466 Rändelmutter hoch M4 | `pcb_holder` | `din_466_knurled_nut_high_m4` | 8 | teilweise geklärt |
+| [CAD-043](#cad-043) DIN 912 M4×10 | `pcb_holder` | `din_912_m4x10` | 1 | teilweise geklärt |
+| [CAD-048](#cad-048) DIN 933 M4×20 | `pcb_holder` | `din_933_m4x20` | 8 | teilweise geklärt |
+| [CAD-067](#cad-067) Platine Halter Gleiter | `pcb_holder` | `pcb_holder_glider` | 4 | Fertigung noch offen |
+| [CAD-068](#cad-068) Platine Halter Führung Halter rund d 10 | `pcb_holder` | `pcb_holder_guiding_holder_round_d10` | 4 | Fertigung noch offen |
+| [CAD-069](#cad-069) Platine Halter Führung rund | `pcb_holder` | `pcb_holder_guiding_round` | 2 | Fertigung noch offen |
+| [CAD-070](#cad-070) Platine Halter rechteckig Stange | `pcb_holder` | `pcb_holder_rect_rod` | 2 | Fertigung noch offen |
+| [CAD-071](#cad-071) Platine Halter Stange kurz rund d 10 | `pcb_holder` | `pcb_holder_rod_short_round_d10` | 2 | Fertigung noch offen |
+| [CAD-072](#cad-072) Platine Halter Stange kurz rund d 10 gespiegelt | `pcb_holder` | `pcb_holder_rod_short_round_d10_mirrored` | 2 | Fertigung noch offen |
+| [CAD-015](#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `x_belt_drive` | `base_nema_14_to_17_adapter` | 8 | Fertigung noch offen |
+| [CAD-021](#cad-021) Riemen Spanner GT2 Basis | `x_belt_drive` | `belt_tightener_GT2_base` | 16 | Fertigung noch offen |
+| [CAD-022](#cad-022) Riemen Spanner GT2 Flügel | `x_belt_drive` | `belt_tightener_GT2_wing` | 16 | Fertigung noch offen |
+| [CAD-035](#cad-035) DIN 912 M3×10 | `x_belt_drive` | `din_912_m3x10` | 32 | teilweise geklärt |
+| [CAD-038](#cad-038) DIN 912 M3×16 | `x_belt_drive` | `din_912_m3x16` | 16 | teilweise geklärt |
+| [CAD-039](#cad-039) DIN 912 M3×18 | `x_belt_drive` | `din_912_m3x18` | 32 | teilweise geklärt |
+| [CAD-042](#cad-042) DIN 912 M3×8 | `x_belt_drive` | `din_912_m3x8` | 32 | teilweise geklärt |
+| [CAD-044](#cad-044) DIN 912 M4×20 | `x_belt_drive` | `din_912_m4x20` | 16 | teilweise geklärt |
+| [CAD-045](#cad-045) DIN 912 M4×30 | `x_belt_drive` | `din_912_m4x30` | 16 | teilweise geklärt |
+| [CAD-056](#cad-056) ISO 8673 Mutter M3 | `x_belt_drive` | `iso_8673_nut_m3` | 16 | teilweise geklärt |
+| [CAD-057](#cad-057) ISO 8673 Mutter M4 | `x_belt_drive` | `iso_8673_nut_m4` | 32 | teilweise geklärt |
+| [CAD-064](#cad-064) Nanotec ST4118M1804-A NEMA17 X/Y-Motor | `x_belt_drive` | `nanotec_nema_17_ST4118M1804-A` | 8 | teilweise geklärt; fehlt im Fusion-Import |
+| [CAD-077](#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `x_belt_drive` | `pulley_gt2_z16_6mm` | 8 | teilweise geklärt |
+| [CAD-078](#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `x_belt_drive` | `return_pulley_gt2_z16_6mm` | 16 | teilweise geklärt |
+| [CAD-087](#cad-087) GT2-Riemen X,6 mm breit | `x_belt_drive` | `x_belt` | 8 | teilweise geklärt |
+
+<a id="komp-02"></a>
+
+## K02 x_slide:1 – X-Wagen einer Prüfeinheit
+
+| ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
+| --- | --- | --- | --- | --- |
+| [CAD-006](#cad-006) Grundgestell: Kabel Halter M5 flach | direkt | `base_cable_holder_m5_flat` | 1 | Fertigung noch offen |
+| [CAD-027](#cad-027) CPC MR12ML Führungswagen | direkt | `cpc_MR12ML` | 2 | teilweise geklärt |
+| [CAD-031](#cad-031) DIN 7991 M3×8 | direkt | `din_7991_m3x8` | 8 | teilweise geklärt |
+| [CAD-032](#cad-032) DIN 7991 M6×12 | direkt | `din_7991_m6x12` | 4 | teilweise geklärt |
+| [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 4 | teilweise geklärt |
+| [CAD-046](#cad-046) DIN 912 M5×10 | direkt | `din_912_m5x10` | 8 | teilweise geklärt |
+| [CAD-047](#cad-047) DIN 912 M5×14 | direkt | `din_912_m5x14` | 1 | teilweise geklärt |
+| [CAD-049](#cad-049) igus E2i.10.10.028.0, 16 kurze Abschnitte | direkt | `drag_chain_0_24m_E2i_10_10_028_0_4` | 4 | teilweise geklärt |
+| [CAD-055](#cad-055) Induktiver Näherungsschalter M8, Bauhülle 60 mm | direkt | `inductive_proximity_sensor_m8` | 4 | nicht identifiziert |
+| [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 10 | teilweise geklärt |
+| [CAD-079](#cad-079) SHF10 Flanschhalter fürØ10 mm Welle | direkt | `rod_holder_flange_d10_dold` | 4 | bestellfähig |
+| [CAD-088](#cad-088) X-Achse Riemen Halter | direkt | `x_belt_holder` | 1 | Fertigung noch offen |
+| [CAD-089](#cad-089) X-Achse Riemen Halter 1 | direkt | `x_belt_holder_1` | 3 | Fertigung noch offen |
+| [CAD-090](#cad-090) X-Achse Schlepp Energiekette Adapter | direkt | `x_drag_chain_adapter` | 2 | Fertigung noch offen |
+| [CAD-091](#cad-091) X-Achse Endschalter Halter Seite kurz | direkt | `x_end_stop_holder_side_short` | 1 | Fertigung noch offen |
+| [CAD-092](#cad-092) X-Achse Endschalter Halter oben lang | direkt | `x_end_stop_holder_top_long` | 1 | Fertigung noch offen |
+| [CAD-093](#cad-093) X-Achse Endschalter oben lang | direkt | `x_end_stop_top_long` | 1 | Fertigung noch offen |
+| [CAD-094](#cad-094) X-Achse Endschalter oben kurz | direkt | `x_end_stop_top_short` | 1 | Fertigung noch offen |
+| [CAD-098](#cad-098) X-Achse rund Schiene | direkt | `x_round_rail` | 2 | Fertigung noch offen |
+| [CAD-099](#cad-099) X-Achse Seite Platte | direkt | `x_side_plate` | 1 | Fertigung noch offen |
+| [CAD-100](#cad-100) X-Achse Seite Platte beweglich | direkt | `x_side_plate_moving` | 1 | Fertigung noch offen |
+| [CAD-101](#cad-101) X-Achse Schlitten induktiv Endschalter Adapter | direkt | `x_slide_inductive_endstop_adapter` | 1 | Fertigung noch offen |
+| [CAD-102](#cad-102) X-Achse Schlitten induktiv Endschalter Adapter gespiegelt | direkt | `x_slide_inductive_endstop_adapter_mirrored` | 1 | Fertigung noch offen |
+| [CAD-103](#cad-103) X-Achse Schlitten Versteifung Träger | direkt | `x_slide_stiffener_beam` | 1 | Fertigung noch offen |
+| [CAD-015](#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `y_belt_drive` | `base_nema_14_to_17_adapter` | 1 | Fertigung noch offen |
+| [CAD-021](#cad-021) Riemen Spanner GT2 Basis | `y_belt_drive` | `belt_tightener_GT2_base` | 1 | Fertigung noch offen |
+| [CAD-022](#cad-022) Riemen Spanner GT2 Flügel | `y_belt_drive` | `belt_tightener_GT2_wing` | 1 | Fertigung noch offen |
+| [CAD-035](#cad-035) DIN 912 M3×10 | `y_belt_drive` | `din_912_m3x10` | 2 | teilweise geklärt |
+| [CAD-038](#cad-038) DIN 912 M3×16 | `y_belt_drive` | `din_912_m3x16` | 1 | teilweise geklärt |
+| [CAD-044](#cad-044) DIN 912 M4×20 | `y_belt_drive` | `din_912_m4x20` | 1 | teilweise geklärt |
+| [CAD-045](#cad-045) DIN 912 M4×30 | `y_belt_drive` | `din_912_m4x30` | 1 | teilweise geklärt |
+| [CAD-056](#cad-056) ISO 8673 Mutter M3 | `y_belt_drive` | `iso_8673_nut_m3` | 1 | teilweise geklärt |
+| [CAD-057](#cad-057) ISO 8673 Mutter M4 | `y_belt_drive` | `iso_8673_nut_m4` | 2 | teilweise geklärt |
+| [CAD-064](#cad-064) Nanotec ST4118M1804-A NEMA17 X/Y-Motor | `y_belt_drive` | `nanotec_nema_17_ST4118M1804-A` | 1 | teilweise geklärt; fehlt im Fusion-Import |
+| [CAD-077](#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `y_belt_drive` | `pulley_gt2_z16_6mm` | 1 | teilweise geklärt |
+| [CAD-078](#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `y_belt_drive` | `return_pulley_gt2_z16_6mm` | 1 | teilweise geklärt |
+| [CAD-104](#cad-104) GT2-Riemen Y,6 mm breit | `y_belt_drive` | `y_belt` | 1 | teilweise geklärt |
+
+<a id="komp-03"></a>
+
+## K03 x_slide:2 – X-Wagen einer Prüfeinheit
+
+| ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
+| --- | --- | --- | --- | --- |
+| [CAD-006](#cad-006) Grundgestell: Kabel Halter M5 flach | direkt | `base_cable_holder_m5_flat` | 1 | Fertigung noch offen |
+| [CAD-027](#cad-027) CPC MR12ML Führungswagen | direkt | `cpc_MR12ML` | 2 | teilweise geklärt |
+| [CAD-031](#cad-031) DIN 7991 M3×8 | direkt | `din_7991_m3x8` | 8 | teilweise geklärt |
+| [CAD-032](#cad-032) DIN 7991 M6×12 | direkt | `din_7991_m6x12` | 4 | teilweise geklärt |
+| [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 4 | teilweise geklärt |
+| [CAD-046](#cad-046) DIN 912 M5×10 | direkt | `din_912_m5x10` | 8 | teilweise geklärt |
+| [CAD-047](#cad-047) DIN 912 M5×14 | direkt | `din_912_m5x14` | 1 | teilweise geklärt |
+| [CAD-049](#cad-049) igus E2i.10.10.028.0, 16 kurze Abschnitte | direkt | `drag_chain_0_24m_E2i_10_10_028_0_4` | 4 | teilweise geklärt |
+| [CAD-055](#cad-055) Induktiver Näherungsschalter M8, Bauhülle 60 mm | direkt | `inductive_proximity_sensor_m8` | 4 | nicht identifiziert |
+| [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 10 | teilweise geklärt |
+| [CAD-079](#cad-079) SHF10 Flanschhalter fürØ10 mm Welle | direkt | `rod_holder_flange_d10_dold` | 4 | bestellfähig |
+| [CAD-088](#cad-088) X-Achse Riemen Halter | direkt | `x_belt_holder` | 1 | Fertigung noch offen |
+| [CAD-089](#cad-089) X-Achse Riemen Halter 1 | direkt | `x_belt_holder_1` | 3 | Fertigung noch offen |
+| [CAD-090](#cad-090) X-Achse Schlepp Energiekette Adapter | direkt | `x_drag_chain_adapter` | 2 | Fertigung noch offen |
+| [CAD-091](#cad-091) X-Achse Endschalter Halter Seite kurz | direkt | `x_end_stop_holder_side_short` | 1 | Fertigung noch offen |
+| [CAD-092](#cad-092) X-Achse Endschalter Halter oben lang | direkt | `x_end_stop_holder_top_long` | 1 | Fertigung noch offen |
+| [CAD-093](#cad-093) X-Achse Endschalter oben lang | direkt | `x_end_stop_top_long` | 1 | Fertigung noch offen |
+| [CAD-094](#cad-094) X-Achse Endschalter oben kurz | direkt | `x_end_stop_top_short` | 1 | Fertigung noch offen |
+| [CAD-098](#cad-098) X-Achse rund Schiene | direkt | `x_round_rail` | 2 | Fertigung noch offen |
+| [CAD-099](#cad-099) X-Achse Seite Platte | direkt | `x_side_plate` | 1 | Fertigung noch offen |
+| [CAD-100](#cad-100) X-Achse Seite Platte beweglich | direkt | `x_side_plate_moving` | 1 | Fertigung noch offen |
+| [CAD-101](#cad-101) X-Achse Schlitten induktiv Endschalter Adapter | direkt | `x_slide_inductive_endstop_adapter` | 1 | Fertigung noch offen |
+| [CAD-102](#cad-102) X-Achse Schlitten induktiv Endschalter Adapter gespiegelt | direkt | `x_slide_inductive_endstop_adapter_mirrored` | 1 | Fertigung noch offen |
+| [CAD-103](#cad-103) X-Achse Schlitten Versteifung Träger | direkt | `x_slide_stiffener_beam` | 1 | Fertigung noch offen |
+| [CAD-015](#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `y_belt_drive` | `base_nema_14_to_17_adapter` | 1 | Fertigung noch offen |
+| [CAD-021](#cad-021) Riemen Spanner GT2 Basis | `y_belt_drive` | `belt_tightener_GT2_base` | 1 | Fertigung noch offen |
+| [CAD-022](#cad-022) Riemen Spanner GT2 Flügel | `y_belt_drive` | `belt_tightener_GT2_wing` | 1 | Fertigung noch offen |
+| [CAD-035](#cad-035) DIN 912 M3×10 | `y_belt_drive` | `din_912_m3x10` | 2 | teilweise geklärt |
+| [CAD-038](#cad-038) DIN 912 M3×16 | `y_belt_drive` | `din_912_m3x16` | 1 | teilweise geklärt |
+| [CAD-044](#cad-044) DIN 912 M4×20 | `y_belt_drive` | `din_912_m4x20` | 1 | teilweise geklärt |
+| [CAD-045](#cad-045) DIN 912 M4×30 | `y_belt_drive` | `din_912_m4x30` | 1 | teilweise geklärt |
+| [CAD-056](#cad-056) ISO 8673 Mutter M3 | `y_belt_drive` | `iso_8673_nut_m3` | 1 | teilweise geklärt |
+| [CAD-057](#cad-057) ISO 8673 Mutter M4 | `y_belt_drive` | `iso_8673_nut_m4` | 2 | teilweise geklärt |
+| [CAD-064](#cad-064) Nanotec ST4118M1804-A NEMA17 X/Y-Motor | `y_belt_drive` | `nanotec_nema_17_ST4118M1804-A` | 1 | teilweise geklärt; fehlt im Fusion-Import |
+| [CAD-077](#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `y_belt_drive` | `pulley_gt2_z16_6mm` | 1 | teilweise geklärt |
+| [CAD-078](#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `y_belt_drive` | `return_pulley_gt2_z16_6mm` | 1 | teilweise geklärt |
+| [CAD-104](#cad-104) GT2-Riemen Y,6 mm breit | `y_belt_drive` | `y_belt` | 1 | teilweise geklärt |
+
+<a id="komp-04"></a>
+
+## K04 x_slide:3 – X-Wagen einer Prüfeinheit
+
+| ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
+| --- | --- | --- | --- | --- |
+| [CAD-006](#cad-006) Grundgestell: Kabel Halter M5 flach | direkt | `base_cable_holder_m5_flat` | 1 | Fertigung noch offen |
+| [CAD-027](#cad-027) CPC MR12ML Führungswagen | direkt | `cpc_MR12ML` | 2 | teilweise geklärt |
+| [CAD-031](#cad-031) DIN 7991 M3×8 | direkt | `din_7991_m3x8` | 8 | teilweise geklärt |
+| [CAD-032](#cad-032) DIN 7991 M6×12 | direkt | `din_7991_m6x12` | 4 | teilweise geklärt |
+| [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 4 | teilweise geklärt |
+| [CAD-046](#cad-046) DIN 912 M5×10 | direkt | `din_912_m5x10` | 8 | teilweise geklärt |
+| [CAD-047](#cad-047) DIN 912 M5×14 | direkt | `din_912_m5x14` | 1 | teilweise geklärt |
+| [CAD-049](#cad-049) igus E2i.10.10.028.0, 16 kurze Abschnitte | direkt | `drag_chain_0_24m_E2i_10_10_028_0_4` | 4 | teilweise geklärt |
+| [CAD-055](#cad-055) Induktiver Näherungsschalter M8, Bauhülle 60 mm | direkt | `inductive_proximity_sensor_m8` | 4 | nicht identifiziert |
+| [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 10 | teilweise geklärt |
+| [CAD-079](#cad-079) SHF10 Flanschhalter fürØ10 mm Welle | direkt | `rod_holder_flange_d10_dold` | 4 | bestellfähig |
+| [CAD-088](#cad-088) X-Achse Riemen Halter | direkt | `x_belt_holder` | 1 | Fertigung noch offen |
+| [CAD-089](#cad-089) X-Achse Riemen Halter 1 | direkt | `x_belt_holder_1` | 3 | Fertigung noch offen |
+| [CAD-090](#cad-090) X-Achse Schlepp Energiekette Adapter | direkt | `x_drag_chain_adapter` | 2 | Fertigung noch offen |
+| [CAD-091](#cad-091) X-Achse Endschalter Halter Seite kurz | direkt | `x_end_stop_holder_side_short` | 1 | Fertigung noch offen |
+| [CAD-092](#cad-092) X-Achse Endschalter Halter oben lang | direkt | `x_end_stop_holder_top_long` | 1 | Fertigung noch offen |
+| [CAD-093](#cad-093) X-Achse Endschalter oben lang | direkt | `x_end_stop_top_long` | 1 | Fertigung noch offen |
+| [CAD-094](#cad-094) X-Achse Endschalter oben kurz | direkt | `x_end_stop_top_short` | 1 | Fertigung noch offen |
+| [CAD-098](#cad-098) X-Achse rund Schiene | direkt | `x_round_rail` | 2 | Fertigung noch offen |
+| [CAD-099](#cad-099) X-Achse Seite Platte | direkt | `x_side_plate` | 1 | Fertigung noch offen |
+| [CAD-100](#cad-100) X-Achse Seite Platte beweglich | direkt | `x_side_plate_moving` | 1 | Fertigung noch offen |
+| [CAD-101](#cad-101) X-Achse Schlitten induktiv Endschalter Adapter | direkt | `x_slide_inductive_endstop_adapter` | 1 | Fertigung noch offen |
+| [CAD-102](#cad-102) X-Achse Schlitten induktiv Endschalter Adapter gespiegelt | direkt | `x_slide_inductive_endstop_adapter_mirrored` | 1 | Fertigung noch offen |
+| [CAD-103](#cad-103) X-Achse Schlitten Versteifung Träger | direkt | `x_slide_stiffener_beam` | 1 | Fertigung noch offen |
+| [CAD-015](#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `y_belt_drive` | `base_nema_14_to_17_adapter` | 1 | Fertigung noch offen |
+| [CAD-021](#cad-021) Riemen Spanner GT2 Basis | `y_belt_drive` | `belt_tightener_GT2_base` | 1 | Fertigung noch offen |
+| [CAD-022](#cad-022) Riemen Spanner GT2 Flügel | `y_belt_drive` | `belt_tightener_GT2_wing` | 1 | Fertigung noch offen |
+| [CAD-035](#cad-035) DIN 912 M3×10 | `y_belt_drive` | `din_912_m3x10` | 2 | teilweise geklärt |
+| [CAD-038](#cad-038) DIN 912 M3×16 | `y_belt_drive` | `din_912_m3x16` | 1 | teilweise geklärt |
+| [CAD-044](#cad-044) DIN 912 M4×20 | `y_belt_drive` | `din_912_m4x20` | 1 | teilweise geklärt |
+| [CAD-045](#cad-045) DIN 912 M4×30 | `y_belt_drive` | `din_912_m4x30` | 1 | teilweise geklärt |
+| [CAD-056](#cad-056) ISO 8673 Mutter M3 | `y_belt_drive` | `iso_8673_nut_m3` | 1 | teilweise geklärt |
+| [CAD-057](#cad-057) ISO 8673 Mutter M4 | `y_belt_drive` | `iso_8673_nut_m4` | 2 | teilweise geklärt |
+| [CAD-064](#cad-064) Nanotec ST4118M1804-A NEMA17 X/Y-Motor | `y_belt_drive` | `nanotec_nema_17_ST4118M1804-A` | 1 | teilweise geklärt; fehlt im Fusion-Import |
+| [CAD-077](#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `y_belt_drive` | `pulley_gt2_z16_6mm` | 1 | teilweise geklärt |
+| [CAD-078](#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `y_belt_drive` | `return_pulley_gt2_z16_6mm` | 1 | teilweise geklärt |
+| [CAD-104](#cad-104) GT2-Riemen Y,6 mm breit | `y_belt_drive` | `y_belt` | 1 | teilweise geklärt |
+
+<a id="komp-05"></a>
+
+## K05 x_slide:4 – X-Wagen einer Prüfeinheit
+
+| ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
+| --- | --- | --- | --- | --- |
+| [CAD-006](#cad-006) Grundgestell: Kabel Halter M5 flach | direkt | `base_cable_holder_m5_flat` | 1 | Fertigung noch offen |
+| [CAD-027](#cad-027) CPC MR12ML Führungswagen | direkt | `cpc_MR12ML` | 2 | teilweise geklärt |
+| [CAD-031](#cad-031) DIN 7991 M3×8 | direkt | `din_7991_m3x8` | 8 | teilweise geklärt |
+| [CAD-032](#cad-032) DIN 7991 M6×12 | direkt | `din_7991_m6x12` | 4 | teilweise geklärt |
+| [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 4 | teilweise geklärt |
+| [CAD-046](#cad-046) DIN 912 M5×10 | direkt | `din_912_m5x10` | 8 | teilweise geklärt |
+| [CAD-047](#cad-047) DIN 912 M5×14 | direkt | `din_912_m5x14` | 1 | teilweise geklärt |
+| [CAD-049](#cad-049) igus E2i.10.10.028.0, 16 kurze Abschnitte | direkt | `drag_chain_0_24m_E2i_10_10_028_0_4` | 4 | teilweise geklärt |
+| [CAD-055](#cad-055) Induktiver Näherungsschalter M8, Bauhülle 60 mm | direkt | `inductive_proximity_sensor_m8` | 4 | nicht identifiziert |
+| [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 10 | teilweise geklärt |
+| [CAD-079](#cad-079) SHF10 Flanschhalter fürØ10 mm Welle | direkt | `rod_holder_flange_d10_dold` | 4 | bestellfähig |
+| [CAD-088](#cad-088) X-Achse Riemen Halter | direkt | `x_belt_holder` | 1 | Fertigung noch offen |
+| [CAD-089](#cad-089) X-Achse Riemen Halter 1 | direkt | `x_belt_holder_1` | 3 | Fertigung noch offen |
+| [CAD-090](#cad-090) X-Achse Schlepp Energiekette Adapter | direkt | `x_drag_chain_adapter` | 2 | Fertigung noch offen |
+| [CAD-091](#cad-091) X-Achse Endschalter Halter Seite kurz | direkt | `x_end_stop_holder_side_short` | 1 | Fertigung noch offen |
+| [CAD-092](#cad-092) X-Achse Endschalter Halter oben lang | direkt | `x_end_stop_holder_top_long` | 1 | Fertigung noch offen |
+| [CAD-093](#cad-093) X-Achse Endschalter oben lang | direkt | `x_end_stop_top_long` | 1 | Fertigung noch offen |
+| [CAD-094](#cad-094) X-Achse Endschalter oben kurz | direkt | `x_end_stop_top_short` | 1 | Fertigung noch offen |
+| [CAD-098](#cad-098) X-Achse rund Schiene | direkt | `x_round_rail` | 2 | Fertigung noch offen |
+| [CAD-099](#cad-099) X-Achse Seite Platte | direkt | `x_side_plate` | 1 | Fertigung noch offen |
+| [CAD-100](#cad-100) X-Achse Seite Platte beweglich | direkt | `x_side_plate_moving` | 1 | Fertigung noch offen |
+| [CAD-101](#cad-101) X-Achse Schlitten induktiv Endschalter Adapter | direkt | `x_slide_inductive_endstop_adapter` | 1 | Fertigung noch offen |
+| [CAD-102](#cad-102) X-Achse Schlitten induktiv Endschalter Adapter gespiegelt | direkt | `x_slide_inductive_endstop_adapter_mirrored` | 1 | Fertigung noch offen |
+| [CAD-103](#cad-103) X-Achse Schlitten Versteifung Träger | direkt | `x_slide_stiffener_beam` | 1 | Fertigung noch offen |
+| [CAD-015](#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `y_belt_drive` | `base_nema_14_to_17_adapter` | 1 | Fertigung noch offen |
+| [CAD-021](#cad-021) Riemen Spanner GT2 Basis | `y_belt_drive` | `belt_tightener_GT2_base` | 1 | Fertigung noch offen |
+| [CAD-022](#cad-022) Riemen Spanner GT2 Flügel | `y_belt_drive` | `belt_tightener_GT2_wing` | 1 | Fertigung noch offen |
+| [CAD-035](#cad-035) DIN 912 M3×10 | `y_belt_drive` | `din_912_m3x10` | 2 | teilweise geklärt |
+| [CAD-038](#cad-038) DIN 912 M3×16 | `y_belt_drive` | `din_912_m3x16` | 1 | teilweise geklärt |
+| [CAD-044](#cad-044) DIN 912 M4×20 | `y_belt_drive` | `din_912_m4x20` | 1 | teilweise geklärt |
+| [CAD-045](#cad-045) DIN 912 M4×30 | `y_belt_drive` | `din_912_m4x30` | 1 | teilweise geklärt |
+| [CAD-056](#cad-056) ISO 8673 Mutter M3 | `y_belt_drive` | `iso_8673_nut_m3` | 1 | teilweise geklärt |
+| [CAD-057](#cad-057) ISO 8673 Mutter M4 | `y_belt_drive` | `iso_8673_nut_m4` | 2 | teilweise geklärt |
+| [CAD-064](#cad-064) Nanotec ST4118M1804-A NEMA17 X/Y-Motor | `y_belt_drive` | `nanotec_nema_17_ST4118M1804-A` | 1 | teilweise geklärt; fehlt im Fusion-Import |
+| [CAD-077](#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `y_belt_drive` | `pulley_gt2_z16_6mm` | 1 | teilweise geklärt |
+| [CAD-078](#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `y_belt_drive` | `return_pulley_gt2_z16_6mm` | 1 | teilweise geklärt |
+| [CAD-104](#cad-104) GT2-Riemen Y,6 mm breit | `y_belt_drive` | `y_belt` | 1 | teilweise geklärt |
+
+<a id="komp-06"></a>
+
+## K06 y_slide (1):1 – Y-Schlitten
+
+| ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
+| --- | --- | --- | --- | --- |
+| [CAD-001](#cad-001) TR10x 2 GT2 Riemen Adapter | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung noch offen |
+| [CAD-002](#cad-002) TR10x 2 GT2 Riemen Adapter Abdeckung | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung noch offen |
+| [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | teilweise geklärt |
+| [CAD-030](#cad-030) DIN 562 M4 Vierkantmutter | direkt | `din_562_m4_square_nut` | 3 | teilweise geklärt |
+| [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 4 | teilweise geklärt |
+| [CAD-036](#cad-036) DIN 912 M3×12 | direkt | `din_912_m3x12` | 2 | teilweise geklärt |
+| [CAD-037](#cad-037) DIN 912 M3×14 | direkt | `din_912_m3x14` | 1 | teilweise geklärt |
+| [CAD-038](#cad-038) DIN 912 M3×16 | direkt | `din_912_m3x16` | 2 | teilweise geklärt |
+| [CAD-040](#cad-040) DIN 912 M3×20 | direkt | `din_912_m3x20` | 1 | teilweise geklärt |
+| [CAD-041](#cad-041) DIN 912 M3×30 | direkt | `din_912_m3x30` | 2 | teilweise geklärt |
+| [CAD-042](#cad-042) DIN 912 M3×8 | direkt | `din_912_m3x8` | 4 | teilweise geklärt |
+| [CAD-045](#cad-045) DIN 912 M4×30 | direkt | `din_912_m4x30` | 4 | teilweise geklärt |
+| [CAD-054](#cad-054) HIWIN MGN12CZ0H Z-Führungswagen | direkt | `hiwin_slide_MGN12CZ0H` | 1 | teilweise geklärt |
+| [CAD-056](#cad-056) ISO 8673 Mutter M3 | direkt | `iso_8673_nut_m3` | 6 | teilweise geklärt |
+| [CAD-057](#cad-057) ISO 8673 Mutter M4 | direkt | `iso_8673_nut_m4` | 6 | teilweise geklärt |
+| [CAD-063](#cad-063) Nanotec ST3518M1004-A NEMA14 Z-Motor | direkt | `nanotec_nema_14_ST3518M1004-A` | 2 | teilweise geklärt; Plan gesamt 4 statt 8 |
+| [CAD-065](#cad-065) Optischer Endschalter 11×35 mm | direkt | `optical_endstop` | 1 | teilweise geklärt |
+| [CAD-076](#cad-076) Umlenkrolle 9 mm / außenØ18 / BohrungØ5 | direkt | `pulley_gt2_9mm` | 2 | teilweise geklärt |
+| [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | teilweise geklärt |
+| [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
+| [CAD-105](#cad-105) Y-Achse Kamera Halter | direkt | `y_camera_holder` | 1 | Fertigung noch offen |
+| [CAD-107](#cad-107) Y-Achse Schlitten | direkt | `y_slide` | 1 | Fertigung noch offen |
+| [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung noch offen |
+| [CAD-109](#cad-109) Y-Achse Schlitten Abstand Rohr 2 mm | direkt | `y_slide_distance_tube_2mm` | 1 | Fertigung noch offen |
+| [CAD-112](#cad-112) Y-Achse Schlitten oben | direkt | `y_slide_top` | 1 | Fertigung noch offen |
+| [CAD-113](#cad-113) GT2-Riemen Z,9 mm breit | direkt | `z_drive_belt` | 1 | teilweise geklärt |
+
+<a id="komp-07"></a>
+
+## K07 y_slide (1):2 – Y-Schlitten
+
+| ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
+| --- | --- | --- | --- | --- |
+| [CAD-001](#cad-001) TR10x 2 GT2 Riemen Adapter | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung noch offen |
+| [CAD-002](#cad-002) TR10x 2 GT2 Riemen Adapter Abdeckung | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung noch offen |
+| [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | teilweise geklärt |
+| [CAD-030](#cad-030) DIN 562 M4 Vierkantmutter | direkt | `din_562_m4_square_nut` | 3 | teilweise geklärt |
+| [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 4 | teilweise geklärt |
+| [CAD-036](#cad-036) DIN 912 M3×12 | direkt | `din_912_m3x12` | 2 | teilweise geklärt |
+| [CAD-037](#cad-037) DIN 912 M3×14 | direkt | `din_912_m3x14` | 1 | teilweise geklärt |
+| [CAD-038](#cad-038) DIN 912 M3×16 | direkt | `din_912_m3x16` | 2 | teilweise geklärt |
+| [CAD-040](#cad-040) DIN 912 M3×20 | direkt | `din_912_m3x20` | 1 | teilweise geklärt |
+| [CAD-041](#cad-041) DIN 912 M3×30 | direkt | `din_912_m3x30` | 2 | teilweise geklärt |
+| [CAD-042](#cad-042) DIN 912 M3×8 | direkt | `din_912_m3x8` | 4 | teilweise geklärt |
+| [CAD-045](#cad-045) DIN 912 M4×30 | direkt | `din_912_m4x30` | 4 | teilweise geklärt |
+| [CAD-054](#cad-054) HIWIN MGN12CZ0H Z-Führungswagen | direkt | `hiwin_slide_MGN12CZ0H` | 1 | teilweise geklärt |
+| [CAD-056](#cad-056) ISO 8673 Mutter M3 | direkt | `iso_8673_nut_m3` | 6 | teilweise geklärt |
+| [CAD-057](#cad-057) ISO 8673 Mutter M4 | direkt | `iso_8673_nut_m4` | 6 | teilweise geklärt |
+| [CAD-063](#cad-063) Nanotec ST3518M1004-A NEMA14 Z-Motor | direkt | `nanotec_nema_14_ST3518M1004-A` | 2 | teilweise geklärt; Plan gesamt 4 statt 8 |
+| [CAD-065](#cad-065) Optischer Endschalter 11×35 mm | direkt | `optical_endstop` | 1 | teilweise geklärt |
+| [CAD-076](#cad-076) Umlenkrolle 9 mm / außenØ18 / BohrungØ5 | direkt | `pulley_gt2_9mm` | 2 | teilweise geklärt |
+| [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | teilweise geklärt |
+| [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
+| [CAD-105](#cad-105) Y-Achse Kamera Halter | direkt | `y_camera_holder` | 1 | Fertigung noch offen |
+| [CAD-107](#cad-107) Y-Achse Schlitten | direkt | `y_slide` | 1 | Fertigung noch offen |
+| [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung noch offen |
+| [CAD-109](#cad-109) Y-Achse Schlitten Abstand Rohr 2 mm | direkt | `y_slide_distance_tube_2mm` | 1 | Fertigung noch offen |
+| [CAD-112](#cad-112) Y-Achse Schlitten oben | direkt | `y_slide_top` | 1 | Fertigung noch offen |
+| [CAD-113](#cad-113) GT2-Riemen Z,9 mm breit | direkt | `z_drive_belt` | 1 | teilweise geklärt |
+
+<a id="komp-08"></a>
+
+## K08 y_slide_mirrored (1):1 – Y-Schlitten, gespiegelt
+
+| ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
+| --- | --- | --- | --- | --- |
+| [CAD-001](#cad-001) TR10x 2 GT2 Riemen Adapter | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung noch offen |
+| [CAD-002](#cad-002) TR10x 2 GT2 Riemen Adapter Abdeckung | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung noch offen |
+| [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | teilweise geklärt |
+| [CAD-030](#cad-030) DIN 562 M4 Vierkantmutter | direkt | `din_562_m4_square_nut` | 3 | teilweise geklärt |
+| [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 4 | teilweise geklärt |
+| [CAD-036](#cad-036) DIN 912 M3×12 | direkt | `din_912_m3x12` | 2 | teilweise geklärt |
+| [CAD-037](#cad-037) DIN 912 M3×14 | direkt | `din_912_m3x14` | 1 | teilweise geklärt |
+| [CAD-038](#cad-038) DIN 912 M3×16 | direkt | `din_912_m3x16` | 2 | teilweise geklärt |
+| [CAD-040](#cad-040) DIN 912 M3×20 | direkt | `din_912_m3x20` | 1 | teilweise geklärt |
+| [CAD-041](#cad-041) DIN 912 M3×30 | direkt | `din_912_m3x30` | 2 | teilweise geklärt |
+| [CAD-042](#cad-042) DIN 912 M3×8 | direkt | `din_912_m3x8` | 4 | teilweise geklärt |
+| [CAD-045](#cad-045) DIN 912 M4×30 | direkt | `din_912_m4x30` | 4 | teilweise geklärt |
+| [CAD-054](#cad-054) HIWIN MGN12CZ0H Z-Führungswagen | direkt | `hiwin_slide_MGN12CZ0H` | 1 | teilweise geklärt |
+| [CAD-056](#cad-056) ISO 8673 Mutter M3 | direkt | `iso_8673_nut_m3` | 6 | teilweise geklärt |
+| [CAD-057](#cad-057) ISO 8673 Mutter M4 | direkt | `iso_8673_nut_m4` | 6 | teilweise geklärt |
+| [CAD-063](#cad-063) Nanotec ST3518M1004-A NEMA14 Z-Motor | direkt | `nanotec_nema_14_ST3518M1004-A` | 2 | teilweise geklärt; Plan gesamt 4 statt 8 |
+| [CAD-065](#cad-065) Optischer Endschalter 11×35 mm | direkt | `optical_endstop` | 1 | teilweise geklärt |
+| [CAD-076](#cad-076) Umlenkrolle 9 mm / außenØ18 / BohrungØ5 | direkt | `pulley_gt2_9mm` | 2 | teilweise geklärt |
+| [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | teilweise geklärt |
+| [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
+| [CAD-106](#cad-106) Y-Achse Kamera Halter kompakt | direkt | `y_camera_holder_compact` | 1 | Fertigung noch offen |
+| [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung noch offen |
+| [CAD-109](#cad-109) Y-Achse Schlitten Abstand Rohr 2 mm | direkt | `y_slide_distance_tube_2mm` | 1 | Fertigung noch offen |
+| [CAD-110](#cad-110) Y-Achse Schlitten gespiegelt | direkt | `y_slide_mirrored` | 1 | Fertigung noch offen |
+| [CAD-111](#cad-111) Y-Achse Schlitten gespiegelt oben | direkt | `y_slide_mirrored_top` | 1 | Fertigung noch offen |
+| [CAD-113](#cad-113) GT2-Riemen Z,9 mm breit | direkt | `z_drive_belt` | 1 | teilweise geklärt |
+
+<a id="komp-09"></a>
+
+## K09 y_slide_mirrored (1):2 – Y-Schlitten, gespiegelt
+
+| ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
+| --- | --- | --- | --- | --- |
+| [CAD-001](#cad-001) TR10x 2 GT2 Riemen Adapter | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung noch offen |
+| [CAD-002](#cad-002) TR10x 2 GT2 Riemen Adapter Abdeckung | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung noch offen |
+| [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | teilweise geklärt |
+| [CAD-030](#cad-030) DIN 562 M4 Vierkantmutter | direkt | `din_562_m4_square_nut` | 3 | teilweise geklärt |
+| [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 4 | teilweise geklärt |
+| [CAD-036](#cad-036) DIN 912 M3×12 | direkt | `din_912_m3x12` | 2 | teilweise geklärt |
+| [CAD-037](#cad-037) DIN 912 M3×14 | direkt | `din_912_m3x14` | 1 | teilweise geklärt |
+| [CAD-038](#cad-038) DIN 912 M3×16 | direkt | `din_912_m3x16` | 2 | teilweise geklärt |
+| [CAD-040](#cad-040) DIN 912 M3×20 | direkt | `din_912_m3x20` | 1 | teilweise geklärt |
+| [CAD-041](#cad-041) DIN 912 M3×30 | direkt | `din_912_m3x30` | 2 | teilweise geklärt |
+| [CAD-042](#cad-042) DIN 912 M3×8 | direkt | `din_912_m3x8` | 4 | teilweise geklärt |
+| [CAD-045](#cad-045) DIN 912 M4×30 | direkt | `din_912_m4x30` | 4 | teilweise geklärt |
+| [CAD-054](#cad-054) HIWIN MGN12CZ0H Z-Führungswagen | direkt | `hiwin_slide_MGN12CZ0H` | 1 | teilweise geklärt |
+| [CAD-056](#cad-056) ISO 8673 Mutter M3 | direkt | `iso_8673_nut_m3` | 6 | teilweise geklärt |
+| [CAD-057](#cad-057) ISO 8673 Mutter M4 | direkt | `iso_8673_nut_m4` | 6 | teilweise geklärt |
+| [CAD-063](#cad-063) Nanotec ST3518M1004-A NEMA14 Z-Motor | direkt | `nanotec_nema_14_ST3518M1004-A` | 2 | teilweise geklärt; Plan gesamt 4 statt 8 |
+| [CAD-065](#cad-065) Optischer Endschalter 11×35 mm | direkt | `optical_endstop` | 1 | teilweise geklärt |
+| [CAD-076](#cad-076) Umlenkrolle 9 mm / außenØ18 / BohrungØ5 | direkt | `pulley_gt2_9mm` | 2 | teilweise geklärt |
+| [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | teilweise geklärt |
+| [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
+| [CAD-106](#cad-106) Y-Achse Kamera Halter kompakt | direkt | `y_camera_holder_compact` | 1 | Fertigung noch offen |
+| [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung noch offen |
+| [CAD-109](#cad-109) Y-Achse Schlitten Abstand Rohr 2 mm | direkt | `y_slide_distance_tube_2mm` | 1 | Fertigung noch offen |
+| [CAD-110](#cad-110) Y-Achse Schlitten gespiegelt | direkt | `y_slide_mirrored` | 1 | Fertigung noch offen |
+| [CAD-111](#cad-111) Y-Achse Schlitten gespiegelt oben | direkt | `y_slide_mirrored_top` | 1 | Fertigung noch offen |
+| [CAD-113](#cad-113) GT2-Riemen Z,9 mm breit | direkt | `z_drive_belt` | 1 | teilweise geklärt |
+
+<a id="komp-10"></a>
+
+## K10 z_slide:1 – Z-Achse
+
+| ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
+| --- | --- | --- | --- | --- |
+| [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | teilweise geklärt |
+| [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 1 | teilweise geklärt |
+| [CAD-042](#cad-042) DIN 912 M3×8 | direkt | `din_912_m3x8` | 2 | teilweise geklärt |
+| [CAD-053](#cad-053) HIWIN MGNR12R150HM, Z-Schiene 150 mm | direkt | `hiwin_rail_MGNR12R150HM` | 1 | teilweise geklärt |
+| [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | direkt | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
+| [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung noch offen |
+| [CAD-115](#cad-115) Federkontakt der Prüfspitze | direkt | `z_pogo_pin` | 1 | nicht identifiziert |
+| [CAD-116](#cad-116) Z-Achse Prüfspitze Platine Halter | direkt | `z_probe_tip_pcb_holder` | 1 | Fertigung noch offen |
+| [CAD-119](#cad-119) Z-Achse Schlitten Endschalter Auslöser | direkt | `z_slide_end_stop_trigger.psm` | 1 | Fertigung noch offen |
+| [CAD-061](#cad-061) MMCX-Stecker gerade / Messleitung | `probe_tip` | `mmcx_male_end` | 2 | nicht identifiziert |
+| [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | `probe_tip` | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
+| [CAD-075](#cad-075) Prüfspitzen-PCB, unbestückt | `probe_tip` | `probe_tip_pcb` | 1 | Fertigung noch offen |
+| [CAD-115](#cad-115) Federkontakt der Prüfspitze | `probe_tip` | `z_pogo_pin` | 1 | nicht identifiziert |
+
+<a id="komp-11"></a>
+
+## K11 z_slide:2 – Z-Achse
+
+| ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
+| --- | --- | --- | --- | --- |
+| [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | teilweise geklärt |
+| [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 1 | teilweise geklärt |
+| [CAD-042](#cad-042) DIN 912 M3×8 | direkt | `din_912_m3x8` | 2 | teilweise geklärt |
+| [CAD-053](#cad-053) HIWIN MGNR12R150HM, Z-Schiene 150 mm | direkt | `hiwin_rail_MGNR12R150HM` | 1 | teilweise geklärt |
+| [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | direkt | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
+| [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung noch offen |
+| [CAD-115](#cad-115) Federkontakt der Prüfspitze | direkt | `z_pogo_pin` | 1 | nicht identifiziert |
+| [CAD-116](#cad-116) Z-Achse Prüfspitze Platine Halter | direkt | `z_probe_tip_pcb_holder` | 1 | Fertigung noch offen |
+| [CAD-119](#cad-119) Z-Achse Schlitten Endschalter Auslöser | direkt | `z_slide_end_stop_trigger.psm` | 1 | Fertigung noch offen |
+| [CAD-061](#cad-061) MMCX-Stecker gerade / Messleitung | `probe_tip` | `mmcx_male_end` | 2 | nicht identifiziert |
+| [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | `probe_tip` | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
+| [CAD-075](#cad-075) Prüfspitzen-PCB, unbestückt | `probe_tip` | `probe_tip_pcb` | 1 | Fertigung noch offen |
+| [CAD-115](#cad-115) Federkontakt der Prüfspitze | `probe_tip` | `z_pogo_pin` | 1 | nicht identifiziert |
+
+<a id="komp-12"></a>
+
+## K12 z_slide_long:1 – Z-Achse, lange Ausführung
+
+| ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
+| --- | --- | --- | --- | --- |
+| [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | teilweise geklärt |
+| [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 1 | teilweise geklärt |
+| [CAD-053](#cad-053) HIWIN MGNR12R150HM, Z-Schiene 150 mm | direkt | `hiwin_rail_MGNR12R150HM` | 1 | teilweise geklärt |
+| [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | direkt | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
+| [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung noch offen |
+| [CAD-115](#cad-115) Federkontakt der Prüfspitze | direkt | `z_pogo_pin` | 1 | nicht identifiziert |
+| [CAD-117](#cad-117) Z-Achse Prüfspitze Platine Halter lang | direkt | `z_probe_tip_pcb_holder_long` | 1 | Fertigung noch offen |
+| [CAD-118](#cad-118) Z-Achse Schlitten Kabel Halter | direkt | `z_slide_cable_holder` | 2 | Fertigung noch offen |
+| [CAD-120](#cad-120) Z-Achse Schlitten Endschalter Auslöser gespiegelt | direkt | `z_slide_end_stop_trigger_mirrored.psm` | 1 | Fertigung noch offen |
+| [CAD-062](#cad-062) MMCX-Stecker gewinkelt / Messleitung | `probe_tip_with_angle` | `mmcx_male_end_with_angle` | 2 | nicht identifiziert |
+| [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | `probe_tip_with_angle` | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
+| [CAD-075](#cad-075) Prüfspitzen-PCB, unbestückt | `probe_tip_with_angle` | `probe_tip_pcb` | 1 | Fertigung noch offen |
+| [CAD-115](#cad-115) Federkontakt der Prüfspitze | `probe_tip_with_angle` | `z_pogo_pin` | 1 | nicht identifiziert |
+
+<a id="komp-13"></a>
+
+## K13 z_slide_long:2 – Z-Achse, lange Ausführung
+
+| ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
+| --- | --- | --- | --- | --- |
+| [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | teilweise geklärt |
+| [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 1 | teilweise geklärt |
+| [CAD-053](#cad-053) HIWIN MGNR12R150HM, Z-Schiene 150 mm | direkt | `hiwin_rail_MGNR12R150HM` | 1 | teilweise geklärt |
+| [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | direkt | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
+| [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung noch offen |
+| [CAD-115](#cad-115) Federkontakt der Prüfspitze | direkt | `z_pogo_pin` | 1 | nicht identifiziert |
+| [CAD-117](#cad-117) Z-Achse Prüfspitze Platine Halter lang | direkt | `z_probe_tip_pcb_holder_long` | 1 | Fertigung noch offen |
+| [CAD-118](#cad-118) Z-Achse Schlitten Kabel Halter | direkt | `z_slide_cable_holder` | 2 | Fertigung noch offen |
+| [CAD-120](#cad-120) Z-Achse Schlitten Endschalter Auslöser gespiegelt | direkt | `z_slide_end_stop_trigger_mirrored.psm` | 1 | Fertigung noch offen |
+| [CAD-062](#cad-062) MMCX-Stecker gewinkelt / Messleitung | `probe_tip_with_angle` | `mmcx_male_end_with_angle` | 2 | nicht identifiziert |
+| [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | `probe_tip_with_angle` | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
+| [CAD-075](#cad-075) Prüfspitzen-PCB, unbestückt | `probe_tip_with_angle` | `probe_tip_pcb` | 1 | Fertigung noch offen |
+| [CAD-115](#cad-115) Federkontakt der Prüfspitze | `probe_tip_with_angle` | `z_pogo_pin` | 1 | nicht identifiziert |
+
+<a id="komp-14"></a>
+
+## K14 Nicht im CAD-Modell – Systemteile ohne CAD-Körper
+
+| ID / Teil | Planmenge | Beschaffungsart | Status |
+| --- | --- | --- | --- |
+| [SYS-001](#sys-001) TMC2130 SPI Treibermodule | 16 Stück | Kaufteile | teilweise geklärt |
+| [SYS-002](#sys-002) Stationäre Übersichtskamera | 1 Stück | Kaufteile | teilweise geklärt |
+| [SYS-003](#sys-003) Signal-Multiplexer, unbestückte Leiterplatte | 1 Stück | PCB extern | Fertigung noch offen |
+| [SYS-004](#sys-004) Kalibrier-Referenzkörper / Platte | 1 Stück | 3D-Druck intern | Fertigung noch offen |
+| [SYS-005](#sys-005) Innere Messing-Referenzzylinder | 4 Stück | Weitere Fertigung | Fertigung noch offen |
+| [SYS-006](#sys-006) Kalibriermarker / matte Druckvorlage | 1 Satz | Weitere Fertigung | Fertigung noch offen |
+| [SYS-007](#sys-007) Weißer 24-V-LED-Streifen | 2 m | Kaufteile | teilweise geklärt |
+| [SYS-008](#sys-008) LED-Aluprofile, Diffusoren, Kappen, Halter | 2 m | Kaufteile | teilweise geklärt |
+| [SYS-009](#sys-009) LED-Anschluss an vorhan denen SKR-Ausgang | 1 Satz | Kaufteile | teilweise geklärt |
+| [SYS-010](#sys-010) USB-Hub 7Port aktiv | 1 Stück | Kaufteile | teilweise geklärt |
+| [SYS-011](#sys-011) USB-Kabel für 4 SKR | 4 Stück | Kaufteile | teilweise geklärt |
+| [SYS-012](#sys-012) USB-Kabel für MUX/UART/Zielversorgung | 3 Stück | Kaufteile | teilweise geklärt |
+| [SYS-013](#sys-013) Bewegliche Kameraleitung / USB-Verlängerung | 1 Stück | Kaufteile | teilweise geklärt |
+| [SYS-014](#sys-014) Motorleitungen 4adrig | 32 m | Kaufteile | teilweise geklärt |
+| [SYS-015](#sys-015) Motor-Gegenstecker und Crimpkontakte | 32 Satz | Kaufteile | teilweise geklärt |
+| [SYS-016](#sys-016) Sensorleitungen / Verlängerungen | 24 Stück | Kaufteile | teilweise geklärt |
+| [SYS-017](#sys-017) Sensor-Gegenstecker und Kontakte | 28 Satz | Kaufteile | teilweise geklärt |
+| [SYS-018](#sys-018) 24-V-Verteilung, Sicherungen, Klemmen, Leitungen | 1 Satz | Kaufteile | teilweise geklärt |
+| [SYS-019](#sys-019) Sensor-Pegelanpassung / Eingangsschutz | 24 Kanäle | PCB extern | Fertigung noch offen |
+| [SYS-020](#sys-020) Netzeinspeisung, Leitung, Sicherung und Zugentlastung | 1 Satz | Kaufteile | teilweise geklärt |
+| [SYS-021](#sys-021) Schutzleiter, Ringkabelschuhe und Klemmenabdeckung | 1 Satz | Kaufteile | teilweise geklärt |
+| [SYS-022](#sys-022) Messkoax und instrumentenseitige Adapter | 4 Kanäle | Kaufteile | teilweise geklärt |
+| [SYS-023](#sys-023) Signal-Multiplexer Bestückung | 1 Baugruppe | PCB extern | Fertigung noch offen |
+| [SYS-024](#sys-024) Prüfspitzen-PCB Bestückung | 4 Baugruppen | PCB extern | Fertigung noch offen |
+| [SYS-025](#sys-025) USB-UART-Adapter | 1 Stück | Kaufteile | teilweise geklärt |
+| [SYS-026](#sys-026) Zielplatinen-Versorgungscontroller | 1 Baugruppe | PCB extern | Fertigung noch offen |
+| [SYS-027](#sys-027) Energieketten-Endanschlüsse schmal | 16 Paare | Kaufteile | teilweise geklärt |
+| [SYS-028](#sys-028) Energieketten-Endanschlüsse breit | 8 Paare | Kaufteile | teilweise geklärt |
+| [SYS-029](#sys-029) Profil-Nutensteine und Zusatzbefestigung | 1 Satz | Kaufteile | teilweise geklärt |
+| [SYS-030](#sys-030) Scheiben, Sicherungselemente, Distanzteile | 1 Satz | Kaufteile | teilweise geklärt |
+| [SYS-031](#sys-031) Lötzinn, Schrumpfschlauch, Binder, Labels, Kleber | 1 Satz | Kaufteile | teilweise geklärt |
+| [SYS-032](#sys-032) Controller-Befestigung und Kühlung | 1 Satz | Kaufteile | teilweise geklärt |
+| [SYS-033](#sys-033) Zusätzliche bewegliche Kameras | 3 Stück | Optional | teilweise geklärt |
+| [SYS-034](#sys-034) Host-PC, Messgeräte und Werkzeuge | 1 Bestand | Nicht benötigt | nicht benötigt |
+| [SYS-035](#sys-035) Z-Antriebsriemenscheibe / integrierter Adapter | 4 Stück | Ungeklärte Teile | nicht identifiziert |
+| [SYS-036](#sys-036) USB-/Versorgungsanschlüsse der Kalibrierung | 1 Prüfung | Nicht benötigt | nicht benötigt |
+| [SYS-037](#sys-037) Weiße äußere Kalibrierreferenzen | 4 Stück | Weitere Fertigung | Fertigung noch offen |
+| [SYS-038](#sys-038) Kalibrier-Kontaktleitungen und gemeinsame Messreferenz | 1 Satz | Kaufteile | teilweise geklärt |
+| [SYS-039](#sys-039) Erhöhte Messing-Referenzzylinder | 4 Stück | Weitere Fertigung | Fertigung noch offen |
+| [SYS-040](#sys-040) Äußere flache Messing-Referenzzylinder | 4 Stück | Weitere Fertigung | Fertigung noch offen |
+
+# Details nach Beschaffungsart
+
 ## Kaufteile
 
 | ID / Teil | CAD / Fusion / Plan | Status | Geometrie / Werkstoff | Quelle und konkreter Klärbedarf |

@@ -9,9 +9,11 @@
 | `evidence/cad-geometry.csv` | 120 STEP-Blattpositionen mit stabilen CAD-IDs, Fusion-Abgleich und lokaler Geometrie |
 | `evidence/cylindrical-features.json` | Zusätzliche zylindrische Flächen: Durchmesser, Achsen und Ursprünge in mm |
 | `evidence/manifest.json` | SHA256 und Inventurzähler |
+| `evidence/component-inventory.csv` | STEP-Blattteile je oberster Komponente (13 Einbauten) und direkter Unterbaugruppe |
 | `data/offers.json` | Kuratierte Preisbeobachtungen, Hersteller, Artikelnummern, Varianten, Packungen und Grenzen |
 | `../tools/build_procurement.py` | Explizite Zuordnungen, Mengenentscheidungen, Fertigungsvorschläge, Ergänzungen und eigene Budgetannahmen |
 | `teileliste.csv` | Gesamte Planungsstückliste; STEP-/Fusion-/Planmengen getrennt |
+| `teileliste-komponenten.csv` | Teile je Komponente K01–K13 laut CAD, K14 = Teile ohne CAD-Körper |
 | `bestellliste.csv` | Kostenbesitzer, Bestellpackungen, Preise, Steuerbasis, Lieferstatus, Shoplinks und Vorbehalte |
 | `kosten.json` | Reproduzierbare Summen und Liste der unbezifferten Positionen |
 
@@ -35,6 +37,10 @@ python -m unittest discover -s tools -p "test_*.py"
 Der erste Befehl arbeitet auf dem bereits gespeicherten Fusion-Export.
 Eine erneute STEP-Rohinventur ist über `python tools/extract_step_bom.py --help`
 dokumentiert; der Originalstand muss dieselbe SHA256 im Manifest haben.
+Die Komponentenzuordnung entsteht mit
+`python tools/extract_step_bom.py hardware/3d_models/proboter.stp --output bom/cad-inventory.csv --components bom/evidence/component-inventory.csv`.
+Der Generator ordnet die STEP-Einbauten über Name und Reihenfolge den Fusion-Pfaden zu
+(drittes `x_slide` = `x_slide:3`).
 
 Live-Fusion-Erfassung: unveränderten STEP-Import öffnen, dann die Funktion `run`
 aus `tools/fusion_inventory.py` über Fusion MCP mit `readOnly:true` ausführen.

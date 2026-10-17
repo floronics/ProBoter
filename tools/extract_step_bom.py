@@ -21,7 +21,7 @@ QUOTED_NAME = re.compile(r"\s*'((?:''|[^'])*)'")
 REFERENCE = re.compile(r"#(\d+)")
 
 
-def inventory(step_file: Path) -> tuple[Counter[str], Counter[str], int, int]:
+def _occurrence_graph(step_file: Path):
     # The upstream exporter declares raw byte strings rather than STEP escapes.
     content = step_file.read_text(encoding="latin-1")
     occurrences: list[tuple[str, str, str]] = []
@@ -45,6 +45,11 @@ def inventory(step_file: Path) -> tuple[Counter[str], Counter[str], int, int]:
     graph: dict[str, list[tuple[str, str]]] = defaultdict(list)
     for name, parent, child in occurrences:
         graph[parent].append((name, child))
+    return graph, parents, next(iter(roots)), len(occurrences)
+
+
+def inventory(step_file: Path) -> tuple[Counter[str], Counter[str], int, int]:
+    graph, parents, root, occurrence_count = _occurrence_graph(step_file)
 
     # A STEP assembly definition can be placed multiple times. Expand each
     # placement from the root; counting definition edges alone undercounts it.
@@ -71,17 +76,57 @@ def inventory(step_file: Path) -> tuple[Counter[str], Counter[str], int, int]:
         cache[node] = leaves, assemblies
         return leaves, assemblies
 
-    leaves, assemblies = expand(next(iter(roots)))
+    leaves, assemblies = expand(root)
     if set(cache) != parents:
         raise ValueError("Assembly definitions are disconnected from the root")
-    return leaves, assemblies, len(occurrences), len(roots)
+    return leaves, assemblies, occurrence_count, 1
+
+
+def components(step_file: Path) -> list[tuple[str, Counter[tuple[str, str]]]]:
+    """Leaf counts per top-level placement, keyed by (direct subassembly, leaf).
+
+    Parts deeper in a subassembly stay with the top-level component; the
+    subassembly is the direct child of that component ('' = placed directly).
+    """
+    graph, parents, root, _ = _occurrence_graph(step_file)
+
+    def leaves(node: str) -> Counter[str]:
+        result: Counter[str] = Counter()
+        for name, child in graph[node]:
+            result.update(leaves(child) if child in parents else {name: 1})
+        return result
+
+    placements = []
+    for top, node in graph[root]:
+        counts: Counter[tuple[str, str]] = Counter()
+        if node not in parents:
+            counts[("", top)] += 1
+        for name, child in graph[node] if node in parents else []:
+            if child in parents:
+                for leaf, quantity in leaves(child).items():
+                    counts[(name, leaf)] += quantity
+            else:
+                counts[("", name)] += 1
+        placements.append((top, counts))
+    return placements
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("step_file", type=Path)
     parser.add_argument("--output", type=Path, help="CSV path; stdout if omitted")
+    parser.add_argument("--components", type=Path,
+                        help="also write leaf counts per top-level component to this CSV")
     args = parser.parse_args()
+
+    if args.components:
+        args.components.parent.mkdir(parents=True, exist_ok=True)
+        with args.components.open("w", newline="", encoding="utf-8-sig") as stream:
+            writer = csv.writer(stream)
+            writer.writerow(("component_index", "component", "subassembly", "cad_name", "quantity"))
+            for index, (top, counts) in enumerate(components(args.step_file), 1):
+                for (subassembly, name), quantity in sorted(counts.items()):
+                    writer.writerow((index, top, subassembly, name, quantity))
 
     leaves, assemblies, occurrence_count, root_count = inventory(args.step_file)
     if root_count != 1:

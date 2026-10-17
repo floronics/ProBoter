@@ -372,6 +372,62 @@ def make_orders(parts):
             o[k]=prose(o[k])
     return orders
 
+COMPONENT_CSV = 'evidence/component-inventory.csv'
+FUSION = 'evidence/fusion-inventory.json'
+COMPONENT_TITLE = {
+    'base': 'Grundgestell mit X-Antrieben, Platinen- und Kamerahalter',
+    'x_slide': 'X-Wagen einer Prüfeinheit',
+    'y_slide': 'Y-Schlitten',
+    'y_slide_mirrored': 'Y-Schlitten, gespiegelt',
+    'z_slide': 'Z-Achse',
+    'z_slide_long': 'Z-Achse, lange Ausführung',
+}
+COMPONENT_ORDER = ['base','x_slide','y_slide','y_slide_mirrored','z_slide','z_slide_long']
+NOT_IN_CAD = 'K14 Nicht im CAD-Modell'
+
+def fusion_name(path):
+    return re.sub(r'( \(\d+\))?:\d+$','',path).lower()
+
+def make_components(parts):
+    """One row per (top-level component, direct subassembly, part); SYS parts form K14.
+
+    STEP placements are matched to Fusion's top-level paths by definition name
+    and order, so the third x_slide in STEP becomes Fusion's x_slide:3.
+    """
+    with (BOM/COMPONENT_CSV).open(encoding='utf-8-sig') as f:
+        step=list(csv.DictReader(f))
+    occurrences=json.loads((BOM/FUSION).read_text(encoding='utf-8'))['occurrences']
+    fusion_tops=[o['path'] for o in occurrences if '+' not in o['path']]
+    fusion_leaves=Counter((o['path'].split('+')[0],o['name']) for o in occurrences if o['children']==0)
+    by_name={}
+    for path in fusion_tops: by_name.setdefault(fusion_name(path),[]).append(path)
+    placement={}
+    for r in step:
+        if r['component_index'] not in placement:
+            name=r['component'].lower()
+            placement[r['component_index']]=by_name[name][sum(fusion_name(v)==name for v in placement.values())]
+    assert sorted(placement.values())==sorted(fusion_tops)
+    tops=sorted(fusion_tops,key=lambda t:(COMPONENT_ORDER.index(fusion_name(t)),t))
+    number={t:f'K{i:02}' for i,t in enumerate(tops,1)}
+    byname={p['cad_name']:p for p in parts if p['cad_name']}
+    step_leaves=Counter()
+    for r in step: step_leaves[(placement[r['component_index']],r['cad_name'])]+=int(r['quantity'])
+    rows=[]
+    for r in step:
+        top=placement[r['component_index']];part=byname[r['cad_name']]
+        complete=fusion_leaves[(top,part['cad_name'])]==step_leaves[(top,part['cad_name'])]
+        rows.append(dict(component=f'{number[top]} {top}',fusion_path=top,title=COMPONENT_TITLE[fusion_name(top)],
+                         subassembly=r['subassembly'],id=part['id'],name=part['name'],cad_name=part['cad_name'],
+                         quantity=int(r['quantity']),unit='Stück',in_fusion='ja' if complete else 'fehlt im Fusion-Import',
+                         group=part['group'],status=part['status']))
+    for part in parts:
+        if not part['cad_name']:
+            rows.append(dict(component=NOT_IN_CAD,fusion_path='',title='Systemteile ohne CAD-Körper',subassembly='',
+                             id=part['id'],name=part['name'],cad_name='',quantity=part['quantity'],unit=part['unit'],
+                             in_fusion='nein',group=part['group'],status=part['status']))
+    rows.sort(key=lambda r:(r['component'],r['subassembly'],r['id']))
+    return rows
+
 def write_csv(path,rows):
     with path.open('w',encoding='utf-8-sig',newline='') as f:
         w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
@@ -391,7 +447,34 @@ def table(headers,rows):
         return value.replace('|','/').replace('\n',' ')
     return '\n'.join(['| '+' | '.join(cell(h) for h in headers)+' |','| '+' | '.join('---' for _ in headers)+' |']+['| '+' | '.join(cell(v) for v in r)+' |' for r in rows])+'\n'
 
-def render(parts,orders):
+def component_sections(parts,components):
+    byid={p['id']:p for p in parts}
+    names=sorted({r['component'] for r in components})
+    anchor=lambda n:'komp-'+n.split()[0][1:]
+    text='# Teile nach Komponente\n\n'
+    text+='Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell; K14 sammelt die Teile ohne CAD-Körper. Teile aus Unterbaugruppen bleiben bei ihrer Komponente, die Unterbaugruppe steht in der zweiten Spalte. Die Stückzahlen sind STEP-Mengen je Komponente; die Planmenge gilt für die ganze Maschine und steht in den Details. [CSV je Komponente](teileliste-komponenten.csv)\n\n'
+    text+=table(['Komponente','Inhalt','Positionen','Stück laut CAD'],[
+        [f'[{n}](#{anchor(n)})',[r for r in components if r['component']==n][0]['title'],
+         len({r['id'] for r in components if r['component']==n}),
+         sum(r['quantity'] for r in components if r['component']==n) if n!=NOT_IN_CAD else '–'] for n in names])+'\n'
+    def note(r):
+        p=byid[r['id']];extra=[r['status']]
+        if str(p['quantity'])!=str(p['cad_quantity']): extra.append(f"Plan gesamt {qty(p['quantity'])} statt {p['cad_quantity']}")
+        if r['in_fusion']!='ja': extra.append(r['in_fusion'])
+        return '; '.join(extra)
+    for n in names:
+        rows=[r for r in components if r['component']==n]
+        text+=f'<a id="{anchor(n)}"></a>\n\n## {n} – {rows[0]["title"]}\n\n'
+        if n==NOT_IN_CAD:
+            text+=table(['ID / Teil','Planmenge','Beschaffungsart','Status'],[
+                [f"[{r['id']}](#{r['id'].lower()}) {r['name']}",f"{qty(r['quantity'])} {r['unit']}",r['group'],r['status']] for r in rows])+'\n'
+        else:
+            text+=table(['ID / Teil','Unterbaugruppe','CAD-Name','Stück','Status'],[
+                [f"[{r['id']}](#{r['id'].lower()}) {r['name']}",f"`{r['subassembly']}`" if r['subassembly'] else 'direkt',
+                 f"`{r['cad_name']}`",r['quantity'],note(r)] for r in rows])+'\n'
+    return text
+
+def render(parts,orders,components):
     required=[o for o in orders if not o['optional']]
     web=[o for o in required if o['price_kind']=='Webpreis']
     estimates=[o for o in required if o['price_kind']=='Schätzung']
@@ -402,6 +485,8 @@ def render(parts,orders):
     (BOM/'kosten.json').write_text(json.dumps(totals,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     intro='# Teileliste für einen PROBoter mit vier Prüfeinheiten\n\nStand16.10.2026. **Planungsstückliste mit expliziten Lücken, keine bestätigte Original-BOM.**\n\nCAD/Fusion-Mengen bleiben unverändert; die Planmenge ist eine getrennte Entscheidung. Alle Maße in mm. `CAD-xxx` sind stabile IDs dieses Inventurstandes; `SYS-xxx` ergänzen Systembedarf. Änderungen von IDs nur mit Migration. [Bestellübersicht](Bestellliste.md) · [Fertigung](Fertigung.md) · [CSV](teileliste.csv) · [CAD-Beweise](CAD-Pruefung.md).\n\n'
     intro+='**Status:** bestellfähig = Modell und Bezugsquelle eindeutig (Liefertermin trotzdem prüfen); teilweise geklärt = Familie bekannt, mindestens eine Passungs-/Mengenfrage offen; Fertigung spezifiziert = Material, Zeichnung und Verfahren freigegeben; Fertigung noch offen = mindestens eine dieser Angaben fehlt; nicht identifiziert = erforderliche genaueIdentität unbekannt; nicht benötigt = begründeter Ausschluss. Aktuell erreicht kein Sonderteil den Status Fertigung spezifiziert.\n\n'
+    intro+=component_sections(parts,components)
+    intro+='# Details nach Beschaffungsart\n\n'
     groups=['Kaufteile','3D-Druck intern','Blech intern','CNC extern','Weitere Fertigung','PCB extern','Ungeklärte Teile','Optional','Nicht benötigt']
     for group in groups:
         subset=[p for p in parts if p['group']==group]
@@ -579,7 +664,7 @@ Angebotspaket: separate STEP-Datei jeCAD-ID,2D-PDF mit Datumsstand/Revision, Mat
     text='\n'.join(prose(line) if 'http' not in line else line for line in text.split('\n'))
     (BOM/'Fertigung.md').write_text(text.rstrip()+'\n',encoding='utf-8')
 
-def validate(parts,orders):
+def validate(parts,orders,components=None):
     with (BOM/CAD).open(encoding='utf-8-sig') as f:
         expected={r['id'] for r in csv.DictReader(f)}
     actual=[p['id'] for p in parts if p['id'].startswith('CAD-')]
@@ -587,6 +672,14 @@ def validate(parts,orders):
     assert sum(int(p['cad_quantity']) for p in parts if p['cad_quantity'])==1066
     assert len({p['id'] for p in parts})==len(parts)
     assert len({o['id'] for o in orders})==len(orders)
+    if components is not None:
+        placed=Counter()
+        for r in components:
+            if r['component']!=NOT_IN_CAD: placed[r['id']]+=r['quantity']
+        for p in parts:
+            if p['cad_name']: assert placed[p['id']]==int(p['cad_quantity']),p['id']
+        assert len({r['component'] for r in components})==14
+        assert {r['id'] for r in components if r['component']==NOT_IN_CAD}=={p['id'] for p in parts if not p['cad_name']}
     for p in parts:
         assert p['status'] in {'bestellfähig','teilweise geklärt','Fertigung spezifiziert','Fertigung noch offen','nicht identifiziert','nicht benötigt'}
         assert p['source'] and p['issue']
@@ -601,9 +694,10 @@ def validate(parts,orders):
             assert abs(o['gross_eur']-money(o['net_eur']*(1+VAT)))<=CENT
 
 def main():
-    parts=make_parts();orders=make_orders(parts);validate(parts,orders)
+    parts=make_parts();orders=make_orders(parts);components=make_components(parts);validate(parts,orders,components)
     write_csv(BOM/'teileliste.csv',parts);write_csv(BOM/'bestellliste.csv',orders)
-    totals=render(parts,orders)
+    write_csv(BOM/'teileliste-komponenten.csv',components)
+    totals=render(parts,orders,components)
     print(json.dumps(totals,ensure_ascii=False,indent=2))
 
 if __name__=='__main__': main()
