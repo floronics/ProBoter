@@ -281,7 +281,8 @@ def make_parts():
             process_evidence='WERKSTATT: eigene Fertigung (Entscheidung Luis 17.10.2026)'
             note=('10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten.' if key in ids(16,17,18,19) else '5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten.')+' Zeichnung aus CAD ableiten.'
         if key=='CAD-108':
-            note='Fusion-Messung: massiver Rundstab Ø4×70 mm, Fasen an beiden Enden, ohne Gewinde. Fertig kaufen gewünscht (Luis 17.10.2026); kein lieferbarer Ø4×70-Stift gefunden. Alternative: Ø4-h6-Silberstahl ablängen.'
+            note='Fusion-Messung: massiver Rundstab Ø4×70 mm, Fasen an beiden Enden, ohne Gewinde. Werkstatt: aus Ø4-h6-Silberstahl (1.2210) ablängen und anfasen (Entscheidung Luis 17.10.2026).'
+            material='Silberstahl 1.2210 Ø4 h6'; status='Fertigung spezifiziert'; process_evidence='WERKSTATT: Ablängen und Anfasen'
         if key=='CAD-103':
             note='Profil 16×40, 436 mm, CAD-Querschnitt 446 mm², Kernbohrungen Ø2,46/Ø5. Kein passendes Nut-5-Profil gefunden (Recherche 17.10.2026); Kandidat norelem 16×40 Typ I hat Nut 8. Profil identifizieren.'
         if key=='CAD-003':

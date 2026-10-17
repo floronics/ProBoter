@@ -62,7 +62,7 @@ M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored 
 M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-112,Y-Achse Schlitten oben,y_slide_top,2,2,Fertigung spezifiziert,3D-Druck intern,
 M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-110,Y-Achse Schlitten gespiegelt,y_slide_mirrored,2,2,Fertigung spezifiziert,3D-Druck intern,
 M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-111,Y-Achse Schlitten gespiegelt oben,y_slide_mirrored_top,2,2,Fertigung spezifiziert,3D-Druck intern,
-M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-108,Y-Achse Schlitten Abstand Stange,y_slide_distance_rod,8,8,Fertigung noch offen,Weitere Fertigung,
+M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-108,Y-Achse Schlitten Abstand Stange,y_slide_distance_rod,8,8,Fertigung spezifiziert,Weitere Fertigung,
 M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-080,GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm,rod_slide_d10_l19,16,16,bestellfähig,Kaufteile,
 M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-001,Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter),TR10x2_GT2_belt_adapter,4,4,Fertigung spezifiziert,3D-Druck intern,"Klemmt den Y-Riemen am Schlitten (Fusion-Kontakt mit y_belt), keine Spindelmutter."
 M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-002,"Y-Riemenklemme, Deckel",TR10x2_GT2_belt_adapter_cover,4,4,Fertigung spezifiziert,3D-Druck intern,

@@ -301,7 +301,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
 | [CAD-105](#cad-105) Y-Achse Kamera Halter | direkt | `y_camera_holder` | 1 | Fertigung spezifiziert |
 | [CAD-107](#cad-107) Y-Achse Schlitten | direkt | `y_slide` | 1 | Fertigung spezifiziert |
-| [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung noch offen |
+| [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung spezifiziert |
 | [CAD-109](#cad-109) Y-Achse Schlitten Abstand Rohr 2 mm | direkt | `y_slide_distance_tube_2mm` | 1 | Fertigung noch offen |
 | [CAD-112](#cad-112) Y-Achse Schlitten oben | direkt | `y_slide_top` | 1 | Fertigung spezifiziert |
 | [CAD-113](#cad-113) GT2-Riemen Z, 9 mm breit | direkt | `z_drive_belt` | 1 | bestellfähig |
@@ -334,7 +334,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
 | [CAD-105](#cad-105) Y-Achse Kamera Halter | direkt | `y_camera_holder` | 1 | Fertigung spezifiziert |
 | [CAD-107](#cad-107) Y-Achse Schlitten | direkt | `y_slide` | 1 | Fertigung spezifiziert |
-| [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung noch offen |
+| [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung spezifiziert |
 | [CAD-109](#cad-109) Y-Achse Schlitten Abstand Rohr 2 mm | direkt | `y_slide_distance_tube_2mm` | 1 | Fertigung noch offen |
 | [CAD-112](#cad-112) Y-Achse Schlitten oben | direkt | `y_slide_top` | 1 | Fertigung spezifiziert |
 | [CAD-113](#cad-113) GT2-Riemen Z, 9 mm breit | direkt | `z_drive_belt` | 1 | bestellfähig |
@@ -366,7 +366,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | bestellfähig |
 | [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
 | [CAD-106](#cad-106) Y-Achse Kamera Halter kompakt | direkt | `y_camera_holder_compact` | 1 | Fertigung spezifiziert |
-| [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung noch offen |
+| [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung spezifiziert |
 | [CAD-109](#cad-109) Y-Achse Schlitten Abstand Rohr 2 mm | direkt | `y_slide_distance_tube_2mm` | 1 | Fertigung noch offen |
 | [CAD-110](#cad-110) Y-Achse Schlitten gespiegelt | direkt | `y_slide_mirrored` | 1 | Fertigung spezifiziert |
 | [CAD-111](#cad-111) Y-Achse Schlitten gespiegelt oben | direkt | `y_slide_mirrored_top` | 1 | Fertigung spezifiziert |
@@ -399,7 +399,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | bestellfähig |
 | [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
 | [CAD-106](#cad-106) Y-Achse Kamera Halter kompakt | direkt | `y_camera_holder_compact` | 1 | Fertigung spezifiziert |
-| [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung noch offen |
+| [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung spezifiziert |
 | [CAD-109](#cad-109) Y-Achse Schlitten Abstand Rohr 2 mm | direkt | `y_slide_distance_tube_2mm` | 1 | Fertigung noch offen |
 | [CAD-110](#cad-110) Y-Achse Schlitten gespiegelt | direkt | `y_slide_mirrored` | 1 | Fertigung spezifiziert |
 | [CAD-111](#cad-111) Y-Achse Schlitten gespiegelt oben | direkt | `y_slide_mirrored_top` | 1 | Fertigung spezifiziert |
@@ -698,7 +698,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="cad-094"></a>**CAD-094** X-Achse Endschalter oben kurz<br>`x_end_stop_top_short` | 4 / 4 / **4 Stück** | Fertigung noch offen | 75.0 x 8.0 x 8.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-005` |
 | <a id="cad-098"></a>**CAD-098** X-Achse rund Schiene<br>`x_round_rail` | 8 / 8 / **8 Stück** | bestellfähig | 10.0 x 450.0 x 10.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-004` |
 | <a id="cad-103"></a>**CAD-103** X-Achse Schlitten Versteifung Träger<br>`x_slide_stiffener_beam` | 4 / 4 / **4 Stück** | Fertigung noch offen | 40.0 x 436.0 x 16.0; je Teil vorgeschlagen, siehe Fertigung.md | Profil 16×40, 436 mm, CAD-Querschnitt 446 mm², Kernbohrungen Ø2,46/Ø5. Kein passendes Nut-5-Profil gefunden (Recherche 17.10.2026); Kandidat norelem 16×40 Typ I hat Nut 8. Profil identifizieren.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-005` |
-| <a id="cad-108"></a>**CAD-108** Y-Achse Schlitten Abstand Stange<br>`y_slide_distance_rod` | 8 / 8 / **8 Stück** | Fertigung noch offen | 4.0 x 70.0 x 4.0; je Teil vorgeschlagen, siehe Fertigung.md | Fusion-Messung: massiver Rundstab Ø4×70 mm, Fasen an beiden Enden, ohne Gewinde. Fertig kaufen gewünscht (Luis 17.10.2026); kein lieferbarer Ø4×70-Stift gefunden. Alternative: Ø4-h 6-Silberstahl ablängen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-005` |
+| <a id="cad-108"></a>**CAD-108** Y-Achse Schlitten Abstand Stange<br>`y_slide_distance_rod` | 8 / 8 / **8 Stück** | Fertigung spezifiziert | 4.0 x 70.0 x 4.0; Silberstahl 1.2210 Ø4 h 6 | Fusion-Messung: massiver Rundstab Ø4×70 mm, Fasen an beiden Enden, ohne Gewinde. Werkstatt: aus Ø4-h 6-Silberstahl (1.2210) ablängen und anfasen (Entscheidung Luis 17.10.2026).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-005` |
 | <a id="cad-109"></a>**CAD-109** Y-Achse Schlitten Abstand Rohr 2 mm<br>`y_slide_distance_tube_2mm` | 4 / 4 / **4 Stück** | Fertigung noch offen | 3.0 x 10.0 x 10.0; je Teil vorgeschlagen, siehe Fertigung.md | Name nennt 2 mm, CAD zeigt 3 mm Dicke. Innendurchmesser, Material und benötigte Distanz vor Fertigung klären.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-005` |
 | <a id="sys-005"></a>**SYS-005** Innere Messing-Referenzzylinder | – / – / **4 Stück** | Fertigung noch offen | offen; nicht belegt | Je 1×Ø7/8/9/10 mm nach Reference Board.inner_brass_pin_position_map; Raster 11,95×19,95 mm. Endfläche auf Bezugsebene; Gesamtlänge, Einbau, Toleranzen und Messprotokoll fehlen.<br>[Beleg](../software/hardware-control/proboter/tasks/utils/reference_board.py); Kostenzeile `OPEN-SYS-005` |
 | <a id="sys-006"></a>**SYS-006** Kalibriermarker / matte Druckvorlage | – / – / **1 Satz** | Fertigung noch offen | offen; nicht belegt | 4 Hamming-Marker mit IDs 1/3/6/12 laut Reference Board, je 18,2×18,2 mm, Raster 60×80 mm. Mtracker-Format verwenden, keine beliebigen Ar Uco-Marker. Maßstab 1:1 und reale Abstände vermessen.<br>[Beleg](../software/hardware-control/proboter/tasks/utils/reference_board.py); Kostenzeile `OPEN-SYS-006` |

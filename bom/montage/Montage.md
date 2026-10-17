@@ -6,7 +6,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [M01 Grundgerüst](#modul-01) | 13 | 70 | 10 | 0 | 3 | 0 | 0 | 0 |
 | [M02 X-Achse](#modul-02) | 33 | 434 | 21 | 0 | 7 | 5 | 0 | 0 |
-| [M03 Y-Achse](#modul-03) | 27 | 168 | 17 | 0 | 1 | 9 | 0 | 0 |
+| [M03 Y-Achse](#modul-03) | 27 | 168 | 17 | 0 | 0 | 10 | 0 | 0 |
 | [M04 Z-Achse](#modul-04) | 20 | 100 | 12 | 2 | 3 | 3 | 0 | 0 |
 | [M05 Schublade und Platinenhalter](#modul-05) | 15 | 53 | 8 | 1 | 1 | 4 | 1 | 0 |
 | [M06 Kabelführung](#modul-06) | 10 | 57 | 3 | 0 | 2 | 5 | 0 | 0 |
@@ -151,16 +151,20 @@ X-Führungen und 8 X-Riemenantriebe auf den Motorplatten sowie die 4 X-Wagen als
 | [CAD-078](../Teileliste.md#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `return_pulley_gt2_z16_6mm` | 4 | bestellfähig | Kaufteile |
 | [CAD-080](../Teileliste.md#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | `rod_slide_d10_l19` | 16 | bestellfähig | Kaufteile |
 | [CAD-104](../Teileliste.md#cad-104) GT2-Riemen Y, 6 mm breit | `y_belt` | 4 | bestellfähig | Kaufteile |
-| [CAD-108](../Teileliste.md#cad-108) Y-Achse Schlitten Abstand Stange | `y_slide_distance_rod` | 8 | Fertigung noch offen | Weitere Fertigung |
 | [CAD-001](../Teileliste.md#cad-001) Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | `TR10x2_GT2_belt_adapter` | 4 | Fertigung spezifiziert; Klemmt den Y-Riemen am Schlitten (Fusion-Kontakt mit y_belt), keine Spindelmutter. | 3D-Druck intern |
 | [CAD-002](../Teileliste.md#cad-002) Y-Riemenklemme, Deckel | `TR10x2_GT2_belt_adapter_cover` | 4 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-015](../Teileliste.md#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `base_nema_14_to_17_adapter` | 4 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-021](../Teileliste.md#cad-021) Riemen Spanner GT2 Basis | `belt_tightener_GT2_base` | 4 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-022](../Teileliste.md#cad-022) Riemen Spanner GT2 Flügel | `belt_tightener_GT2_wing` | 4 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-107](../Teileliste.md#cad-107) Y-Achse Schlitten | `y_slide` | 2 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-108](../Teileliste.md#cad-108) Y-Achse Schlitten Abstand Stange | `y_slide_distance_rod` | 8 | Fertigung spezifiziert | Weitere Fertigung |
 | [CAD-110](../Teileliste.md#cad-110) Y-Achse Schlitten gespiegelt | `y_slide_mirrored` | 2 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-111](../Teileliste.md#cad-111) Y-Achse Schlitten gespiegelt oben | `y_slide_mirrored_top` | 2 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-112](../Teileliste.md#cad-112) Y-Achse Schlitten oben | `y_slide_top` | 2 | Fertigung spezifiziert | 3D-Druck intern |
+
+**Werkstattfertigung**
+
+- CAD-108 Abstandsstangen: Ø4-h6-Silberstahl ablängen (70 mm) und anfasen (Entscheidung 17.10.2026).
 
 **Bei der Prüfung aus dem Modul genommen**
 
@@ -168,10 +172,6 @@ X-Führungen und 8 X-Riemenantriebe auf den Motorplatten sowie die 4 X-Wagen als
 - Kamerahalter, Mikroskop, optischer Endschalter mit M3×12 und Muttern, Energiekette: Optik bzw. Elektrik.
 - CAD-001/002 heißen TR10x2-Adapter, sind laut Fusion aber die Klemme des Y-Riemens; Bezeichnung in der Teileliste angepasst.
 - Sicherungsringe der Gleitbuchsen: nicht nötig. Fusion-Messung zeigt, dass Y-Schlitten und Deckel die Ø19-Buchsen mit den M4×30 klemmen.
-
-**Offene Fragen**
-
-- Abstandsstangen CAD-108 (8 × Ø4×70, Fasen): fertig kaufen gewünscht, aber kein lieferbarer Ø4×70-Stift gefunden (ISO 2338/8734 enden meist bei 40–55 mm). Alternative: Ø4-h6-Silberstahl ablängen.
 
 <a id="modul-04"></a>
 

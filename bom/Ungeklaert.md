@@ -37,7 +37,6 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | CAD-099 X-Achse Seite Platte | 4 Stück | 5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten. Zeichnung aus CAD ableiten. |
 | CAD-100 X-Achse Seite Platte beweglich | 4 Stück | 5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten. Zeichnung aus CAD ableiten. |
 | CAD-103 X-Achse Schlitten Versteifung Träger | 4 Stück | Profil 16×40, 436 mm, CAD-Querschnitt 446 mm², Kernbohrungen Ø2,46/Ø5. Kein passendes Nut-5-Profil gefunden (Recherche 17.10.2026); Kandidat norelem 16×40 Typ I hat Nut 8. Profil identifizieren. |
-| CAD-108 Y-Achse Schlitten Abstand Stange | 8 Stück | Fusion-Messung: massiver Rundstab Ø4×70 mm, Fasen an beiden Enden, ohne Gewinde. Fertig kaufen gewünscht (Luis 17.10.2026); kein lieferbarer Ø4×70-Stift gefunden. Alternative: Ø4-h 6-Silberstahl ablängen. |
 | CAD-109 Y-Achse Schlitten Abstand Rohr 2 mm | 4 Stück | Name nennt 2 mm, CAD zeigt 3 mm Dicke. Innendurchmesser, Material und benötigte Distanz vor Fertigung klären. |
 | CAD-119 Z-Achse Schlitten Endschalter Auslöser | 2 Stück | CAD .psm und dünner Körper sprechen für Blech; Dicke, Biegung und Sensor-Triggerwirkung nachweisen. Hüllmaß ist keine Abwicklung. |
 | CAD-120 Z-Achse Schlitten Endschalter Auslöser gespiegelt | 2 Stück | CAD .psm und dünner Körper sprechen für Blech; Dicke, Biegung und Sensor-Triggerwirkung nachweisen. Hüllmaß ist keine Abwicklung. |

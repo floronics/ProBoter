@@ -618,8 +618,9 @@
         "CAD-001/002 heißen TR10x2-Adapter, sind laut Fusion aber die Klemme des Y-Riemens; Bezeichnung in der Teileliste angepasst.",
         "Sicherungsringe der Gleitbuchsen: nicht nötig. Fusion-Messung zeigt, dass Y-Schlitten und Deckel die Ø19-Buchsen mit den M4×30 klemmen."
       ],
-      "offen": [
-        "Abstandsstangen CAD-108 (8 × Ø4×70, Fasen): fertig kaufen gewünscht, aber kein lieferbarer Ø4×70-Stift gefunden (ISO 2338/8734 enden meist bei 40–55 mm). Alternative: Ø4-h6-Silberstahl ablängen."
+      "offen": [],
+      "werkstatt": [
+        "CAD-108 Abstandsstangen: Ø4-h6-Silberstahl ablängen (70 mm) und anfasen (Entscheidung 17.10.2026)."
       ]
     },
     {
