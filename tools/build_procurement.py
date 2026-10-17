@@ -125,7 +125,7 @@ DETAIL = {
 27: ('CPC MR12ML Führungswagen', '8 Wagen MR12MLSSV0N für 2×600-mm-Schienen. CPC-Katalog SS-Ausführung: L 47,6, Körperhöhe 10, Breite 27, Lochbild 20×20 M3 = CAD und Fusion-Messung. Lieferbarkeit bei Motedis prüfen.', 'MOTEDIS'),
 49: ('igus E2i.10.10.028.0, 16 kurze Abschnitte', 'Teilung 20 mm, Außenbreite 17,4, Einbauhöhe 71 bei R28 = CAD. 0,24 m = 12 Glieder, zusammen 192 Glieder. Anschlüsse siehe SYS-027.', 'IGUS'),
 50: ('igus E2i.10.20.028.0, 8 lange Abschnitte', 'Teilung 20 mm, Außenbreite 27,4, Einbauhöhe 71 = CAD. 0,28 m = 14 Glieder, zusammen 112 Glieder. Anschlüsse siehe SYS-028.', 'IGUS'),
-51: ('Schubladengriff, Lochabstand 100 mm', 'DOLD A-75903 passt in Länge 113, Höhe 49 und Lochabstand 100, hat aber M6-Gewinde; Fusion misst Ø5,5. Prüfen, ob die CAD-Bohrung ein Durchgangsloch ist (dann A-75873, 112 mm lang).', 'DOLD'),
+51: ('Schubladengriff DOLD A-75873, Lochabstand 100 mm', 'Fusion-Messung: Bohrungen Ø5,5 durchgehend (29 mm) = Variante mit Befestigungsbohrungen A-75873 (Ø5,4, 112 statt 113 mm lang). Entscheidung Luis 17.10.2026. Befestigung SYS-044/045.', 'DOLD'),
 52: ('Gelenkfuß M6×20 / Teller Ø40 mm', 'DOLD GF-K-10-PA-028: M6, Teller Ø40 = CAD; Fusion-Messung Gewindelänge 20 mm = Variante M6×20. Traglast vom Händler nicht angegeben.', 'DOLD'),
 53: ('HIWIN MGNR12R150HM, Z-Schiene 150 mm', 'HIWIN-Katalog: 12×8, Teilung 25, Bohrung Ø3,5/Ø6; 150 mm mit 6 Bohrungen und Endabstand 12,5 = Fusion-Messung. Bezug Damen CNC (NL), Zuschnitt.', 'DAMEN'),
 54: ('HIWIN MGN12CZ0HM Z-Führungswagen', 'Bestellschlüssel: Z0 spielfrei, H hohe Genauigkeit, M Edelstahl. Breite 27, Körperhöhe 10, Lochbild 20×15 M3 = CAD; Katalog-Länge 34,7 statt CAD 35,7.', 'DAMEN'),
@@ -201,6 +201,12 @@ SYSTEM = [
 ('041','Nutenstein I-Typ Nut 6, M6, Motorplatten',8,'Stück','Kaufteile','DOLD','Fusion-Kontaktanalyse M01: die 8 Senkschrauben M6×20 der Motorplatten greifen in die Nut der 60×30-Profile; im CAD kein Gegenstück.',CAD),
 ('042','Nutenstein I-Typ Nut 6, M4, Rückwand',6,'Stück','Kaufteile','DOLD','Fusion-Kontaktanalyse M01: 6 Bohrungen Ø4,5 der Rückwand liegen auf den langen Profilen; im CAD keine Befestigung.',CAD),
 ('043','Zylinderschraube DIN 912 M4×10 A2, Rückwand',6,'Stück','Kaufteile','SCHRAUBEN','Zu SYS-042; 3 mm Rückwand plus Nutenstein.',CAD),
+('044','Nutenstein I-Typ Nut 6, M5, Griff',2,'Stück','Kaufteile','DOLD','Griff A-75873 mit Durchgangsbohrungen wird von vorn ins Schubladenprofil geschraubt.',CAD),
+('045','Zylinderschraube DIN 912 M5×35 A2, Griff',2,'Stück','Kaufteile','SCHRAUBEN','Länge aus 29 mm Griffbein plus Nutenstein; Artikel noch nicht verifiziert.',CAD),
+('046','Zylinderschraube DIN 912 M4×10 A2, Wellenhalter',7,'Stück','Kaufteile','SCHRAUBEN','Fusion-Messung: 4 Wellenhalter mit je 2 Bohrungen Ø4,5 über der Nut der Schubladen-Querprofile; 1 von 8 Schrauben im CAD.',CAD),
+('047','Nutenstein I-Typ Nut 6, M4, Wellenhalter',8,'Stück','Kaufteile','DOLD','Gegenstück zu den 8 Wellenhalter-Schrauben.',CAD),
+('048','Flachkopfschraube M4×8 A2, Teleskopschienen',12,'Stück','Kaufteile','SCHRAUBEN','ANNAHME (Luis 17.10.2026): je Schiene 3 Schrauben zum Rahmen und 3 zur Schublade; im CAD keine Befestigung. Kopfhöhe muss in den Auszug passen; Artikel noch nicht verifiziert.',CAD),
+('049','Nutenstein I-Typ Nut 6, M4, Teleskopschienen',12,'Stück','Kaufteile','DOLD','ANNAHME, Gegenstück zu SYS-048.',CAD),
 ]
 
 def make_parts():
@@ -275,7 +281,7 @@ def make_parts():
         if key=='CAD-063': quantity=4
         if key=='CAD-085': quantity=1
         if key in EXCLUDED: quantity=0
-        if key in ids(11,12,13,14,20,27,63,69,76,77,78,98,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
+        if key in ids(11,12,13,14,20,27,51,63,69,76,77,78,98,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
         if key=='CAD-080': title='GleitbuchseØ10 innen / Ø19 außen / Länge29mm'
         if key=='CAD-001': title='Y-Riemenklemme (CAD-Name TR10x2 GT2 Adapter)'
         if key=='CAD-002': title='Y-Riemenklemme, Deckel'
@@ -316,7 +322,7 @@ def make_parts():
         if group in ['PCB extern','3D-Druck intern','Weitere Fertigung']: status='Fertigung noch offen'
         if group=='Ungeklärte Teile': status='nicht identifiziert'
         if group=='Nicht benötigt': status='nicht benötigt'
-        if key in ('041','042','043'): status='bestellfähig'
+        if key in ('041','042','043','044','046','047','049'): status='bestellfähig'
         result.append(dict(id='SYS-'+key,name=title,cad_name='',cad_quantity='',fusion_quantity='',quantity=qty,
                            unit=unit,group=group,status=status,geometry_mm='',solid_volume_cm3='',
                            material='nicht belegt',process_evidence='Planungsbedarf; '+source,
@@ -398,7 +404,7 @@ def make_orders(parts):
     add('BUY-024','16 Anschlusssätze E2.10 schmal',['SYS-027'],16,unit='Satz',offer='O-050')
     add('BUY-025','8 Anschlusssätze E2.10 breit',['SYS-028'],8,unit='Satz',offer='O-051')
     add('BUY-017','Z-Riemen 9 mm',ids(113),D('1.28'),unit='m',offer='O-044',note='Zuschnitt aus Fusion-Messung 4×0,32 m.')
-    for key in ('SYS-041','SYS-042','SYS-043'):
+    for key in ('SYS-041','SYS-042','SYS-043','SYS-044','SYS-046','SYS-047','SYS-049'):
         add('BUY-'+key,byid[key]['name'],[key],byid[key]['quantity'],offer=cad_offers[key])
     for n in (51,52,59,81,84):
         p=byid[f'CAD-{n:03}']

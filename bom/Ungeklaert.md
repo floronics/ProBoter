@@ -54,7 +54,6 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | ID / Teil | Bedarf | Nächsterkonkreter Schritt |
 | --- | --- | --- |
 | CAD-023 BIGTREETECH SKR V1.3 Steuerplatine | 4 Stück | Original laut CAD, Firmware und Masterarbeit. Neu in DE/EU nicht gefunden (Recherche 17.10.2026). Kandidat SKR 1.4 Turbo (RBS13645) passt auf fast dieselben Löcher, braucht aber Marlin-Pinanpassung; nicht freigegeben. |
-| CAD-051 Schubladengriff, Lochabstand 100 mm | 1 Stück | DOLD A-75903 passt in Länge 113, Höhe 49 und Lochabstand 100, hat aber M6-Gewinde; Fusion misst Ø5,5. Prüfen, ob die CAD-Bohrung ein Durchgangsloch ist (dann A-75873, 112 mm lang). |
 | CAD-058 ISO 8673 Mutter M8 | 53 Stück | Norm und Maße mit CAD abgeglichen; Artikel 24122 08 1. A4 statt A2; H 6,5 statt 6,8. Datenblatt nennt Linksgewinde, vermutlich Datenfehler: vor Bestellung klären. Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026). ISO 8673 M8×1 passt zu den M8×1-Gewinden der induktiven Sensoren. Sensoren liefern meist 2 Muttern mit; dann nur Reserve kaufen. |
 | CAD-085 Bewegliches USB-Mikroskop | 1 Stück | Plan 1 laut Hardware-Blog,4CAD. Weitere 3 optional. Originalmodell unbekannt; Kandidat muss 100 mm Arbeitsabstand/ca 30×40 mm Bildfeld und Linux-UVC erfüllen. |
 | SYS-001 TMC2130 SPI Treibermodule | 16 Stück | 4 je SKR für X/X2/Y/Z. RBS13024: 4 Treiber mit Kühlkörpern und Kabel, SPI-Pins laut Fotos vorgelötet. Revision nicht angegeben; SPI-Modus laut Datenblatt per Lötbrücke CFG4/CFG5 prüfen. |
@@ -82,6 +81,8 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | SYS-031 Lötzinn, Schrumpfschlauch, Binder, Labels, Kleber | 1 Satz | Verbrauchsmaterialbudget; vorhan dene Bestände später abziehen. Werkzeuge nicht enthalten. |
 | SYS-032 Controller-Befestigung und Kühlung | 1 Satz | Abstandshalter, Isolierung, ggf.Lüfter; SKR/TMC-Beipack und thermische Auslegung prüfen. |
 | SYS-038 Kalibrier-Kontaktleitungen und gemeinsame Messreferenz | 1 Satz | 4 SKR-Zentriereingänge P0_17 mit Pull-up/aktiv Low sowie Referenzkörper/Kontaktkreis verdrahten. Netzplan, Stecker, Länge und Bezugspotenzial mit Multiplexer klären; keine Verbindung ungeprüft festlegen. |
+| SYS-045 Zylinderschraube DIN 912 M5×35 A2, Griff | 2 Stück | Länge aus 29 mm Griffbein plus Nutenstein; Artikel noch nicht verifiziert. |
+| SYS-048 Flachkopfschraube M4×8 A2, Teleskopschienen | 12 Stück | ANNAHME (Luis 17.10.2026): je Schiene 3 Schrauben zum Rahmen und 3 zur Schublade; im CAD keine Befestigung. Kopfhöhe muss in den Auszug passen; Artikel noch nicht verifiziert. |
 
 ## Reihenfolge zum Schließen der Lücken
 

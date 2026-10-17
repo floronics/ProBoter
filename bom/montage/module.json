@@ -929,34 +929,39 @@
           "scope": "base:1",
           "sub": "pcb_holder",
           "cad_name": "din_912_m4x10"
-        }
-      ],
-      "zusatz": [
-        {
-          "teil": "Befestigung Teleskopschienen (Schrauben + Nutensteine I-Typ Nut 6)",
-          "menge": "offen",
-          "bezug": "CAD-084, SYS-029",
-          "grund": "Beide Schienen berühren Rahmen- und Schubladenprofile, im CAD gibt es aber keine Schrauben. Lochbild der HS-4613-350 und Schraubengröße festlegen."
         },
         {
-          "teil": "Befestigung Griff (2 Schrauben, Gewinde laut Griffvariante)",
-          "menge": 2,
-          "bezug": "CAD-051",
-          "grund": "Griff sitzt am Schubladenprofil, im CAD ohne Schrauben."
+          "scope": "system",
+          "sys": "SYS-044"
         },
         {
-          "teil": "Befestigung der Wellenhalter des Platinenhalters",
-          "menge": "offen",
-          "bezug": "CAD-068",
-          "grund": "4 Halter sitzen auf Bodenplatte/Profil, nur einer hat eine M4×10. Je Halter mindestens 1–2 Schrauben ergänzen."
+          "scope": "system",
+          "sys": "SYS-045"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-046"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-047"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-048"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-049"
         }
       ],
+      "zusatz": [],
       "entfernt": [
         "pcb_dummy: Prüfobjekt im CAD, kein Maschinenteil."
       ],
       "offen": [
-        "CAD-010 Bodenplatte: Material und Dicke (CAD 12 mm) festlegen; Status von 'nicht identifiziert' auf Fertigungsteil ändern?",
-        "Wo greifen die M4-Schrauben DIN 933 des Platinenhalters: Gewinde in der Bodenplatte oder Mutter darunter?"
+        "CAD-010 Bodenplatte: Material und Dicke (CAD 12 mm) – von Luis bewusst offen gelassen.",
+        "SYS-045 und SYS-048: Schraubenartikel noch verifizieren; Teleskop-Befestigung ist eine Annahme."
       ]
     },
     {

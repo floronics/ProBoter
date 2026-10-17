@@ -10,12 +10,12 @@ im Shop bestätigen. Kein Warenkorb wurde bestellt.
 
 | Umfang | netto | brutto |
 | --- | --- | --- |
-| 1. Beobachtete Webpreise × geplante Bestellpackungen | 2.376,08 € | 2.827,61 € |
-| Davon Positionen mit Status bestellfähig | 1.735,25 € | 2.065,02 € |
-| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 640,83 € | 762,59 € |
+| 1. Beobachtete Webpreise × geplante Bestellpackungen | 2.393,85 € | 2.848,75 € |
+| Davon Positionen mit Status bestellfähig | 1.758,47 € | 2.092,65 € |
+| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 635,38 € | 756,10 € |
 | Eigene Budgetschätzungen zusätzlich | 825,25 € | 982,03 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.201,33 € | 3.809,64 € |
-| 3. Noch unbezifferte Positionen: 22 | nicht berechenbar | nicht berechenbar |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.219,10 € | 3.830,78 € |
+| 3. Noch unbezifferte Positionen: 24 | nicht berechenbar | nicht berechenbar |
 
 **Der Gesamtpreis eines funktionierenden Nachbaus bleibt offen.** Die Summe unter 2
 deckt nur bezifferte Positionen ab. Entwicklung von Elektronik/Firmware, interne
@@ -63,7 +63,7 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | BEFFUCHS | 9,41 € | 5,95 € | 15,36 € |
 | DAMEN | 370,09 € | 0,00 € | 370,09 € |
 | DIGIKEY | 175,55 € | 0,00 € | 175,55 € |
-| DOLD | 495,67 € | 365,00 € | 860,67 € |
+| DOLD | 513,51 € | 365,00 € | 878,51 € |
 | EISEN2000 | 92,15 € | 0,00 € | 92,15 € |
 | IGUS | 172,70 € | 0,00 € | 172,70 € |
 | MOTEDIS | 314,66 € | 0,00 € | 314,66 € |
@@ -71,7 +71,7 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | OFFEN | 0,00 € | 150,00 € | 150,00 € |
 | RBS | 457,90 € | 30,00 € | 487,90 € |
 | REICHELT | 207,44 € | 195,00 € | 402,44 € |
-| SCHRAUBEN | 56,50 € | 29,00 € | 85,50 € |
+| SCHRAUBEN | 59,80 € | 29,00 € | 88,80 € |
 | STEPPERONLINE | 0,00 € | 38,08 € | 38,08 € |
 | TINYTRONICS | 30,00 € | 0,00 € | 30,00 € |
 | TME | 0,00 € | 169,00 € | 169,00 € |
@@ -102,6 +102,8 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | OPEN-SYS-038 | Kalibrier-Kontaktleitungen und gemeinsame Messreferenz | 4 SKR-Zentriereingänge P0_17 mit Pull-up/aktiv Low sowie Referenzkörper/Kontaktkreis verdrahten. Netzplan, Stecker, Länge und Bezugspotenzial mit Multiplexer klären; keine Verbindung ungeprüft festlegen. |
 | OPEN-SYS-039 | Erhöhte Messing-Referenzzylinder | Ø7 mm laut Reference Board-Skizze; Code setzt vier Endflächen 6/8/10/12 mm über Bezugsebene auf Raster 59,6×39,9 mm. Gesamtlängen und Einstecktiefe sind nicht diese Höhen; Zeichnung und Toleranzen fehlen. |
 | OPEN-SYS-040 | Äußere flache Messing-Referenzzylinder | Ø7 mm laut Reference Board-Skizze; Mittelpunkte(±54,95;0) und(0;±44,9)mm. Endflächen auf Bezugsebene; Länge und Montage offen. Insgesamt 12Messingzylinder plus 4weiße Referenzen. |
+| OPEN-SYS-045 | Zylinderschraube DIN 912 M5×35 A2, Griff | Länge aus 29 mm Griffbein plus Nutenstein; Artikel noch nicht verifiziert. |
+| OPEN-SYS-048 | Flachkopfschraube M4×8 A2, Teleskopschienen | ANNAHME (Luis 17.10.2026): je Schiene 3 Schrauben zum Rahmen und 3 zur Schublade; im CAD keine Befestigung. Kopfhöhe muss in den Auszug passen; Artikel noch nicht verifiziert. |
 
 ## Größte Kostenrisiken
 

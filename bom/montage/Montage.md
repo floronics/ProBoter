@@ -8,7 +8,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | [M02 X-Achse](#modul-02) | 33 | 434 | 21 | 0 | 7 | 5 | 0 | 0 |
 | [M03 Y-Achse](#modul-03) | 27 | 168 | 17 | 0 | 0 | 10 | 0 | 0 |
 | [M04 Z-Achse](#modul-04) | 20 | 100 | 14 | 0 | 0 | 6 | 0 | 0 |
-| [M05 Schublade und Platinenhalter](#modul-05) | 15 | 53 | 8 | 1 | 1 | 4 | 1 | 0 |
+| [M05 Schublade und Platinenhalter](#modul-05) | 21 | 96 | 13 | 2 | 1 | 4 | 1 | 0 |
 | [M06 Kabelführung](#modul-06) | 10 | 57 | 3 | 0 | 2 | 5 | 0 | 0 |
 | [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 6 | 2 | 2 | 6 | 2 | 0 |
 | [M08 Optik](#modul-08) | 8 | 22 | 3 | 1 | 1 | 3 | 0 | 0 |
@@ -241,10 +241,16 @@ Ausziehbare Schublade mit Teleskopschienen, Seitenprofilen, Bodenplatte und Grif
 | [CAD-033](../Teileliste.md#cad-033) DIN 7991 M6×14 | `din_7991_m6x14` | 6 | bestellfähig; Bodenplatte an den Profilen. | Kaufteile |
 | [CAD-043](../Teileliste.md#cad-043) DIN 912 M4×10 | `din_912_m4x10` | 1 | bestellfähig | Kaufteile |
 | [CAD-048](../Teileliste.md#cad-048) DIN 933 M4×20 | `din_933_m4x20` | 8 | bestellfähig | Kaufteile |
+| [CAD-051](../Teileliste.md#cad-051) Schubladengriff DOLD A-75873, Lochabstand 100 mm | `handle_l100_dold` | 1 | bestellfähig | Kaufteile |
 | [CAD-069](../Teileliste.md#cad-069) Platine Halter Führung rund | `pcb_holder_guiding_round` | 2 | bestellfähig | Weitere Fertigung |
 | [CAD-081](../Teileliste.md#cad-081) Anschraubwinkel 30 / Nut 6 | `screw_on_bracket_30_6` | 8 von 26 | bestellfähig; 8 von 26 verbinden die Schubladenprofile. | Kaufteile |
 | [CAD-084](../Teileliste.md#cad-084) Teleskopschiene 350 mm, Vollauszug | `telescopic_bar_tsaa514613-350` | 2 | bestellfähig | Kaufteile |
-| [CAD-051](../Teileliste.md#cad-051) Schubladengriff, Lochabstand 100 mm | `handle_l100_dold` | 1 | teilweise geklärt | Kaufteile |
+| [SYS-044](../Teileliste.md#sys-044) Nutenstein I-Typ Nut 6, M5, Griff | nicht im CAD | 2 | bestellfähig | Kaufteile |
+| [SYS-046](../Teileliste.md#sys-046) Zylinderschraube DIN 912 M4×10 A2, Wellenhalter | nicht im CAD | 7 | bestellfähig | Kaufteile |
+| [SYS-047](../Teileliste.md#sys-047) Nutenstein I-Typ Nut 6, M4, Wellenhalter | nicht im CAD | 8 | bestellfähig | Kaufteile |
+| [SYS-049](../Teileliste.md#sys-049) Nutenstein I-Typ Nut 6, M4, Teleskopschienen | nicht im CAD | 12 | bestellfähig | Kaufteile |
+| [SYS-045](../Teileliste.md#sys-045) Zylinderschraube DIN 912 M5×35 A2, Griff | nicht im CAD | 2 | teilweise geklärt | Kaufteile |
+| [SYS-048](../Teileliste.md#sys-048) Flachkopfschraube M4×8 A2, Teleskopschienen | nicht im CAD | 12 | teilweise geklärt | Kaufteile |
 | [CAD-070](../Teileliste.md#cad-070) Platine Halter rechteckig Stange | `pcb_holder_rect_rod` | 2 | Fertigung noch offen | Weitere Fertigung |
 | [CAD-067](../Teileliste.md#cad-067) Platine Halter Gleiter | `pcb_holder_glider` | 4 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-068](../Teileliste.md#cad-068) Platine Halter Führung Halter rund d 10 | `pcb_holder_guiding_holder_round_d10` | 4 | Fertigung spezifiziert | 3D-Druck intern |
@@ -252,22 +258,14 @@ Ausziehbare Schublade mit Teleskopschienen, Seitenprofilen, Bodenplatte und Grif
 | [CAD-072](../Teileliste.md#cad-072) Platine Halter Stange kurz rund d 10 gespiegelt | `pcb_holder_rod_short_round_d10_mirrored` | 2 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-010](../Teileliste.md#cad-010) Schubladen-Dummyplatte | `base_drawer_dummy_plate` | 1 | nicht identifiziert; Trägt den kompletten Platinenhalter (Fusion-Kontakt) und ist damit die reale Schubladen-Bodenplatte, kein reiner Platzhalter. | Ungeklärte Teile |
 
-**Zusätzlich nötig, nicht im CAD**
-
-| Teil | Stück | Bezug | Grund |
-| --- | --- | --- | --- |
-| Befestigung Teleskopschienen (Schrauben + Nutensteine I-Typ Nut 6) | offen | CAD-084, SYS-029 | Beide Schienen berühren Rahmen- und Schubladenprofile, im CAD gibt es aber keine Schrauben. Lochbild der HS-4613-350 und Schraubengröße festlegen. |
-| Befestigung Griff (2 Schrauben, Gewinde laut Griffvariante) | 2 | CAD-051 | Griff sitzt am Schubladenprofil, im CAD ohne Schrauben. |
-| Befestigung der Wellenhalter des Platinenhalters | offen | CAD-068 | 4 Halter sitzen auf Bodenplatte/Profil, nur einer hat eine M4×10. Je Halter mindestens 1–2 Schrauben ergänzen. |
-
 **Bei der Prüfung aus dem Modul genommen**
 
 - pcb_dummy: Prüfobjekt im CAD, kein Maschinenteil.
 
 **Offene Fragen**
 
-- CAD-010 Bodenplatte: Material und Dicke (CAD 12 mm) festlegen; Status von 'nicht identifiziert' auf Fertigungsteil ändern?
-- Wo greifen die M4-Schrauben DIN 933 des Platinenhalters: Gewinde in der Bodenplatte oder Mutter darunter?
+- CAD-010 Bodenplatte: Material und Dicke (CAD 12 mm) – von Luis bewusst offen gelassen.
+- SYS-045 und SYS-048: Schraubenartikel noch verifizieren; Teleskop-Befestigung ist eine Annahme.
 
 <a id="modul-06"></a>
 

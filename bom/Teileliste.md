@@ -25,7 +25,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [K11 z_slide:2](#komp-11) | Z-Achse | 11 | 15 |
 | [K12 z_slide_long:1](#komp-12) | Z-Achse, lange Ausführung | 11 | 15 |
 | [K13 z_slide_long:2](#komp-13) | Z-Achse, lange Ausführung | 11 | 15 |
-| [K14 Nicht im CAD-Modell](#komp-14) | Systemteile ohne CAD-Körper | 43 | – |
+| [K14 Nicht im CAD-Modell](#komp-14) | Systemteile ohne CAD-Körper | 49 | – |
 
 <a id="komp-01"></a>
 
@@ -52,7 +52,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-033](#cad-033) DIN 7991 M6×14 | direkt | `din_7991_m6x14` | 6 | bestellfähig; Plan gesamt 8 statt 6 |
 | [CAD-034](#cad-034) DIN 7991 M6×20 | direkt | `din_7991_m6x20` | 22 | bestellfähig; Plan gesamt 25 statt 22 |
 | [CAD-050](#cad-050) igus E2i.10.20.028.0, 8 lange Abschnitte | direkt | `drag_chain_0_28m_E2i_10_20_028_0_igus` | 8 | bestellfähig |
-| [CAD-051](#cad-051) Schubladengriff, Lochabstand 100 mm | direkt | `handle_l100_dold` | 1 | teilweise geklärt |
+| [CAD-051](#cad-051) Schubladengriff DOLD A-75873, Lochabstand 100 mm | direkt | `handle_l100_dold` | 1 | bestellfähig |
 | [CAD-052](#cad-052) Gelenkfuß M6×20 / Teller Ø40 mm | direkt | `hinged_M6_40_dold` | 4 | bestellfähig |
 | [CAD-055](#cad-055) Induktiver Näherungsschalter M8, Bauhülle 60 mm | direkt | `inductive_proximity_sensor_m8` | 8 | nicht identifiziert |
 | [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 8 | teilweise geklärt; Plan gesamt 53 statt 48 |
@@ -534,6 +534,12 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [SYS-041](#sys-041) Nutenstein I-Typ Nut 6, M6, Motorplatten | 8 Stück | Kaufteile | bestellfähig |
 | [SYS-042](#sys-042) Nutenstein I-Typ Nut 6, M4, Rückwand | 6 Stück | Kaufteile | bestellfähig |
 | [SYS-043](#sys-043) Zylinderschraube DIN 912 M4×10 A2, Rückwand | 6 Stück | Kaufteile | bestellfähig |
+| [SYS-044](#sys-044) Nutenstein I-Typ Nut 6, M5, Griff | 2 Stück | Kaufteile | bestellfähig |
+| [SYS-045](#sys-045) Zylinderschraube DIN 912 M5×35 A2, Griff | 2 Stück | Kaufteile | teilweise geklärt |
+| [SYS-046](#sys-046) Zylinderschraube DIN 912 M4×10 A2, Wellenhalter | 7 Stück | Kaufteile | bestellfähig |
+| [SYS-047](#sys-047) Nutenstein I-Typ Nut 6, M4, Wellenhalter | 8 Stück | Kaufteile | bestellfähig |
+| [SYS-048](#sys-048) Flachkopfschraube M4×8 A2, Teleskopschienen | 12 Stück | Kaufteile | teilweise geklärt |
+| [SYS-049](#sys-049) Nutenstein I-Typ Nut 6, M4, Teleskopschienen | 12 Stück | Kaufteile | bestellfähig |
 
 # Details nach Beschaffungsart
 
@@ -566,7 +572,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="cad-048"></a>**CAD-048** DIN 933 M4×20<br>`din_933_m4x20` | 8 / 8 / **10 Stück** | bestellfähig | 7.0 x 21.4 x 8.083; Edelstahl A2 (Entscheidung 17.10.2026); Festigkeitsklasse A2-70 im Shop nicht ausgewiesen | Norm und Maße mit CAD abgeglichen; Artikel 933 4 20 A2. SW 7, Vollgewinde. Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `N-048` |
 | <a id="cad-049"></a>**CAD-049** igus E2i.10.10.028.0, 16 kurze Abschnitte<br>`drag_chain_0_24m_E2i_10_10_028_0_4` | 16 / 16 / **16 Stück** | bestellfähig | 193.0 x 17.8 x 71.0; nicht belegt | Teilung 20 mm, Außenbreite 17,4, Einbauhöhe 71 bei R28 = CAD. 0,24 m = 12 Glieder, zusammen 192 Glieder. Anschlüsse siehe SYS-027.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-008` |
 | <a id="cad-050"></a>**CAD-050** igus E2i.10.20.028.0, 8 lange Abschnitte<br>`drag_chain_0_28m_E2i_10_20_028_0_igus` | 8 / 8 / **8 Stück** | bestellfähig | 248.0 x 27.8 x 71.0; nicht belegt | Teilung 20 mm, Außenbreite 27,4, Einbauhöhe 71 = CAD. 0,28 m = 14 Glieder, zusammen 112 Glieder. Anschlüsse siehe SYS-028.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-023` |
-| <a id="cad-051"></a>**CAD-051** Schubladengriff, Lochabstand 100 mm<br>`handle_l100_dold` | 1 / 1 / **1 Stück** | teilweise geklärt | 113.0 x 20.0 x 49.0; nicht belegt | DOLD A-75903 passt in Länge 113, Höhe 49 und Lochabstand 100, hat aber M6-Gewinde; Fusion misst Ø5,5. Prüfen, ob die CAD-Bohrung ein Durchgangsloch ist (dann A-75873, 112 mm lang).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-C051` |
+| <a id="cad-051"></a>**CAD-051** Schubladengriff DOLD A-75873, Lochabstand 100 mm<br>`handle_l100_dold` | 1 / 1 / **1 Stück** | bestellfähig | 113.0 x 20.0 x 49.0; nicht belegt | Fusion-Messung: Bohrungen Ø5,5 durchgehend (29 mm) = Variante mit Befestigungsbohrungen A-75873 (Ø5,4, 112 statt 113 mm lang). Entscheidung Luis 17.10.2026. Befestigung SYS-044/045.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-C051` |
 | <a id="cad-052"></a>**CAD-052** Gelenkfuß M6×20 / Teller Ø40 mm<br>`hinged_M6_40_dold` | 4 / 4 / **4 Stück** | bestellfähig | 40.0 x 40.0 x 30.4; nicht belegt | DOLD GF-K-10-PA-028: M6, Teller Ø40 = CAD; Fusion-Messung Gewindelänge 20 mm = Variante M6×20. Traglast vom Händler nicht angegeben.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-C052` |
 | <a id="cad-053"></a>**CAD-053** HIWIN MGNR12R150HM, Z-Schiene 150 mm<br>`hiwin_rail_MGNR12R150HM` | 4 / 4 / **4 Stück** | bestellfähig | 12.0 x 150.0 x 8.0; nicht belegt | HIWIN-Katalog: 12×8, Teilung 25, Bohrung Ø3,5/Ø6; 150 mm mit 6 Bohrungen und Endabstand 12,5 = Fusion-Messung. Bezug Damen CNC (NL), Zuschnitt.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-020` |
 | <a id="cad-054"></a>**CAD-054** HIWIN MGN12CZ0HM Z-Führungswagen<br>`hiwin_slide_MGN12CZ0H` | 4 / 4 / **4 Stück** | bestellfähig | 27.0 x 35.688 x 10.0; nicht belegt | Bestellschlüssel: Z0 spielfrei, H hohe Genauigkeit, M Edelstahl. Breite 27, Körperhöhe 10, Lochbild 20×15 M3 = CAD; Katalog-Länge 34,7 statt CAD 35,7.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-021` |
@@ -618,6 +624,12 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="sys-041"></a>**SYS-041** Nutenstein I-Typ Nut 6, M6, Motorplatten | – / – / **8 Stück** | bestellfähig | offen; nicht belegt | Fusion-Kontaktanalyse M01: die 8 Senkschrauben M6×20 der Motorplatten greifen in die Nut der 60×30-Profile; im CAD kein Gegenstück.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-041` |
 | <a id="sys-042"></a>**SYS-042** Nutenstein I-Typ Nut 6, M4, Rückwand | – / – / **6 Stück** | bestellfähig | offen; nicht belegt | Fusion-Kontaktanalyse M01: 6 Bohrungen Ø4,5 der Rückwand liegen auf den langen Profilen; im CAD keine Befestigung.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-042` |
 | <a id="sys-043"></a>**SYS-043** Zylinderschraube DIN 912 M4×10 A2, Rückwand | – / – / **6 Stück** | bestellfähig | offen; nicht belegt | Zu SYS-042; 3 mm Rückwand plus Nutenstein.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-043` |
+| <a id="sys-044"></a>**SYS-044** Nutenstein I-Typ Nut 6, M5, Griff | – / – / **2 Stück** | bestellfähig | offen; nicht belegt | Griff A-75873 mit Durchgangsbohrungen wird von vorn ins Schubladenprofil geschraubt.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-044` |
+| <a id="sys-045"></a>**SYS-045** Zylinderschraube DIN 912 M5×35 A2, Griff | – / – / **2 Stück** | teilweise geklärt | offen; nicht belegt | Länge aus 29 mm Griffbein plus Nutenstein; Artikel noch nicht verifiziert.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `OPEN-SYS-045` |
+| <a id="sys-046"></a>**SYS-046** Zylinderschraube DIN 912 M4×10 A2, Wellenhalter | – / – / **7 Stück** | bestellfähig | offen; nicht belegt | Fusion-Messung: 4 Wellenhalter mit je 2 Bohrungen Ø4,5 über der Nut der Schubladen-Querprofile; 1 von 8 Schrauben im CAD.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-046` |
+| <a id="sys-047"></a>**SYS-047** Nutenstein I-Typ Nut 6, M4, Wellenhalter | – / – / **8 Stück** | bestellfähig | offen; nicht belegt | Gegenstück zu den 8 Wellenhalter-Schrauben.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-047` |
+| <a id="sys-048"></a>**SYS-048** Flachkopfschraube M4×8 A2, Teleskopschienen | – / – / **12 Stück** | teilweise geklärt | offen; nicht belegt | ANNAHME (Luis 17.10.2026): je Schiene 3 Schrauben zum Rahmen und 3 zur Schublade; im CAD keine Befestigung. Kopfhöhe muss in den Auszug passen; Artikel noch nicht verifiziert.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `OPEN-SYS-048` |
+| <a id="sys-049"></a>**SYS-049** Nutenstein I-Typ Nut 6, M4, Teleskopschienen | – / – / **12 Stück** | bestellfähig | offen; nicht belegt | ANNAHME, Gegenstück zu SYS-048.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-049` |
 
 ## 3D-Druck intern
 
