@@ -48,6 +48,7 @@ SUPPLIER_URL = {
     'STEPPERONLINE': 'https://www.omc-stepperonline.com/de/',
     'RS': 'https://de.rs-online.com/',
     'AUTOMATION24': 'https://www.automation24.de/',
+    'ELCO': 'https://shop.elco-automation.de/',
     'OFFEN': '',
 }
 
@@ -110,7 +111,7 @@ WORKSHOP = ids(3,16,17,18,19,96,97,99,100)
 STOCK = ids(9,11,12,13,14,20,69,70,93,94,98,103,108)
 PCB = ids(75)
 UNIDENTIFIED = ids(10,61,62,73,115)
-EXCLUDED = ids(58,66,82)
+EXCLUDED = ids(66,82)
 NORM = ids(*range(28,49),56,57,58)
 NORM_RESERVE = 'Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026).'
 
@@ -131,7 +132,7 @@ DETAIL = {
 52: ('Gelenkfuß M6×20 / Teller Ø40 mm', 'DOLD GF-K-10-PA-028: M6, Teller Ø40 = CAD; Fusion-Messung Gewindelänge 20 mm = Variante M6×20. Traglast vom Händler nicht angegeben.', 'DOLD'),
 53: ('HIWIN MGNR12R150HM, Z-Schiene 150 mm', 'HIWIN-Katalog: 12×8, Teilung 25, Bohrung Ø3,5/Ø6; 150 mm mit 6 Bohrungen und Endabstand 12,5 = Fusion-Messung. Bezug Damen CNC (NL), Zuschnitt.', 'DAMEN'),
 54: ('HIWIN MGN12CZ0HM Z-Führungswagen', 'Bestellschlüssel: Z0 spielfrei, H hohe Genauigkeit, M Edelstahl. Breite 27, Körperhöhe 10, Lochbild 20×15 M3 = CAD; Katalog-Länge 34,7 statt CAD 35,7.', 'DAMEN'),
-55: ('Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt)', 'Spezifikation aus CAD und Firmware: M8, nicht bündig, NPN-Schließer (HIT_STATE LOW mit Pull-up), M8-Stecker. Gewählt: SICK IME08-04NNSZT0S, Sn 4 mm, 50 mm statt CAD 60 mm (kürzer, passt in die Hülle), 2 Muttern im Lieferumfang. Schaltabstand gegen Auslöserstäbe beim Aufbau einstellen.', 'RS'),
+55: ('Induktiver Näherungsschalter ELCO NI4-M08-ON6L-Q8 (AUSWAHL, Original unbekannt)', 'Spezifikation aus CAD und Firmware: M8, nicht bündig, NPN-Schließer (HIT_STATE LOW mit Pull-up), M8-Stecker. Gewählt (17.10.2026, günstigste passende Option): ELCO NI4-M08-ON6L-Q8, Sn 4 mm, 59,6 mm (CAD 60 mm), 10,44 EUR netto. Teurere Alternative SICK IME08-04NNSZT0S (RS). Datenblatt und Muttern im Lieferumfang noch prüfen.', 'ELCO'),
 59: ('Mean Well MHS012 Montagewinkel', '4 Winkel für RSP-200. Mean-Well-Zeichnung 15×16,2×19,5 mm = CAD (Abweichung höchstens 0,3 mm). Reichelt MHS-012.', 'REICHELT'),
 60: ('Mean Well RSP-200-24 Netzteil,24V/8,4A', 'Originalmodell,215×115×30mm. Lastbilanz, Absicherung, Berührungsschutz und Schutzleiter separat.', 'REICHELT'),
 61: ('MMCX-Stecker gerade / Messleitung', '4 CAD-Modelle enthalten Kabelansätze. Impedanz, Kabeltyp, Crimp/Lötanschluss, Gegenstecker und Länge unbekannt.', 'TME'),
@@ -432,7 +433,7 @@ def make_orders(parts):
     add('MAT-007','Aluprofil 40x16S Nut 8, Zuschnitt',ids(103),1,unit='Los',offer=cad_offers['CAD-103'])
     add('MAT-008','Aluprofil 80x16S Nut 8, Zuschnitt, Kandidat',ids(9),1,unit='Los',offer=cad_offers['CAD-009'])
     add('MAT-009','Auslöserstäbe Ø8 Cf53, Zuschnitt',ids(93,94),1,unit='Los',offer=cad_offers['CAD-093'])
-    add('BUY-SEN','24 induktive Sensoren SICK IME08-04NNSZT0S',ids(55),24,offer=cad_offers['CAD-055'])
+    add('BUY-SEN','24 induktive Sensoren ELCO NI4-M08-ON6L-Q8',ids(55),24,offer=cad_offers['CAD-055'])
     add('BUY-SW','Netzschalter Ø19 ONPOW LAS1A',ids(86),1,offer=cad_offers['CAD-086'])
     add('BUY-CAB','24 Sensorleitungen ifm EVC141',['SYS-016'],24,offer=cad_offers['SYS-016'])
     for n in (51,52,59,81,84):

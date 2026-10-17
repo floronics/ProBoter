@@ -54,8 +54,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-050](#cad-050) igus E2i.10.20.028.0, 8 lange Abschnitte | direkt | `drag_chain_0_28m_E2i_10_20_028_0_igus` | 8 | bestellfähig |
 | [CAD-051](#cad-051) Schubladengriff DOLD A-75873, Lochabstand 100 mm | direkt | `handle_l100_dold` | 1 | bestellfähig |
 | [CAD-052](#cad-052) Gelenkfuß M6×20 / Teller Ø40 mm | direkt | `hinged_M6_40_dold` | 4 | bestellfähig |
-| [CAD-055](#cad-055) Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt) | direkt | `inductive_proximity_sensor_m8` | 8 | bestellfähig |
-| [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 8 | nicht benötigt; Plan gesamt 0 statt 48 |
+| [CAD-055](#cad-055) Induktiver Näherungsschalter ELCO NI4-M08-ON6L-Q8 (AUSWAHL, Original unbekannt) | direkt | `inductive_proximity_sensor_m8` | 8 | bestellfähig |
+| [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 8 | teilweise geklärt; Plan gesamt 53 statt 48 |
 | [CAD-059](#cad-059) Mean Well MHS012 Montagewinkel | direkt | `mean_well_MHS-012_mounting_bracket` | 4 | bestellfähig |
 | [CAD-060](#cad-060) Mean Well RSP-200-24 Netzteil,24 V/8,4 A | direkt | `mean_well_RSP-200-24` | 1 | bestellfähig |
 | [CAD-066](#cad-066) Prüfobjekt-Platzhalter im CAD | direkt | `pcb_dummy` | 1 | nicht benötigt; Plan gesamt 0 statt 1 |
@@ -111,8 +111,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-046](#cad-046) DIN 912 M5×10 | direkt | `din_912_m5x10` | 8 | bestellfähig; Plan gesamt 36 statt 32 |
 | [CAD-047](#cad-047) DIN 912 M5×14 | direkt | `din_912_m5x14` | 1 | bestellfähig; Plan gesamt 6 statt 4 |
 | [CAD-049](#cad-049) igus E2i.10.10.028.0, 16 kurze Abschnitte | direkt | `drag_chain_0_24m_E2i_10_10_028_0_4` | 4 | bestellfähig |
-| [CAD-055](#cad-055) Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt) | direkt | `inductive_proximity_sensor_m8` | 4 | bestellfähig |
-| [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 10 | nicht benötigt; Plan gesamt 0 statt 48 |
+| [CAD-055](#cad-055) Induktiver Näherungsschalter ELCO NI4-M08-ON6L-Q8 (AUSWAHL, Original unbekannt) | direkt | `inductive_proximity_sensor_m8` | 4 | bestellfähig |
+| [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 10 | teilweise geklärt; Plan gesamt 53 statt 48 |
 | [CAD-079](#cad-079) SHF10 Flanschhalter fürØ10 mm Welle | direkt | `rod_holder_flange_d10_dold` | 4 | bestellfähig |
 | [CAD-088](#cad-088) X-Achse Riemen Halter | direkt | `x_belt_holder` | 1 | Fertigung spezifiziert |
 | [CAD-089](#cad-089) X-Achse Riemen Halter 1 | direkt | `x_belt_holder_1` | 3 | Fertigung spezifiziert |
@@ -155,8 +155,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-046](#cad-046) DIN 912 M5×10 | direkt | `din_912_m5x10` | 8 | bestellfähig; Plan gesamt 36 statt 32 |
 | [CAD-047](#cad-047) DIN 912 M5×14 | direkt | `din_912_m5x14` | 1 | bestellfähig; Plan gesamt 6 statt 4 |
 | [CAD-049](#cad-049) igus E2i.10.10.028.0, 16 kurze Abschnitte | direkt | `drag_chain_0_24m_E2i_10_10_028_0_4` | 4 | bestellfähig |
-| [CAD-055](#cad-055) Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt) | direkt | `inductive_proximity_sensor_m8` | 4 | bestellfähig |
-| [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 10 | nicht benötigt; Plan gesamt 0 statt 48 |
+| [CAD-055](#cad-055) Induktiver Näherungsschalter ELCO NI4-M08-ON6L-Q8 (AUSWAHL, Original unbekannt) | direkt | `inductive_proximity_sensor_m8` | 4 | bestellfähig |
+| [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 10 | teilweise geklärt; Plan gesamt 53 statt 48 |
 | [CAD-079](#cad-079) SHF10 Flanschhalter fürØ10 mm Welle | direkt | `rod_holder_flange_d10_dold` | 4 | bestellfähig |
 | [CAD-088](#cad-088) X-Achse Riemen Halter | direkt | `x_belt_holder` | 1 | Fertigung spezifiziert |
 | [CAD-089](#cad-089) X-Achse Riemen Halter 1 | direkt | `x_belt_holder_1` | 3 | Fertigung spezifiziert |
@@ -199,8 +199,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-046](#cad-046) DIN 912 M5×10 | direkt | `din_912_m5x10` | 8 | bestellfähig; Plan gesamt 36 statt 32 |
 | [CAD-047](#cad-047) DIN 912 M5×14 | direkt | `din_912_m5x14` | 1 | bestellfähig; Plan gesamt 6 statt 4 |
 | [CAD-049](#cad-049) igus E2i.10.10.028.0, 16 kurze Abschnitte | direkt | `drag_chain_0_24m_E2i_10_10_028_0_4` | 4 | bestellfähig |
-| [CAD-055](#cad-055) Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt) | direkt | `inductive_proximity_sensor_m8` | 4 | bestellfähig |
-| [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 10 | nicht benötigt; Plan gesamt 0 statt 48 |
+| [CAD-055](#cad-055) Induktiver Näherungsschalter ELCO NI4-M08-ON6L-Q8 (AUSWAHL, Original unbekannt) | direkt | `inductive_proximity_sensor_m8` | 4 | bestellfähig |
+| [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 10 | teilweise geklärt; Plan gesamt 53 statt 48 |
 | [CAD-079](#cad-079) SHF10 Flanschhalter fürØ10 mm Welle | direkt | `rod_holder_flange_d10_dold` | 4 | bestellfähig |
 | [CAD-088](#cad-088) X-Achse Riemen Halter | direkt | `x_belt_holder` | 1 | Fertigung spezifiziert |
 | [CAD-089](#cad-089) X-Achse Riemen Halter 1 | direkt | `x_belt_holder_1` | 3 | Fertigung spezifiziert |
@@ -243,8 +243,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-046](#cad-046) DIN 912 M5×10 | direkt | `din_912_m5x10` | 8 | bestellfähig; Plan gesamt 36 statt 32 |
 | [CAD-047](#cad-047) DIN 912 M5×14 | direkt | `din_912_m5x14` | 1 | bestellfähig; Plan gesamt 6 statt 4 |
 | [CAD-049](#cad-049) igus E2i.10.10.028.0, 16 kurze Abschnitte | direkt | `drag_chain_0_24m_E2i_10_10_028_0_4` | 4 | bestellfähig |
-| [CAD-055](#cad-055) Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt) | direkt | `inductive_proximity_sensor_m8` | 4 | bestellfähig |
-| [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 10 | nicht benötigt; Plan gesamt 0 statt 48 |
+| [CAD-055](#cad-055) Induktiver Näherungsschalter ELCO NI4-M08-ON6L-Q8 (AUSWAHL, Original unbekannt) | direkt | `inductive_proximity_sensor_m8` | 4 | bestellfähig |
+| [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 10 | teilweise geklärt; Plan gesamt 53 statt 48 |
 | [CAD-079](#cad-079) SHF10 Flanschhalter fürØ10 mm Welle | direkt | `rod_holder_flange_d10_dold` | 4 | bestellfähig |
 | [CAD-088](#cad-088) X-Achse Riemen Halter | direkt | `x_belt_holder` | 1 | Fertigung spezifiziert |
 | [CAD-089](#cad-089) X-Achse Riemen Halter 1 | direkt | `x_belt_holder_1` | 3 | Fertigung spezifiziert |
@@ -583,9 +583,10 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="cad-052"></a>**CAD-052** Gelenkfuß M6×20 / Teller Ø40 mm<br>`hinged_M6_40_dold` | 4 / 4 / **4 Stück** | bestellfähig | 40.0 x 40.0 x 30.4; nicht belegt | DOLD GF-K-10-PA-028: M6, Teller Ø40 = CAD; Fusion-Messung Gewindelänge 20 mm = Variante M6×20. Traglast vom Händler nicht angegeben.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-C052` |
 | <a id="cad-053"></a>**CAD-053** HIWIN MGNR12R150HM, Z-Schiene 150 mm<br>`hiwin_rail_MGNR12R150HM` | 4 / 4 / **4 Stück** | bestellfähig | 12.0 x 150.0 x 8.0; nicht belegt | HIWIN-Katalog: 12×8, Teilung 25, Bohrung Ø3,5/Ø6; 150 mm mit 6 Bohrungen und Endabstand 12,5 = Fusion-Messung. Bezug Damen CNC (NL), Zuschnitt.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-020` |
 | <a id="cad-054"></a>**CAD-054** HIWIN MGN12CZ0HM Z-Führungswagen<br>`hiwin_slide_MGN12CZ0H` | 4 / 4 / **4 Stück** | bestellfähig | 27.0 x 35.688 x 10.0; nicht belegt | Bestellschlüssel: Z0 spielfrei, H hohe Genauigkeit, M Edelstahl. Breite 27, Körperhöhe 10, Lochbild 20×15 M3 = CAD; Katalog-Länge 34,7 statt CAD 35,7.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-021` |
-| <a id="cad-055"></a>**CAD-055** Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt)<br>`inductive_proximity_sensor_m8` | 24 / 24 / **24 Stück** | bestellfähig | 8.0 x 60.0 x 8.0; nicht belegt | Spezifikation aus CAD und Firmware: M8, nicht bündig, NPN-Schließer (HIT_STATE LOW mit Pull-up), M8-Stecker. Gewählt: SICK IME08-04NNSZT0S, Sn 4 mm, 50 mm statt CAD 60 mm (kürzer, passt in die Hülle), 2 Muttern im Lieferumfang. Schaltabstand gegen Auslöserstäbe beim Aufbau einstellen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SEN` |
+| <a id="cad-055"></a>**CAD-055** Induktiver Näherungsschalter ELCO NI4-M08-ON6L-Q8 (AUSWAHL, Original unbekannt)<br>`inductive_proximity_sensor_m8` | 24 / 24 / **24 Stück** | bestellfähig | 8.0 x 60.0 x 8.0; nicht belegt | Spezifikation aus CAD und Firmware: M8, nicht bündig, NPN-Schließer (HIT_STATE LOW mit Pull-up), M8-Stecker. Gewählt (17.10.2026, günstigste passende Option): ELCO NI4-M08-ON6L-Q8, Sn 4 mm, 59,6 mm (CAD 60 mm), 10,44 EUR netto. Teurere Alternative SICK IME08-04NNSZT0S (RS). Datenblatt und Muttern im Lieferumfang noch prüfen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SEN` |
 | <a id="cad-056"></a>**CAD-056** Sechskantmutter DIN 934 M3 A2<br>`iso_8673_nut_m3` | 44 / 44 / **49 Stück** | bestellfähig | 5.5 x 2.4 x 6.351; Edelstahl A2 (Entscheidung 17.10.2026); Festigkeitsklasse A2-70 im Shop nicht ausgewiesen | Norm und Maße mit CAD abgeglichen; Artikel 934 3 A2. SW 5,5, H 2,4 = CAD; ISO 4032 identisch. Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026). CAD-Name ISO 8673 ist ein Bibliotheksfehler: ISO 8673 beginnt erst bei M8, die CAD-Maße entsprechen ISO 4032/DIN 934.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `N-056` |
 | <a id="cad-057"></a>**CAD-057** Sechskantmutter DIN 934 M4 A2<br>`iso_8673_nut_m4` | 64 / 64 / **71 Stück** | bestellfähig | 7.0 x 3.2 x 8.083; Edelstahl A2 (Entscheidung 17.10.2026); Festigkeitsklasse A2-70 im Shop nicht ausgewiesen | Norm und Maße mit CAD abgeglichen; Artikel 934 4 A2. SW 7, H 3,2 = CAD; ISO 4032 identisch. Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026). CAD-Name ISO 8673 ist ein Bibliotheksfehler: ISO 8673 beginnt erst bei M8, die CAD-Maße entsprechen ISO 4032/DIN 934.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `N-057` |
+| <a id="cad-058"></a>**CAD-058** ISO 8673 Mutter M8<br>`iso_8673_nut_m8` | 48 / 48 / **53 Stück** | teilweise geklärt | 13.0 x 6.8 x 15.011; Edelstahl A4-80 statt A2; A2 in M8×1 nicht gefunden | Norm und Maße mit CAD abgeglichen; Artikel 24122 08 1. A4 statt A2; H 6,5 statt 6,8. Datenblatt nennt Linksgewinde, vermutlich Datenfehler: vor Bestellung klären. Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026). ISO 8673 M8×1 passt zu den M8×1-Gewinden der induktiven Sensoren. Sensoren liefern meist 2 Muttern mit; dann nur Reserve kaufen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `N-058` |
 | <a id="cad-059"></a>**CAD-059** Mean Well MHS012 Montagewinkel<br>`mean_well_MHS-012_mounting_bracket` | 4 / 4 / **4 Stück** | bestellfähig | 16.0 x 15.0 x 19.2; nicht belegt | 4 Winkel für RSP-200. Mean-Well-Zeichnung 15×16,2×19,5 mm = CAD (Abweichung höchstens 0,3 mm). Reichelt MHS-012.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-C059` |
 | <a id="cad-060"></a>**CAD-060** Mean Well RSP-200-24 Netzteil,24 V/8,4 A<br>`mean_well_RSP-200-24` | 1 / 1 / **1 Stück** | bestellfähig | 115.0 x 30.0 x 215.0; nicht belegt | Originalmodell,215×115×30 mm. Lastbilanz, Absicherung, Berührungsschutz und Schutzleiter separat.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-001` |
 | <a id="cad-063"></a>**CAD-063** NEMA14 Z-Motor, ERSATZ: STEPPERONLINE 14HS13-0804S statt Nanotec ST3518M1004-A<br>`nanotec_nema_14_ST3518M1004-A` | 8 / 8 / **4 Stück** | bestellfähig | 35.0 x 65.0 x 60.0; nicht belegt | ORIGINALMOTOR AUSGETAUSCHT (Entscheidung Luis 17.10.2026). Original nur im Nanotec-Archiv. Ersatz 34,8 mm statt 36 mm lang, Welle Ø5×24 mit D-Abflachung, 0,8 A statt 1,0 A, 18 statt 14 Ncm, Litzen ohne Stecker. Motorstrom in der Firmware auf 0,8 A begrenzen. Fusion-Messung: nur 2,8 mm Luft zum Endschalter, kürzerer Motor passt.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-015` |
@@ -764,7 +765,6 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | CAD / Fusion / Plan | Status | Geometrie / Werkstoff | Quelle und konkreter Klärbedarf |
 | --- | --- | --- | --- | --- |
-| <a id="cad-058"></a>**CAD-058** ISO 8673 Mutter M8<br>`iso_8673_nut_m8` | 48 / 48 / **0 Stück** | nicht benötigt | 13.0 x 6.8 x 15.011; Edelstahl A4-80 statt A2; A2 in M8×1 nicht gefunden | Norm und Maße mit CAD abgeglichen; Artikel 24122 08 1. A4 statt A2; H 6,5 statt 6,8. Datenblatt nennt Linksgewinde, vermutlich Datenfehler: vor Bestellung klären. Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026). ISO 8673 M8×1 passt zu den M8×1-Gewinden der induktiven Sensoren. Sensoren liefern meist 2 Muttern mit; dann nur Reserve kaufen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `N-058` |
 | <a id="cad-066"></a>**CAD-066** Prüfobjekt-Platzhalter im CAD<br>`pcb_dummy` | 1 / 1 / **0 Stück** | nicht benötigt | 200.0 x 300.0 x 50.0; nicht belegt | CAD-Prüfobjekt, kein Maschinenteil.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `ausgeschlossen/optional` |
 | <a id="cad-082"></a>**CAD-082** Multiplexer-Platzhalter im CAD<br>`signal_multiplexer_dummy` | 1 / 1 / **0 Stück** | nicht benötigt | 110.0 x 40.0 x 100.0; nicht belegt | Nur Platzhalter; reale Multiplexer-Platine und Bestückung unter SYS-003/023 erfasst.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `ausgeschlossen/optional` |
 | <a id="sys-034"></a>**SYS-034** Host-PC, Messgeräte und Werkzeuge | – / – / **1 Bestand** | nicht benötigt | offen; nicht belegt | Vom Käufer vorhan den; Kosten ausgeschlossen. Software nennt Pico Scope PS5000a; bestehendes Gerät/Hostkompatibilität prüfen.<br>[Beleg](../software/hardware-control/proboter/cli.py); Kostenzeile `ausgeschlossen/optional` |

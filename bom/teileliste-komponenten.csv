@@ -20,8 +20,8 @@ K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CA
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-050,"igus E2i.10.20.028.0, 8 lange Abschnitte",drag_chain_0_28m_E2i_10_20_028_0_igus,8,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-051,"Schubladengriff DOLD A-75873, Lochabstand 100 mm",handle_l100_dold,1,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-052,Gelenkfuß M6×20 / Teller Ø40 mm,hinged_M6_40_dold,4,Stück,ja,Kaufteile,bestellfähig
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-055,"Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt)",inductive_proximity_sensor_m8,8,Stück,ja,Kaufteile,bestellfähig
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,8,Stück,ja,Nicht benötigt,nicht benötigt
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-055,"Induktiver Näherungsschalter ELCO NI4-M08-ON6L-Q8 (AUSWAHL, Original unbekannt)",inductive_proximity_sensor_m8,8,Stück,ja,Kaufteile,bestellfähig
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,8,Stück,ja,Kaufteile,teilweise geklärt
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-059,Mean Well MHS012 Montagewinkel,mean_well_MHS-012_mounting_bracket,4,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-060,"Mean Well RSP-200-24 Netzteil,24 V/8,4 A",mean_well_RSP-200-24,1,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-066,Prüfobjekt-Platzhalter im CAD,pcb_dummy,1,Stück,ja,Nicht benötigt,nicht benötigt
@@ -70,8 +70,8 @@ K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-035,DIN 912 M3×10,din_9
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-046,DIN 912 M5×10,din_912_m5x10,8,Stück,ja,Kaufteile,bestellfähig
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-047,DIN 912 M5×14,din_912_m5x14,1,Stück,ja,Kaufteile,bestellfähig
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-049,"igus E2i.10.10.028.0, 16 kurze Abschnitte",drag_chain_0_24m_E2i_10_10_028_0_4,4,Stück,ja,Kaufteile,bestellfähig
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt)",inductive_proximity_sensor_m8,4,Stück,ja,Kaufteile,bestellfähig
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Nicht benötigt,nicht benötigt
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter ELCO NI4-M08-ON6L-Q8 (AUSWAHL, Original unbekannt)",inductive_proximity_sensor_m8,4,Stück,ja,Kaufteile,bestellfähig
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Kaufteile,teilweise geklärt
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-079,SHF10 Flanschhalter fürØ10 mm Welle,rod_holder_flange_d10_dold,4,Stück,ja,Kaufteile,bestellfähig
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-088,X-Achse Riemen Halter,x_belt_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-089,X-Achse Riemen Halter 1,x_belt_holder_1,3,Stück,ja,3D-Druck intern,Fertigung spezifiziert
@@ -107,8 +107,8 @@ K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-035,DIN 912 M3×10,din_9
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-046,DIN 912 M5×10,din_912_m5x10,8,Stück,ja,Kaufteile,bestellfähig
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-047,DIN 912 M5×14,din_912_m5x14,1,Stück,ja,Kaufteile,bestellfähig
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-049,"igus E2i.10.10.028.0, 16 kurze Abschnitte",drag_chain_0_24m_E2i_10_10_028_0_4,4,Stück,ja,Kaufteile,bestellfähig
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt)",inductive_proximity_sensor_m8,4,Stück,ja,Kaufteile,bestellfähig
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Nicht benötigt,nicht benötigt
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter ELCO NI4-M08-ON6L-Q8 (AUSWAHL, Original unbekannt)",inductive_proximity_sensor_m8,4,Stück,ja,Kaufteile,bestellfähig
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Kaufteile,teilweise geklärt
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-079,SHF10 Flanschhalter fürØ10 mm Welle,rod_holder_flange_d10_dold,4,Stück,ja,Kaufteile,bestellfähig
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-088,X-Achse Riemen Halter,x_belt_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-089,X-Achse Riemen Halter 1,x_belt_holder_1,3,Stück,ja,3D-Druck intern,Fertigung spezifiziert
@@ -144,8 +144,8 @@ K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-035,DIN 912 M3×10,din_9
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-046,DIN 912 M5×10,din_912_m5x10,8,Stück,ja,Kaufteile,bestellfähig
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-047,DIN 912 M5×14,din_912_m5x14,1,Stück,ja,Kaufteile,bestellfähig
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-049,"igus E2i.10.10.028.0, 16 kurze Abschnitte",drag_chain_0_24m_E2i_10_10_028_0_4,4,Stück,ja,Kaufteile,bestellfähig
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt)",inductive_proximity_sensor_m8,4,Stück,ja,Kaufteile,bestellfähig
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Nicht benötigt,nicht benötigt
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter ELCO NI4-M08-ON6L-Q8 (AUSWAHL, Original unbekannt)",inductive_proximity_sensor_m8,4,Stück,ja,Kaufteile,bestellfähig
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Kaufteile,teilweise geklärt
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-079,SHF10 Flanschhalter fürØ10 mm Welle,rod_holder_flange_d10_dold,4,Stück,ja,Kaufteile,bestellfähig
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-088,X-Achse Riemen Halter,x_belt_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-089,X-Achse Riemen Halter 1,x_belt_holder_1,3,Stück,ja,3D-Druck intern,Fertigung spezifiziert
@@ -181,8 +181,8 @@ K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-035,DIN 912 M3×10,din_9
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-046,DIN 912 M5×10,din_912_m5x10,8,Stück,ja,Kaufteile,bestellfähig
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-047,DIN 912 M5×14,din_912_m5x14,1,Stück,ja,Kaufteile,bestellfähig
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-049,"igus E2i.10.10.028.0, 16 kurze Abschnitte",drag_chain_0_24m_E2i_10_10_028_0_4,4,Stück,ja,Kaufteile,bestellfähig
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt)",inductive_proximity_sensor_m8,4,Stück,ja,Kaufteile,bestellfähig
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Nicht benötigt,nicht benötigt
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter ELCO NI4-M08-ON6L-Q8 (AUSWAHL, Original unbekannt)",inductive_proximity_sensor_m8,4,Stück,ja,Kaufteile,bestellfähig
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Kaufteile,teilweise geklärt
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-079,SHF10 Flanschhalter fürØ10 mm Welle,rod_holder_flange_d10_dold,4,Stück,ja,Kaufteile,bestellfähig
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-088,X-Achse Riemen Halter,x_belt_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-089,X-Achse Riemen Halter 1,x_belt_holder_1,3,Stück,ja,3D-Druck intern,Fertigung spezifiziert

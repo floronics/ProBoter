@@ -10,11 +10,11 @@ im Shop bestätigen. Kein Warenkorb wurde bestellt.
 
 | Umfang | netto | brutto |
 | --- | --- | --- |
-| 1. Beobachtete Webpreise × geplante Bestellpackungen | 3.626,97 € | 4.316,18 € |
-| Davon Positionen mit Status bestellfähig | 2.928,73 € | 3.485,28 € |
+| 1. Beobachtete Webpreise × geplante Bestellpackungen | 3.140,73 € | 3.737,56 € |
+| Davon Positionen mit Status bestellfähig | 2.442,49 € | 2.906,66 € |
 | Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 698,24 € | 830,90 € |
 | Eigene Budgetschätzungen zusätzlich | 825,25 € | 982,03 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 4.452,22 € | 5.298,21 € |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.965,98 € | 4.719,59 € |
 | 3. Noch unbezifferte Positionen: 19 | nicht berechenbar | nicht berechenbar |
 
 **Der Gesamtpreis eines funktionierenden Nachbaus bleibt offen.** Die Summe unter 2
@@ -66,13 +66,13 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | DIGIKEY | 175,55 € | 0,00 € | 175,55 € |
 | DOLD | 636,43 € | 365,00 € | 1.001,43 € |
 | EISEN2000 | 113,65 € | 0,00 € | 113,65 € |
+| ELCO | 298,17 € | 0,00 € | 298,17 € |
 | IGUS | 172,70 € | 0,00 € | 172,70 € |
 | MOTEDIS | 314,66 € | 0,00 € | 314,66 € |
 | NANOTEC | 445,54 € | 0,00 € | 445,54 € |
 | OFFEN | 0,00 € | 150,00 € | 150,00 € |
 | RBS | 457,90 € | 30,00 € | 487,90 € |
 | REICHELT | 219,38 € | 195,00 € | 414,38 € |
-| RS | 876,79 € | 0,00 € | 876,79 € |
 | SCHRAUBEN | 97,10 € | 29,00 € | 126,10 € |
 | STEPPERONLINE | 0,00 € | 38,08 € | 38,08 € |
 | TINYTRONICS | 30,00 € | 0,00 € | 30,00 € |
