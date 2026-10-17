@@ -27,16 +27,11 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | CAD-007 Grundgestell: Abdeckung lang Seite | 2 Stück | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen. |
 | CAD-008 Grundgestell: Abdeckung oben | 2 Stück | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen. |
 | CAD-009 Grundgestell: Schlepp Energiekette Halter | 4 Stück | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen. |
-| CAD-011 Grundgestell: Schublade lang Seite | 2 Stück | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen. |
-| CAD-012 Grundgestell: Rahmen lang Seite | 3 Stück | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen. |
-| CAD-013 Grundgestell: Rahmen kurz | 8 Stück | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen. |
-| CAD-014 Grundgestell: Rahmen Seite | 2 Stück | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen. |
 | CAD-015 Grundgestell: NEMA 14 auf 17 Adapter | 12 Stück | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf. |
 | CAD-016 Grundgestell: Platte Adapter 1 | 2 Stück | PRÜFEN: Verfahren ungeklärt. Fusion-Messung zeigt 10 mm Platten mit Stufen auf 5 mm Tiefe und 90°-Senkungen; möglicherweise Kauf-Adapterplatten oder zwei 5-mm-Laserteile statt CNC. Material, Lochtabelle und Passungen festlegen. |
 | CAD-017 Grundgestell: Platte Adapter 2 | 2 Stück | PRÜFEN: Verfahren ungeklärt. Fusion-Messung zeigt 10 mm Platten mit Stufen auf 5 mm Tiefe und 90°-Senkungen; möglicherweise Kauf-Adapterplatten oder zwei 5-mm-Laserteile statt CNC. Material, Lochtabelle und Passungen festlegen. |
 | CAD-018 Grundgestell: Platte Adapter links | 2 Stück | PRÜFEN: Verfahren ungeklärt. Fusion-Messung zeigt 10 mm Platten mit Stufen auf 5 mm Tiefe und 90°-Senkungen; möglicherweise Kauf-Adapterplatten oder zwei 5-mm-Laserteile statt CNC. Material, Lochtabelle und Passungen festlegen. |
 | CAD-019 Grundgestell: Platte Adapter rechts | 2 Stück | PRÜFEN: Verfahren ungeklärt. Fusion-Messung zeigt 10 mm Platten mit Stufen auf 5 mm Tiefe und 90°-Senkungen; möglicherweise Kauf-Adapterplatten oder zwei 5-mm-Laserteile statt CNC. Material, Lochtabelle und Passungen festlegen. |
-| CAD-020 Grundgestell: vertikal | 4 Stück | Querschnitt und Länge aus CAD (4×350 mm). Unten M6-Gewinde in die Kernbohrung Ø5 für die Gelenkfüße, intern schneiden (Entscheidung 17.10.2026). Profilserie siehe M01. |
 | CAD-021 Riemen Spanner GT2 Basis | 20 Stück | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf. |
 | CAD-022 Riemen Spanner GT2 Flügel | 20 Stück | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf. |
 | CAD-024 Kabel Abdeckung | 4 Stück | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen. |

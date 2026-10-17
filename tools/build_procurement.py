@@ -262,7 +262,7 @@ def make_parts():
         if key=='CAD-063': quantity=4
         if key=='CAD-085': quantity=1
         if key in EXCLUDED: quantity=0
-        if key in ids(27,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
+        if key in ids(11,12,13,14,20,27,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
         if key=='CAD-080': title='GleitbuchseØ10 innen / Ø19 außen / Länge29mm'
         if key=='CAD-001': title='Y-Riemenklemme (CAD-Name TR10x2 GT2 Adapter)'
         if key=='CAD-002': title='Y-Riemenklemme, Deckel'
@@ -378,10 +378,8 @@ def make_orders(parts):
         add('N-'+key[-3:],p['name'],[key],p['quantity'],offer=cad_offers[key],
             note='Nur kaufen, wenn die Sensoren keine Muttern mitbringen.' if key=='CAD-058' else '')
     profiles=ids(11,12,13,20)
-    add('MAT-002','30×30Nut6Aluprofil inklusiveSchnittreserve',profiles,8,unit='m',estimate='12',
-        source='https://www.dold-mechatronik.de/Aluminum-profile-30x30-L-I-type-slot-6-light-silver-Alu',
-        note='Eigener Budgetansatz12EUR brutto/m. Nettolängen7,098m;2×564+3×590+12×350mm.8mMaterialansatz, Lieferstangen/Schnittplan und Zusatzbearbeitung offen.')
-    add('MAT-003','60×30Nut6Aluprofil',ids(14),D('1.4'),unit='m',estimate='2.50',pack=D('.1'),note='Eigener Budgetansatz25EUR brutto/m, Recheneinheit0,1m;2×650mm netto,1,4m mitReserve. Kein bestätigtesSchnittangebot.')
+    add('MAT-002','30×30 Nut 6 Aluprofil, Zuschnitt-Los',profiles,1,unit='Los',offer='O-058')
+    add('MAT-003','60×30 Nut 6 Aluprofil schwer, Zuschnitt',ids(14),1,unit='Los',offer='O-059')
     add('MAT-004','PräzisionswellenØ10 inklusiveZuschnitt',ids(69,98),5,unit='m',estimate='25',note='CF53h6 vorgeschlagen;8×450+2×356,8=4,3136m netto.5mBudget à25EUR brutto; Schnittverteilung, Härte und Buchsenpaarung prüfen.')
     add('MAT-005','Versteifungsprofile40×16 undHalte-/Distanzstäbe',ids(70,93,94,103,108,109),1,unit='Los',estimate='100',note='Eigenes100EUR-Bruttobudget fürProfile4×436mm, Rechteck2×205mm, Ø8Trigger4×125+4×75mm, Ø4Stäbe8×70mm und4Distanzteile. Material/Profile noch klären.')
     add('MAT-006','Blechrohmaterial undVerschnitt',[p['id'] for p in parts if p['group']=='Blech intern'],1,unit='Los',estimate='200',note='Eigener200EUR-Bruttobudgettopf für3/5mmPlatten und noch nicht abgewickelteTeile. Kein Händlerangebot; Material/Flachzuschnitte noch nicht bestellfähig. InterneArbeits-/Maschinenzeit ausgeschlossen.')

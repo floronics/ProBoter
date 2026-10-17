@@ -30,7 +30,7 @@ class ProcurementTests(unittest.TestCase):
     def test_net_price_and_fractional_units(self):
         self.assertEqual(self.byid['BUY-008']['net_eur'],D('90.24'))
         self.assertEqual(self.byid['BUY-008']['gross_eur'],D('107.39'))
-        self.assertEqual(self.byid['MAT-003']['gross_eur'],D('35.00'))
+        self.assertEqual(self.byid['MAT-003']['gross_eur'],D('43.00'))
 
     def test_unknown_prices_remain_unknown(self):
         for key in ['OPEN-CAD-075','OPEN-SYS-003','OPEN-CAD-055']:

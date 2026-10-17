@@ -4,11 +4,11 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 
 | Modul | Positionen | Stück | bestellfähig | teilweise geklärt | Fertigung noch offen | Fertigung spezifiziert | nicht identifiziert | nicht benötigt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [M01 Grundgerüst](#modul-01) | 10 | 50 | 3 | 0 | 7 | 0 | 0 | 0 |
+| [M01 Grundgerüst](#modul-01) | 10 | 50 | 7 | 0 | 3 | 0 | 0 | 0 |
 | [M02 X-Achse](#modul-02) | 33 | 434 | 18 | 2 | 13 | 0 | 0 | 0 |
 | [M03 Y-Achse](#modul-03) | 27 | 168 | 15 | 2 | 10 | 0 | 0 | 0 |
 | [M04 Z-Achse](#modul-04) | 20 | 100 | 12 | 2 | 6 | 0 | 0 | 0 |
-| [M05 Schublade und Platinenhalter](#modul-05) | 15 | 53 | 6 | 1 | 7 | 0 | 1 | 0 |
+| [M05 Schublade und Platinenhalter](#modul-05) | 15 | 53 | 7 | 1 | 6 | 0 | 1 | 0 |
 | [M06 Kabelführung](#modul-06) | 10 | 57 | 3 | 0 | 7 | 0 | 0 | 0 |
 | [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 6 | 2 | 8 | 0 | 2 | 0 |
 | [M08 Optik](#modul-08) | 8 | 22 | 3 | 1 | 4 | 0 | 0 | 0 |
@@ -25,14 +25,14 @@ Tragender Rahmen ohne Elektrik, ohne Halter für elektrische Teile, ohne Achsen,
 
 | ID / Teil | CAD-Name | Stück | Status | Beschaffungsart |
 | --- | --- | --- | --- | --- |
+| [CAD-012](../Teileliste.md#cad-012) Grundgestell: Rahmen lang Seite | `base_frame_long_side` | 3 | bestellfähig | Weitere Fertigung |
+| [CAD-013](../Teileliste.md#cad-013) Grundgestell: Rahmen kurz | `base_frame_short` | 8 | bestellfähig | Weitere Fertigung |
+| [CAD-014](../Teileliste.md#cad-014) Grundgestell: Rahmen Seite | `base_frame_side` | 2 | bestellfähig | Weitere Fertigung |
+| [CAD-020](../Teileliste.md#cad-020) Grundgestell: vertikal | `base_vertical` | 4 | bestellfähig | Weitere Fertigung |
 | [CAD-034](../Teileliste.md#cad-034) DIN 7991 M6×20 | `din_7991_m6x20` | 8 von 22 | bestellfähig; 8 von 22 verbinden die Motorplatten mit den 60×30-Profilen; 8 halten die Adapterplatten (X-Antrieb), 6 die Kettenhalter. | Kaufteile |
 | [CAD-052](../Teileliste.md#cad-052) Gelenkfuß M6×20 / Teller Ø40 mm | `hinged_M6_40_dold` | 4 | bestellfähig | Kaufteile |
 | [CAD-081](../Teileliste.md#cad-081) Anschraubwinkel 30 / Nut 6 | `screw_on_bracket_30_6` | 18 von 26 | bestellfähig; 18 von 26 verbinden Rahmenprofile; 8 gehören zur Schublade. | Kaufteile |
 | [CAD-003](../Teileliste.md#cad-003) Grundgestell: Rückseite Platte | `base_back_plate` | 1 | Fertigung noch offen | Blech intern |
-| [CAD-012](../Teileliste.md#cad-012) Grundgestell: Rahmen lang Seite | `base_frame_long_side` | 3 | Fertigung noch offen | Weitere Fertigung |
-| [CAD-013](../Teileliste.md#cad-013) Grundgestell: Rahmen kurz | `base_frame_short` | 8 | Fertigung noch offen | Weitere Fertigung |
-| [CAD-014](../Teileliste.md#cad-014) Grundgestell: Rahmen Seite | `base_frame_side` | 2 | Fertigung noch offen | Weitere Fertigung |
-| [CAD-020](../Teileliste.md#cad-020) Grundgestell: vertikal | `base_vertical` | 4 | Fertigung noch offen | Weitere Fertigung |
 | [CAD-096](../Teileliste.md#cad-096) X-Achse Motor Platte | `x_motor_plate` | 1 | Fertigung noch offen | Blech intern |
 | [CAD-097](../Teileliste.md#cad-097) X-Achse Motor Platte 2 | `x_motor_plate_2` | 1 | Fertigung noch offen | Blech intern |
 
@@ -223,6 +223,7 @@ Ausziehbare Schublade mit Teleskopschienen, Seitenprofilen, Bodenplatte und Grif
 
 | ID / Teil | CAD-Name | Stück | Status | Beschaffungsart |
 | --- | --- | --- | --- | --- |
+| [CAD-011](../Teileliste.md#cad-011) Grundgestell: Schublade lang Seite | `base_drawer_long_side` | 2 | bestellfähig | Weitere Fertigung |
 | [CAD-028](../Teileliste.md#cad-028) DIN 466 Rändelmutter hoch M4 | `din_466_knurled_nut_high_m4` | 8 | bestellfähig | Kaufteile |
 | [CAD-033](../Teileliste.md#cad-033) DIN 7991 M6×14 | `din_7991_m6x14` | 6 | bestellfähig; Bodenplatte an den Profilen. | Kaufteile |
 | [CAD-043](../Teileliste.md#cad-043) DIN 912 M4×10 | `din_912_m4x10` | 1 | bestellfähig | Kaufteile |
@@ -230,7 +231,6 @@ Ausziehbare Schublade mit Teleskopschienen, Seitenprofilen, Bodenplatte und Grif
 | [CAD-081](../Teileliste.md#cad-081) Anschraubwinkel 30 / Nut 6 | `screw_on_bracket_30_6` | 8 von 26 | bestellfähig; 8 von 26 verbinden die Schubladenprofile. | Kaufteile |
 | [CAD-084](../Teileliste.md#cad-084) Teleskopschiene 350 mm, Vollauszug | `telescopic_bar_tsaa514613-350` | 2 | bestellfähig | Kaufteile |
 | [CAD-051](../Teileliste.md#cad-051) Schubladengriff, Lochabstand 100 mm | `handle_l100_dold` | 1 | teilweise geklärt | Kaufteile |
-| [CAD-011](../Teileliste.md#cad-011) Grundgestell: Schublade lang Seite | `base_drawer_long_side` | 2 | Fertigung noch offen | Weitere Fertigung |
 | [CAD-067](../Teileliste.md#cad-067) Platine Halter Gleiter | `pcb_holder_glider` | 4 | Fertigung noch offen | 3D-Druck intern |
 | [CAD-068](../Teileliste.md#cad-068) Platine Halter Führung Halter rund d 10 | `pcb_holder_guiding_holder_round_d10` | 4 | Fertigung noch offen | 3D-Druck intern |
 | [CAD-069](../Teileliste.md#cad-069) Platine Halter Führung rund | `pcb_holder_guiding_round` | 2 | Fertigung noch offen | Weitere Fertigung |
