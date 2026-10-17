@@ -1029,6 +1029,34 @@
             "z_slide_long:2"
           ],
           "cad_name": "z_slide_cable_holder"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-050"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-051"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-052"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-053"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-054"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-055"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-056"
         }
       ],
       "zusatz": [
@@ -1037,23 +1065,12 @@
           "menge": 24,
           "bezug": "SYS-027, SYS-028",
           "grund": "Im CAD als Körper der Ketten enthalten, als Sätze separat bestellt (bereits in der Teileliste)."
-        },
-        {
-          "teil": "Schrauben/Muttern der Kettenanschlüsse",
-          "menge": "offen",
-          "bezug": "SYS-030",
-          "grund": "Die igus-Anschlüsse brauchen je 2 Schrauben; im CAD teils nicht modelliert (Kontaktanalyse zeigt nur gemeinsame Schrauben mit Motor/Endschalter am Y-Schlitten)."
-        },
-        {
-          "teil": "Befestigung der Kabelhalter und Kabelabdeckungen",
-          "menge": "offen",
-          "bezug": "SYS-029",
-          "grund": "Halter tragen Gewindegröße im Namen (M3/M4/M5); passende Schrauben/Nutensteine sind im CAD nicht vorhanden."
         }
       ],
       "entfernt": [],
       "offen": [
-        "Welche Schrauben der Y-Schlitten (M3×10, M3×12) gehören zusätzlich zur Kettenbefestigung? Werden bei Elektrik mit zugeordnet."
+        "Kettenhalter CAD-009: Profil 16×80 nicht identifiziert (wie Versteifungsträger CAD-103).",
+        "Schrauben der igus-Anschlüsse, Z-Kabelhalter und Kettenadapter sind ANNAHMEN; beim Aufbau prüfen."
       ]
     },
     {

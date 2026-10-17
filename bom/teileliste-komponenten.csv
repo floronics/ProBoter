@@ -14,7 +14,7 @@ K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CA
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-019,Grundgestell: Platte Adapter rechts,base_plate_adapter_right,2,Stück,ja,Blech intern,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-020,Grundgestell: vertikal,base_vertical,4,Stück,ja,Weitere Fertigung,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-023,BIGTREETECH SKR V1.3 Steuerplatine,bigtreetech_skr_v1_3,4,Stück,ja,Kaufteile,teilweise geklärt
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-024,Kabel Abdeckung,cable_cover,4,Stück,ja,Blech intern,Fertigung noch offen
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-024,Kabel Abdeckung,cable_cover,4,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-033,DIN 7991 M6×14,din_7991_m6x14,6,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-034,DIN 7991 M6×20,din_7991_m6x20,22,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-050,"igus E2i.10.20.028.0, 8 lange Abschnitte",drag_chain_0_28m_E2i_10_20_028_0_igus,8,Stück,ja,Kaufteile,bestellfähig
@@ -415,3 +415,10 @@ K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-046,"Zylinderschraube
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-047,"Nutenstein I-Typ Nut 6, M4, Wellenhalter",,8,Stück,nein,Kaufteile,bestellfähig
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-048,"Linsenkopfschraube ISO 7380-1 M4×8 A2, Teleskopschienen",,12,Stück,nein,Kaufteile,bestellfähig
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-049,"Nutenstein I-Typ Nut 6, M4, Teleskopschienen",,12,Stück,nein,Kaufteile,bestellfähig
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-050,"Zylinderschraube DIN 912 M3×8 A2, Kabelhalter M3",,4,Stück,nein,Kaufteile,bestellfähig
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-051,"Zylinderschraube DIN 912 M3×10 A2, igus-Kettenanschlüsse",,106,Stück,nein,Kaufteile,bestellfähig
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-052,"Zylinderschraube DIN 912 M3×12 A2, Z-Kabelhalter",,6,Stück,nein,Kaufteile,bestellfähig
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-053,"Sechskantmutter DIN 934 M3 A2, Kabelführung",,111,Stück,nein,Kaufteile,bestellfähig
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-054,"Linsenkopfschraube ISO 7380-1 M4×8 A2, Kabelführung",,11,Stück,nein,Kaufteile,bestellfähig
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-055,"Nutenstein I-Typ Nut 6, M4, Kabelhalter",,3,Stück,nein,Kaufteile,bestellfähig
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-056,"Zylinderschraube DIN 912 M5×10 A2, Kabelhalter M5",,6,Stück,nein,Kaufteile,bestellfähig

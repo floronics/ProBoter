@@ -102,7 +102,7 @@ def ids(*numbers):
     return [f'CAD-{n:03}' for n in numbers]
 
 # Routing decisions. These are proposals unless the part's evidence says otherwise.
-SHEET = ids(3,16,17,18,19,7,8,9,24,26,96,97,99,100)
+SHEET = ids(3,16,17,18,19,7,8,9,26,96,97,99,100)
 CNC = []  # adapter plates moved to the workshop (decision 17.10.2026)
 WORKSHOP = ids(3,16,17,18,19,96,97,99,100)
 STOCK = ids(11,12,13,14,20,69,70,93,94,98,103,108)
@@ -207,6 +207,13 @@ SYSTEM = [
 ('047','Nutenstein I-Typ Nut 6, M4, Wellenhalter',8,'Stück','Kaufteile','DOLD','Gegenstück zu den 8 Wellenhalter-Schrauben.',CAD),
 ('048','Linsenkopfschraube ISO 7380-1 M4×8 A2, Teleskopschienen',12,'Stück','Kaufteile','SCHRAUBEN','ANNAHME (Luis 17.10.2026): je Schiene 3 Schrauben zum Rahmen und 3 zur Schublade; im CAD keine Befestigung. Linsenkopf ISO 7380-1, Kopfhöhe 2,2 mm.',CAD),
 ('049','Nutenstein I-Typ Nut 6, M4, Teleskopschienen',12,'Stück','Kaufteile','DOLD','ANNAHME, Gegenstück zu SYS-048.',CAD),
+('050','Zylinderschraube DIN 912 M3×8 A2, Kabelhalter M3',4,'Stück','Kaufteile','EISEN2000','Fusion: Kabelhalter 3,4 mm dick auf den M3-Gewinden des Kettenhalter-Profils (Wand 3,8 mm). Planmenge mit Reserve +10 %, mindestens +2.',CAD),
+('051','Zylinderschraube DIN 912 M3×10 A2, igus-Kettenanschlüsse',106,'Stück','Kaufteile','EISEN2000','ANNAHME: 48 Anschlusselemente mit je 2 Bohrungen Ø3,2 (Fusion), je eine M3×10 mit Mutter; davon 16 am Kettenadapter (Wand 5,2 mm). Planmenge mit Reserve +10 %, mindestens +2.',CAD),
+('052','Zylinderschraube DIN 912 M3×12 A2, Z-Kabelhalter',6,'Stück','Kaufteile','EISEN2000','ANNAHME: Kabelhalter 3,4 mm an der Z-Schiene, mit Mutter. Planmenge mit Reserve +10 %, mindestens +2.',CAD),
+('053','Sechskantmutter DIN 934 M3 A2, Kabelführung',111,'Stück','Kaufteile','SCHRAUBEN','Muttern zu SYS-051 und SYS-052. Planmenge mit Reserve +10 %, mindestens +2.',CAD),
+('054','Linsenkopfschraube ISO 7380-1 M4×8 A2, Kabelführung',11,'Stück','Kaufteile','SCHRAUBEN','1× Kabelhalter M4 auf dem Rahmenprofil (4,5 mm + Nutenstein), 8× Kettenadapter auf dem Versteifungsträger (ANNAHME, Gegenstück hängt vom Profil CAD-103 ab). Planmenge mit Reserve +10 %, mindestens +2.',CAD),
+('055','Nutenstein I-Typ Nut 6, M4, Kabelhalter',3,'Stück','Kaufteile','DOLD','Für den Kabelhalter M4 am Rahmenprofil. Planmenge mit Reserve +10 %, mindestens +2.',CAD),
+('056','Zylinderschraube DIN 912 M5×10 A2, Kabelhalter M5',6,'Stück','Kaufteile','SCHRAUBEN','Fusion: Kabelhalter 5,5 mm auf der Seitenplatte des X-Wagens (M5-Gewinde). Planmenge mit Reserve +10 %, mindestens +2.',CAD),
 ]
 
 def make_parts():
@@ -239,6 +246,10 @@ def make_parts():
                 note = '5mm geometrische Dicke; Kontur und Bohrungen aus CAD, Gewinde/Senkungen und Bezugs-/Lagetoleranzen fehlen. Entgraten vor Montage.'
             if key in ids(119,120):
                 note = 'CAD .psm und dünner Körper sprechen für Blech; Dicke, Biegung und Sensor-Triggerwirkung nachweisen. Hüllmaß ist keine Abwicklung.'
+        if key=='CAD-024':
+            group, status, supplier = '3D-Druck intern', 'Fertigung noch offen', 'RBS'
+            material = 'PETG (Entscheidung Luis 17.10.2026); Original Blech 3 mm'
+            note = 'Kabelabdeckung 22×58×3 mm mit 16 Bohrungen Ø4, als PETG-Druckteil statt Blech.'
         if key=='CAD-109':
             group, status, supplier = '3D-Druck intern', 'Fertigung noch offen', 'RBS'
             material = 'PETG (Entscheidung Luis 17.10.2026)'
@@ -300,6 +311,8 @@ def make_parts():
         if key=='CAD-108':
             note='Fusion-Messung: massiver Rundstab Ø4×70 mm, Fasen an beiden Enden, ohne Gewinde. Werkstatt: aus Ø4-h6-Silberstahl (1.2210) ablängen und anfasen (Entscheidung Luis 17.10.2026).'
             material='Silberstahl 1.2210 Ø4 h6'; status='Fertigung spezifiziert'; process_evidence='WERKSTATT: Ablängen und Anfasen'
+        if key=='CAD-009':
+            note='Fusion-Messung: kein Blech, sondern Alu-Flachprofil 16×80×650 mm (Querschnitt 932 mm², 2 Kerne Ø5, 8 Kanäle Ø4) mit 18 M3-Gewinden. Profil nicht identifiziert (item Profil 8 80×16 hat Nut 8 und 813 mm²); vermutlich selbe Serie wie CAD-103.'
         if key=='CAD-103':
             note='Profil 16×40, 436 mm, CAD-Querschnitt 446 mm², Kernbohrungen Ø2,46/Ø5. Kein passendes Nut-5-Profil gefunden (Recherche 17.10.2026); Kandidat norelem 16×40 Typ I hat Nut 8. Profil identifizieren.'
         if key=='CAD-003':
@@ -325,7 +338,7 @@ def make_parts():
         if group in ['PCB extern','3D-Druck intern','Weitere Fertigung']: status='Fertigung noch offen'
         if group=='Ungeklärte Teile': status='nicht identifiziert'
         if group=='Nicht benötigt': status='nicht benötigt'
-        if key in ('041','042','043','044','045','046','047','048','049'): status='bestellfähig'
+        if key in ('041','042','043','044','045','046','047','048','049','050','051','052','053','054','055','056'): status='bestellfähig'
         result.append(dict(id='SYS-'+key,name=title,cad_name='',cad_quantity='',fusion_quantity='',quantity=qty,
                            unit=unit,group=group,status=status,geometry_mm='',solid_volume_cm3='',
                            material='nicht belegt',process_evidence='Planungsbedarf; '+source,
@@ -407,7 +420,7 @@ def make_orders(parts):
     add('BUY-024','16 Anschlusssätze E2.10 schmal',['SYS-027'],16,unit='Satz',offer='O-050')
     add('BUY-025','8 Anschlusssätze E2.10 breit',['SYS-028'],8,unit='Satz',offer='O-051')
     add('BUY-017','Z-Riemen 9 mm',ids(113),D('1.28'),unit='m',offer='O-044',note='Zuschnitt aus Fusion-Messung 4×0,32 m.')
-    for key in ('SYS-041','SYS-042','SYS-043','SYS-044','SYS-045','SYS-046','SYS-047','SYS-048','SYS-049'):
+    for key in ['SYS-0'+str(k) for k in range(41,57)]:
         add('BUY-'+key,byid[key]['name'],[key],byid[key]['quantity'],offer=cad_offers[key])
     for n in (51,52,59,81,84):
         p=byid[f'CAD-{n:03}']
