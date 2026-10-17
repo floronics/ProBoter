@@ -53,7 +53,6 @@ Tragender Rahmen ohne Elektrik, ohne Halter für elektrische Teile, ohne Achsen,
 
 **Offene Fragen**
 
-- Abdeckungen oben/seitlich: aussteifend (dann Grundgerüst) oder reine Verkleidung?
 - 4 weitere Ø4,5-Bohrungen der Rückwand treffen kein Profil; vermutlich für Netzteil oder Elektronik.
 
 <a id="modul-02"></a>
