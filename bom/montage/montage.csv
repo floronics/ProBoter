@@ -36,7 +36,7 @@ M02,X-Achse,base:1+x_belt_drive,CAD-057,Sechskantmutter DIN 934 M4 A2,iso_8673_n
 M02,X-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-027,CPC MR12ML Führungswagen,cpc_MR12ML,8,8,bestellfähig,Kaufteile,
 M02,X-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-099,X-Achse Seite Platte,x_side_plate,4,4,Fertigung noch offen,Blech intern,
 M02,X-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-100,X-Achse Seite Platte beweglich,x_side_plate_moving,4,4,Fertigung noch offen,Blech intern,
-M02,X-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-103,X-Achse Schlitten Versteifung Träger,x_slide_stiffener_beam,4,4,Fertigung noch offen,Weitere Fertigung,
+M02,X-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-103,X-Achse Schlitten Versteifung Träger,x_slide_stiffener_beam,4,4,bestellfähig,Weitere Fertigung,
 M02,X-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-088,X-Achse Riemen Halter,x_belt_holder,4,4,Fertigung spezifiziert,3D-Druck intern,
 M02,X-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-089,X-Achse Riemen Halter 1,x_belt_holder_1,12,12,Fertigung spezifiziert,3D-Druck intern,
 M02,X-Achse,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-098,X-Achse rund Schiene,x_round_rail,8,8,bestellfähig,Weitere Fertigung,
@@ -114,7 +114,7 @@ M05,Schublade und Platinenhalter,ohne CAD,SYS-047,"Nutenstein I-Typ Nut 6, M4, W
 M05,Schublade und Platinenhalter,ohne CAD,SYS-048,"Linsenkopfschraube ISO 7380-1 M4×8 A2, Teleskopschienen",,12,12,bestellfähig,Kaufteile,
 M05,Schublade und Platinenhalter,ohne CAD,SYS-049,"Nutenstein I-Typ Nut 6, M4, Teleskopschienen",,12,12,bestellfähig,Kaufteile,
 M06,Kabelführung,base:1,CAD-050,"igus E2i.10.20.028.0, 8 lange Abschnitte",drag_chain_0_28m_E2i_10_20_028_0_igus,8,8,bestellfähig,Kaufteile,
-M06,Kabelführung,base:1,CAD-009,Grundgestell: Schlepp Energiekette Halter,base_drag_chain_holder,4,4,Fertigung noch offen,Blech intern,
+M06,Kabelführung,base:1,CAD-009,Grundgestell: Schlepp Energiekette Halter,base_drag_chain_holder,4,4,teilweise geklärt,Weitere Fertigung,
 M06,Kabelführung,base:1,CAD-034,DIN 7991 M6×20,din_7991_m6x20,6,22,bestellfähig,Kaufteile,6 von 22 halten die Kettenhalter an den Motorplatten.
 M06,Kabelführung,base:1,CAD-004,Grundgestell: Kabel Halter M3 flach,base_cable_holder_m3_flat,2,2,Fertigung spezifiziert,3D-Druck intern,
 M06,Kabelführung,base:1,CAD-005,Grundgestell: Kabel Halter M4,base_cable_holder_m4,1,1,Fertigung spezifiziert,3D-Druck intern,

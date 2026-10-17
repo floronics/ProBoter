@@ -10,11 +10,11 @@ im Shop bestätigen. Kein Warenkorb wurde bestellt.
 
 | Umfang | netto | brutto |
 | --- | --- | --- |
-| 1. Beobachtete Webpreise × geplante Bestellpackungen | 2.447,28 € | 2.912,35 € |
-| Davon Positionen mit Status bestellfähig | 1.811,90 € | 2.156,25 € |
-| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 635,38 € | 756,10 € |
+| 1. Beobachtete Webpreise × geplante Bestellpackungen | 2.534,53 € | 3.016,18 € |
+| Davon Positionen mit Status bestellfähig | 1.836,29 € | 2.185,28 € |
+| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 698,24 € | 830,90 € |
 | Eigene Budgetschätzungen zusätzlich | 825,25 € | 982,03 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.272,53 € | 3.894,38 € |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.359,78 € | 3.998,21 € |
 | 3. Noch unbezifferte Positionen: 22 | nicht berechenbar | nicht berechenbar |
 
 **Der Gesamtpreis eines funktionierenden Nachbaus bleibt offen.** Die Summe unter 2
@@ -63,7 +63,7 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | BEFFUCHS | 9,41 € | 5,95 € | 15,36 € |
 | DAMEN | 370,09 € | 0,00 € | 370,09 € |
 | DIGIKEY | 175,55 € | 0,00 € | 175,55 € |
-| DOLD | 518,31 € | 365,00 € | 883,31 € |
+| DOLD | 622,14 € | 365,00 € | 987,14 € |
 | EISEN2000 | 113,65 € | 0,00 € | 113,65 € |
 | IGUS | 172,70 € | 0,00 € | 172,70 € |
 | MOTEDIS | 314,66 € | 0,00 € | 314,66 € |

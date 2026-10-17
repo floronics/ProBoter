@@ -4,7 +4,7 @@ K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CA
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-005,Grundgestell: Kabel Halter M4,base_cable_holder_m4,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-007,Grundgestell: Abdeckung lang Seite,base_cover_long_side,2,Stück,ja,Blech intern,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-008,Grundgestell: Abdeckung oben,base_cover_top,2,Stück,ja,Blech intern,Fertigung noch offen
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-009,Grundgestell: Schlepp Energiekette Halter,base_drag_chain_holder,4,Stück,ja,Blech intern,Fertigung noch offen
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-009,Grundgestell: Schlepp Energiekette Halter,base_drag_chain_holder,4,Stück,ja,Weitere Fertigung,teilweise geklärt
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-010,Schubladen-Dummyplatte,base_drawer_dummy_plate,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-011,Grundgestell: Schublade lang Seite,base_drawer_long_side,2,Stück,ja,Weitere Fertigung,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-012,Grundgestell: Rahmen lang Seite,base_frame_long_side,3,Stück,ja,Weitere Fertigung,bestellfähig
@@ -85,7 +85,7 @@ K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-099,X-Achse Seite Platte
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-100,X-Achse Seite Platte beweglich,x_side_plate_moving,1,Stück,ja,Blech intern,Fertigung noch offen
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-101,X-Achse Schlitten induktiv Endschalter Adapter,x_slide_inductive_endstop_adapter,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-102,X-Achse Schlitten induktiv Endschalter Adapter gespiegelt,x_slide_inductive_endstop_adapter_mirrored,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-103,X-Achse Schlitten Versteifung Träger,x_slide_stiffener_beam,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-103,X-Achse Schlitten Versteifung Träger,x_slide_stiffener_beam,1,Stück,ja,Weitere Fertigung,bestellfähig
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-015,Grundgestell: NEMA 14 auf 17 Adapter,base_nema_14_to_17_adapter,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-021,Riemen Spanner GT2 Basis,belt_tightener_GT2_base,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-022,Riemen Spanner GT2 Flügel,belt_tightener_GT2_wing,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
@@ -122,7 +122,7 @@ K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-099,X-Achse Seite Platte
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-100,X-Achse Seite Platte beweglich,x_side_plate_moving,1,Stück,ja,Blech intern,Fertigung noch offen
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-101,X-Achse Schlitten induktiv Endschalter Adapter,x_slide_inductive_endstop_adapter,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-102,X-Achse Schlitten induktiv Endschalter Adapter gespiegelt,x_slide_inductive_endstop_adapter_mirrored,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-103,X-Achse Schlitten Versteifung Träger,x_slide_stiffener_beam,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-103,X-Achse Schlitten Versteifung Träger,x_slide_stiffener_beam,1,Stück,ja,Weitere Fertigung,bestellfähig
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-015,Grundgestell: NEMA 14 auf 17 Adapter,base_nema_14_to_17_adapter,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-021,Riemen Spanner GT2 Basis,belt_tightener_GT2_base,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-022,Riemen Spanner GT2 Flügel,belt_tightener_GT2_wing,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
@@ -159,7 +159,7 @@ K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-099,X-Achse Seite Platte
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-100,X-Achse Seite Platte beweglich,x_side_plate_moving,1,Stück,ja,Blech intern,Fertigung noch offen
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-101,X-Achse Schlitten induktiv Endschalter Adapter,x_slide_inductive_endstop_adapter,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-102,X-Achse Schlitten induktiv Endschalter Adapter gespiegelt,x_slide_inductive_endstop_adapter_mirrored,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-103,X-Achse Schlitten Versteifung Träger,x_slide_stiffener_beam,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-103,X-Achse Schlitten Versteifung Träger,x_slide_stiffener_beam,1,Stück,ja,Weitere Fertigung,bestellfähig
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-015,Grundgestell: NEMA 14 auf 17 Adapter,base_nema_14_to_17_adapter,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-021,Riemen Spanner GT2 Basis,belt_tightener_GT2_base,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-022,Riemen Spanner GT2 Flügel,belt_tightener_GT2_wing,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
@@ -196,7 +196,7 @@ K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-099,X-Achse Seite Platte
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-100,X-Achse Seite Platte beweglich,x_side_plate_moving,1,Stück,ja,Blech intern,Fertigung noch offen
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-101,X-Achse Schlitten induktiv Endschalter Adapter,x_slide_inductive_endstop_adapter,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-102,X-Achse Schlitten induktiv Endschalter Adapter gespiegelt,x_slide_inductive_endstop_adapter_mirrored,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-103,X-Achse Schlitten Versteifung Träger,x_slide_stiffener_beam,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-103,X-Achse Schlitten Versteifung Träger,x_slide_stiffener_beam,1,Stück,ja,Weitere Fertigung,bestellfähig
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-015,Grundgestell: NEMA 14 auf 17 Adapter,base_nema_14_to_17_adapter,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-021,Riemen Spanner GT2 Basis,belt_tightener_GT2_base,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-022,Riemen Spanner GT2 Flügel,belt_tightener_GT2_wing,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert

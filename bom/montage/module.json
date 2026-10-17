@@ -331,10 +331,7 @@
         "Energieketten und Kettenadapter am Wagen: eigenes Modul Kabelführung.",
         "Y-Riemenantrieb auf dem Wagen (y_belt_drive) und die 4 M3×10 direkt am Wagen: Modul Y-Achse."
       ],
-      "offen": [
-        "Senkschrauben M6×12 am Wagen greifen in den Versteifungsträger 40×16: Gewinde im Träger oder Nutenstein klären.",
-        "Versteifungsträger CAD-103 (16×40, 436 mm): Profil nicht identifiziert."
-      ],
+      "offen": [],
       "werkstatt": [
         "CAD-016 bis CAD-019 Adapterplatten und CAD-099/100 Seitenplatten der X-Wagen: eigene Werkstatt (Entscheidung 17.10.2026).",
         "3D-Druckteile (NEMA-Adapter, Spanner, Riemenhalter): PETG intern, Geometrie aus CAD."
@@ -1069,7 +1066,7 @@
       ],
       "entfernt": [],
       "offen": [
-        "Kettenhalter CAD-009: Profil 16×80 nicht identifiziert (wie Versteifungsträger CAD-103).",
+        "Kettenhalter CAD-009: Kandidat DOLD 80x16S (60886-Z) ist 13 % leichter als das CAD-Profil und hat laut Produktseite einen M8-Kern statt Ø5. Vor Bestellung an der DOLD-Zeichnung prüfen.",
         "Schrauben der igus-Anschlüsse, Z-Kabelhalter und Kettenadapter sind ANNAHMEN; beim Aufbau prüfen."
       ]
     },

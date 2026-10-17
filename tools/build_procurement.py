@@ -102,10 +102,10 @@ def ids(*numbers):
     return [f'CAD-{n:03}' for n in numbers]
 
 # Routing decisions. These are proposals unless the part's evidence says otherwise.
-SHEET = ids(3,16,17,18,19,7,8,9,26,96,97,99,100)
+SHEET = ids(3,16,17,18,19,7,8,26,96,97,99,100)
 CNC = []  # adapter plates moved to the workshop (decision 17.10.2026)
 WORKSHOP = ids(3,16,17,18,19,96,97,99,100)
-STOCK = ids(11,12,13,14,20,69,70,93,94,98,103,108)
+STOCK = ids(9,11,12,13,14,20,69,70,93,94,98,103,108)
 PCB = ids(75)
 UNIDENTIFIED = ids(10,55,61,62,73,86,115)
 EXCLUDED = ids(66,82)
@@ -292,7 +292,7 @@ def make_parts():
         if key=='CAD-063': quantity=4
         if key=='CAD-085': quantity=1
         if key in EXCLUDED: quantity=0
-        if key in ids(11,12,13,14,20,27,51,63,69,76,77,78,98,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
+        if key in ids(11,12,13,14,20,27,51,63,103,69,76,77,78,98,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
         if key=='CAD-080': title='GleitbuchseØ10 innen / Ø19 außen / Länge29mm'
         if key=='CAD-001': title='Y-Riemenklemme (CAD-Name TR10x2 GT2 Adapter)'
         if key=='CAD-002': title='Y-Riemenklemme, Deckel'
@@ -312,9 +312,11 @@ def make_parts():
             note='Fusion-Messung: massiver Rundstab Ø4×70 mm, Fasen an beiden Enden, ohne Gewinde. Werkstatt: aus Ø4-h6-Silberstahl (1.2210) ablängen und anfasen (Entscheidung Luis 17.10.2026).'
             material='Silberstahl 1.2210 Ø4 h6'; status='Fertigung spezifiziert'; process_evidence='WERKSTATT: Ablängen und Anfasen'
         if key=='CAD-009':
-            note='Fusion-Messung: kein Blech, sondern Alu-Flachprofil 16×80×650 mm (Querschnitt 932 mm², 2 Kerne Ø5, 8 Kanäle Ø4) mit 18 M3-Gewinden. Profil nicht identifiziert (item Profil 8 80×16 hat Nut 8 und 813 mm²); vermutlich selbe Serie wie CAD-103.'
+            status='teilweise geklärt'; material='Aluminium, DOLD I-Typ Nut 8'
+            note='Fusion-Messung: Alu-Flachprofil 16×80×650 mm (932 mm², 2 Kerne Ø5) mit 18 M3-Gewinden. Kandidat DOLD 80x16S I-Typ Nut 8 (60886-Z), gleiche Serie wie CAD-103, aber 813 mm² und laut Produktseite M8-Kern. Kerngröße an der DOLD-Zeichnung prüfen; M3-Gewinde in der Werkstatt.'
         if key=='CAD-103':
-            note='Profil 16×40, 436 mm, CAD-Querschnitt 446 mm², Kernbohrungen Ø2,46/Ø5. Kein passendes Nut-5-Profil gefunden (Recherche 17.10.2026); Kandidat norelem 16×40 Typ I hat Nut 8. Profil identifizieren.'
+            material='Aluminium, DOLD 40x16S I-Typ Nut 8'
+            note='DOLD 40x16S I-Typ Nut 8 schwer (60879-Z) im Zuschnitt: 1,178 kg/m ≈ 436 mm² (CAD 446 mm²), Kern Ø5 für M6 = CAD. M6-Gewinde in die Stirnseiten selbst schneiden.'
         if key=='CAD-003':
             material='Aluminium 3 mm (Entscheidung 17.10.2026), z. B. EN AW-5754'
             process_evidence='WERKSTATT: eigene Fertigung aus Blech oder Aluminium (Entscheidung Luis 17.10.2026)'
@@ -422,6 +424,8 @@ def make_orders(parts):
     add('BUY-017','Z-Riemen 9 mm',ids(113),D('1.28'),unit='m',offer='O-044',note='Zuschnitt aus Fusion-Messung 4×0,32 m.')
     for key in ['SYS-0'+str(k) for k in range(41,57)]:
         add('BUY-'+key,byid[key]['name'],[key],byid[key]['quantity'],offer=cad_offers[key])
+    add('MAT-007','Aluprofil 40x16S Nut 8, Zuschnitt',ids(103),1,unit='Los',offer=cad_offers['CAD-103'])
+    add('MAT-008','Aluprofil 80x16S Nut 8, Zuschnitt, Kandidat',ids(9),1,unit='Los',offer=cad_offers['CAD-009'])
     for n in (51,52,59,81,84):
         p=byid[f'CAD-{n:03}']
         add(f'BUY-C{n:03}',p['name'],[p['id']],p['quantity'],offer=cad_offers[p['id']])
@@ -433,7 +437,7 @@ def make_orders(parts):
     add('MAT-002','30×30 Nut 6 Aluprofil, Zuschnitt-Los',profiles,1,unit='Los',offer='O-058')
     add('MAT-003','60×30 Nut 6 Aluprofil schwer, Zuschnitt',ids(14),1,unit='Los',offer='O-059')
     add('MAT-004','Präzisionswellen Ø10, Zuschnitt-Los',ids(69,98),1,unit='Los',offer='O-064')
-    add('MAT-005','Versteifungsprofile40×16 undHalte-/Distanzstäbe',ids(70,93,94,103,108),1,unit='Los',estimate='100',note='Eigenes100EUR-Bruttobudget fürProfile4×436mm, Rechteck2×205mm, Ø8Trigger4×125+4×75mm, Ø4Stäbe8×70mm und4Distanzteile. Material/Profile noch klären.')
+    add('MAT-005','Versteifungsprofile40×16 undHalte-/Distanzstäbe',ids(70,93,94,108),1,unit='Los',estimate='100',note='Eigenes100EUR-Bruttobudget fürProfile4×436mm, Rechteck2×205mm, Ø8Trigger4×125+4×75mm, Ø4Stäbe8×70mm und4Distanzteile. Material/Profile noch klären.')
     add('MAT-006','Blechrohmaterial undVerschnitt',[p['id'] for p in parts if p['group']=='Blech intern'],1,unit='Los',estimate='200',note='Eigener200EUR-Bruttobudgettopf für3/5mmPlatten und noch nicht abgewickelteTeile. Kein Händlerangebot; Material/Flachzuschnitte noch nicht bestellfähig. InterneArbeits-/Maschinenzeit ausgeschlossen.')
     for key,amount in [('008','30'),('011','20'),('012','15'),('013','15'),('014','64'),('015','25'),('018','60'),('020','35'),('021','15'),('022','60'),('025','20'),('029','35'),('030','20'),('031','35'),('032','30')]:
         p=byid['SYS-'+key]

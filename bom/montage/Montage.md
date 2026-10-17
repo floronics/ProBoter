@@ -5,11 +5,11 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | Modul | Positionen | Stück | bestellfähig | teilweise geklärt | Fertigung noch offen | Fertigung spezifiziert | nicht identifiziert | nicht benötigt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [M01 Grundgerüst](#modul-01) | 13 | 70 | 10 | 0 | 3 | 0 | 0 | 0 |
-| [M02 X-Achse](#modul-02) | 33 | 434 | 21 | 0 | 7 | 5 | 0 | 0 |
+| [M02 X-Achse](#modul-02) | 33 | 434 | 22 | 0 | 6 | 5 | 0 | 0 |
 | [M03 Y-Achse](#modul-03) | 27 | 168 | 17 | 0 | 0 | 10 | 0 | 0 |
 | [M04 Z-Achse](#modul-04) | 20 | 100 | 14 | 0 | 0 | 6 | 0 | 0 |
 | [M05 Schublade und Platinenhalter](#modul-05) | 21 | 96 | 15 | 0 | 1 | 4 | 1 | 0 |
-| [M06 Kabelführung](#modul-06) | 17 | 304 | 10 | 0 | 1 | 6 | 0 | 0 |
+| [M06 Kabelführung](#modul-06) | 17 | 304 | 10 | 1 | 0 | 6 | 0 | 0 |
 | [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 6 | 2 | 2 | 6 | 2 | 0 |
 | [M08 Optik](#modul-08) | 8 | 22 | 3 | 1 | 1 | 3 | 0 | 0 |
 | [M09 Prüfspitzen](#modul-09) | 5 | 28 | 0 | 0 | 1 | 0 | 4 | 0 |
@@ -87,13 +87,13 @@ X-Führungen und 8 X-Riemenantriebe auf den Motorplatten sowie die 4 X-Wagen als
 | [CAD-087](../Teileliste.md#cad-087) GT2-Riemen X, 6 mm breit | `x_belt` | 8 | bestellfähig | Kaufteile |
 | [CAD-095](../Teileliste.md#cad-095) CPC MR12M Führungsschiene 600 mm | `x_guiding_cpc_MR12M` | 2 | bestellfähig | Kaufteile |
 | [CAD-098](../Teileliste.md#cad-098) X-Achse rund Schiene | `x_round_rail` | 8 | bestellfähig | Weitere Fertigung |
+| [CAD-103](../Teileliste.md#cad-103) X-Achse Schlitten Versteifung Träger | `x_slide_stiffener_beam` | 4 | bestellfähig | Weitere Fertigung |
 | [CAD-016](../Teileliste.md#cad-016) Grundgestell: Platte Adapter 1 | `base_plate_adapter_1` | 2 | Fertigung noch offen | Blech intern |
 | [CAD-017](../Teileliste.md#cad-017) Grundgestell: Platte Adapter 2 | `base_plate_adapter_2` | 2 | Fertigung noch offen | Blech intern |
 | [CAD-018](../Teileliste.md#cad-018) Grundgestell: Platte Adapter links | `base_plate_adapter_left` | 2 | Fertigung noch offen | Blech intern |
 | [CAD-019](../Teileliste.md#cad-019) Grundgestell: Platte Adapter rechts | `base_plate_adapter_right` | 2 | Fertigung noch offen | Blech intern |
 | [CAD-099](../Teileliste.md#cad-099) X-Achse Seite Platte | `x_side_plate` | 4 | Fertigung noch offen | Blech intern |
 | [CAD-100](../Teileliste.md#cad-100) X-Achse Seite Platte beweglich | `x_side_plate_moving` | 4 | Fertigung noch offen | Blech intern |
-| [CAD-103](../Teileliste.md#cad-103) X-Achse Schlitten Versteifung Träger | `x_slide_stiffener_beam` | 4 | Fertigung noch offen | Weitere Fertigung |
 | [CAD-015](../Teileliste.md#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `base_nema_14_to_17_adapter` | 8 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-021](../Teileliste.md#cad-021) Riemen Spanner GT2 Basis | `belt_tightener_GT2_base` | 16 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-022](../Teileliste.md#cad-022) Riemen Spanner GT2 Flügel | `belt_tightener_GT2_wing` | 16 | Fertigung spezifiziert | 3D-Druck intern |
@@ -118,11 +118,6 @@ X-Führungen und 8 X-Riemenantriebe auf den Motorplatten sowie die 4 X-Wagen als
 - Induktive Sensoren, M8×1-Muttern, Endschalterhalter und -adapter, Kabelhalter: Elektrik.
 - Energieketten und Kettenadapter am Wagen: eigenes Modul Kabelführung.
 - Y-Riemenantrieb auf dem Wagen (y_belt_drive) und die 4 M3×10 direkt am Wagen: Modul Y-Achse.
-
-**Offene Fragen**
-
-- Senkschrauben M6×12 am Wagen greifen in den Versteifungsträger 40×16: Gewinde im Träger oder Nutenstein klären.
-- Versteifungsträger CAD-103 (16×40, 436 mm): Profil nicht identifiziert.
 
 <a id="modul-03"></a>
 
@@ -287,7 +282,7 @@ Energieketten mit Haltern und Adaptern sowie Kabelhalter und Kabelabdeckungen. M
 | [SYS-054](../Teileliste.md#sys-054) Linsenkopfschraube ISO 7380-1 M4×8 A2, Kabelführung | nicht im CAD | 11 | bestellfähig | Kaufteile |
 | [SYS-055](../Teileliste.md#sys-055) Nutenstein I-Typ Nut 6, M4, Kabelhalter | nicht im CAD | 3 | bestellfähig | Kaufteile |
 | [SYS-056](../Teileliste.md#sys-056) Zylinderschraube DIN 912 M5×10 A2, Kabelhalter M5 | nicht im CAD | 6 | bestellfähig | Kaufteile |
-| [CAD-009](../Teileliste.md#cad-009) Grundgestell: Schlepp Energiekette Halter | `base_drag_chain_holder` | 4 | Fertigung noch offen | Blech intern |
+| [CAD-009](../Teileliste.md#cad-009) Grundgestell: Schlepp Energiekette Halter | `base_drag_chain_holder` | 4 | teilweise geklärt | Weitere Fertigung |
 | [CAD-004](../Teileliste.md#cad-004) Grundgestell: Kabel Halter M3 flach | `base_cable_holder_m3_flat` | 2 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-005](../Teileliste.md#cad-005) Grundgestell: Kabel Halter M4 | `base_cable_holder_m4` | 1 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-006](../Teileliste.md#cad-006) Grundgestell: Kabel Halter M5 flach | `base_cable_holder_m5_flat` | 4 | Fertigung spezifiziert | 3D-Druck intern |
@@ -303,7 +298,7 @@ Energieketten mit Haltern und Adaptern sowie Kabelhalter und Kabelabdeckungen. M
 
 **Offene Fragen**
 
-- Kettenhalter CAD-009: Profil 16×80 nicht identifiziert (wie Versteifungsträger CAD-103).
+- Kettenhalter CAD-009: Kandidat DOLD 80x16S (60886-Z) ist 13 % leichter als das CAD-Profil und hat laut Produktseite einen M8-Kern statt Ø5. Vor Bestellung an der DOLD-Zeichnung prüfen.
 - Schrauben der igus-Anschlüsse, Z-Kabelhalter und Kettenadapter sind ANNAHMEN; beim Aufbau prüfen.
 
 <a id="modul-07"></a>

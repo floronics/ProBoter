@@ -21,7 +21,6 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | CAD-003 Grundgestell: Rückseite Platte | 1 Stück | 650×270×3 mm, 54 Bohrungen Ø3,4, 10 Bohrungen Ø4,5, 1 Bohrung Ø8. 6 Ø4,5-Bohrungen sitzen auf den langen Profilen (M4 + Nutenstein, siehe M01). Zuschnitt und Bohrungen intern; Zeichnung aus CAD ableiten. |
 | CAD-007 Grundgestell: Abdeckung lang Seite | 2 Stück | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen. |
 | CAD-008 Grundgestell: Abdeckung oben | 2 Stück | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen. |
-| CAD-009 Grundgestell: Schlepp Energiekette Halter | 4 Stück | Fusion-Messung: kein Blech, sondern Alu-Flachprofil 16×80×650 mm (Querschnitt 932 mm², 2 Kerne Ø5, 8 Kanäle Ø4) mit 18 M3-Gewinden. Profil nicht identifiziert (item Profil 8 80×16 hat Nut 8 und 813 mm²); vermutlich selbe Serie wie CAD-103. |
 | CAD-016 Grundgestell: Platte Adapter 1 | 2 Stück | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten. |
 | CAD-017 Grundgestell: Platte Adapter 2 | 2 Stück | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten. |
 | CAD-018 Grundgestell: Platte Adapter links | 2 Stück | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten. |
@@ -35,7 +34,6 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | CAD-097 X-Achse Motor Platte 2 | 1 Stück | 5 mm Stahl, 550×135 mm. Fusion-Messung: 16 Kernlöcher Ø2,46 für M3-Gewinde (Riemenspanner), Senkungen für M6 und Ø22-Durchbrüche für die Motoren. Kontur und Bohrungen aus CAD; Gewinde und Senkungen intern. Zeichnung mit Lagetoleranzen der Führungsbohrungen fehlt. |
 | CAD-099 X-Achse Seite Platte | 4 Stück | 5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten. Zeichnung aus CAD ableiten. |
 | CAD-100 X-Achse Seite Platte beweglich | 4 Stück | 5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten. Zeichnung aus CAD ableiten. |
-| CAD-103 X-Achse Schlitten Versteifung Träger | 4 Stück | Profil 16×40, 436 mm, CAD-Querschnitt 446 mm², Kernbohrungen Ø2,46/Ø5. Kein passendes Nut-5-Profil gefunden (Recherche 17.10.2026); Kandidat norelem 16×40 Typ I hat Nut 8. Profil identifizieren. |
 | SYS-003 Signal-Multiplexer, unbestückte Leiterplatte | 1 Stück | CAD-082 ist nur Platzhalter. Schaltplan/Gerber/Board-BOM fehlen; USB/9600Baud-Protokoll ist keine Schaltung. |
 | SYS-004 Kalibrier-Referenzkörper / Platte | 1 Stück | Geometrie mit aktueller Software festlegen; Plattendicke 5,1 mm ist Konfigurationswert, keine validierte Zeichnung. |
 | SYS-005 Innere Messing-Referenzzylinder | 4 Stück | Je 1×Ø7/8/9/10 mm nach Reference Board.inner_brass_pin_position_map; Raster 11,95×19,95 mm. Endfläche auf Bezugsebene; Gesamtlänge, Einbau, Toleranzen und Messprotokoll fehlen. |
@@ -52,6 +50,7 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 
 | ID / Teil | Bedarf | Nächsterkonkreter Schritt |
 | --- | --- | --- |
+| CAD-009 Grundgestell: Schlepp Energiekette Halter | 4 Stück | Fusion-Messung: Alu-Flachprofil 16×80×650 mm (932 mm², 2 Kerne Ø5) mit 18 M3-Gewinden. Kandidat DOLD 80x 16S I-Typ Nut 8 (60886-Z), gleiche Serie wie CAD-103, aber 813 mm² und laut Produktseite M8-Kern. Kerngröße an der DOLD-Zeichnung prüfen; M3-Gewinde in der Werkstatt. |
 | CAD-023 BIGTREETECH SKR V1.3 Steuerplatine | 4 Stück | Original laut CAD, Firmware und Masterarbeit. Neu in DE/EU nicht gefunden (Recherche 17.10.2026). Kandidat SKR 1.4 Turbo (RBS13645) passt auf fast dieselben Löcher, braucht aber Marlin-Pinanpassung; nicht freigegeben. |
 | CAD-058 ISO 8673 Mutter M8 | 53 Stück | Norm und Maße mit CAD abgeglichen; Artikel 24122 08 1. A4 statt A2; H 6,5 statt 6,8. Datenblatt nennt Linksgewinde, vermutlich Datenfehler: vor Bestellung klären. Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026). ISO 8673 M8×1 passt zu den M8×1-Gewinden der induktiven Sensoren. Sensoren liefern meist 2 Muttern mit; dann nur Reserve kaufen. |
 | CAD-085 Bewegliches USB-Mikroskop | 1 Stück | Plan 1 laut Hardware-Blog,4CAD. Weitere 3 optional. Originalmodell unbekannt; Kandidat muss 100 mm Arbeitsabstand/ca 30×40 mm Bildfeld und Linux-UVC erfüllen. |
