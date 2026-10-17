@@ -1,15 +1,15 @@
 {
   "web": {
-    "net": "2513.28",
-    "gross": "2990.88"
+    "net": "2381.12",
+    "gross": "2833.61"
   },
   "estimates": {
     "net": "793.25",
     "gross": "943.95"
   },
   "provisional": {
-    "net": "3306.53",
-    "gross": "3934.83"
+    "net": "3174.37",
+    "gross": "3777.56"
   },
   "date": "2026-10-16",
   "parts": 163,
@@ -39,11 +39,11 @@
     "OPEN-SYS-040"
   ],
   "status_counts": {
-    "Fertigung spezifiziert": 33,
-    "Fertigung noch offen": 33,
+    "Fertigung spezifiziert": 35,
+    "Fertigung noch offen": 31,
     "nicht identifiziert": 7,
-    "bestellfähig": 53,
-    "teilweise geklärt": 32,
+    "bestellfähig": 55,
+    "teilweise geklärt": 30,
     "nicht benötigt": 5
   }
 }

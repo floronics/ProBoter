@@ -7,7 +7,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | [M01 Grundgerüst](#modul-01) | 13 | 70 | 10 | 0 | 3 | 0 | 0 | 0 |
 | [M02 X-Achse](#modul-02) | 33 | 434 | 21 | 0 | 7 | 5 | 0 | 0 |
 | [M03 Y-Achse](#modul-03) | 27 | 168 | 17 | 0 | 0 | 10 | 0 | 0 |
-| [M04 Z-Achse](#modul-04) | 20 | 100 | 12 | 2 | 3 | 3 | 0 | 0 |
+| [M04 Z-Achse](#modul-04) | 20 | 100 | 14 | 0 | 1 | 5 | 0 | 0 |
 | [M05 Schublade und Platinenhalter](#modul-05) | 15 | 53 | 8 | 1 | 1 | 4 | 1 | 0 |
 | [M06 Kabelführung](#modul-06) | 10 | 57 | 3 | 0 | 2 | 5 | 0 | 0 |
 | [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 6 | 2 | 2 | 6 | 2 | 0 |
@@ -194,15 +194,21 @@ Z-Antrieb auf den 4 Y-Schlitten (NEMA14, 9-mm-Zahnscheiben, Z-Riemen, HIWIN-Wage
 | [CAD-053](../Teileliste.md#cad-053) HIWIN MGNR12R150HM, Z-Schiene 150 mm | `hiwin_rail_MGNR12R150HM` | 4 | bestellfähig | Kaufteile |
 | [CAD-054](../Teileliste.md#cad-054) HIWIN MGN12CZ0HM Z-Führungswagen | `hiwin_slide_MGN12CZ0H` | 4 | bestellfähig | Kaufteile |
 | [CAD-056](../Teileliste.md#cad-056) Sechskantmutter DIN 934 M3 A2 | `iso_8673_nut_m3` | 4 von 24 | bestellfähig; 4 von 24 an der Achse der Umlenkscheibe. | Kaufteile |
+| [CAD-063](../Teileliste.md#cad-063) NEMA14 Z-Motor, ERSATZ: STEPPERONLINE 14HS13-0804S statt Nanotec ST3518M1004-A | `nanotec_nema_14_ST3518M1004-A` | 4 von 8 | bestellfähig; 4 von 8: je Y-Schlitten zwei CAD-Varianten derselben Einbaulage. | Kaufteile |
+| [CAD-076](../Teileliste.md#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG | `pulley_gt2_9mm` | 8 | bestellfähig | Kaufteile |
 | [CAD-113](../Teileliste.md#cad-113) GT2-Riemen Z, 9 mm breit | `z_drive_belt` | 4 | bestellfähig | Kaufteile |
-| [CAD-063](../Teileliste.md#cad-063) Nanotec ST3518M1004-A NEMA14 Z-Motor | `nanotec_nema_14_ST3518M1004-A` | 4 von 8 | teilweise geklärt; 4 von 8: je Y-Schlitten zwei CAD-Varianten derselben Einbaulage. | Kaufteile |
-| [CAD-076](../Teileliste.md#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm | `pulley_gt2_9mm` | 8 | teilweise geklärt | Kaufteile |
 | [CAD-109](../Teileliste.md#cad-109) Y-Achse Schlitten Abstand Rohr 2 mm | `y_slide_distance_tube_2mm` | 4 | Fertigung noch offen | Weitere Fertigung |
-| [CAD-119](../Teileliste.md#cad-119) Z-Achse Schlitten Endschalter Auslöser | `z_slide_end_stop_trigger.psm` | 2 | Fertigung noch offen | Blech intern |
-| [CAD-120](../Teileliste.md#cad-120) Z-Achse Schlitten Endschalter Auslöser gespiegelt | `z_slide_end_stop_trigger_mirrored.psm` | 2 | Fertigung noch offen | Blech intern |
 | [CAD-114](../Teileliste.md#cad-114) Z-Achse Antrieb Riemen Halter v 3 | `z_drive_belt_holder_v3` | 4 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-116](../Teileliste.md#cad-116) Z-Achse Prüfspitze Platine Halter | `z_probe_tip_pcb_holder` | 2 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-117](../Teileliste.md#cad-117) Z-Achse Prüfspitze Platine Halter lang | `z_probe_tip_pcb_holder_long` | 2 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-119](../Teileliste.md#cad-119) Z-Achse Schlitten Endschalter Auslöser | `z_slide_end_stop_trigger.psm` | 2 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-120](../Teileliste.md#cad-120) Z-Achse Schlitten Endschalter Auslöser gespiegelt | `z_slide_end_stop_trigger_mirrored.psm` | 2 | Fertigung spezifiziert | 3D-Druck intern |
+
+**Werkstattfertigung**
+
+- ERSATZ: NEMA14 Z-Motor STEPPERONLINE 14HS13-0804S statt Original Nanotec ST3518M1004-A (Entscheidung Luis 17.10.2026). Motorstrom auf 0,8 A begrenzen.
+- ANPASSUNG: Z-Zahnscheibe RBS12867 (Ø13×19,5) statt Original Ø18×11; Y-Schlitten-Druckteil und Umlenkachse anpassen.
+- Endschalter-Auslöser CAD-119/120 als PETG-Druckteil statt Blech.
 
 **Zusätzlich nötig, nicht im CAD**
 
@@ -217,8 +223,7 @@ Z-Antrieb auf den 4 Y-Schlitten (NEMA14, 9-mm-Zahnscheiben, Z-Riemen, HIWIN-Wage
 
 **Offene Fragen**
 
-- Die HIWIN-Schiene hat 6 Bohrungen, genutzt werden 2–3. Prüfen, ob weitere Schrauben vorgesehen sind.
-- Z-Zahnscheibe CAD-076: exaktes Teil nicht lieferbar; Kandidat mit anderer Bauform braucht angepasste Halter.
+- Gelochte HIWIN-Schiene: 6 Bohrungen, genutzt 2–3. Prüfen, ob weitere Schrauben vorgesehen sind.
 
 <a id="modul-05"></a>
 
@@ -419,4 +424,4 @@ Abdeckungen oben und seitlich; laut Luis keine tragende Funktion.
 
 ## Abdeckung
 
-Alle CAD-Vorkommen sind einem Modul zugeordnet außer: Nanotec ST3518M1004-A NEMA14 Z-Motor (4); Prüfobjekt-Platzhalter im CAD (1); Multiplexer-Platzhalter im CAD (1). Das sind CAD-Platzhalter bzw. doppelte Motor-Einbaulagen.
+Alle CAD-Vorkommen sind einem Modul zugeordnet außer: NEMA14 Z-Motor, ERSATZ: STEPPERONLINE 14HS13-0804S statt Nanotec ST3518M1004-A (4); Prüfobjekt-Platzhalter im CAD (1); Multiplexer-Platzhalter im CAD (1). Das sind CAD-Platzhalter bzw. doppelte Motor-Einbaulagen.

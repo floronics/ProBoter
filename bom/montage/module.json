@@ -842,8 +842,12 @@
         "Kabelhalter am langen Z-Schlitten: Elektrik."
       ],
       "offen": [
-        "Die HIWIN-Schiene hat 6 Bohrungen, genutzt werden 2–3. Prüfen, ob weitere Schrauben vorgesehen sind.",
-        "Z-Zahnscheibe CAD-076: exaktes Teil nicht lieferbar; Kandidat mit anderer Bauform braucht angepasste Halter."
+        "Gelochte HIWIN-Schiene: 6 Bohrungen, genutzt 2–3. Prüfen, ob weitere Schrauben vorgesehen sind."
+      ],
+      "werkstatt": [
+        "ERSATZ: NEMA14 Z-Motor STEPPERONLINE 14HS13-0804S statt Original Nanotec ST3518M1004-A (Entscheidung Luis 17.10.2026). Motorstrom auf 0,8 A begrenzen.",
+        "ANPASSUNG: Z-Zahnscheibe RBS12867 (Ø13×19,5) statt Original Ø18×11; Y-Schlitten-Druckteil und Umlenkachse anpassen.",
+        "Endschalter-Auslöser CAD-119/120 als PETG-Druckteil statt Blech."
       ]
     },
     {

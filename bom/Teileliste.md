@@ -294,9 +294,9 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-054](#cad-054) HIWIN MGN12CZ0HM Z-Führungswagen | direkt | `hiwin_slide_MGN12CZ0H` | 1 | bestellfähig |
 | [CAD-056](#cad-056) Sechskantmutter DIN 934 M3 A2 | direkt | `iso_8673_nut_m3` | 6 | bestellfähig; Plan gesamt 49 statt 44 |
 | [CAD-057](#cad-057) Sechskantmutter DIN 934 M4 A2 | direkt | `iso_8673_nut_m4` | 6 | bestellfähig; Plan gesamt 71 statt 64 |
-| [CAD-063](#cad-063) Nanotec ST3518M1004-A NEMA14 Z-Motor | direkt | `nanotec_nema_14_ST3518M1004-A` | 2 | teilweise geklärt; Plan gesamt 4 statt 8 |
+| [CAD-063](#cad-063) NEMA14 Z-Motor, ERSATZ: STEPPERONLINE 14HS13-0804S statt Nanotec ST3518M1004-A | direkt | `nanotec_nema_14_ST3518M1004-A` | 2 | bestellfähig; Plan gesamt 4 statt 8 |
 | [CAD-065](#cad-065) Optischer Endschalter 11×35 mm | direkt | `optical_endstop` | 1 | bestellfähig |
-| [CAD-076](#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm | direkt | `pulley_gt2_9mm` | 2 | teilweise geklärt |
+| [CAD-076](#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG | direkt | `pulley_gt2_9mm` | 2 | bestellfähig |
 | [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | bestellfähig |
 | [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
 | [CAD-105](#cad-105) Y-Achse Kamera Halter | direkt | `y_camera_holder` | 1 | Fertigung spezifiziert |
@@ -327,9 +327,9 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-054](#cad-054) HIWIN MGN12CZ0HM Z-Führungswagen | direkt | `hiwin_slide_MGN12CZ0H` | 1 | bestellfähig |
 | [CAD-056](#cad-056) Sechskantmutter DIN 934 M3 A2 | direkt | `iso_8673_nut_m3` | 6 | bestellfähig; Plan gesamt 49 statt 44 |
 | [CAD-057](#cad-057) Sechskantmutter DIN 934 M4 A2 | direkt | `iso_8673_nut_m4` | 6 | bestellfähig; Plan gesamt 71 statt 64 |
-| [CAD-063](#cad-063) Nanotec ST3518M1004-A NEMA14 Z-Motor | direkt | `nanotec_nema_14_ST3518M1004-A` | 2 | teilweise geklärt; Plan gesamt 4 statt 8 |
+| [CAD-063](#cad-063) NEMA14 Z-Motor, ERSATZ: STEPPERONLINE 14HS13-0804S statt Nanotec ST3518M1004-A | direkt | `nanotec_nema_14_ST3518M1004-A` | 2 | bestellfähig; Plan gesamt 4 statt 8 |
 | [CAD-065](#cad-065) Optischer Endschalter 11×35 mm | direkt | `optical_endstop` | 1 | bestellfähig |
-| [CAD-076](#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm | direkt | `pulley_gt2_9mm` | 2 | teilweise geklärt |
+| [CAD-076](#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG | direkt | `pulley_gt2_9mm` | 2 | bestellfähig |
 | [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | bestellfähig |
 | [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
 | [CAD-105](#cad-105) Y-Achse Kamera Halter | direkt | `y_camera_holder` | 1 | Fertigung spezifiziert |
@@ -360,9 +360,9 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-054](#cad-054) HIWIN MGN12CZ0HM Z-Führungswagen | direkt | `hiwin_slide_MGN12CZ0H` | 1 | bestellfähig |
 | [CAD-056](#cad-056) Sechskantmutter DIN 934 M3 A2 | direkt | `iso_8673_nut_m3` | 6 | bestellfähig; Plan gesamt 49 statt 44 |
 | [CAD-057](#cad-057) Sechskantmutter DIN 934 M4 A2 | direkt | `iso_8673_nut_m4` | 6 | bestellfähig; Plan gesamt 71 statt 64 |
-| [CAD-063](#cad-063) Nanotec ST3518M1004-A NEMA14 Z-Motor | direkt | `nanotec_nema_14_ST3518M1004-A` | 2 | teilweise geklärt; Plan gesamt 4 statt 8 |
+| [CAD-063](#cad-063) NEMA14 Z-Motor, ERSATZ: STEPPERONLINE 14HS13-0804S statt Nanotec ST3518M1004-A | direkt | `nanotec_nema_14_ST3518M1004-A` | 2 | bestellfähig; Plan gesamt 4 statt 8 |
 | [CAD-065](#cad-065) Optischer Endschalter 11×35 mm | direkt | `optical_endstop` | 1 | bestellfähig |
-| [CAD-076](#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm | direkt | `pulley_gt2_9mm` | 2 | teilweise geklärt |
+| [CAD-076](#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG | direkt | `pulley_gt2_9mm` | 2 | bestellfähig |
 | [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | bestellfähig |
 | [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
 | [CAD-106](#cad-106) Y-Achse Kamera Halter kompakt | direkt | `y_camera_holder_compact` | 1 | Fertigung spezifiziert |
@@ -393,9 +393,9 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-054](#cad-054) HIWIN MGN12CZ0HM Z-Führungswagen | direkt | `hiwin_slide_MGN12CZ0H` | 1 | bestellfähig |
 | [CAD-056](#cad-056) Sechskantmutter DIN 934 M3 A2 | direkt | `iso_8673_nut_m3` | 6 | bestellfähig; Plan gesamt 49 statt 44 |
 | [CAD-057](#cad-057) Sechskantmutter DIN 934 M4 A2 | direkt | `iso_8673_nut_m4` | 6 | bestellfähig; Plan gesamt 71 statt 64 |
-| [CAD-063](#cad-063) Nanotec ST3518M1004-A NEMA14 Z-Motor | direkt | `nanotec_nema_14_ST3518M1004-A` | 2 | teilweise geklärt; Plan gesamt 4 statt 8 |
+| [CAD-063](#cad-063) NEMA14 Z-Motor, ERSATZ: STEPPERONLINE 14HS13-0804S statt Nanotec ST3518M1004-A | direkt | `nanotec_nema_14_ST3518M1004-A` | 2 | bestellfähig; Plan gesamt 4 statt 8 |
 | [CAD-065](#cad-065) Optischer Endschalter 11×35 mm | direkt | `optical_endstop` | 1 | bestellfähig |
-| [CAD-076](#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm | direkt | `pulley_gt2_9mm` | 2 | teilweise geklärt |
+| [CAD-076](#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG | direkt | `pulley_gt2_9mm` | 2 | bestellfähig |
 | [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | bestellfähig |
 | [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
 | [CAD-106](#cad-106) Y-Achse Kamera Halter kompakt | direkt | `y_camera_holder_compact` | 1 | Fertigung spezifiziert |
@@ -419,7 +419,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung spezifiziert |
 | [CAD-115](#cad-115) Federkontakt der Prüfspitze | direkt | `z_pogo_pin` | 1 | nicht identifiziert |
 | [CAD-116](#cad-116) Z-Achse Prüfspitze Platine Halter | direkt | `z_probe_tip_pcb_holder` | 1 | Fertigung spezifiziert |
-| [CAD-119](#cad-119) Z-Achse Schlitten Endschalter Auslöser | direkt | `z_slide_end_stop_trigger.psm` | 1 | Fertigung noch offen |
+| [CAD-119](#cad-119) Z-Achse Schlitten Endschalter Auslöser | direkt | `z_slide_end_stop_trigger.psm` | 1 | Fertigung spezifiziert |
 | [CAD-061](#cad-061) MMCX-Stecker gerade / Messleitung | `probe_tip` | `mmcx_male_end` | 2 | nicht identifiziert |
 | [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | `probe_tip` | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
 | [CAD-075](#cad-075) Prüfspitzen-PCB, unbestückt | `probe_tip` | `probe_tip_pcb` | 1 | Fertigung noch offen |
@@ -439,7 +439,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung spezifiziert |
 | [CAD-115](#cad-115) Federkontakt der Prüfspitze | direkt | `z_pogo_pin` | 1 | nicht identifiziert |
 | [CAD-116](#cad-116) Z-Achse Prüfspitze Platine Halter | direkt | `z_probe_tip_pcb_holder` | 1 | Fertigung spezifiziert |
-| [CAD-119](#cad-119) Z-Achse Schlitten Endschalter Auslöser | direkt | `z_slide_end_stop_trigger.psm` | 1 | Fertigung noch offen |
+| [CAD-119](#cad-119) Z-Achse Schlitten Endschalter Auslöser | direkt | `z_slide_end_stop_trigger.psm` | 1 | Fertigung spezifiziert |
 | [CAD-061](#cad-061) MMCX-Stecker gerade / Messleitung | `probe_tip` | `mmcx_male_end` | 2 | nicht identifiziert |
 | [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | `probe_tip` | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
 | [CAD-075](#cad-075) Prüfspitzen-PCB, unbestückt | `probe_tip` | `probe_tip_pcb` | 1 | Fertigung noch offen |
@@ -459,7 +459,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-115](#cad-115) Federkontakt der Prüfspitze | direkt | `z_pogo_pin` | 1 | nicht identifiziert |
 | [CAD-117](#cad-117) Z-Achse Prüfspitze Platine Halter lang | direkt | `z_probe_tip_pcb_holder_long` | 1 | Fertigung spezifiziert |
 | [CAD-118](#cad-118) Z-Achse Schlitten Kabel Halter | direkt | `z_slide_cable_holder` | 2 | Fertigung spezifiziert |
-| [CAD-120](#cad-120) Z-Achse Schlitten Endschalter Auslöser gespiegelt | direkt | `z_slide_end_stop_trigger_mirrored.psm` | 1 | Fertigung noch offen |
+| [CAD-120](#cad-120) Z-Achse Schlitten Endschalter Auslöser gespiegelt | direkt | `z_slide_end_stop_trigger_mirrored.psm` | 1 | Fertigung spezifiziert |
 | [CAD-062](#cad-062) MMCX-Stecker gewinkelt / Messleitung | `probe_tip_with_angle` | `mmcx_male_end_with_angle` | 2 | nicht identifiziert |
 | [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | `probe_tip_with_angle` | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
 | [CAD-075](#cad-075) Prüfspitzen-PCB, unbestückt | `probe_tip_with_angle` | `probe_tip_pcb` | 1 | Fertigung noch offen |
@@ -479,7 +479,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-115](#cad-115) Federkontakt der Prüfspitze | direkt | `z_pogo_pin` | 1 | nicht identifiziert |
 | [CAD-117](#cad-117) Z-Achse Prüfspitze Platine Halter lang | direkt | `z_probe_tip_pcb_holder_long` | 1 | Fertigung spezifiziert |
 | [CAD-118](#cad-118) Z-Achse Schlitten Kabel Halter | direkt | `z_slide_cable_holder` | 2 | Fertigung spezifiziert |
-| [CAD-120](#cad-120) Z-Achse Schlitten Endschalter Auslöser gespiegelt | direkt | `z_slide_end_stop_trigger_mirrored.psm` | 1 | Fertigung noch offen |
+| [CAD-120](#cad-120) Z-Achse Schlitten Endschalter Auslöser gespiegelt | direkt | `z_slide_end_stop_trigger_mirrored.psm` | 1 | Fertigung spezifiziert |
 | [CAD-062](#cad-062) MMCX-Stecker gewinkelt / Messleitung | `probe_tip_with_angle` | `mmcx_male_end_with_angle` | 2 | nicht identifiziert |
 | [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | `probe_tip_with_angle` | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
 | [CAD-075](#cad-075) Prüfspitzen-PCB, unbestückt | `probe_tip_with_angle` | `probe_tip_pcb` | 1 | Fertigung noch offen |
@@ -575,10 +575,10 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="cad-058"></a>**CAD-058** ISO 8673 Mutter M8<br>`iso_8673_nut_m8` | 48 / 48 / **53 Stück** | teilweise geklärt | 13.0 x 6.8 x 15.011; Edelstahl A4-80 statt A2; A2 in M8×1 nicht gefunden | Norm und Maße mit CAD abgeglichen; Artikel 24122 08 1. A4 statt A2; H 6,5 statt 6,8. Datenblatt nennt Linksgewinde, vermutlich Datenfehler: vor Bestellung klären. Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026). ISO 8673 M8×1 passt zu den M8×1-Gewinden der induktiven Sensoren. Sensoren liefern meist 2 Muttern mit; dann nur Reserve kaufen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `N-058` |
 | <a id="cad-059"></a>**CAD-059** Mean Well MHS012 Montagewinkel<br>`mean_well_MHS-012_mounting_bracket` | 4 / 4 / **4 Stück** | bestellfähig | 16.0 x 15.0 x 19.2; nicht belegt | 4 Winkel für RSP-200. Mean-Well-Zeichnung 15×16,2×19,5 mm = CAD (Abweichung höchstens 0,3 mm). Reichelt MHS-012.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-C059` |
 | <a id="cad-060"></a>**CAD-060** Mean Well RSP-200-24 Netzteil,24 V/8,4 A<br>`mean_well_RSP-200-24` | 1 / 1 / **1 Stück** | bestellfähig | 115.0 x 30.0 x 215.0; nicht belegt | Originalmodell,215×115×30 mm. Lastbilanz, Absicherung, Berührungsschutz und Schutzleiter separat.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-001` |
-| <a id="cad-063"></a>**CAD-063** Nanotec ST3518M1004-A NEMA14 Z-Motor<br>`nanotec_nema_14_ST3518M1004-A` | 8 / 8 / **4 Stück** | teilweise geklärt | 35.0 x 65.0 x 60.0; nicht belegt | Original laut Masterarbeit, nur im Herstellerarchiv: 36 mm, 1,0 A, Welle Ø5×24 = CAD 60 mm. Menge 4 belegt durch Fusion-Messung (zwei Varianten je Y-Schlitten, 1,6 mm Achsversatz). Nachfolgekandidat SC3518M1204-A ist 3,5 mm länger und hat einen seitlichen Stecker.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-015` |
+| <a id="cad-063"></a>**CAD-063** NEMA14 Z-Motor, ERSATZ: STEPPERONLINE 14HS13-0804S statt Nanotec ST3518M1004-A<br>`nanotec_nema_14_ST3518M1004-A` | 8 / 8 / **4 Stück** | bestellfähig | 35.0 x 65.0 x 60.0; nicht belegt | ORIGINALMOTOR AUSGETAUSCHT (Entscheidung Luis 17.10.2026). Original nur im Nanotec-Archiv. Ersatz 34,8 mm statt 36 mm lang, Welle Ø5×24 mit D-Abflachung, 0,8 A statt 1,0 A, 18 statt 14 Ncm, Litzen ohne Stecker. Motorstrom in der Firmware auf 0,8 A begrenzen. Fusion-Messung: nur 2,8 mm Luft zum Endschalter, kürzerer Motor passt.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-015` |
 | <a id="cad-064"></a>**CAD-064** Nanotec ST4118M1804-A NEMA17 X/Y-Motor<br>`nanotec_nema_17_ST4118M1804-A` | 12 / 0 / **12 Stück** | bestellfähig | offen; nicht belegt | Originalmodell, aktuelle Nanotec-Serie: 1,8 A, 0,28 Nm, 38 mm, Welle Ø5×24, Litzen 300 mm mit JST XHP-4. 12 laut STEP (8 X + 4 Y), im Fusion-Import fehlend. Verfügbarkeit beim Hersteller anfragen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-014` |
 | <a id="cad-065"></a>**CAD-065** Optischer Endschalter 11×35 mm<br>`optical_endstop` | 4 / 4 / **4 Stück** | bestellfähig | 35.0 x 11.0 x 11.7; nicht belegt | RBS12901: 35×11 mm und Lochabstand 28 mm stimmen mit der Fusion-Messung überein. VCC/GND/SIG, 2,7–5 V, HIGH bei Unterbrechung. Pinfolge am SKR-Stecker vor dem Anschluss prüfen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-009` |
-| <a id="cad-076"></a>**CAD-076** GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm<br>`pulley_gt2_9mm` | 8 / 8 / **8 Stück** | teilweise geklärt | 11.0 x 18.0 x 18.0; nicht belegt | Fusion-Messung: je Z-Achse zwei Stück, eine koaxial auf der Ø5-Motorwelle (Antrieb), eine 108 mm entfernt (Umlenkung). Teilkreis Ø10,19 = GT2 Z16, Bordscheiben Ø18, Breite 11 mm. Exaktes Teil in DE/EU nicht gefunden; Kandidat RBS12867 (Ø13×19,5, für 10-mm-Riemen) braucht angepasste Halter.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-006` |
+| <a id="cad-076"></a>**CAD-076** GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG<br>`pulley_gt2_9mm` | 8 / 8 / **8 Stück** | bestellfähig | 11.0 x 18.0 x 18.0; nicht belegt | Exaktes Teil (Ø18×11) in der EU nicht lieferbar. RBS12867 (Ø13×19,5, für 10-mm-Riemen) wird verwendet; Y-Schlitten-Druckteil und Umlenkachse müssen angepasst werden (Entscheidung Luis 17.10.2026). Fusion-Messung: Umlenkscheibe hat nur 3 mm Luft zum Schlitten.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-006` |
 | <a id="cad-077"></a>**CAD-077** GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm<br>`pulley_gt2_z16_6mm` | 12 / 12 / **12 Stück** | bestellfähig | 14.1 x 13.0 x 13.0; nicht belegt | 12 X/Y-Antriebe. RBS10278: Bordscheibe Ø14 statt CAD Ø13; Fusion-Messung zeigt 4,6 mm Abstand zum nächsten Teil, passt.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-004` |
 | <a id="cad-078"></a>**CAD-078** GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm<br>`return_pulley_gt2_z16_6mm` | 20 / 20 / **20 Stück** | bestellfähig | 8.5 x 13.0 x 13.0; nicht belegt | 20 Stück. Tinytronics 002225: Bohrung 3, Ø13, Breite 8,5 mm = CAD exakt (Rollen sitzen paarweise ohne Luft zwischen den Spannerflügeln).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-005` |
 | <a id="cad-079"></a>**CAD-079** SHF10 Flanschhalter fürØ10 mm Welle<br>`rod_holder_flange_d10_dold` | 16 / 16 / **16 Stück** | bestellfähig | 10.0 x 24.0 x 43.0; nicht belegt | 16 Stück.43×24×10 mm undØ5,5-Befestigung stimmen mit DOLD11260 überein. Liefertermin 27.11.2026 angekündigt.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-003` |
@@ -655,6 +655,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="cad-116"></a>**CAD-116** Z-Achse Prüfspitze Platine Halter<br>`z_probe_tip_pcb_holder` | 2 / 2 / **2 Stück** | Fertigung spezifiziert | 79.382 x 16.0 x 12.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
 | <a id="cad-117"></a>**CAD-117** Z-Achse Prüfspitze Platine Halter lang<br>`z_probe_tip_pcb_holder_long` | 2 / 2 / **2 Stück** | Fertigung spezifiziert | 103.413 x 16.0 x 55.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
 | <a id="cad-118"></a>**CAD-118** Z-Achse Schlitten Kabel Halter<br>`z_slide_cable_holder` | 4 / 4 / **4 Stück** | Fertigung spezifiziert | 16.0 x 8.0 x 10.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-119"></a>**CAD-119** Z-Achse Schlitten Endschalter Auslöser<br>`z_slide_end_stop_trigger.psm` | 2 / 2 / **2 Stück** | Fertigung spezifiziert | 9.05 x 22.5 x 15.0; PETG (Entscheidung Luis 17.10.2026); Original Blechteil | Auslöser für den optischen Z-Endschalter, keine Last. Statt Blech als PETG-Druckteil (Entscheidung 17.10.2026).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-120"></a>**CAD-120** Z-Achse Schlitten Endschalter Auslöser gespiegelt<br>`z_slide_end_stop_trigger_mirrored.psm` | 2 / 2 / **2 Stück** | Fertigung spezifiziert | 9.05 x 22.5 x 15.0; PETG (Entscheidung Luis 17.10.2026); Original Blechteil | Auslöser für den optischen Z-Endschalter, keine Last. Statt Blech als PETG-Druckteil (Entscheidung 17.10.2026).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
 | <a id="sys-004"></a>**SYS-004** Kalibrier-Referenzkörper / Platte | – / – / **1 Stück** | Fertigung noch offen | offen; nicht belegt | Geometrie mit aktueller Software festlegen; Plattendicke 5,1 mm ist Konfigurationswert, keine validierte Zeichnung.<br>[Beleg](../software/hardware-control/proboter/cli.py); Kostenzeile `MAT-001` |
 
 ## Blech intern
@@ -675,8 +677,6 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="cad-097"></a>**CAD-097** X-Achse Motor Platte 2<br>`x_motor_plate_2` | 1 / 1 / **1 Stück** | Fertigung noch offen | 550.0 x 5.0 x 135.0; Stahl- oder Aluminiumblech 5 mm, Werkstattentscheidung | 5 mm Stahl, 550×135 mm. Fusion-Messung: 16 Kernlöcher Ø2,46 für M3-Gewinde (Riemenspanner), Senkungen für M6 und Ø22-Durchbrüche für die Motoren. Kontur und Bohrungen aus CAD; Gewinde und Senkungen intern. Zeichnung mit Lagetoleranzen der Führungsbohrungen fehlt.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
 | <a id="cad-099"></a>**CAD-099** X-Achse Seite Platte<br>`x_side_plate` | 4 / 4 / **4 Stück** | Fertigung noch offen | 55.0 x 5.0 x 166.5; Stahl- oder Aluminiumblech, Werkstattentscheidung | 5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten. Zeichnung aus CAD ableiten.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
 | <a id="cad-100"></a>**CAD-100** X-Achse Seite Platte beweglich<br>`x_side_plate_moving` | 4 / 4 / **4 Stück** | Fertigung noch offen | 55.0 x 5.0 x 166.5; Stahl- oder Aluminiumblech, Werkstattentscheidung | 5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten. Zeichnung aus CAD ableiten.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
-| <a id="cad-119"></a>**CAD-119** Z-Achse Schlitten Endschalter Auslöser<br>`z_slide_end_stop_trigger.psm` | 2 / 2 / **2 Stück** | Fertigung noch offen | 9.05 x 22.5 x 15.0; Stahl S235 vorgeschlagen; Abdeckungen alternativ Alublech, nicht freigegeben | CAD .psm und dünner Körper sprechen für Blech; Dicke, Biegung und Sensor-Triggerwirkung nachweisen. Hüllmaß ist keine Abwicklung.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
-| <a id="cad-120"></a>**CAD-120** Z-Achse Schlitten Endschalter Auslöser gespiegelt<br>`z_slide_end_stop_trigger_mirrored.psm` | 2 / 2 / **2 Stück** | Fertigung noch offen | 9.05 x 22.5 x 15.0; Stahl S235 vorgeschlagen; Abdeckungen alternativ Alublech, nicht freigegeben | CAD .psm und dünner Körper sprechen für Blech; Dicke, Biegung und Sensor-Triggerwirkung nachweisen. Hüllmaß ist keine Abwicklung.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
 
 ## CNC extern
 

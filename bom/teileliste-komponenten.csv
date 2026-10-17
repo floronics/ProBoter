@@ -225,9 +225,9 @@ K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-045,DIN 912 M4×30,din_912_m4x3
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-054,HIWIN MGN12CZ0HM Z-Führungswagen,hiwin_slide_MGN12CZ0H,1,Stück,ja,Kaufteile,bestellfähig
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,6,Stück,ja,Kaufteile,bestellfähig
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-057,Sechskantmutter DIN 934 M4 A2,iso_8673_nut_m4,6,Stück,ja,Kaufteile,bestellfähig
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-063,Nanotec ST3518M1004-A NEMA14 Z-Motor,nanotec_nema_14_ST3518M1004-A,2,Stück,ja,Kaufteile,teilweise geklärt
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-063,"NEMA14 Z-Motor, ERSATZ: STEPPERONLINE 14HS13-0804S statt Nanotec ST3518M1004-A",nanotec_nema_14_ST3518M1004-A,2,Stück,ja,Kaufteile,bestellfähig
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-065,Optischer Endschalter 11×35 mm,optical_endstop,1,Stück,ja,Kaufteile,bestellfähig
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-076,GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm,pulley_gt2_9mm,2,Stück,ja,Kaufteile,teilweise geklärt
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-076,"GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG",pulley_gt2_9mm,2,Stück,ja,Kaufteile,bestellfähig
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-080,GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm,rod_slide_d10_l19,4,Stück,ja,Kaufteile,bestellfähig
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-085,Bewegliches USB-Mikroskop,usb_microscope,1,Stück,ja,Kaufteile,teilweise geklärt
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-105,Y-Achse Kamera Halter,y_camera_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
@@ -251,9 +251,9 @@ K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-045,DIN 912 M4×30,din_912_m4x3
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-054,HIWIN MGN12CZ0HM Z-Führungswagen,hiwin_slide_MGN12CZ0H,1,Stück,ja,Kaufteile,bestellfähig
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,6,Stück,ja,Kaufteile,bestellfähig
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-057,Sechskantmutter DIN 934 M4 A2,iso_8673_nut_m4,6,Stück,ja,Kaufteile,bestellfähig
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-063,Nanotec ST3518M1004-A NEMA14 Z-Motor,nanotec_nema_14_ST3518M1004-A,2,Stück,ja,Kaufteile,teilweise geklärt
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-063,"NEMA14 Z-Motor, ERSATZ: STEPPERONLINE 14HS13-0804S statt Nanotec ST3518M1004-A",nanotec_nema_14_ST3518M1004-A,2,Stück,ja,Kaufteile,bestellfähig
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-065,Optischer Endschalter 11×35 mm,optical_endstop,1,Stück,ja,Kaufteile,bestellfähig
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-076,GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm,pulley_gt2_9mm,2,Stück,ja,Kaufteile,teilweise geklärt
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-076,"GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG",pulley_gt2_9mm,2,Stück,ja,Kaufteile,bestellfähig
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-080,GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm,rod_slide_d10_l19,4,Stück,ja,Kaufteile,bestellfähig
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-085,Bewegliches USB-Mikroskop,usb_microscope,1,Stück,ja,Kaufteile,teilweise geklärt
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-105,Y-Achse Kamera Halter,y_camera_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
@@ -277,9 +277,9 @@ K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-054,HIWIN MGN12CZ0HM Z-Führungswagen,hiwin_slide_MGN12CZ0H,1,Stück,ja,Kaufteile,bestellfähig
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,6,Stück,ja,Kaufteile,bestellfähig
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-057,Sechskantmutter DIN 934 M4 A2,iso_8673_nut_m4,6,Stück,ja,Kaufteile,bestellfähig
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-063,Nanotec ST3518M1004-A NEMA14 Z-Motor,nanotec_nema_14_ST3518M1004-A,2,Stück,ja,Kaufteile,teilweise geklärt
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-063,"NEMA14 Z-Motor, ERSATZ: STEPPERONLINE 14HS13-0804S statt Nanotec ST3518M1004-A",nanotec_nema_14_ST3518M1004-A,2,Stück,ja,Kaufteile,bestellfähig
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-065,Optischer Endschalter 11×35 mm,optical_endstop,1,Stück,ja,Kaufteile,bestellfähig
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-076,GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm,pulley_gt2_9mm,2,Stück,ja,Kaufteile,teilweise geklärt
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-076,"GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG",pulley_gt2_9mm,2,Stück,ja,Kaufteile,bestellfähig
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-080,GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm,rod_slide_d10_l19,4,Stück,ja,Kaufteile,bestellfähig
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-085,Bewegliches USB-Mikroskop,usb_microscope,1,Stück,ja,Kaufteile,teilweise geklärt
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-106,Y-Achse Kamera Halter kompakt,y_camera_holder_compact,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
@@ -303,9 +303,9 @@ K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-054,HIWIN MGN12CZ0HM Z-Führungswagen,hiwin_slide_MGN12CZ0H,1,Stück,ja,Kaufteile,bestellfähig
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,6,Stück,ja,Kaufteile,bestellfähig
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-057,Sechskantmutter DIN 934 M4 A2,iso_8673_nut_m4,6,Stück,ja,Kaufteile,bestellfähig
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-063,Nanotec ST3518M1004-A NEMA14 Z-Motor,nanotec_nema_14_ST3518M1004-A,2,Stück,ja,Kaufteile,teilweise geklärt
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-063,"NEMA14 Z-Motor, ERSATZ: STEPPERONLINE 14HS13-0804S statt Nanotec ST3518M1004-A",nanotec_nema_14_ST3518M1004-A,2,Stück,ja,Kaufteile,bestellfähig
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-065,Optischer Endschalter 11×35 mm,optical_endstop,1,Stück,ja,Kaufteile,bestellfähig
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-076,GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm,pulley_gt2_9mm,2,Stück,ja,Kaufteile,teilweise geklärt
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-076,"GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG",pulley_gt2_9mm,2,Stück,ja,Kaufteile,bestellfähig
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-080,GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm,rod_slide_d10_l19,4,Stück,ja,Kaufteile,bestellfähig
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-085,Bewegliches USB-Mikroskop,usb_microscope,1,Stück,ja,Kaufteile,teilweise geklärt
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-106,Y-Achse Kamera Halter kompakt,y_camera_holder_compact,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
@@ -322,7 +322,7 @@ K10 z_slide:1,z_slide:1,Z-Achse,,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve
 K10 z_slide:1,z_slide:1,Z-Achse,,CAD-114,Z-Achse Antrieb Riemen Halter v 3,z_drive_belt_holder_v3,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K10 z_slide:1,z_slide:1,Z-Achse,,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K10 z_slide:1,z_slide:1,Z-Achse,,CAD-116,Z-Achse Prüfspitze Platine Halter,z_probe_tip_pcb_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K10 z_slide:1,z_slide:1,Z-Achse,,CAD-119,Z-Achse Schlitten Endschalter Auslöser,z_slide_end_stop_trigger.psm,1,Stück,ja,Blech intern,Fertigung noch offen
+K10 z_slide:1,z_slide:1,Z-Achse,,CAD-119,Z-Achse Schlitten Endschalter Auslöser,z_slide_end_stop_trigger.psm,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K10 z_slide:1,z_slide:1,Z-Achse,probe_tip,CAD-061,MMCX-Stecker gerade / Messleitung,mmcx_male_end,2,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K10 z_slide:1,z_slide:1,Z-Achse,probe_tip,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K10 z_slide:1,z_slide:1,Z-Achse,probe_tip,CAD-075,"Prüfspitzen-PCB, unbestückt",probe_tip_pcb,1,Stück,ja,PCB extern,Fertigung noch offen
@@ -335,7 +335,7 @@ K11 z_slide:2,z_slide:2,Z-Achse,,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve
 K11 z_slide:2,z_slide:2,Z-Achse,,CAD-114,Z-Achse Antrieb Riemen Halter v 3,z_drive_belt_holder_v3,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K11 z_slide:2,z_slide:2,Z-Achse,,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K11 z_slide:2,z_slide:2,Z-Achse,,CAD-116,Z-Achse Prüfspitze Platine Halter,z_probe_tip_pcb_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K11 z_slide:2,z_slide:2,Z-Achse,,CAD-119,Z-Achse Schlitten Endschalter Auslöser,z_slide_end_stop_trigger.psm,1,Stück,ja,Blech intern,Fertigung noch offen
+K11 z_slide:2,z_slide:2,Z-Achse,,CAD-119,Z-Achse Schlitten Endschalter Auslöser,z_slide_end_stop_trigger.psm,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K11 z_slide:2,z_slide:2,Z-Achse,probe_tip,CAD-061,MMCX-Stecker gerade / Messleitung,mmcx_male_end,2,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K11 z_slide:2,z_slide:2,Z-Achse,probe_tip,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K11 z_slide:2,z_slide:2,Z-Achse,probe_tip,CAD-075,"Prüfspitzen-PCB, unbestückt",probe_tip_pcb,1,Stück,ja,PCB extern,Fertigung noch offen
@@ -348,7 +348,7 @@ K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-114,Z-Achse 
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-117,Z-Achse Prüfspitze Platine Halter lang,z_probe_tip_pcb_holder_long,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-118,Z-Achse Schlitten Kabel Halter,z_slide_cable_holder,2,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-120,Z-Achse Schlitten Endschalter Auslöser gespiegelt,z_slide_end_stop_trigger_mirrored.psm,1,Stück,ja,Blech intern,Fertigung noch offen
+K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-120,Z-Achse Schlitten Endschalter Auslöser gespiegelt,z_slide_end_stop_trigger_mirrored.psm,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-062,MMCX-Stecker gewinkelt / Messleitung,mmcx_male_end_with_angle,2,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-075,"Prüfspitzen-PCB, unbestückt",probe_tip_pcb,1,Stück,ja,PCB extern,Fertigung noch offen
@@ -361,7 +361,7 @@ K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-114,Z-Achse 
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-117,Z-Achse Prüfspitze Platine Halter lang,z_probe_tip_pcb_holder_long,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-118,Z-Achse Schlitten Kabel Halter,z_slide_cable_holder,2,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-120,Z-Achse Schlitten Endschalter Auslöser gespiegelt,z_slide_end_stop_trigger_mirrored.psm,1,Stück,ja,Blech intern,Fertigung noch offen
+K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-120,Z-Achse Schlitten Endschalter Auslöser gespiegelt,z_slide_end_stop_trigger_mirrored.psm,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-062,MMCX-Stecker gewinkelt / Messleitung,mmcx_male_end_with_angle,2,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-075,"Prüfspitzen-PCB, unbestückt",probe_tip_pcb,1,Stück,ja,PCB extern,Fertigung noch offen

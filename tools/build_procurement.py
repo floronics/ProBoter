@@ -45,6 +45,7 @@ SUPPLIER_URL = {
     'DAMEN': 'https://www.damencnc.com/',
     'DIGIKEY': 'https://www.digikey.de/',
     'TINYTRONICS': 'https://www.tinytronics.nl/',
+    'STEPPERONLINE': 'https://www.omc-stepperonline.com/de/',
     'OFFEN': '',
 }
 
@@ -101,7 +102,7 @@ def ids(*numbers):
     return [f'CAD-{n:03}' for n in numbers]
 
 # Routing decisions. These are proposals unless the part's evidence says otherwise.
-SHEET = ids(3,16,17,18,19,7,8,9,24,26,96,97,99,100,119,120)
+SHEET = ids(3,16,17,18,19,7,8,9,24,26,96,97,99,100)
 CNC = []  # adapter plates moved to the workshop (decision 17.10.2026)
 WORKSHOP = ids(3,16,17,18,19,96,97,99,100)
 STOCK = ids(11,12,13,14,20,69,70,93,94,98,103,108,109)
@@ -133,12 +134,12 @@ DETAIL = {
 60: ('Mean Well RSP-200-24 Netzteil,24V/8,4A', 'Originalmodell,215×115×30mm. Lastbilanz, Absicherung, Berührungsschutz und Schutzleiter separat.', 'REICHELT'),
 61: ('MMCX-Stecker gerade / Messleitung', '4 CAD-Modelle enthalten Kabelansätze. Impedanz, Kabeltyp, Crimp/Lötanschluss, Gegenstecker und Länge unbekannt.', 'TME'),
 62: ('MMCX-Stecker gewinkelt / Messleitung', '4 CAD-Modelle; Kabel-/Buchsenpaarung mitCAD-061/075 und Multiplexer offen.', 'TME'),
-63: ('Nanotec ST3518M1004-A NEMA14 Z-Motor', 'Original laut Masterarbeit, nur im Herstellerarchiv: 36 mm, 1,0 A, Welle Ø5×24 = CAD 60 mm. Menge 4 belegt durch Fusion-Messung (zwei Varianten je Y-Schlitten, 1,6 mm Achsversatz). Nachfolgekandidat SC3518M1204-A ist 3,5 mm länger und hat einen seitlichen Stecker.', 'NANOTEC'),
+63: ('NEMA14 Z-Motor, ERSATZ: STEPPERONLINE 14HS13-0804S statt Nanotec ST3518M1004-A', 'ORIGINALMOTOR AUSGETAUSCHT (Entscheidung Luis 17.10.2026). Original nur im Nanotec-Archiv. Ersatz 34,8 mm statt 36 mm lang, Welle Ø5×24 mit D-Abflachung, 0,8 A statt 1,0 A, 18 statt 14 Ncm, Litzen ohne Stecker. Motorstrom in der Firmware auf 0,8 A begrenzen. Fusion-Messung: nur 2,8 mm Luft zum Endschalter, kürzerer Motor passt.', 'STEPPERONLINE'),
 64: ('Nanotec ST4118M1804-A NEMA17 X/Y-Motor', 'Originalmodell, aktuelle Nanotec-Serie: 1,8 A, 0,28 Nm, 38 mm, Welle Ø5×24, Litzen 300 mm mit JST XHP-4. 12 laut STEP (8 X + 4 Y), im Fusion-Import fehlend. Verfügbarkeit beim Hersteller anfragen.', 'NANOTEC'),
 65: ('Optischer Endschalter 11×35 mm', 'RBS12901: 35×11 mm und Lochabstand 28 mm stimmen mit der Fusion-Messung überein. VCC/GND/SIG, 2,7–5 V, HIGH bei Unterbrechung. Pinfolge am SKR-Stecker vor dem Anschluss prüfen.', 'RBS'),
 73: ('Prüfkontakt-Hülse P75-2 W', '8 Stück, CADØ1,2×25,4mm. Hersteller und passender FederkontaktCAD-115 unklar; Kontaktpaar vollständig spezifizieren.', 'TME'),
 75: ('Prüfspitzen-PCB, unbestückt', '4 Stück;26,67×10,96×1,6mm Hülle. Schaltplan, Kupfer, Bohrungen, Gerber und Bestückungsdaten fehlen. Bestückung SYS-024 separat.', 'BETA'),
-76: ('GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm', 'Fusion-Messung: je Z-Achse zwei Stück, eine koaxial auf der Ø5-Motorwelle (Antrieb), eine 108 mm entfernt (Umlenkung). Teilkreis Ø10,19 = GT2 Z16, Bordscheiben Ø18, Breite 11 mm. Exaktes Teil in DE/EU nicht gefunden; Kandidat RBS12867 (Ø13×19,5, für 10-mm-Riemen) braucht angepasste Halter.', 'RBS'),
+76: ('GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG', 'Exaktes Teil (Ø18×11) in der EU nicht lieferbar. RBS12867 (Ø13×19,5, für 10-mm-Riemen) wird verwendet; Y-Schlitten-Druckteil und Umlenkachse müssen angepasst werden (Entscheidung Luis 17.10.2026). Fusion-Messung: Umlenkscheibe hat nur 3 mm Luft zum Schlitten.', 'RBS'),
 77: ('GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm', '12 X/Y-Antriebe. RBS10278: Bordscheibe Ø14 statt CAD Ø13; Fusion-Messung zeigt 4,6 mm Abstand zum nächsten Teil, passt.', 'RBS'),
 78: ('GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm', '20 Stück. Tinytronics 002225: Bohrung 3, Ø13, Breite 8,5 mm = CAD exakt (Rollen sitzen paarweise ohne Luft zwischen den Spannerflügeln).', 'TINYTRONICS'),
 79: ('SHF10 Flanschhalter fürØ10mm Welle', '16 Stück.43×24×10mm undØ5,5-Befestigung stimmen mitDOLD11260 überein. Liefertermin27.11.2026 angekündigt.', 'DOLD'),
@@ -232,6 +233,10 @@ def make_parts():
                 note = '5mm geometrische Dicke; Kontur und Bohrungen aus CAD, Gewinde/Senkungen und Bezugs-/Lagetoleranzen fehlen. Entgraten vor Montage.'
             if key in ids(119,120):
                 note = 'CAD .psm und dünner Körper sprechen für Blech; Dicke, Biegung und Sensor-Triggerwirkung nachweisen. Hüllmaß ist keine Abwicklung.'
+        if key in ids(119,120):
+            group, status, supplier = '3D-Druck intern', 'Fertigung noch offen', 'RBS'
+            material = 'PETG (Entscheidung Luis 17.10.2026); Original Blechteil'
+            note = 'Auslöser für den optischen Z-Endschalter, keine Last. Statt Blech als PETG-Druckteil (Entscheidung 17.10.2026).'
         if key in CNC:
             group, supplier, status = 'CNC extern','XOMETRY','Fertigung noch offen'
             material, process_evidence = 'EN AW-6082 T6 vorgeschlagen', 'CNC-Fräsen vorgeschlagen; Originalverfahren nicht belegt'
@@ -267,7 +272,7 @@ def make_parts():
         if key=='CAD-063': quantity=4
         if key=='CAD-085': quantity=1
         if key in EXCLUDED: quantity=0
-        if key in ids(11,12,13,14,20,27,69,77,78,98,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
+        if key in ids(11,12,13,14,20,27,63,69,76,77,78,98,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
         if key=='CAD-080': title='GleitbuchseØ10 innen / Ø19 außen / Länge29mm'
         if key=='CAD-001': title='Y-Riemenklemme (CAD-Name TR10x2 GT2 Adapter)'
         if key=='CAD-002': title='Y-Riemenklemme, Deckel'
@@ -328,7 +333,7 @@ def make_orders(parts):
         assert all(i in byid for i in part_ids),part_ids
         o=offers.get(offer,{})
         sup=supplier or o.get('supplier') or byid[part_ids[0]]['supplier']
-        price=o.get('price') if offer else estimate
+        price=o.get('price') if offer and o.get('price') is not None else estimate
         price_basis=o.get('basis',basis)
         size=o.get('pack',pack)
         packs=pack_count(need,size)
@@ -342,7 +347,7 @@ def make_orders(parts):
         row=dict(id=key,title=title,part_ids=';'.join(part_ids),need=need,unit=unit,pack_size=size,
                  order_packs=packs,order_quantity=q,price_per_pack=price,price_basis=price_basis,
                  currency='EUR',vat_percent=19,net_eur=net,gross_eur=gross,
-                 price_kind='Webpreis' if offer else ('Schätzung' if estimate is not None else 'offen'),
+                 price_kind='Webpreis' if offer and o.get('price') is not None else ('Schätzung' if estimate is not None else 'offen'),
                  optional=optional,supplier=sup,manufacturer=o.get('manufacturer','nicht festgelegt'),
                  sku=o.get('sku','offen'),mpn=o.get('mpn','offen'),date=DATE,
                  stock=o.get('stock','nicht bestätigt; Angebot/Checkout erforderlich'),
@@ -361,7 +366,7 @@ def make_orders(parts):
     add('BUY-003','16FlanschhalterSHF10',ids(79),16,offer='O-003')
     add('BUY-004','12X/Y-Antriebsriemenscheiben',ids(77),12,offer='O-004')
     add('BUY-005','20 Umlenkrollen 6 mm, 8,5 mm breit',ids(78),20,offer='O-063')
-    add('BUY-006','8Umlenkrollen9mm, Kandidat',ids(76),8,offer='O-006')
+    add('BUY-006','8 Z-Zahnscheiben 9 mm, Ersatz mit Halteranpassung',ids(76),8,offer='O-006')
     add('BUY-007','X/Y-Riemen6mm,2Rollen à10m',ids(87,104),20,unit='m',offer='O-007',note='Zuschnitt aus Fusion-Messung: 8×1,51 m + 4×1,10 m = 16,5 m inklusive Klemmzugabe; zwei 10-m-Rollen decken den Bedarf.')
     add('BUY-008','Kurze Energieketten, 192 Glieder',ids(49),192,unit='Glied',offer='O-008',note='16 Abschnitte à 12 Glieder (0,24 m).')
     add('BUY-009','4optischeEndstops inkl1mKabel',ids(65),4,offer='O-009')
@@ -379,7 +384,7 @@ def make_orders(parts):
 
     # Own rough budget assumptions; not supplier quotations or promises of fit.
     add('BUY-014','12 NEMA17 Originalmotoren',ids(64),12,offer='O-041')
-    add('BUY-015','4 NEMA14 Z-Motoren, Nachfolgekandidat',ids(63),4,offer='O-042',note='Preis des Nachfolgekandidaten; Originalmodell nur im Archiv.')
+    add('BUY-015','4 NEMA14 Z-Motoren, ERSATZ STEPPERONLINE 14HS13-0804S',ids(63),4,offer='O-063',estimate='8',basis='net',note='Shoppreis 8,48 USD, als 8 EUR netto geschätzt; EUR-Preis und Versandlager im Checkout prüfen.')
     add('BUY-016','4 Steuerplatinen, Ersatzkandidat SKR 1.4 Turbo',ids(23),4,offer='O-043',note='Preis des Ersatzkandidaten; Firmware-Migration nicht enthalten und nicht freigegeben.')
     add('BUY-018','8 CPC-Führungswagen MR12ML',ids(27),8,offer='O-045')
     add('BUY-019','2 CPC-Schienen MR12M 600 mm',ids(95),2,offer='O-046')
