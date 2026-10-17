@@ -11,6 +11,9 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | [M05 Schublade und Platinenhalter](#modul-05) | 15 | 53 | 6 | 1 | 7 | 0 | 1 | 0 |
 | [M06 Kabelführung](#modul-06) | 10 | 57 | 3 | 0 | 7 | 0 | 0 | 0 |
 | [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 6 | 2 | 8 | 0 | 2 | 0 |
+| [M08 Optik](#modul-08) | 8 | 22 | 3 | 1 | 4 | 0 | 0 | 0 |
+| [M09 Prüfspitzen](#modul-09) | 5 | 28 | 0 | 0 | 1 | 0 | 4 | 0 |
+| [M10 Verkleidung](#modul-10) | 2 | 4 | 0 | 0 | 2 | 0 | 0 | 0 |
 
 <a id="modul-01"></a>
 
@@ -330,3 +333,83 @@ Netzteil, Steuerplatinen, Bedientaster, Multiplexer-Halter, induktive Sensoren u
 
 - Induktive Sensoren CAD-055: Typ (NPN/PNP, Schaltabstand, Spannung) weiter nicht identifiziert.
 - Bedientaster CAD-086: Funktion weiter nicht identifiziert.
+
+<a id="modul-08"></a>
+
+## M08 Optik
+
+Bewegliches USB-Mikroskop mit Haltern an den Y-Schlitten und die Übersichtskamera mit Halter am Grundgestell.
+
+*Am 17.10.2026 angelegt; Schrauben aus der Kontaktanalyse der Y-Schlitten.*
+
+| ID / Teil | CAD-Name | Stück | Status | Beschaffungsart |
+| --- | --- | --- | --- | --- |
+| [CAD-037](../Teileliste.md#cad-037) DIN 912 M3×14 | `din_912_m3x14` | 4 | bestellfähig | Kaufteile |
+| [CAD-041](../Teileliste.md#cad-041) DIN 912 M3×30 | `din_912_m3x30` | 4 von 8 | bestellfähig; 4 von 8 halten den Kamerahalter. | Kaufteile |
+| [CAD-056](../Teileliste.md#cad-056) Sechskantmutter DIN 934 M3 A2 | `iso_8673_nut_m3` | 4 von 24 | bestellfähig; 4 von 24 am Kamerahalter. | Kaufteile |
+| [CAD-085](../Teileliste.md#cad-085) Bewegliches USB-Mikroskop | `usb_microscope` | 4 | teilweise geklärt; CAD zeigt 4, geplant ist 1 (3 optional). | Kaufteile |
+| [CAD-025](../Teileliste.md#cad-025) Kamera Halter | `camera_holder` | 1 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-026](../Teileliste.md#cad-026) Kamera Halter oben | `camera_holder_top` | 1 | Fertigung noch offen | Blech intern |
+| [CAD-105](../Teileliste.md#cad-105) Y-Achse Kamera Halter | `y_camera_holder` | 2 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-106](../Teileliste.md#cad-106) Y-Achse Kamera Halter kompakt | `y_camera_holder_compact` | 2 | Fertigung noch offen | 3D-Druck intern |
+
+**Zusätzlich nötig, nicht im CAD**
+
+| Teil | Stück | Bezug | Grund |
+| --- | --- | --- | --- |
+| Übersichtskamera und Beleuchtung | siehe Teileliste | SYS-002, SYS-007, SYS-008, SYS-033 | Kamera, LED-Streifen und LED-Profile ohne CAD-Körper. |
+| Befestigung Kamerahalter am Grundgestell | offen | SYS-029 | Im CAD keine Schrauben für camera_holder. |
+
+**Offene Fragen**
+
+- Mikroskop- und Kameramodell des Originals unbekannt; Halter müssen zum gewählten Modell passen.
+
+<a id="modul-09"></a>
+
+## M09 Prüfspitzen
+
+Die 4 Prüfspitzen an den Z-Schlitten: Platine, Federkontakt, Kontakthülse und MMCX-Messstecker.
+
+*Am 17.10.2026 angelegt.*
+
+| ID / Teil | CAD-Name | Stück | Status | Beschaffungsart |
+| --- | --- | --- | --- | --- |
+| [CAD-075](../Teileliste.md#cad-075) Prüfspitzen-PCB, unbestückt | `probe_tip_pcb` | 4 | Fertigung noch offen | PCB extern |
+| [CAD-061](../Teileliste.md#cad-061) MMCX-Stecker gerade / Messleitung | `mmcx_male_end` | 4 | nicht identifiziert | Ungeklärte Teile |
+| [CAD-062](../Teileliste.md#cad-062) MMCX-Stecker gewinkelt / Messleitung | `mmcx_male_end_with_angle` | 4 | nicht identifiziert | Ungeklärte Teile |
+| [CAD-073](../Teileliste.md#cad-073) Prüfkontakt-Hülse P75-2 W | `plug_sleeve_P75-2_W` | 8 | nicht identifiziert | Ungeklärte Teile |
+| [CAD-115](../Teileliste.md#cad-115) Federkontakt der Prüfspitze | `z_pogo_pin` | 8 | nicht identifiziert | Ungeklärte Teile |
+
+**Zusätzlich nötig, nicht im CAD**
+
+| Teil | Stück | Bezug | Grund |
+| --- | --- | --- | --- |
+| Bestückung, Messkoax, Multiplexer | siehe Teileliste | SYS-003, SYS-022, SYS-023, SYS-024 | Ohne Schaltplan nicht spezifizierbar. |
+
+**Offene Fragen**
+
+- Schaltplan und Gerber der Prüfspitzen-Platine fehlen.
+- Federkontakt und Hülse P75-2 W nicht identifiziert (Hersteller, Federkraft, Spitze).
+
+<a id="modul-10"></a>
+
+## M10 Verkleidung
+
+Abdeckungen oben und seitlich; laut Luis keine tragende Funktion.
+
+*Am 17.10.2026 angelegt.*
+
+| ID / Teil | CAD-Name | Stück | Status | Beschaffungsart |
+| --- | --- | --- | --- | --- |
+| [CAD-007](../Teileliste.md#cad-007) Grundgestell: Abdeckung lang Seite | `base_cover_long_side` | 2 | Fertigung noch offen | Blech intern |
+| [CAD-008](../Teileliste.md#cad-008) Grundgestell: Abdeckung oben | `base_cover_top` | 2 | Fertigung noch offen | Blech intern |
+
+**Zusätzlich nötig, nicht im CAD**
+
+| Teil | Stück | Bezug | Grund |
+| --- | --- | --- | --- |
+| Befestigung der Abdeckungen | offen | SYS-029 | Im CAD keine eigenen Schrauben (2 Kettenhalter-Schrauben M6×20 berühren eine Seitenabdeckung). |
+
+## Abdeckung
+
+Alle CAD-Vorkommen sind einem Modul zugeordnet außer: Nanotec ST3518M1004-A NEMA14 Z-Motor (4); Prüfobjekt-Platzhalter im CAD (1); Multiplexer-Platzhalter im CAD (1). Das sind CAD-Platzhalter bzw. doppelte Motor-Einbaulagen.

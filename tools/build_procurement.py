@@ -730,6 +730,11 @@ def montage(parts,components):
             text+='**Bei der Prüfung aus dem Modul genommen**\n\n'+''.join(f'- {q}\n' for q in m['entfernt'])+'\n'
         if m.get('offen'):
             text+='**Offene Fragen**\n\n'+''.join(f'- {q}\n' for q in m['offen'])+'\n'
+    placed=Counter()
+    for r in rows: placed[r['id']]+=r['quantity']
+    rest={p['id']:int(p['cad_quantity'])-placed[p['id']] for p in parts if p['cad_name'] and int(p['cad_quantity'])>placed[p['id']]}
+    assert set(rest)<={'CAD-063','CAD-066','CAD-082'},rest
+    text+='## Abdeckung\n\nAlle CAD-Vorkommen sind einem Modul zugeordnet außer: '+'; '.join(f"{byid[i]['name']} ({n})" for i,n in sorted(rest.items()))+'. Das sind CAD-Platzhalter bzw. doppelte Motor-Einbaulagen.\n'
     (BOM/'montage/Montage.md').write_text(text.rstrip()+'\n',encoding='utf-8')
     return rows
 

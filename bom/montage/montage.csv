@@ -132,3 +132,18 @@ M07,Elektrik und Sensorik,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-094,X-Achs
 M07,Elektrik und Sensorik,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-101,X-Achse Schlitten induktiv Endschalter Adapter,x_slide_inductive_endstop_adapter,4,4,Fertigung noch offen,3D-Druck intern,
 M07,Elektrik und Sensorik,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-102,X-Achse Schlitten induktiv Endschalter Adapter gespiegelt,x_slide_inductive_endstop_adapter_mirrored,4,4,Fertigung noch offen,3D-Druck intern,
 M07,Elektrik und Sensorik,x_slide:1;x_slide:2;x_slide:3;x_slide:4+,CAD-035,DIN 912 M3×10,din_912_m3x10,16,16,bestellfähig,Kaufteile,Endschalter-Adapter und Flanschhalter am X-Wagen.
+M08,Optik,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-085,Bewegliches USB-Mikroskop,usb_microscope,4,4,teilweise geklärt,Kaufteile,"CAD zeigt 4, geplant ist 1 (3 optional)."
+M08,Optik,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-105,Y-Achse Kamera Halter,y_camera_holder,2,2,Fertigung noch offen,3D-Druck intern,
+M08,Optik,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-106,Y-Achse Kamera Halter kompakt,y_camera_holder_compact,2,2,Fertigung noch offen,3D-Druck intern,
+M08,Optik,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-037,DIN 912 M3×14,din_912_m3x14,4,4,bestellfähig,Kaufteile,
+M08,Optik,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-041,DIN 912 M3×30,din_912_m3x30,4,8,bestellfähig,Kaufteile,4 von 8 halten den Kamerahalter.
+M08,Optik,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,4,24,bestellfähig,Kaufteile,4 von 24 am Kamerahalter.
+M08,Optik,base:1,CAD-025,Kamera Halter,camera_holder,1,1,Fertigung noch offen,3D-Druck intern,
+M08,Optik,base:1,CAD-026,Kamera Halter oben,camera_holder_top,1,1,Fertigung noch offen,Blech intern,
+M09,Prüfspitzen,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2,CAD-075,"Prüfspitzen-PCB, unbestückt",probe_tip_pcb,4,4,Fertigung noch offen,PCB extern,
+M09,Prüfspitzen,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,8,8,nicht identifiziert,Ungeklärte Teile,
+M09,Prüfspitzen,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,8,8,nicht identifiziert,Ungeklärte Teile,
+M09,Prüfspitzen,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2,CAD-061,MMCX-Stecker gerade / Messleitung,mmcx_male_end,4,4,nicht identifiziert,Ungeklärte Teile,
+M09,Prüfspitzen,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2,CAD-062,MMCX-Stecker gewinkelt / Messleitung,mmcx_male_end_with_angle,4,4,nicht identifiziert,Ungeklärte Teile,
+M10,Verkleidung,base:1,CAD-008,Grundgestell: Abdeckung oben,base_cover_top,2,2,Fertigung noch offen,Blech intern,
+M10,Verkleidung,base:1,CAD-007,Grundgestell: Abdeckung lang Seite,base_cover_long_side,2,2,Fertigung noch offen,Blech intern,

@@ -1201,6 +1201,191 @@
         "Induktive Sensoren CAD-055: Typ (NPN/PNP, Schaltabstand, Spannung) weiter nicht identifiziert.",
         "Bedientaster CAD-086: Funktion weiter nicht identifiziert."
       ]
+    },
+    {
+      "id": "M08",
+      "name": "Optik",
+      "beschreibung": "Bewegliches USB-Mikroskop mit Haltern an den Y-Schlitten und die Übersichtskamera mit Halter am Grundgestell.",
+      "stand": "Am 17.10.2026 angelegt; Schrauben aus der Kontaktanalyse der Y-Schlitten.",
+      "teile": [
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "usb_microscope",
+          "hinweis": "CAD zeigt 4, geplant ist 1 (3 optional)."
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "y_camera_holder"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "y_camera_holder_compact"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "din_912_m3x14"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "din_912_m3x30",
+          "menge": 4,
+          "hinweis": "4 von 8 halten den Kamerahalter."
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "iso_8673_nut_m3",
+          "menge": 4,
+          "hinweis": "4 von 24 am Kamerahalter."
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "camera_holder"
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "camera_holder_top"
+        }
+      ],
+      "zusatz": [
+        {
+          "teil": "Übersichtskamera und Beleuchtung",
+          "menge": "siehe Teileliste",
+          "bezug": "SYS-002, SYS-007, SYS-008, SYS-033",
+          "grund": "Kamera, LED-Streifen und LED-Profile ohne CAD-Körper."
+        },
+        {
+          "teil": "Befestigung Kamerahalter am Grundgestell",
+          "menge": "offen",
+          "bezug": "SYS-029",
+          "grund": "Im CAD keine Schrauben für camera_holder."
+        }
+      ],
+      "entfernt": [],
+      "offen": [
+        "Mikroskop- und Kameramodell des Originals unbekannt; Halter müssen zum gewählten Modell passen."
+      ]
+    },
+    {
+      "id": "M09",
+      "name": "Prüfspitzen",
+      "beschreibung": "Die 4 Prüfspitzen an den Z-Schlitten: Platine, Federkontakt, Kontakthülse und MMCX-Messstecker.",
+      "stand": "Am 17.10.2026 angelegt.",
+      "teile": [
+        {
+          "scope": [
+            "z_slide:1",
+            "z_slide:2",
+            "z_slide_long:1",
+            "z_slide_long:2"
+          ],
+          "cad_name": "probe_tip_pcb"
+        },
+        {
+          "scope": [
+            "z_slide:1",
+            "z_slide:2",
+            "z_slide_long:1",
+            "z_slide_long:2"
+          ],
+          "cad_name": "z_pogo_pin"
+        },
+        {
+          "scope": [
+            "z_slide:1",
+            "z_slide:2",
+            "z_slide_long:1",
+            "z_slide_long:2"
+          ],
+          "cad_name": "plug_sleeve_P75-2_W"
+        },
+        {
+          "scope": [
+            "z_slide:1",
+            "z_slide:2",
+            "z_slide_long:1",
+            "z_slide_long:2"
+          ],
+          "cad_name": "mmcx_male_end"
+        },
+        {
+          "scope": [
+            "z_slide:1",
+            "z_slide:2",
+            "z_slide_long:1",
+            "z_slide_long:2"
+          ],
+          "cad_name": "mmcx_male_end_with_angle"
+        }
+      ],
+      "zusatz": [
+        {
+          "teil": "Bestückung, Messkoax, Multiplexer",
+          "menge": "siehe Teileliste",
+          "bezug": "SYS-003, SYS-022, SYS-023, SYS-024",
+          "grund": "Ohne Schaltplan nicht spezifizierbar."
+        }
+      ],
+      "entfernt": [],
+      "offen": [
+        "Schaltplan und Gerber der Prüfspitzen-Platine fehlen.",
+        "Federkontakt und Hülse P75-2 W nicht identifiziert (Hersteller, Federkraft, Spitze)."
+      ]
+    },
+    {
+      "id": "M10",
+      "name": "Verkleidung",
+      "beschreibung": "Abdeckungen oben und seitlich; laut Luis keine tragende Funktion.",
+      "stand": "Am 17.10.2026 angelegt.",
+      "teile": [
+        {
+          "scope": "base:1",
+          "cad_name": "base_cover_top"
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "base_cover_long_side"
+        }
+      ],
+      "zusatz": [
+        {
+          "teil": "Befestigung der Abdeckungen",
+          "menge": "offen",
+          "bezug": "SYS-029",
+          "grund": "Im CAD keine eigenen Schrauben (2 Kettenhalter-Schrauben M6×20 berühren eine Seitenabdeckung)."
+        }
+      ],
+      "entfernt": [],
+      "offen": []
     }
   ]
 }
