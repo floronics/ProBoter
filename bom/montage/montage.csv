@@ -89,3 +89,18 @@ M04,Z-Achse,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2+,CAD-117,Z-Achse P
 M04,Z-Achse,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2+,CAD-035,DIN 912 M3×10,din_912_m3x10,4,4,bestellfähig,Kaufteile,
 M04,Z-Achse,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2+,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,4,4,bestellfähig,Kaufteile,
 M04,Z-Achse,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2+,CAD-042,DIN 912 M3×8,din_912_m3x8,4,4,bestellfähig,Kaufteile,
+M05,Schublade und Platinenhalter,base:1,CAD-011,Grundgestell: Schublade lang Seite,base_drawer_long_side,2,2,Fertigung noch offen,Weitere Fertigung,
+M05,Schublade und Platinenhalter,base:1,CAD-084,"Teleskopschiene 350 mm, Vollauszug",telescopic_bar_tsaa514613-350,2,2,bestellfähig,Kaufteile,
+M05,Schublade und Platinenhalter,base:1,CAD-051,"Schubladengriff, Lochabstand 100 mm",handle_l100_dold,1,1,teilweise geklärt,Kaufteile,
+M05,Schublade und Platinenhalter,base:1,CAD-010,Schubladen-Dummyplatte,base_drawer_dummy_plate,1,1,nicht identifiziert,Ungeklärte Teile,"Trägt den kompletten Platinenhalter (Fusion-Kontakt) und ist damit die reale Schubladen-Bodenplatte, kein reiner Platzhalter."
+M05,Schublade und Platinenhalter,base:1,CAD-033,DIN 7991 M6×14,din_7991_m6x14,6,6,bestellfähig,Kaufteile,Bodenplatte an den Profilen.
+M05,Schublade und Platinenhalter,base:1,CAD-081,Anschraubwinkel 30 / Nut 6,screw_on_bracket_30_6,8,26,bestellfähig,Kaufteile,8 von 26 verbinden die Schubladenprofile.
+M05,Schublade und Platinenhalter,base:1+pcb_holder,CAD-067,Platine Halter Gleiter,pcb_holder_glider,4,4,Fertigung noch offen,3D-Druck intern,
+M05,Schublade und Platinenhalter,base:1+pcb_holder,CAD-068,Platine Halter Führung Halter rund d 10,pcb_holder_guiding_holder_round_d10,4,4,Fertigung noch offen,3D-Druck intern,
+M05,Schublade und Platinenhalter,base:1+pcb_holder,CAD-069,Platine Halter Führung rund,pcb_holder_guiding_round,2,2,Fertigung noch offen,Weitere Fertigung,
+M05,Schublade und Platinenhalter,base:1+pcb_holder,CAD-070,Platine Halter rechteckig Stange,pcb_holder_rect_rod,2,2,Fertigung noch offen,Weitere Fertigung,
+M05,Schublade und Platinenhalter,base:1+pcb_holder,CAD-071,Platine Halter Stange kurz rund d 10,pcb_holder_rod_short_round_d10,2,2,Fertigung noch offen,3D-Druck intern,
+M05,Schublade und Platinenhalter,base:1+pcb_holder,CAD-072,Platine Halter Stange kurz rund d 10 gespiegelt,pcb_holder_rod_short_round_d10_mirrored,2,2,Fertigung noch offen,3D-Druck intern,
+M05,Schublade und Platinenhalter,base:1+pcb_holder,CAD-048,DIN 933 M4×20,din_933_m4x20,8,8,bestellfähig,Kaufteile,
+M05,Schublade und Platinenhalter,base:1+pcb_holder,CAD-028,DIN 466 Rändelmutter hoch M4,din_466_knurled_nut_high_m4,8,8,bestellfähig,Kaufteile,
+M05,Schublade und Platinenhalter,base:1+pcb_holder,CAD-043,DIN 912 M4×10,din_912_m4x10,1,1,bestellfähig,Kaufteile,

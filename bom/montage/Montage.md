@@ -8,6 +8,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | [M02 X-Achse](#modul-02) | 33 | 434 | 18 | 2 | 13 | 0 | 0 | 0 |
 | [M03 Y-Achse](#modul-03) | 27 | 168 | 15 | 2 | 10 | 0 | 0 | 0 |
 | [M04 Z-Achse](#modul-04) | 20 | 100 | 12 | 2 | 6 | 0 | 0 | 0 |
+| [M05 Schublade und Platinenhalter](#modul-05) | 15 | 53 | 6 | 1 | 7 | 0 | 1 | 0 |
 
 <a id="modul-01"></a>
 
@@ -206,3 +207,46 @@ Z-Antrieb auf den 4 Y-Schlitten (NEMA14, 9-mm-Zahnscheiben, Z-Riemen, HIWIN-Wage
 
 - Die HIWIN-Schiene hat 6 Bohrungen, genutzt werden 2–3. Prüfen, ob weitere Schrauben vorgesehen sind.
 - Z-Zahnscheibe CAD-076: exaktes Teil nicht lieferbar; Kandidat mit anderer Bauform braucht angepasste Halter.
+
+<a id="modul-05"></a>
+
+## M05 Schublade und Platinenhalter
+
+Ausziehbare Schublade mit Teleskopschienen, Seitenprofilen, Bodenplatte und Griff sowie der verstellbare Platinenhalter für das Prüfobjekt.
+
+*Am 17.10.2026 angelegt und per Fusion-Kontaktanalyse geprüft.*
+
+| ID / Teil | CAD-Name | Stück | Status | Beschaffungsart |
+| --- | --- | --- | --- | --- |
+| [CAD-028](../Teileliste.md#cad-028) DIN 466 Rändelmutter hoch M4 | `din_466_knurled_nut_high_m4` | 8 | bestellfähig | Kaufteile |
+| [CAD-033](../Teileliste.md#cad-033) DIN 7991 M6×14 | `din_7991_m6x14` | 6 | bestellfähig; Bodenplatte an den Profilen. | Kaufteile |
+| [CAD-043](../Teileliste.md#cad-043) DIN 912 M4×10 | `din_912_m4x10` | 1 | bestellfähig | Kaufteile |
+| [CAD-048](../Teileliste.md#cad-048) DIN 933 M4×20 | `din_933_m4x20` | 8 | bestellfähig | Kaufteile |
+| [CAD-081](../Teileliste.md#cad-081) Anschraubwinkel 30 / Nut 6 | `screw_on_bracket_30_6` | 8 von 26 | bestellfähig; 8 von 26 verbinden die Schubladenprofile. | Kaufteile |
+| [CAD-084](../Teileliste.md#cad-084) Teleskopschiene 350 mm, Vollauszug | `telescopic_bar_tsaa514613-350` | 2 | bestellfähig | Kaufteile |
+| [CAD-051](../Teileliste.md#cad-051) Schubladengriff, Lochabstand 100 mm | `handle_l100_dold` | 1 | teilweise geklärt | Kaufteile |
+| [CAD-011](../Teileliste.md#cad-011) Grundgestell: Schublade lang Seite | `base_drawer_long_side` | 2 | Fertigung noch offen | Weitere Fertigung |
+| [CAD-067](../Teileliste.md#cad-067) Platine Halter Gleiter | `pcb_holder_glider` | 4 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-068](../Teileliste.md#cad-068) Platine Halter Führung Halter rund d 10 | `pcb_holder_guiding_holder_round_d10` | 4 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-069](../Teileliste.md#cad-069) Platine Halter Führung rund | `pcb_holder_guiding_round` | 2 | Fertigung noch offen | Weitere Fertigung |
+| [CAD-070](../Teileliste.md#cad-070) Platine Halter rechteckig Stange | `pcb_holder_rect_rod` | 2 | Fertigung noch offen | Weitere Fertigung |
+| [CAD-071](../Teileliste.md#cad-071) Platine Halter Stange kurz rund d 10 | `pcb_holder_rod_short_round_d10` | 2 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-072](../Teileliste.md#cad-072) Platine Halter Stange kurz rund d 10 gespiegelt | `pcb_holder_rod_short_round_d10_mirrored` | 2 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-010](../Teileliste.md#cad-010) Schubladen-Dummyplatte | `base_drawer_dummy_plate` | 1 | nicht identifiziert; Trägt den kompletten Platinenhalter (Fusion-Kontakt) und ist damit die reale Schubladen-Bodenplatte, kein reiner Platzhalter. | Ungeklärte Teile |
+
+**Zusätzlich nötig, nicht im CAD**
+
+| Teil | Stück | Bezug | Grund |
+| --- | --- | --- | --- |
+| Befestigung Teleskopschienen (Schrauben + Nutensteine I-Typ Nut 6) | offen | CAD-084, SYS-029 | Beide Schienen berühren Rahmen- und Schubladenprofile, im CAD gibt es aber keine Schrauben. Lochbild der HS-4613-350 und Schraubengröße festlegen. |
+| Befestigung Griff (2 Schrauben, Gewinde laut Griffvariante) | 2 | CAD-051 | Griff sitzt am Schubladenprofil, im CAD ohne Schrauben. |
+| Befestigung der Wellenhalter des Platinenhalters | offen | CAD-068 | 4 Halter sitzen auf Bodenplatte/Profil, nur einer hat eine M4×10. Je Halter mindestens 1–2 Schrauben ergänzen. |
+
+**Bei der Prüfung aus dem Modul genommen**
+
+- pcb_dummy: Prüfobjekt im CAD, kein Maschinenteil.
+
+**Offene Fragen**
+
+- CAD-010 Bodenplatte: Material und Dicke (CAD 12 mm) festlegen; Status von 'nicht identifiziert' auf Fertigungsteil ändern?
+- Wo greifen die M4-Schrauben DIN 933 des Platinenhalters: Gewinde in der Bodenplatte oder Mutter darunter?

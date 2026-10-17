@@ -833,6 +833,114 @@
         "Die HIWIN-Schiene hat 6 Bohrungen, genutzt werden 2–3. Prüfen, ob weitere Schrauben vorgesehen sind.",
         "Z-Zahnscheibe CAD-076: exaktes Teil nicht lieferbar; Kandidat mit anderer Bauform braucht angepasste Halter."
       ]
+    },
+    {
+      "id": "M05",
+      "name": "Schublade und Platinenhalter",
+      "beschreibung": "Ausziehbare Schublade mit Teleskopschienen, Seitenprofilen, Bodenplatte und Griff sowie der verstellbare Platinenhalter für das Prüfobjekt.",
+      "stand": "Am 17.10.2026 angelegt und per Fusion-Kontaktanalyse geprüft.",
+      "teile": [
+        {
+          "scope": "base:1",
+          "cad_name": "base_drawer_long_side"
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "telescopic_bar_tsaa514613-350"
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "handle_l100_dold"
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "base_drawer_dummy_plate",
+          "hinweis": "Trägt den kompletten Platinenhalter (Fusion-Kontakt) und ist damit die reale Schubladen-Bodenplatte, kein reiner Platzhalter."
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "din_7991_m6x14",
+          "hinweis": "Bodenplatte an den Profilen."
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "screw_on_bracket_30_6",
+          "menge": 8,
+          "hinweis": "8 von 26 verbinden die Schubladenprofile."
+        },
+        {
+          "scope": "base:1",
+          "sub": "pcb_holder",
+          "cad_name": "pcb_holder_glider"
+        },
+        {
+          "scope": "base:1",
+          "sub": "pcb_holder",
+          "cad_name": "pcb_holder_guiding_holder_round_d10"
+        },
+        {
+          "scope": "base:1",
+          "sub": "pcb_holder",
+          "cad_name": "pcb_holder_guiding_round"
+        },
+        {
+          "scope": "base:1",
+          "sub": "pcb_holder",
+          "cad_name": "pcb_holder_rect_rod"
+        },
+        {
+          "scope": "base:1",
+          "sub": "pcb_holder",
+          "cad_name": "pcb_holder_rod_short_round_d10"
+        },
+        {
+          "scope": "base:1",
+          "sub": "pcb_holder",
+          "cad_name": "pcb_holder_rod_short_round_d10_mirrored"
+        },
+        {
+          "scope": "base:1",
+          "sub": "pcb_holder",
+          "cad_name": "din_933_m4x20"
+        },
+        {
+          "scope": "base:1",
+          "sub": "pcb_holder",
+          "cad_name": "din_466_knurled_nut_high_m4"
+        },
+        {
+          "scope": "base:1",
+          "sub": "pcb_holder",
+          "cad_name": "din_912_m4x10"
+        }
+      ],
+      "zusatz": [
+        {
+          "teil": "Befestigung Teleskopschienen (Schrauben + Nutensteine I-Typ Nut 6)",
+          "menge": "offen",
+          "bezug": "CAD-084, SYS-029",
+          "grund": "Beide Schienen berühren Rahmen- und Schubladenprofile, im CAD gibt es aber keine Schrauben. Lochbild der HS-4613-350 und Schraubengröße festlegen."
+        },
+        {
+          "teil": "Befestigung Griff (2 Schrauben, Gewinde laut Griffvariante)",
+          "menge": 2,
+          "bezug": "CAD-051",
+          "grund": "Griff sitzt am Schubladenprofil, im CAD ohne Schrauben."
+        },
+        {
+          "teil": "Befestigung der Wellenhalter des Platinenhalters",
+          "menge": "offen",
+          "bezug": "CAD-068",
+          "grund": "4 Halter sitzen auf Bodenplatte/Profil, nur einer hat eine M4×10. Je Halter mindestens 1–2 Schrauben ergänzen."
+        }
+      ],
+      "entfernt": [
+        "pcb_dummy: Prüfobjekt im CAD, kein Maschinenteil."
+      ],
+      "offen": [
+        "CAD-010 Bodenplatte: Material und Dicke (CAD 12 mm) festlegen; Status von 'nicht identifiziert' auf Fertigungsteil ändern?",
+        "Wo greifen die M4-Schrauben DIN 933 des Platinenhalters: Gewinde in der Bodenplatte oder Mutter darunter?"
+      ]
     }
   ]
 }
