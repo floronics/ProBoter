@@ -10,11 +10,11 @@ im Shop bestätigen. Kein Warenkorb wurde bestellt.
 
 | Umfang | netto | brutto |
 | --- | --- | --- |
-| 1. Beobachtete Webpreise × geplante Bestellpackungen | 816,59 € | 971,79 € |
-| Davon Positionen mit Status bestellfähig | 210,25 € | 250,25 € |
-| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 606,34 € | 721,54 € |
-| Eigene Budgetschätzungen zusätzlich | 4.111,40 € | 4.892,55 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 4.927,99 € | 5.864,34 € |
+| 1. Beobachtete Webpreise × geplante Bestellpackungen | 2.345,88 € | 2.791,66 € |
+| Davon Positionen mit Status bestellfähig | 1.490,78 € | 1.774,08 € |
+| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 855,10 € | 1.017,58 € |
+| Eigene Budgetschätzungen zusätzlich | 1.808,37 € | 2.151,95 € |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 4.154,25 € | 4.943,61 € |
 | 3. Noch unbezifferte Positionen: 22 | nicht berechenbar | nicht berechenbar |
 
 **Der Gesamtpreis eines funktionierenden Nachbaus bleibt offen.** Die Summe unter 2
@@ -61,17 +61,18 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | Lieferant | Webpreise brutto | Schätzungen brutto | Summe beziffert brutto |
 | --- | --- | --- | --- |
 | BEFFUCHS | 9,41 € | 5,95 € | 15,36 € |
-| CPC | 0,00 € | 595,00 € | 595,00 € |
-| DOLD | 233,52 € | 833,00 € | 1.066,52 € |
+| DAMEN | 370,09 € | 0,00 € | 370,09 € |
+| DIGIKEY | 175,55 € | 0,00 € | 175,55 € |
+| DOLD | 329,75 € | 621,00 € | 950,75 € |
 | EISEN2000 | 92,15 € | 0,00 € | 92,15 € |
-| HIWIN | 0,00 € | 380,80 € | 380,80 € |
-| IGUS | 0,00 € | 200,00 € | 200,00 € |
-| NANOTEC | 0,00 € | 1.094,80 € | 1.094,80 € |
+| IGUS | 172,70 € | 0,00 € | 172,70 € |
+| MOTEDIS | 314,66 € | 0,00 € | 314,66 € |
+| NANOTEC | 608,81 € | 0,00 € | 608,81 € |
 | OFFEN | 0,00 € | 150,00 € | 150,00 € |
-| RBS | 227,00 € | 284,00 € | 511,00 € |
-| REICHELT | 206,24 € | 195,00 € | 401,24 € |
+| RBS | 457,90 € | 30,00 € | 487,90 € |
+| REICHELT | 207,44 € | 195,00 € | 402,44 € |
 | SCHRAUBEN | 53,20 € | 29,00 € | 82,20 € |
-| TME | 150,27 € | 173,00 € | 323,27 € |
+| TME | 0,00 € | 169,00 € | 169,00 € |
 | XOMETRY | 0,00 € | 952,00 € | 952,00 € |
 
 ## Noch unbeziffert – Auswirkung auf die Vollständigkeit

@@ -28,8 +28,8 @@ class ProcurementTests(unittest.TestCase):
         self.assertEqual(row['gross_eur'],D('159.80'))
 
     def test_net_price_and_fractional_units(self):
-        self.assertEqual(self.byid['BUY-008']['net_eur'],D('126.28'))
-        self.assertEqual(self.byid['BUY-008']['gross_eur'],D('150.27'))
+        self.assertEqual(self.byid['BUY-008']['net_eur'],D('90.24'))
+        self.assertEqual(self.byid['BUY-008']['gross_eur'],D('107.39'))
         self.assertEqual(self.byid['MAT-003']['gross_eur'],D('35.00'))
 
     def test_unknown_prices_remain_unknown(self):

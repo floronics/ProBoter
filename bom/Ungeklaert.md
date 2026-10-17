@@ -96,31 +96,16 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 
 | ID / Teil | Bedarf | Nächsterkonkreter Schritt |
 | --- | --- | --- |
-| CAD-023 BIGTREETECH SKR V1.3 Steuerplatine | 4 Stück | Originalmodell laut CAD/Firmware; kein belastbarer neuer EU-Lagerbestand gefunden. Ersatzboard benötigt Firmware-/Pin- und Halteranpassung. |
-| CAD-027 CPC MR12ML Führungswagen | 8 Stück | 8 Wagen für 2×600-mm-Schienen. Aktueller Katalog 47,8 mm Länge, CAD47,6 mm; Vorspannung, Genauigkeit und Paarung klären. |
-| CAD-049 igus E2i.10.10.028.0, 16 kurze Abschnitte | 16 Stück | Nominell 16×0,24 m=3,84 m. Gliederraster, Verfahrweg und Endstücke prüfen;1 m-Einkaufseinheiten sind keine 16 ganzen Ketten. |
-| CAD-050 igus E2i.10.20.028.0, 8 lange Abschnitte | 8 Stück | Nominell 8×0,28 m=2,24 m. Drei 1 m-Einheiten ergeben rechnerisch 9 Abschnitte; Teilung und Endstücke bestätigen. |
-| CAD-051 Schubladengriff, Lochabstand 100 mm | 1 Stück | CAD 113×20×49 mm; Fusion-Messung: zwei Bohrungen Ø5,5 mm im Abstand 100,0 mm. Gewinde und genaue DOLD-Artikelnummer bestimmen. |
-| CAD-052 Gelenkfuß M6 / Teller Ø40 mm | 4 Stück | CAD 40×40×30,4 mm; Fusion-Messung: Gewinde Ø6 mm, Teller Ø40 mm. Gewindelänge, Schwenkbereich und Traglast festlegen. |
-| CAD-053 HIWIN MGNR12R150HM, Z-Schiene 150 mm | 4 Stück | Fusion-Messung: 6 Bohrungen Ø3,5/Ø6 (M3) im Raster 25 mm, Endabstand beidseitig 12,5 mm. Aktuelle Suffixe und Paarung mit CAD-054 bestätigen. |
-| CAD-054 HIWIN MGN12CZ0H Z-Führungswagen | 4 Stück | Fusion-Messung: Lochbild 20×15 mm, Gewinde M3. Vier passende Wagen zu CAD-053, keine ungeprüfte Mischung mit Nachbauten. |
+| CAD-023 BIGTREETECH SKR V1.3 Steuerplatine | 4 Stück | Original laut CAD, Firmware und Masterarbeit. Neu in DE/EU nicht gefunden (Recherche 17.10.2026). Kandidat SKR 1.4 Turbo (RBS13645) passt auf fast dieselben Löcher, braucht aber Marlin-Pinanpassung; nicht freigegeben. |
+| CAD-051 Schubladengriff, Lochabstand 100 mm | 1 Stück | DOLD A-75903 passt in Länge 113, Höhe 49 und Lochabstand 100, hat aber M6-Gewinde; Fusion misst Ø5,5. Prüfen, ob die CAD-Bohrung ein Durchgangsloch ist (dann A-75873, 112 mm lang). |
+| CAD-052 Gelenkfuß M6 / Teller Ø40 mm | 4 Stück | DOLD GF-K-10-PA-028: M6 und Teller Ø40 = CAD. Gewindelänge (20 mm angenommen) aus CAD-Höhe 30,4 nicht belegt; Traglast nicht angegeben. |
 | CAD-058 ISO 8673 Mutter M8 | 53 Stück | Norm und Maße mit CAD abgeglichen; Artikel 24122 08 1. A4 statt A2; H 6,5 statt 6,8. Datenblatt nennt Linksgewinde, vermutlich Datenfehler: vor Bestellung klären. Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026). ISO 8673 M8×1 passt zu den M8×1-Gewinden der induktiven Sensoren. Sensoren liefern meist 2 Muttern mit; dann nur Reserve kaufen. |
-| CAD-059 Mean Well MHS012 Montagewinkel | 4 Stück | 4 Winkel,19×16×15 mm. TME identifiziert;0,09 EUR aus italienischer Indexseite nicht als bestätigter DE-Preis übernommen. |
-| CAD-063 Nanotec ST3518M1004-A NEMA14 Z-Motor | 4 Stück | Menge 4 belegt: Fusion-Messung zeigt je Y-Schlitten zwei Motorvarianten mit nur 1,6 mm Achsversatz; die Z-Antriebsrolle sitzt koaxial auf genau einer davon. Welle Ø5 mm. Archivmodell, Ersatzpassung offen. |
-| CAD-064 Nanotec ST4118M1804-A NEMA17 X/Y-Motor | 12 Stück | 12 laut STEP:8 X +4 Y. Alle 12 im Fusion-Import fehlend. Hersteller nennt Modell; Anschluss und aktuelle Verfügbarkeit bestätigen. |
-| CAD-065 Optischer Endschalter 11×35 mm | 4 Stück | 4 Stück; Fusion-Messung: zwei Bohrungen Ø3 mm im Abstand 28,0 mm. Schlitzlage, Pinout, Versorgung und Schaltpegel abgleichen. |
-| CAD-076 GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm | 8 Stück | Fusion-Messung: je Z-Achse zwei Stück, eine koaxial auf der Ø5-Motorwelle (Antrieb), eine 108 mm entfernt (Umlenkung). Teilkreis Ø10,19 mm = GT2 Z16, Bordscheiben Ø18, Breite 11 mm. Ersetzt SYS-035. |
-| CAD-077 GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | 12 Stück | 12 X/Y-Antriebe. Bore 5 durch CAD-Zylinder bestätigt; Bundlänge 14,1 mm und Madenschrauben prüfen. |
-| CAD-078 GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | 20 Stück | 20 Stück, CADØ13×8,5 mm mitØ3-Bohrung. Lager-/Distanzscheiben und Artikel 46132 axial abgleichen. |
-| CAD-080 GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | 16 Stück | CAD-Name l 19 irreführend: 19 ist Außendurchmesser, Länge 29 mm; Fusion-Messung zusätzlich Nut Ø18. igus RJ4JP-01-10 Kandidat; Werkstoff, Spiel und zulässige Welle prüfen. |
-| CAD-081 Anschraubwinkel 30 / Nut 6 | 26 Stück | 26 Stück; CAD28×28×28 mm. Profilserie I/B, Schraubenset und Lochbild offen. |
-| CAD-084 Teleskopschiene TSAA514613-350 | 2 Stück | 2 Einzelschienen im CAD, nicht 2 Paare.350×45,5×12,7 mm; Hersteller, Auszug, Rastung und Last klären. |
+| CAD-063 Nanotec ST3518M1004-A NEMA14 Z-Motor | 4 Stück | Original laut Masterarbeit, nur im Herstellerarchiv: 36 mm, 1,0 A, Welle Ø5×24 = CAD 60 mm. Menge 4 belegt durch Fusion-Messung (zwei Varianten je Y-Schlitten, 1,6 mm Achsversatz). Nachfolgekandidat SC3518M1204-A ist 3,5 mm länger und hat einen seitlichen Stecker. |
+| CAD-076 GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm | 8 Stück | Fusion-Messung: je Z-Achse zwei Stück, eine koaxial auf der Ø5-Motorwelle (Antrieb), eine 108 mm entfernt (Umlenkung). Teilkreis Ø10,19 = GT2 Z16, Bordscheiben Ø18, Breite 11 mm. Exaktes Teil in DE/EU nicht gefunden; Kandidat RBS12867 (Ø13×19,5, für 10-mm-Riemen) braucht angepasste Halter. |
+| CAD-077 GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | 12 Stück | 12 X/Y-Antriebe. RBS10278 laut Zeichnung: Bordscheibe Ø14, Höhe 14, Bohrung 5, 2× M3-Madenschraube. CAD Ø13×14,1: Bordscheibe 1 mm größer, Freigang prüfen. |
+| CAD-078 GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | 20 Stück | 20 Stück. DOLD 46132 (16-GT2-3): Ø13 und Bohrung 3 = CAD, Breite 9 statt 8,5 mm. Distanzierung um 0,5 mm prüfen. |
 | CAD-085 Bewegliches USB-Mikroskop | 1 Stück | Plan 1 laut Hardware-Blog,4CAD. Weitere 3 optional. Originalmodell unbekannt; Kandidat muss 100 mm Arbeitsabstand/ca 30×40 mm Bildfeld und Linux-UVC erfüllen. |
-| CAD-087 GT2-Riemen X, 6 mm breit | 8 Stück | 8 Verläufe, offen mit Spanner an beiden Enden. Fusion-Messung: 699 mm Trum, Teillänge 1.430 mm je Verlauf; Zuschnitt mit 2×40 mm Klemmzugabe ca. 1,51 m. Summe X+Y ca. 16,5 m, gedeckt durch 20 m. |
-| CAD-095 CPC MR12M Führungsschiene 600 mm | 2 Stück | 2 Stück 600×12×7,5 mm. Endlochabstand, Genauigkeit, Material und passende 8 Wagen bestimmen. |
-| CAD-104 GT2-Riemen Y, 6 mm breit | 4 Stück | 4 Verläufe. Fusion-Messung: 492 mm Trum, Teillänge 1.016 mm; Zuschnitt mit 2×40 mm Klemmzugabe ca. 1,10 m. Einkauf gemeinsam mit CAD-087, nicht doppelt rechnen. |
-| CAD-113 GT2-Riemen Z, 9 mm breit | 4 Stück | 4 Verläufe, offen am Z-Riemenhalter geklemmt. Fusion-Messung: Achsabstand 108 mm, Teillänge 248 mm; Zuschnitt mit 2×35 mm Klemmzugabe ca. 0,32 m, zusammen ca. 1,3 m. |
-| SYS-001 TMC2130 SPI Treibermodule | 16 Stück | 4 je SKR für X/X2/Y/Z; Kühlkörper/Jumper im Lieferumfang prüfen. |
+| SYS-001 TMC2130 SPI Treibermodule | 16 Stück | 4 je SKR für X/X2/Y/Z. RBS13024: 4 Treiber mit Kühlkörpern und Kabel, SPI-Pins laut Fotos vorgelötet. Revision nicht angegeben; SPI-Modus laut Datenblatt per Lötbrücke CFG4/CFG5 prüfen. |
 | SYS-002 Stationäre Übersichtskamera | 1 Stück | 1080p-Softwarekonfiguration; Optik, Blickfeld und Halterpassung offen. |
 | SYS-007 Weißer 24-V-LED-Streifen | 2 m | 2 m vorläufig;5 m-Rolle. Weiß 4500K vorgeschlagen; Leistung, Flimmern und Lichtverteilung testen. |
 | SYS-008 LED-Aluprofile, Diffusoren, Kappen, Halter | 2 m | 8 mm-Streifen aufnehmen, Wärmeabfuhr und Befestigung; genaue Aufteilung/Menge offen. Keine Doppelrechnung als Band. |
@@ -138,8 +123,8 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | SYS-021 Schutzleiter, Ringkabelschuhe und Klemmenabdeckung | 1 Satz | Metallrahmen/Netzteil erden; Querschnitt, Anschlusspunkte und Prüfverfahren in Stromlaufplan dokumentieren. |
 | SYS-022 Messkoax und instrumentenseitige Adapter | 4 Kanäle | Vorhan dene Messgeräte verwenden; BNC/SMA/MMCX und Impedanz gerätespezifisch. CAD-MM CX-Stecker 61/62 sind separat, hier nur Kabel und Instrumentadapter. |
 | SYS-025 USB-UART-Adapter | 1 Stück | Software setzt Adapter voraus; Pegel, Isolation, Pinout und Zielversorgung prüfen; Laborausstattung ggf. gegenrechnen. |
-| SYS-027 Energieketten-Endanschlüsse schmal | 16 Paare | Je kurzer Kette ein bewegliches und ein festes Ende. Fusion-Messung: CAD-049 enthält beide Anschlüsse als eigene Körper (45×17,4×15 mm). Passende E2i.10.10-MPN ermitteln. |
-| SYS-028 Energieketten-Endanschlüsse breit | 8 Paare | Je langer Kette ein Paar passend E2i.10.20. Fusion-Messung: CAD-050 enthält beide Anschlüsse als eigene Körper (45×27,4×15 mm). Keine Endstücke doppelt kaufen. |
+| SYS-027 Energieketten-Endanschlüsse schmal | 16 Sätze | igus E2.100.10.34PZ, beidseitig schwenkbar mit Zugentlastung; Breite 17,4 = Anschlusskörper im CAD (Fusion-Messung). |
+| SYS-028 Energieketten-Endanschlüsse breit | 8 Sätze | igus E2.100.20.34PZ; Breite 27,4 = Anschlusskörper im CAD (Fusion-Messung). |
 | SYS-029 Profil-Nutensteine und Zusatzbefestigung | 1 Satz | Nut 6/Profilserie klären; 26Winkel plus Halter. CAD-Vierkantmuttern 29/30 und mitgelieferte Winkelsätze abziehen. |
 | SYS-030 Scheiben, Sicherungselemente, Distanzteile | 1 Satz | Ergänzungsbedarf je Verschraubung/Idler; CAD-Normteile und Sensor-Beipack abziehen. Stückzahlen noch offen. |
 | SYS-031 Lötzinn, Schrumpfschlauch, Binder, Labels, Kleber | 1 Satz | Verbrauchsmaterialbudget; vorhan dene Bestände später abziehen. Werkzeuge nicht enthalten. |
