@@ -1033,6 +1033,174 @@
       "offen": [
         "Welche Schrauben der Y-Schlitten (M3×10, M3×12) gehören zusätzlich zur Kettenbefestigung? Werden bei Elektrik mit zugeordnet."
       ]
+    },
+    {
+      "id": "M07",
+      "name": "Elektrik und Sensorik",
+      "beschreibung": "Netzteil, Steuerplatinen, Bedientaster, Multiplexer-Halter, induktive Sensoren und optische Endschalter mit ihren Haltern und Schrauben; dazu die Systemteile ohne CAD-Körper (Treiber, Kabel, Verteilung, Schutzleiter).",
+      "stand": "Am 17.10.2026 aus den verbleibenden CAD-Teilen gebildet; Schrauben-Zuordnung aus der Kontaktanalyse von M02–M04.",
+      "teile": [
+        {
+          "scope": "base:1",
+          "cad_name": "mean_well_RSP-200-24"
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "mean_well_MHS-012_mounting_bracket"
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "bigtreetech_skr_v1_3"
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "vandalism_switch_d19"
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "power_switch_holder"
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "signal_multiplexer_holder"
+        },
+        {
+          "scope": [
+            "base:1",
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "cad_name": "inductive_proximity_sensor_m8"
+        },
+        {
+          "scope": [
+            "base:1",
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "cad_name": "iso_8673_nut_m8"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "optical_endstop"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "din_912_m3x12",
+          "hinweis": "Optische Endschalter."
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "iso_8673_nut_m3",
+          "menge": 8,
+          "hinweis": "8 von 24 an den optischen Endschaltern."
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "cad_name": "x_end_stop_holder_side_short"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "cad_name": "x_end_stop_holder_top_long"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "cad_name": "x_end_stop_top_long"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "cad_name": "x_end_stop_top_short"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "cad_name": "x_slide_inductive_endstop_adapter"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "cad_name": "x_slide_inductive_endstop_adapter_mirrored"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "sub": "",
+          "cad_name": "din_912_m3x10",
+          "hinweis": "Endschalter-Adapter und Flanschhalter am X-Wagen."
+        }
+      ],
+      "zusatz": [
+        {
+          "teil": "Systemteile Elektrik ohne CAD",
+          "menge": "siehe Teileliste",
+          "bezug": "SYS-001, 009–021, 025, 038",
+          "grund": "Treiber, LED-Anschluss, USB, Motor- und Sensorleitungen, Stecker, 24-V-Verteilung, Netzanschluss, Schutzleiter, UART, Kalibrierleitungen."
+        },
+        {
+          "teil": "Befestigung Netzteil-Winkel und SKR-Platinen",
+          "menge": "offen",
+          "bezug": "SYS-032",
+          "grund": "Im CAD keine Schrauben/Abstandshalter; 4 freie Ø4,5-Bohrungen der Rückwand passen vermutlich zum Netzteil."
+        }
+      ],
+      "entfernt": [
+        "signal_multiplexer_dummy: Platzhalter; die echte Platine ist SYS-003/023 und noch nicht entworfen."
+      ],
+      "offen": [
+        "Induktive Sensoren CAD-055: Typ (NPN/PNP, Schaltabstand, Spannung) weiter nicht identifiziert.",
+        "Bedientaster CAD-086: Funktion weiter nicht identifiziert."
+      ]
     }
   ]
 }

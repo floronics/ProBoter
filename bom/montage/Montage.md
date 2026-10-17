@@ -10,6 +10,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | [M04 Z-Achse](#modul-04) | 20 | 100 | 12 | 2 | 6 | 0 | 0 | 0 |
 | [M05 Schublade und Platinenhalter](#modul-05) | 15 | 53 | 6 | 1 | 7 | 0 | 1 | 0 |
 | [M06 Kabelführung](#modul-06) | 10 | 57 | 3 | 0 | 7 | 0 | 0 | 0 |
+| [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 6 | 2 | 8 | 0 | 2 | 0 |
 
 <a id="modul-01"></a>
 
@@ -284,3 +285,48 @@ Energieketten mit Haltern und Adaptern sowie Kabelhalter und Kabelabdeckungen. M
 **Offene Fragen**
 
 - Welche Schrauben der Y-Schlitten (M3×10, M3×12) gehören zusätzlich zur Kettenbefestigung? Werden bei Elektrik mit zugeordnet.
+
+<a id="modul-07"></a>
+
+## M07 Elektrik und Sensorik
+
+Netzteil, Steuerplatinen, Bedientaster, Multiplexer-Halter, induktive Sensoren und optische Endschalter mit ihren Haltern und Schrauben; dazu die Systemteile ohne CAD-Körper (Treiber, Kabel, Verteilung, Schutzleiter).
+
+*Am 17.10.2026 aus den verbleibenden CAD-Teilen gebildet; Schrauben-Zuordnung aus der Kontaktanalyse von M02–M04.*
+
+| ID / Teil | CAD-Name | Stück | Status | Beschaffungsart |
+| --- | --- | --- | --- | --- |
+| [CAD-035](../Teileliste.md#cad-035) DIN 912 M3×10 | `din_912_m3x10` | 16 | bestellfähig; Endschalter-Adapter und Flanschhalter am X-Wagen. | Kaufteile |
+| [CAD-036](../Teileliste.md#cad-036) DIN 912 M3×12 | `din_912_m3x12` | 8 | bestellfähig; Optische Endschalter. | Kaufteile |
+| [CAD-056](../Teileliste.md#cad-056) Sechskantmutter DIN 934 M3 A2 | `iso_8673_nut_m3` | 8 von 24 | bestellfähig; 8 von 24 an den optischen Endschaltern. | Kaufteile |
+| [CAD-059](../Teileliste.md#cad-059) Mean Well MHS012 Montagewinkel | `mean_well_MHS-012_mounting_bracket` | 4 | bestellfähig | Kaufteile |
+| [CAD-060](../Teileliste.md#cad-060) Mean Well RSP-200-24 Netzteil,24 V/8,4 A | `mean_well_RSP-200-24` | 1 | bestellfähig | Kaufteile |
+| [CAD-065](../Teileliste.md#cad-065) Optischer Endschalter 11×35 mm | `optical_endstop` | 4 | bestellfähig | Kaufteile |
+| [CAD-023](../Teileliste.md#cad-023) BIGTREETECH SKR V1.3 Steuerplatine | `bigtreetech_skr_v1_3` | 4 | teilweise geklärt | Kaufteile |
+| [CAD-058](../Teileliste.md#cad-058) ISO 8673 Mutter M8 | `iso_8673_nut_m8` | 48 | teilweise geklärt | Kaufteile |
+| [CAD-074](../Teileliste.md#cad-074) Stromversorgung Schalter Halter | `power_switch_holder` | 1 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-083](../Teileliste.md#cad-083) Signal-Multiplexer Halter | `signal_multiplexer_holder` | 1 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-091](../Teileliste.md#cad-091) X-Achse Endschalter Halter Seite kurz | `x_end_stop_holder_side_short` | 4 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-092](../Teileliste.md#cad-092) X-Achse Endschalter Halter oben lang | `x_end_stop_holder_top_long` | 4 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-093](../Teileliste.md#cad-093) X-Achse Endschalter oben lang | `x_end_stop_top_long` | 4 | Fertigung noch offen | Weitere Fertigung |
+| [CAD-094](../Teileliste.md#cad-094) X-Achse Endschalter oben kurz | `x_end_stop_top_short` | 4 | Fertigung noch offen | Weitere Fertigung |
+| [CAD-101](../Teileliste.md#cad-101) X-Achse Schlitten induktiv Endschalter Adapter | `x_slide_inductive_endstop_adapter` | 4 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-102](../Teileliste.md#cad-102) X-Achse Schlitten induktiv Endschalter Adapter gespiegelt | `x_slide_inductive_endstop_adapter_mirrored` | 4 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-055](../Teileliste.md#cad-055) Induktiver Näherungsschalter M8, Bauhülle 60 mm | `inductive_proximity_sensor_m8` | 24 | nicht identifiziert | Ungeklärte Teile |
+| [CAD-086](../Teileliste.md#cad-086) Bedientaster/-schalterØ19 mm | `vandalism_switch_d19` | 1 | nicht identifiziert | Ungeklärte Teile |
+
+**Zusätzlich nötig, nicht im CAD**
+
+| Teil | Stück | Bezug | Grund |
+| --- | --- | --- | --- |
+| Systemteile Elektrik ohne CAD | siehe Teileliste | SYS-001, 009–021, 025, 038 | Treiber, LED-Anschluss, USB, Motor- und Sensorleitungen, Stecker, 24-V-Verteilung, Netzanschluss, Schutzleiter, UART, Kalibrierleitungen. |
+| Befestigung Netzteil-Winkel und SKR-Platinen | offen | SYS-032 | Im CAD keine Schrauben/Abstandshalter; 4 freie Ø4,5-Bohrungen der Rückwand passen vermutlich zum Netzteil. |
+
+**Bei der Prüfung aus dem Modul genommen**
+
+- signal_multiplexer_dummy: Platzhalter; die echte Platine ist SYS-003/023 und noch nicht entworfen.
+
+**Offene Fragen**
+
+- Induktive Sensoren CAD-055: Typ (NPN/PNP, Schaltabstand, Spannung) weiter nicht identifiziert.
+- Bedientaster CAD-086: Funktion weiter nicht identifiziert.
