@@ -327,7 +327,12 @@
       ],
       "offen": [
         "M3×18 (32) zwischen NEMA-Adapter, Motorplatte und Adapterplatte: im CAD keine Mutter und kein Gewinde (Adapterplatte nur Ø3,4). Mutter M3 oder Gewinde in der Adapterplatte klären.",
-        "Senkschrauben M6×12 am Wagen greifen in den Versteifungsträger 40×16: Gewinde im Träger oder Nutenstein klären."
+        "Senkschrauben M6×12 am Wagen greifen in den Versteifungsträger 40×16: Gewinde im Träger oder Nutenstein klären.",
+        "Versteifungsträger CAD-103 (16×40, 436 mm): Profil nicht identifiziert."
+      ],
+      "werkstatt": [
+        "CAD-016 bis CAD-019 Adapterplatten und CAD-099/100 Seitenplatten der X-Wagen: eigene Werkstatt (Entscheidung 17.10.2026).",
+        "3D-Druckteile (NEMA-Adapter, Spanner, Riemenhalter): PETG intern, Geometrie aus CAD."
       ]
     },
     {

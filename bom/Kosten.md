@@ -10,11 +10,11 @@ im Shop bestätigen. Kein Warenkorb wurde bestellt.
 
 | Umfang | netto | brutto |
 | --- | --- | --- |
-| 1. Beobachtete Webpreise × geplante Bestellpackungen | 2.471,56 € | 2.941,24 € |
-| Davon Positionen mit Status bestellfähig | 1.621,50 € | 1.929,66 € |
-| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 850,06 € | 1.011,58 € |
-| Eigene Budgetschätzungen zusätzlich | 1.698,29 € | 2.020,95 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 4.169,85 € | 4.962,19 € |
+| 1. Beobachtete Webpreise × geplante Bestellpackungen | 2.513,28 € | 2.990,88 € |
+| Davon Positionen mit Status bestellfähig | 1.726,58 € | 2.054,70 € |
+| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 786,70 € | 936,18 € |
+| Eigene Budgetschätzungen zusätzlich | 793,25 € | 943,95 € |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.306,53 € | 3.934,83 € |
 | 3. Noch unbezifferte Positionen: 22 | nicht berechenbar | nicht berechenbar |
 
 **Der Gesamtpreis eines funktionierenden Nachbaus bleibt offen.** Die Summe unter 2
@@ -63,7 +63,7 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | BEFFUCHS | 9,41 € | 5,95 € | 15,36 € |
 | DAMEN | 370,09 € | 0,00 € | 370,09 € |
 | DIGIKEY | 175,55 € | 0,00 € | 175,55 € |
-| DOLD | 476,03 € | 490,00 € | 966,03 € |
+| DOLD | 495,67 € | 365,00 € | 860,67 € |
 | EISEN2000 | 92,15 € | 0,00 € | 92,15 € |
 | IGUS | 172,70 € | 0,00 € | 172,70 € |
 | MOTEDIS | 314,66 € | 0,00 € | 314,66 € |
@@ -72,8 +72,8 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | RBS | 457,90 € | 30,00 € | 487,90 € |
 | REICHELT | 207,44 € | 195,00 € | 402,44 € |
 | SCHRAUBEN | 56,50 € | 29,00 € | 85,50 € |
+| TINYTRONICS | 30,00 € | 0,00 € | 30,00 € |
 | TME | 0,00 € | 169,00 € | 169,00 € |
-| XOMETRY | 0,00 € | 952,00 € | 952,00 € |
 
 ## Noch unbeziffert – Auswirkung auf die Vollständigkeit
 

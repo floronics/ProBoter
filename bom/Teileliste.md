@@ -34,8 +34,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
 | --- | --- | --- | --- | --- |
 | [CAD-003](#cad-003) Grundgestell: Rückseite Platte | direkt | `base_back_plate` | 1 | Fertigung noch offen |
-| [CAD-004](#cad-004) Grundgestell: Kabel Halter M3 flach | direkt | `base_cable_holder_m3_flat` | 2 | Fertigung noch offen |
-| [CAD-005](#cad-005) Grundgestell: Kabel Halter M4 | direkt | `base_cable_holder_m4` | 1 | Fertigung noch offen |
+| [CAD-004](#cad-004) Grundgestell: Kabel Halter M3 flach | direkt | `base_cable_holder_m3_flat` | 2 | Fertigung spezifiziert |
+| [CAD-005](#cad-005) Grundgestell: Kabel Halter M4 | direkt | `base_cable_holder_m4` | 1 | Fertigung spezifiziert |
 | [CAD-007](#cad-007) Grundgestell: Abdeckung lang Seite | direkt | `base_cover_long_side` | 2 | Fertigung noch offen |
 | [CAD-008](#cad-008) Grundgestell: Abdeckung oben | direkt | `base_cover_top` | 2 | Fertigung noch offen |
 | [CAD-009](#cad-009) Grundgestell: Schlepp Energiekette Halter | direkt | `base_drag_chain_holder` | 4 | Fertigung noch offen |
@@ -59,10 +59,10 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-059](#cad-059) Mean Well MHS012 Montagewinkel | direkt | `mean_well_MHS-012_mounting_bracket` | 4 | bestellfähig |
 | [CAD-060](#cad-060) Mean Well RSP-200-24 Netzteil,24 V/8,4 A | direkt | `mean_well_RSP-200-24` | 1 | bestellfähig |
 | [CAD-066](#cad-066) Prüfobjekt-Platzhalter im CAD | direkt | `pcb_dummy` | 1 | nicht benötigt; Plan gesamt 0 statt 1 |
-| [CAD-074](#cad-074) Stromversorgung Schalter Halter | direkt | `power_switch_holder` | 1 | Fertigung noch offen |
+| [CAD-074](#cad-074) Stromversorgung Schalter Halter | direkt | `power_switch_holder` | 1 | Fertigung spezifiziert |
 | [CAD-081](#cad-081) Anschraubwinkel 30 / Nut 6 | direkt | `screw_on_bracket_30_6` | 26 | bestellfähig |
 | [CAD-082](#cad-082) Multiplexer-Platzhalter im CAD | direkt | `signal_multiplexer_dummy` | 1 | nicht benötigt; Plan gesamt 0 statt 1 |
-| [CAD-083](#cad-083) Signal-Multiplexer Halter | direkt | `signal_multiplexer_holder` | 1 | Fertigung noch offen |
+| [CAD-083](#cad-083) Signal-Multiplexer Halter | direkt | `signal_multiplexer_holder` | 1 | Fertigung spezifiziert |
 | [CAD-084](#cad-084) Teleskopschiene 350 mm, Vollauszug | direkt | `telescopic_bar_tsaa514613-350` | 2 | bestellfähig |
 | [CAD-086](#cad-086) Bedientaster/-schalterØ19 mm | direkt | `vandalism_switch_d19` | 1 | nicht identifiziert |
 | [CAD-095](#cad-095) CPC MR12M Führungsschiene 600 mm | direkt | `x_guiding_cpc_MR12M` | 2 | bestellfähig |
@@ -70,20 +70,20 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-097](#cad-097) X-Achse Motor Platte 2 | direkt | `x_motor_plate_2` | 1 | Fertigung noch offen |
 | [CAD-016](#cad-016) Grundgestell: Platte Adapter 1 | `base_plate_adapter` | `base_plate_adapter_1` | 2 | Fertigung noch offen |
 | [CAD-017](#cad-017) Grundgestell: Platte Adapter 2 | `base_plate_adapter` | `base_plate_adapter_2` | 2 | Fertigung noch offen |
-| [CAD-025](#cad-025) Kamera Halter | `camera_holder` | `camera_holder` | 1 | Fertigung noch offen |
+| [CAD-025](#cad-025) Kamera Halter | `camera_holder` | `camera_holder` | 1 | Fertigung spezifiziert |
 | [CAD-026](#cad-026) Kamera Halter oben | `camera_holder` | `camera_holder_top` | 1 | Fertigung noch offen |
 | [CAD-028](#cad-028) DIN 466 Rändelmutter hoch M4 | `pcb_holder` | `din_466_knurled_nut_high_m4` | 8 | bestellfähig; Plan gesamt 10 statt 8 |
 | [CAD-043](#cad-043) DIN 912 M4×10 | `pcb_holder` | `din_912_m4x10` | 1 | bestellfähig; Plan gesamt 3 statt 1 |
 | [CAD-048](#cad-048) DIN 933 M4×20 | `pcb_holder` | `din_933_m4x20` | 8 | bestellfähig; Plan gesamt 10 statt 8 |
-| [CAD-067](#cad-067) Platine Halter Gleiter | `pcb_holder` | `pcb_holder_glider` | 4 | Fertigung noch offen |
-| [CAD-068](#cad-068) Platine Halter Führung Halter rund d 10 | `pcb_holder` | `pcb_holder_guiding_holder_round_d10` | 4 | Fertigung noch offen |
-| [CAD-069](#cad-069) Platine Halter Führung rund | `pcb_holder` | `pcb_holder_guiding_round` | 2 | Fertigung noch offen |
+| [CAD-067](#cad-067) Platine Halter Gleiter | `pcb_holder` | `pcb_holder_glider` | 4 | Fertigung spezifiziert |
+| [CAD-068](#cad-068) Platine Halter Führung Halter rund d 10 | `pcb_holder` | `pcb_holder_guiding_holder_round_d10` | 4 | Fertigung spezifiziert |
+| [CAD-069](#cad-069) Platine Halter Führung rund | `pcb_holder` | `pcb_holder_guiding_round` | 2 | bestellfähig |
 | [CAD-070](#cad-070) Platine Halter rechteckig Stange | `pcb_holder` | `pcb_holder_rect_rod` | 2 | Fertigung noch offen |
-| [CAD-071](#cad-071) Platine Halter Stange kurz rund d 10 | `pcb_holder` | `pcb_holder_rod_short_round_d10` | 2 | Fertigung noch offen |
-| [CAD-072](#cad-072) Platine Halter Stange kurz rund d 10 gespiegelt | `pcb_holder` | `pcb_holder_rod_short_round_d10_mirrored` | 2 | Fertigung noch offen |
-| [CAD-015](#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `x_belt_drive` | `base_nema_14_to_17_adapter` | 8 | Fertigung noch offen |
-| [CAD-021](#cad-021) Riemen Spanner GT2 Basis | `x_belt_drive` | `belt_tightener_GT2_base` | 16 | Fertigung noch offen |
-| [CAD-022](#cad-022) Riemen Spanner GT2 Flügel | `x_belt_drive` | `belt_tightener_GT2_wing` | 16 | Fertigung noch offen |
+| [CAD-071](#cad-071) Platine Halter Stange kurz rund d 10 | `pcb_holder` | `pcb_holder_rod_short_round_d10` | 2 | Fertigung spezifiziert |
+| [CAD-072](#cad-072) Platine Halter Stange kurz rund d 10 gespiegelt | `pcb_holder` | `pcb_holder_rod_short_round_d10_mirrored` | 2 | Fertigung spezifiziert |
+| [CAD-015](#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `x_belt_drive` | `base_nema_14_to_17_adapter` | 8 | Fertigung spezifiziert |
+| [CAD-021](#cad-021) Riemen Spanner GT2 Basis | `x_belt_drive` | `belt_tightener_GT2_base` | 16 | Fertigung spezifiziert |
+| [CAD-022](#cad-022) Riemen Spanner GT2 Flügel | `x_belt_drive` | `belt_tightener_GT2_wing` | 16 | Fertigung spezifiziert |
 | [CAD-035](#cad-035) DIN 912 M3×10 | `x_belt_drive` | `din_912_m3x10` | 32 | bestellfähig; Plan gesamt 84 statt 76 |
 | [CAD-038](#cad-038) DIN 912 M3×16 | `x_belt_drive` | `din_912_m3x16` | 16 | bestellfähig; Plan gesamt 31 statt 28 |
 | [CAD-039](#cad-039) DIN 912 M3×18 | `x_belt_drive` | `din_912_m3x18` | 32 | bestellfähig; Plan gesamt 36 statt 32 |
@@ -93,8 +93,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-056](#cad-056) Sechskantmutter DIN 934 M3 A2 | `x_belt_drive` | `iso_8673_nut_m3` | 16 | bestellfähig; Plan gesamt 49 statt 44 |
 | [CAD-057](#cad-057) Sechskantmutter DIN 934 M4 A2 | `x_belt_drive` | `iso_8673_nut_m4` | 32 | bestellfähig; Plan gesamt 71 statt 64 |
 | [CAD-064](#cad-064) Nanotec ST4118M1804-A NEMA17 X/Y-Motor | `x_belt_drive` | `nanotec_nema_17_ST4118M1804-A` | 8 | bestellfähig; fehlt im Fusion-Import |
-| [CAD-077](#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `x_belt_drive` | `pulley_gt2_z16_6mm` | 8 | teilweise geklärt |
-| [CAD-078](#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `x_belt_drive` | `return_pulley_gt2_z16_6mm` | 16 | teilweise geklärt |
+| [CAD-077](#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `x_belt_drive` | `pulley_gt2_z16_6mm` | 8 | bestellfähig |
+| [CAD-078](#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `x_belt_drive` | `return_pulley_gt2_z16_6mm` | 16 | bestellfähig |
 | [CAD-087](#cad-087) GT2-Riemen X, 6 mm breit | `x_belt_drive` | `x_belt` | 8 | bestellfähig |
 
 <a id="komp-02"></a>
@@ -103,7 +103,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
 | --- | --- | --- | --- | --- |
-| [CAD-006](#cad-006) Grundgestell: Kabel Halter M5 flach | direkt | `base_cable_holder_m5_flat` | 1 | Fertigung noch offen |
+| [CAD-006](#cad-006) Grundgestell: Kabel Halter M5 flach | direkt | `base_cable_holder_m5_flat` | 1 | Fertigung spezifiziert |
 | [CAD-027](#cad-027) CPC MR12ML Führungswagen | direkt | `cpc_MR12ML` | 2 | bestellfähig |
 | [CAD-031](#cad-031) DIN 7991 M3×8 | direkt | `din_7991_m3x8` | 8 | bestellfähig; Plan gesamt 36 statt 32 |
 | [CAD-032](#cad-032) DIN 7991 M6×12 | direkt | `din_7991_m6x12` | 4 | bestellfähig; Plan gesamt 18 statt 16 |
@@ -114,22 +114,22 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-055](#cad-055) Induktiver Näherungsschalter M8, Bauhülle 60 mm | direkt | `inductive_proximity_sensor_m8` | 4 | nicht identifiziert |
 | [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 10 | teilweise geklärt; Plan gesamt 53 statt 48 |
 | [CAD-079](#cad-079) SHF10 Flanschhalter fürØ10 mm Welle | direkt | `rod_holder_flange_d10_dold` | 4 | bestellfähig |
-| [CAD-088](#cad-088) X-Achse Riemen Halter | direkt | `x_belt_holder` | 1 | Fertigung noch offen |
-| [CAD-089](#cad-089) X-Achse Riemen Halter 1 | direkt | `x_belt_holder_1` | 3 | Fertigung noch offen |
-| [CAD-090](#cad-090) X-Achse Schlepp Energiekette Adapter | direkt | `x_drag_chain_adapter` | 2 | Fertigung noch offen |
-| [CAD-091](#cad-091) X-Achse Endschalter Halter Seite kurz | direkt | `x_end_stop_holder_side_short` | 1 | Fertigung noch offen |
-| [CAD-092](#cad-092) X-Achse Endschalter Halter oben lang | direkt | `x_end_stop_holder_top_long` | 1 | Fertigung noch offen |
+| [CAD-088](#cad-088) X-Achse Riemen Halter | direkt | `x_belt_holder` | 1 | Fertigung spezifiziert |
+| [CAD-089](#cad-089) X-Achse Riemen Halter 1 | direkt | `x_belt_holder_1` | 3 | Fertigung spezifiziert |
+| [CAD-090](#cad-090) X-Achse Schlepp Energiekette Adapter | direkt | `x_drag_chain_adapter` | 2 | Fertigung spezifiziert |
+| [CAD-091](#cad-091) X-Achse Endschalter Halter Seite kurz | direkt | `x_end_stop_holder_side_short` | 1 | Fertigung spezifiziert |
+| [CAD-092](#cad-092) X-Achse Endschalter Halter oben lang | direkt | `x_end_stop_holder_top_long` | 1 | Fertigung spezifiziert |
 | [CAD-093](#cad-093) X-Achse Endschalter oben lang | direkt | `x_end_stop_top_long` | 1 | Fertigung noch offen |
 | [CAD-094](#cad-094) X-Achse Endschalter oben kurz | direkt | `x_end_stop_top_short` | 1 | Fertigung noch offen |
-| [CAD-098](#cad-098) X-Achse rund Schiene | direkt | `x_round_rail` | 2 | Fertigung noch offen |
+| [CAD-098](#cad-098) X-Achse rund Schiene | direkt | `x_round_rail` | 2 | bestellfähig |
 | [CAD-099](#cad-099) X-Achse Seite Platte | direkt | `x_side_plate` | 1 | Fertigung noch offen |
 | [CAD-100](#cad-100) X-Achse Seite Platte beweglich | direkt | `x_side_plate_moving` | 1 | Fertigung noch offen |
-| [CAD-101](#cad-101) X-Achse Schlitten induktiv Endschalter Adapter | direkt | `x_slide_inductive_endstop_adapter` | 1 | Fertigung noch offen |
-| [CAD-102](#cad-102) X-Achse Schlitten induktiv Endschalter Adapter gespiegelt | direkt | `x_slide_inductive_endstop_adapter_mirrored` | 1 | Fertigung noch offen |
+| [CAD-101](#cad-101) X-Achse Schlitten induktiv Endschalter Adapter | direkt | `x_slide_inductive_endstop_adapter` | 1 | Fertigung spezifiziert |
+| [CAD-102](#cad-102) X-Achse Schlitten induktiv Endschalter Adapter gespiegelt | direkt | `x_slide_inductive_endstop_adapter_mirrored` | 1 | Fertigung spezifiziert |
 | [CAD-103](#cad-103) X-Achse Schlitten Versteifung Träger | direkt | `x_slide_stiffener_beam` | 1 | Fertigung noch offen |
-| [CAD-015](#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `y_belt_drive` | `base_nema_14_to_17_adapter` | 1 | Fertigung noch offen |
-| [CAD-021](#cad-021) Riemen Spanner GT2 Basis | `y_belt_drive` | `belt_tightener_GT2_base` | 1 | Fertigung noch offen |
-| [CAD-022](#cad-022) Riemen Spanner GT2 Flügel | `y_belt_drive` | `belt_tightener_GT2_wing` | 1 | Fertigung noch offen |
+| [CAD-015](#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `y_belt_drive` | `base_nema_14_to_17_adapter` | 1 | Fertigung spezifiziert |
+| [CAD-021](#cad-021) Riemen Spanner GT2 Basis | `y_belt_drive` | `belt_tightener_GT2_base` | 1 | Fertigung spezifiziert |
+| [CAD-022](#cad-022) Riemen Spanner GT2 Flügel | `y_belt_drive` | `belt_tightener_GT2_wing` | 1 | Fertigung spezifiziert |
 | [CAD-035](#cad-035) DIN 912 M3×10 | `y_belt_drive` | `din_912_m3x10` | 2 | bestellfähig; Plan gesamt 84 statt 76 |
 | [CAD-038](#cad-038) DIN 912 M3×16 | `y_belt_drive` | `din_912_m3x16` | 1 | bestellfähig; Plan gesamt 31 statt 28 |
 | [CAD-044](#cad-044) DIN 912 M4×20 | `y_belt_drive` | `din_912_m4x20` | 1 | bestellfähig; Plan gesamt 22 statt 20 |
@@ -137,8 +137,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-056](#cad-056) Sechskantmutter DIN 934 M3 A2 | `y_belt_drive` | `iso_8673_nut_m3` | 1 | bestellfähig; Plan gesamt 49 statt 44 |
 | [CAD-057](#cad-057) Sechskantmutter DIN 934 M4 A2 | `y_belt_drive` | `iso_8673_nut_m4` | 2 | bestellfähig; Plan gesamt 71 statt 64 |
 | [CAD-064](#cad-064) Nanotec ST4118M1804-A NEMA17 X/Y-Motor | `y_belt_drive` | `nanotec_nema_17_ST4118M1804-A` | 1 | bestellfähig; fehlt im Fusion-Import |
-| [CAD-077](#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `y_belt_drive` | `pulley_gt2_z16_6mm` | 1 | teilweise geklärt |
-| [CAD-078](#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `y_belt_drive` | `return_pulley_gt2_z16_6mm` | 1 | teilweise geklärt |
+| [CAD-077](#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `y_belt_drive` | `pulley_gt2_z16_6mm` | 1 | bestellfähig |
+| [CAD-078](#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `y_belt_drive` | `return_pulley_gt2_z16_6mm` | 1 | bestellfähig |
 | [CAD-104](#cad-104) GT2-Riemen Y, 6 mm breit | `y_belt_drive` | `y_belt` | 1 | bestellfähig |
 
 <a id="komp-03"></a>
@@ -147,7 +147,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
 | --- | --- | --- | --- | --- |
-| [CAD-006](#cad-006) Grundgestell: Kabel Halter M5 flach | direkt | `base_cable_holder_m5_flat` | 1 | Fertigung noch offen |
+| [CAD-006](#cad-006) Grundgestell: Kabel Halter M5 flach | direkt | `base_cable_holder_m5_flat` | 1 | Fertigung spezifiziert |
 | [CAD-027](#cad-027) CPC MR12ML Führungswagen | direkt | `cpc_MR12ML` | 2 | bestellfähig |
 | [CAD-031](#cad-031) DIN 7991 M3×8 | direkt | `din_7991_m3x8` | 8 | bestellfähig; Plan gesamt 36 statt 32 |
 | [CAD-032](#cad-032) DIN 7991 M6×12 | direkt | `din_7991_m6x12` | 4 | bestellfähig; Plan gesamt 18 statt 16 |
@@ -158,22 +158,22 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-055](#cad-055) Induktiver Näherungsschalter M8, Bauhülle 60 mm | direkt | `inductive_proximity_sensor_m8` | 4 | nicht identifiziert |
 | [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 10 | teilweise geklärt; Plan gesamt 53 statt 48 |
 | [CAD-079](#cad-079) SHF10 Flanschhalter fürØ10 mm Welle | direkt | `rod_holder_flange_d10_dold` | 4 | bestellfähig |
-| [CAD-088](#cad-088) X-Achse Riemen Halter | direkt | `x_belt_holder` | 1 | Fertigung noch offen |
-| [CAD-089](#cad-089) X-Achse Riemen Halter 1 | direkt | `x_belt_holder_1` | 3 | Fertigung noch offen |
-| [CAD-090](#cad-090) X-Achse Schlepp Energiekette Adapter | direkt | `x_drag_chain_adapter` | 2 | Fertigung noch offen |
-| [CAD-091](#cad-091) X-Achse Endschalter Halter Seite kurz | direkt | `x_end_stop_holder_side_short` | 1 | Fertigung noch offen |
-| [CAD-092](#cad-092) X-Achse Endschalter Halter oben lang | direkt | `x_end_stop_holder_top_long` | 1 | Fertigung noch offen |
+| [CAD-088](#cad-088) X-Achse Riemen Halter | direkt | `x_belt_holder` | 1 | Fertigung spezifiziert |
+| [CAD-089](#cad-089) X-Achse Riemen Halter 1 | direkt | `x_belt_holder_1` | 3 | Fertigung spezifiziert |
+| [CAD-090](#cad-090) X-Achse Schlepp Energiekette Adapter | direkt | `x_drag_chain_adapter` | 2 | Fertigung spezifiziert |
+| [CAD-091](#cad-091) X-Achse Endschalter Halter Seite kurz | direkt | `x_end_stop_holder_side_short` | 1 | Fertigung spezifiziert |
+| [CAD-092](#cad-092) X-Achse Endschalter Halter oben lang | direkt | `x_end_stop_holder_top_long` | 1 | Fertigung spezifiziert |
 | [CAD-093](#cad-093) X-Achse Endschalter oben lang | direkt | `x_end_stop_top_long` | 1 | Fertigung noch offen |
 | [CAD-094](#cad-094) X-Achse Endschalter oben kurz | direkt | `x_end_stop_top_short` | 1 | Fertigung noch offen |
-| [CAD-098](#cad-098) X-Achse rund Schiene | direkt | `x_round_rail` | 2 | Fertigung noch offen |
+| [CAD-098](#cad-098) X-Achse rund Schiene | direkt | `x_round_rail` | 2 | bestellfähig |
 | [CAD-099](#cad-099) X-Achse Seite Platte | direkt | `x_side_plate` | 1 | Fertigung noch offen |
 | [CAD-100](#cad-100) X-Achse Seite Platte beweglich | direkt | `x_side_plate_moving` | 1 | Fertigung noch offen |
-| [CAD-101](#cad-101) X-Achse Schlitten induktiv Endschalter Adapter | direkt | `x_slide_inductive_endstop_adapter` | 1 | Fertigung noch offen |
-| [CAD-102](#cad-102) X-Achse Schlitten induktiv Endschalter Adapter gespiegelt | direkt | `x_slide_inductive_endstop_adapter_mirrored` | 1 | Fertigung noch offen |
+| [CAD-101](#cad-101) X-Achse Schlitten induktiv Endschalter Adapter | direkt | `x_slide_inductive_endstop_adapter` | 1 | Fertigung spezifiziert |
+| [CAD-102](#cad-102) X-Achse Schlitten induktiv Endschalter Adapter gespiegelt | direkt | `x_slide_inductive_endstop_adapter_mirrored` | 1 | Fertigung spezifiziert |
 | [CAD-103](#cad-103) X-Achse Schlitten Versteifung Träger | direkt | `x_slide_stiffener_beam` | 1 | Fertigung noch offen |
-| [CAD-015](#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `y_belt_drive` | `base_nema_14_to_17_adapter` | 1 | Fertigung noch offen |
-| [CAD-021](#cad-021) Riemen Spanner GT2 Basis | `y_belt_drive` | `belt_tightener_GT2_base` | 1 | Fertigung noch offen |
-| [CAD-022](#cad-022) Riemen Spanner GT2 Flügel | `y_belt_drive` | `belt_tightener_GT2_wing` | 1 | Fertigung noch offen |
+| [CAD-015](#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `y_belt_drive` | `base_nema_14_to_17_adapter` | 1 | Fertigung spezifiziert |
+| [CAD-021](#cad-021) Riemen Spanner GT2 Basis | `y_belt_drive` | `belt_tightener_GT2_base` | 1 | Fertigung spezifiziert |
+| [CAD-022](#cad-022) Riemen Spanner GT2 Flügel | `y_belt_drive` | `belt_tightener_GT2_wing` | 1 | Fertigung spezifiziert |
 | [CAD-035](#cad-035) DIN 912 M3×10 | `y_belt_drive` | `din_912_m3x10` | 2 | bestellfähig; Plan gesamt 84 statt 76 |
 | [CAD-038](#cad-038) DIN 912 M3×16 | `y_belt_drive` | `din_912_m3x16` | 1 | bestellfähig; Plan gesamt 31 statt 28 |
 | [CAD-044](#cad-044) DIN 912 M4×20 | `y_belt_drive` | `din_912_m4x20` | 1 | bestellfähig; Plan gesamt 22 statt 20 |
@@ -181,8 +181,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-056](#cad-056) Sechskantmutter DIN 934 M3 A2 | `y_belt_drive` | `iso_8673_nut_m3` | 1 | bestellfähig; Plan gesamt 49 statt 44 |
 | [CAD-057](#cad-057) Sechskantmutter DIN 934 M4 A2 | `y_belt_drive` | `iso_8673_nut_m4` | 2 | bestellfähig; Plan gesamt 71 statt 64 |
 | [CAD-064](#cad-064) Nanotec ST4118M1804-A NEMA17 X/Y-Motor | `y_belt_drive` | `nanotec_nema_17_ST4118M1804-A` | 1 | bestellfähig; fehlt im Fusion-Import |
-| [CAD-077](#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `y_belt_drive` | `pulley_gt2_z16_6mm` | 1 | teilweise geklärt |
-| [CAD-078](#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `y_belt_drive` | `return_pulley_gt2_z16_6mm` | 1 | teilweise geklärt |
+| [CAD-077](#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `y_belt_drive` | `pulley_gt2_z16_6mm` | 1 | bestellfähig |
+| [CAD-078](#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `y_belt_drive` | `return_pulley_gt2_z16_6mm` | 1 | bestellfähig |
 | [CAD-104](#cad-104) GT2-Riemen Y, 6 mm breit | `y_belt_drive` | `y_belt` | 1 | bestellfähig |
 
 <a id="komp-04"></a>
@@ -191,7 +191,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
 | --- | --- | --- | --- | --- |
-| [CAD-006](#cad-006) Grundgestell: Kabel Halter M5 flach | direkt | `base_cable_holder_m5_flat` | 1 | Fertigung noch offen |
+| [CAD-006](#cad-006) Grundgestell: Kabel Halter M5 flach | direkt | `base_cable_holder_m5_flat` | 1 | Fertigung spezifiziert |
 | [CAD-027](#cad-027) CPC MR12ML Führungswagen | direkt | `cpc_MR12ML` | 2 | bestellfähig |
 | [CAD-031](#cad-031) DIN 7991 M3×8 | direkt | `din_7991_m3x8` | 8 | bestellfähig; Plan gesamt 36 statt 32 |
 | [CAD-032](#cad-032) DIN 7991 M6×12 | direkt | `din_7991_m6x12` | 4 | bestellfähig; Plan gesamt 18 statt 16 |
@@ -202,22 +202,22 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-055](#cad-055) Induktiver Näherungsschalter M8, Bauhülle 60 mm | direkt | `inductive_proximity_sensor_m8` | 4 | nicht identifiziert |
 | [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 10 | teilweise geklärt; Plan gesamt 53 statt 48 |
 | [CAD-079](#cad-079) SHF10 Flanschhalter fürØ10 mm Welle | direkt | `rod_holder_flange_d10_dold` | 4 | bestellfähig |
-| [CAD-088](#cad-088) X-Achse Riemen Halter | direkt | `x_belt_holder` | 1 | Fertigung noch offen |
-| [CAD-089](#cad-089) X-Achse Riemen Halter 1 | direkt | `x_belt_holder_1` | 3 | Fertigung noch offen |
-| [CAD-090](#cad-090) X-Achse Schlepp Energiekette Adapter | direkt | `x_drag_chain_adapter` | 2 | Fertigung noch offen |
-| [CAD-091](#cad-091) X-Achse Endschalter Halter Seite kurz | direkt | `x_end_stop_holder_side_short` | 1 | Fertigung noch offen |
-| [CAD-092](#cad-092) X-Achse Endschalter Halter oben lang | direkt | `x_end_stop_holder_top_long` | 1 | Fertigung noch offen |
+| [CAD-088](#cad-088) X-Achse Riemen Halter | direkt | `x_belt_holder` | 1 | Fertigung spezifiziert |
+| [CAD-089](#cad-089) X-Achse Riemen Halter 1 | direkt | `x_belt_holder_1` | 3 | Fertigung spezifiziert |
+| [CAD-090](#cad-090) X-Achse Schlepp Energiekette Adapter | direkt | `x_drag_chain_adapter` | 2 | Fertigung spezifiziert |
+| [CAD-091](#cad-091) X-Achse Endschalter Halter Seite kurz | direkt | `x_end_stop_holder_side_short` | 1 | Fertigung spezifiziert |
+| [CAD-092](#cad-092) X-Achse Endschalter Halter oben lang | direkt | `x_end_stop_holder_top_long` | 1 | Fertigung spezifiziert |
 | [CAD-093](#cad-093) X-Achse Endschalter oben lang | direkt | `x_end_stop_top_long` | 1 | Fertigung noch offen |
 | [CAD-094](#cad-094) X-Achse Endschalter oben kurz | direkt | `x_end_stop_top_short` | 1 | Fertigung noch offen |
-| [CAD-098](#cad-098) X-Achse rund Schiene | direkt | `x_round_rail` | 2 | Fertigung noch offen |
+| [CAD-098](#cad-098) X-Achse rund Schiene | direkt | `x_round_rail` | 2 | bestellfähig |
 | [CAD-099](#cad-099) X-Achse Seite Platte | direkt | `x_side_plate` | 1 | Fertigung noch offen |
 | [CAD-100](#cad-100) X-Achse Seite Platte beweglich | direkt | `x_side_plate_moving` | 1 | Fertigung noch offen |
-| [CAD-101](#cad-101) X-Achse Schlitten induktiv Endschalter Adapter | direkt | `x_slide_inductive_endstop_adapter` | 1 | Fertigung noch offen |
-| [CAD-102](#cad-102) X-Achse Schlitten induktiv Endschalter Adapter gespiegelt | direkt | `x_slide_inductive_endstop_adapter_mirrored` | 1 | Fertigung noch offen |
+| [CAD-101](#cad-101) X-Achse Schlitten induktiv Endschalter Adapter | direkt | `x_slide_inductive_endstop_adapter` | 1 | Fertigung spezifiziert |
+| [CAD-102](#cad-102) X-Achse Schlitten induktiv Endschalter Adapter gespiegelt | direkt | `x_slide_inductive_endstop_adapter_mirrored` | 1 | Fertigung spezifiziert |
 | [CAD-103](#cad-103) X-Achse Schlitten Versteifung Träger | direkt | `x_slide_stiffener_beam` | 1 | Fertigung noch offen |
-| [CAD-015](#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `y_belt_drive` | `base_nema_14_to_17_adapter` | 1 | Fertigung noch offen |
-| [CAD-021](#cad-021) Riemen Spanner GT2 Basis | `y_belt_drive` | `belt_tightener_GT2_base` | 1 | Fertigung noch offen |
-| [CAD-022](#cad-022) Riemen Spanner GT2 Flügel | `y_belt_drive` | `belt_tightener_GT2_wing` | 1 | Fertigung noch offen |
+| [CAD-015](#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `y_belt_drive` | `base_nema_14_to_17_adapter` | 1 | Fertigung spezifiziert |
+| [CAD-021](#cad-021) Riemen Spanner GT2 Basis | `y_belt_drive` | `belt_tightener_GT2_base` | 1 | Fertigung spezifiziert |
+| [CAD-022](#cad-022) Riemen Spanner GT2 Flügel | `y_belt_drive` | `belt_tightener_GT2_wing` | 1 | Fertigung spezifiziert |
 | [CAD-035](#cad-035) DIN 912 M3×10 | `y_belt_drive` | `din_912_m3x10` | 2 | bestellfähig; Plan gesamt 84 statt 76 |
 | [CAD-038](#cad-038) DIN 912 M3×16 | `y_belt_drive` | `din_912_m3x16` | 1 | bestellfähig; Plan gesamt 31 statt 28 |
 | [CAD-044](#cad-044) DIN 912 M4×20 | `y_belt_drive` | `din_912_m4x20` | 1 | bestellfähig; Plan gesamt 22 statt 20 |
@@ -225,8 +225,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-056](#cad-056) Sechskantmutter DIN 934 M3 A2 | `y_belt_drive` | `iso_8673_nut_m3` | 1 | bestellfähig; Plan gesamt 49 statt 44 |
 | [CAD-057](#cad-057) Sechskantmutter DIN 934 M4 A2 | `y_belt_drive` | `iso_8673_nut_m4` | 2 | bestellfähig; Plan gesamt 71 statt 64 |
 | [CAD-064](#cad-064) Nanotec ST4118M1804-A NEMA17 X/Y-Motor | `y_belt_drive` | `nanotec_nema_17_ST4118M1804-A` | 1 | bestellfähig; fehlt im Fusion-Import |
-| [CAD-077](#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `y_belt_drive` | `pulley_gt2_z16_6mm` | 1 | teilweise geklärt |
-| [CAD-078](#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `y_belt_drive` | `return_pulley_gt2_z16_6mm` | 1 | teilweise geklärt |
+| [CAD-077](#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `y_belt_drive` | `pulley_gt2_z16_6mm` | 1 | bestellfähig |
+| [CAD-078](#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `y_belt_drive` | `return_pulley_gt2_z16_6mm` | 1 | bestellfähig |
 | [CAD-104](#cad-104) GT2-Riemen Y, 6 mm breit | `y_belt_drive` | `y_belt` | 1 | bestellfähig |
 
 <a id="komp-05"></a>
@@ -235,7 +235,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
 | --- | --- | --- | --- | --- |
-| [CAD-006](#cad-006) Grundgestell: Kabel Halter M5 flach | direkt | `base_cable_holder_m5_flat` | 1 | Fertigung noch offen |
+| [CAD-006](#cad-006) Grundgestell: Kabel Halter M5 flach | direkt | `base_cable_holder_m5_flat` | 1 | Fertigung spezifiziert |
 | [CAD-027](#cad-027) CPC MR12ML Führungswagen | direkt | `cpc_MR12ML` | 2 | bestellfähig |
 | [CAD-031](#cad-031) DIN 7991 M3×8 | direkt | `din_7991_m3x8` | 8 | bestellfähig; Plan gesamt 36 statt 32 |
 | [CAD-032](#cad-032) DIN 7991 M6×12 | direkt | `din_7991_m6x12` | 4 | bestellfähig; Plan gesamt 18 statt 16 |
@@ -246,22 +246,22 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-055](#cad-055) Induktiver Näherungsschalter M8, Bauhülle 60 mm | direkt | `inductive_proximity_sensor_m8` | 4 | nicht identifiziert |
 | [CAD-058](#cad-058) ISO 8673 Mutter M8 | direkt | `iso_8673_nut_m8` | 10 | teilweise geklärt; Plan gesamt 53 statt 48 |
 | [CAD-079](#cad-079) SHF10 Flanschhalter fürØ10 mm Welle | direkt | `rod_holder_flange_d10_dold` | 4 | bestellfähig |
-| [CAD-088](#cad-088) X-Achse Riemen Halter | direkt | `x_belt_holder` | 1 | Fertigung noch offen |
-| [CAD-089](#cad-089) X-Achse Riemen Halter 1 | direkt | `x_belt_holder_1` | 3 | Fertigung noch offen |
-| [CAD-090](#cad-090) X-Achse Schlepp Energiekette Adapter | direkt | `x_drag_chain_adapter` | 2 | Fertigung noch offen |
-| [CAD-091](#cad-091) X-Achse Endschalter Halter Seite kurz | direkt | `x_end_stop_holder_side_short` | 1 | Fertigung noch offen |
-| [CAD-092](#cad-092) X-Achse Endschalter Halter oben lang | direkt | `x_end_stop_holder_top_long` | 1 | Fertigung noch offen |
+| [CAD-088](#cad-088) X-Achse Riemen Halter | direkt | `x_belt_holder` | 1 | Fertigung spezifiziert |
+| [CAD-089](#cad-089) X-Achse Riemen Halter 1 | direkt | `x_belt_holder_1` | 3 | Fertigung spezifiziert |
+| [CAD-090](#cad-090) X-Achse Schlepp Energiekette Adapter | direkt | `x_drag_chain_adapter` | 2 | Fertigung spezifiziert |
+| [CAD-091](#cad-091) X-Achse Endschalter Halter Seite kurz | direkt | `x_end_stop_holder_side_short` | 1 | Fertigung spezifiziert |
+| [CAD-092](#cad-092) X-Achse Endschalter Halter oben lang | direkt | `x_end_stop_holder_top_long` | 1 | Fertigung spezifiziert |
 | [CAD-093](#cad-093) X-Achse Endschalter oben lang | direkt | `x_end_stop_top_long` | 1 | Fertigung noch offen |
 | [CAD-094](#cad-094) X-Achse Endschalter oben kurz | direkt | `x_end_stop_top_short` | 1 | Fertigung noch offen |
-| [CAD-098](#cad-098) X-Achse rund Schiene | direkt | `x_round_rail` | 2 | Fertigung noch offen |
+| [CAD-098](#cad-098) X-Achse rund Schiene | direkt | `x_round_rail` | 2 | bestellfähig |
 | [CAD-099](#cad-099) X-Achse Seite Platte | direkt | `x_side_plate` | 1 | Fertigung noch offen |
 | [CAD-100](#cad-100) X-Achse Seite Platte beweglich | direkt | `x_side_plate_moving` | 1 | Fertigung noch offen |
-| [CAD-101](#cad-101) X-Achse Schlitten induktiv Endschalter Adapter | direkt | `x_slide_inductive_endstop_adapter` | 1 | Fertigung noch offen |
-| [CAD-102](#cad-102) X-Achse Schlitten induktiv Endschalter Adapter gespiegelt | direkt | `x_slide_inductive_endstop_adapter_mirrored` | 1 | Fertigung noch offen |
+| [CAD-101](#cad-101) X-Achse Schlitten induktiv Endschalter Adapter | direkt | `x_slide_inductive_endstop_adapter` | 1 | Fertigung spezifiziert |
+| [CAD-102](#cad-102) X-Achse Schlitten induktiv Endschalter Adapter gespiegelt | direkt | `x_slide_inductive_endstop_adapter_mirrored` | 1 | Fertigung spezifiziert |
 | [CAD-103](#cad-103) X-Achse Schlitten Versteifung Träger | direkt | `x_slide_stiffener_beam` | 1 | Fertigung noch offen |
-| [CAD-015](#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `y_belt_drive` | `base_nema_14_to_17_adapter` | 1 | Fertigung noch offen |
-| [CAD-021](#cad-021) Riemen Spanner GT2 Basis | `y_belt_drive` | `belt_tightener_GT2_base` | 1 | Fertigung noch offen |
-| [CAD-022](#cad-022) Riemen Spanner GT2 Flügel | `y_belt_drive` | `belt_tightener_GT2_wing` | 1 | Fertigung noch offen |
+| [CAD-015](#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `y_belt_drive` | `base_nema_14_to_17_adapter` | 1 | Fertigung spezifiziert |
+| [CAD-021](#cad-021) Riemen Spanner GT2 Basis | `y_belt_drive` | `belt_tightener_GT2_base` | 1 | Fertigung spezifiziert |
+| [CAD-022](#cad-022) Riemen Spanner GT2 Flügel | `y_belt_drive` | `belt_tightener_GT2_wing` | 1 | Fertigung spezifiziert |
 | [CAD-035](#cad-035) DIN 912 M3×10 | `y_belt_drive` | `din_912_m3x10` | 2 | bestellfähig; Plan gesamt 84 statt 76 |
 | [CAD-038](#cad-038) DIN 912 M3×16 | `y_belt_drive` | `din_912_m3x16` | 1 | bestellfähig; Plan gesamt 31 statt 28 |
 | [CAD-044](#cad-044) DIN 912 M4×20 | `y_belt_drive` | `din_912_m4x20` | 1 | bestellfähig; Plan gesamt 22 statt 20 |
@@ -269,8 +269,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-056](#cad-056) Sechskantmutter DIN 934 M3 A2 | `y_belt_drive` | `iso_8673_nut_m3` | 1 | bestellfähig; Plan gesamt 49 statt 44 |
 | [CAD-057](#cad-057) Sechskantmutter DIN 934 M4 A2 | `y_belt_drive` | `iso_8673_nut_m4` | 2 | bestellfähig; Plan gesamt 71 statt 64 |
 | [CAD-064](#cad-064) Nanotec ST4118M1804-A NEMA17 X/Y-Motor | `y_belt_drive` | `nanotec_nema_17_ST4118M1804-A` | 1 | bestellfähig; fehlt im Fusion-Import |
-| [CAD-077](#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `y_belt_drive` | `pulley_gt2_z16_6mm` | 1 | teilweise geklärt |
-| [CAD-078](#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `y_belt_drive` | `return_pulley_gt2_z16_6mm` | 1 | teilweise geklärt |
+| [CAD-077](#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `y_belt_drive` | `pulley_gt2_z16_6mm` | 1 | bestellfähig |
+| [CAD-078](#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `y_belt_drive` | `return_pulley_gt2_z16_6mm` | 1 | bestellfähig |
 | [CAD-104](#cad-104) GT2-Riemen Y, 6 mm breit | `y_belt_drive` | `y_belt` | 1 | bestellfähig |
 
 <a id="komp-06"></a>
@@ -279,8 +279,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
 | --- | --- | --- | --- | --- |
-| [CAD-001](#cad-001) Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung noch offen |
-| [CAD-002](#cad-002) Y-Riemenklemme, Deckel | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung noch offen |
+| [CAD-001](#cad-001) Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung spezifiziert |
+| [CAD-002](#cad-002) Y-Riemenklemme, Deckel | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung spezifiziert |
 | [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | bestellfähig; Plan gesamt 10 statt 8 |
 | [CAD-030](#cad-030) DIN 562 M4 Vierkantmutter | direkt | `din_562_m4_square_nut` | 3 | bestellfähig; Plan gesamt 14 statt 12 |
 | [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 4 | bestellfähig; Plan gesamt 84 statt 76 |
@@ -299,11 +299,11 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-076](#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm | direkt | `pulley_gt2_9mm` | 2 | teilweise geklärt |
 | [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | bestellfähig |
 | [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
-| [CAD-105](#cad-105) Y-Achse Kamera Halter | direkt | `y_camera_holder` | 1 | Fertigung noch offen |
-| [CAD-107](#cad-107) Y-Achse Schlitten | direkt | `y_slide` | 1 | Fertigung noch offen |
+| [CAD-105](#cad-105) Y-Achse Kamera Halter | direkt | `y_camera_holder` | 1 | Fertigung spezifiziert |
+| [CAD-107](#cad-107) Y-Achse Schlitten | direkt | `y_slide` | 1 | Fertigung spezifiziert |
 | [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung noch offen |
 | [CAD-109](#cad-109) Y-Achse Schlitten Abstand Rohr 2 mm | direkt | `y_slide_distance_tube_2mm` | 1 | Fertigung noch offen |
-| [CAD-112](#cad-112) Y-Achse Schlitten oben | direkt | `y_slide_top` | 1 | Fertigung noch offen |
+| [CAD-112](#cad-112) Y-Achse Schlitten oben | direkt | `y_slide_top` | 1 | Fertigung spezifiziert |
 | [CAD-113](#cad-113) GT2-Riemen Z, 9 mm breit | direkt | `z_drive_belt` | 1 | bestellfähig |
 
 <a id="komp-07"></a>
@@ -312,8 +312,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
 | --- | --- | --- | --- | --- |
-| [CAD-001](#cad-001) Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung noch offen |
-| [CAD-002](#cad-002) Y-Riemenklemme, Deckel | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung noch offen |
+| [CAD-001](#cad-001) Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung spezifiziert |
+| [CAD-002](#cad-002) Y-Riemenklemme, Deckel | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung spezifiziert |
 | [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | bestellfähig; Plan gesamt 10 statt 8 |
 | [CAD-030](#cad-030) DIN 562 M4 Vierkantmutter | direkt | `din_562_m4_square_nut` | 3 | bestellfähig; Plan gesamt 14 statt 12 |
 | [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 4 | bestellfähig; Plan gesamt 84 statt 76 |
@@ -332,11 +332,11 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-076](#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm | direkt | `pulley_gt2_9mm` | 2 | teilweise geklärt |
 | [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | bestellfähig |
 | [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
-| [CAD-105](#cad-105) Y-Achse Kamera Halter | direkt | `y_camera_holder` | 1 | Fertigung noch offen |
-| [CAD-107](#cad-107) Y-Achse Schlitten | direkt | `y_slide` | 1 | Fertigung noch offen |
+| [CAD-105](#cad-105) Y-Achse Kamera Halter | direkt | `y_camera_holder` | 1 | Fertigung spezifiziert |
+| [CAD-107](#cad-107) Y-Achse Schlitten | direkt | `y_slide` | 1 | Fertigung spezifiziert |
 | [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung noch offen |
 | [CAD-109](#cad-109) Y-Achse Schlitten Abstand Rohr 2 mm | direkt | `y_slide_distance_tube_2mm` | 1 | Fertigung noch offen |
-| [CAD-112](#cad-112) Y-Achse Schlitten oben | direkt | `y_slide_top` | 1 | Fertigung noch offen |
+| [CAD-112](#cad-112) Y-Achse Schlitten oben | direkt | `y_slide_top` | 1 | Fertigung spezifiziert |
 | [CAD-113](#cad-113) GT2-Riemen Z, 9 mm breit | direkt | `z_drive_belt` | 1 | bestellfähig |
 
 <a id="komp-08"></a>
@@ -345,8 +345,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
 | --- | --- | --- | --- | --- |
-| [CAD-001](#cad-001) Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung noch offen |
-| [CAD-002](#cad-002) Y-Riemenklemme, Deckel | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung noch offen |
+| [CAD-001](#cad-001) Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung spezifiziert |
+| [CAD-002](#cad-002) Y-Riemenklemme, Deckel | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung spezifiziert |
 | [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | bestellfähig; Plan gesamt 10 statt 8 |
 | [CAD-030](#cad-030) DIN 562 M4 Vierkantmutter | direkt | `din_562_m4_square_nut` | 3 | bestellfähig; Plan gesamt 14 statt 12 |
 | [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 4 | bestellfähig; Plan gesamt 84 statt 76 |
@@ -365,11 +365,11 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-076](#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm | direkt | `pulley_gt2_9mm` | 2 | teilweise geklärt |
 | [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | bestellfähig |
 | [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
-| [CAD-106](#cad-106) Y-Achse Kamera Halter kompakt | direkt | `y_camera_holder_compact` | 1 | Fertigung noch offen |
+| [CAD-106](#cad-106) Y-Achse Kamera Halter kompakt | direkt | `y_camera_holder_compact` | 1 | Fertigung spezifiziert |
 | [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung noch offen |
 | [CAD-109](#cad-109) Y-Achse Schlitten Abstand Rohr 2 mm | direkt | `y_slide_distance_tube_2mm` | 1 | Fertigung noch offen |
-| [CAD-110](#cad-110) Y-Achse Schlitten gespiegelt | direkt | `y_slide_mirrored` | 1 | Fertigung noch offen |
-| [CAD-111](#cad-111) Y-Achse Schlitten gespiegelt oben | direkt | `y_slide_mirrored_top` | 1 | Fertigung noch offen |
+| [CAD-110](#cad-110) Y-Achse Schlitten gespiegelt | direkt | `y_slide_mirrored` | 1 | Fertigung spezifiziert |
+| [CAD-111](#cad-111) Y-Achse Schlitten gespiegelt oben | direkt | `y_slide_mirrored_top` | 1 | Fertigung spezifiziert |
 | [CAD-113](#cad-113) GT2-Riemen Z, 9 mm breit | direkt | `z_drive_belt` | 1 | bestellfähig |
 
 <a id="komp-09"></a>
@@ -378,8 +378,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | Unterbaugruppe | CAD-Name | Stück | Status |
 | --- | --- | --- | --- | --- |
-| [CAD-001](#cad-001) Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung noch offen |
-| [CAD-002](#cad-002) Y-Riemenklemme, Deckel | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung noch offen |
+| [CAD-001](#cad-001) Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | direkt | `TR10x2_GT2_belt_adapter` | 1 | Fertigung spezifiziert |
+| [CAD-002](#cad-002) Y-Riemenklemme, Deckel | direkt | `TR10x2_GT2_belt_adapter_cover` | 1 | Fertigung spezifiziert |
 | [CAD-029](#cad-029) DIN 562 M3 Vierkantmutter | direkt | `din_562_m3_square_nut` | 1 | bestellfähig; Plan gesamt 10 statt 8 |
 | [CAD-030](#cad-030) DIN 562 M4 Vierkantmutter | direkt | `din_562_m4_square_nut` | 3 | bestellfähig; Plan gesamt 14 statt 12 |
 | [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 4 | bestellfähig; Plan gesamt 84 statt 76 |
@@ -398,11 +398,11 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-076](#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm | direkt | `pulley_gt2_9mm` | 2 | teilweise geklärt |
 | [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | bestellfähig |
 | [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
-| [CAD-106](#cad-106) Y-Achse Kamera Halter kompakt | direkt | `y_camera_holder_compact` | 1 | Fertigung noch offen |
+| [CAD-106](#cad-106) Y-Achse Kamera Halter kompakt | direkt | `y_camera_holder_compact` | 1 | Fertigung spezifiziert |
 | [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung noch offen |
 | [CAD-109](#cad-109) Y-Achse Schlitten Abstand Rohr 2 mm | direkt | `y_slide_distance_tube_2mm` | 1 | Fertigung noch offen |
-| [CAD-110](#cad-110) Y-Achse Schlitten gespiegelt | direkt | `y_slide_mirrored` | 1 | Fertigung noch offen |
-| [CAD-111](#cad-111) Y-Achse Schlitten gespiegelt oben | direkt | `y_slide_mirrored_top` | 1 | Fertigung noch offen |
+| [CAD-110](#cad-110) Y-Achse Schlitten gespiegelt | direkt | `y_slide_mirrored` | 1 | Fertigung spezifiziert |
+| [CAD-111](#cad-111) Y-Achse Schlitten gespiegelt oben | direkt | `y_slide_mirrored_top` | 1 | Fertigung spezifiziert |
 | [CAD-113](#cad-113) GT2-Riemen Z, 9 mm breit | direkt | `z_drive_belt` | 1 | bestellfähig |
 
 <a id="komp-10"></a>
@@ -416,9 +416,9 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-042](#cad-042) DIN 912 M3×8 | direkt | `din_912_m3x8` | 2 | bestellfähig; Plan gesamt 58 statt 52 |
 | [CAD-053](#cad-053) HIWIN MGNR12R150HM, Z-Schiene 150 mm | direkt | `hiwin_rail_MGNR12R150HM` | 1 | bestellfähig |
 | [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | direkt | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
-| [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung noch offen |
+| [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung spezifiziert |
 | [CAD-115](#cad-115) Federkontakt der Prüfspitze | direkt | `z_pogo_pin` | 1 | nicht identifiziert |
-| [CAD-116](#cad-116) Z-Achse Prüfspitze Platine Halter | direkt | `z_probe_tip_pcb_holder` | 1 | Fertigung noch offen |
+| [CAD-116](#cad-116) Z-Achse Prüfspitze Platine Halter | direkt | `z_probe_tip_pcb_holder` | 1 | Fertigung spezifiziert |
 | [CAD-119](#cad-119) Z-Achse Schlitten Endschalter Auslöser | direkt | `z_slide_end_stop_trigger.psm` | 1 | Fertigung noch offen |
 | [CAD-061](#cad-061) MMCX-Stecker gerade / Messleitung | `probe_tip` | `mmcx_male_end` | 2 | nicht identifiziert |
 | [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | `probe_tip` | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
@@ -436,9 +436,9 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-042](#cad-042) DIN 912 M3×8 | direkt | `din_912_m3x8` | 2 | bestellfähig; Plan gesamt 58 statt 52 |
 | [CAD-053](#cad-053) HIWIN MGNR12R150HM, Z-Schiene 150 mm | direkt | `hiwin_rail_MGNR12R150HM` | 1 | bestellfähig |
 | [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | direkt | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
-| [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung noch offen |
+| [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung spezifiziert |
 | [CAD-115](#cad-115) Federkontakt der Prüfspitze | direkt | `z_pogo_pin` | 1 | nicht identifiziert |
-| [CAD-116](#cad-116) Z-Achse Prüfspitze Platine Halter | direkt | `z_probe_tip_pcb_holder` | 1 | Fertigung noch offen |
+| [CAD-116](#cad-116) Z-Achse Prüfspitze Platine Halter | direkt | `z_probe_tip_pcb_holder` | 1 | Fertigung spezifiziert |
 | [CAD-119](#cad-119) Z-Achse Schlitten Endschalter Auslöser | direkt | `z_slide_end_stop_trigger.psm` | 1 | Fertigung noch offen |
 | [CAD-061](#cad-061) MMCX-Stecker gerade / Messleitung | `probe_tip` | `mmcx_male_end` | 2 | nicht identifiziert |
 | [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | `probe_tip` | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
@@ -455,10 +455,10 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 1 | bestellfähig; Plan gesamt 84 statt 76 |
 | [CAD-053](#cad-053) HIWIN MGNR12R150HM, Z-Schiene 150 mm | direkt | `hiwin_rail_MGNR12R150HM` | 1 | bestellfähig |
 | [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | direkt | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
-| [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung noch offen |
+| [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung spezifiziert |
 | [CAD-115](#cad-115) Federkontakt der Prüfspitze | direkt | `z_pogo_pin` | 1 | nicht identifiziert |
-| [CAD-117](#cad-117) Z-Achse Prüfspitze Platine Halter lang | direkt | `z_probe_tip_pcb_holder_long` | 1 | Fertigung noch offen |
-| [CAD-118](#cad-118) Z-Achse Schlitten Kabel Halter | direkt | `z_slide_cable_holder` | 2 | Fertigung noch offen |
+| [CAD-117](#cad-117) Z-Achse Prüfspitze Platine Halter lang | direkt | `z_probe_tip_pcb_holder_long` | 1 | Fertigung spezifiziert |
+| [CAD-118](#cad-118) Z-Achse Schlitten Kabel Halter | direkt | `z_slide_cable_holder` | 2 | Fertigung spezifiziert |
 | [CAD-120](#cad-120) Z-Achse Schlitten Endschalter Auslöser gespiegelt | direkt | `z_slide_end_stop_trigger_mirrored.psm` | 1 | Fertigung noch offen |
 | [CAD-062](#cad-062) MMCX-Stecker gewinkelt / Messleitung | `probe_tip_with_angle` | `mmcx_male_end_with_angle` | 2 | nicht identifiziert |
 | [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | `probe_tip_with_angle` | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
@@ -475,10 +475,10 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-035](#cad-035) DIN 912 M3×10 | direkt | `din_912_m3x10` | 1 | bestellfähig; Plan gesamt 84 statt 76 |
 | [CAD-053](#cad-053) HIWIN MGNR12R150HM, Z-Schiene 150 mm | direkt | `hiwin_rail_MGNR12R150HM` | 1 | bestellfähig |
 | [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | direkt | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
-| [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung noch offen |
+| [CAD-114](#cad-114) Z-Achse Antrieb Riemen Halter v 3 | direkt | `z_drive_belt_holder_v3` | 1 | Fertigung spezifiziert |
 | [CAD-115](#cad-115) Federkontakt der Prüfspitze | direkt | `z_pogo_pin` | 1 | nicht identifiziert |
-| [CAD-117](#cad-117) Z-Achse Prüfspitze Platine Halter lang | direkt | `z_probe_tip_pcb_holder_long` | 1 | Fertigung noch offen |
-| [CAD-118](#cad-118) Z-Achse Schlitten Kabel Halter | direkt | `z_slide_cable_holder` | 2 | Fertigung noch offen |
+| [CAD-117](#cad-117) Z-Achse Prüfspitze Platine Halter lang | direkt | `z_probe_tip_pcb_holder_long` | 1 | Fertigung spezifiziert |
+| [CAD-118](#cad-118) Z-Achse Schlitten Kabel Halter | direkt | `z_slide_cable_holder` | 2 | Fertigung spezifiziert |
 | [CAD-120](#cad-120) Z-Achse Schlitten Endschalter Auslöser gespiegelt | direkt | `z_slide_end_stop_trigger_mirrored.psm` | 1 | Fertigung noch offen |
 | [CAD-062](#cad-062) MMCX-Stecker gewinkelt / Messleitung | `probe_tip_with_angle` | `mmcx_male_end_with_angle` | 2 | nicht identifiziert |
 | [CAD-073](#cad-073) Prüfkontakt-Hülse P75-2 W | `probe_tip_with_angle` | `plug_sleeve_P75-2_W` | 1 | nicht identifiziert |
@@ -579,8 +579,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="cad-064"></a>**CAD-064** Nanotec ST4118M1804-A NEMA17 X/Y-Motor<br>`nanotec_nema_17_ST4118M1804-A` | 12 / 0 / **12 Stück** | bestellfähig | offen; nicht belegt | Originalmodell, aktuelle Nanotec-Serie: 1,8 A, 0,28 Nm, 38 mm, Welle Ø5×24, Litzen 300 mm mit JST XHP-4. 12 laut STEP (8 X + 4 Y), im Fusion-Import fehlend. Verfügbarkeit beim Hersteller anfragen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-014` |
 | <a id="cad-065"></a>**CAD-065** Optischer Endschalter 11×35 mm<br>`optical_endstop` | 4 / 4 / **4 Stück** | bestellfähig | 35.0 x 11.0 x 11.7; nicht belegt | RBS12901: 35×11 mm und Lochabstand 28 mm stimmen mit der Fusion-Messung überein. VCC/GND/SIG, 2,7–5 V, HIGH bei Unterbrechung. Pinfolge am SKR-Stecker vor dem Anschluss prüfen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-009` |
 | <a id="cad-076"></a>**CAD-076** GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm<br>`pulley_gt2_9mm` | 8 / 8 / **8 Stück** | teilweise geklärt | 11.0 x 18.0 x 18.0; nicht belegt | Fusion-Messung: je Z-Achse zwei Stück, eine koaxial auf der Ø5-Motorwelle (Antrieb), eine 108 mm entfernt (Umlenkung). Teilkreis Ø10,19 = GT2 Z16, Bordscheiben Ø18, Breite 11 mm. Exaktes Teil in DE/EU nicht gefunden; Kandidat RBS12867 (Ø13×19,5, für 10-mm-Riemen) braucht angepasste Halter.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-006` |
-| <a id="cad-077"></a>**CAD-077** GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm<br>`pulley_gt2_z16_6mm` | 12 / 12 / **12 Stück** | teilweise geklärt | 14.1 x 13.0 x 13.0; nicht belegt | 12 X/Y-Antriebe. RBS10278 laut Zeichnung: Bordscheibe Ø14, Höhe 14, Bohrung 5, 2× M3-Madenschraube. CAD Ø13×14,1: Bordscheibe 1 mm größer, Freigang prüfen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-004` |
-| <a id="cad-078"></a>**CAD-078** GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm<br>`return_pulley_gt2_z16_6mm` | 20 / 20 / **20 Stück** | teilweise geklärt | 8.5 x 13.0 x 13.0; nicht belegt | 20 Stück. DOLD 46132 (16-GT2-3): Ø13 und Bohrung 3 = CAD, Breite 9 statt 8,5 mm. Distanzierung um 0,5 mm prüfen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-005` |
+| <a id="cad-077"></a>**CAD-077** GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm<br>`pulley_gt2_z16_6mm` | 12 / 12 / **12 Stück** | bestellfähig | 14.1 x 13.0 x 13.0; nicht belegt | 12 X/Y-Antriebe. RBS10278: Bordscheibe Ø14 statt CAD Ø13; Fusion-Messung zeigt 4,6 mm Abstand zum nächsten Teil, passt.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-004` |
+| <a id="cad-078"></a>**CAD-078** GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm<br>`return_pulley_gt2_z16_6mm` | 20 / 20 / **20 Stück** | bestellfähig | 8.5 x 13.0 x 13.0; nicht belegt | 20 Stück. Tinytronics 002225: Bohrung 3, Ø13, Breite 8,5 mm = CAD exakt (Rollen sitzen paarweise ohne Luft zwischen den Spannerflügeln).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-005` |
 | <a id="cad-079"></a>**CAD-079** SHF10 Flanschhalter fürØ10 mm Welle<br>`rod_holder_flange_d10_dold` | 16 / 16 / **16 Stück** | bestellfähig | 10.0 x 24.0 x 43.0; nicht belegt | 16 Stück.43×24×10 mm undØ5,5-Befestigung stimmen mit DOLD11260 überein. Liefertermin 27.11.2026 angekündigt.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-003` |
 | <a id="cad-080"></a>**CAD-080** GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm<br>`rod_slide_d10_l19` | 16 / 16 / **16 Stück** | bestellfähig | 29.0 x 19.0 x 19.0; nicht belegt | igus RJ4JP-01-10: d 10, D 19, B 29, Nut Ø18 = CAD und Fusion-Messung. iglidur J4, LM10UU-Bauform.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-022` |
 | <a id="cad-081"></a>**CAD-081** Anschraubwinkel 30 / Nut 6<br>`screw_on_bracket_30_6` | 26 / 26 / **26 Stück** | bestellfähig | 28.0 x 28.0 x 28.0; nicht belegt | DOLD 62378 (I-Typ Nut 6) 28×28×28 = CAD; bestellt als Satz 62385-BS mit Schrauben und Nutensteinen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-C081` |
@@ -623,38 +623,38 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | CAD / Fusion / Plan | Status | Geometrie / Werkstoff | Quelle und konkreter Klärbedarf |
 | --- | --- | --- | --- | --- |
-| <a id="cad-001"></a>**CAD-001** Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter)<br>`TR10x2_GT2_belt_adapter` | 4 / 4 / **4 Stück** | Fertigung noch offen | 15.0 x 20.0 x 22.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-002"></a>**CAD-002** Y-Riemenklemme, Deckel<br>`TR10x2_GT2_belt_adapter_cover` | 4 / 4 / **4 Stück** | Fertigung noch offen | 7.0 x 20.0 x 20.494; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-004"></a>**CAD-004** Grundgestell: Kabel Halter M3 flach<br>`base_cable_holder_m3_flat` | 2 / 2 / **2 Stück** | Fertigung noch offen | 18.0 x 10.0 x 8.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-005"></a>**CAD-005** Grundgestell: Kabel Halter M4<br>`base_cable_holder_m4` | 1 / 1 / **1 Stück** | Fertigung noch offen | 18.0 x 12.0 x 10.5; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-006"></a>**CAD-006** Grundgestell: Kabel Halter M5 flach<br>`base_cable_holder_m5_flat` | 4 / 4 / **4 Stück** | Fertigung noch offen | 18.0 x 14.0 x 10.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-015"></a>**CAD-015** Grundgestell: NEMA 14 auf 17 Adapter<br>`base_nema_14_to_17_adapter` | 12 / 12 / **12 Stück** | Fertigung noch offen | 40.0 x 45.0 x 52.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-021"></a>**CAD-021** Riemen Spanner GT2 Basis<br>`belt_tightener_GT2_base` | 20 / 20 / **20 Stück** | Fertigung noch offen | 44.0 x 35.0 x 20.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-022"></a>**CAD-022** Riemen Spanner GT2 Flügel<br>`belt_tightener_GT2_wing` | 20 / 20 / **20 Stück** | Fertigung noch offen | 40.0 x 20.0 x 10.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-025"></a>**CAD-025** Kamera Halter<br>`camera_holder` | 1 / 1 / **1 Stück** | Fertigung noch offen | 37.0 x 42.0 x 19.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-067"></a>**CAD-067** Platine Halter Gleiter<br>`pcb_holder_glider` | 4 / 4 / **4 Stück** | Fertigung noch offen | 24.0 x 30.0 x 18.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-068"></a>**CAD-068** Platine Halter Führung Halter rund d 10<br>`pcb_holder_guiding_holder_round_d10` | 4 / 4 / **4 Stück** | Fertigung noch offen | 37.0 x 14.0 x 26.5; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-071"></a>**CAD-071** Platine Halter Stange kurz rund d 10<br>`pcb_holder_rod_short_round_d10` | 2 / 2 / **2 Stück** | Fertigung noch offen | 30.0 x 30.0 x 18.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-072"></a>**CAD-072** Platine Halter Stange kurz rund d 10 gespiegelt<br>`pcb_holder_rod_short_round_d10_mirrored` | 2 / 2 / **2 Stück** | Fertigung noch offen | 30.0 x 30.0 x 18.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-074"></a>**CAD-074** Stromversorgung Schalter Halter<br>`power_switch_holder` | 1 / 1 / **1 Stück** | Fertigung noch offen | 65.0 x 30.0 x 41.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-083"></a>**CAD-083** Signal-Multiplexer Halter<br>`signal_multiplexer_holder` | 1 / 1 / **1 Stück** | Fertigung noch offen | 117.0 x 103.0 x 45.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-088"></a>**CAD-088** X-Achse Riemen Halter<br>`x_belt_holder` | 4 / 4 / **4 Stück** | Fertigung noch offen | 47.0 x 20.0 x 44.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-089"></a>**CAD-089** X-Achse Riemen Halter 1<br>`x_belt_holder_1` | 12 / 12 / **12 Stück** | Fertigung noch offen | 35.0 x 20.0 x 44.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-090"></a>**CAD-090** X-Achse Schlepp Energiekette Adapter<br>`x_drag_chain_adapter` | 8 / 8 / **8 Stück** | Fertigung noch offen | 45.7 x 30.0 x 7.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-091"></a>**CAD-091** X-Achse Endschalter Halter Seite kurz<br>`x_end_stop_holder_side_short` | 4 / 4 / **4 Stück** | Fertigung noch offen | 12.0 x 68.5 x 12.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-092"></a>**CAD-092** X-Achse Endschalter Halter oben lang<br>`x_end_stop_holder_top_long` | 4 / 4 / **4 Stück** | Fertigung noch offen | 15.0 x 98.5 x 18.2; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-101"></a>**CAD-101** X-Achse Schlitten induktiv Endschalter Adapter<br>`x_slide_inductive_endstop_adapter` | 4 / 4 / **4 Stück** | Fertigung noch offen | 20.5 x 50.0 x 48.5; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-102"></a>**CAD-102** X-Achse Schlitten induktiv Endschalter Adapter gespiegelt<br>`x_slide_inductive_endstop_adapter_mirrored` | 4 / 4 / **4 Stück** | Fertigung noch offen | 20.5 x 50.0 x 48.5; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-105"></a>**CAD-105** Y-Achse Kamera Halter<br>`y_camera_holder` | 2 / 2 / **2 Stück** | Fertigung noch offen | 50.816 x 51.0 x 35.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-106"></a>**CAD-106** Y-Achse Kamera Halter kompakt<br>`y_camera_holder_compact` | 2 / 2 / **2 Stück** | Fertigung noch offen | 55.982 x 42.0 x 40.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-107"></a>**CAD-107** Y-Achse Schlitten<br>`y_slide` | 2 / 2 / **2 Stück** | Fertigung noch offen | 65.0 x 19.8 x 136.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-110"></a>**CAD-110** Y-Achse Schlitten gespiegelt<br>`y_slide_mirrored` | 2 / 2 / **2 Stück** | Fertigung noch offen | 65.0 x 19.8 x 136.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-111"></a>**CAD-111** Y-Achse Schlitten gespiegelt oben<br>`y_slide_mirrored_top` | 2 / 2 / **2 Stück** | Fertigung noch offen | 65.0 x 14.0 x 82.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-112"></a>**CAD-112** Y-Achse Schlitten oben<br>`y_slide_top` | 2 / 2 / **2 Stück** | Fertigung noch offen | 65.0 x 14.0 x 82.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-114"></a>**CAD-114** Z-Achse Antrieb Riemen Halter v 3<br>`z_drive_belt_holder_v3` | 4 / 4 / **4 Stück** | Fertigung noch offen | 35.0 x 15.0 x 35.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-116"></a>**CAD-116** Z-Achse Prüfspitze Platine Halter<br>`z_probe_tip_pcb_holder` | 2 / 2 / **2 Stück** | Fertigung noch offen | 79.382 x 16.0 x 12.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-117"></a>**CAD-117** Z-Achse Prüfspitze Platine Halter lang<br>`z_probe_tip_pcb_holder_long` | 2 / 2 / **2 Stück** | Fertigung noch offen | 103.413 x 16.0 x 55.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
-| <a id="cad-118"></a>**CAD-118** Z-Achse Schlitten Kabel Halter<br>`z_slide_cable_holder` | 4 / 4 / **4 Stück** | Fertigung noch offen | 16.0 x 8.0 x 10.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-001"></a>**CAD-001** Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter)<br>`TR10x2_GT2_belt_adapter` | 4 / 4 / **4 Stück** | Fertigung spezifiziert | 15.0 x 20.0 x 22.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-002"></a>**CAD-002** Y-Riemenklemme, Deckel<br>`TR10x2_GT2_belt_adapter_cover` | 4 / 4 / **4 Stück** | Fertigung spezifiziert | 7.0 x 20.0 x 20.494; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-004"></a>**CAD-004** Grundgestell: Kabel Halter M3 flach<br>`base_cable_holder_m3_flat` | 2 / 2 / **2 Stück** | Fertigung spezifiziert | 18.0 x 10.0 x 8.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-005"></a>**CAD-005** Grundgestell: Kabel Halter M4<br>`base_cable_holder_m4` | 1 / 1 / **1 Stück** | Fertigung spezifiziert | 18.0 x 12.0 x 10.5; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-006"></a>**CAD-006** Grundgestell: Kabel Halter M5 flach<br>`base_cable_holder_m5_flat` | 4 / 4 / **4 Stück** | Fertigung spezifiziert | 18.0 x 14.0 x 10.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-015"></a>**CAD-015** Grundgestell: NEMA 14 auf 17 Adapter<br>`base_nema_14_to_17_adapter` | 12 / 12 / **12 Stück** | Fertigung spezifiziert | 40.0 x 45.0 x 52.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-021"></a>**CAD-021** Riemen Spanner GT2 Basis<br>`belt_tightener_GT2_base` | 20 / 20 / **20 Stück** | Fertigung spezifiziert | 44.0 x 35.0 x 20.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-022"></a>**CAD-022** Riemen Spanner GT2 Flügel<br>`belt_tightener_GT2_wing` | 20 / 20 / **20 Stück** | Fertigung spezifiziert | 40.0 x 20.0 x 10.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-025"></a>**CAD-025** Kamera Halter<br>`camera_holder` | 1 / 1 / **1 Stück** | Fertigung spezifiziert | 37.0 x 42.0 x 19.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-067"></a>**CAD-067** Platine Halter Gleiter<br>`pcb_holder_glider` | 4 / 4 / **4 Stück** | Fertigung spezifiziert | 24.0 x 30.0 x 18.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-068"></a>**CAD-068** Platine Halter Führung Halter rund d 10<br>`pcb_holder_guiding_holder_round_d10` | 4 / 4 / **4 Stück** | Fertigung spezifiziert | 37.0 x 14.0 x 26.5; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-071"></a>**CAD-071** Platine Halter Stange kurz rund d 10<br>`pcb_holder_rod_short_round_d10` | 2 / 2 / **2 Stück** | Fertigung spezifiziert | 30.0 x 30.0 x 18.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-072"></a>**CAD-072** Platine Halter Stange kurz rund d 10 gespiegelt<br>`pcb_holder_rod_short_round_d10_mirrored` | 2 / 2 / **2 Stück** | Fertigung spezifiziert | 30.0 x 30.0 x 18.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-074"></a>**CAD-074** Stromversorgung Schalter Halter<br>`power_switch_holder` | 1 / 1 / **1 Stück** | Fertigung spezifiziert | 65.0 x 30.0 x 41.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-083"></a>**CAD-083** Signal-Multiplexer Halter<br>`signal_multiplexer_holder` | 1 / 1 / **1 Stück** | Fertigung spezifiziert | 117.0 x 103.0 x 45.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-088"></a>**CAD-088** X-Achse Riemen Halter<br>`x_belt_holder` | 4 / 4 / **4 Stück** | Fertigung spezifiziert | 47.0 x 20.0 x 44.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-089"></a>**CAD-089** X-Achse Riemen Halter 1<br>`x_belt_holder_1` | 12 / 12 / **12 Stück** | Fertigung spezifiziert | 35.0 x 20.0 x 44.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-090"></a>**CAD-090** X-Achse Schlepp Energiekette Adapter<br>`x_drag_chain_adapter` | 8 / 8 / **8 Stück** | Fertigung spezifiziert | 45.7 x 30.0 x 7.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-091"></a>**CAD-091** X-Achse Endschalter Halter Seite kurz<br>`x_end_stop_holder_side_short` | 4 / 4 / **4 Stück** | Fertigung spezifiziert | 12.0 x 68.5 x 12.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-092"></a>**CAD-092** X-Achse Endschalter Halter oben lang<br>`x_end_stop_holder_top_long` | 4 / 4 / **4 Stück** | Fertigung spezifiziert | 15.0 x 98.5 x 18.2; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-101"></a>**CAD-101** X-Achse Schlitten induktiv Endschalter Adapter<br>`x_slide_inductive_endstop_adapter` | 4 / 4 / **4 Stück** | Fertigung spezifiziert | 20.5 x 50.0 x 48.5; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-102"></a>**CAD-102** X-Achse Schlitten induktiv Endschalter Adapter gespiegelt<br>`x_slide_inductive_endstop_adapter_mirrored` | 4 / 4 / **4 Stück** | Fertigung spezifiziert | 20.5 x 50.0 x 48.5; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-105"></a>**CAD-105** Y-Achse Kamera Halter<br>`y_camera_holder` | 2 / 2 / **2 Stück** | Fertigung spezifiziert | 50.816 x 51.0 x 35.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-106"></a>**CAD-106** Y-Achse Kamera Halter kompakt<br>`y_camera_holder_compact` | 2 / 2 / **2 Stück** | Fertigung spezifiziert | 55.982 x 42.0 x 40.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-107"></a>**CAD-107** Y-Achse Schlitten<br>`y_slide` | 2 / 2 / **2 Stück** | Fertigung spezifiziert | 65.0 x 19.8 x 136.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-110"></a>**CAD-110** Y-Achse Schlitten gespiegelt<br>`y_slide_mirrored` | 2 / 2 / **2 Stück** | Fertigung spezifiziert | 65.0 x 19.8 x 136.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-111"></a>**CAD-111** Y-Achse Schlitten gespiegelt oben<br>`y_slide_mirrored_top` | 2 / 2 / **2 Stück** | Fertigung spezifiziert | 65.0 x 14.0 x 82.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-112"></a>**CAD-112** Y-Achse Schlitten oben<br>`y_slide_top` | 2 / 2 / **2 Stück** | Fertigung spezifiziert | 65.0 x 14.0 x 82.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-114"></a>**CAD-114** Z-Achse Antrieb Riemen Halter v 3<br>`z_drive_belt_holder_v3` | 4 / 4 / **4 Stück** | Fertigung spezifiziert | 35.0 x 15.0 x 35.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-116"></a>**CAD-116** Z-Achse Prüfspitze Platine Halter<br>`z_probe_tip_pcb_holder` | 2 / 2 / **2 Stück** | Fertigung spezifiziert | 79.382 x 16.0 x 12.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-117"></a>**CAD-117** Z-Achse Prüfspitze Platine Halter lang<br>`z_probe_tip_pcb_holder_long` | 2 / 2 / **2 Stück** | Fertigung spezifiziert | 103.413 x 16.0 x 55.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="cad-118"></a>**CAD-118** Z-Achse Schlitten Kabel Halter<br>`z_slide_cable_holder` | 4 / 4 / **4 Stück** | Fertigung spezifiziert | 16.0 x 8.0 x 10.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
 | <a id="sys-004"></a>**SYS-004** Kalibrier-Referenzkörper / Platte | – / – / **1 Stück** | Fertigung noch offen | offen; nicht belegt | Geometrie mit aktueller Software festlegen; Plattendicke 5,1 mm ist Konfigurationswert, keine validierte Zeichnung.<br>[Beleg](../software/hardware-control/proboter/cli.py); Kostenzeile `MAT-001` |
 
 ## Blech intern
@@ -665,12 +665,16 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="cad-007"></a>**CAD-007** Grundgestell: Abdeckung lang Seite<br>`base_cover_long_side` | 2 / 2 / **2 Stück** | Fertigung noch offen | 660.0 x 5.0 x 135.5; Stahl S235 vorgeschlagen; Abdeckungen alternativ Alublech, nicht freigegeben | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
 | <a id="cad-008"></a>**CAD-008** Grundgestell: Abdeckung oben<br>`base_cover_top` | 2 / 2 / **2 Stück** | Fertigung noch offen | 656.0 x 5.0 x 182.5; Stahl S235 vorgeschlagen; Abdeckungen alternativ Alublech, nicht freigegeben | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
 | <a id="cad-009"></a>**CAD-009** Grundgestell: Schlepp Energiekette Halter<br>`base_drag_chain_holder` | 4 / 4 / **4 Stück** | Fertigung noch offen | 80.0 x 650.0 x 16.0; Stahl S235 vorgeschlagen; Abdeckungen alternativ Alublech, nicht freigegeben | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
+| <a id="cad-016"></a>**CAD-016** Grundgestell: Platte Adapter 1<br>`base_plate_adapter_1` | 2 / 2 / **2 Stück** | Fertigung noch offen | 130.4 x 10.0 x 91.0; Stahl- oder Aluminiumblech, Werkstattentscheidung | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
+| <a id="cad-017"></a>**CAD-017** Grundgestell: Platte Adapter 2<br>`base_plate_adapter_2` | 2 / 2 / **2 Stück** | Fertigung noch offen | 130.5 x 10.0 x 91.0; Stahl- oder Aluminiumblech, Werkstattentscheidung | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
+| <a id="cad-018"></a>**CAD-018** Grundgestell: Platte Adapter links<br>`base_plate_adapter_left` | 2 / 2 / **2 Stück** | Fertigung noch offen | 162.0 x 10.0 x 67.079; Stahl- oder Aluminiumblech, Werkstattentscheidung | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
+| <a id="cad-019"></a>**CAD-019** Grundgestell: Platte Adapter rechts<br>`base_plate_adapter_right` | 2 / 2 / **2 Stück** | Fertigung noch offen | 162.0 x 10.0 x 67.079; Stahl- oder Aluminiumblech, Werkstattentscheidung | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
 | <a id="cad-024"></a>**CAD-024** Kabel Abdeckung<br>`cable_cover` | 4 / 4 / **4 Stück** | Fertigung noch offen | 22.0 x 58.0 x 3.0; Stahl S235 vorgeschlagen; Abdeckungen alternativ Alublech, nicht freigegeben | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
 | <a id="cad-026"></a>**CAD-026** Kamera Halter oben<br>`camera_holder_top` | 1 / 1 / **1 Stück** | Fertigung noch offen | 104.0 x 56.63 x 5.0; Stahl S235 vorgeschlagen; Abdeckungen alternativ Alublech, nicht freigegeben | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
 | <a id="cad-096"></a>**CAD-096** X-Achse Motor Platte<br>`x_motor_plate` | 1 / 1 / **1 Stück** | Fertigung noch offen | 550.0 x 5.0 x 135.0; Stahl- oder Aluminiumblech 5 mm, Werkstattentscheidung | 5 mm Stahl, 550×135 mm. Fusion-Messung: 16 Kernlöcher Ø2,46 für M3-Gewinde (Riemenspanner), Senkungen für M6 und Ø22-Durchbrüche für die Motoren. Kontur und Bohrungen aus CAD; Gewinde und Senkungen intern. Zeichnung mit Lagetoleranzen der Führungsbohrungen fehlt.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
 | <a id="cad-097"></a>**CAD-097** X-Achse Motor Platte 2<br>`x_motor_plate_2` | 1 / 1 / **1 Stück** | Fertigung noch offen | 550.0 x 5.0 x 135.0; Stahl- oder Aluminiumblech 5 mm, Werkstattentscheidung | 5 mm Stahl, 550×135 mm. Fusion-Messung: 16 Kernlöcher Ø2,46 für M3-Gewinde (Riemenspanner), Senkungen für M6 und Ø22-Durchbrüche für die Motoren. Kontur und Bohrungen aus CAD; Gewinde und Senkungen intern. Zeichnung mit Lagetoleranzen der Führungsbohrungen fehlt.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
-| <a id="cad-099"></a>**CAD-099** X-Achse Seite Platte<br>`x_side_plate` | 4 / 4 / **4 Stück** | Fertigung noch offen | 55.0 x 5.0 x 166.5; Werkstoff nicht eindeutig belegt; S235 vorgeschlagen | 5 mm geometrische Dicke; Kontur und Bohrungen aus CAD, Gewinde/Senkungen und Bezugs-/Lagetoleranzen fehlen. Entgraten vor Montage.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
-| <a id="cad-100"></a>**CAD-100** X-Achse Seite Platte beweglich<br>`x_side_plate_moving` | 4 / 4 / **4 Stück** | Fertigung noch offen | 55.0 x 5.0 x 166.5; Werkstoff nicht eindeutig belegt; S235 vorgeschlagen | 5 mm geometrische Dicke; Kontur und Bohrungen aus CAD, Gewinde/Senkungen und Bezugs-/Lagetoleranzen fehlen. Entgraten vor Montage.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
+| <a id="cad-099"></a>**CAD-099** X-Achse Seite Platte<br>`x_side_plate` | 4 / 4 / **4 Stück** | Fertigung noch offen | 55.0 x 5.0 x 166.5; Stahl- oder Aluminiumblech, Werkstattentscheidung | 5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten. Zeichnung aus CAD ableiten.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
+| <a id="cad-100"></a>**CAD-100** X-Achse Seite Platte beweglich<br>`x_side_plate_moving` | 4 / 4 / **4 Stück** | Fertigung noch offen | 55.0 x 5.0 x 166.5; Stahl- oder Aluminiumblech, Werkstattentscheidung | 5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten. Zeichnung aus CAD ableiten.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
 | <a id="cad-119"></a>**CAD-119** Z-Achse Schlitten Endschalter Auslöser<br>`z_slide_end_stop_trigger.psm` | 2 / 2 / **2 Stück** | Fertigung noch offen | 9.05 x 22.5 x 15.0; Stahl S235 vorgeschlagen; Abdeckungen alternativ Alublech, nicht freigegeben | CAD .psm und dünner Körper sprechen für Blech; Dicke, Biegung und Sensor-Triggerwirkung nachweisen. Hüllmaß ist keine Abwicklung.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
 | <a id="cad-120"></a>**CAD-120** Z-Achse Schlitten Endschalter Auslöser gespiegelt<br>`z_slide_end_stop_trigger_mirrored.psm` | 2 / 2 / **2 Stück** | Fertigung noch offen | 9.05 x 22.5 x 15.0; Stahl S235 vorgeschlagen; Abdeckungen alternativ Alublech, nicht freigegeben | CAD .psm und dünner Körper sprechen für Blech; Dicke, Biegung und Sensor-Triggerwirkung nachweisen. Hüllmaß ist keine Abwicklung.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
 
@@ -678,10 +682,6 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | CAD / Fusion / Plan | Status | Geometrie / Werkstoff | Quelle und konkreter Klärbedarf |
 | --- | --- | --- | --- | --- |
-| <a id="cad-016"></a>**CAD-016** Grundgestell: Platte Adapter 1<br>`base_plate_adapter_1` | 2 / 2 / **2 Stück** | Fertigung noch offen | 130.4 x 10.0 x 91.0; EN AW-6082 T6 vorgeschlagen | PRÜFEN: Verfahren ungeklärt. Fusion-Messung zeigt 10 mm Platten mit Stufen auf 5 mm Tiefe und 90°-Senkungen; möglicherweise Kauf-Adapterplatten oder zwei 5-mm-Laserteile statt CNC. Material, Lochtabelle und Passungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `FAB-001` |
-| <a id="cad-017"></a>**CAD-017** Grundgestell: Platte Adapter 2<br>`base_plate_adapter_2` | 2 / 2 / **2 Stück** | Fertigung noch offen | 130.5 x 10.0 x 91.0; EN AW-6082 T6 vorgeschlagen | PRÜFEN: Verfahren ungeklärt. Fusion-Messung zeigt 10 mm Platten mit Stufen auf 5 mm Tiefe und 90°-Senkungen; möglicherweise Kauf-Adapterplatten oder zwei 5-mm-Laserteile statt CNC. Material, Lochtabelle und Passungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `FAB-001` |
-| <a id="cad-018"></a>**CAD-018** Grundgestell: Platte Adapter links<br>`base_plate_adapter_left` | 2 / 2 / **2 Stück** | Fertigung noch offen | 162.0 x 10.0 x 67.079; EN AW-6082 T6 vorgeschlagen | PRÜFEN: Verfahren ungeklärt. Fusion-Messung zeigt 10 mm Platten mit Stufen auf 5 mm Tiefe und 90°-Senkungen; möglicherweise Kauf-Adapterplatten oder zwei 5-mm-Laserteile statt CNC. Material, Lochtabelle und Passungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `FAB-001` |
-| <a id="cad-019"></a>**CAD-019** Grundgestell: Platte Adapter rechts<br>`base_plate_adapter_right` | 2 / 2 / **2 Stück** | Fertigung noch offen | 162.0 x 10.0 x 67.079; EN AW-6082 T6 vorgeschlagen | PRÜFEN: Verfahren ungeklärt. Fusion-Messung zeigt 10 mm Platten mit Stufen auf 5 mm Tiefe und 90°-Senkungen; möglicherweise Kauf-Adapterplatten oder zwei 5-mm-Laserteile statt CNC. Material, Lochtabelle und Passungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `FAB-001` |
 
 ## Weitere Fertigung
 
@@ -692,12 +692,12 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="cad-013"></a>**CAD-013** Grundgestell: Rahmen kurz<br>`base_frame_short` | 8 / 8 / **8 Stück** | bestellfähig | 30.0 x 350.0 x 30.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-002` |
 | <a id="cad-014"></a>**CAD-014** Grundgestell: Rahmen Seite<br>`base_frame_side` | 2 / 2 / **2 Stück** | bestellfähig | 30.0 x 650.0 x 60.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-003` |
 | <a id="cad-020"></a>**CAD-020** Grundgestell: vertikal<br>`base_vertical` | 4 / 4 / **4 Stück** | bestellfähig | 30.0 x 350.0 x 30.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD (4×350 mm). Unten M6-Gewinde in die Kernbohrung Ø5 für die Gelenkfüße, intern schneiden (Entscheidung 17.10.2026). Profilserie siehe M01.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-002` |
-| <a id="cad-069"></a>**CAD-069** Platine Halter Führung rund<br>`pcb_holder_guiding_round` | 2 / 2 / **2 Stück** | Fertigung noch offen | 10.0 x 356.8 x 10.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-004` |
+| <a id="cad-069"></a>**CAD-069** Platine Halter Führung rund<br>`pcb_holder_guiding_round` | 2 / 2 / **2 Stück** | bestellfähig | 10.0 x 356.8 x 10.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-004` |
 | <a id="cad-070"></a>**CAD-070** Platine Halter rechteckig Stange<br>`pcb_holder_rect_rod` | 2 / 2 / **2 Stück** | Fertigung noch offen | 11.5 x 205.0 x 11.5; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-005` |
 | <a id="cad-093"></a>**CAD-093** X-Achse Endschalter oben lang<br>`x_end_stop_top_long` | 4 / 4 / **4 Stück** | Fertigung noch offen | 125.0 x 8.0 x 8.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-005` |
 | <a id="cad-094"></a>**CAD-094** X-Achse Endschalter oben kurz<br>`x_end_stop_top_short` | 4 / 4 / **4 Stück** | Fertigung noch offen | 75.0 x 8.0 x 8.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-005` |
-| <a id="cad-098"></a>**CAD-098** X-Achse rund Schiene<br>`x_round_rail` | 8 / 8 / **8 Stück** | Fertigung noch offen | 10.0 x 450.0 x 10.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-004` |
-| <a id="cad-103"></a>**CAD-103** X-Achse Schlitten Versteifung Träger<br>`x_slide_stiffener_beam` | 4 / 4 / **4 Stück** | Fertigung noch offen | 40.0 x 436.0 x 16.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-005` |
+| <a id="cad-098"></a>**CAD-098** X-Achse rund Schiene<br>`x_round_rail` | 8 / 8 / **8 Stück** | bestellfähig | 10.0 x 450.0 x 10.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-004` |
+| <a id="cad-103"></a>**CAD-103** X-Achse Schlitten Versteifung Träger<br>`x_slide_stiffener_beam` | 4 / 4 / **4 Stück** | Fertigung noch offen | 40.0 x 436.0 x 16.0; je Teil vorgeschlagen, siehe Fertigung.md | Profil 16×40, 436 mm, CAD-Querschnitt 446 mm², Kernbohrungen Ø2,46/Ø5. Kein passendes Nut-5-Profil gefunden (Recherche 17.10.2026); Kandidat norelem 16×40 Typ I hat Nut 8. Profil identifizieren.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-005` |
 | <a id="cad-108"></a>**CAD-108** Y-Achse Schlitten Abstand Stange<br>`y_slide_distance_rod` | 8 / 8 / **8 Stück** | Fertigung noch offen | 4.0 x 70.0 x 4.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-005` |
 | <a id="cad-109"></a>**CAD-109** Y-Achse Schlitten Abstand Rohr 2 mm<br>`y_slide_distance_tube_2mm` | 4 / 4 / **4 Stück** | Fertigung noch offen | 3.0 x 10.0 x 10.0; je Teil vorgeschlagen, siehe Fertigung.md | Name nennt 2 mm, CAD zeigt 3 mm Dicke. Innendurchmesser, Material und benötigte Distanz vor Fertigung klären.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-005` |
 | <a id="sys-005"></a>**SYS-005** Innere Messing-Referenzzylinder | – / – / **4 Stück** | Fertigung noch offen | offen; nicht belegt | Je 1×Ø7/8/9/10 mm nach Reference Board.inner_brass_pin_position_map; Raster 11,95×19,95 mm. Endfläche auf Bezugsebene; Gesamtlänge, Einbau, Toleranzen und Messprotokoll fehlen.<br>[Beleg](../software/hardware-control/proboter/tasks/utils/reference_board.py); Kostenzeile `OPEN-SYS-005` |

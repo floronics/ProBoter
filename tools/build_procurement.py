@@ -44,6 +44,7 @@ SUPPLIER_URL = {
     'MOTEDIS': 'https://www.motedis.com/de/',
     'DAMEN': 'https://www.damencnc.com/',
     'DIGIKEY': 'https://www.digikey.de/',
+    'TINYTRONICS': 'https://www.tinytronics.nl/',
     'OFFEN': '',
 }
 
@@ -100,8 +101,9 @@ def ids(*numbers):
     return [f'CAD-{n:03}' for n in numbers]
 
 # Routing decisions. These are proposals unless the part's evidence says otherwise.
-SHEET = ids(3,7,8,9,24,26,96,97,99,100,119,120)
-CNC = ids(16,17,18,19)
+SHEET = ids(3,16,17,18,19,7,8,9,24,26,96,97,99,100,119,120)
+CNC = []  # adapter plates moved to the workshop (decision 17.10.2026)
+WORKSHOP = ids(3,16,17,18,19,96,97,99,100)
 STOCK = ids(11,12,13,14,20,69,70,93,94,98,103,108,109)
 PCB = ids(75)
 UNIDENTIFIED = ids(10,55,61,62,73,86,115)
@@ -137,8 +139,8 @@ DETAIL = {
 73: ('Prüfkontakt-Hülse P75-2 W', '8 Stück, CADØ1,2×25,4mm. Hersteller und passender FederkontaktCAD-115 unklar; Kontaktpaar vollständig spezifizieren.', 'TME'),
 75: ('Prüfspitzen-PCB, unbestückt', '4 Stück;26,67×10,96×1,6mm Hülle. Schaltplan, Kupfer, Bohrungen, Gerber und Bestückungsdaten fehlen. Bestückung SYS-024 separat.', 'BETA'),
 76: ('GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm', 'Fusion-Messung: je Z-Achse zwei Stück, eine koaxial auf der Ø5-Motorwelle (Antrieb), eine 108 mm entfernt (Umlenkung). Teilkreis Ø10,19 = GT2 Z16, Bordscheiben Ø18, Breite 11 mm. Exaktes Teil in DE/EU nicht gefunden; Kandidat RBS12867 (Ø13×19,5, für 10-mm-Riemen) braucht angepasste Halter.', 'RBS'),
-77: ('GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm', '12 X/Y-Antriebe. RBS10278 laut Zeichnung: Bordscheibe Ø14, Höhe 14, Bohrung 5, 2× M3-Madenschraube. CAD Ø13×14,1: Bordscheibe 1 mm größer, Freigang prüfen.', 'RBS'),
-78: ('GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm', '20 Stück. DOLD 46132 (16-GT2-3): Ø13 und Bohrung 3 = CAD, Breite 9 statt 8,5 mm. Distanzierung um 0,5 mm prüfen.', 'DOLD'),
+77: ('GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm', '12 X/Y-Antriebe. RBS10278: Bordscheibe Ø14 statt CAD Ø13; Fusion-Messung zeigt 4,6 mm Abstand zum nächsten Teil, passt.', 'RBS'),
+78: ('GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm', '20 Stück. Tinytronics 002225: Bohrung 3, Ø13, Breite 8,5 mm = CAD exakt (Rollen sitzen paarweise ohne Luft zwischen den Spannerflügeln).', 'TINYTRONICS'),
 79: ('SHF10 Flanschhalter fürØ10mm Welle', '16 Stück.43×24×10mm undØ5,5-Befestigung stimmen mitDOLD11260 überein. Liefertermin27.11.2026 angekündigt.', 'DOLD'),
 80: ('Lineargleitbuchse Ø10 innen / Ø19 außen / Länge 29 mm', 'igus RJ4JP-01-10: d 10, D 19, B 29, Nut Ø18 = CAD und Fusion-Messung. iglidur J4, LM10UU-Bauform.', 'DOLD'),
 81: ('Anschraubwinkel 30 / Nut 6', 'DOLD 62378 (I-Typ Nut 6) 28×28×28 = CAD; bestellt als Satz 62385-BS mit Schrauben und Nutensteinen.', 'DOLD'),
@@ -265,12 +267,21 @@ def make_parts():
         if key=='CAD-063': quantity=4
         if key=='CAD-085': quantity=1
         if key in EXCLUDED: quantity=0
-        if key in ids(11,12,13,14,20,27,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
+        if key in ids(11,12,13,14,20,27,69,77,78,98,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
         if key=='CAD-080': title='GleitbuchseØ10 innen / Ø19 außen / Länge29mm'
         if key=='CAD-001': title='Y-Riemenklemme (CAD-Name TR10x2 GT2 Adapter)'
         if key=='CAD-002': title='Y-Riemenklemme, Deckel'
         if key=='CAD-010':
             note='Schubladen-Dummy564×410×12mm: unklar, ob reale Platte benötigt und welches Material. Nicht stillschweigend ausschließen oder aus Stahl fertigen.'
+        if group=='3D-Druck intern':
+            status='Fertigung spezifiziert'
+            process_evidence='3D-Druck intern, PETG, Geometrie als STL aus dem CAD (Entscheidung Luis 17.10.2026)'
+        if key in ids(16,17,18,19,99,100):
+            material='Stahl- oder Aluminiumblech, Werkstattentscheidung'
+            process_evidence='WERKSTATT: eigene Fertigung (Entscheidung Luis 17.10.2026)'
+            note=('10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten.' if key in ids(16,17,18,19) else '5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten.')+' Zeichnung aus CAD ableiten.'
+        if key=='CAD-103':
+            note='Profil 16×40, 436 mm, CAD-Querschnitt 446 mm², Kernbohrungen Ø2,46/Ø5. Kein passendes Nut-5-Profil gefunden (Recherche 17.10.2026); Kandidat norelem 16×40 Typ I hat Nut 8. Profil identifizieren.'
         if key=='CAD-003':
             material='Aluminium 3 mm (Entscheidung 17.10.2026), z. B. EN AW-5754'
             process_evidence='WERKSTATT: eigene Fertigung aus Blech oder Aluminium (Entscheidung Luis 17.10.2026)'
@@ -346,7 +357,7 @@ def make_orders(parts):
     add('BUY-002','16TMC2130 aus4Viererpacks',['SYS-001'],16,offer='O-002')
     add('BUY-003','16FlanschhalterSHF10',ids(79),16,offer='O-003')
     add('BUY-004','12X/Y-Antriebsriemenscheiben',ids(77),12,offer='O-004')
-    add('BUY-005','20Umlenkrollen6mm',ids(78),20,offer='O-005')
+    add('BUY-005','20 Umlenkrollen 6 mm, 8,5 mm breit',ids(78),20,offer='O-063')
     add('BUY-006','8Umlenkrollen9mm, Kandidat',ids(76),8,offer='O-006')
     add('BUY-007','X/Y-Riemen6mm,2Rollen à10m',ids(87,104),20,unit='m',offer='O-007',note='Zuschnitt aus Fusion-Messung: 8×1,51 m + 4×1,10 m = 16,5 m inklusive Klemmzugabe; zwei 10-m-Rollen decken den Bedarf.')
     add('BUY-008','Kurze Energieketten, 192 Glieder',ids(49),192,unit='Glied',offer='O-008',note='16 Abschnitte à 12 Glieder (0,24 m).')
@@ -388,10 +399,9 @@ def make_orders(parts):
     profiles=ids(11,12,13,20)
     add('MAT-002','30×30 Nut 6 Aluprofil, Zuschnitt-Los',profiles,1,unit='Los',offer='O-058')
     add('MAT-003','60×30 Nut 6 Aluprofil schwer, Zuschnitt',ids(14),1,unit='Los',offer='O-059')
-    add('MAT-004','PräzisionswellenØ10 inklusiveZuschnitt',ids(69,98),5,unit='m',estimate='25',note='CF53h6 vorgeschlagen;8×450+2×356,8=4,3136m netto.5mBudget à25EUR brutto; Schnittverteilung, Härte und Buchsenpaarung prüfen.')
+    add('MAT-004','Präzisionswellen Ø10, Zuschnitt-Los',ids(69,98),1,unit='Los',offer='O-064')
     add('MAT-005','Versteifungsprofile40×16 undHalte-/Distanzstäbe',ids(70,93,94,103,108,109),1,unit='Los',estimate='100',note='Eigenes100EUR-Bruttobudget fürProfile4×436mm, Rechteck2×205mm, Ø8Trigger4×125+4×75mm, Ø4Stäbe8×70mm und4Distanzteile. Material/Profile noch klären.')
     add('MAT-006','Blechrohmaterial undVerschnitt',[p['id'] for p in parts if p['group']=='Blech intern'],1,unit='Los',estimate='200',note='Eigener200EUR-Bruttobudgettopf für3/5mmPlatten und noch nicht abgewickelteTeile. Kein Händlerangebot; Material/Flachzuschnitte noch nicht bestellfähig. InterneArbeits-/Maschinenzeit ausgeschlossen.')
-    add('FAB-001','8AdapterplattenCNC extern',CNC,8,estimate='100',basis='net',supplier='XOMETRY',note='Eigene grobe Schätzung100EUR netto/Teil inklusiveRohmaterial. Kein Fertigungsangebot, kein Material zusätzlich kalkulieren. Zeichnungen undEU-Fertigungsort offen.')
     for key,amount in [('008','30'),('011','20'),('012','15'),('013','15'),('014','64'),('015','25'),('018','60'),('020','35'),('021','15'),('022','60'),('025','20'),('029','35'),('030','20'),('031','35'),('032','30')]:
         p=byid['SYS-'+key]
         add('BUD-S'+key,p['name'],[p['id']],1,unit='Los',estimate=amount,note='Eigener Gesamt-Budgetansatz fürden inTeileliste genanntenBedarf; kein konkretesArtikelangebot. Beipack undvorhandeneBestände abziehen.')

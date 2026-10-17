@@ -5,13 +5,13 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | Modul | Positionen | Stück | bestellfähig | teilweise geklärt | Fertigung noch offen | Fertigung spezifiziert | nicht identifiziert | nicht benötigt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [M01 Grundgerüst](#modul-01) | 13 | 70 | 10 | 0 | 3 | 0 | 0 | 0 |
-| [M02 X-Achse](#modul-02) | 33 | 434 | 18 | 2 | 13 | 0 | 0 | 0 |
-| [M03 Y-Achse](#modul-03) | 27 | 168 | 15 | 2 | 10 | 0 | 0 | 0 |
-| [M04 Z-Achse](#modul-04) | 20 | 100 | 12 | 2 | 6 | 0 | 0 | 0 |
-| [M05 Schublade und Platinenhalter](#modul-05) | 15 | 53 | 7 | 1 | 6 | 0 | 1 | 0 |
-| [M06 Kabelführung](#modul-06) | 10 | 57 | 3 | 0 | 7 | 0 | 0 | 0 |
-| [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 6 | 2 | 8 | 0 | 2 | 0 |
-| [M08 Optik](#modul-08) | 8 | 22 | 3 | 1 | 4 | 0 | 0 | 0 |
+| [M02 X-Achse](#modul-02) | 33 | 434 | 21 | 0 | 7 | 5 | 0 | 0 |
+| [M03 Y-Achse](#modul-03) | 27 | 168 | 17 | 0 | 1 | 9 | 0 | 0 |
+| [M04 Z-Achse](#modul-04) | 20 | 100 | 12 | 2 | 3 | 3 | 0 | 0 |
+| [M05 Schublade und Platinenhalter](#modul-05) | 15 | 53 | 8 | 1 | 1 | 4 | 1 | 0 |
+| [M06 Kabelführung](#modul-06) | 10 | 57 | 3 | 0 | 2 | 5 | 0 | 0 |
+| [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 6 | 2 | 2 | 6 | 2 | 0 |
+| [M08 Optik](#modul-08) | 8 | 22 | 3 | 1 | 1 | 3 | 0 | 0 |
 | [M09 Prüfspitzen](#modul-09) | 5 | 28 | 0 | 0 | 1 | 0 | 4 | 0 |
 | [M10 Verkleidung](#modul-10) | 2 | 4 | 0 | 0 | 2 | 0 | 0 | 0 |
 
@@ -81,24 +81,29 @@ X-Führungen und 8 X-Riemenantriebe auf den Motorplatten sowie die 4 X-Wagen als
 | [CAD-056](../Teileliste.md#cad-056) Sechskantmutter DIN 934 M3 A2 | `iso_8673_nut_m3` | 16 | bestellfähig | Kaufteile |
 | [CAD-057](../Teileliste.md#cad-057) Sechskantmutter DIN 934 M4 A2 | `iso_8673_nut_m4` | 32 | bestellfähig | Kaufteile |
 | [CAD-064](../Teileliste.md#cad-064) Nanotec ST4118M1804-A NEMA17 X/Y-Motor | `nanotec_nema_17_ST4118M1804-A` | 8 | bestellfähig | Kaufteile |
+| [CAD-077](../Teileliste.md#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `pulley_gt2_z16_6mm` | 8 | bestellfähig | Kaufteile |
+| [CAD-078](../Teileliste.md#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `return_pulley_gt2_z16_6mm` | 16 | bestellfähig | Kaufteile |
 | [CAD-079](../Teileliste.md#cad-079) SHF10 Flanschhalter fürØ10 mm Welle | `rod_holder_flange_d10_dold` | 16 | bestellfähig | Kaufteile |
 | [CAD-087](../Teileliste.md#cad-087) GT2-Riemen X, 6 mm breit | `x_belt` | 8 | bestellfähig | Kaufteile |
 | [CAD-095](../Teileliste.md#cad-095) CPC MR12M Führungsschiene 600 mm | `x_guiding_cpc_MR12M` | 2 | bestellfähig | Kaufteile |
-| [CAD-077](../Teileliste.md#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `pulley_gt2_z16_6mm` | 8 | teilweise geklärt | Kaufteile |
-| [CAD-078](../Teileliste.md#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `return_pulley_gt2_z16_6mm` | 16 | teilweise geklärt | Kaufteile |
-| [CAD-015](../Teileliste.md#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `base_nema_14_to_17_adapter` | 8 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-016](../Teileliste.md#cad-016) Grundgestell: Platte Adapter 1 | `base_plate_adapter_1` | 2 | Fertigung noch offen | CNC extern |
-| [CAD-017](../Teileliste.md#cad-017) Grundgestell: Platte Adapter 2 | `base_plate_adapter_2` | 2 | Fertigung noch offen | CNC extern |
-| [CAD-018](../Teileliste.md#cad-018) Grundgestell: Platte Adapter links | `base_plate_adapter_left` | 2 | Fertigung noch offen | CNC extern |
-| [CAD-019](../Teileliste.md#cad-019) Grundgestell: Platte Adapter rechts | `base_plate_adapter_right` | 2 | Fertigung noch offen | CNC extern |
-| [CAD-021](../Teileliste.md#cad-021) Riemen Spanner GT2 Basis | `belt_tightener_GT2_base` | 16 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-022](../Teileliste.md#cad-022) Riemen Spanner GT2 Flügel | `belt_tightener_GT2_wing` | 16 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-088](../Teileliste.md#cad-088) X-Achse Riemen Halter | `x_belt_holder` | 4 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-089](../Teileliste.md#cad-089) X-Achse Riemen Halter 1 | `x_belt_holder_1` | 12 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-098](../Teileliste.md#cad-098) X-Achse rund Schiene | `x_round_rail` | 8 | Fertigung noch offen | Weitere Fertigung |
+| [CAD-098](../Teileliste.md#cad-098) X-Achse rund Schiene | `x_round_rail` | 8 | bestellfähig | Weitere Fertigung |
+| [CAD-016](../Teileliste.md#cad-016) Grundgestell: Platte Adapter 1 | `base_plate_adapter_1` | 2 | Fertigung noch offen | Blech intern |
+| [CAD-017](../Teileliste.md#cad-017) Grundgestell: Platte Adapter 2 | `base_plate_adapter_2` | 2 | Fertigung noch offen | Blech intern |
+| [CAD-018](../Teileliste.md#cad-018) Grundgestell: Platte Adapter links | `base_plate_adapter_left` | 2 | Fertigung noch offen | Blech intern |
+| [CAD-019](../Teileliste.md#cad-019) Grundgestell: Platte Adapter rechts | `base_plate_adapter_right` | 2 | Fertigung noch offen | Blech intern |
 | [CAD-099](../Teileliste.md#cad-099) X-Achse Seite Platte | `x_side_plate` | 4 | Fertigung noch offen | Blech intern |
 | [CAD-100](../Teileliste.md#cad-100) X-Achse Seite Platte beweglich | `x_side_plate_moving` | 4 | Fertigung noch offen | Blech intern |
 | [CAD-103](../Teileliste.md#cad-103) X-Achse Schlitten Versteifung Träger | `x_slide_stiffener_beam` | 4 | Fertigung noch offen | Weitere Fertigung |
+| [CAD-015](../Teileliste.md#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `base_nema_14_to_17_adapter` | 8 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-021](../Teileliste.md#cad-021) Riemen Spanner GT2 Basis | `belt_tightener_GT2_base` | 16 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-022](../Teileliste.md#cad-022) Riemen Spanner GT2 Flügel | `belt_tightener_GT2_wing` | 16 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-088](../Teileliste.md#cad-088) X-Achse Riemen Halter | `x_belt_holder` | 4 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-089](../Teileliste.md#cad-089) X-Achse Riemen Halter 1 | `x_belt_holder_1` | 12 | Fertigung spezifiziert | 3D-Druck intern |
+
+**Werkstattfertigung**
+
+- CAD-016 bis CAD-019 Adapterplatten und CAD-099/100 Seitenplatten der X-Wagen: eigene Werkstatt (Entscheidung 17.10.2026).
+- 3D-Druckteile (NEMA-Adapter, Spanner, Riemenhalter): PETG intern, Geometrie aus CAD.
 
 **Zusätzlich nötig, nicht im CAD**
 
@@ -117,6 +122,7 @@ X-Führungen und 8 X-Riemenantriebe auf den Motorplatten sowie die 4 X-Wagen als
 
 - M3×18 (32) zwischen NEMA-Adapter, Motorplatte und Adapterplatte: im CAD keine Mutter und kein Gewinde (Adapterplatte nur Ø3,4). Mutter M3 oder Gewinde in der Adapterplatte klären.
 - Senkschrauben M6×12 am Wagen greifen in den Versteifungsträger 40×16: Gewinde im Träger oder Nutenstein klären.
+- Versteifungsträger CAD-103 (16×40, 436 mm): Profil nicht identifiziert.
 
 <a id="modul-03"></a>
 
@@ -141,20 +147,20 @@ X-Führungen und 8 X-Riemenantriebe auf den Motorplatten sowie die 4 X-Wagen als
 | [CAD-057](../Teileliste.md#cad-057) Sechskantmutter DIN 934 M4 A2 | `iso_8673_nut_m4` | 8 | bestellfähig | Kaufteile |
 | [CAD-057](../Teileliste.md#cad-057) Sechskantmutter DIN 934 M4 A2 | `iso_8673_nut_m4` | 24 | bestellfähig | Kaufteile |
 | [CAD-064](../Teileliste.md#cad-064) Nanotec ST4118M1804-A NEMA17 X/Y-Motor | `nanotec_nema_17_ST4118M1804-A` | 4 | bestellfähig | Kaufteile |
+| [CAD-077](../Teileliste.md#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `pulley_gt2_z16_6mm` | 4 | bestellfähig | Kaufteile |
+| [CAD-078](../Teileliste.md#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `return_pulley_gt2_z16_6mm` | 4 | bestellfähig | Kaufteile |
 | [CAD-080](../Teileliste.md#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | `rod_slide_d10_l19` | 16 | bestellfähig | Kaufteile |
 | [CAD-104](../Teileliste.md#cad-104) GT2-Riemen Y, 6 mm breit | `y_belt` | 4 | bestellfähig | Kaufteile |
-| [CAD-077](../Teileliste.md#cad-077) GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm | `pulley_gt2_z16_6mm` | 4 | teilweise geklärt | Kaufteile |
-| [CAD-078](../Teileliste.md#cad-078) GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm | `return_pulley_gt2_z16_6mm` | 4 | teilweise geklärt | Kaufteile |
-| [CAD-001](../Teileliste.md#cad-001) Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | `TR10x2_GT2_belt_adapter` | 4 | Fertigung noch offen; Klemmt den Y-Riemen am Schlitten (Fusion-Kontakt mit y_belt), keine Spindelmutter. | 3D-Druck intern |
-| [CAD-002](../Teileliste.md#cad-002) Y-Riemenklemme, Deckel | `TR10x2_GT2_belt_adapter_cover` | 4 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-015](../Teileliste.md#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `base_nema_14_to_17_adapter` | 4 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-021](../Teileliste.md#cad-021) Riemen Spanner GT2 Basis | `belt_tightener_GT2_base` | 4 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-022](../Teileliste.md#cad-022) Riemen Spanner GT2 Flügel | `belt_tightener_GT2_wing` | 4 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-107](../Teileliste.md#cad-107) Y-Achse Schlitten | `y_slide` | 2 | Fertigung noch offen | 3D-Druck intern |
 | [CAD-108](../Teileliste.md#cad-108) Y-Achse Schlitten Abstand Stange | `y_slide_distance_rod` | 8 | Fertigung noch offen | Weitere Fertigung |
-| [CAD-110](../Teileliste.md#cad-110) Y-Achse Schlitten gespiegelt | `y_slide_mirrored` | 2 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-111](../Teileliste.md#cad-111) Y-Achse Schlitten gespiegelt oben | `y_slide_mirrored_top` | 2 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-112](../Teileliste.md#cad-112) Y-Achse Schlitten oben | `y_slide_top` | 2 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-001](../Teileliste.md#cad-001) Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | `TR10x2_GT2_belt_adapter` | 4 | Fertigung spezifiziert; Klemmt den Y-Riemen am Schlitten (Fusion-Kontakt mit y_belt), keine Spindelmutter. | 3D-Druck intern |
+| [CAD-002](../Teileliste.md#cad-002) Y-Riemenklemme, Deckel | `TR10x2_GT2_belt_adapter_cover` | 4 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-015](../Teileliste.md#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `base_nema_14_to_17_adapter` | 4 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-021](../Teileliste.md#cad-021) Riemen Spanner GT2 Basis | `belt_tightener_GT2_base` | 4 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-022](../Teileliste.md#cad-022) Riemen Spanner GT2 Flügel | `belt_tightener_GT2_wing` | 4 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-107](../Teileliste.md#cad-107) Y-Achse Schlitten | `y_slide` | 2 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-110](../Teileliste.md#cad-110) Y-Achse Schlitten gespiegelt | `y_slide_mirrored` | 2 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-111](../Teileliste.md#cad-111) Y-Achse Schlitten gespiegelt oben | `y_slide_mirrored_top` | 2 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-112](../Teileliste.md#cad-112) Y-Achse Schlitten oben | `y_slide_top` | 2 | Fertigung spezifiziert | 3D-Druck intern |
 
 **Bei der Prüfung aus dem Modul genommen**
 
@@ -191,11 +197,11 @@ Z-Antrieb auf den 4 Y-Schlitten (NEMA14, 9-mm-Zahnscheiben, Z-Riemen, HIWIN-Wage
 | [CAD-063](../Teileliste.md#cad-063) Nanotec ST3518M1004-A NEMA14 Z-Motor | `nanotec_nema_14_ST3518M1004-A` | 4 von 8 | teilweise geklärt; 4 von 8: je Y-Schlitten zwei CAD-Varianten derselben Einbaulage. | Kaufteile |
 | [CAD-076](../Teileliste.md#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm | `pulley_gt2_9mm` | 8 | teilweise geklärt | Kaufteile |
 | [CAD-109](../Teileliste.md#cad-109) Y-Achse Schlitten Abstand Rohr 2 mm | `y_slide_distance_tube_2mm` | 4 | Fertigung noch offen | Weitere Fertigung |
-| [CAD-114](../Teileliste.md#cad-114) Z-Achse Antrieb Riemen Halter v 3 | `z_drive_belt_holder_v3` | 4 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-116](../Teileliste.md#cad-116) Z-Achse Prüfspitze Platine Halter | `z_probe_tip_pcb_holder` | 2 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-117](../Teileliste.md#cad-117) Z-Achse Prüfspitze Platine Halter lang | `z_probe_tip_pcb_holder_long` | 2 | Fertigung noch offen | 3D-Druck intern |
 | [CAD-119](../Teileliste.md#cad-119) Z-Achse Schlitten Endschalter Auslöser | `z_slide_end_stop_trigger.psm` | 2 | Fertigung noch offen | Blech intern |
 | [CAD-120](../Teileliste.md#cad-120) Z-Achse Schlitten Endschalter Auslöser gespiegelt | `z_slide_end_stop_trigger_mirrored.psm` | 2 | Fertigung noch offen | Blech intern |
+| [CAD-114](../Teileliste.md#cad-114) Z-Achse Antrieb Riemen Halter v 3 | `z_drive_belt_holder_v3` | 4 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-116](../Teileliste.md#cad-116) Z-Achse Prüfspitze Platine Halter | `z_probe_tip_pcb_holder` | 2 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-117](../Teileliste.md#cad-117) Z-Achse Prüfspitze Platine Halter lang | `z_probe_tip_pcb_holder_long` | 2 | Fertigung spezifiziert | 3D-Druck intern |
 
 **Zusätzlich nötig, nicht im CAD**
 
@@ -228,15 +234,15 @@ Ausziehbare Schublade mit Teleskopschienen, Seitenprofilen, Bodenplatte und Grif
 | [CAD-033](../Teileliste.md#cad-033) DIN 7991 M6×14 | `din_7991_m6x14` | 6 | bestellfähig; Bodenplatte an den Profilen. | Kaufteile |
 | [CAD-043](../Teileliste.md#cad-043) DIN 912 M4×10 | `din_912_m4x10` | 1 | bestellfähig | Kaufteile |
 | [CAD-048](../Teileliste.md#cad-048) DIN 933 M4×20 | `din_933_m4x20` | 8 | bestellfähig | Kaufteile |
+| [CAD-069](../Teileliste.md#cad-069) Platine Halter Führung rund | `pcb_holder_guiding_round` | 2 | bestellfähig | Weitere Fertigung |
 | [CAD-081](../Teileliste.md#cad-081) Anschraubwinkel 30 / Nut 6 | `screw_on_bracket_30_6` | 8 von 26 | bestellfähig; 8 von 26 verbinden die Schubladenprofile. | Kaufteile |
 | [CAD-084](../Teileliste.md#cad-084) Teleskopschiene 350 mm, Vollauszug | `telescopic_bar_tsaa514613-350` | 2 | bestellfähig | Kaufteile |
 | [CAD-051](../Teileliste.md#cad-051) Schubladengriff, Lochabstand 100 mm | `handle_l100_dold` | 1 | teilweise geklärt | Kaufteile |
-| [CAD-067](../Teileliste.md#cad-067) Platine Halter Gleiter | `pcb_holder_glider` | 4 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-068](../Teileliste.md#cad-068) Platine Halter Führung Halter rund d 10 | `pcb_holder_guiding_holder_round_d10` | 4 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-069](../Teileliste.md#cad-069) Platine Halter Führung rund | `pcb_holder_guiding_round` | 2 | Fertigung noch offen | Weitere Fertigung |
 | [CAD-070](../Teileliste.md#cad-070) Platine Halter rechteckig Stange | `pcb_holder_rect_rod` | 2 | Fertigung noch offen | Weitere Fertigung |
-| [CAD-071](../Teileliste.md#cad-071) Platine Halter Stange kurz rund d 10 | `pcb_holder_rod_short_round_d10` | 2 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-072](../Teileliste.md#cad-072) Platine Halter Stange kurz rund d 10 gespiegelt | `pcb_holder_rod_short_round_d10_mirrored` | 2 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-067](../Teileliste.md#cad-067) Platine Halter Gleiter | `pcb_holder_glider` | 4 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-068](../Teileliste.md#cad-068) Platine Halter Führung Halter rund d 10 | `pcb_holder_guiding_holder_round_d10` | 4 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-071](../Teileliste.md#cad-071) Platine Halter Stange kurz rund d 10 | `pcb_holder_rod_short_round_d10` | 2 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-072](../Teileliste.md#cad-072) Platine Halter Stange kurz rund d 10 gespiegelt | `pcb_holder_rod_short_round_d10_mirrored` | 2 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-010](../Teileliste.md#cad-010) Schubladen-Dummyplatte | `base_drawer_dummy_plate` | 1 | nicht identifiziert; Trägt den kompletten Platinenhalter (Fusion-Kontakt) und ist damit die reale Schubladen-Bodenplatte, kein reiner Platzhalter. | Ungeklärte Teile |
 
 **Zusätzlich nötig, nicht im CAD**
@@ -269,13 +275,13 @@ Energieketten mit Haltern und Adaptern sowie Kabelhalter und Kabelabdeckungen. M
 | [CAD-034](../Teileliste.md#cad-034) DIN 7991 M6×20 | `din_7991_m6x20` | 6 von 22 | bestellfähig; 6 von 22 halten die Kettenhalter an den Motorplatten. | Kaufteile |
 | [CAD-049](../Teileliste.md#cad-049) igus E2i.10.10.028.0, 16 kurze Abschnitte | `drag_chain_0_24m_E2i_10_10_028_0_4` | 16 | bestellfähig | Kaufteile |
 | [CAD-050](../Teileliste.md#cad-050) igus E2i.10.20.028.0, 8 lange Abschnitte | `drag_chain_0_28m_E2i_10_20_028_0_igus` | 8 | bestellfähig | Kaufteile |
-| [CAD-004](../Teileliste.md#cad-004) Grundgestell: Kabel Halter M3 flach | `base_cable_holder_m3_flat` | 2 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-005](../Teileliste.md#cad-005) Grundgestell: Kabel Halter M4 | `base_cable_holder_m4` | 1 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-006](../Teileliste.md#cad-006) Grundgestell: Kabel Halter M5 flach | `base_cable_holder_m5_flat` | 4 | Fertigung noch offen | 3D-Druck intern |
 | [CAD-009](../Teileliste.md#cad-009) Grundgestell: Schlepp Energiekette Halter | `base_drag_chain_holder` | 4 | Fertigung noch offen | Blech intern |
 | [CAD-024](../Teileliste.md#cad-024) Kabel Abdeckung | `cable_cover` | 4 | Fertigung noch offen | Blech intern |
-| [CAD-090](../Teileliste.md#cad-090) X-Achse Schlepp Energiekette Adapter | `x_drag_chain_adapter` | 8 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-118](../Teileliste.md#cad-118) Z-Achse Schlitten Kabel Halter | `z_slide_cable_holder` | 4 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-004](../Teileliste.md#cad-004) Grundgestell: Kabel Halter M3 flach | `base_cable_holder_m3_flat` | 2 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-005](../Teileliste.md#cad-005) Grundgestell: Kabel Halter M4 | `base_cable_holder_m4` | 1 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-006](../Teileliste.md#cad-006) Grundgestell: Kabel Halter M5 flach | `base_cable_holder_m5_flat` | 4 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-090](../Teileliste.md#cad-090) X-Achse Schlepp Energiekette Adapter | `x_drag_chain_adapter` | 8 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-118](../Teileliste.md#cad-118) Z-Achse Schlitten Kabel Halter | `z_slide_cable_holder` | 4 | Fertigung spezifiziert | 3D-Druck intern |
 
 **Zusätzlich nötig, nicht im CAD**
 
@@ -307,14 +313,14 @@ Netzteil, Steuerplatinen, Bedientaster, Multiplexer-Halter, induktive Sensoren u
 | [CAD-065](../Teileliste.md#cad-065) Optischer Endschalter 11×35 mm | `optical_endstop` | 4 | bestellfähig | Kaufteile |
 | [CAD-023](../Teileliste.md#cad-023) BIGTREETECH SKR V1.3 Steuerplatine | `bigtreetech_skr_v1_3` | 4 | teilweise geklärt | Kaufteile |
 | [CAD-058](../Teileliste.md#cad-058) ISO 8673 Mutter M8 | `iso_8673_nut_m8` | 48 | teilweise geklärt | Kaufteile |
-| [CAD-074](../Teileliste.md#cad-074) Stromversorgung Schalter Halter | `power_switch_holder` | 1 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-083](../Teileliste.md#cad-083) Signal-Multiplexer Halter | `signal_multiplexer_holder` | 1 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-091](../Teileliste.md#cad-091) X-Achse Endschalter Halter Seite kurz | `x_end_stop_holder_side_short` | 4 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-092](../Teileliste.md#cad-092) X-Achse Endschalter Halter oben lang | `x_end_stop_holder_top_long` | 4 | Fertigung noch offen | 3D-Druck intern |
 | [CAD-093](../Teileliste.md#cad-093) X-Achse Endschalter oben lang | `x_end_stop_top_long` | 4 | Fertigung noch offen | Weitere Fertigung |
 | [CAD-094](../Teileliste.md#cad-094) X-Achse Endschalter oben kurz | `x_end_stop_top_short` | 4 | Fertigung noch offen | Weitere Fertigung |
-| [CAD-101](../Teileliste.md#cad-101) X-Achse Schlitten induktiv Endschalter Adapter | `x_slide_inductive_endstop_adapter` | 4 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-102](../Teileliste.md#cad-102) X-Achse Schlitten induktiv Endschalter Adapter gespiegelt | `x_slide_inductive_endstop_adapter_mirrored` | 4 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-074](../Teileliste.md#cad-074) Stromversorgung Schalter Halter | `power_switch_holder` | 1 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-083](../Teileliste.md#cad-083) Signal-Multiplexer Halter | `signal_multiplexer_holder` | 1 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-091](../Teileliste.md#cad-091) X-Achse Endschalter Halter Seite kurz | `x_end_stop_holder_side_short` | 4 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-092](../Teileliste.md#cad-092) X-Achse Endschalter Halter oben lang | `x_end_stop_holder_top_long` | 4 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-101](../Teileliste.md#cad-101) X-Achse Schlitten induktiv Endschalter Adapter | `x_slide_inductive_endstop_adapter` | 4 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-102](../Teileliste.md#cad-102) X-Achse Schlitten induktiv Endschalter Adapter gespiegelt | `x_slide_inductive_endstop_adapter_mirrored` | 4 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-055](../Teileliste.md#cad-055) Induktiver Näherungsschalter M8, Bauhülle 60 mm | `inductive_proximity_sensor_m8` | 24 | nicht identifiziert | Ungeklärte Teile |
 | [CAD-086](../Teileliste.md#cad-086) Bedientaster/-schalterØ19 mm | `vandalism_switch_d19` | 1 | nicht identifiziert | Ungeklärte Teile |
 
@@ -348,10 +354,10 @@ Bewegliches USB-Mikroskop mit Haltern an den Y-Schlitten und die Übersichtskame
 | [CAD-041](../Teileliste.md#cad-041) DIN 912 M3×30 | `din_912_m3x30` | 4 von 8 | bestellfähig; 4 von 8 halten den Kamerahalter. | Kaufteile |
 | [CAD-056](../Teileliste.md#cad-056) Sechskantmutter DIN 934 M3 A2 | `iso_8673_nut_m3` | 4 von 24 | bestellfähig; 4 von 24 am Kamerahalter. | Kaufteile |
 | [CAD-085](../Teileliste.md#cad-085) Bewegliches USB-Mikroskop | `usb_microscope` | 4 | teilweise geklärt; CAD zeigt 4, geplant ist 1 (3 optional). | Kaufteile |
-| [CAD-025](../Teileliste.md#cad-025) Kamera Halter | `camera_holder` | 1 | Fertigung noch offen | 3D-Druck intern |
 | [CAD-026](../Teileliste.md#cad-026) Kamera Halter oben | `camera_holder_top` | 1 | Fertigung noch offen | Blech intern |
-| [CAD-105](../Teileliste.md#cad-105) Y-Achse Kamera Halter | `y_camera_holder` | 2 | Fertigung noch offen | 3D-Druck intern |
-| [CAD-106](../Teileliste.md#cad-106) Y-Achse Kamera Halter kompakt | `y_camera_holder_compact` | 2 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-025](../Teileliste.md#cad-025) Kamera Halter | `camera_holder` | 1 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-105](../Teileliste.md#cad-105) Y-Achse Kamera Halter | `y_camera_holder` | 2 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-106](../Teileliste.md#cad-106) Y-Achse Kamera Halter kompakt | `y_camera_holder_compact` | 2 | Fertigung spezifiziert | 3D-Druck intern |
 
 **Zusätzlich nötig, nicht im CAD**
 
