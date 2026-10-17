@@ -104,3 +104,13 @@ M05,Schublade und Platinenhalter,base:1+pcb_holder,CAD-072,Platine Halter Stange
 M05,Schublade und Platinenhalter,base:1+pcb_holder,CAD-048,DIN 933 M4×20,din_933_m4x20,8,8,bestellfähig,Kaufteile,
 M05,Schublade und Platinenhalter,base:1+pcb_holder,CAD-028,DIN 466 Rändelmutter hoch M4,din_466_knurled_nut_high_m4,8,8,bestellfähig,Kaufteile,
 M05,Schublade und Platinenhalter,base:1+pcb_holder,CAD-043,DIN 912 M4×10,din_912_m4x10,1,1,bestellfähig,Kaufteile,
+M06,Kabelführung,base:1,CAD-050,"igus E2i.10.20.028.0, 8 lange Abschnitte",drag_chain_0_28m_E2i_10_20_028_0_igus,8,8,bestellfähig,Kaufteile,
+M06,Kabelführung,base:1,CAD-009,Grundgestell: Schlepp Energiekette Halter,base_drag_chain_holder,4,4,Fertigung noch offen,Blech intern,
+M06,Kabelführung,base:1,CAD-034,DIN 7991 M6×20,din_7991_m6x20,6,22,bestellfähig,Kaufteile,6 von 22 halten die Kettenhalter an den Motorplatten.
+M06,Kabelführung,base:1,CAD-004,Grundgestell: Kabel Halter M3 flach,base_cable_holder_m3_flat,2,2,Fertigung noch offen,3D-Druck intern,
+M06,Kabelführung,base:1,CAD-005,Grundgestell: Kabel Halter M4,base_cable_holder_m4,1,1,Fertigung noch offen,3D-Druck intern,
+M06,Kabelführung,base:1,CAD-024,Kabel Abdeckung,cable_cover,4,4,Fertigung noch offen,Blech intern,
+M06,Kabelführung,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-049,"igus E2i.10.10.028.0, 16 kurze Abschnitte",drag_chain_0_24m_E2i_10_10_028_0_4,16,16,bestellfähig,Kaufteile,
+M06,Kabelführung,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-090,X-Achse Schlepp Energiekette Adapter,x_drag_chain_adapter,8,8,Fertigung noch offen,3D-Druck intern,
+M06,Kabelführung,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-006,Grundgestell: Kabel Halter M5 flach,base_cable_holder_m5_flat,4,4,Fertigung noch offen,3D-Druck intern,
+M06,Kabelführung,z_slide_long:1;z_slide_long:2,CAD-118,Z-Achse Schlitten Kabel Halter,z_slide_cable_holder,4,4,Fertigung noch offen,3D-Druck intern,

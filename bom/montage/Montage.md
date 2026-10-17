@@ -9,6 +9,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | [M03 Y-Achse](#modul-03) | 27 | 168 | 15 | 2 | 10 | 0 | 0 | 0 |
 | [M04 Z-Achse](#modul-04) | 20 | 100 | 12 | 2 | 6 | 0 | 0 | 0 |
 | [M05 Schublade und Platinenhalter](#modul-05) | 15 | 53 | 6 | 1 | 7 | 0 | 1 | 0 |
+| [M06 Kabelführung](#modul-06) | 10 | 57 | 3 | 0 | 7 | 0 | 0 | 0 |
 
 <a id="modul-01"></a>
 
@@ -250,3 +251,36 @@ Ausziehbare Schublade mit Teleskopschienen, Seitenprofilen, Bodenplatte und Grif
 
 - CAD-010 Bodenplatte: Material und Dicke (CAD 12 mm) festlegen; Status von 'nicht identifiziert' auf Fertigungsteil ändern?
 - Wo greifen die M4-Schrauben DIN 933 des Platinenhalters: Gewinde in der Bodenplatte oder Mutter darunter?
+
+<a id="modul-06"></a>
+
+## M06 Kabelführung
+
+Energieketten mit Haltern und Adaptern sowie Kabelhalter und Kabelabdeckungen. Mechanische Führung der Leitungen, ohne die Leitungen selbst (Elektrik).
+
+*Am 17.10.2026 aus den noch nicht zugeordneten CAD-Teilen gebildet; Kontaktanalyse aus M01–M04 übernommen.*
+
+| ID / Teil | CAD-Name | Stück | Status | Beschaffungsart |
+| --- | --- | --- | --- | --- |
+| [CAD-034](../Teileliste.md#cad-034) DIN 7991 M6×20 | `din_7991_m6x20` | 6 von 22 | bestellfähig; 6 von 22 halten die Kettenhalter an den Motorplatten. | Kaufteile |
+| [CAD-049](../Teileliste.md#cad-049) igus E2i.10.10.028.0, 16 kurze Abschnitte | `drag_chain_0_24m_E2i_10_10_028_0_4` | 16 | bestellfähig | Kaufteile |
+| [CAD-050](../Teileliste.md#cad-050) igus E2i.10.20.028.0, 8 lange Abschnitte | `drag_chain_0_28m_E2i_10_20_028_0_igus` | 8 | bestellfähig | Kaufteile |
+| [CAD-004](../Teileliste.md#cad-004) Grundgestell: Kabel Halter M3 flach | `base_cable_holder_m3_flat` | 2 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-005](../Teileliste.md#cad-005) Grundgestell: Kabel Halter M4 | `base_cable_holder_m4` | 1 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-006](../Teileliste.md#cad-006) Grundgestell: Kabel Halter M5 flach | `base_cable_holder_m5_flat` | 4 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-009](../Teileliste.md#cad-009) Grundgestell: Schlepp Energiekette Halter | `base_drag_chain_holder` | 4 | Fertigung noch offen | Blech intern |
+| [CAD-024](../Teileliste.md#cad-024) Kabel Abdeckung | `cable_cover` | 4 | Fertigung noch offen | Blech intern |
+| [CAD-090](../Teileliste.md#cad-090) X-Achse Schlepp Energiekette Adapter | `x_drag_chain_adapter` | 8 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-118](../Teileliste.md#cad-118) Z-Achse Schlitten Kabel Halter | `z_slide_cable_holder` | 4 | Fertigung noch offen | 3D-Druck intern |
+
+**Zusätzlich nötig, nicht im CAD**
+
+| Teil | Stück | Bezug | Grund |
+| --- | --- | --- | --- |
+| Energieketten-Anschlusselemente | 24 | SYS-027, SYS-028 | Im CAD als Körper der Ketten enthalten, als Sätze separat bestellt (bereits in der Teileliste). |
+| Schrauben/Muttern der Kettenanschlüsse | offen | SYS-030 | Die igus-Anschlüsse brauchen je 2 Schrauben; im CAD teils nicht modelliert (Kontaktanalyse zeigt nur gemeinsame Schrauben mit Motor/Endschalter am Y-Schlitten). |
+| Befestigung der Kabelhalter und Kabelabdeckungen | offen | SYS-029 | Halter tragen Gewindegröße im Namen (M3/M4/M5); passende Schrauben/Nutensteine sind im CAD nicht vorhan den. |
+
+**Offene Fragen**
+
+- Welche Schrauben der Y-Schlitten (M3×10, M3×12) gehören zusätzlich zur Kettenbefestigung? Werden bei Elektrik mit zugeordnet.

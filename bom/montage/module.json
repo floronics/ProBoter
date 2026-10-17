@@ -941,6 +941,98 @@
         "CAD-010 Bodenplatte: Material und Dicke (CAD 12 mm) festlegen; Status von 'nicht identifiziert' auf Fertigungsteil ändern?",
         "Wo greifen die M4-Schrauben DIN 933 des Platinenhalters: Gewinde in der Bodenplatte oder Mutter darunter?"
       ]
+    },
+    {
+      "id": "M06",
+      "name": "Kabelführung",
+      "beschreibung": "Energieketten mit Haltern und Adaptern sowie Kabelhalter und Kabelabdeckungen. Mechanische Führung der Leitungen, ohne die Leitungen selbst (Elektrik).",
+      "stand": "Am 17.10.2026 aus den noch nicht zugeordneten CAD-Teilen gebildet; Kontaktanalyse aus M01–M04 übernommen.",
+      "teile": [
+        {
+          "scope": "base:1",
+          "cad_name": "drag_chain_0_28m_E2i_10_20_028_0_igus"
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "base_drag_chain_holder"
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "din_7991_m6x20",
+          "menge": 6,
+          "hinweis": "6 von 22 halten die Kettenhalter an den Motorplatten."
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "base_cable_holder_m3_flat"
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "base_cable_holder_m4"
+        },
+        {
+          "scope": "base:1",
+          "cad_name": "cable_cover"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "cad_name": "drag_chain_0_24m_E2i_10_10_028_0_4"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "cad_name": "x_drag_chain_adapter"
+        },
+        {
+          "scope": [
+            "x_slide:1",
+            "x_slide:2",
+            "x_slide:3",
+            "x_slide:4"
+          ],
+          "cad_name": "base_cable_holder_m5_flat"
+        },
+        {
+          "scope": [
+            "z_slide_long:1",
+            "z_slide_long:2"
+          ],
+          "cad_name": "z_slide_cable_holder"
+        }
+      ],
+      "zusatz": [
+        {
+          "teil": "Energieketten-Anschlusselemente",
+          "menge": 24,
+          "bezug": "SYS-027, SYS-028",
+          "grund": "Im CAD als Körper der Ketten enthalten, als Sätze separat bestellt (bereits in der Teileliste)."
+        },
+        {
+          "teil": "Schrauben/Muttern der Kettenanschlüsse",
+          "menge": "offen",
+          "bezug": "SYS-030",
+          "grund": "Die igus-Anschlüsse brauchen je 2 Schrauben; im CAD teils nicht modelliert (Kontaktanalyse zeigt nur gemeinsame Schrauben mit Motor/Endschalter am Y-Schlitten)."
+        },
+        {
+          "teil": "Befestigung der Kabelhalter und Kabelabdeckungen",
+          "menge": "offen",
+          "bezug": "SYS-029",
+          "grund": "Halter tragen Gewindegröße im Namen (M3/M4/M5); passende Schrauben/Nutensteine sind im CAD nicht vorhanden."
+        }
+      ],
+      "entfernt": [],
+      "offen": [
+        "Welche Schrauben der Y-Schlitten (M3×10, M3×12) gehören zusätzlich zur Kettenbefestigung? Werden bei Elektrik mit zugeordnet."
+      ]
     }
   ]
 }
