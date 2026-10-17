@@ -162,7 +162,7 @@ DETAIL = {
 # key, description, quantity, unit, group, supplier, specification/gap, source
 SYSTEM = [
 ('001','TMC2130 SPI Treibermodule',16,'Stück','Kaufteile','RBS','4 je SKR für X/X2/Y/Z. RBS13024: 4 Treiber mit Kühlkörpern und Kabel, SPI-Pins laut Fotos vorgelötet. Revision nicht angegeben; SPI-Modus laut Datenblatt per Lötbrücke CFG4/CFG5 prüfen.',FIRMWARE),
-('002','Stationäre Übersichtskamera',1,'Stück','Kaufteile','REICHELT','1080p-Softwarekonfiguration; Optik, Blickfeld und Halterpassung offen.',BLOG),
+('002','Stationäre Übersichtskamera, USB-Platinenkamera 32×32 mm',1,'Stück','Kaufteile','REICHELT','Fusion-Messung: Halter CAD-025 hat 4 M2-Bohrungen im Raster 28×28 mm = 32×32-mm-USB-Platinenkamera (z. B. ELP, 1080p, UVC, M12-Objektiv), keine Webcam (Entscheidung Luis 17.10.2026). Logitech C920 passt nicht.',BLOG),
 ('003','Signal-Multiplexer, unbestückte Leiterplatte',1,'Stück','PCB extern','BETA','CAD-082 ist nur Platzhalter. Schaltplan/Gerber/Board-BOM fehlen; USB/9600Baud-Protokoll ist keine Schaltung.',SOFTWARE),
 ('004','Kalibrier-Referenzkörper / Platte',1,'Stück','3D-Druck intern','RBS','Geometrie mit aktueller Software festlegen; Plattendicke5,1mm ist Konfigurationswert, keine validierte Zeichnung.',SOFTWARE),
 ('005','Innere Messing-Referenzzylinder',4,'Stück','Weitere Fertigung','DOLD','Je1×Ø7/8/9/10mm nach ReferenceBoard.inner_brass_pin_position_map; Raster11,95×19,95mm. Endfläche auf Bezugsebene; Gesamtlänge, Einbau, Toleranzen und Messprotokoll fehlen.','../software/hardware-control/proboter/tasks/utils/reference_board.py'),
@@ -314,6 +314,9 @@ def make_parts():
         if key in ids(93,94):
             material='Stahl Ø8 h6, magnetisch (Cf53), kein Edelstahl A2'
             note='Fusion-Messung: Rundstab Ø8 × '+('125' if key=='CAD-093' else '75')+' mm; Auslöser für die induktiven Sensoren, daher magnetischer Stahl. Zuschnitt kaufen (Luis 17.10.2026); Anbieter mit Preis noch offen (z. B. Motedis Cf53 h6).'
+        if key=='CAD-026':
+            process_evidence='WERKSTATT: eigene Fertigung (Entscheidung Luis 17.10.2026)'
+            note='Halterplatte der Übersichtskamera, 104×56,6×5 mm, 4 Bohrungen Ø5,5. Zeichnung aus CAD ableiten.'
         if key=='CAD-108':
             note='Fusion-Messung: massiver Rundstab Ø4×70 mm, Fasen an beiden Enden, ohne Gewinde. Werkstatt: aus Ø4-h6-Silberstahl (1.2210) ablängen und anfasen (Entscheidung Luis 17.10.2026).'
             material='Silberstahl 1.2210 Ø4 h6'; status='Fertigung spezifiziert'; process_evidence='WERKSTATT: Ablängen und Anfasen'

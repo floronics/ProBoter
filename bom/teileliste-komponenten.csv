@@ -367,7 +367,7 @@ K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",probe_tip_with_an
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-075,"Prüfspitzen-PCB, unbestückt",probe_tip_pcb,1,Stück,ja,PCB extern,Fertigung noch offen
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-001,TMC2130 SPI Treibermodule,,16,Stück,nein,Kaufteile,teilweise geklärt
-K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-002,Stationäre Übersichtskamera,,1,Stück,nein,Kaufteile,teilweise geklärt
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-002,"Stationäre Übersichtskamera, USB-Platinenkamera 32×32 mm",,1,Stück,nein,Kaufteile,teilweise geklärt
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-003,"Signal-Multiplexer, unbestückte Leiterplatte",,1,Stück,nein,PCB extern,Fertigung noch offen
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-004,Kalibrier-Referenzkörper / Platte,,1,Stück,nein,3D-Druck intern,Fertigung noch offen
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-005,Innere Messing-Referenzzylinder,,4,Stück,nein,Weitere Fertigung,Fertigung noch offen
