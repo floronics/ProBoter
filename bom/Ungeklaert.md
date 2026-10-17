@@ -20,7 +20,7 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | --- | --- | --- |
 | CAD-001 Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter) | 4 Stück | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf. |
 | CAD-002 Y-Riemenklemme, Deckel | 4 Stück | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf. |
-| CAD-003 Grundgestell: Rückseite Platte | 1 Stück | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen. |
+| CAD-003 Grundgestell: Rückseite Platte | 1 Stück | 650×270×3 mm, 54 Bohrungen Ø3,4, 10 Bohrungen Ø4,5, 1 Bohrung Ø8. 6 Ø4,5-Bohrungen sitzen auf den langen Profilen (M4 + Nutenstein, siehe M01). Zuschnitt und Bohrungen intern; Zeichnung aus CAD ableiten. |
 | CAD-004 Grundgestell: Kabel Halter M3 flach | 2 Stück | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf. |
 | CAD-005 Grundgestell: Kabel Halter M4 | 1 Stück | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf. |
 | CAD-006 Grundgestell: Kabel Halter M5 flach | 4 Stück | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf. |
@@ -36,7 +36,7 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | CAD-017 Grundgestell: Platte Adapter 2 | 2 Stück | PRÜFEN: Verfahren ungeklärt. Fusion-Messung zeigt 10 mm Platten mit Stufen auf 5 mm Tiefe und 90°-Senkungen; möglicherweise Kauf-Adapterplatten oder zwei 5-mm-Laserteile statt CNC. Material, Lochtabelle und Passungen festlegen. |
 | CAD-018 Grundgestell: Platte Adapter links | 2 Stück | PRÜFEN: Verfahren ungeklärt. Fusion-Messung zeigt 10 mm Platten mit Stufen auf 5 mm Tiefe und 90°-Senkungen; möglicherweise Kauf-Adapterplatten oder zwei 5-mm-Laserteile statt CNC. Material, Lochtabelle und Passungen festlegen. |
 | CAD-019 Grundgestell: Platte Adapter rechts | 2 Stück | PRÜFEN: Verfahren ungeklärt. Fusion-Messung zeigt 10 mm Platten mit Stufen auf 5 mm Tiefe und 90°-Senkungen; möglicherweise Kauf-Adapterplatten oder zwei 5-mm-Laserteile statt CNC. Material, Lochtabelle und Passungen festlegen. |
-| CAD-020 Grundgestell: vertikal | 4 Stück | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen. |
+| CAD-020 Grundgestell: vertikal | 4 Stück | Querschnitt und Länge aus CAD (4×350 mm). Unten M6-Gewinde in die Kernbohrung Ø5 für die Gelenkfüße, intern schneiden (Entscheidung 17.10.2026). Profilserie siehe M01. |
 | CAD-021 Riemen Spanner GT2 Basis | 20 Stück | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf. |
 | CAD-022 Riemen Spanner GT2 Flügel | 20 Stück | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf. |
 | CAD-024 Kabel Abdeckung | 4 Stück | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen. |
@@ -58,8 +58,8 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | CAD-092 X-Achse Endschalter Halter oben lang | 4 Stück | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf. |
 | CAD-093 X-Achse Endschalter oben lang | 4 Stück | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen. |
 | CAD-094 X-Achse Endschalter oben kurz | 4 Stück | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen. |
-| CAD-096 X-Achse Motor Platte | 1 Stück | 5 mm geometrische Dicke; Kontur und Bohrungen aus CAD, Gewinde/Senkungen und Bezugs-/Lagetoleranzen fehlen. Entgraten vor Montage. |
-| CAD-097 X-Achse Motor Platte 2 | 1 Stück | 5 mm geometrische Dicke; Kontur und Bohrungen aus CAD, Gewinde/Senkungen und Bezugs-/Lagetoleranzen fehlen. Entgraten vor Montage. |
+| CAD-096 X-Achse Motor Platte | 1 Stück | 5 mm Stahl, 550×135 mm. Fusion-Messung: 16 Kernlöcher Ø2,46 für M3-Gewinde (Riemenspanner), Senkungen für M6 und Ø22-Durchbrüche für die Motoren. Kontur und Bohrungen aus CAD; Gewinde und Senkungen intern. Zeichnung mit Lagetoleranzen der Führungsbohrungen fehlt. |
+| CAD-097 X-Achse Motor Platte 2 | 1 Stück | 5 mm Stahl, 550×135 mm. Fusion-Messung: 16 Kernlöcher Ø2,46 für M3-Gewinde (Riemenspanner), Senkungen für M6 und Ø22-Durchbrüche für die Motoren. Kontur und Bohrungen aus CAD; Gewinde und Senkungen intern. Zeichnung mit Lagetoleranzen der Führungsbohrungen fehlt. |
 | CAD-098 X-Achse rund Schiene | 8 Stück | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen. |
 | CAD-099 X-Achse Seite Platte | 4 Stück | 5 mm geometrische Dicke; Kontur und Bohrungen aus CAD, Gewinde/Senkungen und Bezugs-/Lagetoleranzen fehlen. Entgraten vor Montage. |
 | CAD-100 X-Achse Seite Platte beweglich | 4 Stück | 5 mm geometrische Dicke; Kontur und Bohrungen aus CAD, Gewinde/Senkungen und Bezugs-/Lagetoleranzen fehlen. Entgraten vor Montage. |
@@ -98,7 +98,6 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | --- | --- | --- |
 | CAD-023 BIGTREETECH SKR V1.3 Steuerplatine | 4 Stück | Original laut CAD, Firmware und Masterarbeit. Neu in DE/EU nicht gefunden (Recherche 17.10.2026). Kandidat SKR 1.4 Turbo (RBS13645) passt auf fast dieselben Löcher, braucht aber Marlin-Pinanpassung; nicht freigegeben. |
 | CAD-051 Schubladengriff, Lochabstand 100 mm | 1 Stück | DOLD A-75903 passt in Länge 113, Höhe 49 und Lochabstand 100, hat aber M6-Gewinde; Fusion misst Ø5,5. Prüfen, ob die CAD-Bohrung ein Durchgangsloch ist (dann A-75873, 112 mm lang). |
-| CAD-052 Gelenkfuß M6 / Teller Ø40 mm | 4 Stück | DOLD GF-K-10-PA-028: M6 und Teller Ø40 = CAD. Gewindelänge (20 mm angenommen) aus CAD-Höhe 30,4 nicht belegt; Traglast nicht angegeben. |
 | CAD-058 ISO 8673 Mutter M8 | 53 Stück | Norm und Maße mit CAD abgeglichen; Artikel 24122 08 1. A4 statt A2; H 6,5 statt 6,8. Datenblatt nennt Linksgewinde, vermutlich Datenfehler: vor Bestellung klären. Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026). ISO 8673 M8×1 passt zu den M8×1-Gewinden der induktiven Sensoren. Sensoren liefern meist 2 Muttern mit; dann nur Reserve kaufen. |
 | CAD-063 Nanotec ST3518M1004-A NEMA14 Z-Motor | 4 Stück | Original laut Masterarbeit, nur im Herstellerarchiv: 36 mm, 1,0 A, Welle Ø5×24 = CAD 60 mm. Menge 4 belegt durch Fusion-Messung (zwei Varianten je Y-Schlitten, 1,6 mm Achsversatz). Nachfolgekandidat SC3518M1204-A ist 3,5 mm länger und hat einen seitlichen Stecker. |
 | CAD-076 GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm | 8 Stück | Fusion-Messung: je Z-Achse zwei Stück, eine koaxial auf der Ø5-Motorwelle (Antrieb), eine 108 mm entfernt (Umlenkung). Teilkreis Ø10,19 = GT2 Z16, Bordscheiben Ø18, Breite 11 mm. Exaktes Teil in DE/EU nicht gefunden; Kandidat RBS12867 (Ø13×19,5, für 10-mm-Riemen) braucht angepasste Halter. |

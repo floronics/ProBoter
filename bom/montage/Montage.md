@@ -4,7 +4,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 
 | Modul | Positionen | Stück | bestellfähig | teilweise geklärt | Fertigung noch offen | Fertigung spezifiziert | nicht identifiziert | nicht benötigt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [M01 Grundgerüst](#modul-01) | 10 | 50 | 2 | 1 | 7 | 0 | 0 | 0 |
+| [M01 Grundgerüst](#modul-01) | 10 | 50 | 3 | 0 | 7 | 0 | 0 | 0 |
 | [M02 X-Achse](#modul-02) | 33 | 434 | 18 | 2 | 13 | 0 | 0 | 0 |
 | [M03 Y-Achse](#modul-03) | 27 | 168 | 15 | 2 | 10 | 0 | 0 | 0 |
 | [M04 Z-Achse](#modul-04) | 20 | 100 | 12 | 2 | 6 | 0 | 0 | 0 |
@@ -26,8 +26,8 @@ Tragender Rahmen ohne Elektrik, ohne Halter für elektrische Teile, ohne Achsen,
 | ID / Teil | CAD-Name | Stück | Status | Beschaffungsart |
 | --- | --- | --- | --- | --- |
 | [CAD-034](../Teileliste.md#cad-034) DIN 7991 M6×20 | `din_7991_m6x20` | 8 von 22 | bestellfähig; 8 von 22 verbinden die Motorplatten mit den 60×30-Profilen; 8 halten die Adapterplatten (X-Antrieb), 6 die Kettenhalter. | Kaufteile |
+| [CAD-052](../Teileliste.md#cad-052) Gelenkfuß M6×20 / Teller Ø40 mm | `hinged_M6_40_dold` | 4 | bestellfähig | Kaufteile |
 | [CAD-081](../Teileliste.md#cad-081) Anschraubwinkel 30 / Nut 6 | `screw_on_bracket_30_6` | 18 von 26 | bestellfähig; 18 von 26 verbinden Rahmenprofile; 8 gehören zur Schublade. | Kaufteile |
-| [CAD-052](../Teileliste.md#cad-052) Gelenkfuß M6 / Teller Ø40 mm | `hinged_M6_40_dold` | 4 | teilweise geklärt | Kaufteile |
 | [CAD-003](../Teileliste.md#cad-003) Grundgestell: Rückseite Platte | `base_back_plate` | 1 | Fertigung noch offen | Blech intern |
 | [CAD-012](../Teileliste.md#cad-012) Grundgestell: Rahmen lang Seite | `base_frame_long_side` | 3 | Fertigung noch offen | Weitere Fertigung |
 | [CAD-013](../Teileliste.md#cad-013) Grundgestell: Rahmen kurz | `base_frame_short` | 8 | Fertigung noch offen | Weitere Fertigung |

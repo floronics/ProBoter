@@ -8,7 +8,7 @@ M01,Grundgerüst,base:1,CAD-034,DIN 7991 M6×20,din_7991_m6x20,8,22,bestellfähi
 M01,Grundgerüst,base:1,CAD-096,X-Achse Motor Platte,x_motor_plate,1,1,Fertigung noch offen,Blech intern,
 M01,Grundgerüst,base:1,CAD-097,X-Achse Motor Platte 2,x_motor_plate_2,1,1,Fertigung noch offen,Blech intern,
 M01,Grundgerüst,base:1,CAD-003,Grundgestell: Rückseite Platte,base_back_plate,1,1,Fertigung noch offen,Blech intern,
-M01,Grundgerüst,base:1,CAD-052,Gelenkfuß M6 / Teller Ø40 mm,hinged_M6_40_dold,4,4,teilweise geklärt,Kaufteile,
+M01,Grundgerüst,base:1,CAD-052,Gelenkfuß M6×20 / Teller Ø40 mm,hinged_M6_40_dold,4,4,bestellfähig,Kaufteile,
 M02,X-Achse,base:1,CAD-095,CPC MR12M Führungsschiene 600 mm,x_guiding_cpc_MR12M,2,2,bestellfähig,Kaufteile,
 M02,X-Achse,base:1,CAD-016,Grundgestell: Platte Adapter 1,base_plate_adapter_1,2,2,Fertigung noch offen,CNC extern,
 M02,X-Achse,base:1,CAD-017,Grundgestell: Platte Adapter 2,base_plate_adapter_2,2,2,Fertigung noch offen,CNC extern,

@@ -123,7 +123,7 @@ DETAIL = {
 49: ('igus E2i.10.10.028.0, 16 kurze Abschnitte', 'Teilung 20 mm, Außenbreite 17,4, Einbauhöhe 71 bei R28 = CAD. 0,24 m = 12 Glieder, zusammen 192 Glieder. Anschlüsse siehe SYS-027.', 'IGUS'),
 50: ('igus E2i.10.20.028.0, 8 lange Abschnitte', 'Teilung 20 mm, Außenbreite 27,4, Einbauhöhe 71 = CAD. 0,28 m = 14 Glieder, zusammen 112 Glieder. Anschlüsse siehe SYS-028.', 'IGUS'),
 51: ('Schubladengriff, Lochabstand 100 mm', 'DOLD A-75903 passt in Länge 113, Höhe 49 und Lochabstand 100, hat aber M6-Gewinde; Fusion misst Ø5,5. Prüfen, ob die CAD-Bohrung ein Durchgangsloch ist (dann A-75873, 112 mm lang).', 'DOLD'),
-52: ('Gelenkfuß M6 / Teller Ø40 mm', 'DOLD GF-K-10-PA-028: M6 und Teller Ø40 = CAD. Gewindelänge (20 mm angenommen) aus CAD-Höhe 30,4 nicht belegt; Traglast nicht angegeben.', 'DOLD'),
+52: ('Gelenkfuß M6×20 / Teller Ø40 mm', 'DOLD GF-K-10-PA-028: M6, Teller Ø40 = CAD; Fusion-Messung Gewindelänge 20 mm = Variante M6×20. Traglast vom Händler nicht angegeben.', 'DOLD'),
 53: ('HIWIN MGNR12R150HM, Z-Schiene 150 mm', 'HIWIN-Katalog: 12×8, Teilung 25, Bohrung Ø3,5/Ø6; 150 mm mit 6 Bohrungen und Endabstand 12,5 = Fusion-Messung. Bezug Damen CNC (NL), Zuschnitt.', 'DAMEN'),
 54: ('HIWIN MGN12CZ0HM Z-Führungswagen', 'Bestellschlüssel: Z0 spielfrei, H hohe Genauigkeit, M Edelstahl. Breite 27, Körperhöhe 10, Lochbild 20×15 M3 = CAD; Katalog-Länge 34,7 statt CAD 35,7.', 'DAMEN'),
 55: ('Induktiver Näherungsschalter M8, Bauhülle60mm', '24 CAD-Vorkommen. MPN, Schaltabstand, NPN/PNP, NO/NC, Versorgung, Pegel und Kabellänge fehlen.24V nicht direkt an SKR-Eingänge; InterfaceCAD-unabhängig SYS-019.', 'TME'),
@@ -262,12 +262,20 @@ def make_parts():
         if key=='CAD-063': quantity=4
         if key=='CAD-085': quantity=1
         if key in EXCLUDED: quantity=0
-        if key in ids(27,49,50,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
+        if key in ids(27,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
         if key=='CAD-080': title='GleitbuchseØ10 innen / Ø19 außen / Länge29mm'
         if key=='CAD-001': title='Y-Riemenklemme (CAD-Name TR10x2 GT2 Adapter)'
         if key=='CAD-002': title='Y-Riemenklemme, Deckel'
         if key=='CAD-010':
             note='Schubladen-Dummy564×410×12mm: unklar, ob reale Platte benötigt und welches Material. Nicht stillschweigend ausschließen oder aus Stahl fertigen.'
+        if key=='CAD-003':
+            material='Aluminium 3 mm (Entscheidung 17.10.2026), z. B. EN AW-5754'
+            note='650×270×3 mm, 54 Bohrungen Ø3,4, 10 Bohrungen Ø4,5, 1 Bohrung Ø8. 6 Ø4,5-Bohrungen sitzen auf den langen Profilen (M4 + Nutenstein, siehe M01). Zuschnitt und Bohrungen intern; Zeichnung aus CAD ableiten.'
+        if key in ids(96,97):
+            process_evidence='Laserschneiden belegt (Blog); Fertigung intern (Entscheidung 17.10.2026)'
+            note='5 mm Stahl, 550×135 mm. Fusion-Messung: 16 Kernlöcher Ø2,46 für M3-Gewinde (Riemenspanner), Senkungen für M6 und Ø22-Durchbrüche für die Motoren. Kontur und Bohrungen aus CAD; Gewinde und Senkungen intern. Zeichnung mit Lagetoleranzen der Führungsbohrungen fehlt.'
+        if key=='CAD-020':
+            note='Querschnitt und Länge aus CAD (4×350 mm). Unten M6-Gewinde in die Kernbohrung Ø5 für die Gelenkfüße, intern schneiden (Entscheidung 17.10.2026). Profilserie siehe M01.'
         if key=='CAD-109':
             note='Name nennt2mm, CAD zeigt3mm Dicke. Innendurchmesser, Material und benötigte Distanz vor Fertigung klären.'
         if key in ids(107,110,111,112,116,117):
