@@ -1,32 +1,37 @@
 {
-  "_hinweis": "Montagemodule für den schrittweisen Aufbau. Jedes Modul nennt CAD-Teile über Fusion-Komponente (scope) und CAD-Namen. Mengen kommen aus evidence/component-inventory.csv. Redaktionell gepflegt; Generator: tools/build_procurement.py.",
+  "_hinweis": "Montagemodule für den schrittweisen Aufbau. Jedes Modul nennt CAD-Teile über Fusion-Komponente (scope) und CAD-Namen; 'menge' begrenzt die Stückzahl, wenn nur ein Teil der Vorkommen zum Modul gehört. 'zusatz' sind nötige Teile ohne CAD-Körper. Redaktionell gepflegt; Generator: tools/build_procurement.py.",
   "module": [
     {
       "id": "M01",
       "name": "Grundgerüst",
       "beschreibung": "Tragender Rahmen ohne Elektrik, ohne Halter für elektrische Teile, ohne Achsen, Schublade und Verkleidung.",
-      "stand": "Abgrenzung mit Luis am 17.10.2026 abgestimmt; Vollständigkeit noch nicht geprüft.",
+      "stand": "Abgrenzung mit Luis am 17.10.2026 abgestimmt. Vollständigkeit am 17.10.2026 per Fusion-Kontaktanalyse geprüft (bom/evidence/fusion-measurements.json, tools/fusion_measurements.py).",
       "teile": [
         {"scope": "base:1", "cad_name": "base_frame_long_side"},
         {"scope": "base:1", "cad_name": "base_frame_short"},
         {"scope": "base:1", "cad_name": "base_frame_side"},
         {"scope": "base:1", "cad_name": "base_vertical"},
-        {"scope": "base:1", "cad_name": "screw_on_bracket_30_6"},
-        {"scope": "base:1", "cad_name": "din_7991_m6x14"},
-        {"scope": "base:1", "cad_name": "din_7991_m6x20"},
+        {"scope": "base:1", "cad_name": "screw_on_bracket_30_6", "menge": 18, "hinweis": "18 von 26 verbinden Rahmenprofile; 8 gehören zur Schublade."},
+        {"scope": "base:1", "cad_name": "din_7991_m6x20", "menge": 8, "hinweis": "8 von 22 verbinden die Motorplatten mit den 60×30-Profilen; 8 halten die Adapterplatten (X-Antrieb), 6 die Kettenhalter."},
         {"scope": "base:1", "cad_name": "x_motor_plate"},
         {"scope": "base:1", "cad_name": "x_motor_plate_2"},
-        {"scope": "base:1", "cad_name": "base_plate_adapter_1"},
-        {"scope": "base:1", "cad_name": "base_plate_adapter_2"},
-        {"scope": "base:1", "cad_name": "base_plate_adapter_left"},
-        {"scope": "base:1", "cad_name": "base_plate_adapter_right"},
         {"scope": "base:1", "cad_name": "base_back_plate"},
         {"scope": "base:1", "cad_name": "hinged_M6_40_dold"}
       ],
+      "zusatz": [
+        {"teil": "Nutenstein mit Steg I-Typ Nut 6, M6 (DOLD 62354-VK)", "menge": 8, "bezug": "SYS-029", "grund": "Senkschrauben M6×20 der Motorplatten greifen in die Nut der 60×30-Profile; im CAD kein Gegenstück."},
+        {"teil": "Zylinderschraube M4 + Nutenstein I-Typ Nut 6 M4 (DOLD 62347-VK)", "menge": 6, "bezug": "SYS-029", "grund": "6 Bohrungen Ø4,5 der Rückwand liegen auf den langen Profilen; im CAD keine Schrauben. Schraubenlänge aus 3 mm Blech + Nutenstein festlegen (M4×8 oder M4×10)."},
+        {"teil": "Befestigungssätze der Winkel", "menge": 18, "bezug": "CAD-081", "grund": "Bereits enthalten: CAD-081 wird als Satz 62385-BS mit 2 Schrauben M6×12 und 2 Nutensteinen bestellt."},
+        {"teil": "Gewinde M6 in Profil-Kernbohrung Ø5", "menge": 4, "bezug": "CAD-020", "grund": "Gelenkfüße sitzen in den unteren Enden der 4 Vertikalprofile; Kernbohrung Ø5 ist das M6-Kernloch. Bearbeitung, kein Kaufteil."}
+      ],
+      "entfernt": [
+        "DIN 7991 M6×14 (6 Stück): befestigen die Schubladen-Dummyplatte, gehören zur Schublade.",
+        "Adapterplatten CAD-016 bis CAD-019: tragen die X-Riemenantriebe (M3/M4-Schrauben aus x_belt_drive) und gehören zur X-Achse. Fertigungsverfahren weiter mit PRÜFEN-Vermerk.",
+        "Muttern M8×1 an den Motorplatten (8 Stück): halten induktive Sensoren, gehören zur Elektrik."
+      ],
       "offen": [
-        "Adapterplatten: Grundgerüst oder X-Achse (evtl. Motor-Adapterplatten)?",
         "Abdeckungen oben/seitlich: aussteifend (dann Grundgerüst) oder reine Verkleidung?",
-        "Nutensteine für die 26 Winkel sind nicht im CAD (SYS-029)."
+        "4 weitere Ø4,5-Bohrungen der Rückwand treffen kein Profil; vermutlich für Netzteil oder Elektronik."
       ]
     }
   ]

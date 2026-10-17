@@ -1,16 +1,11 @@
-﻿modul,modulname,scope,id,name,cad_name,quantity,status,group
-M01,Grundgerüst,base:1,CAD-012,Grundgestell: Rahmen lang Seite,base_frame_long_side,3,Fertigung noch offen,Weitere Fertigung
-M01,Grundgerüst,base:1,CAD-013,Grundgestell: Rahmen kurz,base_frame_short,8,Fertigung noch offen,Weitere Fertigung
-M01,Grundgerüst,base:1,CAD-014,Grundgestell: Rahmen Seite,base_frame_side,2,Fertigung noch offen,Weitere Fertigung
-M01,Grundgerüst,base:1,CAD-020,Grundgestell: vertikal,base_vertical,4,Fertigung noch offen,Weitere Fertigung
-M01,Grundgerüst,base:1,CAD-081,Anschraubwinkel 30 / Nut 6,screw_on_bracket_30_6,26,bestellfähig,Kaufteile
-M01,Grundgerüst,base:1,CAD-033,DIN 7991 M6×14,din_7991_m6x14,6,bestellfähig,Kaufteile
-M01,Grundgerüst,base:1,CAD-034,DIN 7991 M6×20,din_7991_m6x20,22,bestellfähig,Kaufteile
-M01,Grundgerüst,base:1,CAD-096,X-Achse Motor Platte,x_motor_plate,1,Fertigung noch offen,Blech intern
-M01,Grundgerüst,base:1,CAD-097,X-Achse Motor Platte 2,x_motor_plate_2,1,Fertigung noch offen,Blech intern
-M01,Grundgerüst,base:1,CAD-016,Grundgestell: Platte Adapter 1,base_plate_adapter_1,2,Fertigung noch offen,CNC extern
-M01,Grundgerüst,base:1,CAD-017,Grundgestell: Platte Adapter 2,base_plate_adapter_2,2,Fertigung noch offen,CNC extern
-M01,Grundgerüst,base:1,CAD-018,Grundgestell: Platte Adapter links,base_plate_adapter_left,2,Fertigung noch offen,CNC extern
-M01,Grundgerüst,base:1,CAD-019,Grundgestell: Platte Adapter rechts,base_plate_adapter_right,2,Fertigung noch offen,CNC extern
-M01,Grundgerüst,base:1,CAD-003,Grundgestell: Rückseite Platte,base_back_plate,1,Fertigung noch offen,Blech intern
-M01,Grundgerüst,base:1,CAD-052,Gelenkfuß M6 / Teller Ø40 mm,hinged_M6_40_dold,4,teilweise geklärt,Kaufteile
+﻿modul,modulname,scope,id,name,cad_name,quantity,cad_total,status,group,hint
+M01,Grundgerüst,base:1,CAD-012,Grundgestell: Rahmen lang Seite,base_frame_long_side,3,3,Fertigung noch offen,Weitere Fertigung,
+M01,Grundgerüst,base:1,CAD-013,Grundgestell: Rahmen kurz,base_frame_short,8,8,Fertigung noch offen,Weitere Fertigung,
+M01,Grundgerüst,base:1,CAD-014,Grundgestell: Rahmen Seite,base_frame_side,2,2,Fertigung noch offen,Weitere Fertigung,
+M01,Grundgerüst,base:1,CAD-020,Grundgestell: vertikal,base_vertical,4,4,Fertigung noch offen,Weitere Fertigung,
+M01,Grundgerüst,base:1,CAD-081,Anschraubwinkel 30 / Nut 6,screw_on_bracket_30_6,18,26,bestellfähig,Kaufteile,18 von 26 verbinden Rahmenprofile; 8 gehören zur Schublade.
+M01,Grundgerüst,base:1,CAD-034,DIN 7991 M6×20,din_7991_m6x20,8,22,bestellfähig,Kaufteile,"8 von 22 verbinden die Motorplatten mit den 60×30-Profilen; 8 halten die Adapterplatten (X-Antrieb), 6 die Kettenhalter."
+M01,Grundgerüst,base:1,CAD-096,X-Achse Motor Platte,x_motor_plate,1,1,Fertigung noch offen,Blech intern,
+M01,Grundgerüst,base:1,CAD-097,X-Achse Motor Platte 2,x_motor_plate_2,1,1,Fertigung noch offen,Blech intern,
+M01,Grundgerüst,base:1,CAD-003,Grundgestell: Rückseite Platte,base_back_plate,1,1,Fertigung noch offen,Blech intern,
+M01,Grundgerüst,base:1,CAD-052,Gelenkfuß M6 / Teller Ø40 mm,hinged_M6_40_dold,4,4,teilweise geklärt,Kaufteile,

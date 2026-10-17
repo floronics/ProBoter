@@ -702,7 +702,9 @@ def montage(parts,components):
             assert hits,(m['id'],t)
             p=byid[hits[0]['id']]
             rows.append(dict(modul=m['id'],modulname=m['name'],scope=t['scope'],id=p['id'],name=p['name'],cad_name=p['cad_name'],
-                             quantity=sum(r['quantity'] for r in hits),status=p['status'],group=p['group']))
+                             quantity=t.get('menge',sum(r['quantity'] for r in hits)),cad_total=sum(r['quantity'] for r in hits),
+                             status=p['status'],group=p['group'],hint=t.get('hinweis','')))
+            assert rows[-1]['quantity']<=rows[-1]['cad_total'],(m['id'],t)
     write_csv(BOM/'montage/montage.csv',rows)
     order=['bestellfähig','teilweise geklärt','Fertigung noch offen','Fertigung spezifiziert','nicht identifiziert','nicht benötigt']
     text='# Montagemodule\n\nSchrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [module.json](module.json), Teile mit Mengen in [montage.csv](montage.csv). Mengen sind CAD-Mengen im jeweiligen Fusion-Einbau; Status aus der [Teileliste](../Teileliste.md). In Fusion einblenden: `tools/fusion_show_module.py`.\n\n'
@@ -714,8 +716,14 @@ def montage(parts,components):
         sub=[r for r in rows if r['modul']==m['id']]
         text+=f"<a id=\"modul-{m['id'][1:]}\"></a>\n\n## {m['id']} {m['name']}\n\n{m['beschreibung']}\n\n*{m['stand']}*\n\n"
         text+=table(['ID / Teil','CAD-Name','Stück','Status','Beschaffungsart'],[
-            [f"[{r['id']}](../Teileliste.md#{r['id'].lower()}) {r['name']}",f"`{r['cad_name']}`",r['quantity'],r['status'],r['group']]
+            [f"[{r['id']}](../Teileliste.md#{r['id'].lower()}) {r['name']}",f"`{r['cad_name']}`",
+             f"{r['quantity']} von {r['cad_total']}" if r['quantity']!=r['cad_total'] else r['quantity'],
+             r['status']+(f"; {r['hint']}" if r['hint'] else ''),r['group']]
             for r in sorted(sub,key=lambda r:(order.index(r['status']),r['id']))])+'\n'
+        if m.get('zusatz'):
+            text+='**Zusätzlich nötig, nicht im CAD**\n\n'+table(['Teil','Stück','Bezug','Grund'],[[z['teil'],z['menge'],z['bezug'],z['grund']] for z in m['zusatz']])+'\n'
+        if m.get('entfernt'):
+            text+='**Bei der Prüfung aus dem Modul genommen**\n\n'+''.join(f'- {q}\n' for q in m['entfernt'])+'\n'
         if m.get('offen'):
             text+='**Offene Fragen**\n\n'+''.join(f'- {q}\n' for q in m['offen'])+'\n'
     (BOM/'montage/Montage.md').write_text(text.rstrip()+'\n',encoding='utf-8')
