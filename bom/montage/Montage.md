@@ -8,7 +8,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | [M02 X-Achse](#modul-02) | 33 | 434 | 21 | 0 | 7 | 5 | 0 | 0 |
 | [M03 Y-Achse](#modul-03) | 27 | 168 | 17 | 0 | 0 | 10 | 0 | 0 |
 | [M04 Z-Achse](#modul-04) | 20 | 100 | 14 | 0 | 0 | 6 | 0 | 0 |
-| [M05 Schublade und Platinenhalter](#modul-05) | 21 | 96 | 13 | 2 | 1 | 4 | 1 | 0 |
+| [M05 Schublade und Platinenhalter](#modul-05) | 21 | 96 | 15 | 0 | 1 | 4 | 1 | 0 |
 | [M06 Kabelführung](#modul-06) | 10 | 57 | 3 | 0 | 2 | 5 | 0 | 0 |
 | [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 6 | 2 | 2 | 6 | 2 | 0 |
 | [M08 Optik](#modul-08) | 8 | 22 | 3 | 1 | 1 | 3 | 0 | 0 |
@@ -246,11 +246,11 @@ Ausziehbare Schublade mit Teleskopschienen, Seitenprofilen, Bodenplatte und Grif
 | [CAD-081](../Teileliste.md#cad-081) Anschraubwinkel 30 / Nut 6 | `screw_on_bracket_30_6` | 8 von 26 | bestellfähig; 8 von 26 verbinden die Schubladenprofile. | Kaufteile |
 | [CAD-084](../Teileliste.md#cad-084) Teleskopschiene 350 mm, Vollauszug | `telescopic_bar_tsaa514613-350` | 2 | bestellfähig | Kaufteile |
 | [SYS-044](../Teileliste.md#sys-044) Nutenstein I-Typ Nut 6, M5, Griff | nicht im CAD | 2 | bestellfähig | Kaufteile |
+| [SYS-045](../Teileliste.md#sys-045) Zylinderschraube DIN 912 M5×35 A2, Griff | nicht im CAD | 2 | bestellfähig | Kaufteile |
 | [SYS-046](../Teileliste.md#sys-046) Zylinderschraube DIN 912 M4×10 A2, Wellenhalter | nicht im CAD | 7 | bestellfähig | Kaufteile |
 | [SYS-047](../Teileliste.md#sys-047) Nutenstein I-Typ Nut 6, M4, Wellenhalter | nicht im CAD | 8 | bestellfähig | Kaufteile |
+| [SYS-048](../Teileliste.md#sys-048) Linsenkopfschraube ISO 7380-1 M4×8 A2, Teleskopschienen | nicht im CAD | 12 | bestellfähig | Kaufteile |
 | [SYS-049](../Teileliste.md#sys-049) Nutenstein I-Typ Nut 6, M4, Teleskopschienen | nicht im CAD | 12 | bestellfähig | Kaufteile |
-| [SYS-045](../Teileliste.md#sys-045) Zylinderschraube DIN 912 M5×35 A2, Griff | nicht im CAD | 2 | teilweise geklärt | Kaufteile |
-| [SYS-048](../Teileliste.md#sys-048) Flachkopfschraube M4×8 A2, Teleskopschienen | nicht im CAD | 12 | teilweise geklärt | Kaufteile |
 | [CAD-070](../Teileliste.md#cad-070) Platine Halter rechteckig Stange | `pcb_holder_rect_rod` | 2 | Fertigung noch offen | Weitere Fertigung |
 | [CAD-067](../Teileliste.md#cad-067) Platine Halter Gleiter | `pcb_holder_glider` | 4 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-068](../Teileliste.md#cad-068) Platine Halter Führung Halter rund d 10 | `pcb_holder_guiding_holder_round_d10` | 4 | Fertigung spezifiziert | 3D-Druck intern |

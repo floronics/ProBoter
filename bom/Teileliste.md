@@ -535,10 +535,10 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [SYS-042](#sys-042) Nutenstein I-Typ Nut 6, M4, Rückwand | 6 Stück | Kaufteile | bestellfähig |
 | [SYS-043](#sys-043) Zylinderschraube DIN 912 M4×10 A2, Rückwand | 6 Stück | Kaufteile | bestellfähig |
 | [SYS-044](#sys-044) Nutenstein I-Typ Nut 6, M5, Griff | 2 Stück | Kaufteile | bestellfähig |
-| [SYS-045](#sys-045) Zylinderschraube DIN 912 M5×35 A2, Griff | 2 Stück | Kaufteile | teilweise geklärt |
+| [SYS-045](#sys-045) Zylinderschraube DIN 912 M5×35 A2, Griff | 2 Stück | Kaufteile | bestellfähig |
 | [SYS-046](#sys-046) Zylinderschraube DIN 912 M4×10 A2, Wellenhalter | 7 Stück | Kaufteile | bestellfähig |
 | [SYS-047](#sys-047) Nutenstein I-Typ Nut 6, M4, Wellenhalter | 8 Stück | Kaufteile | bestellfähig |
-| [SYS-048](#sys-048) Flachkopfschraube M4×8 A2, Teleskopschienen | 12 Stück | Kaufteile | teilweise geklärt |
+| [SYS-048](#sys-048) Linsenkopfschraube ISO 7380-1 M4×8 A2, Teleskopschienen | 12 Stück | Kaufteile | bestellfähig |
 | [SYS-049](#sys-049) Nutenstein I-Typ Nut 6, M4, Teleskopschienen | 12 Stück | Kaufteile | bestellfähig |
 
 # Details nach Beschaffungsart
@@ -625,10 +625,10 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="sys-042"></a>**SYS-042** Nutenstein I-Typ Nut 6, M4, Rückwand | – / – / **6 Stück** | bestellfähig | offen; nicht belegt | Fusion-Kontaktanalyse M01: 6 Bohrungen Ø4,5 der Rückwand liegen auf den langen Profilen; im CAD keine Befestigung.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-042` |
 | <a id="sys-043"></a>**SYS-043** Zylinderschraube DIN 912 M4×10 A2, Rückwand | – / – / **6 Stück** | bestellfähig | offen; nicht belegt | Zu SYS-042; 3 mm Rückwand plus Nutenstein.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-043` |
 | <a id="sys-044"></a>**SYS-044** Nutenstein I-Typ Nut 6, M5, Griff | – / – / **2 Stück** | bestellfähig | offen; nicht belegt | Griff A-75873 mit Durchgangsbohrungen wird von vorn ins Schubladenprofil geschraubt.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-044` |
-| <a id="sys-045"></a>**SYS-045** Zylinderschraube DIN 912 M5×35 A2, Griff | – / – / **2 Stück** | teilweise geklärt | offen; nicht belegt | Länge aus 29 mm Griffbein plus Nutenstein; Artikel noch nicht verifiziert.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `OPEN-SYS-045` |
+| <a id="sys-045"></a>**SYS-045** Zylinderschraube DIN 912 M5×35 A2, Griff | – / – / **2 Stück** | bestellfähig | offen; nicht belegt | Länge aus 29 mm Griffbein plus Nutenstein; Schrauben.Expert 912 5 35 A2.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-045` |
 | <a id="sys-046"></a>**SYS-046** Zylinderschraube DIN 912 M4×10 A2, Wellenhalter | – / – / **7 Stück** | bestellfähig | offen; nicht belegt | Fusion-Messung: 4 Wellenhalter mit je 2 Bohrungen Ø4,5 über der Nut der Schubladen-Querprofile; 1 von 8 Schrauben im CAD.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-046` |
 | <a id="sys-047"></a>**SYS-047** Nutenstein I-Typ Nut 6, M4, Wellenhalter | – / – / **8 Stück** | bestellfähig | offen; nicht belegt | Gegenstück zu den 8 Wellenhalter-Schrauben.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-047` |
-| <a id="sys-048"></a>**SYS-048** Flachkopfschraube M4×8 A2, Teleskopschienen | – / – / **12 Stück** | teilweise geklärt | offen; nicht belegt | ANNAHME (Luis 17.10.2026): je Schiene 3 Schrauben zum Rahmen und 3 zur Schublade; im CAD keine Befestigung. Kopfhöhe muss in den Auszug passen; Artikel noch nicht verifiziert.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `OPEN-SYS-048` |
+| <a id="sys-048"></a>**SYS-048** Linsenkopfschraube ISO 7380-1 M4×8 A2, Teleskopschienen | – / – / **12 Stück** | bestellfähig | offen; nicht belegt | ANNAHME (Luis 17.10.2026): je Schiene 3 Schrauben zum Rahmen und 3 zur Schublade; im CAD keine Befestigung. Linsenkopf ISO 7380-1, Kopfhöhe 2,2 mm.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-048` |
 | <a id="sys-049"></a>**SYS-049** Nutenstein I-Typ Nut 6, M4, Teleskopschienen | – / – / **12 Stück** | bestellfähig | offen; nicht belegt | ANNAHME, Gegenstück zu SYS-048.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-049` |
 
 ## 3D-Druck intern

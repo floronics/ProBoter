@@ -202,10 +202,10 @@ SYSTEM = [
 ('042','Nutenstein I-Typ Nut 6, M4, Rückwand',6,'Stück','Kaufteile','DOLD','Fusion-Kontaktanalyse M01: 6 Bohrungen Ø4,5 der Rückwand liegen auf den langen Profilen; im CAD keine Befestigung.',CAD),
 ('043','Zylinderschraube DIN 912 M4×10 A2, Rückwand',6,'Stück','Kaufteile','SCHRAUBEN','Zu SYS-042; 3 mm Rückwand plus Nutenstein.',CAD),
 ('044','Nutenstein I-Typ Nut 6, M5, Griff',2,'Stück','Kaufteile','DOLD','Griff A-75873 mit Durchgangsbohrungen wird von vorn ins Schubladenprofil geschraubt.',CAD),
-('045','Zylinderschraube DIN 912 M5×35 A2, Griff',2,'Stück','Kaufteile','SCHRAUBEN','Länge aus 29 mm Griffbein plus Nutenstein; Artikel noch nicht verifiziert.',CAD),
+('045','Zylinderschraube DIN 912 M5×35 A2, Griff',2,'Stück','Kaufteile','SCHRAUBEN','Länge aus 29 mm Griffbein plus Nutenstein; Schrauben.Expert 912 5 35 A2.',CAD),
 ('046','Zylinderschraube DIN 912 M4×10 A2, Wellenhalter',7,'Stück','Kaufteile','SCHRAUBEN','Fusion-Messung: 4 Wellenhalter mit je 2 Bohrungen Ø4,5 über der Nut der Schubladen-Querprofile; 1 von 8 Schrauben im CAD.',CAD),
 ('047','Nutenstein I-Typ Nut 6, M4, Wellenhalter',8,'Stück','Kaufteile','DOLD','Gegenstück zu den 8 Wellenhalter-Schrauben.',CAD),
-('048','Flachkopfschraube M4×8 A2, Teleskopschienen',12,'Stück','Kaufteile','SCHRAUBEN','ANNAHME (Luis 17.10.2026): je Schiene 3 Schrauben zum Rahmen und 3 zur Schublade; im CAD keine Befestigung. Kopfhöhe muss in den Auszug passen; Artikel noch nicht verifiziert.',CAD),
+('048','Linsenkopfschraube ISO 7380-1 M4×8 A2, Teleskopschienen',12,'Stück','Kaufteile','SCHRAUBEN','ANNAHME (Luis 17.10.2026): je Schiene 3 Schrauben zum Rahmen und 3 zur Schublade; im CAD keine Befestigung. Linsenkopf ISO 7380-1, Kopfhöhe 2,2 mm.',CAD),
 ('049','Nutenstein I-Typ Nut 6, M4, Teleskopschienen',12,'Stück','Kaufteile','DOLD','ANNAHME, Gegenstück zu SYS-048.',CAD),
 ]
 
@@ -322,7 +322,7 @@ def make_parts():
         if group in ['PCB extern','3D-Druck intern','Weitere Fertigung']: status='Fertigung noch offen'
         if group=='Ungeklärte Teile': status='nicht identifiziert'
         if group=='Nicht benötigt': status='nicht benötigt'
-        if key in ('041','042','043','044','046','047','049'): status='bestellfähig'
+        if key in ('041','042','043','044','045','046','047','048','049'): status='bestellfähig'
         result.append(dict(id='SYS-'+key,name=title,cad_name='',cad_quantity='',fusion_quantity='',quantity=qty,
                            unit=unit,group=group,status=status,geometry_mm='',solid_volume_cm3='',
                            material='nicht belegt',process_evidence='Planungsbedarf; '+source,
@@ -404,7 +404,7 @@ def make_orders(parts):
     add('BUY-024','16 Anschlusssätze E2.10 schmal',['SYS-027'],16,unit='Satz',offer='O-050')
     add('BUY-025','8 Anschlusssätze E2.10 breit',['SYS-028'],8,unit='Satz',offer='O-051')
     add('BUY-017','Z-Riemen 9 mm',ids(113),D('1.28'),unit='m',offer='O-044',note='Zuschnitt aus Fusion-Messung 4×0,32 m.')
-    for key in ('SYS-041','SYS-042','SYS-043','SYS-044','SYS-046','SYS-047','SYS-049'):
+    for key in ('SYS-041','SYS-042','SYS-043','SYS-044','SYS-045','SYS-046','SYS-047','SYS-048','SYS-049'):
         add('BUY-'+key,byid[key]['name'],[key],byid[key]['quantity'],offer=cad_offers[key])
     for n in (51,52,59,81,84):
         p=byid[f'CAD-{n:03}']

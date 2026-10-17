@@ -10,12 +10,12 @@ im Shop bestätigen. Kein Warenkorb wurde bestellt.
 
 | Umfang | netto | brutto |
 | --- | --- | --- |
-| 1. Beobachtete Webpreise × geplante Bestellpackungen | 2.393,85 € | 2.848,75 € |
-| Davon Positionen mit Status bestellfähig | 1.758,47 € | 2.092,65 € |
+| 1. Beobachtete Webpreise × geplante Bestellpackungen | 2.400,82 € | 2.857,05 € |
+| Davon Positionen mit Status bestellfähig | 1.765,44 € | 2.100,95 € |
 | Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 635,38 € | 756,10 € |
 | Eigene Budgetschätzungen zusätzlich | 825,25 € | 982,03 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.219,10 € | 3.830,78 € |
-| 3. Noch unbezifferte Positionen: 24 | nicht berechenbar | nicht berechenbar |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.226,07 € | 3.839,08 € |
+| 3. Noch unbezifferte Positionen: 22 | nicht berechenbar | nicht berechenbar |
 
 **Der Gesamtpreis eines funktionierenden Nachbaus bleibt offen.** Die Summe unter 2
 deckt nur bezifferte Positionen ab. Entwicklung von Elektronik/Firmware, interne
@@ -71,7 +71,7 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | OFFEN | 0,00 € | 150,00 € | 150,00 € |
 | RBS | 457,90 € | 30,00 € | 487,90 € |
 | REICHELT | 207,44 € | 195,00 € | 402,44 € |
-| SCHRAUBEN | 59,80 € | 29,00 € | 88,80 € |
+| SCHRAUBEN | 68,10 € | 29,00 € | 97,10 € |
 | STEPPERONLINE | 0,00 € | 38,08 € | 38,08 € |
 | TINYTRONICS | 30,00 € | 0,00 € | 30,00 € |
 | TME | 0,00 € | 169,00 € | 169,00 € |
@@ -102,8 +102,6 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | OPEN-SYS-038 | Kalibrier-Kontaktleitungen und gemeinsame Messreferenz | 4 SKR-Zentriereingänge P0_17 mit Pull-up/aktiv Low sowie Referenzkörper/Kontaktkreis verdrahten. Netzplan, Stecker, Länge und Bezugspotenzial mit Multiplexer klären; keine Verbindung ungeprüft festlegen. |
 | OPEN-SYS-039 | Erhöhte Messing-Referenzzylinder | Ø7 mm laut Reference Board-Skizze; Code setzt vier Endflächen 6/8/10/12 mm über Bezugsebene auf Raster 59,6×39,9 mm. Gesamtlängen und Einstecktiefe sind nicht diese Höhen; Zeichnung und Toleranzen fehlen. |
 | OPEN-SYS-040 | Äußere flache Messing-Referenzzylinder | Ø7 mm laut Reference Board-Skizze; Mittelpunkte(±54,95;0) und(0;±44,9)mm. Endflächen auf Bezugsebene; Länge und Montage offen. Insgesamt 12Messingzylinder plus 4weiße Referenzen. |
-| OPEN-SYS-045 | Zylinderschraube DIN 912 M5×35 A2, Griff | Länge aus 29 mm Griffbein plus Nutenstein; Artikel noch nicht verifiziert. |
-| OPEN-SYS-048 | Flachkopfschraube M4×8 A2, Teleskopschienen | ANNAHME (Luis 17.10.2026): je Schiene 3 Schrauben zum Rahmen und 3 zur Schublade; im CAD keine Befestigung. Kopfhöhe muss in den Auszug passen; Artikel noch nicht verifiziert. |
 
 ## Größte Kostenrisiken
 

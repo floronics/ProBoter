@@ -8,10 +8,10 @@
 
 | Ergebnis | netto | brutto 19% |
 | --- | --- | --- |
-| 1. Summe belegter Webpreise bei Planmengen (einschließlich ungeprüfter Kandidaten) | 2.393,85 € | 2.848,75 € |
+| 1. Summe belegter Webpreise bei Planmengen (einschließlich ungeprüfter Kandidaten) | 2.400,82 € | 2.857,05 € |
 | Zusätzliche eigene Budgetschätzungen inklusive Frachtreserve | 825,25 € | 982,03 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.219,10 € | 3.830,78 € |
-| 3. 24 noch unbezifferte Bestellpositionen | offen | offen |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.226,07 € | 3.839,08 € |
+| 3. 22 noch unbezifferte Bestellpositionen | offen | offen |
 
 **Das vorläufige Total ist kein vollständiger Baupreis.** Die unbezifferten Platinen, Prüfkontakte, Sensoren und Kalibrierteile kommen hinzu. Ein vorhan dener Shoppreis beweist keine Austauschbarkeit. [Kostenmethodik](Kosten.md) trennt Preise, Mengenannahmen und offene Bedarfe.
 
@@ -64,8 +64,10 @@ TMC2130, Rollen, Lager und Kamerakandidaten besitzen konkrete Bezugsquellen, ben
 | **BUY-SYS-042** Nutenstein I-Typ Nut 6, M4, Rückwand<br>SYS-042 | 6 Stück → 1 × 10 | [DOLD](https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M4) / 62347-VK<br>DOLD: 62347-VK<br>sofort verfügbar | 4,80 € brutto | 4,03 € / 4,80 € | Passend zu I-Typ Nut 6; Staffelpreis 0,48 EUR ab 10 Stück.  |
 | **BUY-SYS-043** Zylinderschraube DIN 912 M4×10 A2, Rückwand<br>SYS-043 | 6 Stück → 1 × 10 | [SCHRAUBEN](https://schrauben-expert.de/Zylinderschraube-DIN-912-M4-x-10-mm-Edelstahl-A2) / 912 4 10 A2<br>Schrauben.Expert: 912 4 10 A2<br>Expresslager 1–4 Werktage | 3,30 € brutto | 2,77 € / 3,30 € | 3 mm Rückwand + Nutenstein; gleicher Artikel wie CAD-043, separat für die Rückwand.  |
 | **BUY-SYS-044** Nutenstein I-Typ Nut 6, M5, Griff<br>SYS-044 | 2 Stück → 2 × 1 | [DOLD](https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M5) / 62361-VK<br>DOLD: 62361-VK<br>sofort verfügbar | 0,89 € brutto | 1,50 € / 1,78 € | Für die Griffschrauben M5.  |
+| **BUY-SYS-045** Zylinderschraube DIN 912 M5×35 A2, Griff<br>SYS-045 | 2 Stück → 1 × 10 | [SCHRAUBEN](https://schrauben-expert.de/Zylinderschraube-DIN-912-M5-x-35-mm-Edelstahl-A2) / 912 5 35 A2<br>Schrauben.Expert: 912 5 35 A2<br>Express 13 Stück, Lager 8000 | 3,30 € brutto | 2,77 € / 3,30 € | Mindestabnahme 10.  |
 | **BUY-SYS-046** Zylinderschraube DIN 912 M4×10 A2, Wellenhalter<br>SYS-046 | 7 Stück → 1 × 10 | [SCHRAUBEN](https://schrauben-expert.de/Zylinderschraube-DIN-912-M4-x-10-mm-Edelstahl-A2) / 912 4 10 A2<br>Schrauben.Expert: 912 4 10 A2<br>Expresslager 1–4 Werktage | 3,30 € brutto | 2,77 € / 3,30 € | Wellenhalter: 6 mm Flansch + Nutenstein; Fusion zeigt die modellierte M4×10 genau so.  |
 | **BUY-SYS-047** Nutenstein I-Typ Nut 6, M4, Wellenhalter<br>SYS-047 | 8 Stück → 1 × 10 | [DOLD](https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M4) / 62347-VK<br>DOLD: 62347-VK<br>sofort verfügbar | 4,80 € brutto | 4,03 € / 4,80 € | Staffelpreis 0,48 EUR ab 10 Stück.  |
+| **BUY-SYS-048** Linsenkopfschraube ISO 7380-1 M4×8 A2, Teleskopschienen<br>SYS-048 | 12 Stück → 1 × 25 | [SCHRAUBEN](https://schrauben-expert.de/Linsenkopfschraube-ISO-7380-1-M4-x-8-Edelstahl-A2) / 7380-1 4 8 A2<br>Schrauben.Expert: 7380-1 4 8 A2<br>Express 130 Stück | 5,00 € brutto | 4,20 € / 5,00 € | Flacher Kopf dk 7,6, k 2,2 mm; 25 Stück günstiger als 14.  |
 | **BUY-SYS-049** Nutenstein I-Typ Nut 6, M4, Teleskopschienen<br>SYS-049 | 12 Stück → 2 × 10 | [DOLD](https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M4) / 62347-VK<br>DOLD: 62347-VK<br>sofort verfügbar | 4,80 € brutto | 8,07 € / 9,60 € | Staffelpreis 0,48 EUR ab 10 Stück.  |
 | **BUY-C051** Schubladengriff DOLD A-75873, Lochabstand 100 mm<br>CAD-051 | 1 Stück → 1 × 1 | [DOLD](https://www.dold-mechatronik.de/Buegelgriff-100mm-mit-Befestigungsbohrungen) / A-75873<br>DOLD: A-75873<br>laut Recherche lieferbar | 8,15 € brutto | 6,85 € / 8,15 € | Lochabstand 100, Höhe 49, Durchgangsbohrung Ø5,4 = CAD (Ø5,5 durch, 29 mm); Länge 112 statt 113 mm.  |
 | **BUY-C052** Gelenkfuß M6×20 / Teller Ø40 mm<br>CAD-052 | 4 Stück → 4 × 1 | [DOLD](https://www.dold-mechatronik.de/index.php?a=91508) / GF-K-10-PA-028<br>DOLD: GF-K-10-PA-028<br>sofort verfügbar; 3–4 Werktage | 1,50 € brutto | 5,04 € / 6,00 € | M6 und Teller Ø40 = CAD; Gewindelänge 20 aus CAD-Höhe nicht belegt, Traglast nicht angegeben.  |
@@ -156,8 +158,6 @@ TMC2130, Rollen, Lager und Kamerakandidaten besitzen konkrete Bezugsquellen, ben
 | **OPEN-SYS-038** Kalibrier-Kontaktleitungen und gemeinsame Messreferenz<br>SYS-038 | 1 Satz → 1 × 1 | [TME](https://www.tme.eu/de/) / offen | offen | offen / offen | 4 SKR-Zentriereingänge P0_17 mit Pull-up/aktiv Low sowie Referenzkörper/Kontaktkreis verdrahten. Netzplan, Stecker, Länge und Bezugspotenzial mit Multiplexer klären; keine Verbindung ungeprüft festlegen. Preis und/oder Bestellvariante offen. Nicht im numerischen Zwischentotal enthalten. |
 | **OPEN-SYS-039** Erhöhte Messing-Referenzzylinder<br>SYS-039 | 4 Stück → 4 × 1 | [DOLD](https://www.dold-mechatronik.de/) / offen | offen | offen / offen | Ø7 mm laut Reference Board-Skizze; Code setzt vier Endflächen 6/8/10/12 mm über Bezugsebene auf Raster 59,6×39,9 mm. Gesamtlängen und Einstecktiefe sind nicht diese Höhen; Zeichnung und Toleranzen fehlen. Preis und/oder Bestellvariante offen. Nicht im numerischen Zwischentotal enthalten. |
 | **OPEN-SYS-040** Äußere flache Messing-Referenzzylinder<br>SYS-040 | 4 Stück → 4 × 1 | [DOLD](https://www.dold-mechatronik.de/) / offen | offen | offen / offen | Ø7 mm laut Reference Board-Skizze; Mittelpunkte(±54,95;0) und(0;±44,9)mm. Endflächen auf Bezugsebene; Länge und Montage offen. Insgesamt 12Messingzylinder plus 4weiße Referenzen. Preis und/oder Bestellvariante offen. Nicht im numerischen Zwischentotal enthalten. |
-| **OPEN-SYS-045** Zylinderschraube DIN 912 M5×35 A2, Griff<br>SYS-045 | 2 Stück → 2 × 1 | [SCHRAUBEN](https://schrauben-expert.de/) / offen | offen | offen / offen | Länge aus 29 mm Griffbein plus Nutenstein; Artikel noch nicht verifiziert. Preis und/oder Bestellvariante offen. Nicht im numerischen Zwischentotal enthalten. |
-| **OPEN-SYS-048** Flachkopfschraube M4×8 A2, Teleskopschienen<br>SYS-048 | 12 Stück → 12 × 1 | [SCHRAUBEN](https://schrauben-expert.de/) / offen | offen | offen / offen | ANNAHME (Luis 17.10.2026): je Schiene 3 Schrauben zum Rahmen und 3 zur Schublade; im CAD keine Befestigung. Kopfhöhe muss in den Auszug passen; Artikel noch nicht verifiziert. Preis und/oder Bestellvariante offen. Nicht im numerischen Zwischentotal enthalten. |
 
 ## Optionen und Vergleiche – nicht im Grundtotal
 

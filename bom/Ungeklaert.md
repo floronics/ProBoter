@@ -81,8 +81,6 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | SYS-031 Lötzinn, Schrumpfschlauch, Binder, Labels, Kleber | 1 Satz | Verbrauchsmaterialbudget; vorhan dene Bestände später abziehen. Werkzeuge nicht enthalten. |
 | SYS-032 Controller-Befestigung und Kühlung | 1 Satz | Abstandshalter, Isolierung, ggf.Lüfter; SKR/TMC-Beipack und thermische Auslegung prüfen. |
 | SYS-038 Kalibrier-Kontaktleitungen und gemeinsame Messreferenz | 1 Satz | 4 SKR-Zentriereingänge P0_17 mit Pull-up/aktiv Low sowie Referenzkörper/Kontaktkreis verdrahten. Netzplan, Stecker, Länge und Bezugspotenzial mit Multiplexer klären; keine Verbindung ungeprüft festlegen. |
-| SYS-045 Zylinderschraube DIN 912 M5×35 A2, Griff | 2 Stück | Länge aus 29 mm Griffbein plus Nutenstein; Artikel noch nicht verifiziert. |
-| SYS-048 Flachkopfschraube M4×8 A2, Teleskopschienen | 12 Stück | ANNAHME (Luis 17.10.2026): je Schiene 3 Schrauben zum Rahmen und 3 zur Schublade; im CAD keine Befestigung. Kopfhöhe muss in den Auszug passen; Artikel noch nicht verifiziert. |
 
 ## Reihenfolge zum Schließen der Lücken
 
