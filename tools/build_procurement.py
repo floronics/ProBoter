@@ -107,7 +107,7 @@ CNC = []  # adapter plates moved to the workshop (decision 17.10.2026)
 WORKSHOP = ids(3,16,17,18,19,96,97,99,100)
 STOCK = ids(9,11,12,13,14,20,69,70,93,94,98,103,108)
 PCB = ids(75)
-UNIDENTIFIED = ids(10,55,61,62,73,86,115)
+UNIDENTIFIED = ids(10,61,62,73,115)
 EXCLUDED = ids(66,82)
 NORM = ids(*range(28,49),56,57,58)
 NORM_RESERVE = 'Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026).'
@@ -129,7 +129,7 @@ DETAIL = {
 52: ('Gelenkfuß M6×20 / Teller Ø40 mm', 'DOLD GF-K-10-PA-028: M6, Teller Ø40 = CAD; Fusion-Messung Gewindelänge 20 mm = Variante M6×20. Traglast vom Händler nicht angegeben.', 'DOLD'),
 53: ('HIWIN MGNR12R150HM, Z-Schiene 150 mm', 'HIWIN-Katalog: 12×8, Teilung 25, Bohrung Ø3,5/Ø6; 150 mm mit 6 Bohrungen und Endabstand 12,5 = Fusion-Messung. Bezug Damen CNC (NL), Zuschnitt.', 'DAMEN'),
 54: ('HIWIN MGN12CZ0HM Z-Führungswagen', 'Bestellschlüssel: Z0 spielfrei, H hohe Genauigkeit, M Edelstahl. Breite 27, Körperhöhe 10, Lochbild 20×15 M3 = CAD; Katalog-Länge 34,7 statt CAD 35,7.', 'DAMEN'),
-55: ('Induktiver Näherungsschalter M8, Bauhülle60mm', '24 CAD-Vorkommen. MPN, Schaltabstand, NPN/PNP, NO/NC, Versorgung, Pegel und Kabellänge fehlen.24V nicht direkt an SKR-Eingänge; InterfaceCAD-unabhängig SYS-019.', 'TME'),
+55: ('Induktiver Näherungsschalter M8, nicht bündig, NPN-Schließer, M8-Stecker', 'Spezifikation aus CAD und Firmware (17.10.2026): M8×1, Gewinde 35,5 mm, Länge 60 mm, Sensorkopf Ø6,5 vorstehend (nicht bündig), M8-Steckeranschluss 3-polig; Firmware X_MIN/X_MAX/Y_MIN/Y_MAX HIT_STATE LOW mit Pull-ups = NPN-Schließer, direkt an SKR-Eingang. Kandidat SICK IME08-04NNSZW2S (Sn 4 mm), Preis/Bezug in DE nicht verifiziert. Schaltabstand gegen Auslöserstäbe prüfen.', 'TME'),
 59: ('Mean Well MHS012 Montagewinkel', '4 Winkel für RSP-200. Mean-Well-Zeichnung 15×16,2×19,5 mm = CAD (Abweichung höchstens 0,3 mm). Reichelt MHS-012.', 'REICHELT'),
 60: ('Mean Well RSP-200-24 Netzteil,24V/8,4A', 'Originalmodell,215×115×30mm. Lastbilanz, Absicherung, Berührungsschutz und Schutzleiter separat.', 'REICHELT'),
 61: ('MMCX-Stecker gerade / Messleitung', '4 CAD-Modelle enthalten Kabelansätze. Impedanz, Kabeltyp, Crimp/Lötanschluss, Gegenstecker und Länge unbekannt.', 'TME'),
@@ -147,7 +147,7 @@ DETAIL = {
 81: ('Anschraubwinkel 30 / Nut 6', 'DOLD 62378 (I-Typ Nut 6) 28×28×28 = CAD; bestellt als Satz 62385-BS mit Schrauben und Nutensteinen.', 'DOLD'),
 84: ('Teleskopschiene 350 mm, Vollauszug', 'DOLD HS-4613-350 (CAD-Name enthält 4613): 350×45,7×12,7 (CAD 45,5), 1 Paar = die 2 CAD-Schienen. Vollauszug 354 mm.', 'DOLD'),
 85: ('Bewegliches USB-Mikroskop', 'Plan1 laut Hardware-Blog,4CAD. Weitere3 optional. Originalmodell unbekannt; Kandidat muss100mm Arbeitsabstand/ca30×40mm Bildfeld und Linux-UVC erfüllen.', 'REICHELT'),
-86: ('Bedientaster/-schalterØ19mm', 'Schaltfunktion rastend/tastend, Kontaktlast, Beleuchtung und Zuordnung zu Versorgung/Software unbekannt.', 'REICHELT'),
+86: ('Netzschalter Ø19, Vandalismus, rastend', 'Funktion: Netzschalter rastend (Luis 17.10.2026), im power_switch_holder. CAD: Kopf Ø23, Einbau Ø19. Kandidat RND 210 (RS 2832550, 250 V AC, 1 Öffner + 1 Schließer, unbeleuchtet); rastend und Einbautiefe noch prüfen.', 'REICHELT'),
 87: ('GT2-Riemen X, 6 mm breit', '8 Verläufe, offen mit Spanner an beiden Enden. Fusion-Messung: 699 mm Trum, Teillänge 1.430 mm je Verlauf; Zuschnitt mit 2×40 mm Klemmzugabe ca. 1,51 m. Summe X+Y ca. 16,5 m aus zwei 10-m-Rollen.', 'DOLD'),
 95: ('CPC MR12M Führungsschiene 600 mm', '2 Stück MR12M-N-600: 12×7,5 mm, Teilung 25, 24 Bohrungen Ø3,5/Ø6, Endabstand 12,5 = CAD. Nicht mit HIWIN MGN mischen.', 'MOTEDIS'),
 104: ('GT2-Riemen Y, 6 mm breit', '4 Verläufe. Fusion-Messung: 492 mm Trum, Teillänge 1.016 mm; Zuschnitt mit 2×40 mm Klemmzugabe ca. 1,10 m. Einkauf gemeinsam mit CAD-087, nicht doppelt rechnen.', 'DOLD'),
@@ -308,6 +308,9 @@ def make_parts():
         if key=='CAD-070':
             note='ABWEICHUNG (Entscheidung Luis 17.10.2026): CAD-Vierkantrohr 11,5×11,5×1,5×205 mm (Fusion-Messung) wird durch Alu-Vierkantrohr 12×12×1 mm ersetzt (keine Last; 12×12×1,5 in DE/EU nicht gefunden); gedruckte Schieber CAD-067 auf 12 mm anpassen. Bezugsquelle z. B. eBay metalexpres (AlMgSi0,5, ab 500 mm), Preis und Lager noch prüfen.'
             material='Aluminium-Vierkantrohr 12×12×1 (AlMgSi0,5)'
+        if key in ids(93,94):
+            material='Stahl Ø8 h6, magnetisch (Cf53), kein Edelstahl A2'
+            note='Fusion-Messung: Rundstab Ø8 × '+('125' if key=='CAD-093' else '75')+' mm; Auslöser für die induktiven Sensoren, daher magnetischer Stahl. Zuschnitt kaufen (Luis 17.10.2026); Anbieter mit Preis noch offen (z. B. Motedis Cf53 h6).'
         if key=='CAD-108':
             note='Fusion-Messung: massiver Rundstab Ø4×70 mm, Fasen an beiden Enden, ohne Gewinde. Werkstatt: aus Ø4-h6-Silberstahl (1.2210) ablängen und anfasen (Entscheidung Luis 17.10.2026).'
             material='Silberstahl 1.2210 Ø4 h6'; status='Fertigung spezifiziert'; process_evidence='WERKSTATT: Ablängen und Anfasen'

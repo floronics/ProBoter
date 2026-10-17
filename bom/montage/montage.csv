@@ -133,10 +133,10 @@ M06,Kabelführung,ohne CAD,SYS-056,"Zylinderschraube DIN 912 M5×10 A2, Kabelhal
 M07,Elektrik und Sensorik,base:1,CAD-060,"Mean Well RSP-200-24 Netzteil,24 V/8,4 A",mean_well_RSP-200-24,1,1,bestellfähig,Kaufteile,
 M07,Elektrik und Sensorik,base:1,CAD-059,Mean Well MHS012 Montagewinkel,mean_well_MHS-012_mounting_bracket,4,4,bestellfähig,Kaufteile,
 M07,Elektrik und Sensorik,base:1,CAD-023,BIGTREETECH SKR V1.3 Steuerplatine,bigtreetech_skr_v1_3,4,4,teilweise geklärt,Kaufteile,
-M07,Elektrik und Sensorik,base:1,CAD-086,Bedientaster/-schalterØ19 mm,vandalism_switch_d19,1,1,nicht identifiziert,Ungeklärte Teile,
+M07,Elektrik und Sensorik,base:1,CAD-086,"Netzschalter Ø19, Vandalismus, rastend",vandalism_switch_d19,1,1,teilweise geklärt,Kaufteile,
 M07,Elektrik und Sensorik,base:1,CAD-074,Stromversorgung Schalter Halter,power_switch_holder,1,1,Fertigung spezifiziert,3D-Druck intern,
 M07,Elektrik und Sensorik,base:1,CAD-083,Signal-Multiplexer Halter,signal_multiplexer_holder,1,1,Fertigung spezifiziert,3D-Druck intern,
-M07,Elektrik und Sensorik,base:1;x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-055,"Induktiver Näherungsschalter M8, Bauhülle 60 mm",inductive_proximity_sensor_m8,24,24,nicht identifiziert,Ungeklärte Teile,
+M07,Elektrik und Sensorik,base:1;x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-055,"Induktiver Näherungsschalter M8, nicht bündig, NPN-Schließer, M8-Stecker",inductive_proximity_sensor_m8,24,24,teilweise geklärt,Kaufteile,
 M07,Elektrik und Sensorik,base:1;x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,48,48,teilweise geklärt,Kaufteile,
 M07,Elektrik und Sensorik,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-065,Optischer Endschalter 11×35 mm,optical_endstop,4,4,bestellfähig,Kaufteile,
 M07,Elektrik und Sensorik,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-036,DIN 912 M3×12,din_912_m3x12,8,8,bestellfähig,Kaufteile,Optische Endschalter.

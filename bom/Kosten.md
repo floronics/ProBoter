@@ -81,12 +81,12 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | Bestellzeile | Benötigter Umfang | Warum Preis fehlt |
 | --- | --- | --- |
 | OPEN-CAD-010 | Schubladen-Dummyplatte | Schubladen-Dummy 564×410×12 mm: unklar, ob reale Platte benötigt und welches Material. Nicht stillschweigend ausschließen oder aus Stahl fertigen. |
-| OPEN-CAD-055 | Induktiver Näherungsschalter M8, Bauhülle 60 mm | 24 CAD-Vorkommen. MPN, Schaltabstand, NPN/PNP, NO/NC, Versorgung, Pegel und Kabellänge fehlen.24 V nicht direkt an SKR-Eingänge; Interface CAD-unabhängig SYS-019. |
+| OPEN-CAD-055 | Induktiver Näherungsschalter M8, nicht bündig, NPN-Schließer, M8-Stecker | Spezifikation aus CAD und Firmware (17.10.2026): M8×1, Gewinde 35,5 mm, Länge 60 mm, Sensorkopf Ø6,5 vorstehend (nicht bündig), M8-Steckeranschluss 3-polig; Firmware X_MIN/X_MAX/Y_MIN/Y_MAX HIT_STATE LOW mit Pull-ups = NPN-Schließer, direkt an SKR-Eingang. Kandidat SICK IME08-04NNSZW2S (Sn 4 mm), Preis/Bezug in DE nicht verifiziert. Schaltabstand gegen Auslöserstäbe prüfen. |
 | OPEN-CAD-061 | MMCX-Stecker gerade / Messleitung | 4 CAD-Modelle enthalten Kabelansätze. Impedanz, Kabeltyp, Crimp/Lötanschluss, Gegenstecker und Länge unbekannt. |
 | OPEN-CAD-062 | MMCX-Stecker gewinkelt / Messleitung | 4 CAD-Modelle; Kabel-/Buchsenpaarung mit CAD-061/075 und Multiplexer offen. |
 | OPEN-CAD-073 | Prüfkontakt-Hülse P75-2 W | 8 Stück, CADØ1,2×25,4 mm. Hersteller und passender Federkontakt CAD-115 unklar; Kontaktpaar vollständig spezifizieren. |
 | OPEN-CAD-075 | Prüfspitzen-PCB, unbestückt | 4 Stück;26,67×10,96×1,6 mm Hülle. Schaltplan, Kupfer, Bohrungen, Gerber und Bestückungsdaten fehlen. Bestückung SYS-024 separat. |
-| OPEN-CAD-086 | Bedientaster/-schalterØ19 mm | Schaltfunktion rastend/tastend, Kontaktlast, Beleuchtung und Zuordnung zu Versorgung/Software unbekannt. |
+| OPEN-CAD-086 | Netzschalter Ø19, Vandalismus, rastend | Funktion: Netzschalter rastend (Luis 17.10.2026), im power_switch_holder. CAD: Kopf Ø23, Einbau Ø19. Kandidat RND 210 (RS 2832550, 250 V AC, 1 Öffner + 1 Schließer, unbeleuchtet); rastend und Einbautiefe noch prüfen. |
 | OPEN-CAD-115 | Federkontakt der Prüfspitze | 8 Stück, CADØ1×16,6 mm. Spitzenform, Hub, Federkraft, Kontaktmaterial und Paarung mit P75-2-W unklar. |
 | OPEN-SYS-003 | Signal-Multiplexer, unbestückte Leiterplatte | CAD-082 ist nur Platzhalter. Schaltplan/Gerber/Board-BOM fehlen; USB/9600Baud-Protokoll ist keine Schaltung. |
 | OPEN-SYS-005 | Innere Messing-Referenzzylinder | Je 1×Ø7/8/9/10 mm nach Reference Board.inner_brass_pin_position_map; Raster 11,95×19,95 mm. Endfläche auf Bezugsebene; Gesamtlänge, Einbau, Toleranzen und Messprotokoll fehlen. |

@@ -7,11 +7,9 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | ID / Teil | Bedarf | Nächsterkonkreter Schritt |
 | --- | --- | --- |
 | CAD-010 Schubladen-Dummyplatte | 1 Stück | Schubladen-Dummy 564×410×12 mm: unklar, ob reale Platte benötigt und welches Material. Nicht stillschweigend ausschließen oder aus Stahl fertigen. |
-| CAD-055 Induktiver Näherungsschalter M8, Bauhülle 60 mm | 24 Stück | 24 CAD-Vorkommen. MPN, Schaltabstand, NPN/PNP, NO/NC, Versorgung, Pegel und Kabellänge fehlen.24 V nicht direkt an SKR-Eingänge; Interface CAD-unabhängig SYS-019. |
 | CAD-061 MMCX-Stecker gerade / Messleitung | 4 Stück | 4 CAD-Modelle enthalten Kabelansätze. Impedanz, Kabeltyp, Crimp/Lötanschluss, Gegenstecker und Länge unbekannt. |
 | CAD-062 MMCX-Stecker gewinkelt / Messleitung | 4 Stück | 4 CAD-Modelle; Kabel-/Buchsenpaarung mit CAD-061/075 und Multiplexer offen. |
 | CAD-073 Prüfkontakt-Hülse P75-2 W | 8 Stück | 8 Stück, CADØ1,2×25,4 mm. Hersteller und passender Federkontakt CAD-115 unklar; Kontaktpaar vollständig spezifizieren. |
-| CAD-086 Bedientaster/-schalterØ19 mm | 1 Stück | Schaltfunktion rastend/tastend, Kontaktlast, Beleuchtung und Zuordnung zu Versorgung/Software unbekannt. |
 | CAD-115 Federkontakt der Prüfspitze | 8 Stück | 8 Stück, CADØ1×16,6 mm. Spitzenform, Hub, Federkraft, Kontaktmaterial und Paarung mit P75-2-W unklar. |
 
 ## Fertigung noch offen
@@ -28,8 +26,8 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | CAD-026 Kamera Halter oben | 1 Stück | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen. |
 | CAD-070 Platine Halter rechteckig Stange | 2 Stück | ABWEICHUNG (Entscheidung Luis 17.10.2026): CAD-Vierkantrohr 11,5×11,5×1,5×205 mm (Fusion-Messung) wird durch Alu-Vierkantrohr 12×12×1 mm ersetzt (keine Last; 12×12×1,5 in DE/EU nicht gefunden); gedruckte Schieber CAD-067 auf 12 mm anpassen. Bezugsquelle z. B. e Bay metalexpres (Al Mg Si 0,5, ab 500 mm), Preis und Lager noch prüfen. |
 | CAD-075 Prüfspitzen-PCB, unbestückt | 4 Stück | 4 Stück;26,67×10,96×1,6 mm Hülle. Schaltplan, Kupfer, Bohrungen, Gerber und Bestückungsdaten fehlen. Bestückung SYS-024 separat. |
-| CAD-093 X-Achse Endschalter oben lang | 4 Stück | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen. |
-| CAD-094 X-Achse Endschalter oben kurz | 4 Stück | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen. |
+| CAD-093 X-Achse Endschalter oben lang | 4 Stück | Fusion-Messung: Rundstab Ø8 × 125 mm; Auslöser für die induktiven Sensoren, daher magnetischer Stahl. Zuschnitt kaufen (Luis 17.10.2026); Anbieter mit Preis noch offen (z. B. Motedis Cf 53 h 6). |
+| CAD-094 X-Achse Endschalter oben kurz | 4 Stück | Fusion-Messung: Rundstab Ø8 × 75 mm; Auslöser für die induktiven Sensoren, daher magnetischer Stahl. Zuschnitt kaufen (Luis 17.10.2026); Anbieter mit Preis noch offen (z. B. Motedis Cf 53 h 6). |
 | CAD-096 X-Achse Motor Platte | 1 Stück | 5 mm Stahl, 550×135 mm. Fusion-Messung: 16 Kernlöcher Ø2,46 für M3-Gewinde (Riemenspanner), Senkungen für M6 und Ø22-Durchbrüche für die Motoren. Kontur und Bohrungen aus CAD; Gewinde und Senkungen intern. Zeichnung mit Lagetoleranzen der Führungsbohrungen fehlt. |
 | CAD-097 X-Achse Motor Platte 2 | 1 Stück | 5 mm Stahl, 550×135 mm. Fusion-Messung: 16 Kernlöcher Ø2,46 für M3-Gewinde (Riemenspanner), Senkungen für M6 und Ø22-Durchbrüche für die Motoren. Kontur und Bohrungen aus CAD; Gewinde und Senkungen intern. Zeichnung mit Lagetoleranzen der Führungsbohrungen fehlt. |
 | CAD-099 X-Achse Seite Platte | 4 Stück | 5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten. Zeichnung aus CAD ableiten. |
@@ -52,8 +50,10 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | --- | --- | --- |
 | CAD-009 Grundgestell: Schlepp Energiekette Halter | 4 Stück | Fusion-Messung: Alu-Flachprofil 16×80×650 mm (932 mm², 2 Kerne Ø5) mit 18 M3-Gewinden. Kandidat DOLD 80x 16S I-Typ Nut 8 (60886-Z), gleiche Serie wie CAD-103, aber 813 mm² und laut Produktseite M8-Kern. Kerngröße an der DOLD-Zeichnung prüfen; M3-Gewinde in der Werkstatt. |
 | CAD-023 BIGTREETECH SKR V1.3 Steuerplatine | 4 Stück | Original laut CAD, Firmware und Masterarbeit. Neu in DE/EU nicht gefunden (Recherche 17.10.2026). Kandidat SKR 1.4 Turbo (RBS13645) passt auf fast dieselben Löcher, braucht aber Marlin-Pinanpassung; nicht freigegeben. |
+| CAD-055 Induktiver Näherungsschalter M8, nicht bündig, NPN-Schließer, M8-Stecker | 24 Stück | Spezifikation aus CAD und Firmware (17.10.2026): M8×1, Gewinde 35,5 mm, Länge 60 mm, Sensorkopf Ø6,5 vorstehend (nicht bündig), M8-Steckeranschluss 3-polig; Firmware X_MIN/X_MAX/Y_MIN/Y_MAX HIT_STATE LOW mit Pull-ups = NPN-Schließer, direkt an SKR-Eingang. Kandidat SICK IME08-04NNSZW2S (Sn 4 mm), Preis/Bezug in DE nicht verifiziert. Schaltabstand gegen Auslöserstäbe prüfen. |
 | CAD-058 ISO 8673 Mutter M8 | 53 Stück | Norm und Maße mit CAD abgeglichen; Artikel 24122 08 1. A4 statt A2; H 6,5 statt 6,8. Datenblatt nennt Linksgewinde, vermutlich Datenfehler: vor Bestellung klären. Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026). ISO 8673 M8×1 passt zu den M8×1-Gewinden der induktiven Sensoren. Sensoren liefern meist 2 Muttern mit; dann nur Reserve kaufen. |
 | CAD-085 Bewegliches USB-Mikroskop | 1 Stück | Plan 1 laut Hardware-Blog,4CAD. Weitere 3 optional. Originalmodell unbekannt; Kandidat muss 100 mm Arbeitsabstand/ca 30×40 mm Bildfeld und Linux-UVC erfüllen. |
+| CAD-086 Netzschalter Ø19, Vandalismus, rastend | 1 Stück | Funktion: Netzschalter rastend (Luis 17.10.2026), im power_switch_holder. CAD: Kopf Ø23, Einbau Ø19. Kandidat RND 210 (RS 2832550, 250 V AC, 1 Öffner + 1 Schließer, unbeleuchtet); rastend und Einbautiefe noch prüfen. |
 | SYS-001 TMC2130 SPI Treibermodule | 16 Stück | 4 je SKR für X/X2/Y/Z. RBS13024: 4 Treiber mit Kühlkörpern und Kabel, SPI-Pins laut Fotos vorgelötet. Revision nicht angegeben; SPI-Modus laut Datenblatt per Lötbrücke CFG4/CFG5 prüfen. |
 | SYS-002 Stationäre Übersichtskamera | 1 Stück | 1080p-Softwarekonfiguration; Optik, Blickfeld und Halterpassung offen. |
 | SYS-007 Weißer 24-V-LED-Streifen | 2 m | 2 m vorläufig;5 m-Rolle. Weiß 4500K vorgeschlagen; Leistung, Flimmern und Lichtverteilung testen. |
