@@ -39,6 +39,8 @@ SUPPLIER_URL = {
     'XOMETRY': 'https://xometry.eu/de/faq/',
     'BETA': 'https://de.beta-layout.com/leiterplatten/',
     'IGUS': 'https://www.igus.de/',
+    'EISEN2000': 'https://www.eisenwaren2000.de/',
+    'BEFFUCHS': 'https://www.befestigungsfuchs.de/',
     'OFFEN': '',
 }
 
@@ -102,6 +104,14 @@ PCB = ids(75)
 UNIDENTIFIED = ids(10,55,61,62,73,86,115)
 EXCLUDED = ids(66,82)
 NORM = ids(*range(28,49),56,57,58)
+NORM_RESERVE = 'Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026).'
+
+def offers_by_cad():
+    rows=json.loads((BOM/'data/offers.json').read_text(encoding='utf-8'))
+    return {o['cad']:o for o in rows if o.get('cad')}
+
+def with_reserve(quantity):
+    return max(int((D(quantity)*D('1.1')).to_integral_value(rounding=ROUND_CEILING)), quantity+2)
 
 # id -> (precise description, open question / evidence, preferred supplier)
 DETAIL = {
@@ -109,33 +119,33 @@ DETAIL = {
 27: ('CPC MR12ML Führungswagen', '8 Wagen für2×600-mm-Schienen. Aktueller Katalog47,8mm Länge, CAD47,6mm; Vorspannung, Genauigkeit und Paarung klären.', 'CPC'),
 49: ('igus E2i.10.10.028.0, 16 kurze Abschnitte', 'Nominell16×0,24m=3,84m. Gliederraster, Verfahrweg und Endstücke prüfen;1m-Einkaufseinheiten sind keine16 ganzen Ketten.', 'TME'),
 50: ('igus E2i.10.20.028.0, 8 lange Abschnitte', 'Nominell8×0,28m=2,24m. Drei1m-Einheiten ergeben rechnerisch9 Abschnitte; Teilung und Endstücke bestätigen.', 'IGUS'),
-51: ('Schubladengriff, Lochabstand vermutlich100mm', 'CAD113×20×49mm; Lochabstand, Gewinde und genaue DOLD-Artikelnummer bestimmen.', 'DOLD'),
-52: ('Gelenkfuß M6 / TellerØ40mm', 'CAD40×40×30,4mm; Gewindelänge, Schwenkbereich und Traglast festlegen.', 'DOLD'),
-53: ('HIWIN MGNR12R150HM, Z-Schiene150mm', 'Originalname; aktuelle Suffixe, Endlochabstände und Paarung mitCAD-054 bestätigen.', 'HIWIN'),
-54: ('HIWIN MGN12CZ0H Z-Führungswagen', 'Originalname; vier passende Wagen zuCAD-053, keine ungeprüfte Mischung mit Nachbauten.', 'HIWIN'),
+51: ('Schubladengriff, Lochabstand 100 mm', 'CAD 113×20×49 mm; Fusion-Messung: zwei Bohrungen Ø5,5 mm im Abstand 100,0 mm. Gewinde und genaue DOLD-Artikelnummer bestimmen.', 'DOLD'),
+52: ('Gelenkfuß M6 / Teller Ø40 mm', 'CAD 40×40×30,4 mm; Fusion-Messung: Gewinde Ø6 mm, Teller Ø40 mm. Gewindelänge, Schwenkbereich und Traglast festlegen.', 'DOLD'),
+53: ('HIWIN MGNR12R150HM, Z-Schiene 150 mm', 'Fusion-Messung: 6 Bohrungen Ø3,5/Ø6 (M3) im Raster 25 mm, Endabstand beidseitig 12,5 mm. Aktuelle Suffixe und Paarung mit CAD-054 bestätigen.', 'HIWIN'),
+54: ('HIWIN MGN12CZ0H Z-Führungswagen', 'Fusion-Messung: Lochbild 20×15 mm, Gewinde M3. Vier passende Wagen zu CAD-053, keine ungeprüfte Mischung mit Nachbauten.', 'HIWIN'),
 55: ('Induktiver Näherungsschalter M8, Bauhülle60mm', '24 CAD-Vorkommen. MPN, Schaltabstand, NPN/PNP, NO/NC, Versorgung, Pegel und Kabellänge fehlen.24V nicht direkt an SKR-Eingänge; InterfaceCAD-unabhängig SYS-019.', 'TME'),
 59: ('Mean Well MHS012 Montagewinkel', '4 Winkel,19×16×15mm. TME identifiziert;0,09EUR aus italienischer Indexseite nicht als bestätigter DE-Preis übernommen.', 'TME'),
 60: ('Mean Well RSP-200-24 Netzteil,24V/8,4A', 'Originalmodell,215×115×30mm. Lastbilanz, Absicherung, Berührungsschutz und Schutzleiter separat.', 'REICHELT'),
 61: ('MMCX-Stecker gerade / Messleitung', '4 CAD-Modelle enthalten Kabelansätze. Impedanz, Kabeltyp, Crimp/Lötanschluss, Gegenstecker und Länge unbekannt.', 'TME'),
 62: ('MMCX-Stecker gewinkelt / Messleitung', '4 CAD-Modelle; Kabel-/Buchsenpaarung mitCAD-061/075 und Multiplexer offen.', 'TME'),
-63: ('Nanotec ST3518M1004-A NEMA14 Z-Motor', 'Plan4 statt8 CAD: paarweise überlagerte Einbaulagen, je Probe ein Z-Antrieb. Hypothese vor Bau prüfen. Archivmodell, Ersatzpassung offen.', 'NANOTEC'),
+63: ('Nanotec ST3518M1004-A NEMA14 Z-Motor', 'Menge 4 belegt: Fusion-Messung zeigt je Y-Schlitten zwei Motorvarianten mit nur 1,6 mm Achsversatz; die Z-Antriebsrolle sitzt koaxial auf genau einer davon. Welle Ø5 mm. Archivmodell, Ersatzpassung offen.', 'NANOTEC'),
 64: ('Nanotec ST4118M1804-A NEMA17 X/Y-Motor', '12 laut STEP:8 X +4 Y. Alle12 im Fusion-Import fehlend. Hersteller nennt Modell; Anschluss und aktuelle Verfügbarkeit bestätigen.', 'NANOTEC'),
-65: ('Optischer Endschalter11×35mm', '4 Stück, Kandidat mit1m-Kabel. Lochabstand28mm, Schlitzlage, Pinout, Versorgung und Schaltpegel abgleichen.', 'RBS'),
+65: ('Optischer Endschalter 11×35 mm', '4 Stück; Fusion-Messung: zwei Bohrungen Ø3 mm im Abstand 28,0 mm. Schlitzlage, Pinout, Versorgung und Schaltpegel abgleichen.', 'RBS'),
 73: ('Prüfkontakt-Hülse P75-2 W', '8 Stück, CADØ1,2×25,4mm. Hersteller und passender FederkontaktCAD-115 unklar; Kontaktpaar vollständig spezifizieren.', 'TME'),
 75: ('Prüfspitzen-PCB, unbestückt', '4 Stück;26,67×10,96×1,6mm Hülle. Schaltplan, Kupfer, Bohrungen, Gerber und Bestückungsdaten fehlen. Bestückung SYS-024 separat.', 'BETA'),
-76: ('Umlenkrolle9mm / außenØ18 / BohrungØ5', 'CAD-Zylinder belegenØ5 undØ18, Breite11mm. DOLD64396 Kandidat; Lager, Lauffläche und axiale Passung prüfen.', 'DOLD'),
+76: ('GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm', 'Fusion-Messung: je Z-Achse zwei Stück, eine koaxial auf der Ø5-Motorwelle (Antrieb), eine 108 mm entfernt (Umlenkung). Teilkreis Ø10,19 mm = GT2 Z16, Bordscheiben Ø18, Breite 11 mm. Ersetzt SYS-035.', 'DOLD'),
 77: ('GT2-Antriebsriemenscheibe Z16 / 6mm / Bohrung5mm', '12 X/Y-Antriebe. Bore5 durch CAD-Zylinder bestätigt; Bundlänge14,1mm und Madenschrauben prüfen.', 'RBS'),
 78: ('GT2-Umlenkrolle Z16 / 6mm / Bohrung3mm', '20 Stück, CADØ13×8,5mm mitØ3-Bohrung. Lager-/Distanzscheiben und Artikel46132 axial abgleichen.', 'DOLD'),
 79: ('SHF10 Flanschhalter fürØ10mm Welle', '16 Stück.43×24×10mm undØ5,5-Befestigung stimmen mitDOLD11260 überein. Liefertermin27.11.2026 angekündigt.', 'DOLD'),
-80: ('Lineargleitbuchse10×19×29mm', 'CAD-Name l19 irreführend:19 ist Außendurchmesser, Länge29mm. igus RJ4JP-01-10 Kandidat; Werkstoff, Spiel und zulässige Welle prüfen.', 'DOLD'),
+80: ('Lineargleitbuchse Ø10 innen / Ø19 außen / Länge 29 mm', 'CAD-Name l19 irreführend: 19 ist Außendurchmesser, Länge 29 mm; Fusion-Messung zusätzlich Nut Ø18. igus RJ4JP-01-10 Kandidat; Werkstoff, Spiel und zulässige Welle prüfen.', 'DOLD'),
 81: ('Anschraubwinkel30 / Nut6', '26 Stück; CAD28×28×28mm. Profilserie I/B, Schraubenset und Lochbild offen.', 'DOLD'),
 84: ('Teleskopschiene TSAA514613-350', '2 Einzelschienen im CAD, nicht2Paare.350×45,5×12,7mm; Hersteller, Auszug, Rastung und Last klären.', 'DOLD'),
 85: ('Bewegliches USB-Mikroskop', 'Plan1 laut Hardware-Blog,4CAD. Weitere3 optional. Originalmodell unbekannt; Kandidat muss100mm Arbeitsabstand/ca30×40mm Bildfeld und Linux-UVC erfüllen.', 'REICHELT'),
 86: ('Bedientaster/-schalterØ19mm', 'Schaltfunktion rastend/tastend, Kontaktlast, Beleuchtung und Zuordnung zu Versorgung/Software unbekannt.', 'REICHELT'),
-87: ('GT2-Riemen X,6mm breit', '8 Verläufe.710,3mm Hülllänge ist NICHT Riemenlänge. Vorläufig gemeinsamer20m-Ansatz fürX/Y; offene/geschlossene Bauform klären.', 'DOLD'),
+87: ('GT2-Riemen X, 6 mm breit', '8 Verläufe, offen mit Spanner an beiden Enden. Fusion-Messung: 699 mm Trum, Teillänge 1.430 mm je Verlauf; Zuschnitt mit 2×40 mm Klemmzugabe ca. 1,51 m. Summe X+Y ca. 16,5 m, gedeckt durch 20 m.', 'DOLD'),
 95: ('CPC MR12M Führungsschiene600mm', '2 Stück600×12×7,5mm. Endlochabstand, Genauigkeit, Material und passende8Wagen bestimmen.', 'CPC'),
-104: ('GT2-Riemen Y,6mm breit', '4 Verläufe.503,3mm Hülllänge ist NICHT Riemenlänge; Einkauf gemeinsam mitCAD-087, nicht doppelt rechnen.', 'DOLD'),
-113: ('GT2-Riemen Z,9mm breit', '4 Verläufe;119,3mm Hülllänge ist NICHT Riemenlänge.2m Budgetvorschlag; Gates LL2GT RF9mm Bezugsfamilie, Ausführung prüfen.', 'RBS'),
+104: ('GT2-Riemen Y, 6 mm breit', '4 Verläufe. Fusion-Messung: 492 mm Trum, Teillänge 1.016 mm; Zuschnitt mit 2×40 mm Klemmzugabe ca. 1,10 m. Einkauf gemeinsam mit CAD-087, nicht doppelt rechnen.', 'DOLD'),
+113: ('GT2-Riemen Z, 9 mm breit', '4 Verläufe, offen am Z-Riemenhalter geklemmt. Fusion-Messung: Achsabstand 108 mm, Teillänge 248 mm; Zuschnitt mit 2×35 mm Klemmzugabe ca. 0,32 m, zusammen ca. 1,3 m.', 'RBS'),
 115: ('Federkontakt der Prüfspitze', '8 Stück, CADØ1×16,6mm. Spitzenform, Hub, Federkraft, Kontaktmaterial und Paarung mitP75-2-W unklar.', 'TME'),
 }
 
@@ -168,15 +178,15 @@ SYSTEM = [
 ('024','Prüfspitzen-PCB Bestückung',4,'Baugruppen','PCB extern','BETA','CAD-MM CX/Federkontakte separat; zusätzliche Buchsen und Bauteile erst aus Schaltplan. Unbestückte PlatineCAD-075 nicht erneut zählen.',CAD),
 ('025','USB-UART-Adapter',1,'Stück','Kaufteile','TME','Software setzt Adapter voraus; Pegel, Isolation, Pinout und Zielversorgung prüfen; Laborausstattung ggf. gegenrechnen.',SOFTWARE),
 ('026','Zielplatinen-Versorgungscontroller',1,'Baugruppe','PCB extern','BETA','Softwareziel /dev/proboter_target-power-controller; Schaltung, Firmware/Hardware und Kabel fehlen. Separat vom RSP-Netzteil.',SOFTWARE),
-('027','Energieketten-Endanschlüsse schmal',16,'Paare','Kaufteile','IGUS','Je kurzerKette1bewegliches+1festesEnde. E2i.10.10 passendeMPN ermitteln; Lieferumfang und CAD-Dreikörpermodell prüfen.',CAD),
-('028','Energieketten-Endanschlüsse breit',8,'Paare','Kaufteile','IGUS','Je langerKette1Paar passendE2i.10.20; keine Endstücke doppelt kaufen, falls enthalten.',CAD),
+('027','Energieketten-Endanschlüsse schmal',16,'Paare','Kaufteile','IGUS','Je kurzer Kette ein bewegliches und ein festes Ende. Fusion-Messung: CAD-049 enthält beide Anschlüsse als eigene Körper (45×17,4×15 mm). Passende E2i.10.10-MPN ermitteln.',CAD),
+('028','Energieketten-Endanschlüsse breit',8,'Paare','Kaufteile','IGUS','Je langer Kette ein Paar passend E2i.10.20. Fusion-Messung: CAD-050 enthält beide Anschlüsse als eigene Körper (45×27,4×15 mm). Keine Endstücke doppelt kaufen.',CAD),
 ('029','Profil-Nutensteine und Zusatzbefestigung',1,'Satz','Kaufteile','DOLD','Nut6/Profilserie klären; 26Winkel plus Halter. CAD-Vierkantmuttern29/30 und mitgelieferte Winkelsätze abziehen.',CAD),
 ('030','Scheiben, Sicherungselemente, Distanzteile',1,'Satz','Kaufteile','SCHRAUBEN','Ergänzungsbedarf je Verschraubung/Idler; CAD-Normteile und Sensor-Beipack abziehen. Stückzahlen noch offen.',CAD),
 ('031','Lötzinn, Schrumpfschlauch, Binder, Labels, Kleber',1,'Satz','Kaufteile','REICHELT','Verbrauchsmaterialbudget; vorhandene Bestände später abziehen. Werkzeuge nicht enthalten.',CAD),
 ('032','Controller-Befestigung und Kühlung',1,'Satz','Kaufteile','RBS','Abstandshalter, Isolierung, ggf.Lüfter; SKR/TMC-Beipack und thermische Auslegung prüfen.',FIRMWARE),
 ('033','Zusätzliche bewegliche Kameras',3,'Stück','Optional','REICHELT','Optional zur Vollbestückung aller4CAD-Halter; zusätzliche USB-Ports/Bandbreite/Kabel separat dimensionieren.',CAD),
 ('034','Host-PC, Messgeräte und Werkzeuge',1,'Bestand','Nicht benötigt','OFFEN','Vom Käufer vorhanden; Kosten ausgeschlossen. Software nennt PicoScopePS5000a; bestehendes Gerät/Hostkompatibilität prüfen.',SOFTWARE),
-('035','Z-Antriebsriemenscheibe / integrierter Adapter',4,'Stück','Ungeklärte Teile','DOLD','16Zähne laut Firmware,9mmZ-Riemen. Prüfen, obCAD-001/002 das Antriebsrad bereits integriert; gegebenenfalls kein separater Kauf.',FIRMWARE),
+('035','Z-Antriebsriemenscheibe / integrierter Adapter',0,'Stück','Nicht benötigt','OFFEN','Entfällt: Fusion-Messung zeigt die Antriebsrolle als CAD-076 koaxial auf der Ø5-Motorwelle. CAD-001/002 sind keine Riemenscheiben.',FIRMWARE),
 ('036','USB-/Versorgungsanschlüsse der Kalibrierung',1,'Prüfung','Nicht benötigt','OFFEN','Passive Referenzplatte benötigt nach veröffentlichtem Konzept keine eigene USB-Elektronik; kein zusätzliches Gerät.',BLOG),
 ('037','Weiße äußere Kalibrierreferenzen',4,'Stück','Weitere Fertigung','OFFEN','ReferenceBoardConfig beschreibt vier äußere weiße Referenzpins. Raster109,9×89,8mm; Durchmesser, Höhe, Material und Umsetzung am gewählten Board fehlen. Nicht mit12Messingpins gleichsetzen.','../software/hardware-control/proboter/model/reference_board_config.py'),
 ('038','Kalibrier-Kontaktleitungen und gemeinsame Messreferenz',1,'Satz','Kaufteile','TME','4SKR-Zentriereingänge P0_17 mitPull-up/aktivLow sowie Referenzkörper/Kontaktkreis verdrahten. Netzplan, Stecker, Länge undBezugspotenzial mitMultiplexer klären; keineVerbindung ungeprüft festlegen.','../firmware/Marlin/src/module/proboter.cpp'),
@@ -185,6 +195,8 @@ SYSTEM = [
 ]
 
 def make_parts():
+    global NORM_OFFERS
+    NORM_OFFERS = offers_by_cad()
     with (BOM/CAD).open(encoding='utf-8-sig') as f:
         rows = list(csv.DictReader(f))
     result = []
@@ -231,18 +243,23 @@ def make_parts():
         if int(key[-3:]) in DETAIL:
             title, note, supplier = DETAIL[int(key[-3:])]
         if key in NORM:
-            material = 'Festigkeitsklasse/Material nicht belegt; Stahl8.8 für Schrauben nur Vorschlag'
-            note = 'Norm/Größe aus CAD; Material, Festigkeit, Oberflächen und tatsächliche Packung vor Kauf bestätigen.'
-            supplier = 'SCHRAUBEN'
-            if key in ids(56,57,58):
-                note += ' ISO8673 bezeichnet Feingewinde abM8 (ISO8673:2012/2023). NamenM3/M4 widersprechen dem Normumfang. TatsächlicheSteigung gegenSchrauben/Sensor prüfen; nicht ungeprüftRegelgewinde bestellen.'
+            offer = NORM_OFFERS[key]
+            material = 'Edelstahl A2 (Entscheidung 17.10.2026); Festigkeitsklasse A2-70 im Shop nicht ausgewiesen'
+            if key=='CAD-028': material = 'Edelstahl A1; A2 in DIN 466 nicht gefunden'
+            if key=='CAD-058': material = 'Edelstahl A4-80 statt A2; A2 in M8×1 nicht gefunden'
+            supplier = offer['supplier']
+            title = offer['title'] if key in ids(56,57) else title
+            note = f"Norm und Maße mit CAD abgeglichen; Artikel {offer['sku']}. {offer['fit'].split(' Preisstaffel')[0]} {NORM_RESERVE}"
+            if key in ids(56,57):
+                note += ' CAD-Name ISO 8673 ist ein Bibliotheksfehler: ISO 8673 beginnt erst bei M8, die CAD-Maße entsprechen ISO 4032/DIN 934.'
             if key=='CAD-058':
-                note += ' 48M8-Muttern könnten als2jeSensor bereits enthalten sein; Kosten nicht doppelt ansetzen.'
+                note += ' ISO 8673 M8×1 passt zu den M8×1-Gewinden der induktiven Sensoren. Sensoren liefern meist 2 Muttern mit; dann nur Reserve kaufen.'
         quantity = int(g['step_qty'])
+        if key in NORM: quantity = with_reserve(quantity)
         if key=='CAD-063': quantity=4
         if key=='CAD-085': quantity=1
         if key in EXCLUDED: quantity=0
-        if key in ids(60,79): status='bestellfähig'
+        if key in ids(60,79) or (key in NORM and key!='CAD-058'): status='bestellfähig'
         if key=='CAD-080': title='GleitbuchseØ10 innen / Ø19 außen / Länge29mm'
         if key=='CAD-010':
             note='Schubladen-Dummy564×410×12mm: unklar, ob reale Platte benötigt und welches Material. Nicht stillschweigend ausschließen oder aus Stahl fertigen.'
@@ -311,7 +328,7 @@ def make_orders(parts):
     add('BUY-004','12X/Y-Antriebsriemenscheiben',ids(77),12,offer='O-004')
     add('BUY-005','20Umlenkrollen6mm',ids(78),20,offer='O-005')
     add('BUY-006','8Umlenkrollen9mm, Kandidat',ids(76),8,offer='O-006')
-    add('BUY-007','X/Y-Riemen6mm,2Rollen à10m',ids(87,104),20,unit='m',offer='O-007',note='Eigene Mengenreserve:8×ca1,45m +4×ca1,03m =15,72m; auf20m gerundet. Kein bestätigter Zuschnittplan.')
+    add('BUY-007','X/Y-Riemen6mm,2Rollen à10m',ids(87,104),20,unit='m',offer='O-007',note='Zuschnitt aus Fusion-Messung: 8×1,51 m + 4×1,10 m = 16,5 m inklusive Klemmzugabe; zwei 10-m-Rollen decken den Bedarf.')
     add('BUY-008','KurzeEnergieketten,4×1m',ids(49),D('3.84'),unit='m',offer='O-008',note='Schnittplan4×0,24m je1m; Gliederraster noch prüfen, keine Lieferfähigkeit für4m bestätigt.')
     add('BUY-009','4optischeEndstops inkl1mKabel',ids(65),4,offer='O-009')
     printed=[p for p in parts if p['group']=='3D-Druck intern']
@@ -334,16 +351,15 @@ def make_orders(parts):
     add('BUD-005','HIWINZ-Führungen als4Paare',ids(53,54),4,unit='Paare',estimate='80',basis='net',supplier='HIWIN',note='Eigener Budgetansatz80EUR netto je150mm-Schiene+Wagen. ALT-002 nicht hinzurechnen.')
     add('BUD-006','igusRJ4JP-01-10Kandidat',ids(80),16,estimate='4',source='https://www.dold-mechatronik.de/drylin-R-Lineargleitbuchse-RJ4JP-01',note='4EUR brutto Budget jeBuchse; Varianten-Abpreis nicht als konkreter Preis verwendet.')
     add('BUD-007','LangeEnergiekette',ids(50),D('2.24'),unit='m',estimate='40',supplier='IGUS',note='Budget40EUR brutto je1m,3Bestelleinheiten; Abschnittsteilung prüfen.')
-    add('BUD-008','Z-Riemen9mm',ids(113),2,unit='m',estimate='8',supplier='RBS',source='https://www.roboter-bausatz.de/p/1-meter-gt2-zahnriemen-gates-ll2gt-rf-9mm',note='8EUR brutto/m ist eigene Schätzung.2m Reserve für4Verläufe, kein gemessener Zuschnitt.')
+    add('BUD-008','Z-Riemen9mm',ids(113),2,unit='m',estimate='8',supplier='RBS',source='https://www.roboter-bausatz.de/p/1-meter-gt2-zahnriemen-gates-ll2gt-rf-9mm',note='8 EUR brutto/m ist eigene Schätzung. Zuschnitt aus Fusion-Messung 4×0,32 m = 1,3 m; 2 m mit Reserve.')
     for n,price in [(51,'10'),(52,'5'),(59,'1'),(81,'3'),(84,'20')]:
         p=byid[f'CAD-{n:03}']
         add(f'BUD-C{n:03}',p['name'],[p['id']],p['quantity'],estimate=price,note='Eigener Brutto-Budgetansatz; genaue Shopvariante/Packung noch offen.')
+    cad_offers={o['cad']:o['id'] for o in offers.values() if o.get('cad')}
     for key in NORM:
-        if key=='CAD-058': continue # Possibly included with sensors; deliberately unpriced.
         p=byid[key]
-        price='0.80' if key=='CAD-028' else ('0.30' if key in ids(29,30,32,33,34,45,46,47) else '0.15')
-        add('N-'+key[-3:],p['name'],[key],p['quantity'],estimate=str(D(price)*10),pack=10,
-            note=f'Eigene Schätzung{price}EUR brutto/Stück; Rechenpackung10 als Planung, tatsächliche Mindestmenge/Verfügbarkeit nicht bestätigt. Keine Materialfreigabe.')
+        add('N-'+key[-3:],p['name'],[key],p['quantity'],offer=cad_offers[key],
+            note='Nur kaufen, wenn die Sensoren keine Muttern mitbringen.' if key=='CAD-058' else '')
     profiles=ids(11,12,13,20)
     add('MAT-002','30×30Nut6Aluprofil inklusiveSchnittreserve',profiles,8,unit='m',estimate='12',
         source='https://www.dold-mechatronik.de/Aluminum-profile-30x30-L-I-type-slot-6-light-silver-Alu',
@@ -366,6 +382,10 @@ def make_orders(parts):
     add('SHIP-REICHELT','Reichelt DHL Deutschland bis10kg',[],1,unit='Sendung',estimate=None,supplier='REICHELT',source='https://www.reichelt.de/versandkosten',note='ÖffentlicherDHL-Tarif bis10kg:5,95EURbrutto. Gewichtunter10kg fürgeplanteElektronik angenommen; endgültigenWarenkorb prüfen.')
     orders[-1].update(price_kind='Webpreis',price_per_pack='5.95',net_eur=D('5.00'),gross_eur=D('5.95'))
     add('FEE-001','RechnungskaufgebührSchrauben.Expert',[],1,unit='Gebühr',estimate='5',supplier='SCHRAUBEN',source='https://schrauben-expert.de/Zahlungsmoeglichkeiten',note='Öffentlich5EUR; bruttoangenommen,SteuerbasisimCheckoutprüfen. Ab3.qualifizierterBestellung entfallend.')
+    add('SHIP-EISEN2000','Eisenwaren2000 Versand Deutschland',[],1,unit='Sendung',estimate=None,supplier='EISEN2000',source='https://www.eisenwaren2000.de/',note='Versandkostenfrei ab 59 EUR; geplanter Normteile-Warenkorb ca. 92 EUR.')
+    orders[-1].update(price_kind='Webpreis',price_per_pack='0.00',net_eur=D('0.00'),gross_eur=D('0.00'))
+    add('SHIP-BEFFUCHS','Befestigungsfuchs Versand Deutschland',[],1,unit='Sendung',estimate='5.95',supplier='BEFFUCHS',source='https://www.befestigungsfuchs.de/',note='5,95 EUR laut Shop; nur nötig, falls M8×1-Muttern bestellt werden.')
+    add('SHIP-SCHRAUBEN','Schrauben.Expert Versand Deutschland',[],1,unit='Sendung',estimate='4',supplier='SCHRAUBEN',source='https://schrauben-expert.de/',note='Versand nach Gewicht; Produktfeed nennt 4 EUR, Warenkorb ca. 54 EUR liegt unter der 100-EUR-Freigrenze.')
     add('SHIP-REST','Frachtreserve fürübrigeLieferanten',[],1,unit='Budget',estimate='150',supplier='OFFEN',note='Eigene150EUR-Bruttoreserve fürDOLD/TME/Normteile/Motoren/Führungen/CNC/PCB. Tatsächliche Fracht jeAnbieter offen; kein bestätigterVersandpreis. Reichelt/RBS separat.')
     for o in orders:
         for k in ['title','note','specification']:

@@ -10,12 +10,12 @@ im Shop bestätigen. Kein Warenkorb wurde bestellt.
 
 | Umfang | netto | brutto |
 | --- | --- | --- |
-| 1. Beobachtete Webpreise × geplante Bestellpackungen | 686,58 € | 817,03 € |
-| Davon Positionen mit Status bestellfähig | 88,15 € | 104,90 € |
-| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 598,43 € | 712,13 € |
-| Eigene Budgetschätzungen zusätzlich | 4.211,82 € | 5.012,10 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 4.898,40 € | 5.829,13 € |
-| 3. Noch unbezifferte Positionen: 24 | nicht berechenbar | nicht berechenbar |
+| 1. Beobachtete Webpreise × geplante Bestellpackungen | 816,59 € | 971,79 € |
+| Davon Positionen mit Status bestellfähig | 210,25 € | 250,25 € |
+| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 606,34 € | 721,54 € |
+| Eigene Budgetschätzungen zusätzlich | 4.111,40 € | 4.892,55 € |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 4.927,99 € | 5.864,34 € |
+| 3. Noch unbezifferte Positionen: 22 | nicht berechenbar | nicht berechenbar |
 
 **Der Gesamtpreis eines funktionierenden Nachbaus bleibt offen.** Die Summe unter 2
 deckt nur bezifferte Positionen ab. Entwicklung von Elektronik/Firmware, interne
@@ -60,15 +60,17 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 
 | Lieferant | Webpreise brutto | Schätzungen brutto | Summe beziffert brutto |
 | --- | --- | --- | --- |
+| BEFFUCHS | 9,41 € | 5,95 € | 15,36 € |
 | CPC | 0,00 € | 595,00 € | 595,00 € |
 | DOLD | 233,52 € | 833,00 € | 1.066,52 € |
+| EISEN2000 | 92,15 € | 0,00 € | 92,15 € |
 | HIWIN | 0,00 € | 380,80 € | 380,80 € |
 | IGUS | 0,00 € | 200,00 € | 200,00 € |
 | NANOTEC | 0,00 € | 1.094,80 € | 1.094,80 € |
 | OFFEN | 0,00 € | 150,00 € | 150,00 € |
 | RBS | 227,00 € | 284,00 € | 511,00 € |
 | REICHELT | 206,24 € | 195,00 € | 401,24 € |
-| SCHRAUBEN | 0,00 € | 154,50 € | 154,50 € |
+| SCHRAUBEN | 53,20 € | 29,00 € | 82,20 € |
 | TME | 150,27 € | 173,00 € | 323,27 € |
 | XOMETRY | 0,00 € | 952,00 € | 952,00 € |
 
@@ -78,7 +80,6 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | --- | --- | --- |
 | OPEN-CAD-010 | Schubladen-Dummyplatte | Schubladen-Dummy 564×410×12 mm: unklar, ob reale Platte benötigt und welches Material. Nicht stillschweigend ausschließen oder aus Stahl fertigen. |
 | OPEN-CAD-055 | Induktiver Näherungsschalter M8, Bauhülle 60 mm | 24 CAD-Vorkommen. MPN, Schaltabstand, NPN/PNP, NO/NC, Versorgung, Pegel und Kabellänge fehlen.24 V nicht direkt an SKR-Eingänge; Interface CAD-unabhängig SYS-019. |
-| OPEN-CAD-058 | ISO 8673 Mutter M8 | Norm/Größe aus CAD; Material, Festigkeit, Oberflächen und tatsächliche Packung vor Kauf bestätigen. ISO8673 bezeichnet Feingewinde ab M8 (ISO8673:2012/2023). Namen M3/M4 widersprechen dem Normumfang. Tatsächliche Steigung gegen Schrauben/Sensor prüfen; nicht ungeprüft Regelgewinde bestellen. 48M8-Muttern könnten als 2je Sensor bereits enthalten sein; Kosten nicht doppelt ansetzen. |
 | OPEN-CAD-061 | MMCX-Stecker gerade / Messleitung | 4 CAD-Modelle enthalten Kabelansätze. Impedanz, Kabeltyp, Crimp/Lötanschluss, Gegenstecker und Länge unbekannt. |
 | OPEN-CAD-062 | MMCX-Stecker gewinkelt / Messleitung | 4 CAD-Modelle; Kabel-/Buchsenpaarung mit CAD-061/075 und Multiplexer offen. |
 | OPEN-CAD-073 | Prüfkontakt-Hülse P75-2 W | 8 Stück, CADØ1,2×25,4 mm. Hersteller und passender Federkontakt CAD-115 unklar; Kontaktpaar vollständig spezifizieren. |
@@ -95,7 +96,6 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | OPEN-SYS-023 | Signal-Multiplexer Bestückung | MCU, USB/Versorgung, Schalter/Relais, Schutz, Stecker, Passives und Montage nach noch fehlendem Schaltplan. Keine Stückzahlen erfinden. |
 | OPEN-SYS-024 | Prüfspitzen-PCB Bestückung | CAD-MM CX/Federkontakte separat; zusätzliche Buchsen und Bauteile erst aus Schaltplan. Unbestückte Platine CAD-075 nicht erneut zählen. |
 | OPEN-SYS-026 | Zielplatinen-Versorgungscontroller | Softwareziel /dev/proboter_target-power-controller; Schaltung, Firmware/Hardware und Kabel fehlen. Separat vom RSP-Netzteil. |
-| OPEN-SYS-035 | Z-Antriebsriemenscheibe / integrierter Adapter | 16Zähne laut Firmware,9 mm Z-Riemen. Prüfen, ob CAD-001/002 das Antriebsrad bereits integriert; gegebenenfalls kein separater Kauf. |
 | OPEN-SYS-037 | Weiße äußere Kalibrierreferenzen | Reference Board Config beschreibt vier äußere weiße Referenzpins. Raster 109,9×89,8 mm; Durchmesser, Höhe, Material und Umsetzung am gewählten Board fehlen. Nicht mit 12Messingpins gleichsetzen. |
 | OPEN-SYS-038 | Kalibrier-Kontaktleitungen und gemeinsame Messreferenz | 4 SKR-Zentriereingänge P0_17 mit Pull-up/aktiv Low sowie Referenzkörper/Kontaktkreis verdrahten. Netzplan, Stecker, Länge und Bezugspotenzial mit Multiplexer klären; keine Verbindung ungeprüft festlegen. |
 | OPEN-SYS-039 | Erhöhte Messing-Referenzzylinder | Ø7 mm laut Reference Board-Skizze; Code setzt vier Endflächen 6/8/10/12 mm über Bezugsebene auf Raster 59,6×39,9 mm. Gesamtlängen und Einstecktiefe sind nicht diese Höhen; Zeichnung und Toleranzen fehlen. |

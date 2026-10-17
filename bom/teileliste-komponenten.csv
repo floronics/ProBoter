@@ -15,11 +15,11 @@ K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CA
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-020,Grundgestell: vertikal,base_vertical,4,Stück,ja,Weitere Fertigung,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-023,BIGTREETECH SKR V1.3 Steuerplatine,bigtreetech_skr_v1_3,4,Stück,ja,Kaufteile,teilweise geklärt
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-024,Kabel Abdeckung,cable_cover,4,Stück,ja,Blech intern,Fertigung noch offen
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-033,DIN 7991 M6×14,din_7991_m6x14,6,Stück,ja,Kaufteile,teilweise geklärt
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-034,DIN 7991 M6×20,din_7991_m6x20,22,Stück,ja,Kaufteile,teilweise geklärt
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-033,DIN 7991 M6×14,din_7991_m6x14,6,Stück,ja,Kaufteile,bestellfähig
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-034,DIN 7991 M6×20,din_7991_m6x20,22,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-050,"igus E2i.10.20.028.0, 8 lange Abschnitte",drag_chain_0_28m_E2i_10_20_028_0_igus,8,Stück,ja,Kaufteile,teilweise geklärt
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-051,"Schubladengriff, Lochabstand vermutlich 100 mm",handle_l100_dold,1,Stück,ja,Kaufteile,teilweise geklärt
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-052,Gelenkfuß M6 / TellerØ40 mm,hinged_M6_40_dold,4,Stück,ja,Kaufteile,teilweise geklärt
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-051,"Schubladengriff, Lochabstand 100 mm",handle_l100_dold,1,Stück,ja,Kaufteile,teilweise geklärt
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-052,Gelenkfuß M6 / Teller Ø40 mm,hinged_M6_40_dold,4,Stück,ja,Kaufteile,teilweise geklärt
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-055,"Induktiver Näherungsschalter M8, Bauhülle 60 mm",inductive_proximity_sensor_m8,8,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,8,Stück,ja,Kaufteile,teilweise geklärt
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-059,Mean Well MHS012 Montagewinkel,mean_well_MHS-012_mounting_bracket,4,Stück,ja,Kaufteile,teilweise geklärt
@@ -38,9 +38,9 @@ K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",bas
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",base_plate_adapter,CAD-017,Grundgestell: Platte Adapter 2,base_plate_adapter_2,2,Stück,ja,CNC extern,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",camera_holder,CAD-025,Kamera Halter,camera_holder,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",camera_holder,CAD-026,Kamera Halter oben,camera_holder_top,1,Stück,ja,Blech intern,Fertigung noch offen
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",pcb_holder,CAD-028,DIN 466 Rändelmutter hoch M4,din_466_knurled_nut_high_m4,8,Stück,ja,Kaufteile,teilweise geklärt
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",pcb_holder,CAD-043,DIN 912 M4×10,din_912_m4x10,1,Stück,ja,Kaufteile,teilweise geklärt
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",pcb_holder,CAD-048,DIN 933 M4×20,din_933_m4x20,8,Stück,ja,Kaufteile,teilweise geklärt
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",pcb_holder,CAD-028,DIN 466 Rändelmutter hoch M4,din_466_knurled_nut_high_m4,8,Stück,ja,Kaufteile,bestellfähig
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",pcb_holder,CAD-043,DIN 912 M4×10,din_912_m4x10,1,Stück,ja,Kaufteile,bestellfähig
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",pcb_holder,CAD-048,DIN 933 M4×20,din_933_m4x20,8,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",pcb_holder,CAD-067,Platine Halter Gleiter,pcb_holder_glider,4,Stück,ja,3D-Druck intern,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",pcb_holder,CAD-068,Platine Halter Führung Halter rund d 10,pcb_holder_guiding_holder_round_d10,4,Stück,ja,3D-Druck intern,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",pcb_holder,CAD-069,Platine Halter Führung rund,pcb_holder_guiding_round,2,Stück,ja,Weitere Fertigung,Fertigung noch offen
@@ -50,25 +50,25 @@ K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",pcb
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-015,Grundgestell: NEMA 14 auf 17 Adapter,base_nema_14_to_17_adapter,8,Stück,ja,3D-Druck intern,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-021,Riemen Spanner GT2 Basis,belt_tightener_GT2_base,16,Stück,ja,3D-Druck intern,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-022,Riemen Spanner GT2 Flügel,belt_tightener_GT2_wing,16,Stück,ja,3D-Druck intern,Fertigung noch offen
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-035,DIN 912 M3×10,din_912_m3x10,32,Stück,ja,Kaufteile,teilweise geklärt
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-038,DIN 912 M3×16,din_912_m3x16,16,Stück,ja,Kaufteile,teilweise geklärt
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-039,DIN 912 M3×18,din_912_m3x18,32,Stück,ja,Kaufteile,teilweise geklärt
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-042,DIN 912 M3×8,din_912_m3x8,32,Stück,ja,Kaufteile,teilweise geklärt
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-044,DIN 912 M4×20,din_912_m4x20,16,Stück,ja,Kaufteile,teilweise geklärt
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-045,DIN 912 M4×30,din_912_m4x30,16,Stück,ja,Kaufteile,teilweise geklärt
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-056,ISO 8673 Mutter M3,iso_8673_nut_m3,16,Stück,ja,Kaufteile,teilweise geklärt
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-057,ISO 8673 Mutter M4,iso_8673_nut_m4,32,Stück,ja,Kaufteile,teilweise geklärt
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-035,DIN 912 M3×10,din_912_m3x10,32,Stück,ja,Kaufteile,bestellfähig
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-038,DIN 912 M3×16,din_912_m3x16,16,Stück,ja,Kaufteile,bestellfähig
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-039,DIN 912 M3×18,din_912_m3x18,32,Stück,ja,Kaufteile,bestellfähig
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-042,DIN 912 M3×8,din_912_m3x8,32,Stück,ja,Kaufteile,bestellfähig
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-044,DIN 912 M4×20,din_912_m4x20,16,Stück,ja,Kaufteile,bestellfähig
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-045,DIN 912 M4×30,din_912_m4x30,16,Stück,ja,Kaufteile,bestellfähig
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,16,Stück,ja,Kaufteile,bestellfähig
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-057,Sechskantmutter DIN 934 M4 A2,iso_8673_nut_m4,32,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-064,Nanotec ST4118M1804-A NEMA17 X/Y-Motor,nanotec_nema_17_ST4118M1804-A,8,Stück,fehlt im Fusion-Import,Kaufteile,teilweise geklärt
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-077,GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm,pulley_gt2_z16_6mm,8,Stück,ja,Kaufteile,teilweise geklärt
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-078,GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm,return_pulley_gt2_z16_6mm,16,Stück,ja,Kaufteile,teilweise geklärt
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-087,"GT2-Riemen X,6 mm breit",x_belt,8,Stück,ja,Kaufteile,teilweise geklärt
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",x_belt_drive,CAD-087,"GT2-Riemen X, 6 mm breit",x_belt,8,Stück,ja,Kaufteile,teilweise geklärt
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-006,Grundgestell: Kabel Halter M5 flach,base_cable_holder_m5_flat,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-027,CPC MR12ML Führungswagen,cpc_MR12ML,2,Stück,ja,Kaufteile,teilweise geklärt
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-031,DIN 7991 M3×8,din_7991_m3x8,8,Stück,ja,Kaufteile,teilweise geklärt
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-032,DIN 7991 M6×12,din_7991_m6x12,4,Stück,ja,Kaufteile,teilweise geklärt
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,teilweise geklärt
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-046,DIN 912 M5×10,din_912_m5x10,8,Stück,ja,Kaufteile,teilweise geklärt
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-047,DIN 912 M5×14,din_912_m5x14,1,Stück,ja,Kaufteile,teilweise geklärt
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-031,DIN 7991 M3×8,din_7991_m3x8,8,Stück,ja,Kaufteile,bestellfähig
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-032,DIN 7991 M6×12,din_7991_m6x12,4,Stück,ja,Kaufteile,bestellfähig
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,bestellfähig
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-046,DIN 912 M5×10,din_912_m5x10,8,Stück,ja,Kaufteile,bestellfähig
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-047,DIN 912 M5×14,din_912_m5x14,1,Stück,ja,Kaufteile,bestellfähig
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-049,"igus E2i.10.10.028.0, 16 kurze Abschnitte",drag_chain_0_24m_E2i_10_10_028_0_4,4,Stück,ja,Kaufteile,teilweise geklärt
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter M8, Bauhülle 60 mm",inductive_proximity_sensor_m8,4,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Kaufteile,teilweise geklärt
@@ -89,23 +89,23 @@ K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-103,X-Achse Schlitten Ve
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-015,Grundgestell: NEMA 14 auf 17 Adapter,base_nema_14_to_17_adapter,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-021,Riemen Spanner GT2 Basis,belt_tightener_GT2_base,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-022,Riemen Spanner GT2 Flügel,belt_tightener_GT2_wing,1,Stück,ja,3D-Druck intern,Fertigung noch offen
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-035,DIN 912 M3×10,din_912_m3x10,2,Stück,ja,Kaufteile,teilweise geklärt
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-038,DIN 912 M3×16,din_912_m3x16,1,Stück,ja,Kaufteile,teilweise geklärt
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-044,DIN 912 M4×20,din_912_m4x20,1,Stück,ja,Kaufteile,teilweise geklärt
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-045,DIN 912 M4×30,din_912_m4x30,1,Stück,ja,Kaufteile,teilweise geklärt
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-056,ISO 8673 Mutter M3,iso_8673_nut_m3,1,Stück,ja,Kaufteile,teilweise geklärt
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-057,ISO 8673 Mutter M4,iso_8673_nut_m4,2,Stück,ja,Kaufteile,teilweise geklärt
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-035,DIN 912 M3×10,din_912_m3x10,2,Stück,ja,Kaufteile,bestellfähig
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-038,DIN 912 M3×16,din_912_m3x16,1,Stück,ja,Kaufteile,bestellfähig
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-044,DIN 912 M4×20,din_912_m4x20,1,Stück,ja,Kaufteile,bestellfähig
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-045,DIN 912 M4×30,din_912_m4x30,1,Stück,ja,Kaufteile,bestellfähig
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,1,Stück,ja,Kaufteile,bestellfähig
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-057,Sechskantmutter DIN 934 M4 A2,iso_8673_nut_m4,2,Stück,ja,Kaufteile,bestellfähig
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-064,Nanotec ST4118M1804-A NEMA17 X/Y-Motor,nanotec_nema_17_ST4118M1804-A,1,Stück,fehlt im Fusion-Import,Kaufteile,teilweise geklärt
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-077,GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm,pulley_gt2_z16_6mm,1,Stück,ja,Kaufteile,teilweise geklärt
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-078,GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm,return_pulley_gt2_z16_6mm,1,Stück,ja,Kaufteile,teilweise geklärt
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-104,"GT2-Riemen Y,6 mm breit",y_belt,1,Stück,ja,Kaufteile,teilweise geklärt
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-104,"GT2-Riemen Y, 6 mm breit",y_belt,1,Stück,ja,Kaufteile,teilweise geklärt
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-006,Grundgestell: Kabel Halter M5 flach,base_cable_holder_m5_flat,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-027,CPC MR12ML Führungswagen,cpc_MR12ML,2,Stück,ja,Kaufteile,teilweise geklärt
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-031,DIN 7991 M3×8,din_7991_m3x8,8,Stück,ja,Kaufteile,teilweise geklärt
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-032,DIN 7991 M6×12,din_7991_m6x12,4,Stück,ja,Kaufteile,teilweise geklärt
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,teilweise geklärt
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-046,DIN 912 M5×10,din_912_m5x10,8,Stück,ja,Kaufteile,teilweise geklärt
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-047,DIN 912 M5×14,din_912_m5x14,1,Stück,ja,Kaufteile,teilweise geklärt
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-031,DIN 7991 M3×8,din_7991_m3x8,8,Stück,ja,Kaufteile,bestellfähig
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-032,DIN 7991 M6×12,din_7991_m6x12,4,Stück,ja,Kaufteile,bestellfähig
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,bestellfähig
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-046,DIN 912 M5×10,din_912_m5x10,8,Stück,ja,Kaufteile,bestellfähig
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-047,DIN 912 M5×14,din_912_m5x14,1,Stück,ja,Kaufteile,bestellfähig
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-049,"igus E2i.10.10.028.0, 16 kurze Abschnitte",drag_chain_0_24m_E2i_10_10_028_0_4,4,Stück,ja,Kaufteile,teilweise geklärt
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter M8, Bauhülle 60 mm",inductive_proximity_sensor_m8,4,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Kaufteile,teilweise geklärt
@@ -126,23 +126,23 @@ K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-103,X-Achse Schlitten Ve
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-015,Grundgestell: NEMA 14 auf 17 Adapter,base_nema_14_to_17_adapter,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-021,Riemen Spanner GT2 Basis,belt_tightener_GT2_base,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-022,Riemen Spanner GT2 Flügel,belt_tightener_GT2_wing,1,Stück,ja,3D-Druck intern,Fertigung noch offen
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-035,DIN 912 M3×10,din_912_m3x10,2,Stück,ja,Kaufteile,teilweise geklärt
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-038,DIN 912 M3×16,din_912_m3x16,1,Stück,ja,Kaufteile,teilweise geklärt
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-044,DIN 912 M4×20,din_912_m4x20,1,Stück,ja,Kaufteile,teilweise geklärt
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-045,DIN 912 M4×30,din_912_m4x30,1,Stück,ja,Kaufteile,teilweise geklärt
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-056,ISO 8673 Mutter M3,iso_8673_nut_m3,1,Stück,ja,Kaufteile,teilweise geklärt
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-057,ISO 8673 Mutter M4,iso_8673_nut_m4,2,Stück,ja,Kaufteile,teilweise geklärt
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-035,DIN 912 M3×10,din_912_m3x10,2,Stück,ja,Kaufteile,bestellfähig
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-038,DIN 912 M3×16,din_912_m3x16,1,Stück,ja,Kaufteile,bestellfähig
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-044,DIN 912 M4×20,din_912_m4x20,1,Stück,ja,Kaufteile,bestellfähig
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-045,DIN 912 M4×30,din_912_m4x30,1,Stück,ja,Kaufteile,bestellfähig
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,1,Stück,ja,Kaufteile,bestellfähig
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-057,Sechskantmutter DIN 934 M4 A2,iso_8673_nut_m4,2,Stück,ja,Kaufteile,bestellfähig
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-064,Nanotec ST4118M1804-A NEMA17 X/Y-Motor,nanotec_nema_17_ST4118M1804-A,1,Stück,fehlt im Fusion-Import,Kaufteile,teilweise geklärt
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-077,GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm,pulley_gt2_z16_6mm,1,Stück,ja,Kaufteile,teilweise geklärt
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-078,GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm,return_pulley_gt2_z16_6mm,1,Stück,ja,Kaufteile,teilweise geklärt
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-104,"GT2-Riemen Y,6 mm breit",y_belt,1,Stück,ja,Kaufteile,teilweise geklärt
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-104,"GT2-Riemen Y, 6 mm breit",y_belt,1,Stück,ja,Kaufteile,teilweise geklärt
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-006,Grundgestell: Kabel Halter M5 flach,base_cable_holder_m5_flat,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-027,CPC MR12ML Führungswagen,cpc_MR12ML,2,Stück,ja,Kaufteile,teilweise geklärt
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-031,DIN 7991 M3×8,din_7991_m3x8,8,Stück,ja,Kaufteile,teilweise geklärt
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-032,DIN 7991 M6×12,din_7991_m6x12,4,Stück,ja,Kaufteile,teilweise geklärt
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,teilweise geklärt
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-046,DIN 912 M5×10,din_912_m5x10,8,Stück,ja,Kaufteile,teilweise geklärt
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-047,DIN 912 M5×14,din_912_m5x14,1,Stück,ja,Kaufteile,teilweise geklärt
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-031,DIN 7991 M3×8,din_7991_m3x8,8,Stück,ja,Kaufteile,bestellfähig
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-032,DIN 7991 M6×12,din_7991_m6x12,4,Stück,ja,Kaufteile,bestellfähig
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,bestellfähig
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-046,DIN 912 M5×10,din_912_m5x10,8,Stück,ja,Kaufteile,bestellfähig
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-047,DIN 912 M5×14,din_912_m5x14,1,Stück,ja,Kaufteile,bestellfähig
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-049,"igus E2i.10.10.028.0, 16 kurze Abschnitte",drag_chain_0_24m_E2i_10_10_028_0_4,4,Stück,ja,Kaufteile,teilweise geklärt
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter M8, Bauhülle 60 mm",inductive_proximity_sensor_m8,4,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Kaufteile,teilweise geklärt
@@ -163,23 +163,23 @@ K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-103,X-Achse Schlitten Ve
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-015,Grundgestell: NEMA 14 auf 17 Adapter,base_nema_14_to_17_adapter,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-021,Riemen Spanner GT2 Basis,belt_tightener_GT2_base,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-022,Riemen Spanner GT2 Flügel,belt_tightener_GT2_wing,1,Stück,ja,3D-Druck intern,Fertigung noch offen
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-035,DIN 912 M3×10,din_912_m3x10,2,Stück,ja,Kaufteile,teilweise geklärt
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-038,DIN 912 M3×16,din_912_m3x16,1,Stück,ja,Kaufteile,teilweise geklärt
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-044,DIN 912 M4×20,din_912_m4x20,1,Stück,ja,Kaufteile,teilweise geklärt
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-045,DIN 912 M4×30,din_912_m4x30,1,Stück,ja,Kaufteile,teilweise geklärt
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-056,ISO 8673 Mutter M3,iso_8673_nut_m3,1,Stück,ja,Kaufteile,teilweise geklärt
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-057,ISO 8673 Mutter M4,iso_8673_nut_m4,2,Stück,ja,Kaufteile,teilweise geklärt
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-035,DIN 912 M3×10,din_912_m3x10,2,Stück,ja,Kaufteile,bestellfähig
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-038,DIN 912 M3×16,din_912_m3x16,1,Stück,ja,Kaufteile,bestellfähig
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-044,DIN 912 M4×20,din_912_m4x20,1,Stück,ja,Kaufteile,bestellfähig
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-045,DIN 912 M4×30,din_912_m4x30,1,Stück,ja,Kaufteile,bestellfähig
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,1,Stück,ja,Kaufteile,bestellfähig
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-057,Sechskantmutter DIN 934 M4 A2,iso_8673_nut_m4,2,Stück,ja,Kaufteile,bestellfähig
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-064,Nanotec ST4118M1804-A NEMA17 X/Y-Motor,nanotec_nema_17_ST4118M1804-A,1,Stück,fehlt im Fusion-Import,Kaufteile,teilweise geklärt
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-077,GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm,pulley_gt2_z16_6mm,1,Stück,ja,Kaufteile,teilweise geklärt
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-078,GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm,return_pulley_gt2_z16_6mm,1,Stück,ja,Kaufteile,teilweise geklärt
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-104,"GT2-Riemen Y,6 mm breit",y_belt,1,Stück,ja,Kaufteile,teilweise geklärt
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-104,"GT2-Riemen Y, 6 mm breit",y_belt,1,Stück,ja,Kaufteile,teilweise geklärt
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-006,Grundgestell: Kabel Halter M5 flach,base_cable_holder_m5_flat,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-027,CPC MR12ML Führungswagen,cpc_MR12ML,2,Stück,ja,Kaufteile,teilweise geklärt
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-031,DIN 7991 M3×8,din_7991_m3x8,8,Stück,ja,Kaufteile,teilweise geklärt
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-032,DIN 7991 M6×12,din_7991_m6x12,4,Stück,ja,Kaufteile,teilweise geklärt
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,teilweise geklärt
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-046,DIN 912 M5×10,din_912_m5x10,8,Stück,ja,Kaufteile,teilweise geklärt
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-047,DIN 912 M5×14,din_912_m5x14,1,Stück,ja,Kaufteile,teilweise geklärt
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-031,DIN 7991 M3×8,din_7991_m3x8,8,Stück,ja,Kaufteile,bestellfähig
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-032,DIN 7991 M6×12,din_7991_m6x12,4,Stück,ja,Kaufteile,bestellfähig
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,bestellfähig
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-046,DIN 912 M5×10,din_912_m5x10,8,Stück,ja,Kaufteile,bestellfähig
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-047,DIN 912 M5×14,din_912_m5x14,1,Stück,ja,Kaufteile,bestellfähig
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-049,"igus E2i.10.10.028.0, 16 kurze Abschnitte",drag_chain_0_24m_E2i_10_10_028_0_4,4,Stück,ja,Kaufteile,teilweise geklärt
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter M8, Bauhülle 60 mm",inductive_proximity_sensor_m8,4,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Kaufteile,teilweise geklärt
@@ -200,34 +200,34 @@ K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-103,X-Achse Schlitten Ve
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-015,Grundgestell: NEMA 14 auf 17 Adapter,base_nema_14_to_17_adapter,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-021,Riemen Spanner GT2 Basis,belt_tightener_GT2_base,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-022,Riemen Spanner GT2 Flügel,belt_tightener_GT2_wing,1,Stück,ja,3D-Druck intern,Fertigung noch offen
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-035,DIN 912 M3×10,din_912_m3x10,2,Stück,ja,Kaufteile,teilweise geklärt
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-038,DIN 912 M3×16,din_912_m3x16,1,Stück,ja,Kaufteile,teilweise geklärt
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-044,DIN 912 M4×20,din_912_m4x20,1,Stück,ja,Kaufteile,teilweise geklärt
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-045,DIN 912 M4×30,din_912_m4x30,1,Stück,ja,Kaufteile,teilweise geklärt
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-056,ISO 8673 Mutter M3,iso_8673_nut_m3,1,Stück,ja,Kaufteile,teilweise geklärt
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-057,ISO 8673 Mutter M4,iso_8673_nut_m4,2,Stück,ja,Kaufteile,teilweise geklärt
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-035,DIN 912 M3×10,din_912_m3x10,2,Stück,ja,Kaufteile,bestellfähig
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-038,DIN 912 M3×16,din_912_m3x16,1,Stück,ja,Kaufteile,bestellfähig
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-044,DIN 912 M4×20,din_912_m4x20,1,Stück,ja,Kaufteile,bestellfähig
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-045,DIN 912 M4×30,din_912_m4x30,1,Stück,ja,Kaufteile,bestellfähig
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,1,Stück,ja,Kaufteile,bestellfähig
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-057,Sechskantmutter DIN 934 M4 A2,iso_8673_nut_m4,2,Stück,ja,Kaufteile,bestellfähig
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-064,Nanotec ST4118M1804-A NEMA17 X/Y-Motor,nanotec_nema_17_ST4118M1804-A,1,Stück,fehlt im Fusion-Import,Kaufteile,teilweise geklärt
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-077,GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm,pulley_gt2_z16_6mm,1,Stück,ja,Kaufteile,teilweise geklärt
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-078,GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm,return_pulley_gt2_z16_6mm,1,Stück,ja,Kaufteile,teilweise geklärt
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-104,"GT2-Riemen Y,6 mm breit",y_belt,1,Stück,ja,Kaufteile,teilweise geklärt
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,y_belt_drive,CAD-104,"GT2-Riemen Y, 6 mm breit",y_belt,1,Stück,ja,Kaufteile,teilweise geklärt
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-001,TR10x 2 GT2 Riemen Adapter,TR10x2_GT2_belt_adapter,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-002,TR10x 2 GT2 Riemen Adapter Abdeckung,TR10x2_GT2_belt_adapter_cover,1,Stück,ja,3D-Druck intern,Fertigung noch offen
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,teilweise geklärt
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-030,DIN 562 M4 Vierkantmutter,din_562_m4_square_nut,3,Stück,ja,Kaufteile,teilweise geklärt
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,teilweise geklärt
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-036,DIN 912 M3×12,din_912_m3x12,2,Stück,ja,Kaufteile,teilweise geklärt
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-037,DIN 912 M3×14,din_912_m3x14,1,Stück,ja,Kaufteile,teilweise geklärt
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-038,DIN 912 M3×16,din_912_m3x16,2,Stück,ja,Kaufteile,teilweise geklärt
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-040,DIN 912 M3×20,din_912_m3x20,1,Stück,ja,Kaufteile,teilweise geklärt
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-041,DIN 912 M3×30,din_912_m3x30,2,Stück,ja,Kaufteile,teilweise geklärt
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-042,DIN 912 M3×8,din_912_m3x8,4,Stück,ja,Kaufteile,teilweise geklärt
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-045,DIN 912 M4×30,din_912_m4x30,4,Stück,ja,Kaufteile,teilweise geklärt
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,bestellfähig
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-030,DIN 562 M4 Vierkantmutter,din_562_m4_square_nut,3,Stück,ja,Kaufteile,bestellfähig
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,bestellfähig
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-036,DIN 912 M3×12,din_912_m3x12,2,Stück,ja,Kaufteile,bestellfähig
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-037,DIN 912 M3×14,din_912_m3x14,1,Stück,ja,Kaufteile,bestellfähig
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-038,DIN 912 M3×16,din_912_m3x16,2,Stück,ja,Kaufteile,bestellfähig
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-040,DIN 912 M3×20,din_912_m3x20,1,Stück,ja,Kaufteile,bestellfähig
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-041,DIN 912 M3×30,din_912_m3x30,2,Stück,ja,Kaufteile,bestellfähig
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-042,DIN 912 M3×8,din_912_m3x8,4,Stück,ja,Kaufteile,bestellfähig
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-045,DIN 912 M4×30,din_912_m4x30,4,Stück,ja,Kaufteile,bestellfähig
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-054,HIWIN MGN12CZ0H Z-Führungswagen,hiwin_slide_MGN12CZ0H,1,Stück,ja,Kaufteile,teilweise geklärt
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-056,ISO 8673 Mutter M3,iso_8673_nut_m3,6,Stück,ja,Kaufteile,teilweise geklärt
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-057,ISO 8673 Mutter M4,iso_8673_nut_m4,6,Stück,ja,Kaufteile,teilweise geklärt
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,6,Stück,ja,Kaufteile,bestellfähig
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-057,Sechskantmutter DIN 934 M4 A2,iso_8673_nut_m4,6,Stück,ja,Kaufteile,bestellfähig
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-063,Nanotec ST3518M1004-A NEMA14 Z-Motor,nanotec_nema_14_ST3518M1004-A,2,Stück,ja,Kaufteile,teilweise geklärt
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-065,Optischer Endschalter 11×35 mm,optical_endstop,1,Stück,ja,Kaufteile,teilweise geklärt
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-076,Umlenkrolle 9 mm / außenØ18 / BohrungØ5,pulley_gt2_9mm,2,Stück,ja,Kaufteile,teilweise geklärt
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-076,GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm,pulley_gt2_9mm,2,Stück,ja,Kaufteile,teilweise geklärt
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-080,GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm,rod_slide_d10_l19,4,Stück,ja,Kaufteile,teilweise geklärt
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-085,Bewegliches USB-Mikroskop,usb_microscope,1,Stück,ja,Kaufteile,teilweise geklärt
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-105,Y-Achse Kamera Halter,y_camera_holder,1,Stück,ja,3D-Druck intern,Fertigung noch offen
@@ -235,25 +235,25 @@ K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-107,Y-Achse Schlitten,y_slide,1
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-108,Y-Achse Schlitten Abstand Stange,y_slide_distance_rod,2,Stück,ja,Weitere Fertigung,Fertigung noch offen
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-109,Y-Achse Schlitten Abstand Rohr 2 mm,y_slide_distance_tube_2mm,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-112,Y-Achse Schlitten oben,y_slide_top,1,Stück,ja,3D-Druck intern,Fertigung noch offen
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-113,"GT2-Riemen Z,9 mm breit",z_drive_belt,1,Stück,ja,Kaufteile,teilweise geklärt
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-113,"GT2-Riemen Z, 9 mm breit",z_drive_belt,1,Stück,ja,Kaufteile,teilweise geklärt
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-001,TR10x 2 GT2 Riemen Adapter,TR10x2_GT2_belt_adapter,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-002,TR10x 2 GT2 Riemen Adapter Abdeckung,TR10x2_GT2_belt_adapter_cover,1,Stück,ja,3D-Druck intern,Fertigung noch offen
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,teilweise geklärt
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-030,DIN 562 M4 Vierkantmutter,din_562_m4_square_nut,3,Stück,ja,Kaufteile,teilweise geklärt
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,teilweise geklärt
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-036,DIN 912 M3×12,din_912_m3x12,2,Stück,ja,Kaufteile,teilweise geklärt
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-037,DIN 912 M3×14,din_912_m3x14,1,Stück,ja,Kaufteile,teilweise geklärt
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-038,DIN 912 M3×16,din_912_m3x16,2,Stück,ja,Kaufteile,teilweise geklärt
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-040,DIN 912 M3×20,din_912_m3x20,1,Stück,ja,Kaufteile,teilweise geklärt
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-041,DIN 912 M3×30,din_912_m3x30,2,Stück,ja,Kaufteile,teilweise geklärt
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-042,DIN 912 M3×8,din_912_m3x8,4,Stück,ja,Kaufteile,teilweise geklärt
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-045,DIN 912 M4×30,din_912_m4x30,4,Stück,ja,Kaufteile,teilweise geklärt
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,bestellfähig
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-030,DIN 562 M4 Vierkantmutter,din_562_m4_square_nut,3,Stück,ja,Kaufteile,bestellfähig
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,bestellfähig
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-036,DIN 912 M3×12,din_912_m3x12,2,Stück,ja,Kaufteile,bestellfähig
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-037,DIN 912 M3×14,din_912_m3x14,1,Stück,ja,Kaufteile,bestellfähig
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-038,DIN 912 M3×16,din_912_m3x16,2,Stück,ja,Kaufteile,bestellfähig
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-040,DIN 912 M3×20,din_912_m3x20,1,Stück,ja,Kaufteile,bestellfähig
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-041,DIN 912 M3×30,din_912_m3x30,2,Stück,ja,Kaufteile,bestellfähig
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-042,DIN 912 M3×8,din_912_m3x8,4,Stück,ja,Kaufteile,bestellfähig
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-045,DIN 912 M4×30,din_912_m4x30,4,Stück,ja,Kaufteile,bestellfähig
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-054,HIWIN MGN12CZ0H Z-Führungswagen,hiwin_slide_MGN12CZ0H,1,Stück,ja,Kaufteile,teilweise geklärt
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-056,ISO 8673 Mutter M3,iso_8673_nut_m3,6,Stück,ja,Kaufteile,teilweise geklärt
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-057,ISO 8673 Mutter M4,iso_8673_nut_m4,6,Stück,ja,Kaufteile,teilweise geklärt
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,6,Stück,ja,Kaufteile,bestellfähig
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-057,Sechskantmutter DIN 934 M4 A2,iso_8673_nut_m4,6,Stück,ja,Kaufteile,bestellfähig
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-063,Nanotec ST3518M1004-A NEMA14 Z-Motor,nanotec_nema_14_ST3518M1004-A,2,Stück,ja,Kaufteile,teilweise geklärt
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-065,Optischer Endschalter 11×35 mm,optical_endstop,1,Stück,ja,Kaufteile,teilweise geklärt
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-076,Umlenkrolle 9 mm / außenØ18 / BohrungØ5,pulley_gt2_9mm,2,Stück,ja,Kaufteile,teilweise geklärt
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-076,GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm,pulley_gt2_9mm,2,Stück,ja,Kaufteile,teilweise geklärt
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-080,GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm,rod_slide_d10_l19,4,Stück,ja,Kaufteile,teilweise geklärt
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-085,Bewegliches USB-Mikroskop,usb_microscope,1,Stück,ja,Kaufteile,teilweise geklärt
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-105,Y-Achse Kamera Halter,y_camera_holder,1,Stück,ja,3D-Druck intern,Fertigung noch offen
@@ -261,25 +261,25 @@ K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-107,Y-Achse Schlitten,y_slide,1
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-108,Y-Achse Schlitten Abstand Stange,y_slide_distance_rod,2,Stück,ja,Weitere Fertigung,Fertigung noch offen
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-109,Y-Achse Schlitten Abstand Rohr 2 mm,y_slide_distance_tube_2mm,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-112,Y-Achse Schlitten oben,y_slide_top,1,Stück,ja,3D-Druck intern,Fertigung noch offen
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-113,"GT2-Riemen Z,9 mm breit",z_drive_belt,1,Stück,ja,Kaufteile,teilweise geklärt
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-113,"GT2-Riemen Z, 9 mm breit",z_drive_belt,1,Stück,ja,Kaufteile,teilweise geklärt
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-001,TR10x 2 GT2 Riemen Adapter,TR10x2_GT2_belt_adapter,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-002,TR10x 2 GT2 Riemen Adapter Abdeckung,TR10x2_GT2_belt_adapter_cover,1,Stück,ja,3D-Druck intern,Fertigung noch offen
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,teilweise geklärt
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-030,DIN 562 M4 Vierkantmutter,din_562_m4_square_nut,3,Stück,ja,Kaufteile,teilweise geklärt
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,teilweise geklärt
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-036,DIN 912 M3×12,din_912_m3x12,2,Stück,ja,Kaufteile,teilweise geklärt
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-037,DIN 912 M3×14,din_912_m3x14,1,Stück,ja,Kaufteile,teilweise geklärt
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-038,DIN 912 M3×16,din_912_m3x16,2,Stück,ja,Kaufteile,teilweise geklärt
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-040,DIN 912 M3×20,din_912_m3x20,1,Stück,ja,Kaufteile,teilweise geklärt
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-041,DIN 912 M3×30,din_912_m3x30,2,Stück,ja,Kaufteile,teilweise geklärt
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-042,DIN 912 M3×8,din_912_m3x8,4,Stück,ja,Kaufteile,teilweise geklärt
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-045,DIN 912 M4×30,din_912_m4x30,4,Stück,ja,Kaufteile,teilweise geklärt
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,bestellfähig
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-030,DIN 562 M4 Vierkantmutter,din_562_m4_square_nut,3,Stück,ja,Kaufteile,bestellfähig
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,bestellfähig
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-036,DIN 912 M3×12,din_912_m3x12,2,Stück,ja,Kaufteile,bestellfähig
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-037,DIN 912 M3×14,din_912_m3x14,1,Stück,ja,Kaufteile,bestellfähig
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-038,DIN 912 M3×16,din_912_m3x16,2,Stück,ja,Kaufteile,bestellfähig
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-040,DIN 912 M3×20,din_912_m3x20,1,Stück,ja,Kaufteile,bestellfähig
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-041,DIN 912 M3×30,din_912_m3x30,2,Stück,ja,Kaufteile,bestellfähig
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-042,DIN 912 M3×8,din_912_m3x8,4,Stück,ja,Kaufteile,bestellfähig
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-045,DIN 912 M4×30,din_912_m4x30,4,Stück,ja,Kaufteile,bestellfähig
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-054,HIWIN MGN12CZ0H Z-Führungswagen,hiwin_slide_MGN12CZ0H,1,Stück,ja,Kaufteile,teilweise geklärt
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-056,ISO 8673 Mutter M3,iso_8673_nut_m3,6,Stück,ja,Kaufteile,teilweise geklärt
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-057,ISO 8673 Mutter M4,iso_8673_nut_m4,6,Stück,ja,Kaufteile,teilweise geklärt
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,6,Stück,ja,Kaufteile,bestellfähig
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-057,Sechskantmutter DIN 934 M4 A2,iso_8673_nut_m4,6,Stück,ja,Kaufteile,bestellfähig
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-063,Nanotec ST3518M1004-A NEMA14 Z-Motor,nanotec_nema_14_ST3518M1004-A,2,Stück,ja,Kaufteile,teilweise geklärt
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-065,Optischer Endschalter 11×35 mm,optical_endstop,1,Stück,ja,Kaufteile,teilweise geklärt
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-076,Umlenkrolle 9 mm / außenØ18 / BohrungØ5,pulley_gt2_9mm,2,Stück,ja,Kaufteile,teilweise geklärt
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-076,GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm,pulley_gt2_9mm,2,Stück,ja,Kaufteile,teilweise geklärt
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-080,GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm,rod_slide_d10_l19,4,Stück,ja,Kaufteile,teilweise geklärt
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-085,Bewegliches USB-Mikroskop,usb_microscope,1,Stück,ja,Kaufteile,teilweise geklärt
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-106,Y-Achse Kamera Halter kompakt,y_camera_holder_compact,1,Stück,ja,3D-Druck intern,Fertigung noch offen
@@ -287,25 +287,25 @@ K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-109,Y-Achse Schlitten Abstand Rohr 2 mm,y_slide_distance_tube_2mm,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-110,Y-Achse Schlitten gespiegelt,y_slide_mirrored,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-111,Y-Achse Schlitten gespiegelt oben,y_slide_mirrored_top,1,Stück,ja,3D-Druck intern,Fertigung noch offen
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-113,"GT2-Riemen Z,9 mm breit",z_drive_belt,1,Stück,ja,Kaufteile,teilweise geklärt
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-113,"GT2-Riemen Z, 9 mm breit",z_drive_belt,1,Stück,ja,Kaufteile,teilweise geklärt
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-001,TR10x 2 GT2 Riemen Adapter,TR10x2_GT2_belt_adapter,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-002,TR10x 2 GT2 Riemen Adapter Abdeckung,TR10x2_GT2_belt_adapter_cover,1,Stück,ja,3D-Druck intern,Fertigung noch offen
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,teilweise geklärt
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-030,DIN 562 M4 Vierkantmutter,din_562_m4_square_nut,3,Stück,ja,Kaufteile,teilweise geklärt
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,teilweise geklärt
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-036,DIN 912 M3×12,din_912_m3x12,2,Stück,ja,Kaufteile,teilweise geklärt
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-037,DIN 912 M3×14,din_912_m3x14,1,Stück,ja,Kaufteile,teilweise geklärt
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-038,DIN 912 M3×16,din_912_m3x16,2,Stück,ja,Kaufteile,teilweise geklärt
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-040,DIN 912 M3×20,din_912_m3x20,1,Stück,ja,Kaufteile,teilweise geklärt
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-041,DIN 912 M3×30,din_912_m3x30,2,Stück,ja,Kaufteile,teilweise geklärt
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-042,DIN 912 M3×8,din_912_m3x8,4,Stück,ja,Kaufteile,teilweise geklärt
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-045,DIN 912 M4×30,din_912_m4x30,4,Stück,ja,Kaufteile,teilweise geklärt
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,bestellfähig
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-030,DIN 562 M4 Vierkantmutter,din_562_m4_square_nut,3,Stück,ja,Kaufteile,bestellfähig
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-035,DIN 912 M3×10,din_912_m3x10,4,Stück,ja,Kaufteile,bestellfähig
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-036,DIN 912 M3×12,din_912_m3x12,2,Stück,ja,Kaufteile,bestellfähig
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-037,DIN 912 M3×14,din_912_m3x14,1,Stück,ja,Kaufteile,bestellfähig
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-038,DIN 912 M3×16,din_912_m3x16,2,Stück,ja,Kaufteile,bestellfähig
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-040,DIN 912 M3×20,din_912_m3x20,1,Stück,ja,Kaufteile,bestellfähig
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-041,DIN 912 M3×30,din_912_m3x30,2,Stück,ja,Kaufteile,bestellfähig
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-042,DIN 912 M3×8,din_912_m3x8,4,Stück,ja,Kaufteile,bestellfähig
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-045,DIN 912 M4×30,din_912_m4x30,4,Stück,ja,Kaufteile,bestellfähig
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-054,HIWIN MGN12CZ0H Z-Führungswagen,hiwin_slide_MGN12CZ0H,1,Stück,ja,Kaufteile,teilweise geklärt
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-056,ISO 8673 Mutter M3,iso_8673_nut_m3,6,Stück,ja,Kaufteile,teilweise geklärt
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-057,ISO 8673 Mutter M4,iso_8673_nut_m4,6,Stück,ja,Kaufteile,teilweise geklärt
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,6,Stück,ja,Kaufteile,bestellfähig
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-057,Sechskantmutter DIN 934 M4 A2,iso_8673_nut_m4,6,Stück,ja,Kaufteile,bestellfähig
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-063,Nanotec ST3518M1004-A NEMA14 Z-Motor,nanotec_nema_14_ST3518M1004-A,2,Stück,ja,Kaufteile,teilweise geklärt
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-065,Optischer Endschalter 11×35 mm,optical_endstop,1,Stück,ja,Kaufteile,teilweise geklärt
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-076,Umlenkrolle 9 mm / außenØ18 / BohrungØ5,pulley_gt2_9mm,2,Stück,ja,Kaufteile,teilweise geklärt
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-076,GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm,pulley_gt2_9mm,2,Stück,ja,Kaufteile,teilweise geklärt
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-080,GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm,rod_slide_d10_l19,4,Stück,ja,Kaufteile,teilweise geklärt
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-085,Bewegliches USB-Mikroskop,usb_microscope,1,Stück,ja,Kaufteile,teilweise geklärt
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-106,Y-Achse Kamera Halter kompakt,y_camera_holder_compact,1,Stück,ja,3D-Druck intern,Fertigung noch offen
@@ -313,10 +313,10 @@ K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-109,Y-Achse Schlitten Abstand Rohr 2 mm,y_slide_distance_tube_2mm,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-110,Y-Achse Schlitten gespiegelt,y_slide_mirrored,1,Stück,ja,3D-Druck intern,Fertigung noch offen
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-111,Y-Achse Schlitten gespiegelt oben,y_slide_mirrored_top,1,Stück,ja,3D-Druck intern,Fertigung noch offen
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-113,"GT2-Riemen Z,9 mm breit",z_drive_belt,1,Stück,ja,Kaufteile,teilweise geklärt
-K10 z_slide:1,z_slide:1,Z-Achse,,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,teilweise geklärt
-K10 z_slide:1,z_slide:1,Z-Achse,,CAD-035,DIN 912 M3×10,din_912_m3x10,1,Stück,ja,Kaufteile,teilweise geklärt
-K10 z_slide:1,z_slide:1,Z-Achse,,CAD-042,DIN 912 M3×8,din_912_m3x8,2,Stück,ja,Kaufteile,teilweise geklärt
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-113,"GT2-Riemen Z, 9 mm breit",z_drive_belt,1,Stück,ja,Kaufteile,teilweise geklärt
+K10 z_slide:1,z_slide:1,Z-Achse,,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,bestellfähig
+K10 z_slide:1,z_slide:1,Z-Achse,,CAD-035,DIN 912 M3×10,din_912_m3x10,1,Stück,ja,Kaufteile,bestellfähig
+K10 z_slide:1,z_slide:1,Z-Achse,,CAD-042,DIN 912 M3×8,din_912_m3x8,2,Stück,ja,Kaufteile,bestellfähig
 K10 z_slide:1,z_slide:1,Z-Achse,,CAD-053,"HIWIN MGNR12R150HM, Z-Schiene 150 mm",hiwin_rail_MGNR12R150HM,1,Stück,ja,Kaufteile,teilweise geklärt
 K10 z_slide:1,z_slide:1,Z-Achse,,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K10 z_slide:1,z_slide:1,Z-Achse,,CAD-114,Z-Achse Antrieb Riemen Halter v 3,z_drive_belt_holder_v3,1,Stück,ja,3D-Druck intern,Fertigung noch offen
@@ -327,9 +327,9 @@ K10 z_slide:1,z_slide:1,Z-Achse,probe_tip,CAD-061,MMCX-Stecker gerade / Messleit
 K10 z_slide:1,z_slide:1,Z-Achse,probe_tip,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K10 z_slide:1,z_slide:1,Z-Achse,probe_tip,CAD-075,"Prüfspitzen-PCB, unbestückt",probe_tip_pcb,1,Stück,ja,PCB extern,Fertigung noch offen
 K10 z_slide:1,z_slide:1,Z-Achse,probe_tip,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
-K11 z_slide:2,z_slide:2,Z-Achse,,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,teilweise geklärt
-K11 z_slide:2,z_slide:2,Z-Achse,,CAD-035,DIN 912 M3×10,din_912_m3x10,1,Stück,ja,Kaufteile,teilweise geklärt
-K11 z_slide:2,z_slide:2,Z-Achse,,CAD-042,DIN 912 M3×8,din_912_m3x8,2,Stück,ja,Kaufteile,teilweise geklärt
+K11 z_slide:2,z_slide:2,Z-Achse,,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,bestellfähig
+K11 z_slide:2,z_slide:2,Z-Achse,,CAD-035,DIN 912 M3×10,din_912_m3x10,1,Stück,ja,Kaufteile,bestellfähig
+K11 z_slide:2,z_slide:2,Z-Achse,,CAD-042,DIN 912 M3×8,din_912_m3x8,2,Stück,ja,Kaufteile,bestellfähig
 K11 z_slide:2,z_slide:2,Z-Achse,,CAD-053,"HIWIN MGNR12R150HM, Z-Schiene 150 mm",hiwin_rail_MGNR12R150HM,1,Stück,ja,Kaufteile,teilweise geklärt
 K11 z_slide:2,z_slide:2,Z-Achse,,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K11 z_slide:2,z_slide:2,Z-Achse,,CAD-114,Z-Achse Antrieb Riemen Halter v 3,z_drive_belt_holder_v3,1,Stück,ja,3D-Druck intern,Fertigung noch offen
@@ -340,8 +340,8 @@ K11 z_slide:2,z_slide:2,Z-Achse,probe_tip,CAD-061,MMCX-Stecker gerade / Messleit
 K11 z_slide:2,z_slide:2,Z-Achse,probe_tip,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K11 z_slide:2,z_slide:2,Z-Achse,probe_tip,CAD-075,"Prüfspitzen-PCB, unbestückt",probe_tip_pcb,1,Stück,ja,PCB extern,Fertigung noch offen
 K11 z_slide:2,z_slide:2,Z-Achse,probe_tip,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
-K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,teilweise geklärt
-K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-035,DIN 912 M3×10,din_912_m3x10,1,Stück,ja,Kaufteile,teilweise geklärt
+K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,bestellfähig
+K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-035,DIN 912 M3×10,din_912_m3x10,1,Stück,ja,Kaufteile,bestellfähig
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-053,"HIWIN MGNR12R150HM, Z-Schiene 150 mm",hiwin_rail_MGNR12R150HM,1,Stück,ja,Kaufteile,teilweise geklärt
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",,CAD-114,Z-Achse Antrieb Riemen Halter v 3,z_drive_belt_holder_v3,1,Stück,ja,3D-Druck intern,Fertigung noch offen
@@ -353,8 +353,8 @@ K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",probe_tip_with_an
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-075,"Prüfspitzen-PCB, unbestückt",probe_tip_pcb,1,Stück,ja,PCB extern,Fertigung noch offen
 K12 z_slide_long:1,z_slide_long:1,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
-K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,teilweise geklärt
-K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-035,DIN 912 M3×10,din_912_m3x10,1,Stück,ja,Kaufteile,teilweise geklärt
+K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,1,Stück,ja,Kaufteile,bestellfähig
+K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-035,DIN 912 M3×10,din_912_m3x10,1,Stück,ja,Kaufteile,bestellfähig
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-053,"HIWIN MGNR12R150HM, Z-Schiene 150 mm",hiwin_rail_MGNR12R150HM,1,Stück,ja,Kaufteile,teilweise geklärt
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-073,Prüfkontakt-Hülse P75-2 W,plug_sleeve_P75-2_W,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",,CAD-114,Z-Achse Antrieb Riemen Halter v 3,z_drive_belt_holder_v3,1,Stück,ja,3D-Druck intern,Fertigung noch offen
@@ -400,7 +400,7 @@ K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-031,"Lötzinn, Schrum
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-032,Controller-Befestigung und Kühlung,,1,Satz,nein,Kaufteile,teilweise geklärt
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-033,Zusätzliche bewegliche Kameras,,3,Stück,nein,Optional,teilweise geklärt
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-034,"Host-PC, Messgeräte und Werkzeuge",,1,Bestand,nein,Nicht benötigt,nicht benötigt
-K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-035,Z-Antriebsriemenscheibe / integrierter Adapter,,4,Stück,nein,Ungeklärte Teile,nicht identifiziert
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-035,Z-Antriebsriemenscheibe / integrierter Adapter,,0,Stück,nein,Nicht benötigt,nicht benötigt
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-036,USB-/Versorgungsanschlüsse der Kalibrierung,,1,Prüfung,nein,Nicht benötigt,nicht benötigt
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-037,Weiße äußere Kalibrierreferenzen,,4,Stück,nein,Weitere Fertigung,Fertigung noch offen
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-038,Kalibrier-Kontaktleitungen und gemeinsame Messreferenz,,1,Satz,nein,Kaufteile,teilweise geklärt
