@@ -28,7 +28,7 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | CAD-019 Grundgestell: Platte Adapter rechts | 2 Stück | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten. |
 | CAD-024 Kabel Abdeckung | 4 Stück | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen. |
 | CAD-026 Kamera Halter oben | 1 Stück | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen. |
-| CAD-070 Platine Halter rechteckig Stange | 2 Stück | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen. |
+| CAD-070 Platine Halter rechteckig Stange | 2 Stück | ABWEICHUNG (Entscheidung Luis 17.10.2026): CAD-Vierkantrohr 11,5×11,5×1,5×205 mm (Fusion-Messung) wird durch Alu-Vierkantrohr 12×12 ersetzt; gedruckte Schieber CAD-067 auf 12 mm anpassen. 12×12×1,5 in DE/EU nicht gefunden, 12×12×1 erhältlich (z. B. e Bay metalexpres, Al Mg Si 0,5). Wandstärke und Bezug offen. |
 | CAD-075 Prüfspitzen-PCB, unbestückt | 4 Stück | 4 Stück;26,67×10,96×1,6 mm Hülle. Schaltplan, Kupfer, Bohrungen, Gerber und Bestückungsdaten fehlen. Bestückung SYS-024 separat. |
 | CAD-093 X-Achse Endschalter oben lang | 4 Stück | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen. |
 | CAD-094 X-Achse Endschalter oben kurz | 4 Stück | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen. |
