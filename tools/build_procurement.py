@@ -124,7 +124,7 @@ def with_reserve(quantity):
 
 # id -> (precise description, open question / evidence, preferred supplier)
 DETAIL = {
-23: ('BIGTREETECH SKR V1.3 Steuerplatine', 'Original laut CAD, Firmware und Masterarbeit. Neu in DE/EU nicht gefunden (Recherche 17.10.2026). Kandidat SKR 1.4 Turbo (RBS13645) passt auf fast dieselben Löcher, braucht aber Marlin-Pinanpassung; nicht freigegeben.', 'RBS'),
+23: ('Steuerplatine, ERSATZ: BIGTREETECH SKR 1.4 Turbo statt SKR V1.3', 'ORIGINAL AUSGETAUSCHT (Entscheidung Luis 17.10.2026): SKR V1.3 neu nicht lieferbar. SKR 1.4 Turbo: 110×85 mm, Löcher 102×76 (V1.3: 101,85×76,10), LPC1769, 5 Treibersteckplätze mit SPI. Marlin muss auf BOARD_BTT_SKR_V1_4_TURBO umgestellt werden; Endstop-, Treiber-CS- und SPI-MOSI-Pins ändern sich.', 'RBS'),
 27: ('CPC MR12ML Führungswagen', '8 Wagen MR12MLSSV0N für 2×600-mm-Schienen. CPC-Katalog SS-Ausführung: L 47,6, Körperhöhe 10, Breite 27, Lochbild 20×20 M3 = CAD und Fusion-Messung. Lieferbarkeit bei Motedis prüfen.', 'MOTEDIS'),
 49: ('igus E2i.10.10.028.0, 16 kurze Abschnitte', 'Teilung 20 mm, Außenbreite 17,4, Einbauhöhe 71 bei R28 = CAD. 0,24 m = 12 Glieder, zusammen 192 Glieder. Anschlüsse siehe SYS-027.', 'IGUS'),
 50: ('igus E2i.10.20.028.0, 8 lange Abschnitte', 'Teilung 20 mm, Außenbreite 27,4, Einbauhöhe 71 = CAD. 0,28 m = 14 Glieder, zusammen 112 Glieder. Anschlüsse siehe SYS-028.', 'IGUS'),
@@ -295,7 +295,7 @@ def make_parts():
         if key=='CAD-063': quantity=4
         if key=='CAD-085': quantity=1
         if key in EXCLUDED: quantity=0
-        if key in ids(11,12,13,14,20,27,51,55,63,86,93,94,103,69,76,77,78,98,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
+        if key in ids(11,12,13,14,20,23,27,51,55,63,86,93,94,103,69,76,77,78,98,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
         if key=='CAD-080': title='GleitbuchseØ10 innen / Ø19 außen / Länge29mm'
         if key=='CAD-001': title='Y-Riemenklemme (CAD-Name TR10x2 GT2 Adapter)'
         if key=='CAD-002': title='Y-Riemenklemme, Deckel'
@@ -418,7 +418,7 @@ def make_orders(parts):
     # Own rough budget assumptions; not supplier quotations or promises of fit.
     add('BUY-014','12 NEMA17 Originalmotoren',ids(64),12,offer='O-041')
     add('BUY-015','4 NEMA14 Z-Motoren, ERSATZ STEPPERONLINE 14HS13-0804S',ids(63),4,offer='O-065',estimate='8',basis='net',note='Shoppreis 8,48 USD, als 8 EUR netto geschätzt; EUR-Preis und Versandlager im Checkout prüfen.')
-    add('BUY-016','4 Steuerplatinen, Ersatzkandidat SKR 1.4 Turbo',ids(23),4,offer='O-043',note='Preis des Ersatzkandidaten; Firmware-Migration nicht enthalten und nicht freigegeben.')
+    add('BUY-016','4 Steuerplatinen SKR 1.4 Turbo (ERSATZ)',ids(23),4,offer='O-043',note='Firmware-Migration auf SKR 1.4 Turbo nötig (Arbeitszeit nicht kalkuliert).')
     add('BUY-018','8 CPC-Führungswagen MR12ML',ids(27),8,offer='O-045')
     add('BUY-019','2 CPC-Schienen MR12M 600 mm',ids(95),2,offer='O-046')
     add('BUY-020','4 HIWIN-Schienen 150 mm',ids(53),4,offer='O-047')

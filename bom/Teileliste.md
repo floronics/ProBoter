@@ -47,7 +47,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-018](#cad-018) Grundgestell: Platte Adapter links | direkt | `base_plate_adapter_left` | 2 | Fertigung noch offen |
 | [CAD-019](#cad-019) Grundgestell: Platte Adapter rechts | direkt | `base_plate_adapter_right` | 2 | Fertigung noch offen |
 | [CAD-020](#cad-020) Grundgestell: vertikal | direkt | `base_vertical` | 4 | bestellfähig |
-| [CAD-023](#cad-023) BIGTREETECH SKR V1.3 Steuerplatine | direkt | `bigtreetech_skr_v1_3` | 4 | teilweise geklärt |
+| [CAD-023](#cad-023) Steuerplatine, ERSATZ: BIGTREETECH SKR 1.4 Turbo statt SKR V1.3 | direkt | `bigtreetech_skr_v1_3` | 4 | bestellfähig |
 | [CAD-024](#cad-024) Kabel Abdeckung | direkt | `cable_cover` | 4 | Fertigung spezifiziert |
 | [CAD-033](#cad-033) DIN 7991 M6×14 | direkt | `din_7991_m6x14` | 6 | bestellfähig; Plan gesamt 8 statt 6 |
 | [CAD-034](#cad-034) DIN 7991 M6×20 | direkt | `din_7991_m6x20` | 22 | bestellfähig; Plan gesamt 25 statt 22 |
@@ -554,7 +554,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | CAD / Fusion / Plan | Status | Geometrie / Werkstoff | Quelle und konkreter Klärbedarf |
 | --- | --- | --- | --- | --- |
-| <a id="cad-023"></a>**CAD-023** BIGTREETECH SKR V1.3 Steuerplatine<br>`bigtreetech_skr_v1_3` | 4 / 4 / **4 Stück** | teilweise geklärt | 109.67 x 1.55 x 84.3; nicht belegt | Original laut CAD, Firmware und Masterarbeit. Neu in DE/EU nicht gefunden (Recherche 17.10.2026). Kandidat SKR 1.4 Turbo (RBS13645) passt auf fast dieselben Löcher, braucht aber Marlin-Pinanpassung; nicht freigegeben.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-016` |
+| <a id="cad-023"></a>**CAD-023** Steuerplatine, ERSATZ: BIGTREETECH SKR 1.4 Turbo statt SKR V1.3<br>`bigtreetech_skr_v1_3` | 4 / 4 / **4 Stück** | bestellfähig | 109.67 x 1.55 x 84.3; nicht belegt | ORIGINAL AUSGETAUSCHT (Entscheidung Luis 17.10.2026): SKR V1.3 neu nicht lieferbar. SKR 1.4 Turbo: 110×85 mm, Löcher 102×76 (V1.3: 101,85×76,10), LPC1769, 5 Treibersteckplätze mit SPI. Marlin muss auf BOARD_BTT_SKR_V1_4_TURBO umgestellt werden; Endstop-, Treiber-CS- und SPI-MOSI-Pins ändern sich.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-016` |
 | <a id="cad-027"></a>**CAD-027** CPC MR12ML Führungswagen<br>`cpc_MR12ML` | 8 / 8 / **8 Stück** | bestellfähig | 47.6 x 10.0 x 27.0; nicht belegt | 8 Wagen MR12MLSSV0N für 2×600-mm-Schienen. CPC-Katalog SS-Ausführung: L 47,6, Körperhöhe 10, Breite 27, Lochbild 20×20 M3 = CAD und Fusion-Messung. Lieferbarkeit bei Motedis prüfen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-018` |
 | <a id="cad-028"></a>**CAD-028** DIN 466 Rändelmutter hoch M4<br>`din_466_knurled_nut_high_m4` | 8 / 8 / **10 Stück** | bestellfähig | 16.0 x 16.0 x 9.5; Edelstahl A1; A2 in DIN 466 nicht gefunden | Norm und Maße mit CAD abgeglichen; Artikel OS-466-1-040. DIN 466 M4: dk 16, m 9,5 = CAD. Nur A1 statt A2 lieferbar. Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `N-028` |
 | <a id="cad-029"></a>**CAD-029** DIN 562 M3 Vierkantmutter<br>`din_562_m3_square_nut` | 8 / 8 / **10 Stück** | bestellfähig | 5.5 x 1.8 x 5.5; Edelstahl A2 (Entscheidung 17.10.2026); Festigkeitsklasse A2-70 im Shop nicht ausgewiesen | Norm und Maße mit CAD abgeglichen; Artikel OS-562-2-0030. DIN 562 M3: s 5,5, m 1,8 = CAD. Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `N-029` |

@@ -13,7 +13,7 @@ K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CA
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-018,Grundgestell: Platte Adapter links,base_plate_adapter_left,2,Stück,ja,Blech intern,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-019,Grundgestell: Platte Adapter rechts,base_plate_adapter_right,2,Stück,ja,Blech intern,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-020,Grundgestell: vertikal,base_vertical,4,Stück,ja,Weitere Fertigung,bestellfähig
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-023,BIGTREETECH SKR V1.3 Steuerplatine,bigtreetech_skr_v1_3,4,Stück,ja,Kaufteile,teilweise geklärt
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-023,"Steuerplatine, ERSATZ: BIGTREETECH SKR 1.4 Turbo statt SKR V1.3",bigtreetech_skr_v1_3,4,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-024,Kabel Abdeckung,cable_cover,4,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-033,DIN 7991 M6×14,din_7991_m6x14,6,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-034,DIN 7991 M6×20,din_7991_m6x20,22,Stück,ja,Kaufteile,bestellfähig

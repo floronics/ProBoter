@@ -10,7 +10,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | [M04 Z-Achse](#modul-04) | 20 | 100 | 14 | 0 | 0 | 6 | 0 | 0 |
 | [M05 Schublade und Platinenhalter](#modul-05) | 21 | 96 | 15 | 0 | 1 | 4 | 1 | 0 |
 | [M06 Kabelführung](#modul-06) | 17 | 304 | 10 | 1 | 0 | 6 | 0 | 0 |
-| [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 10 | 2 | 0 | 6 | 0 | 0 |
+| [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 11 | 1 | 0 | 6 | 0 | 0 |
 | [M08 Optik](#modul-08) | 8 | 22 | 3 | 1 | 1 | 3 | 0 | 0 |
 | [M09 Prüfspitzen](#modul-09) | 5 | 28 | 0 | 0 | 1 | 0 | 4 | 0 |
 | [M10 Verkleidung](#modul-10) | 2 | 4 | 0 | 0 | 2 | 0 | 0 | 0 |
@@ -311,6 +311,7 @@ Netzteil, Steuerplatinen, Bedientaster, Multiplexer-Halter, induktive Sensoren u
 
 | ID / Teil | CAD-Name | Stück | Status | Beschaffungsart |
 | --- | --- | --- | --- | --- |
+| [CAD-023](../Teileliste.md#cad-023) Steuerplatine, ERSATZ: BIGTREETECH SKR 1.4 Turbo statt SKR V1.3 | `bigtreetech_skr_v1_3` | 4 | bestellfähig | Kaufteile |
 | [CAD-035](../Teileliste.md#cad-035) DIN 912 M3×10 | `din_912_m3x10` | 16 | bestellfähig; Endschalter-Adapter und Flanschhalter am X-Wagen. | Kaufteile |
 | [CAD-036](../Teileliste.md#cad-036) DIN 912 M3×12 | `din_912_m3x12` | 8 | bestellfähig; Optische Endschalter. | Kaufteile |
 | [CAD-055](../Teileliste.md#cad-055) Induktiver Näherungsschalter ELCO NI4-M08-ON6L-Q8 (AUSWAHL, Original unbekannt) | `inductive_proximity_sensor_m8` | 24 | bestellfähig | Kaufteile |
@@ -321,7 +322,6 @@ Netzteil, Steuerplatinen, Bedientaster, Multiplexer-Halter, induktive Sensoren u
 | [CAD-086](../Teileliste.md#cad-086) Netzschalter Ø19 ONPOW LAS1 A-ZG24, rastend | `vandalism_switch_d19` | 1 | bestellfähig | Kaufteile |
 | [CAD-093](../Teileliste.md#cad-093) X-Achse Endschalter oben lang | `x_end_stop_top_long` | 4 | bestellfähig | Weitere Fertigung |
 | [CAD-094](../Teileliste.md#cad-094) X-Achse Endschalter oben kurz | `x_end_stop_top_short` | 4 | bestellfähig | Weitere Fertigung |
-| [CAD-023](../Teileliste.md#cad-023) BIGTREETECH SKR V1.3 Steuerplatine | `bigtreetech_skr_v1_3` | 4 | teilweise geklärt | Kaufteile |
 | [CAD-058](../Teileliste.md#cad-058) ISO 8673 Mutter M8 | `iso_8673_nut_m8` | 48 | teilweise geklärt | Kaufteile |
 | [CAD-074](../Teileliste.md#cad-074) Stromversorgung Schalter Halter | `power_switch_holder` | 1 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-083](../Teileliste.md#cad-083) Signal-Multiplexer Halter | `signal_multiplexer_holder` | 1 | Fertigung spezifiziert | 3D-Druck intern |
