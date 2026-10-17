@@ -295,8 +295,8 @@ def make_parts():
             process_evidence='WERKSTATT: eigene Fertigung (Entscheidung Luis 17.10.2026)'
             note=('10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten.' if key in ids(16,17,18,19) else '5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten.')+' Zeichnung aus CAD ableiten.'
         if key=='CAD-070':
-            note='ABWEICHUNG (Entscheidung Luis 17.10.2026): CAD-Vierkantrohr 11,5×11,5×1,5×205 mm (Fusion-Messung) wird durch Alu-Vierkantrohr 12×12 ersetzt; gedruckte Schieber CAD-067 auf 12 mm anpassen. 12×12×1,5 in DE/EU nicht gefunden, 12×12×1 erhältlich (z. B. eBay metalexpres, AlMgSi0,5). Wandstärke und Bezug offen.'
-            material='Aluminium-Vierkantrohr 12×12 (EN AW-6060)'
+            note='ABWEICHUNG (Entscheidung Luis 17.10.2026): CAD-Vierkantrohr 11,5×11,5×1,5×205 mm (Fusion-Messung) wird durch Alu-Vierkantrohr 12×12×1 mm ersetzt (keine Last; 12×12×1,5 in DE/EU nicht gefunden); gedruckte Schieber CAD-067 auf 12 mm anpassen. Bezugsquelle z. B. eBay metalexpres (AlMgSi0,5, ab 500 mm), Preis und Lager noch prüfen.'
+            material='Aluminium-Vierkantrohr 12×12×1 (AlMgSi0,5)'
         if key=='CAD-108':
             note='Fusion-Messung: massiver Rundstab Ø4×70 mm, Fasen an beiden Enden, ohne Gewinde. Werkstatt: aus Ø4-h6-Silberstahl (1.2210) ablängen und anfasen (Entscheidung Luis 17.10.2026).'
             material='Silberstahl 1.2210 Ø4 h6'; status='Fertigung spezifiziert'; process_evidence='WERKSTATT: Ablängen und Anfasen'
