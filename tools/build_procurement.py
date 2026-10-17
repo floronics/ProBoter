@@ -230,7 +230,7 @@ def make_parts():
         if key in CNC:
             group, supplier, status = 'CNC extern','XOMETRY','Fertigung noch offen'
             material, process_evidence = 'EN AW-6082 T6 vorgeschlagen', 'CNC-Fräsen vorgeschlagen; Originalverfahren nicht belegt'
-            note = '10mm Plattenhülle. Material, Nullpunkte, Loch-/Gewindetabelle, Passungen, Ebenheit und Oberflächen festlegen; STEP allein reicht nicht zur Funktionsfreigabe.'
+            note = 'PRÜFEN: Verfahren ungeklärt. Fusion-Messung zeigt 10 mm Platten mit Stufen auf 5 mm Tiefe und 90°-Senkungen; möglicherweise Kauf-Adapterplatten oder zwei 5-mm-Laserteile statt CNC. Material, Lochtabelle und Passungen festlegen.'
         if key in STOCK:
             group, supplier, status = 'Weitere Fertigung','DOLD','Fertigung noch offen'
             material, process_evidence = 'je Teil vorgeschlagen, siehe Fertigung.md', 'Zuschnitt/Nachbearbeitung vorgeschlagen'
