@@ -1,20 +1,21 @@
 {
   "web": {
-    "net": "3140.73",
-    "gross": "3737.56"
+    "net": "3084.47",
+    "gross": "3670.61"
   },
   "estimates": {
     "net": "825.25",
     "gross": "982.03"
   },
   "provisional": {
-    "net": "3965.98",
-    "gross": "4719.59"
+    "net": "3909.72",
+    "gross": "4652.64"
   },
   "date": "2026-10-16",
   "parts": 176,
   "cad_positions": 120,
   "unpriced": [
+    "BUY-010",
     "OPEN-CAD-010",
     "OPEN-CAD-061",
     "OPEN-CAD-062",
@@ -38,9 +39,9 @@
   "status_counts": {
     "Fertigung spezifiziert": 37,
     "Fertigung noch offen": 25,
-    "teilweise geklärt": 28,
+    "teilweise geklärt": 27,
     "nicht identifiziert": 5,
-    "bestellfähig": 76,
+    "bestellfähig": 77,
     "nicht benötigt": 5
   }
 }

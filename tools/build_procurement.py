@@ -49,6 +49,8 @@ SUPPLIER_URL = {
     'RS': 'https://de.rs-online.com/',
     'AUTOMATION24': 'https://www.automation24.de/',
     'ELCO': 'https://shop.elco-automation.de/',
+    'VOELKNER': 'https://www.voelkner.de/',
+    'ELP': 'https://www.elpcctv.com/',
     'OFFEN': '',
 }
 
@@ -149,7 +151,7 @@ DETAIL = {
 80: ('Lineargleitbuchse Ø10 innen / Ø19 außen / Länge 29 mm', 'igus RJ4JP-01-10: d 10, D 19, B 29, Nut Ø18 = CAD und Fusion-Messung. iglidur J4, LM10UU-Bauform.', 'DOLD'),
 81: ('Anschraubwinkel 30 / Nut 6', 'DOLD 62378 (I-Typ Nut 6) 28×28×28 = CAD; bestellt als Satz 62385-BS mit Schrauben und Nutensteinen.', 'DOLD'),
 84: ('Teleskopschiene 350 mm, Vollauszug', 'DOLD HS-4613-350 (CAD-Name enthält 4613): 350×45,7×12,7 (CAD 45,5), 1 Paar = die 2 CAD-Schienen. Vollauszug 354 mm.', 'DOLD'),
-85: ('Bewegliches USB-Mikroskop', 'Plan1 laut Hardware-Blog,4CAD. Weitere3 optional. Originalmodell unbekannt; Kandidat muss100mm Arbeitsabstand/ca30×40mm Bildfeld und Linux-UVC erfüllen.', 'REICHELT'),
+85: ('Bewegliches USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG)', 'Original unbekannt. Gewählt (Luis 17.10.2026): Toolcraft USB-Mikroskop 2 MP, Ø33×110 mm, Fokus 0–150 mm; CAD-Halter ist für Ø36 → 1,5-mm-Hülse oder Halter anpassen. UVC/Linux vor Einbau testen. Plan 1 Stück, 3 optional.', 'VOELKNER'),
 86: ('Netzschalter Ø19 ONPOW LAS1A-ZG24, rastend', 'Funktion Netzschalter rastend (Luis 17.10.2026). Reichelt VS LAS1A-ZG24: Ø19, 5 A/250 V AC, Ring-LED 24 V. Rastend aus Typcode abgeleitet, vor Bestellung bestätigen.', 'REICHELT'),
 87: ('GT2-Riemen X, 6 mm breit', '8 Verläufe, offen mit Spanner an beiden Enden. Fusion-Messung: 699 mm Trum, Teillänge 1.430 mm je Verlauf; Zuschnitt mit 2×40 mm Klemmzugabe ca. 1,51 m. Summe X+Y ca. 16,5 m aus zwei 10-m-Rollen.', 'DOLD'),
 95: ('CPC MR12M Führungsschiene 600 mm', '2 Stück MR12M-N-600: 12×7,5 mm, Teilung 25, 24 Bohrungen Ø3,5/Ø6, Endabstand 12,5 = CAD. Nicht mit HIWIN MGN mischen.', 'MOTEDIS'),
@@ -162,7 +164,7 @@ DETAIL = {
 # key, description, quantity, unit, group, supplier, specification/gap, source
 SYSTEM = [
 ('001','TMC2130 SPI Treibermodule',16,'Stück','Kaufteile','RBS','4 je SKR für X/X2/Y/Z. RBS13024: 4 Treiber mit Kühlkörpern und Kabel, SPI-Pins laut Fotos vorgelötet. Revision nicht angegeben; SPI-Modus laut Datenblatt per Lötbrücke CFG4/CFG5 prüfen.',FIRMWARE),
-('002','Stationäre Übersichtskamera, USB-Platinenkamera 32×32 mm',1,'Stück','Kaufteile','REICHELT','Fusion-Messung: Halter CAD-025 hat 4 M2-Bohrungen im Raster 28×28 mm = 32×32-mm-USB-Platinenkamera (z. B. ELP, 1080p, UVC, M12-Objektiv), keine Webcam (Entscheidung Luis 17.10.2026). Logitech C920 passt nicht.',BLOG),
+('002','Stationäre Übersichtskamera ELP-USBFHD01M-H100',1,'Stück','Kaufteile','ELP','Gewählt (Luis 17.10.2026): ELP-USBFHD01M-H100, 1080p, UVC, 100°, Preis auf Anfrage; Lochraster beim Kauf bestätigen. Fusion-Messung: Halter CAD-025 hat 4 M2-Bohrungen im Raster 28×28 mm = 32×32-mm-USB-Platinenkamera (z. B. ELP, 1080p, UVC, M12-Objektiv), keine Webcam (Entscheidung Luis 17.10.2026). Logitech C920 passt nicht.',BLOG),
 ('003','Signal-Multiplexer, unbestückte Leiterplatte',1,'Stück','PCB extern','BETA','CAD-082 ist nur Platzhalter. Schaltplan/Gerber/Board-BOM fehlen; USB/9600Baud-Protokoll ist keine Schaltung.',SOFTWARE),
 ('004','Kalibrier-Referenzkörper / Platte',1,'Stück','3D-Druck intern','RBS','Geometrie mit aktueller Software festlegen; Plattendicke5,1mm ist Konfigurationswert, keine validierte Zeichnung.',SOFTWARE),
 ('005','Innere Messing-Referenzzylinder',4,'Stück','Weitere Fertigung','DOLD','Je1×Ø7/8/9/10mm nach ReferenceBoard.inner_brass_pin_position_map; Raster11,95×19,95mm. Endfläche auf Bezugsebene; Gesamtlänge, Einbau, Toleranzen und Messprotokoll fehlen.','../software/hardware-control/proboter/tasks/utils/reference_board.py'),
@@ -295,7 +297,7 @@ def make_parts():
         if key=='CAD-063': quantity=4
         if key=='CAD-085': quantity=1
         if key in EXCLUDED: quantity=0
-        if key in ids(11,12,13,14,20,23,27,51,55,63,86,93,94,103,69,76,77,78,98,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
+        if key in ids(11,12,13,14,20,23,27,51,55,85,63,86,93,94,103,69,76,77,78,98,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
         if key=='CAD-080': title='GleitbuchseØ10 innen / Ø19 außen / Länge29mm'
         if key=='CAD-001': title='Y-Riemenklemme (CAD-Name TR10x2 GT2 Adapter)'
         if key=='CAD-002': title='Y-Riemenklemme, Deckel'
@@ -410,8 +412,8 @@ def make_orders(parts):
     solid=sum(D(p['solid_volume_cm3'])*D(str(p['quantity'])) for p in printed if p['solid_volume_cm3'])
     kg=solid*D('1.27')*D('1.20')/1000 + D('1')
     add('MAT-001','PETG fürCAD-Druckteile plusKalibrierkörper',[p['id'] for p in printed],kg,unit='kg',offer='O-010',note=f'{solid:.3f}cm³ CAD-Vollvolumen × angenommene1,27g/cm³ ×1,20 +1kg Kalibrier-/Probedruckbudget. Auf ganze1kg-Rollen gerundet. Kein Slicerresultat.')
-    add('BUY-010','Übersichtskamera, Ersatzkandidat',['SYS-002'],1,offer='O-011')
-    add('BUY-011','USB-Mikroskop, Ersatzkandidat',ids(85),1,offer='O-012')
+    add('BUY-010','Übersichtskamera ELP-USBFHD01M-H100',['SYS-002'],1,offer='O-088',estimate=None)
+    add('BUY-011','USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG Halter)',ids(85),1,offer='O-087')
     add('BUY-012','Aktiver7Port-USB-Hub',['SYS-010'],1,offer='O-013')
     add('BUY-013','LED5m-Rolle fürgeplant2m',['SYS-007'],2,unit='m',offer='O-014')
     add('ALT-001','MR12MLVergleich, keine bestätigteCPC-Paarung',ids(27),8,offer='O-015',optional=True)

@@ -148,7 +148,7 @@ M07,Elektrik und Sensorik,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-094,X-Achs
 M07,Elektrik und Sensorik,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-101,X-Achse Schlitten induktiv Endschalter Adapter,x_slide_inductive_endstop_adapter,4,4,Fertigung spezifiziert,3D-Druck intern,
 M07,Elektrik und Sensorik,x_slide:1;x_slide:2;x_slide:3;x_slide:4,CAD-102,X-Achse Schlitten induktiv Endschalter Adapter gespiegelt,x_slide_inductive_endstop_adapter_mirrored,4,4,Fertigung spezifiziert,3D-Druck intern,
 M07,Elektrik und Sensorik,x_slide:1;x_slide:2;x_slide:3;x_slide:4+,CAD-035,DIN 912 M3×10,din_912_m3x10,16,16,bestellfähig,Kaufteile,Endschalter-Adapter und Flanschhalter am X-Wagen.
-M08,Optik,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-085,Bewegliches USB-Mikroskop,usb_microscope,4,4,teilweise geklärt,Kaufteile,"CAD zeigt 4, geplant ist 1 (3 optional)."
+M08,Optik,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-085,"Bewegliches USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG)",usb_microscope,4,4,bestellfähig,Kaufteile,"CAD zeigt 4, geplant ist 1 (3 optional)."
 M08,Optik,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-105,Y-Achse Kamera Halter,y_camera_holder,2,2,Fertigung spezifiziert,3D-Druck intern,
 M08,Optik,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-106,Y-Achse Kamera Halter kompakt,y_camera_holder_compact,2,2,Fertigung spezifiziert,3D-Druck intern,
 M08,Optik,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-037,DIN 912 M3×14,din_912_m3x14,4,4,bestellfähig,Kaufteile,

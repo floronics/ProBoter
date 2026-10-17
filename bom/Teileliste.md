@@ -298,7 +298,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-065](#cad-065) Optischer Endschalter 11×35 mm | direkt | `optical_endstop` | 1 | bestellfähig |
 | [CAD-076](#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG | direkt | `pulley_gt2_9mm` | 2 | bestellfähig |
 | [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | bestellfähig |
-| [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
+| [CAD-085](#cad-085) Bewegliches USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG) | direkt | `usb_microscope` | 1 | bestellfähig; Plan gesamt 1 statt 4 |
 | [CAD-105](#cad-105) Y-Achse Kamera Halter | direkt | `y_camera_holder` | 1 | Fertigung spezifiziert |
 | [CAD-107](#cad-107) Y-Achse Schlitten | direkt | `y_slide` | 1 | Fertigung spezifiziert |
 | [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung spezifiziert |
@@ -331,7 +331,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-065](#cad-065) Optischer Endschalter 11×35 mm | direkt | `optical_endstop` | 1 | bestellfähig |
 | [CAD-076](#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG | direkt | `pulley_gt2_9mm` | 2 | bestellfähig |
 | [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | bestellfähig |
-| [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
+| [CAD-085](#cad-085) Bewegliches USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG) | direkt | `usb_microscope` | 1 | bestellfähig; Plan gesamt 1 statt 4 |
 | [CAD-105](#cad-105) Y-Achse Kamera Halter | direkt | `y_camera_holder` | 1 | Fertigung spezifiziert |
 | [CAD-107](#cad-107) Y-Achse Schlitten | direkt | `y_slide` | 1 | Fertigung spezifiziert |
 | [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung spezifiziert |
@@ -364,7 +364,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-065](#cad-065) Optischer Endschalter 11×35 mm | direkt | `optical_endstop` | 1 | bestellfähig |
 | [CAD-076](#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG | direkt | `pulley_gt2_9mm` | 2 | bestellfähig |
 | [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | bestellfähig |
-| [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
+| [CAD-085](#cad-085) Bewegliches USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG) | direkt | `usb_microscope` | 1 | bestellfähig; Plan gesamt 1 statt 4 |
 | [CAD-106](#cad-106) Y-Achse Kamera Halter kompakt | direkt | `y_camera_holder_compact` | 1 | Fertigung spezifiziert |
 | [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung spezifiziert |
 | [CAD-109](#cad-109) Y-Achse Schlitten Abstand Rohr 2 mm | direkt | `y_slide_distance_tube_2mm` | 1 | Fertigung spezifiziert |
@@ -397,7 +397,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-065](#cad-065) Optischer Endschalter 11×35 mm | direkt | `optical_endstop` | 1 | bestellfähig |
 | [CAD-076](#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG | direkt | `pulley_gt2_9mm` | 2 | bestellfähig |
 | [CAD-080](#cad-080) GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm | direkt | `rod_slide_d10_l19` | 4 | bestellfähig |
-| [CAD-085](#cad-085) Bewegliches USB-Mikroskop | direkt | `usb_microscope` | 1 | teilweise geklärt; Plan gesamt 1 statt 4 |
+| [CAD-085](#cad-085) Bewegliches USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG) | direkt | `usb_microscope` | 1 | bestellfähig; Plan gesamt 1 statt 4 |
 | [CAD-106](#cad-106) Y-Achse Kamera Halter kompakt | direkt | `y_camera_holder_compact` | 1 | Fertigung spezifiziert |
 | [CAD-108](#cad-108) Y-Achse Schlitten Abstand Stange | direkt | `y_slide_distance_rod` | 2 | Fertigung spezifiziert |
 | [CAD-109](#cad-109) Y-Achse Schlitten Abstand Rohr 2 mm | direkt | `y_slide_distance_tube_2mm` | 1 | Fertigung spezifiziert |
@@ -492,7 +492,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | ID / Teil | Planmenge | Beschaffungsart | Status |
 | --- | --- | --- | --- |
 | [SYS-001](#sys-001) TMC2130 SPI Treibermodule | 16 Stück | Kaufteile | teilweise geklärt |
-| [SYS-002](#sys-002) Stationäre Übersichtskamera, USB-Platinenkamera 32×32 mm | 1 Stück | Kaufteile | teilweise geklärt |
+| [SYS-002](#sys-002) Stationäre Übersichtskamera ELP-USBFHD01M-H100 | 1 Stück | Kaufteile | teilweise geklärt |
 | [SYS-003](#sys-003) Signal-Multiplexer, unbestückte Leiterplatte | 1 Stück | PCB extern | Fertigung noch offen |
 | [SYS-004](#sys-004) Kalibrier-Referenzkörper / Platte | 1 Stück | 3D-Druck intern | Fertigung noch offen |
 | [SYS-005](#sys-005) Innere Messing-Referenzzylinder | 4 Stück | Weitere Fertigung | Fertigung noch offen |
@@ -599,14 +599,14 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="cad-080"></a>**CAD-080** GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm<br>`rod_slide_d10_l19` | 16 / 16 / **16 Stück** | bestellfähig | 29.0 x 19.0 x 19.0; nicht belegt | igus RJ4JP-01-10: d 10, D 19, B 29, Nut Ø18 = CAD und Fusion-Messung. iglidur J4, LM10UU-Bauform.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-022` |
 | <a id="cad-081"></a>**CAD-081** Anschraubwinkel 30 / Nut 6<br>`screw_on_bracket_30_6` | 26 / 26 / **26 Stück** | bestellfähig | 28.0 x 28.0 x 28.0; nicht belegt | DOLD 62378 (I-Typ Nut 6) 28×28×28 = CAD; bestellt als Satz 62385-BS mit Schrauben und Nutensteinen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-C081` |
 | <a id="cad-084"></a>**CAD-084** Teleskopschiene 350 mm, Vollauszug<br>`telescopic_bar_tsaa514613-350` | 2 / 2 / **2 Stück** | bestellfähig | 45.5 x 12.7 x 350.0; nicht belegt | DOLD HS-4613-350 (CAD-Name enthält 4613): 350×45,7×12,7 (CAD 45,5), 1 Paar = die 2 CAD-Schienen. Vollauszug 354 mm.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-C084` |
-| <a id="cad-085"></a>**CAD-085** Bewegliches USB-Mikroskop<br>`usb_microscope` | 4 / 4 / **1 Stück** | teilweise geklärt | 108.0 x 60.0 x 36.0; nicht belegt | Plan 1 laut Hardware-Blog,4CAD. Weitere 3 optional. Originalmodell unbekannt; Kandidat muss 100 mm Arbeitsabstand/ca 30×40 mm Bildfeld und Linux-UVC erfüllen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-011` |
+| <a id="cad-085"></a>**CAD-085** Bewegliches USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG)<br>`usb_microscope` | 4 / 4 / **1 Stück** | bestellfähig | 108.0 x 60.0 x 36.0; nicht belegt | Original unbekannt. Gewählt (Luis 17.10.2026): Toolcraft USB-Mikroskop 2 MP, Ø33×110 mm, Fokus 0–150 mm; CAD-Halter ist für Ø36 → 1,5-mm-Hülse oder Halter anpassen. UVC/Linux vor Einbau testen. Plan 1 Stück, 3 optional.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-011` |
 | <a id="cad-086"></a>**CAD-086** Netzschalter Ø19 ONPOW LAS1 A-ZG24, rastend<br>`vandalism_switch_d19` | 1 / 1 / **1 Stück** | bestellfähig | 17.91 x 23.0 x 23.0; nicht belegt | Funktion Netzschalter rastend (Luis 17.10.2026). Reichelt VS LAS1 A-ZG24: Ø19, 5 A/250 V AC, Ring-LED 24 V. Rastend aus Typcode abgeleitet, vor Bestellung bestätigen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SW` |
 | <a id="cad-087"></a>**CAD-087** GT2-Riemen X, 6 mm breit<br>`x_belt` | 8 / 8 / **8 Stück** | bestellfähig | 710.3 x 6.0 x 11.3; nicht belegt | 8 Verläufe, offen mit Spanner an beiden Enden. Fusion-Messung: 699 mm Trum, Teillänge 1.430 mm je Verlauf; Zuschnitt mit 2×40 mm Klemmzugabe ca. 1,51 m. Summe X+Y ca. 16,5 m aus zwei 10-m-Rollen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-007` |
 | <a id="cad-095"></a>**CAD-095** CPC MR12M Führungsschiene 600 mm<br>`x_guiding_cpc_MR12M` | 2 / 2 / **2 Stück** | bestellfähig | 600.0 x 7.5 x 12.0; nicht belegt | 2 Stück MR12M-N-600: 12×7,5 mm, Teilung 25, 24 Bohrungen Ø3,5/Ø6, Endabstand 12,5 = CAD. Nicht mit HIWIN MGN mischen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-019` |
 | <a id="cad-104"></a>**CAD-104** GT2-Riemen Y, 6 mm breit<br>`y_belt` | 4 / 4 / **4 Stück** | bestellfähig | 503.3 x 6.0 x 11.3; nicht belegt | 4 Verläufe. Fusion-Messung: 492 mm Trum, Teillänge 1.016 mm; Zuschnitt mit 2×40 mm Klemmzugabe ca. 1,10 m. Einkauf gemeinsam mit CAD-087, nicht doppelt rechnen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-007` |
 | <a id="cad-113"></a>**CAD-113** GT2-Riemen Z, 9 mm breit<br>`z_drive_belt` | 4 / 4 / **4 Stück** | bestellfähig | 11.3 x 9.0 x 119.3; nicht belegt | 4 Verläufe, offen am Z-Riemenhalter geklemmt. Fusion-Messung: Achsabstand 108 mm, Teillänge 248 mm; Zuschnitt mit 2×35 mm Klemmzugabe ca. 0,32 m, zusammen 1,3 m. RBS14040 als Meterware.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-017` |
 | <a id="sys-001"></a>**SYS-001** TMC2130 SPI Treibermodule | – / – / **16 Stück** | teilweise geklärt | offen; nicht belegt | 4 je SKR für X/X2/Y/Z. RBS13024: 4 Treiber mit Kühlkörpern und Kabel, SPI-Pins laut Fotos vorgelötet. Revision nicht angegeben; SPI-Modus laut Datenblatt per Lötbrücke CFG4/CFG5 prüfen.<br>[Beleg](../firmware/Marlin/Configuration.h); Kostenzeile `BUY-002` |
-| <a id="sys-002"></a>**SYS-002** Stationäre Übersichtskamera, USB-Platinenkamera 32×32 mm | – / – / **1 Stück** | teilweise geklärt | offen; nicht belegt | Fusion-Messung: Halter CAD-025 hat 4 M2-Bohrungen im Raster 28×28 mm = 32×32-mm-USB-Platinenkamera (z. B. ELP, 1080p, UVC, M12-Objektiv), keine Webcam (Entscheidung Luis 17.10.2026). Logitech C920 passt nicht.<br>[Beleg](https://www.schutzwerk.com/en/blog/proboter-02/); Kostenzeile `BUY-010` |
+| <a id="sys-002"></a>**SYS-002** Stationäre Übersichtskamera ELP-USBFHD01M-H100 | – / – / **1 Stück** | teilweise geklärt | offen; nicht belegt | Gewählt (Luis 17.10.2026): ELP-USBFHD01M-H100, 1080p, UVC, 100°, Preis auf Anfrage; Lochraster beim Kauf bestätigen. Fusion-Messung: Halter CAD-025 hat 4 M2-Bohrungen im Raster 28×28 mm = 32×32-mm-USB-Platinenkamera (z. B. ELP, 1080p, UVC, M12-Objektiv), keine Webcam (Entscheidung Luis 17.10.2026). Logitech C920 passt nicht.<br>[Beleg](https://www.schutzwerk.com/en/blog/proboter-02/); Kostenzeile `BUY-010` |
 | <a id="sys-007"></a>**SYS-007** Weißer 24-V-LED-Streifen | – / – / **2 m** | teilweise geklärt | offen; nicht belegt | 2 m vorläufig;5 m-Rolle. Weiß 4500K vorgeschlagen; Leistung, Flimmern und Lichtverteilung testen.<br>[Beleg](https://www.schutzwerk.com/en/blog/proboter-02/); Kostenzeile `BUY-013` |
 | <a id="sys-008"></a>**SYS-008** LED-Aluprofile, Diffusoren, Kappen, Halter | – / – / **2 m** | teilweise geklärt | offen; nicht belegt | 8 mm-Streifen aufnehmen, Wärmeabfuhr und Befestigung; genaue Aufteilung/Menge offen. Keine Doppelrechnung als Band.<br>[Beleg](https://www.schutzwerk.com/en/blog/proboter-02/); Kostenzeile `BUD-S008` |
 | <a id="sys-009"></a>**SYS-009** LED-Anschluss an vorhan denen SKR-Ausgang | – / – / **1 Satz** | teilweise geklärt | offen; nicht belegt | Configuration_adv.h:4396 setzt PROBOTER_LIGHT_CONTROL_PIN auf HEATER_BED_PIN; M376 steuert Helligkeit. Kein separater USB-LED-Controller nötig. Stecker/Leitungen, Strom und Flimmern prüfen; keine zusätzliche MOSFET-Platine pauschal kaufen.<br>[Beleg](../firmware/Marlin/Configuration_adv.h); Kostenzeile `OPEN-SYS-009` |

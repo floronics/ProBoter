@@ -229,7 +229,7 @@ K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-063,"NEMA14 Z-Motor, ERSATZ: ST
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-065,Optischer Endschalter 11×35 mm,optical_endstop,1,Stück,ja,Kaufteile,bestellfähig
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-076,"GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG",pulley_gt2_9mm,2,Stück,ja,Kaufteile,bestellfähig
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-080,GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm,rod_slide_d10_l19,4,Stück,ja,Kaufteile,bestellfähig
-K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-085,Bewegliches USB-Mikroskop,usb_microscope,1,Stück,ja,Kaufteile,teilweise geklärt
+K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-085,"Bewegliches USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG)",usb_microscope,1,Stück,ja,Kaufteile,bestellfähig
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-105,Y-Achse Kamera Halter,y_camera_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-107,Y-Achse Schlitten,y_slide,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K06 y_slide (1):1,y_slide (1):1,Y-Schlitten,,CAD-108,Y-Achse Schlitten Abstand Stange,y_slide_distance_rod,2,Stück,ja,Weitere Fertigung,Fertigung spezifiziert
@@ -255,7 +255,7 @@ K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-063,"NEMA14 Z-Motor, ERSATZ: ST
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-065,Optischer Endschalter 11×35 mm,optical_endstop,1,Stück,ja,Kaufteile,bestellfähig
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-076,"GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG",pulley_gt2_9mm,2,Stück,ja,Kaufteile,bestellfähig
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-080,GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm,rod_slide_d10_l19,4,Stück,ja,Kaufteile,bestellfähig
-K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-085,Bewegliches USB-Mikroskop,usb_microscope,1,Stück,ja,Kaufteile,teilweise geklärt
+K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-085,"Bewegliches USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG)",usb_microscope,1,Stück,ja,Kaufteile,bestellfähig
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-105,Y-Achse Kamera Halter,y_camera_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-107,Y-Achse Schlitten,y_slide,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K07 y_slide (1):2,y_slide (1):2,Y-Schlitten,,CAD-108,Y-Achse Schlitten Abstand Stange,y_slide_distance_rod,2,Stück,ja,Weitere Fertigung,Fertigung spezifiziert
@@ -281,7 +281,7 @@ K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-065,Optischer Endschalter 11×35 mm,optical_endstop,1,Stück,ja,Kaufteile,bestellfähig
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-076,"GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG",pulley_gt2_9mm,2,Stück,ja,Kaufteile,bestellfähig
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-080,GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm,rod_slide_d10_l19,4,Stück,ja,Kaufteile,bestellfähig
-K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-085,Bewegliches USB-Mikroskop,usb_microscope,1,Stück,ja,Kaufteile,teilweise geklärt
+K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-085,"Bewegliches USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG)",usb_microscope,1,Stück,ja,Kaufteile,bestellfähig
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-106,Y-Achse Kamera Halter kompakt,y_camera_holder_compact,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-108,Y-Achse Schlitten Abstand Stange,y_slide_distance_rod,2,Stück,ja,Weitere Fertigung,Fertigung spezifiziert
 K08 y_slide_mirrored (1):1,y_slide_mirrored (1):1,"Y-Schlitten, gespiegelt",,CAD-109,Y-Achse Schlitten Abstand Rohr 2 mm,y_slide_distance_tube_2mm,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
@@ -307,7 +307,7 @@ K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-065,Optischer Endschalter 11×35 mm,optical_endstop,1,Stück,ja,Kaufteile,bestellfähig
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-076,"GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG",pulley_gt2_9mm,2,Stück,ja,Kaufteile,bestellfähig
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-080,GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm,rod_slide_d10_l19,4,Stück,ja,Kaufteile,bestellfähig
-K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-085,Bewegliches USB-Mikroskop,usb_microscope,1,Stück,ja,Kaufteile,teilweise geklärt
+K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-085,"Bewegliches USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG)",usb_microscope,1,Stück,ja,Kaufteile,bestellfähig
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-106,Y-Achse Kamera Halter kompakt,y_camera_holder_compact,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-108,Y-Achse Schlitten Abstand Stange,y_slide_distance_rod,2,Stück,ja,Weitere Fertigung,Fertigung spezifiziert
 K09 y_slide_mirrored (1):2,y_slide_mirrored (1):2,"Y-Schlitten, gespiegelt",,CAD-109,Y-Achse Schlitten Abstand Rohr 2 mm,y_slide_distance_tube_2mm,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
@@ -367,7 +367,7 @@ K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",probe_tip_with_an
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-075,"Prüfspitzen-PCB, unbestückt",probe_tip_pcb,1,Stück,ja,PCB extern,Fertigung noch offen
 K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",probe_tip_with_angle,CAD-115,Federkontakt der Prüfspitze,z_pogo_pin,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-001,TMC2130 SPI Treibermodule,,16,Stück,nein,Kaufteile,teilweise geklärt
-K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-002,"Stationäre Übersichtskamera, USB-Platinenkamera 32×32 mm",,1,Stück,nein,Kaufteile,teilweise geklärt
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-002,Stationäre Übersichtskamera ELP-USBFHD01M-H100,,1,Stück,nein,Kaufteile,teilweise geklärt
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-003,"Signal-Multiplexer, unbestückte Leiterplatte",,1,Stück,nein,PCB extern,Fertigung noch offen
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-004,Kalibrier-Referenzkörper / Platte,,1,Stück,nein,3D-Druck intern,Fertigung noch offen
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-005,Innere Messing-Referenzzylinder,,4,Stück,nein,Weitere Fertigung,Fertigung noch offen

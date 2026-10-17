@@ -11,7 +11,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | [M05 Schublade und Platinenhalter](#modul-05) | 21 | 96 | 15 | 0 | 1 | 4 | 1 | 0 |
 | [M06 Kabelführung](#modul-06) | 17 | 304 | 10 | 1 | 0 | 6 | 0 | 0 |
 | [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 11 | 1 | 0 | 6 | 0 | 0 |
-| [M08 Optik](#modul-08) | 8 | 22 | 3 | 1 | 1 | 3 | 0 | 0 |
+| [M08 Optik](#modul-08) | 8 | 22 | 4 | 0 | 1 | 3 | 0 | 0 |
 | [M09 Prüfspitzen](#modul-09) | 5 | 28 | 0 | 0 | 1 | 0 | 4 | 0 |
 | [M10 Verkleidung](#modul-10) | 2 | 4 | 0 | 0 | 2 | 0 | 0 | 0 |
 
@@ -359,7 +359,7 @@ Bewegliches USB-Mikroskop mit Haltern an den Y-Schlitten und die Übersichtskame
 | [CAD-037](../Teileliste.md#cad-037) DIN 912 M3×14 | `din_912_m3x14` | 4 | bestellfähig | Kaufteile |
 | [CAD-041](../Teileliste.md#cad-041) DIN 912 M3×30 | `din_912_m3x30` | 4 von 8 | bestellfähig; 4 von 8 halten den Kamerahalter. | Kaufteile |
 | [CAD-056](../Teileliste.md#cad-056) Sechskantmutter DIN 934 M3 A2 | `iso_8673_nut_m3` | 4 von 24 | bestellfähig; 4 von 24 am Kamerahalter. | Kaufteile |
-| [CAD-085](../Teileliste.md#cad-085) Bewegliches USB-Mikroskop | `usb_microscope` | 4 | teilweise geklärt; CAD zeigt 4, geplant ist 1 (3 optional). | Kaufteile |
+| [CAD-085](../Teileliste.md#cad-085) Bewegliches USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG) | `usb_microscope` | 4 | bestellfähig; CAD zeigt 4, geplant ist 1 (3 optional). | Kaufteile |
 | [CAD-026](../Teileliste.md#cad-026) Kamera Halter oben | `camera_holder_top` | 1 | Fertigung noch offen | Blech intern |
 | [CAD-025](../Teileliste.md#cad-025) Kamera Halter | `camera_holder` | 1 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-105](../Teileliste.md#cad-105) Y-Achse Kamera Halter | `y_camera_holder` | 2 | Fertigung spezifiziert | 3D-Druck intern |

@@ -10,12 +10,12 @@ im Shop bestätigen. Kein Warenkorb wurde bestellt.
 
 | Umfang | netto | brutto |
 | --- | --- | --- |
-| 1. Beobachtete Webpreise × geplante Bestellpackungen | 3.140,73 € | 3.737,56 € |
-| Davon Positionen mit Status bestellfähig | 2.610,39 € | 3.106,46 € |
-| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 530,34 € | 631,10 € |
+| 1. Beobachtete Webpreise × geplante Bestellpackungen | 3.084,47 € | 3.670,61 € |
+| Davon Positionen mit Status bestellfähig | 2.659,12 € | 3.164,45 € |
+| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 425,35 € | 506,16 € |
 | Eigene Budgetschätzungen zusätzlich | 825,25 € | 982,03 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.965,98 € | 4.719,59 € |
-| 3. Noch unbezifferte Positionen: 19 | nicht berechenbar | nicht berechenbar |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.909,72 € | 4.652,64 € |
+| 3. Noch unbezifferte Positionen: 20 | nicht berechenbar | nicht berechenbar |
 
 **Der Gesamtpreis eines funktionierenden Nachbaus bleibt offen.** Die Summe unter 2
 deckt nur bezifferte Positionen ab. Entwicklung von Elektronik/Firmware, interne
@@ -72,16 +72,18 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | NANOTEC | 445,54 € | 0,00 € | 445,54 € |
 | OFFEN | 0,00 € | 150,00 € | 150,00 € |
 | RBS | 457,90 € | 30,00 € | 487,90 € |
-| REICHELT | 219,38 € | 195,00 € | 414,38 € |
+| REICHELT | 94,44 € | 195,00 € | 289,44 € |
 | SCHRAUBEN | 97,10 € | 29,00 € | 126,10 € |
 | STEPPERONLINE | 0,00 € | 38,08 € | 38,08 € |
 | TINYTRONICS | 30,00 € | 0,00 € | 30,00 € |
 | TME | 0,00 € | 169,00 € | 169,00 € |
+| VOELKNER | 57,99 € | 0,00 € | 57,99 € |
 
 ## Noch unbeziffert – Auswirkung auf die Vollständigkeit
 
 | Bestellzeile | Benötigter Umfang | Warum Preis fehlt |
 | --- | --- | --- |
+| BUY-010 | Übersichtskamera ELP-USBFHD01M-H100 | OV2710, UVC/Linux, M12, Platine 38×38 auf 32×32 kürzbar. Lochraster 28×28 nicht schriftlich bestätigt. |
 | OPEN-CAD-010 | Schubladen-Dummyplatte | Schubladen-Dummy 564×410×12 mm: unklar, ob reale Platte benötigt und welches Material. Nicht stillschweigend ausschließen oder aus Stahl fertigen. |
 | OPEN-CAD-061 | MMCX-Stecker gerade / Messleitung | 4 CAD-Modelle enthalten Kabelansätze. Impedanz, Kabeltyp, Crimp/Lötanschluss, Gegenstecker und Länge unbekannt. |
 | OPEN-CAD-062 | MMCX-Stecker gewinkelt / Messleitung | 4 CAD-Modelle; Kabel-/Buchsenpaarung mit CAD-061/075 und Multiplexer offen. |
