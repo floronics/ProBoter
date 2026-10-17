@@ -33,7 +33,7 @@ class ProcurementTests(unittest.TestCase):
         self.assertEqual(self.byid['MAT-003']['gross_eur'],D('43.00'))
 
     def test_unknown_prices_remain_unknown(self):
-        for key in ['OPEN-CAD-075','OPEN-SYS-003','OPEN-CAD-055']:
+        for key in ['OPEN-CAD-075','OPEN-SYS-003','OPEN-CAD-073']:
             self.assertIsNone(self.byid[key]['gross_eur'])
             self.assertIsNone(self.byid[key]['net_eur'])
 

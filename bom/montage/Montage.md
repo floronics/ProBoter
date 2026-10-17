@@ -10,7 +10,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | [M04 Z-Achse](#modul-04) | 20 | 100 | 14 | 0 | 0 | 6 | 0 | 0 |
 | [M05 Schublade und Platinenhalter](#modul-05) | 21 | 96 | 15 | 0 | 1 | 4 | 1 | 0 |
 | [M06 Kabelführung](#modul-06) | 17 | 304 | 10 | 1 | 0 | 6 | 0 | 0 |
-| [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 6 | 4 | 2 | 6 | 0 | 0 |
+| [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 10 | 1 | 0 | 6 | 0 | 1 |
 | [M08 Optik](#modul-08) | 8 | 22 | 3 | 1 | 1 | 3 | 0 | 0 |
 | [M09 Prüfspitzen](#modul-09) | 5 | 28 | 0 | 0 | 1 | 0 | 4 | 0 |
 | [M10 Verkleidung](#modul-10) | 2 | 4 | 0 | 0 | 2 | 0 | 0 | 0 |
@@ -313,22 +313,22 @@ Netzteil, Steuerplatinen, Bedientaster, Multiplexer-Halter, induktive Sensoren u
 | --- | --- | --- | --- | --- |
 | [CAD-035](../Teileliste.md#cad-035) DIN 912 M3×10 | `din_912_m3x10` | 16 | bestellfähig; Endschalter-Adapter und Flanschhalter am X-Wagen. | Kaufteile |
 | [CAD-036](../Teileliste.md#cad-036) DIN 912 M3×12 | `din_912_m3x12` | 8 | bestellfähig; Optische Endschalter. | Kaufteile |
+| [CAD-055](../Teileliste.md#cad-055) Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt) | `inductive_proximity_sensor_m8` | 24 | bestellfähig | Kaufteile |
 | [CAD-056](../Teileliste.md#cad-056) Sechskantmutter DIN 934 M3 A2 | `iso_8673_nut_m3` | 8 von 24 | bestellfähig; 8 von 24 an den optischen Endschaltern. | Kaufteile |
 | [CAD-059](../Teileliste.md#cad-059) Mean Well MHS012 Montagewinkel | `mean_well_MHS-012_mounting_bracket` | 4 | bestellfähig | Kaufteile |
 | [CAD-060](../Teileliste.md#cad-060) Mean Well RSP-200-24 Netzteil,24 V/8,4 A | `mean_well_RSP-200-24` | 1 | bestellfähig | Kaufteile |
 | [CAD-065](../Teileliste.md#cad-065) Optischer Endschalter 11×35 mm | `optical_endstop` | 4 | bestellfähig | Kaufteile |
+| [CAD-086](../Teileliste.md#cad-086) Netzschalter Ø19 ONPOW LAS1 A-ZG24, rastend | `vandalism_switch_d19` | 1 | bestellfähig | Kaufteile |
+| [CAD-093](../Teileliste.md#cad-093) X-Achse Endschalter oben lang | `x_end_stop_top_long` | 4 | bestellfähig | Weitere Fertigung |
+| [CAD-094](../Teileliste.md#cad-094) X-Achse Endschalter oben kurz | `x_end_stop_top_short` | 4 | bestellfähig | Weitere Fertigung |
 | [CAD-023](../Teileliste.md#cad-023) BIGTREETECH SKR V1.3 Steuerplatine | `bigtreetech_skr_v1_3` | 4 | teilweise geklärt | Kaufteile |
-| [CAD-055](../Teileliste.md#cad-055) Induktiver Näherungsschalter M8, nicht bündig, NPN-Schließer, M8-Stecker | `inductive_proximity_sensor_m8` | 24 | teilweise geklärt | Kaufteile |
-| [CAD-058](../Teileliste.md#cad-058) ISO 8673 Mutter M8 | `iso_8673_nut_m8` | 48 | teilweise geklärt | Kaufteile |
-| [CAD-086](../Teileliste.md#cad-086) Netzschalter Ø19, Vandalismus, rastend | `vandalism_switch_d19` | 1 | teilweise geklärt | Kaufteile |
-| [CAD-093](../Teileliste.md#cad-093) X-Achse Endschalter oben lang | `x_end_stop_top_long` | 4 | Fertigung noch offen | Weitere Fertigung |
-| [CAD-094](../Teileliste.md#cad-094) X-Achse Endschalter oben kurz | `x_end_stop_top_short` | 4 | Fertigung noch offen | Weitere Fertigung |
 | [CAD-074](../Teileliste.md#cad-074) Stromversorgung Schalter Halter | `power_switch_holder` | 1 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-083](../Teileliste.md#cad-083) Signal-Multiplexer Halter | `signal_multiplexer_holder` | 1 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-091](../Teileliste.md#cad-091) X-Achse Endschalter Halter Seite kurz | `x_end_stop_holder_side_short` | 4 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-092](../Teileliste.md#cad-092) X-Achse Endschalter Halter oben lang | `x_end_stop_holder_top_long` | 4 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-101](../Teileliste.md#cad-101) X-Achse Schlitten induktiv Endschalter Adapter | `x_slide_inductive_endstop_adapter` | 4 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-102](../Teileliste.md#cad-102) X-Achse Schlitten induktiv Endschalter Adapter gespiegelt | `x_slide_inductive_endstop_adapter_mirrored` | 4 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-058](../Teileliste.md#cad-058) ISO 8673 Mutter M8 | `iso_8673_nut_m8` | 48 | nicht benötigt | Nicht benötigt |
 
 **Zusätzlich nötig, nicht im CAD**
 

@@ -46,6 +46,8 @@ SUPPLIER_URL = {
     'DIGIKEY': 'https://www.digikey.de/',
     'TINYTRONICS': 'https://www.tinytronics.nl/',
     'STEPPERONLINE': 'https://www.omc-stepperonline.com/de/',
+    'RS': 'https://de.rs-online.com/',
+    'AUTOMATION24': 'https://www.automation24.de/',
     'OFFEN': '',
 }
 
@@ -108,7 +110,7 @@ WORKSHOP = ids(3,16,17,18,19,96,97,99,100)
 STOCK = ids(9,11,12,13,14,20,69,70,93,94,98,103,108)
 PCB = ids(75)
 UNIDENTIFIED = ids(10,61,62,73,115)
-EXCLUDED = ids(66,82)
+EXCLUDED = ids(58,66,82)
 NORM = ids(*range(28,49),56,57,58)
 NORM_RESERVE = 'Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026).'
 
@@ -129,7 +131,7 @@ DETAIL = {
 52: ('Gelenkfuß M6×20 / Teller Ø40 mm', 'DOLD GF-K-10-PA-028: M6, Teller Ø40 = CAD; Fusion-Messung Gewindelänge 20 mm = Variante M6×20. Traglast vom Händler nicht angegeben.', 'DOLD'),
 53: ('HIWIN MGNR12R150HM, Z-Schiene 150 mm', 'HIWIN-Katalog: 12×8, Teilung 25, Bohrung Ø3,5/Ø6; 150 mm mit 6 Bohrungen und Endabstand 12,5 = Fusion-Messung. Bezug Damen CNC (NL), Zuschnitt.', 'DAMEN'),
 54: ('HIWIN MGN12CZ0HM Z-Führungswagen', 'Bestellschlüssel: Z0 spielfrei, H hohe Genauigkeit, M Edelstahl. Breite 27, Körperhöhe 10, Lochbild 20×15 M3 = CAD; Katalog-Länge 34,7 statt CAD 35,7.', 'DAMEN'),
-55: ('Induktiver Näherungsschalter M8, nicht bündig, NPN-Schließer, M8-Stecker', 'Spezifikation aus CAD und Firmware (17.10.2026): M8×1, Gewinde 35,5 mm, Länge 60 mm, Sensorkopf Ø6,5 vorstehend (nicht bündig), M8-Steckeranschluss 3-polig; Firmware X_MIN/X_MAX/Y_MIN/Y_MAX HIT_STATE LOW mit Pull-ups = NPN-Schließer, direkt an SKR-Eingang. Kandidat SICK IME08-04NNSZW2S (Sn 4 mm), Preis/Bezug in DE nicht verifiziert. Schaltabstand gegen Auslöserstäbe prüfen.', 'TME'),
+55: ('Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt)', 'Spezifikation aus CAD und Firmware: M8, nicht bündig, NPN-Schließer (HIT_STATE LOW mit Pull-up), M8-Stecker. Gewählt: SICK IME08-04NNSZT0S, Sn 4 mm, 50 mm statt CAD 60 mm (kürzer, passt in die Hülle), 2 Muttern im Lieferumfang. Schaltabstand gegen Auslöserstäbe beim Aufbau einstellen.', 'RS'),
 59: ('Mean Well MHS012 Montagewinkel', '4 Winkel für RSP-200. Mean-Well-Zeichnung 15×16,2×19,5 mm = CAD (Abweichung höchstens 0,3 mm). Reichelt MHS-012.', 'REICHELT'),
 60: ('Mean Well RSP-200-24 Netzteil,24V/8,4A', 'Originalmodell,215×115×30mm. Lastbilanz, Absicherung, Berührungsschutz und Schutzleiter separat.', 'REICHELT'),
 61: ('MMCX-Stecker gerade / Messleitung', '4 CAD-Modelle enthalten Kabelansätze. Impedanz, Kabeltyp, Crimp/Lötanschluss, Gegenstecker und Länge unbekannt.', 'TME'),
@@ -147,7 +149,7 @@ DETAIL = {
 81: ('Anschraubwinkel 30 / Nut 6', 'DOLD 62378 (I-Typ Nut 6) 28×28×28 = CAD; bestellt als Satz 62385-BS mit Schrauben und Nutensteinen.', 'DOLD'),
 84: ('Teleskopschiene 350 mm, Vollauszug', 'DOLD HS-4613-350 (CAD-Name enthält 4613): 350×45,7×12,7 (CAD 45,5), 1 Paar = die 2 CAD-Schienen. Vollauszug 354 mm.', 'DOLD'),
 85: ('Bewegliches USB-Mikroskop', 'Plan1 laut Hardware-Blog,4CAD. Weitere3 optional. Originalmodell unbekannt; Kandidat muss100mm Arbeitsabstand/ca30×40mm Bildfeld und Linux-UVC erfüllen.', 'REICHELT'),
-86: ('Netzschalter Ø19, Vandalismus, rastend', 'Funktion: Netzschalter rastend (Luis 17.10.2026), im power_switch_holder. CAD: Kopf Ø23, Einbau Ø19. Kandidat RND 210 (RS 2832550, 250 V AC, 1 Öffner + 1 Schließer, unbeleuchtet); rastend und Einbautiefe noch prüfen.', 'REICHELT'),
+86: ('Netzschalter Ø19 ONPOW LAS1A-ZG24, rastend', 'Funktion Netzschalter rastend (Luis 17.10.2026). Reichelt VS LAS1A-ZG24: Ø19, 5 A/250 V AC, Ring-LED 24 V. Rastend aus Typcode abgeleitet, vor Bestellung bestätigen.', 'REICHELT'),
 87: ('GT2-Riemen X, 6 mm breit', '8 Verläufe, offen mit Spanner an beiden Enden. Fusion-Messung: 699 mm Trum, Teillänge 1.430 mm je Verlauf; Zuschnitt mit 2×40 mm Klemmzugabe ca. 1,51 m. Summe X+Y ca. 16,5 m aus zwei 10-m-Rollen.', 'DOLD'),
 95: ('CPC MR12M Führungsschiene 600 mm', '2 Stück MR12M-N-600: 12×7,5 mm, Teilung 25, 24 Bohrungen Ø3,5/Ø6, Endabstand 12,5 = CAD. Nicht mit HIWIN MGN mischen.', 'MOTEDIS'),
 104: ('GT2-Riemen Y, 6 mm breit', '4 Verläufe. Fusion-Messung: 492 mm Trum, Teillänge 1.016 mm; Zuschnitt mit 2×40 mm Klemmzugabe ca. 1,10 m. Einkauf gemeinsam mit CAD-087, nicht doppelt rechnen.', 'DOLD'),
@@ -292,7 +294,7 @@ def make_parts():
         if key=='CAD-063': quantity=4
         if key=='CAD-085': quantity=1
         if key in EXCLUDED: quantity=0
-        if key in ids(11,12,13,14,20,27,51,63,103,69,76,77,78,98,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
+        if key in ids(11,12,13,14,20,27,51,55,63,86,93,94,103,69,76,77,78,98,49,50,52,53,54,59,60,64,65,79,80,81,84,87,95,104,113) or (key in NORM and key!='CAD-058'): status='bestellfähig'
         if key=='CAD-080': title='GleitbuchseØ10 innen / Ø19 außen / Länge29mm'
         if key=='CAD-001': title='Y-Riemenklemme (CAD-Name TR10x2 GT2 Adapter)'
         if key=='CAD-002': title='Y-Riemenklemme, Deckel'
@@ -343,7 +345,7 @@ def make_parts():
         if group in ['PCB extern','3D-Druck intern','Weitere Fertigung']: status='Fertigung noch offen'
         if group=='Ungeklärte Teile': status='nicht identifiziert'
         if group=='Nicht benötigt': status='nicht benötigt'
-        if key in ('041','042','043','044','045','046','047','048','049','050','051','052','053','054','055','056'): status='bestellfähig'
+        if key in ('016','041','042','043','044','045','046','047','048','049','050','051','052','053','054','055','056'): status='bestellfähig'
         result.append(dict(id='SYS-'+key,name=title,cad_name='',cad_quantity='',fusion_quantity='',quantity=qty,
                            unit=unit,group=group,status=status,geometry_mm='',solid_volume_cm3='',
                            material='nicht belegt',process_evidence='Planungsbedarf; '+source,
@@ -429,6 +431,10 @@ def make_orders(parts):
         add('BUY-'+key,byid[key]['name'],[key],byid[key]['quantity'],offer=cad_offers[key])
     add('MAT-007','Aluprofil 40x16S Nut 8, Zuschnitt',ids(103),1,unit='Los',offer=cad_offers['CAD-103'])
     add('MAT-008','Aluprofil 80x16S Nut 8, Zuschnitt, Kandidat',ids(9),1,unit='Los',offer=cad_offers['CAD-009'])
+    add('MAT-009','Auslöserstäbe Ø8 Cf53, Zuschnitt',ids(93,94),1,unit='Los',offer=cad_offers['CAD-093'])
+    add('BUY-SEN','24 induktive Sensoren SICK IME08-04NNSZT0S',ids(55),24,offer=cad_offers['CAD-055'])
+    add('BUY-SW','Netzschalter Ø19 ONPOW LAS1A',ids(86),1,offer=cad_offers['CAD-086'])
+    add('BUY-CAB','24 Sensorleitungen ifm EVC141',['SYS-016'],24,offer=cad_offers['SYS-016'])
     for n in (51,52,59,81,84):
         p=byid[f'CAD-{n:03}']
         add(f'BUY-C{n:03}',p['name'],[p['id']],p['quantity'],offer=cad_offers[p['id']])
@@ -440,7 +446,7 @@ def make_orders(parts):
     add('MAT-002','30×30 Nut 6 Aluprofil, Zuschnitt-Los',profiles,1,unit='Los',offer='O-058')
     add('MAT-003','60×30 Nut 6 Aluprofil schwer, Zuschnitt',ids(14),1,unit='Los',offer='O-059')
     add('MAT-004','Präzisionswellen Ø10, Zuschnitt-Los',ids(69,98),1,unit='Los',offer='O-064')
-    add('MAT-005','Versteifungsprofile40×16 undHalte-/Distanzstäbe',ids(70,93,94,108),1,unit='Los',estimate='100',note='Eigenes100EUR-Bruttobudget fürProfile4×436mm, Rechteck2×205mm, Ø8Trigger4×125+4×75mm, Ø4Stäbe8×70mm und4Distanzteile. Material/Profile noch klären.')
+    add('MAT-005','Versteifungsprofile40×16 undHalte-/Distanzstäbe',ids(70,108),1,unit='Los',estimate='100',note='Eigenes100EUR-Bruttobudget fürProfile4×436mm, Rechteck2×205mm, Ø8Trigger4×125+4×75mm, Ø4Stäbe8×70mm und4Distanzteile. Material/Profile noch klären.')
     add('MAT-006','Blechrohmaterial undVerschnitt',[p['id'] for p in parts if p['group']=='Blech intern'],1,unit='Los',estimate='200',note='Eigener200EUR-Bruttobudgettopf für3/5mmPlatten und noch nicht abgewickelteTeile. Kein Händlerangebot; Material/Flachzuschnitte noch nicht bestellfähig. InterneArbeits-/Maschinenzeit ausgeschlossen.')
     for key,amount in [('008','30'),('011','20'),('012','15'),('013','15'),('014','64'),('015','25'),('018','60'),('020','35'),('021','15'),('022','60'),('025','20'),('029','35'),('030','20'),('031','35'),('032','30')]:
         p=byid['SYS-'+key]

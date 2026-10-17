@@ -20,8 +20,8 @@ K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CA
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-050,"igus E2i.10.20.028.0, 8 lange Abschnitte",drag_chain_0_28m_E2i_10_20_028_0_igus,8,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-051,"Schubladengriff DOLD A-75873, Lochabstand 100 mm",handle_l100_dold,1,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-052,Gelenkfuß M6×20 / Teller Ø40 mm,hinged_M6_40_dold,4,Stück,ja,Kaufteile,bestellfähig
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-055,"Induktiver Näherungsschalter M8, nicht bündig, NPN-Schließer, M8-Stecker",inductive_proximity_sensor_m8,8,Stück,ja,Kaufteile,teilweise geklärt
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,8,Stück,ja,Kaufteile,teilweise geklärt
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-055,"Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt)",inductive_proximity_sensor_m8,8,Stück,ja,Kaufteile,bestellfähig
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,8,Stück,ja,Nicht benötigt,nicht benötigt
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-059,Mean Well MHS012 Montagewinkel,mean_well_MHS-012_mounting_bracket,4,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-060,"Mean Well RSP-200-24 Netzteil,24 V/8,4 A",mean_well_RSP-200-24,1,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-066,Prüfobjekt-Platzhalter im CAD,pcb_dummy,1,Stück,ja,Nicht benötigt,nicht benötigt
@@ -30,7 +30,7 @@ K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CA
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-082,Multiplexer-Platzhalter im CAD,signal_multiplexer_dummy,1,Stück,ja,Nicht benötigt,nicht benötigt
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-083,Signal-Multiplexer Halter,signal_multiplexer_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-084,"Teleskopschiene 350 mm, Vollauszug",telescopic_bar_tsaa514613-350,2,Stück,ja,Kaufteile,bestellfähig
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-086,"Netzschalter Ø19, Vandalismus, rastend",vandalism_switch_d19,1,Stück,ja,Kaufteile,teilweise geklärt
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-086,"Netzschalter Ø19 ONPOW LAS1 A-ZG24, rastend",vandalism_switch_d19,1,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-095,CPC MR12M Führungsschiene 600 mm,x_guiding_cpc_MR12M,2,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-096,X-Achse Motor Platte,x_motor_plate,1,Stück,ja,Blech intern,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-097,X-Achse Motor Platte 2,x_motor_plate_2,1,Stück,ja,Blech intern,Fertigung noch offen
@@ -70,16 +70,16 @@ K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-035,DIN 912 M3×10,din_9
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-046,DIN 912 M5×10,din_912_m5x10,8,Stück,ja,Kaufteile,bestellfähig
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-047,DIN 912 M5×14,din_912_m5x14,1,Stück,ja,Kaufteile,bestellfähig
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-049,"igus E2i.10.10.028.0, 16 kurze Abschnitte",drag_chain_0_24m_E2i_10_10_028_0_4,4,Stück,ja,Kaufteile,bestellfähig
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter M8, nicht bündig, NPN-Schließer, M8-Stecker",inductive_proximity_sensor_m8,4,Stück,ja,Kaufteile,teilweise geklärt
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Kaufteile,teilweise geklärt
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt)",inductive_proximity_sensor_m8,4,Stück,ja,Kaufteile,bestellfähig
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Nicht benötigt,nicht benötigt
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-079,SHF10 Flanschhalter fürØ10 mm Welle,rod_holder_flange_d10_dold,4,Stück,ja,Kaufteile,bestellfähig
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-088,X-Achse Riemen Halter,x_belt_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-089,X-Achse Riemen Halter 1,x_belt_holder_1,3,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-090,X-Achse Schlepp Energiekette Adapter,x_drag_chain_adapter,2,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-091,X-Achse Endschalter Halter Seite kurz,x_end_stop_holder_side_short,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-092,X-Achse Endschalter Halter oben lang,x_end_stop_holder_top_long,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-093,X-Achse Endschalter oben lang,x_end_stop_top_long,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
-K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-094,X-Achse Endschalter oben kurz,x_end_stop_top_short,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-093,X-Achse Endschalter oben lang,x_end_stop_top_long,1,Stück,ja,Weitere Fertigung,bestellfähig
+K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-094,X-Achse Endschalter oben kurz,x_end_stop_top_short,1,Stück,ja,Weitere Fertigung,bestellfähig
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-098,X-Achse rund Schiene,x_round_rail,2,Stück,ja,Weitere Fertigung,bestellfähig
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-099,X-Achse Seite Platte,x_side_plate,1,Stück,ja,Blech intern,Fertigung noch offen
 K02 x_slide:1,x_slide:1,X-Wagen einer Prüfeinheit,,CAD-100,X-Achse Seite Platte beweglich,x_side_plate_moving,1,Stück,ja,Blech intern,Fertigung noch offen
@@ -107,16 +107,16 @@ K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-035,DIN 912 M3×10,din_9
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-046,DIN 912 M5×10,din_912_m5x10,8,Stück,ja,Kaufteile,bestellfähig
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-047,DIN 912 M5×14,din_912_m5x14,1,Stück,ja,Kaufteile,bestellfähig
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-049,"igus E2i.10.10.028.0, 16 kurze Abschnitte",drag_chain_0_24m_E2i_10_10_028_0_4,4,Stück,ja,Kaufteile,bestellfähig
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter M8, nicht bündig, NPN-Schließer, M8-Stecker",inductive_proximity_sensor_m8,4,Stück,ja,Kaufteile,teilweise geklärt
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Kaufteile,teilweise geklärt
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt)",inductive_proximity_sensor_m8,4,Stück,ja,Kaufteile,bestellfähig
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Nicht benötigt,nicht benötigt
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-079,SHF10 Flanschhalter fürØ10 mm Welle,rod_holder_flange_d10_dold,4,Stück,ja,Kaufteile,bestellfähig
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-088,X-Achse Riemen Halter,x_belt_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-089,X-Achse Riemen Halter 1,x_belt_holder_1,3,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-090,X-Achse Schlepp Energiekette Adapter,x_drag_chain_adapter,2,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-091,X-Achse Endschalter Halter Seite kurz,x_end_stop_holder_side_short,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-092,X-Achse Endschalter Halter oben lang,x_end_stop_holder_top_long,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-093,X-Achse Endschalter oben lang,x_end_stop_top_long,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
-K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-094,X-Achse Endschalter oben kurz,x_end_stop_top_short,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-093,X-Achse Endschalter oben lang,x_end_stop_top_long,1,Stück,ja,Weitere Fertigung,bestellfähig
+K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-094,X-Achse Endschalter oben kurz,x_end_stop_top_short,1,Stück,ja,Weitere Fertigung,bestellfähig
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-098,X-Achse rund Schiene,x_round_rail,2,Stück,ja,Weitere Fertigung,bestellfähig
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-099,X-Achse Seite Platte,x_side_plate,1,Stück,ja,Blech intern,Fertigung noch offen
 K03 x_slide:2,x_slide:2,X-Wagen einer Prüfeinheit,,CAD-100,X-Achse Seite Platte beweglich,x_side_plate_moving,1,Stück,ja,Blech intern,Fertigung noch offen
@@ -144,16 +144,16 @@ K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-035,DIN 912 M3×10,din_9
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-046,DIN 912 M5×10,din_912_m5x10,8,Stück,ja,Kaufteile,bestellfähig
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-047,DIN 912 M5×14,din_912_m5x14,1,Stück,ja,Kaufteile,bestellfähig
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-049,"igus E2i.10.10.028.0, 16 kurze Abschnitte",drag_chain_0_24m_E2i_10_10_028_0_4,4,Stück,ja,Kaufteile,bestellfähig
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter M8, nicht bündig, NPN-Schließer, M8-Stecker",inductive_proximity_sensor_m8,4,Stück,ja,Kaufteile,teilweise geklärt
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Kaufteile,teilweise geklärt
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt)",inductive_proximity_sensor_m8,4,Stück,ja,Kaufteile,bestellfähig
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Nicht benötigt,nicht benötigt
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-079,SHF10 Flanschhalter fürØ10 mm Welle,rod_holder_flange_d10_dold,4,Stück,ja,Kaufteile,bestellfähig
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-088,X-Achse Riemen Halter,x_belt_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-089,X-Achse Riemen Halter 1,x_belt_holder_1,3,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-090,X-Achse Schlepp Energiekette Adapter,x_drag_chain_adapter,2,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-091,X-Achse Endschalter Halter Seite kurz,x_end_stop_holder_side_short,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-092,X-Achse Endschalter Halter oben lang,x_end_stop_holder_top_long,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-093,X-Achse Endschalter oben lang,x_end_stop_top_long,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
-K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-094,X-Achse Endschalter oben kurz,x_end_stop_top_short,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-093,X-Achse Endschalter oben lang,x_end_stop_top_long,1,Stück,ja,Weitere Fertigung,bestellfähig
+K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-094,X-Achse Endschalter oben kurz,x_end_stop_top_short,1,Stück,ja,Weitere Fertigung,bestellfähig
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-098,X-Achse rund Schiene,x_round_rail,2,Stück,ja,Weitere Fertigung,bestellfähig
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-099,X-Achse Seite Platte,x_side_plate,1,Stück,ja,Blech intern,Fertigung noch offen
 K04 x_slide:3,x_slide:3,X-Wagen einer Prüfeinheit,,CAD-100,X-Achse Seite Platte beweglich,x_side_plate_moving,1,Stück,ja,Blech intern,Fertigung noch offen
@@ -181,16 +181,16 @@ K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-035,DIN 912 M3×10,din_9
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-046,DIN 912 M5×10,din_912_m5x10,8,Stück,ja,Kaufteile,bestellfähig
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-047,DIN 912 M5×14,din_912_m5x14,1,Stück,ja,Kaufteile,bestellfähig
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-049,"igus E2i.10.10.028.0, 16 kurze Abschnitte",drag_chain_0_24m_E2i_10_10_028_0_4,4,Stück,ja,Kaufteile,bestellfähig
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter M8, nicht bündig, NPN-Schließer, M8-Stecker",inductive_proximity_sensor_m8,4,Stück,ja,Kaufteile,teilweise geklärt
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Kaufteile,teilweise geklärt
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-055,"Induktiver Näherungsschalter SICK IME08-04NNSZT0S (AUSWAHL, Original unbekannt)",inductive_proximity_sensor_m8,4,Stück,ja,Kaufteile,bestellfähig
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-058,ISO 8673 Mutter M8,iso_8673_nut_m8,10,Stück,ja,Nicht benötigt,nicht benötigt
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-079,SHF10 Flanschhalter fürØ10 mm Welle,rod_holder_flange_d10_dold,4,Stück,ja,Kaufteile,bestellfähig
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-088,X-Achse Riemen Halter,x_belt_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-089,X-Achse Riemen Halter 1,x_belt_holder_1,3,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-090,X-Achse Schlepp Energiekette Adapter,x_drag_chain_adapter,2,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-091,X-Achse Endschalter Halter Seite kurz,x_end_stop_holder_side_short,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-092,X-Achse Endschalter Halter oben lang,x_end_stop_holder_top_long,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-093,X-Achse Endschalter oben lang,x_end_stop_top_long,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
-K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-094,X-Achse Endschalter oben kurz,x_end_stop_top_short,1,Stück,ja,Weitere Fertigung,Fertigung noch offen
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-093,X-Achse Endschalter oben lang,x_end_stop_top_long,1,Stück,ja,Weitere Fertigung,bestellfähig
+K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-094,X-Achse Endschalter oben kurz,x_end_stop_top_short,1,Stück,ja,Weitere Fertigung,bestellfähig
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-098,X-Achse rund Schiene,x_round_rail,2,Stück,ja,Weitere Fertigung,bestellfähig
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-099,X-Achse Seite Platte,x_side_plate,1,Stück,ja,Blech intern,Fertigung noch offen
 K05 x_slide:4,x_slide:4,X-Wagen einer Prüfeinheit,,CAD-100,X-Achse Seite Platte beweglich,x_side_plate_moving,1,Stück,ja,Blech intern,Fertigung noch offen
@@ -381,7 +381,7 @@ K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-012,USB-Kabel für MU
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-013,Bewegliche Kameraleitung / USB-Verlängerung,,1,Stück,nein,Kaufteile,teilweise geklärt
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-014,Motorleitungen 4adrig,,32,m,nein,Kaufteile,teilweise geklärt
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-015,Motor-Gegenstecker und Crimpkontakte,,32,Satz,nein,Kaufteile,teilweise geklärt
-K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-016,Sensorleitungen / Verlängerungen,,24,Stück,nein,Kaufteile,teilweise geklärt
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-016,Sensorleitungen / Verlängerungen,,24,Stück,nein,Kaufteile,bestellfähig
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-017,Sensor-Gegenstecker und Kontakte,,28,Satz,nein,Kaufteile,teilweise geklärt
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-018,"24-V-Verteilung, Sicherungen, Klemmen, Leitungen",,1,Satz,nein,Kaufteile,teilweise geklärt
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-019,Sensor-Pegelanpassung / Eingangsschutz,,24,Kanäle,nein,PCB extern,Fertigung noch offen

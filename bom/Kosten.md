@@ -10,12 +10,12 @@ im Shop bestätigen. Kein Warenkorb wurde bestellt.
 
 | Umfang | netto | brutto |
 | --- | --- | --- |
-| 1. Beobachtete Webpreise × geplante Bestellpackungen | 2.534,53 € | 3.016,18 € |
-| Davon Positionen mit Status bestellfähig | 1.836,29 € | 2.185,28 € |
+| 1. Beobachtete Webpreise × geplante Bestellpackungen | 3.626,97 € | 4.316,18 € |
+| Davon Positionen mit Status bestellfähig | 2.928,73 € | 3.485,28 € |
 | Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 698,24 € | 830,90 € |
 | Eigene Budgetschätzungen zusätzlich | 825,25 € | 982,03 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.359,78 € | 3.998,21 € |
-| 3. Noch unbezifferte Positionen: 22 | nicht berechenbar | nicht berechenbar |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 4.452,22 € | 5.298,21 € |
+| 3. Noch unbezifferte Positionen: 19 | nicht berechenbar | nicht berechenbar |
 
 **Der Gesamtpreis eines funktionierenden Nachbaus bleibt offen.** Die Summe unter 2
 deckt nur bezifferte Positionen ab. Entwicklung von Elektronik/Firmware, interne
@@ -60,17 +60,19 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 
 | Lieferant | Webpreise brutto | Schätzungen brutto | Summe beziffert brutto |
 | --- | --- | --- | --- |
+| AUTOMATION24 | 396,98 € | 0,00 € | 396,98 € |
 | BEFFUCHS | 9,41 € | 5,95 € | 15,36 € |
 | DAMEN | 370,09 € | 0,00 € | 370,09 € |
 | DIGIKEY | 175,55 € | 0,00 € | 175,55 € |
-| DOLD | 622,14 € | 365,00 € | 987,14 € |
+| DOLD | 636,43 € | 365,00 € | 1.001,43 € |
 | EISEN2000 | 113,65 € | 0,00 € | 113,65 € |
 | IGUS | 172,70 € | 0,00 € | 172,70 € |
 | MOTEDIS | 314,66 € | 0,00 € | 314,66 € |
 | NANOTEC | 445,54 € | 0,00 € | 445,54 € |
 | OFFEN | 0,00 € | 150,00 € | 150,00 € |
 | RBS | 457,90 € | 30,00 € | 487,90 € |
-| REICHELT | 207,44 € | 195,00 € | 402,44 € |
+| REICHELT | 219,38 € | 195,00 € | 414,38 € |
+| RS | 876,79 € | 0,00 € | 876,79 € |
 | SCHRAUBEN | 97,10 € | 29,00 € | 126,10 € |
 | STEPPERONLINE | 0,00 € | 38,08 € | 38,08 € |
 | TINYTRONICS | 30,00 € | 0,00 € | 30,00 € |
@@ -81,18 +83,15 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | Bestellzeile | Benötigter Umfang | Warum Preis fehlt |
 | --- | --- | --- |
 | OPEN-CAD-010 | Schubladen-Dummyplatte | Schubladen-Dummy 564×410×12 mm: unklar, ob reale Platte benötigt und welches Material. Nicht stillschweigend ausschließen oder aus Stahl fertigen. |
-| OPEN-CAD-055 | Induktiver Näherungsschalter M8, nicht bündig, NPN-Schließer, M8-Stecker | Spezifikation aus CAD und Firmware (17.10.2026): M8×1, Gewinde 35,5 mm, Länge 60 mm, Sensorkopf Ø6,5 vorstehend (nicht bündig), M8-Steckeranschluss 3-polig; Firmware X_MIN/X_MAX/Y_MIN/Y_MAX HIT_STATE LOW mit Pull-ups = NPN-Schließer, direkt an SKR-Eingang. Kandidat SICK IME08-04NNSZW2S (Sn 4 mm), Preis/Bezug in DE nicht verifiziert. Schaltabstand gegen Auslöserstäbe prüfen. |
 | OPEN-CAD-061 | MMCX-Stecker gerade / Messleitung | 4 CAD-Modelle enthalten Kabelansätze. Impedanz, Kabeltyp, Crimp/Lötanschluss, Gegenstecker und Länge unbekannt. |
 | OPEN-CAD-062 | MMCX-Stecker gewinkelt / Messleitung | 4 CAD-Modelle; Kabel-/Buchsenpaarung mit CAD-061/075 und Multiplexer offen. |
 | OPEN-CAD-073 | Prüfkontakt-Hülse P75-2 W | 8 Stück, CADØ1,2×25,4 mm. Hersteller und passender Federkontakt CAD-115 unklar; Kontaktpaar vollständig spezifizieren. |
 | OPEN-CAD-075 | Prüfspitzen-PCB, unbestückt | 4 Stück;26,67×10,96×1,6 mm Hülle. Schaltplan, Kupfer, Bohrungen, Gerber und Bestückungsdaten fehlen. Bestückung SYS-024 separat. |
-| OPEN-CAD-086 | Netzschalter Ø19, Vandalismus, rastend | Funktion: Netzschalter rastend (Luis 17.10.2026), im power_switch_holder. CAD: Kopf Ø23, Einbau Ø19. Kandidat RND 210 (RS 2832550, 250 V AC, 1 Öffner + 1 Schließer, unbeleuchtet); rastend und Einbautiefe noch prüfen. |
 | OPEN-CAD-115 | Federkontakt der Prüfspitze | 8 Stück, CADØ1×16,6 mm. Spitzenform, Hub, Federkraft, Kontaktmaterial und Paarung mit P75-2-W unklar. |
 | OPEN-SYS-003 | Signal-Multiplexer, unbestückte Leiterplatte | CAD-082 ist nur Platzhalter. Schaltplan/Gerber/Board-BOM fehlen; USB/9600Baud-Protokoll ist keine Schaltung. |
 | OPEN-SYS-005 | Innere Messing-Referenzzylinder | Je 1×Ø7/8/9/10 mm nach Reference Board.inner_brass_pin_position_map; Raster 11,95×19,95 mm. Endfläche auf Bezugsebene; Gesamtlänge, Einbau, Toleranzen und Messprotokoll fehlen. |
 | OPEN-SYS-006 | Kalibriermarker / matte Druckvorlage | 4 Hamming-Marker mit IDs 1/3/6/12 laut Reference Board, je 18,2×18,2 mm, Raster 60×80 mm. Mtracker-Format verwenden, keine beliebigen Ar Uco-Marker. Maßstab 1:1 und reale Abstände vermessen. |
 | OPEN-SYS-009 | LED-Anschluss an vorhan denen SKR-Ausgang | Configuration_adv.h:4396 setzt PROBOTER_LIGHT_CONTROL_PIN auf HEATER_BED_PIN; M376 steuert Helligkeit. Kein separater USB-LED-Controller nötig. Stecker/Leitungen, Strom und Flimmern prüfen; keine zusätzliche MOSFET-Platine pauschal kaufen. |
-| OPEN-SYS-016 | Sensorleitungen / Verlängerungen | Für 24 induktive Sensoren; enthaltene Anschlussleitungen zuerst prüfen. Optische 1 m-Kabel sind bei O-009 enthalten. |
 | OPEN-SYS-017 | Sensor-Gegenstecker und Kontakte | 24 induktiv+4 optisch; bei steckerfertigem Beipack reduzieren. Keine generischen JST/Dupont ohne Rasterprüfung. |
 | OPEN-SYS-019 | Sensor-Pegelanpassung / Eingangsschutz | Bedarf abhängig von M8-Ausgang; 24 V/3,3 V-Interface. Keine Schaltung/BOM vorhan den; nicht blind 24Module bestellen. |
 | OPEN-SYS-023 | Signal-Multiplexer Bestückung | MCU, USB/Versorgung, Schalter/Relais, Schutz, Stecker, Passives und Montage nach noch fehlendem Schaltplan. Keine Stückzahlen erfinden. |
