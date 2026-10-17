@@ -610,6 +610,229 @@
       "offen": [
         "Gleitbuchsen RJ4JP-01-10 werden mit Sicherungsringen in der Nut gehalten; Ringe sind nicht im CAD. Prüfen, ob die gedruckten Schlitten die Buchsen formschlüssig halten."
       ]
+    },
+    {
+      "id": "M04",
+      "name": "Z-Achse",
+      "beschreibung": "Z-Antrieb auf den 4 Y-Schlitten (NEMA14, 9-mm-Zahnscheiben, Z-Riemen, HIWIN-Wagen) und die 4 Z-Schlitten (HIWIN-Schiene mit Riemenhalter, Endschalter-Auslöser und Prüfspitzen-Halter). Ohne Prüfspitzen-Elektronik und Kabelhalter.",
+      "stand": "Am 17.10.2026 angelegt und per Fusion-Kontaktanalyse geprüft (z_slide:1, z_slide_long:1 und die Y-Schlitten aus M03).",
+      "teile": [
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "nanotec_nema_14_ST3518M1004-A",
+          "menge": 4,
+          "hinweis": "4 von 8: je Y-Schlitten zwei CAD-Varianten derselben Einbaulage."
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "pulley_gt2_9mm"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "z_drive_belt"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "hiwin_slide_MGN12CZ0H"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "din_912_m3x8",
+          "hinweis": "HIWIN-Wagen am Y-Schlitten."
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "din_912_m3x10",
+          "hinweis": "Motorbefestigung am Y-Schlitten."
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "din_562_m3_square_nut",
+          "hinweis": "Motorbefestigung."
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "din_912_m3x20",
+          "hinweis": "Achse der Z-Umlenkscheibe."
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "y_slide_distance_tube_2mm"
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "iso_8673_nut_m3",
+          "menge": 4,
+          "hinweis": "4 von 24 an der Achse der Umlenkscheibe."
+        },
+        {
+          "scope": [
+            "y_slide (1):1",
+            "y_slide (1):2",
+            "y_slide_mirrored (1):1",
+            "y_slide_mirrored (1):2"
+          ],
+          "cad_name": "din_562_m4_square_nut",
+          "menge": 4,
+          "hinweis": "4 von 12 halten den Endschalter-Auslöser."
+        },
+        {
+          "scope": [
+            "z_slide:1",
+            "z_slide:2",
+            "z_slide_long:1",
+            "z_slide_long:2"
+          ],
+          "sub": "",
+          "cad_name": "hiwin_rail_MGNR12R150HM"
+        },
+        {
+          "scope": [
+            "z_slide:1",
+            "z_slide:2",
+            "z_slide_long:1",
+            "z_slide_long:2"
+          ],
+          "sub": "",
+          "cad_name": "z_drive_belt_holder_v3"
+        },
+        {
+          "scope": [
+            "z_slide:1",
+            "z_slide:2",
+            "z_slide_long:1",
+            "z_slide_long:2"
+          ],
+          "sub": "",
+          "cad_name": "z_slide_end_stop_trigger.psm"
+        },
+        {
+          "scope": [
+            "z_slide:1",
+            "z_slide:2",
+            "z_slide_long:1",
+            "z_slide_long:2"
+          ],
+          "sub": "",
+          "cad_name": "z_slide_end_stop_trigger_mirrored.psm"
+        },
+        {
+          "scope": [
+            "z_slide:1",
+            "z_slide:2",
+            "z_slide_long:1",
+            "z_slide_long:2"
+          ],
+          "sub": "",
+          "cad_name": "z_probe_tip_pcb_holder"
+        },
+        {
+          "scope": [
+            "z_slide:1",
+            "z_slide:2",
+            "z_slide_long:1",
+            "z_slide_long:2"
+          ],
+          "sub": "",
+          "cad_name": "z_probe_tip_pcb_holder_long"
+        },
+        {
+          "scope": [
+            "z_slide:1",
+            "z_slide:2",
+            "z_slide_long:1",
+            "z_slide_long:2"
+          ],
+          "sub": "",
+          "cad_name": "din_912_m3x10"
+        },
+        {
+          "scope": [
+            "z_slide:1",
+            "z_slide:2",
+            "z_slide_long:1",
+            "z_slide_long:2"
+          ],
+          "sub": "",
+          "cad_name": "din_562_m3_square_nut"
+        },
+        {
+          "scope": [
+            "z_slide:1",
+            "z_slide:2",
+            "z_slide_long:1",
+            "z_slide_long:2"
+          ],
+          "sub": "",
+          "cad_name": "din_912_m3x8"
+        }
+      ],
+      "zusatz": [
+        {
+          "teil": "Zylinderschraube DIN 912 M3×8 A2",
+          "menge": 4,
+          "bezug": "CAD-042",
+          "grund": "Am langen Z-Schlitten ist der Prüfspitzen-Halter im CAD nicht mit der Schiene verschraubt; am kurzen sind es 2 Schrauben. Annahme 2 je langem Schlitten, an der Geometrie bestätigen."
+        }
+      ],
+      "entfernt": [
+        "Prüfspitzen (Platine, Federkontakt, Hülse, MMCX-Stecker): Modul Prüfspitzen/Elektrik.",
+        "Kabelhalter am langen Z-Schlitten: Elektrik."
+      ],
+      "offen": [
+        "Die HIWIN-Schiene hat 6 Bohrungen, genutzt werden 2–3. Prüfen, ob weitere Schrauben vorgesehen sind.",
+        "Z-Zahnscheibe CAD-076: exaktes Teil nicht lieferbar; Kandidat mit anderer Bauform braucht angepasste Halter."
+      ]
     }
   ]
 }

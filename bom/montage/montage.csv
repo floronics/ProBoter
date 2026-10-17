@@ -69,3 +69,23 @@ M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored 
 M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,8,24,bestellfähig,Kaufteile,"8 von 24 an der Riemenklemme; Rest Z-Antrieb, Endschalter, Kamera."
 M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-030,DIN 562 M4 Vierkantmutter,din_562_m4_square_nut,8,12,bestellfähig,Kaufteile,8 von 12 an den Abstandsstangen; 4 am Z-Endschalter-Auslöser.
 M03,Y-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-041,DIN 912 M3×30,din_912_m3x30,4,8,bestellfähig,Kaufteile,4 von 8 an den Abstandsstangen; 4 halten den Kamerahalter.
+M04,Z-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-063,Nanotec ST3518M1004-A NEMA14 Z-Motor,nanotec_nema_14_ST3518M1004-A,4,8,teilweise geklärt,Kaufteile,4 von 8: je Y-Schlitten zwei CAD-Varianten derselben Einbaulage.
+M04,Z-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-076,GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm,pulley_gt2_9mm,8,8,teilweise geklärt,Kaufteile,
+M04,Z-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-113,"GT2-Riemen Z, 9 mm breit",z_drive_belt,4,4,bestellfähig,Kaufteile,
+M04,Z-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-054,HIWIN MGN12CZ0HM Z-Führungswagen,hiwin_slide_MGN12CZ0H,4,4,bestellfähig,Kaufteile,
+M04,Z-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-042,DIN 912 M3×8,din_912_m3x8,16,16,bestellfähig,Kaufteile,HIWIN-Wagen am Y-Schlitten.
+M04,Z-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-035,DIN 912 M3×10,din_912_m3x10,16,16,bestellfähig,Kaufteile,Motorbefestigung am Y-Schlitten.
+M04,Z-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,4,4,bestellfähig,Kaufteile,Motorbefestigung.
+M04,Z-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-040,DIN 912 M3×20,din_912_m3x20,4,4,bestellfähig,Kaufteile,Achse der Z-Umlenkscheibe.
+M04,Z-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-109,Y-Achse Schlitten Abstand Rohr 2 mm,y_slide_distance_tube_2mm,4,4,Fertigung noch offen,Weitere Fertigung,
+M04,Z-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,4,24,bestellfähig,Kaufteile,4 von 24 an der Achse der Umlenkscheibe.
+M04,Z-Achse,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-030,DIN 562 M4 Vierkantmutter,din_562_m4_square_nut,4,12,bestellfähig,Kaufteile,4 von 12 halten den Endschalter-Auslöser.
+M04,Z-Achse,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2+,CAD-053,"HIWIN MGNR12R150HM, Z-Schiene 150 mm",hiwin_rail_MGNR12R150HM,4,4,bestellfähig,Kaufteile,
+M04,Z-Achse,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2+,CAD-114,Z-Achse Antrieb Riemen Halter v 3,z_drive_belt_holder_v3,4,4,Fertigung noch offen,3D-Druck intern,
+M04,Z-Achse,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2+,CAD-119,Z-Achse Schlitten Endschalter Auslöser,z_slide_end_stop_trigger.psm,2,2,Fertigung noch offen,Blech intern,
+M04,Z-Achse,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2+,CAD-120,Z-Achse Schlitten Endschalter Auslöser gespiegelt,z_slide_end_stop_trigger_mirrored.psm,2,2,Fertigung noch offen,Blech intern,
+M04,Z-Achse,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2+,CAD-116,Z-Achse Prüfspitze Platine Halter,z_probe_tip_pcb_holder,2,2,Fertigung noch offen,3D-Druck intern,
+M04,Z-Achse,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2+,CAD-117,Z-Achse Prüfspitze Platine Halter lang,z_probe_tip_pcb_holder_long,2,2,Fertigung noch offen,3D-Druck intern,
+M04,Z-Achse,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2+,CAD-035,DIN 912 M3×10,din_912_m3x10,4,4,bestellfähig,Kaufteile,
+M04,Z-Achse,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2+,CAD-029,DIN 562 M3 Vierkantmutter,din_562_m3_square_nut,4,4,bestellfähig,Kaufteile,
+M04,Z-Achse,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2+,CAD-042,DIN 912 M3×8,din_912_m3x8,4,4,bestellfähig,Kaufteile,

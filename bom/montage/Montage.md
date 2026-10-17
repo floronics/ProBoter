@@ -7,6 +7,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | [M01 Grundgerüst](#modul-01) | 10 | 50 | 2 | 1 | 7 | 0 | 0 | 0 |
 | [M02 X-Achse](#modul-02) | 33 | 434 | 18 | 2 | 13 | 0 | 0 | 0 |
 | [M03 Y-Achse](#modul-03) | 27 | 168 | 15 | 2 | 10 | 0 | 0 | 0 |
+| [M04 Z-Achse](#modul-04) | 20 | 100 | 12 | 2 | 6 | 0 | 0 | 0 |
 
 <a id="modul-01"></a>
 
@@ -158,3 +159,50 @@ X-Führungen und 8 X-Riemenantriebe auf den Motorplatten sowie die 4 X-Wagen als
 **Offene Fragen**
 
 - Gleitbuchsen RJ4JP-01-10 werden mit Sicherungsringen in der Nut gehalten; Ringe sind nicht im CAD. Prüfen, ob die gedruckten Schlitten die Buchsen formschlüssig halten.
+
+<a id="modul-04"></a>
+
+## M04 Z-Achse
+
+Z-Antrieb auf den 4 Y-Schlitten (NEMA14, 9-mm-Zahnscheiben, Z-Riemen, HIWIN-Wagen) und die 4 Z-Schlitten (HIWIN-Schiene mit Riemenhalter, Endschalter-Auslöser und Prüfspitzen-Halter). Ohne Prüfspitzen-Elektronik und Kabelhalter.
+
+*Am 17.10.2026 angelegt und per Fusion-Kontaktanalyse geprüft (z_slide:1, z_slide_long:1 und die Y-Schlitten aus M03).*
+
+| ID / Teil | CAD-Name | Stück | Status | Beschaffungsart |
+| --- | --- | --- | --- | --- |
+| [CAD-029](../Teileliste.md#cad-029) DIN 562 M3 Vierkantmutter | `din_562_m3_square_nut` | 4 | bestellfähig; Motorbefestigung. | Kaufteile |
+| [CAD-029](../Teileliste.md#cad-029) DIN 562 M3 Vierkantmutter | `din_562_m3_square_nut` | 4 | bestellfähig | Kaufteile |
+| [CAD-030](../Teileliste.md#cad-030) DIN 562 M4 Vierkantmutter | `din_562_m4_square_nut` | 4 von 12 | bestellfähig; 4 von 12 halten den Endschalter-Auslöser. | Kaufteile |
+| [CAD-035](../Teileliste.md#cad-035) DIN 912 M3×10 | `din_912_m3x10` | 16 | bestellfähig; Motorbefestigung am Y-Schlitten. | Kaufteile |
+| [CAD-035](../Teileliste.md#cad-035) DIN 912 M3×10 | `din_912_m3x10` | 4 | bestellfähig | Kaufteile |
+| [CAD-040](../Teileliste.md#cad-040) DIN 912 M3×20 | `din_912_m3x20` | 4 | bestellfähig; Achse der Z-Umlenkscheibe. | Kaufteile |
+| [CAD-042](../Teileliste.md#cad-042) DIN 912 M3×8 | `din_912_m3x8` | 16 | bestellfähig; HIWIN-Wagen am Y-Schlitten. | Kaufteile |
+| [CAD-042](../Teileliste.md#cad-042) DIN 912 M3×8 | `din_912_m3x8` | 4 | bestellfähig | Kaufteile |
+| [CAD-053](../Teileliste.md#cad-053) HIWIN MGNR12R150HM, Z-Schiene 150 mm | `hiwin_rail_MGNR12R150HM` | 4 | bestellfähig | Kaufteile |
+| [CAD-054](../Teileliste.md#cad-054) HIWIN MGN12CZ0HM Z-Führungswagen | `hiwin_slide_MGN12CZ0H` | 4 | bestellfähig | Kaufteile |
+| [CAD-056](../Teileliste.md#cad-056) Sechskantmutter DIN 934 M3 A2 | `iso_8673_nut_m3` | 4 von 24 | bestellfähig; 4 von 24 an der Achse der Umlenkscheibe. | Kaufteile |
+| [CAD-113](../Teileliste.md#cad-113) GT2-Riemen Z, 9 mm breit | `z_drive_belt` | 4 | bestellfähig | Kaufteile |
+| [CAD-063](../Teileliste.md#cad-063) Nanotec ST3518M1004-A NEMA14 Z-Motor | `nanotec_nema_14_ST3518M1004-A` | 4 von 8 | teilweise geklärt; 4 von 8: je Y-Schlitten zwei CAD-Varianten derselben Einbaulage. | Kaufteile |
+| [CAD-076](../Teileliste.md#cad-076) GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm | `pulley_gt2_9mm` | 8 | teilweise geklärt | Kaufteile |
+| [CAD-109](../Teileliste.md#cad-109) Y-Achse Schlitten Abstand Rohr 2 mm | `y_slide_distance_tube_2mm` | 4 | Fertigung noch offen | Weitere Fertigung |
+| [CAD-114](../Teileliste.md#cad-114) Z-Achse Antrieb Riemen Halter v 3 | `z_drive_belt_holder_v3` | 4 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-116](../Teileliste.md#cad-116) Z-Achse Prüfspitze Platine Halter | `z_probe_tip_pcb_holder` | 2 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-117](../Teileliste.md#cad-117) Z-Achse Prüfspitze Platine Halter lang | `z_probe_tip_pcb_holder_long` | 2 | Fertigung noch offen | 3D-Druck intern |
+| [CAD-119](../Teileliste.md#cad-119) Z-Achse Schlitten Endschalter Auslöser | `z_slide_end_stop_trigger.psm` | 2 | Fertigung noch offen | Blech intern |
+| [CAD-120](../Teileliste.md#cad-120) Z-Achse Schlitten Endschalter Auslöser gespiegelt | `z_slide_end_stop_trigger_mirrored.psm` | 2 | Fertigung noch offen | Blech intern |
+
+**Zusätzlich nötig, nicht im CAD**
+
+| Teil | Stück | Bezug | Grund |
+| --- | --- | --- | --- |
+| Zylinderschraube DIN 912 M3×8 A2 | 4 | CAD-042 | Am langen Z-Schlitten ist der Prüfspitzen-Halter im CAD nicht mit der Schiene verschraubt; am kurzen sind es 2 Schrauben. Annahme 2 je langem Schlitten, an der Geometrie bestätigen. |
+
+**Bei der Prüfung aus dem Modul genommen**
+
+- Prüfspitzen (Platine, Federkontakt, Hülse, MMCX-Stecker): Modul Prüfspitzen/Elektrik.
+- Kabelhalter am langen Z-Schlitten: Elektrik.
+
+**Offene Fragen**
+
+- Die HIWIN-Schiene hat 6 Bohrungen, genutzt werden 2–3. Prüfen, ob weitere Schrauben vorgesehen sind.
+- Z-Zahnscheibe CAD-076: exaktes Teil nicht lieferbar; Kandidat mit anderer Bauform braucht angepasste Halter.
