@@ -301,7 +301,7 @@ def make_parts():
         if key=='CAD-020':
             note='Querschnitt und Länge aus CAD (4×350 mm). Unten M6-Gewinde in die Kernbohrung Ø5 für die Gelenkfüße, intern schneiden (Entscheidung 17.10.2026). Profilserie siehe M01.'
         if key=='CAD-109':
-            note='Name nennt2mm, CAD zeigt3mm Dicke. Innendurchmesser, Material und benötigte Distanz vor Fertigung klären.'
+            note='Fusion-Messung: Hülse Ø3/Ø4,8 × 3 mm (Name sagt 2 mm). Kauf gewünscht (Luis 17.10.2026), aber keine verifizierte Hülse gefunden. Hinweise: RS 0109470 (Polystyrol Ø3,2, L 3, AD unbekannt), RS 1363712 (Messing Ø3,2×6×3).'
         if key in ids(107,110,111,112,116,117):
             process_evidence='3D-Druck belegt (Thesis PDF-Seite67); Druckparameter/Werkstoff vorgeschlagen'
         result.append(dict(id=key,name=title,cad_name=name,cad_quantity=g['step_qty'],fusion_quantity=g['fusion_qty'],
