@@ -167,10 +167,11 @@ X-Führungen und 8 X-Riemenantriebe auf den Motorplatten sowie die 4 X-Wagen als
 - Z-Antrieb auf dem Y-Schlitten (NEMA14, 9-mm-Zahnscheiben, Z-Riemen, HIWIN-Wagen samt M3×8, M3×20 mit Distanzrohr): Modul Z-Achse.
 - Kamerahalter, Mikroskop, optischer Endschalter mit M3×12 und Muttern, Energiekette: Optik bzw. Elektrik.
 - CAD-001/002 heißen TR10x2-Adapter, sind laut Fusion aber die Klemme des Y-Riemens; Bezeichnung in der Teileliste angepasst.
+- Sicherungsringe der Gleitbuchsen: nicht nötig. Fusion-Messung zeigt, dass Y-Schlitten und Deckel die Ø19-Buchsen mit den M4×30 klemmen.
 
 **Offene Fragen**
 
-- Gleitbuchsen RJ4JP-01-10 werden mit Sicherungsringen in der Nut gehalten; Ringe sind nicht im CAD. Prüfen, ob die gedruckten Schlitten die Buchsen formschlüssig halten.
+- Abstandsstangen CAD-108 (8 × Ø4×70, Fasen): fertig kaufen gewünscht, aber kein lieferbarer Ø4×70-Stift gefunden (ISO 2338/8734 enden meist bei 40–55 mm). Alternative: Ø4-h6-Silberstahl ablängen.
 
 <a id="modul-04"></a>
 
