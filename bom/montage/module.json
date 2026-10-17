@@ -1,0 +1,33 @@
+{
+  "_hinweis": "Montagemodule für den schrittweisen Aufbau. Jedes Modul nennt CAD-Teile über Fusion-Komponente (scope) und CAD-Namen. Mengen kommen aus evidence/component-inventory.csv. Redaktionell gepflegt; Generator: tools/build_procurement.py.",
+  "module": [
+    {
+      "id": "M01",
+      "name": "Grundgerüst",
+      "beschreibung": "Tragender Rahmen ohne Elektrik, ohne Halter für elektrische Teile, ohne Achsen, Schublade und Verkleidung.",
+      "stand": "Abgrenzung mit Luis am 17.10.2026 abgestimmt; Vollständigkeit noch nicht geprüft.",
+      "teile": [
+        {"scope": "base:1", "cad_name": "base_frame_long_side"},
+        {"scope": "base:1", "cad_name": "base_frame_short"},
+        {"scope": "base:1", "cad_name": "base_frame_side"},
+        {"scope": "base:1", "cad_name": "base_vertical"},
+        {"scope": "base:1", "cad_name": "screw_on_bracket_30_6"},
+        {"scope": "base:1", "cad_name": "din_7991_m6x14"},
+        {"scope": "base:1", "cad_name": "din_7991_m6x20"},
+        {"scope": "base:1", "cad_name": "x_motor_plate"},
+        {"scope": "base:1", "cad_name": "x_motor_plate_2"},
+        {"scope": "base:1", "cad_name": "base_plate_adapter_1"},
+        {"scope": "base:1", "cad_name": "base_plate_adapter_2"},
+        {"scope": "base:1", "cad_name": "base_plate_adapter_left"},
+        {"scope": "base:1", "cad_name": "base_plate_adapter_right"},
+        {"scope": "base:1", "cad_name": "base_back_plate"},
+        {"scope": "base:1", "cad_name": "hinged_M6_40_dold"}
+      ],
+      "offen": [
+        "Adapterplatten: Grundgerüst oder X-Achse (evtl. Motor-Adapterplatten)?",
+        "Abdeckungen oben/seitlich: aussteifend (dann Grundgerüst) oder reine Verkleidung?",
+        "Nutensteine für die 26 Winkel sind nicht im CAD (SYS-029)."
+      ]
+    }
+  ]
+}

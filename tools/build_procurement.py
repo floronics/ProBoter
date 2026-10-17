@@ -691,6 +691,36 @@ Angebotspaket: separate STEP-Datei jeCAD-ID,2D-PDF mit Datumsstand/Revision, Mat
     text='\n'.join(prose(line) if 'http' not in line else line for line in text.split('\n'))
     (BOM/'Fertigung.md').write_text(text.rstrip()+'\n',encoding='utf-8')
 
+def montage(parts,components):
+    """Assembly modules from bom/montage/module.json with per-module status counts."""
+    spec=json.loads((BOM/'montage/module.json').read_text(encoding='utf-8'))
+    byid={p['id']:p for p in parts}
+    rows=[]
+    for m in spec['module']:
+        for t in m['teile']:
+            hits=[r for r in components if r['fusion_path']==t['scope'] and r['cad_name']==t['cad_name']]
+            assert hits,(m['id'],t)
+            p=byid[hits[0]['id']]
+            rows.append(dict(modul=m['id'],modulname=m['name'],scope=t['scope'],id=p['id'],name=p['name'],cad_name=p['cad_name'],
+                             quantity=sum(r['quantity'] for r in hits),status=p['status'],group=p['group']))
+    write_csv(BOM/'montage/montage.csv',rows)
+    order=['bestellfähig','teilweise geklärt','Fertigung noch offen','Fertigung spezifiziert','nicht identifiziert','nicht benötigt']
+    text='# Montagemodule\n\nSchrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [module.json](module.json), Teile mit Mengen in [montage.csv](montage.csv). Mengen sind CAD-Mengen im jeweiligen Fusion-Einbau; Status aus der [Teileliste](../Teileliste.md). In Fusion einblenden: `tools/fusion_show_module.py`.\n\n'
+    text+=table(['Modul','Positionen','Stück',*order],[
+        [f"[{m['id']} {m['name']}](#modul-{m['id'][1:]})",len([r for r in rows if r['modul']==m['id']]),
+         sum(r['quantity'] for r in rows if r['modul']==m['id']),
+         *[len([r for r in rows if r['modul']==m['id'] and r['status']==s]) for s in order]] for m in spec['module']])+'\n'
+    for m in spec['module']:
+        sub=[r for r in rows if r['modul']==m['id']]
+        text+=f"<a id=\"modul-{m['id'][1:]}\"></a>\n\n## {m['id']} {m['name']}\n\n{m['beschreibung']}\n\n*{m['stand']}*\n\n"
+        text+=table(['ID / Teil','CAD-Name','Stück','Status','Beschaffungsart'],[
+            [f"[{r['id']}](../Teileliste.md#{r['id'].lower()}) {r['name']}",f"`{r['cad_name']}`",r['quantity'],r['status'],r['group']]
+            for r in sorted(sub,key=lambda r:(order.index(r['status']),r['id']))])+'\n'
+        if m.get('offen'):
+            text+='**Offene Fragen**\n\n'+''.join(f'- {q}\n' for q in m['offen'])+'\n'
+    (BOM/'montage/Montage.md').write_text(text.rstrip()+'\n',encoding='utf-8')
+    return rows
+
 def validate(parts,orders,components=None):
     with (BOM/CAD).open(encoding='utf-8-sig') as f:
         expected={r['id'] for r in csv.DictReader(f)}
@@ -725,6 +755,7 @@ def main():
     write_csv(BOM/'teileliste.csv',parts);write_csv(BOM/'bestellliste.csv',orders)
     write_csv(BOM/'teileliste-komponenten.csv',components)
     totals=render(parts,orders,components)
+    montage(parts,components)
     print(json.dumps(totals,ensure_ascii=False,indent=2))
 
 if __name__=='__main__': main()

@@ -19,6 +19,7 @@ Quellen steht in [Quellen.md](Quellen.md).
 | [`docs/Offene-Punkte.md`](Offene-Punkte.md) | Technische Klärpunkte vor der Bestellung |
 | [`bom/Bestellliste.md`](../bom/Bestellliste.md) | Menschenlesbare Beschaffungsplanung |
 | [`bom/Teileliste.md`](../bom/Teileliste.md) | 160 Positionen, gegliedert nach den 13 Fusion-Komponenten plus K14 für Teile ohne CAD-Körper |
+| [`bom/montage/Montage.md`](../bom/montage/Montage.md) | Montagemodule für den schrittweisen Aufbau (M01 Grundgerüst …) mit Status je Modul |
 | [`bom/Fertigung.md`](../bom/Fertigung.md) | 3D-Druck, Blech, CNC, weitere Fertigung und PCB getrennt |
 | [`bom/Kosten.md`](../bom/Kosten.md) | Webpreise, eigene Schätzungen, Packungsrechnung und unbezifferte Bedarfe |
 | [`bom/Lieferanten.md`](../bom/Lieferanten.md) | DE-/EU-Anbieter mit belegten Rechnungskaufbedingungen |
