@@ -195,6 +195,9 @@ SYSTEM = [
 ('038','Kalibrier-Kontaktleitungen und gemeinsame Messreferenz',1,'Satz','Kaufteile','TME','4SKR-Zentriereingänge P0_17 mitPull-up/aktivLow sowie Referenzkörper/Kontaktkreis verdrahten. Netzplan, Stecker, Länge undBezugspotenzial mitMultiplexer klären; keineVerbindung ungeprüft festlegen.','../firmware/Marlin/src/module/proboter.cpp'),
 ('039','Erhöhte Messing-Referenzzylinder',4,'Stück','Weitere Fertigung','DOLD','Ø7mm lautReferenceBoard-Skizze; Code setzt vierEndflächen6/8/10/12mm über Bezugsebene aufRaster59,6×39,9mm. Gesamtlängen undEinstecktiefe sindnichtdieseHöhen; Zeichnung undToleranzen fehlen.','../software/hardware-control/proboter/tasks/utils/reference_board.py'),
 ('040','Äußere flache Messing-Referenzzylinder',4,'Stück','Weitere Fertigung','DOLD','Ø7mm lautReferenceBoard-Skizze; Mittelpunkte(±54,95;0) und(0;±44,9)mm. Endflächen aufBezugsebene; Länge undMontage offen. Insgesamt12Messingzylinder plus4weißeReferenzen.','../software/hardware-control/proboter/tasks/utils/reference_board.py'),
+('041','Nutenstein I-Typ Nut 6, M6, Motorplatten',8,'Stück','Kaufteile','DOLD','Fusion-Kontaktanalyse M01: die 8 Senkschrauben M6×20 der Motorplatten greifen in die Nut der 60×30-Profile; im CAD kein Gegenstück.',CAD),
+('042','Nutenstein I-Typ Nut 6, M4, Rückwand',6,'Stück','Kaufteile','DOLD','Fusion-Kontaktanalyse M01: 6 Bohrungen Ø4,5 der Rückwand liegen auf den langen Profilen; im CAD keine Befestigung.',CAD),
+('043','Zylinderschraube DIN 912 M4×10 A2, Rückwand',6,'Stück','Kaufteile','SCHRAUBEN','Zu SYS-042; 3 mm Rückwand plus Nutenstein.',CAD),
 ]
 
 def make_parts():
@@ -270,9 +273,11 @@ def make_parts():
             note='Schubladen-Dummy564×410×12mm: unklar, ob reale Platte benötigt und welches Material. Nicht stillschweigend ausschließen oder aus Stahl fertigen.'
         if key=='CAD-003':
             material='Aluminium 3 mm (Entscheidung 17.10.2026), z. B. EN AW-5754'
+            process_evidence='WERKSTATT: eigene Fertigung aus Blech oder Aluminium (Entscheidung Luis 17.10.2026)'
             note='650×270×3 mm, 54 Bohrungen Ø3,4, 10 Bohrungen Ø4,5, 1 Bohrung Ø8. 6 Ø4,5-Bohrungen sitzen auf den langen Profilen (M4 + Nutenstein, siehe M01). Zuschnitt und Bohrungen intern; Zeichnung aus CAD ableiten.'
         if key in ids(96,97):
-            process_evidence='Laserschneiden belegt (Blog); Fertigung intern (Entscheidung 17.10.2026)'
+            process_evidence='WERKSTATT: eigene Fertigung aus Stahl- oder Aluminiumblech (Entscheidung Luis 17.10.2026); Original lasergeschnitten (Blog)'
+            material='Stahl- oder Aluminiumblech 5 mm, Werkstattentscheidung'
             note='5 mm Stahl, 550×135 mm. Fusion-Messung: 16 Kernlöcher Ø2,46 für M3-Gewinde (Riemenspanner), Senkungen für M6 und Ø22-Durchbrüche für die Motoren. Kontur und Bohrungen aus CAD; Gewinde und Senkungen intern. Zeichnung mit Lagetoleranzen der Führungsbohrungen fehlt.'
         if key=='CAD-020':
             note='Querschnitt und Länge aus CAD (4×350 mm). Unten M6-Gewinde in die Kernbohrung Ø5 für die Gelenkfüße, intern schneiden (Entscheidung 17.10.2026). Profilserie siehe M01.'
@@ -289,6 +294,7 @@ def make_parts():
         if group in ['PCB extern','3D-Druck intern','Weitere Fertigung']: status='Fertigung noch offen'
         if group=='Ungeklärte Teile': status='nicht identifiziert'
         if group=='Nicht benötigt': status='nicht benötigt'
+        if key in ('041','042','043'): status='bestellfähig'
         result.append(dict(id='SYS-'+key,name=title,cad_name='',cad_quantity='',fusion_quantity='',quantity=qty,
                            unit=unit,group=group,status=status,geometry_mm='',solid_volume_cm3='',
                            material='nicht belegt',process_evidence='Planungsbedarf; '+source,
@@ -370,6 +376,8 @@ def make_orders(parts):
     add('BUY-024','16 Anschlusssätze E2.10 schmal',['SYS-027'],16,unit='Satz',offer='O-050')
     add('BUY-025','8 Anschlusssätze E2.10 breit',['SYS-028'],8,unit='Satz',offer='O-051')
     add('BUY-017','Z-Riemen 9 mm',ids(113),D('1.28'),unit='m',offer='O-044',note='Zuschnitt aus Fusion-Messung 4×0,32 m.')
+    for key in ('SYS-041','SYS-042','SYS-043'):
+        add('BUY-'+key,byid[key]['name'],[key],byid[key]['quantity'],offer=cad_offers[key])
     for n in (51,52,59,81,84):
         p=byid[f'CAD-{n:03}']
         add(f'BUY-C{n:03}',p['name'],[p['id']],p['quantity'],offer=cad_offers[p['id']])
@@ -706,6 +714,11 @@ def montage(parts,components):
     rows=[]
     for m in spec['module']:
         for t in m['teile']:
+            if 'sys' in t:
+                p=byid[t['sys']]
+                rows.append(dict(modul=m['id'],modulname=m['name'],scope='ohne CAD',id=p['id'],name=p['name'],cad_name='',
+                                 quantity=p['quantity'],cad_total=p['quantity'],status=p['status'],group=p['group'],hint=t.get('hinweis','')))
+                continue
             scopes=t['scope'] if isinstance(t['scope'],list) else [t['scope']]
             hits=[r for r in components if r['fusion_path'] in scopes and r['cad_name']==t['cad_name']
                   and ('sub' not in t or r['subassembly']==t['sub'])]
@@ -726,10 +739,12 @@ def montage(parts,components):
         sub=[r for r in rows if r['modul']==m['id']]
         text+=f"<a id=\"modul-{m['id'][1:]}\"></a>\n\n## {m['id']} {m['name']}\n\n{m['beschreibung']}\n\n*{m['stand']}*\n\n"
         text+=table(['ID / Teil','CAD-Name','Stück','Status','Beschaffungsart'],[
-            [f"[{r['id']}](../Teileliste.md#{r['id'].lower()}) {r['name']}",f"`{r['cad_name']}`",
+            [f"[{r['id']}](../Teileliste.md#{r['id'].lower()}) {r['name']}",f"`{r['cad_name']}`" if r['cad_name'] else 'nicht im CAD',
              f"{r['quantity']} von {r['cad_total']}" if r['quantity']!=r['cad_total'] else r['quantity'],
              r['status']+(f"; {r['hint']}" if r['hint'] else ''),r['group']]
             for r in sorted(sub,key=lambda r:(order.index(r['status']),r['id']))])+'\n'
+        if m.get('werkstatt'):
+            text+='**Werkstattfertigung**\n\n'+''.join(f'- {q}\n' for q in m['werkstatt'])+'\n'
         if m.get('zusatz'):
             text+='**Zusätzlich nötig, nicht im CAD**\n\n'+table(['Teil','Stück','Bezug','Grund'],[[z['teil'],z['menge'],z['bezug'],z['grund']] for z in m['zusatz']])+'\n'
         if m.get('entfernt'):

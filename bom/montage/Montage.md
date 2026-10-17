@@ -4,7 +4,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 
 | Modul | Positionen | Stück | bestellfähig | teilweise geklärt | Fertigung noch offen | Fertigung spezifiziert | nicht identifiziert | nicht benötigt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [M01 Grundgerüst](#modul-01) | 10 | 50 | 7 | 0 | 3 | 0 | 0 | 0 |
+| [M01 Grundgerüst](#modul-01) | 13 | 70 | 10 | 0 | 3 | 0 | 0 | 0 |
 | [M02 X-Achse](#modul-02) | 33 | 434 | 18 | 2 | 13 | 0 | 0 | 0 |
 | [M03 Y-Achse](#modul-03) | 27 | 168 | 15 | 2 | 10 | 0 | 0 | 0 |
 | [M04 Z-Achse](#modul-04) | 20 | 100 | 12 | 2 | 6 | 0 | 0 | 0 |
@@ -32,16 +32,21 @@ Tragender Rahmen ohne Elektrik, ohne Halter für elektrische Teile, ohne Achsen,
 | [CAD-034](../Teileliste.md#cad-034) DIN 7991 M6×20 | `din_7991_m6x20` | 8 von 22 | bestellfähig; 8 von 22 verbinden die Motorplatten mit den 60×30-Profilen; 8 halten die Adapterplatten (X-Antrieb), 6 die Kettenhalter. | Kaufteile |
 | [CAD-052](../Teileliste.md#cad-052) Gelenkfuß M6×20 / Teller Ø40 mm | `hinged_M6_40_dold` | 4 | bestellfähig | Kaufteile |
 | [CAD-081](../Teileliste.md#cad-081) Anschraubwinkel 30 / Nut 6 | `screw_on_bracket_30_6` | 18 von 26 | bestellfähig; 18 von 26 verbinden Rahmenprofile; 8 gehören zur Schublade. | Kaufteile |
+| [SYS-041](../Teileliste.md#sys-041) Nutenstein I-Typ Nut 6, M6, Motorplatten | nicht im CAD | 8 | bestellfähig | Kaufteile |
+| [SYS-042](../Teileliste.md#sys-042) Nutenstein I-Typ Nut 6, M4, Rückwand | nicht im CAD | 6 | bestellfähig | Kaufteile |
+| [SYS-043](../Teileliste.md#sys-043) Zylinderschraube DIN 912 M4×10 A2, Rückwand | nicht im CAD | 6 | bestellfähig | Kaufteile |
 | [CAD-003](../Teileliste.md#cad-003) Grundgestell: Rückseite Platte | `base_back_plate` | 1 | Fertigung noch offen | Blech intern |
 | [CAD-096](../Teileliste.md#cad-096) X-Achse Motor Platte | `x_motor_plate` | 1 | Fertigung noch offen | Blech intern |
 | [CAD-097](../Teileliste.md#cad-097) X-Achse Motor Platte 2 | `x_motor_plate_2` | 1 | Fertigung noch offen | Blech intern |
+
+**Werkstattfertigung**
+
+- CAD-003 Rückwand, CAD-096 und CAD-097 Motorplatten: Fertigung in der eigenen Werkstatt aus Blech oder Aluminium (Entscheidung 17.10.2026).
 
 **Zusätzlich nötig, nicht im CAD**
 
 | Teil | Stück | Bezug | Grund |
 | --- | --- | --- | --- |
-| Nutenstein mit Steg I-Typ Nut 6, M6 (DOLD 62354-VK) | 8 | SYS-029 | Senkschrauben M6×20 der Motorplatten greifen in die Nut der 60×30-Profile; im CAD kein Gegenstück. |
-| Zylinderschraube M4 + Nutenstein I-Typ Nut 6 M4 (DOLD 62347-VK) | 6 | SYS-029 | 6 Bohrungen Ø4,5 der Rückwand liegen auf den langen Profilen; im CAD keine Schrauben. Schraubenlänge aus 3 mm Blech + Nutenstein festlegen (M4×8 oder M4×10). |
 | Befestigungssätze der Winkel | 18 | CAD-081 | Bereits enthalten: CAD-081 wird als Satz 62385-BS mit 2 Schrauben M6×12 und 2 Nutensteinen bestellt. |
 | Gewinde M6 in Profil-Kernbohrung Ø5 | 4 | CAD-020 | Gelenkfüße sitzen in den unteren Enden der 4 Vertikalprofile; Kernbohrung Ø5 ist das M6-Kernloch. Bearbeitung, kein Kaufteil. |
 
@@ -50,10 +55,6 @@ Tragender Rahmen ohne Elektrik, ohne Halter für elektrische Teile, ohne Achsen,
 - DIN 7991 M6×14 (6 Stück): befestigen die Schubladen-Dummyplatte, gehören zur Schublade.
 - Adapterplatten CAD-016 bis CAD-019: tragen die X-Riemenantriebe (M3/M4-Schrauben aus x_belt_drive) und gehören zur X-Achse. Fertigungsverfahren weiter mit PRÜFEN-Vermerk.
 - Muttern M8×1 an den Motorplatten (8 Stück): halten induktive Sensoren, gehören zur Elektrik.
-
-**Offene Fragen**
-
-- 4 weitere Ø4,5-Bohrungen der Rückwand treffen kein Profil; vermutlich für Netzteil oder Elektronik.
 
 <a id="modul-02"></a>
 

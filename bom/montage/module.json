@@ -50,21 +50,21 @@
         {
           "scope": "base:1",
           "cad_name": "hinged_M6_40_dold"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-041"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-042"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-043"
         }
       ],
       "zusatz": [
-        {
-          "teil": "Nutenstein mit Steg I-Typ Nut 6, M6 (DOLD 62354-VK)",
-          "menge": 8,
-          "bezug": "SYS-029",
-          "grund": "Senkschrauben M6×20 der Motorplatten greifen in die Nut der 60×30-Profile; im CAD kein Gegenstück."
-        },
-        {
-          "teil": "Zylinderschraube M4 + Nutenstein I-Typ Nut 6 M4 (DOLD 62347-VK)",
-          "menge": 6,
-          "bezug": "SYS-029",
-          "grund": "6 Bohrungen Ø4,5 der Rückwand liegen auf den langen Profilen; im CAD keine Schrauben. Schraubenlänge aus 3 mm Blech + Nutenstein festlegen (M4×8 oder M4×10)."
-        },
         {
           "teil": "Befestigungssätze der Winkel",
           "menge": 18,
@@ -83,8 +83,9 @@
         "Adapterplatten CAD-016 bis CAD-019: tragen die X-Riemenantriebe (M3/M4-Schrauben aus x_belt_drive) und gehören zur X-Achse. Fertigungsverfahren weiter mit PRÜFEN-Vermerk.",
         "Muttern M8×1 an den Motorplatten (8 Stück): halten induktive Sensoren, gehören zur Elektrik."
       ],
-      "offen": [
-        "4 weitere Ø4,5-Bohrungen der Rückwand treffen kein Profil; vermutlich für Netzteil oder Elektronik."
+      "offen": [],
+      "werkstatt": [
+        "CAD-003 Rückwand, CAD-096 und CAD-097 Motorplatten: Fertigung in der eigenen Werkstatt aus Blech oder Aluminium (Entscheidung 17.10.2026)."
       ]
     },
     {

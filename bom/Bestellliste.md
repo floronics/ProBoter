@@ -8,9 +8,9 @@
 
 | Ergebnis | netto | brutto 19% |
 | --- | --- | --- |
-| 1. Summe belegter Webpreise bei Planmengen (einschließlich ungeprüfter Kandidaten) | 2.460,73 € | 2.928,34 € |
+| 1. Summe belegter Webpreise bei Planmengen (einschließlich ungeprüfter Kandidaten) | 2.471,56 € | 2.941,24 € |
 | Zusätzliche eigene Budgetschätzungen inklusive Frachtreserve | 1.698,29 € | 2.020,95 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 4.159,02 € | 4.949,29 € |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 4.169,85 € | 4.962,19 € |
 | 3. 22 noch unbezifferte Bestellpositionen | offen | offen |
 
 **Das vorläufige Total ist kein vollständiger Baupreis.** Die unbezifferten Platinen, Prüfkontakte, Sensoren und Kalibrierteile kommen hinzu. Ein vorhan dener Shoppreis beweist keine Austauschbarkeit. [Kostenmethodik](Kosten.md) trennt Preise, Mengenannahmen und offene Bedarfe.
@@ -61,6 +61,9 @@ TMC2130, Rollen, Lager und Kamerakandidaten besitzen konkrete Bezugsquellen, ben
 | **BUY-024** 16 Anschlusssätze E2.10 schmal<br>SYS-027 | 16 Satz → 16 × 1 | [DIGIKEY](https://www.digikey.de/de/products/detail/igus/E2-100-10-34PZ/13157727) / E2-100-10-34PZ<br>igus: E2.100.10.34PZ<br>14 vorrätig, sonst 22 Wochen | 5,84 € netto | 93,44 € / 111,19 € | Beidseitig schwenkbar mit Zugentlastung; Breite 17,4 = CAD-Anschlusskörper.  |
 | **BUY-025** 8 Anschlusssätze E2.10 breit<br>SYS-028 | 8 Satz → 8 × 1 | [DIGIKEY](https://www.digikey.de/de/products/detail/igus/E2-100-20-34PZ/13157712) / E2-100-20-34PZ<br>igus: E2.100.20.34PZ<br>42 vorrätig | 6,76 € netto | 54,08 € / 64,36 € | Breite 27,4 = CAD-Anschlusskörper.  |
 | **BUY-017** Z-Riemen 9 mm<br>CAD-113 | 1,28 m → 2 × 1 | [RBS](https://www.roboter-bausatz.de/p/1-meter-gt2-zahnriemen-gates-ll2gt-rf-9mm) / RBS14040<br>Maker Mind (Shopangabe; Titel nennt Gates LL-2GT RF): LL-2GT RF 9 mm<br>sofort verfügbar; 1–3 Werktage | 8,69 € brutto | 14,61 € / 17,38 € | GT2, 9 mm breit = CAD. Bedarf 4×0,32 m. Zuschnitt aus Fusion-Messung 4×0,32 m. |
+| **BUY-SYS-041** Nutenstein I-Typ Nut 6, M6, Motorplatten<br>SYS-041 | 8 Stück → 1 × 10 | [DOLD](https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M6) / 62354-VK<br>DOLD: 62354-VK<br>sofort verfügbar | 4,80 € brutto | 4,03 € / 4,80 € | Passend zu I-Typ Nut 6; Staffelpreis 0,48 EUR ab 10 Stück.  |
+| **BUY-SYS-042** Nutenstein I-Typ Nut 6, M4, Rückwand<br>SYS-042 | 6 Stück → 1 × 10 | [DOLD](https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M4) / 62347-VK<br>DOLD: 62347-VK<br>sofort verfügbar | 4,80 € brutto | 4,03 € / 4,80 € | Passend zu I-Typ Nut 6; Staffelpreis 0,48 EUR ab 10 Stück.  |
+| **BUY-SYS-043** Zylinderschraube DIN 912 M4×10 A2, Rückwand<br>SYS-043 | 6 Stück → 1 × 10 | [SCHRAUBEN](https://schrauben-expert.de/Zylinderschraube-DIN-912-M4-x-10-mm-Edelstahl-A2) / 912 4 10 A2<br>Schrauben.Expert: 912 4 10 A2<br>Expresslager 1–4 Werktage | 3,30 € brutto | 2,77 € / 3,30 € | 3 mm Rückwand + Nutenstein; gleicher Artikel wie CAD-043, separat für die Rückwand.  |
 | **BUY-C051** Schubladengriff, Lochabstand 100 mm<br>CAD-051 | 1 Stück → 1 × 1 | [DOLD](https://www.dold-mechatronik.de/Buegelgriff-100mm) / A-75903<br>DOLD: 42508944<br>sofort verfügbar; 6–7 Werktage | 6,49 € brutto | 5,45 € / 6,49 € | 113×20×49 = CAD, aber Gewinde M6; CAD zeigt Ø5,5-Bohrung. Alternative A-75873 mit Ø5,4-Durchgang ist 112 lang.  |
 | **BUY-C052** Gelenkfuß M6×20 / Teller Ø40 mm<br>CAD-052 | 4 Stück → 4 × 1 | [DOLD](https://www.dold-mechatronik.de/index.php?a=91508) / GF-K-10-PA-028<br>DOLD: GF-K-10-PA-028<br>sofort verfügbar; 3–4 Werktage | 1,50 € brutto | 5,04 € / 6,00 € | M6 und Teller Ø40 = CAD; Gewindelänge 20 aus CAD-Höhe nicht belegt, Traglast nicht angegeben.  |
 | **BUY-C059** Mean Well MHS012 Montagewinkel<br>CAD-059 | 4 Stück → 4 × 1 | [REICHELT](https://www.reichelt.de/de/de/shop/produkt/befestigungswinkel_fuer_schaltnetzteile-188580) / MHS-012<br>Mean Well: MHS012<br>ab Lager; 1–2 Werktage | 0,30 € brutto | 1,01 € / 1,20 € | 15×16,2×19,5 laut Zeichnung (CAD 15×16×19,2); 4 je RSP-200.  |
