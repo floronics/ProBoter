@@ -384,7 +384,7 @@ def make_orders(parts):
 
     # Own rough budget assumptions; not supplier quotations or promises of fit.
     add('BUY-014','12 NEMA17 Originalmotoren',ids(64),12,offer='O-041')
-    add('BUY-015','4 NEMA14 Z-Motoren, ERSATZ STEPPERONLINE 14HS13-0804S',ids(63),4,offer='O-063',estimate='8',basis='net',note='Shoppreis 8,48 USD, als 8 EUR netto geschätzt; EUR-Preis und Versandlager im Checkout prüfen.')
+    add('BUY-015','4 NEMA14 Z-Motoren, ERSATZ STEPPERONLINE 14HS13-0804S',ids(63),4,offer='O-065',estimate='8',basis='net',note='Shoppreis 8,48 USD, als 8 EUR netto geschätzt; EUR-Preis und Versandlager im Checkout prüfen.')
     add('BUY-016','4 Steuerplatinen, Ersatzkandidat SKR 1.4 Turbo',ids(23),4,offer='O-043',note='Preis des Ersatzkandidaten; Firmware-Migration nicht enthalten und nicht freigegeben.')
     add('BUY-018','8 CPC-Führungswagen MR12ML',ids(27),8,offer='O-045')
     add('BUY-019','2 CPC-Schienen MR12M 600 mm',ids(95),2,offer='O-046')

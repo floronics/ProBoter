@@ -10,11 +10,11 @@ im Shop bestätigen. Kein Warenkorb wurde bestellt.
 
 | Umfang | netto | brutto |
 | --- | --- | --- |
-| 1. Beobachtete Webpreise × geplante Bestellpackungen | 2.381,12 € | 2.833,61 € |
-| Davon Positionen mit Status bestellfähig | 1.740,29 € | 2.071,02 € |
+| 1. Beobachtete Webpreise × geplante Bestellpackungen | 2.376,08 € | 2.827,61 € |
+| Davon Positionen mit Status bestellfähig | 1.735,25 € | 2.065,02 € |
 | Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 640,83 € | 762,59 € |
-| Eigene Budgetschätzungen zusätzlich | 793,25 € | 943,95 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.174,37 € | 3.777,56 € |
+| Eigene Budgetschätzungen zusätzlich | 825,25 € | 982,03 € |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.201,33 € | 3.809,64 € |
 | 3. Noch unbezifferte Positionen: 22 | nicht berechenbar | nicht berechenbar |
 
 **Der Gesamtpreis eines funktionierenden Nachbaus bleibt offen.** Die Summe unter 2
@@ -72,7 +72,8 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | RBS | 457,90 € | 30,00 € | 487,90 € |
 | REICHELT | 207,44 € | 195,00 € | 402,44 € |
 | SCHRAUBEN | 56,50 € | 29,00 € | 85,50 € |
-| TINYTRONICS | 36,00 € | 0,00 € | 36,00 € |
+| STEPPERONLINE | 0,00 € | 38,08 € | 38,08 € |
+| TINYTRONICS | 30,00 € | 0,00 € | 30,00 € |
 | TME | 0,00 € | 169,00 € | 169,00 € |
 
 ## Noch unbeziffert – Auswirkung auf die Vollständigkeit
