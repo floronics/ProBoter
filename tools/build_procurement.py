@@ -698,10 +698,12 @@ def montage(parts,components):
     rows=[]
     for m in spec['module']:
         for t in m['teile']:
-            hits=[r for r in components if r['fusion_path']==t['scope'] and r['cad_name']==t['cad_name']]
+            scopes=t['scope'] if isinstance(t['scope'],list) else [t['scope']]
+            hits=[r for r in components if r['fusion_path'] in scopes and r['cad_name']==t['cad_name']
+                  and ('sub' not in t or r['subassembly']==t['sub'])]
             assert hits,(m['id'],t)
             p=byid[hits[0]['id']]
-            rows.append(dict(modul=m['id'],modulname=m['name'],scope=t['scope'],id=p['id'],name=p['name'],cad_name=p['cad_name'],
+            rows.append(dict(modul=m['id'],modulname=m['name'],scope=';'.join(scopes)+(('+'+t['sub']) if 'sub' in t else ''),id=p['id'],name=p['name'],cad_name=p['cad_name'],
                              quantity=t.get('menge',sum(r['quantity'] for r in hits)),cad_total=sum(r['quantity'] for r in hits),
                              status=p['status'],group=p['group'],hint=t.get('hinweis','')))
             assert rows[-1]['quantity']<=rows[-1]['cad_total'],(m['id'],t)

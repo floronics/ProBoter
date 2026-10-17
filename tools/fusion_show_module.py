@@ -15,7 +15,7 @@ SPEC = Path('C:/Users/luisk/Documents/GitHub/ProBoter/bom/montage/module.json')
 
 def run(_context: str):
     module = next(m for m in json.loads(SPEC.read_text(encoding='utf-8'))['module'] if m['id'] == MODULE)
-    keep = {(t['scope'], t['cad_name']) for t in module['teile']}
+    keep = {(s, t['cad_name']) for t in module['teile'] for s in (t['scope'] if isinstance(t['scope'], list) else [t['scope']])}
     app = adsk.core.Application.get()
     root = adsk.fusion.Design.cast(app.activeProduct).rootComponent
     shown = {}
