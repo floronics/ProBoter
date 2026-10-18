@@ -22,6 +22,7 @@
     "OPEN-CAD-073",
     "OPEN-CAD-075",
     "OPEN-SYS-003",
+    "OPEN-SYS-004",
     "OPEN-SYS-005",
     "OPEN-SYS-006",
     "OPEN-SYS-009",
@@ -37,8 +38,8 @@
     "OPEN-SYS-058"
   ],
   "status_counts": {
-    "Fertigung spezifiziert": 37,
-    "Fertigung noch offen": 23,
+    "Fertigung spezifiziert": 42,
+    "Fertigung noch offen": 18,
     "bestellfähig": 87,
     "teilweise geklärt": 27,
     "nicht identifiziert": 1,

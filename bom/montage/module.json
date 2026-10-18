@@ -1461,6 +1461,57 @@
         "Befestigung der BARdolino-Klammern am 30er-Profil (Schraube + Nutenstein) festlegen.",
         "Anschlussleitung von der SKR zu den 4 Profilstücken (2-adrig, ca. 0,5 mm²) bei M11 Verkabelung mitplanen."
       ]
+    },
+    {
+      "id": "M13",
+      "name": "Kalibrierung",
+      "beschreibung": "Kalibrier-Referenzplatte mit Messing- und weißen Referenzstiften und Hamming-Markern; Maße aus der Software (cli.py, reference_board.py) und der Abbildung software/docu/images/calibration_plate.png.",
+      "stand": "Am 18.10.2026 angelegt; Fertigung in der eigenen Werkstatt.",
+      "teile": [
+        {
+          "scope": "system",
+          "sys": "SYS-004"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-005"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-039"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-040"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-037"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-006"
+        }
+      ],
+      "zusatz": [
+        {
+          "teil": "Messing-Rundstab Ø7, Ø8, Ø9, Ø10 und weißer POM-Rundstab Ø10",
+          "menge": "je ca. 100 mm",
+          "bezug": "SYS-005/037/039/040",
+          "grund": "Rohmaterial für die Werkstatt; noch kein Artikel ausgewählt."
+        },
+        {
+          "teil": "Alu-Platte ca. 140×120×(5,1 + Turmhöhe) mm",
+          "menge": 1,
+          "bezug": "SYS-004",
+          "grund": "Rohmaterial; Turmhöhe bis 12 mm über Oberfläche."
+        }
+      ],
+      "entfernt": [],
+      "offen": [
+        "Plattengröße und Ø der weißen Referenzen sind aus der Abbildung geschätzt; vor der Fertigung Zeichnung erstellen.",
+        "Rohmaterial (Messing, POM, Alu) noch nicht ausgewählt."
+      ]
     }
   ]
 }

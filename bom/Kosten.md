@@ -15,7 +15,7 @@ im Shop bestätigen. Kein Warenkorb wurde bestellt.
 | Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 271,99 € | 323,66 € |
 | Eigene Budgetschätzungen zusätzlich | 826,09 € | 983,03 € |
 | 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.969,52 € | 4.723,81 € |
-| 3. Noch unbezifferte Positionen: 20 | nicht berechenbar | nicht berechenbar |
+| 3. Noch unbezifferte Positionen: 21 | nicht berechenbar | nicht berechenbar |
 
 **Der Gesamtpreis eines funktionierenden Nachbaus bleibt offen.** Die Summe unter 2
 deckt nur bezifferte Positionen ab. Entwicklung von Elektronik/Firmware, interne
@@ -92,18 +92,19 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | OPEN-CAD-073 | Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W) | Fusion-Messung: Ø1,2 × 25,4 mm, Drahtende Ø0,6 × 5 mm = R75-Aufnahmehülse für P75 (Bohrung ca. 1,4 mm). Kein EU-Angebot mit Preis gefunden; Peaktest R75-Serie nur auf Anfrage. |
 | OPEN-CAD-075 | Prüfspitzen-PCB, unbestückt | 4 Stück; CAD nur Quader 26,67×10,96×1,6 mm ohne Daten. Entscheidung Luis 17.10.2026: Originaldaten bei SCHUTZWERK angefragt (Anfrage durch Luis versendet, Antwort offen). |
 | OPEN-SYS-003 | Signal-Multiplexer, unbestückte Leiterplatte | CAD-082 ist nur Platzhalter. Schaltplan/Gerber/Board-BOM fehlen; USB/9600Baud-Protokoll ist keine Schaltung. |
-| OPEN-SYS-005 | Innere Messing-Referenzzylinder | Je 1×Ø7/8/9/10 mm nach Reference Board.inner_brass_pin_position_map; Raster 11,95×19,95 mm. Endfläche auf Bezugsebene; Gesamtlänge, Einbau, Toleranzen und Messprotokoll fehlen. |
-| OPEN-SYS-006 | Kalibriermarker / matte Druckvorlage | 4 Hamming-Marker mit IDs 1/3/6/12 laut Reference Board, je 18,2×18,2 mm, Raster 60×80 mm. Mtracker-Format verwenden, keine beliebigen Ar Uco-Marker. Maßstab 1:1 und reale Abstände vermessen. |
+| OPEN-SYS-004 | Kalibrier-Referenzplatte, Alu schwarz | WERKSTATT (Entscheidung Luis 18.10.2026): Alu gefräst/gebohrt, schwarz eloxiert oder lackiert. Dicke 5,1 mm (cli.py); Größe ca. 130×110 mm aus software/docu/images/calibration_plate_top.png geschätzt. 4 Türme für die erhöhten Stifte; Marker eingraviert. Zeichnung aus den Software-Maßen erstellen. |
+| OPEN-SYS-005 | Innere Messing-Referenzzylinder Ø7/8/9/10 | WERKSTATT aus Messing-Rundstab (Entscheidung Luis 18.10.2026): je 1× Ø7/8/9/10 mm, Raster 11,95×19,95 mm, Endfläche bündig mit der Plattenoberfläche. Länge = Plattendicke 5,1 mm plus Einpresstiefe. |
+| OPEN-SYS-006 | Kalibriermarker, in die Platte graviert | Hamming-Marker IDs 1/3/6/12 (mtracker-Format), je 18,2×18,2 mm, Raster 60×80 mm; weiß in die schwarze Platte lasern/gravieren (Entscheidung Luis 18.10.2026). |
 | OPEN-SYS-009 | LED-Anschluss an den Heizbett-Ausgang der Licht-Steuerplatine | Configuration_adv.h:4396 setzt PROBOTER_LIGHT_CONTROL_PIN auf HEATER_BED_PIN; M376 steuert Helligkeit. Kein separater USB-LED-Controller nötig. Stecker/Leitungen, Strom und Flimmern prüfen; keine zusätzliche MOSFET-Platine pauschal kaufen. |
 | OPEN-SYS-017 | Sensor-Gegenstecker und Kontakte | 24 induktiv+4 optisch; bei steckerfertigem Beipack reduzieren. Keine generischen JST/Dupont ohne Rasterprüfung. |
 | OPEN-SYS-019 | Sensor-Pegelanpassung / Eingangsschutz | Bedarf abhängig von M8-Ausgang; 24 V/3,3 V-Interface. Keine Schaltung/BOM vorhan den; nicht blind 24Module bestellen. |
 | OPEN-SYS-023 | Signal-Multiplexer Bestückung | MCU, USB/Versorgung, Schalter/Relais, Schutz, Stecker, Passives und Montage nach noch fehlendem Schaltplan. Keine Stückzahlen erfinden. |
 | OPEN-SYS-024 | Prüfspitzen-PCB Bestückung | CAD-MM CX/Federkontakte separat; zusätzliche Buchsen und Bauteile erst aus Schaltplan. Unbestückte Platine CAD-075 nicht erneut zählen. |
 | OPEN-SYS-026 | Zielplatinen-Versorgungscontroller | Softwareziel /dev/proboter_target-power-controller; Schaltung, Firmware/Hardware und Kabel fehlen. Separat vom RSP-Netzteil. |
-| OPEN-SYS-037 | Weiße äußere Kalibrierreferenzen | Reference Board Config beschreibt vier äußere weiße Referenzpins. Raster 109,9×89,8 mm; Durchmesser, Höhe, Material und Umsetzung am gewählten Board fehlen. Nicht mit 12Messingpins gleichsetzen. |
+| OPEN-SYS-037 | Weiße äußere Kalibrierreferenzen Ø10 | WERKSTATT aus weißem POM-Rundstab, Ø ca. 10 mm aus der Abbildung geschätzt (Entscheidung Luis 18.10.2026). Raster 109,9×89,8 mm, bündig. |
 | OPEN-SYS-038 | Kalibrier-Kontaktleitungen und gemeinsame Messreferenz | 4 SKR-Zentriereingänge P0_17 mit Pull-up/aktiv Low sowie Referenzkörper/Kontaktkreis verdrahten. Netzplan, Stecker, Länge und Bezugspotenzial mit Multiplexer klären; keine Verbindung ungeprüft festlegen. |
-| OPEN-SYS-039 | Erhöhte Messing-Referenzzylinder | Ø7 mm laut Reference Board-Skizze; Code setzt vier Endflächen 6/8/10/12 mm über Bezugsebene auf Raster 59,6×39,9 mm. Gesamtlängen und Einstecktiefe sind nicht diese Höhen; Zeichnung und Toleranzen fehlen. |
-| OPEN-SYS-040 | Äußere flache Messing-Referenzzylinder | Ø7 mm laut Reference Board-Skizze; Mittelpunkte(±54,95;0) und(0;±44,9)mm. Endflächen auf Bezugsebene; Länge und Montage offen. Insgesamt 12Messingzylinder plus 4weiße Referenzen. |
+| OPEN-SYS-039 | Erhöhte Messing-Referenzzylinder | WERKSTATT aus Messing-Rundstab Ø7 (Entscheidung Luis 18.10.2026): Raster 59,6×39,9 mm, Endflächen 6/8/10/12 mm über der Plattenoberfläche, in Türmen der Platte. |
+| OPEN-SYS-040 | Äußere flache Messing-Referenzzylinder Ø7 | WERKSTATT aus Messing-Rundstab Ø7 (Entscheidung Luis 18.10.2026): Mittelpunkte (±54,95; 0) und (0; ±44,9) mm, bündig. |
 | OPEN-SYS-058 | Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl) | Wunsch Luis (17.10.2026). Flachspitzen-Code uneinheitlich (Peaktest: F flach, A konkav, D2 Kuppe); kein Lagerangebot gefunden, Spitzenzeichnung beim Händler anfordern. |
 
 ## Größte Kostenrisiken

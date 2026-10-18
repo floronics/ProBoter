@@ -15,6 +15,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | [M09 Prüfspitzen](#modul-09) | 7 | 48 | 2 | 4 | 1 | 0 | 0 | 0 |
 | [M10 Verkleidung](#modul-10) | 4 | 40 | 4 | 0 | 0 | 0 | 0 | 0 |
 | [M12 Beleuchtung](#modul-12) | 3 | 3.9 | 2 | 1 | 0 | 0 | 0 | 0 |
+| [M13 Kalibrierung](#modul-13) | 6 | 18 | 0 | 0 | 1 | 5 | 0 | 0 |
 
 <a id="modul-01"></a>
 
@@ -445,6 +446,35 @@ LED-Beleuchtung rundum oben innen am Rahmen, geschaltet und gedimmt über den He
 
 - Befestigung der BARdolino-Klammern am 30er-Profil (Schraube + Nutenstein) festlegen.
 - Anschlussleitung von der SKR zu den 4 Profilstücken (2-adrig, ca. 0,5 mm²) bei M11 Verkabelung mitplanen.
+
+<a id="modul-13"></a>
+
+## M13 Kalibrierung
+
+Kalibrier-Referenzplatte mit Messing- und weißen Referenzstiften und Hamming-Markern; Maße aus der Software (cli.py, reference_board.py) und der Abbildung software/docu/images/calibration_plate.png.
+
+*Am 18.10.2026 angelegt; Fertigung in der eigenen Werkstatt.*
+
+| ID / Teil | CAD-Name | Stück | Status | Beschaffungsart |
+| --- | --- | --- | --- | --- |
+| [SYS-004](../Teileliste.md#sys-004) Kalibrier-Referenzplatte, Alu schwarz | nicht im CAD | 1 | Fertigung noch offen | Weitere Fertigung |
+| [SYS-005](../Teileliste.md#sys-005) Innere Messing-Referenzzylinder Ø7/8/9/10 | nicht im CAD | 4 | Fertigung spezifiziert | Weitere Fertigung |
+| [SYS-006](../Teileliste.md#sys-006) Kalibriermarker, in die Platte graviert | nicht im CAD | 1 | Fertigung spezifiziert | Weitere Fertigung |
+| [SYS-037](../Teileliste.md#sys-037) Weiße äußere Kalibrierreferenzen Ø10 | nicht im CAD | 4 | Fertigung spezifiziert | Weitere Fertigung |
+| [SYS-039](../Teileliste.md#sys-039) Erhöhte Messing-Referenzzylinder | nicht im CAD | 4 | Fertigung spezifiziert | Weitere Fertigung |
+| [SYS-040](../Teileliste.md#sys-040) Äußere flache Messing-Referenzzylinder Ø7 | nicht im CAD | 4 | Fertigung spezifiziert | Weitere Fertigung |
+
+**Zusätzlich nötig, nicht im CAD**
+
+| Teil | Stück | Bezug | Grund |
+| --- | --- | --- | --- |
+| Messing-Rundstab Ø7, Ø8, Ø9, Ø10 und weißer POM-Rundstab Ø10 | je ca. 100 mm | SYS-005/037/039/040 | Rohmaterial für die Werkstatt; noch kein Artikel ausgewählt. |
+| Alu-Platte ca. 140×120×(5,1 + Turmhöhe) mm | 1 | SYS-004 | Rohmaterial; Turmhöhe bis 12 mm über Oberfläche. |
+
+**Offene Fragen**
+
+- Plattengröße und Ø der weißen Referenzen sind aus der Abbildung geschätzt; vor der Fertigung Zeichnung erstellen.
+- Rohmaterial (Messing, POM, Alu) noch nicht ausgewählt.
 
 ## Abdeckung
 

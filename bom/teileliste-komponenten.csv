@@ -369,9 +369,9 @@ K13 z_slide_long:2,z_slide_long:2,"Z-Achse, lange Ausführung",probe_tip_with_an
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-001,TMC2130 SPI Treibermodule,,16,Stück,nein,Kaufteile,teilweise geklärt
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-002,Stationäre Übersichtskamera ELP-USBFHD01M-H100,,1,Stück,nein,Kaufteile,teilweise geklärt
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-003,"Signal-Multiplexer, unbestückte Leiterplatte",,1,Stück,nein,PCB extern,Fertigung noch offen
-K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-004,Kalibrier-Referenzkörper / Platte,,1,Stück,nein,3D-Druck intern,Fertigung noch offen
-K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-005,Innere Messing-Referenzzylinder,,4,Stück,nein,Weitere Fertigung,Fertigung noch offen
-K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-006,Kalibriermarker / matte Druckvorlage,,1,Satz,nein,Weitere Fertigung,Fertigung noch offen
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-004,"Kalibrier-Referenzplatte, Alu schwarz",,1,Stück,nein,Weitere Fertigung,Fertigung noch offen
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-005,Innere Messing-Referenzzylinder Ø7/8/9/10,,4,Stück,nein,Weitere Fertigung,Fertigung spezifiziert
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-006,"Kalibriermarker, in die Platte graviert",,1,Satz,nein,Weitere Fertigung,Fertigung spezifiziert
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-007,Weißer 24-V-LED-Streifen LUXULA LX700101,,1.9,m,nein,Kaufteile,bestellfähig
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-008,"LED-Aluprofile Barthelme BARdolino mit Diffusor, Kappen, Klammern",,1,Satz,nein,Kaufteile,bestellfähig
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-009,LED-Anschluss an den Heizbett-Ausgang der Licht-Steuerplatine,,1,Satz,nein,Kaufteile,teilweise geklärt
@@ -402,10 +402,10 @@ K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-033,Zusätzliche bewe
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-034,"Host-PC, Messgeräte und Werkzeuge",,1,Bestand,nein,Nicht benötigt,nicht benötigt
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-035,Z-Antriebsriemenscheibe / integrierter Adapter,,0,Stück,nein,Nicht benötigt,nicht benötigt
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-036,USB-/Versorgungsanschlüsse der Kalibrierung,,1,Prüfung,nein,Nicht benötigt,nicht benötigt
-K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-037,Weiße äußere Kalibrierreferenzen,,4,Stück,nein,Weitere Fertigung,Fertigung noch offen
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-037,Weiße äußere Kalibrierreferenzen Ø10,,4,Stück,nein,Weitere Fertigung,Fertigung spezifiziert
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-038,Kalibrier-Kontaktleitungen und gemeinsame Messreferenz,,1,Satz,nein,Kaufteile,teilweise geklärt
-K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-039,Erhöhte Messing-Referenzzylinder,,4,Stück,nein,Weitere Fertigung,Fertigung noch offen
-K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-040,Äußere flache Messing-Referenzzylinder,,4,Stück,nein,Weitere Fertigung,Fertigung noch offen
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-039,Erhöhte Messing-Referenzzylinder,,4,Stück,nein,Weitere Fertigung,Fertigung spezifiziert
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-040,Äußere flache Messing-Referenzzylinder Ø7,,4,Stück,nein,Weitere Fertigung,Fertigung spezifiziert
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-041,"Nutenstein I-Typ Nut 6, M6, Motorplatten",,8,Stück,nein,Kaufteile,bestellfähig
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-042,"Nutenstein I-Typ Nut 6, M4, Rückwand",,6,Stück,nein,Kaufteile,bestellfähig
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-043,"Zylinderschraube DIN 912 M4×10 A2, Rückwand",,6,Stück,nein,Kaufteile,bestellfähig
