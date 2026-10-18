@@ -52,6 +52,7 @@ SUPPLIER_URL = {
     'VOELKNER': 'https://www.voelkner.de/',
     'ELP': 'https://www.elpcctv.com/',
     'DOMOTICX': 'https://domoticx.net/',
+    'PLATTENZUSCHNITT24': 'https://www.plattenzuschnitt24.de/',
     'OFFEN': '',
 }
 
@@ -108,7 +109,7 @@ def ids(*numbers):
     return [f'CAD-{n:03}' for n in numbers]
 
 # Routing decisions. These are proposals unless the part's evidence says otherwise.
-SHEET = ids(3,16,17,18,19,7,8,26,96,97,99,100)
+SHEET = ids(3,16,17,18,19,26,96,97,99,100)
 CNC = []  # adapter plates moved to the workshop (decision 17.10.2026)
 WORKSHOP = ids(3,16,17,18,19,96,97,99,100)
 STOCK = ids(9,11,12,13,14,20,69,70,93,94,98,103,108)
@@ -222,6 +223,8 @@ SYSTEM = [
 ('056','Zylinderschraube DIN 912 M5×10 A2, Kabelhalter M5',6,'Stück','Kaufteile','SCHRAUBEN','Fusion: Kabelhalter 5,5 mm auf der Seitenplatte des X-Wagens (M5-Gewinde). Planmenge mit Reserve +10 %, mindestens +2.',CAD),
 ('057','Prüfstifte P75-E2 Kegelspitze (Spitzenauswahl)',10,'Stück','Kaufteile','DOMOTICX','Spitzenauswahl nach Wunsch Luis (17.10.2026): zusätzlich Kegelspitzen; 8 + Reserve.',CAD),
 ('058','Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl)',10,'Stück','Kaufteile','OFFEN','Wunsch Luis (17.10.2026). Flachspitzen-Code uneinheitlich (Peaktest: F flach, A konkav, D2 Kuppe); kein Lagerangebot gefunden, Spitzenzeichnung beim Händler anfordern.',CAD),
+('059','Zylinderschraube DIN 912 M5×10 A2, Abdeckungen',18,'Stück','Kaufteile','SCHRAUBEN','Abdeckungen aus Acrylglas: beim Aufbau anzeichnen und bohren, je Platte 4 Schrauben (Entscheidung Luis 18.10.2026). Unterlegscheiben für Acryl empfohlen.',CAD),
+('060','Nutenstein I-Typ Nut 6, M5, Abdeckungen',18,'Stück','Kaufteile','DOLD','Gegenstück zu SYS-059.',CAD),
 ]
 
 def make_parts():
@@ -254,6 +257,10 @@ def make_parts():
                 note = '5mm geometrische Dicke; Kontur und Bohrungen aus CAD, Gewinde/Senkungen und Bezugs-/Lagetoleranzen fehlen. Entgraten vor Montage.'
             if key in ids(119,120):
                 note = 'CAD .psm und dünner Körper sprechen für Blech; Dicke, Biegung und Sensor-Triggerwirkung nachweisen. Hüllmaß ist keine Abwicklung.'
+        if key in ids(7,8):
+            group, status, supplier = 'Kaufteile', 'bestellfähig', 'PLATTENZUSCHNITT24'
+            material='Acrylglas/PMMA XT 5 mm klar (Entscheidung Luis 18.10.2026)'
+            note='Fusion-Messung: Rechteckplatte '+('660×135,5' if key=='CAD-007' else '656×182,5')+'×5 mm ohne Bohrungen. Zuschnitt bei plattenzuschnitt24 (C10000-AC05); Befestigungslöcher beim Aufbau bohren (SYS-059/060).'
         if key=='CAD-024':
             group, status, supplier = '3D-Druck intern', 'Fertigung noch offen', 'RBS'
             material = 'PETG (Entscheidung Luis 17.10.2026); Original Blech 3 mm'
@@ -354,7 +361,7 @@ def make_parts():
         if group in ['PCB extern','3D-Druck intern','Weitere Fertigung']: status='Fertigung noch offen'
         if group=='Ungeklärte Teile': status='nicht identifiziert'
         if group=='Nicht benötigt': status='nicht benötigt'
-        if key in ('016','027','028','057','041','042','043','044','045','046','047','048','049','050','051','052','053','054','055','056'): status='bestellfähig'
+        if key in ('016','027','028','057','059','060','041','042','043','044','045','046','047','048','049','050','051','052','053','054','055','056'): status='bestellfähig'
         result.append(dict(id='SYS-'+key,name=title,cad_name='',cad_quantity='',fusion_quantity='',quantity=qty,
                            unit=unit,group=group,status=status,geometry_mm='',solid_volume_cm3='',
                            material='nicht belegt',process_evidence='Planungsbedarf; '+source,
@@ -437,7 +444,7 @@ def make_orders(parts):
     add('BUY-025','8 Anschlusssätze E2.10 breit',['SYS-028'],8,unit='Satz',offer='O-051')
     add('BUY-017','Z-Riemen 9 mm',ids(113),D('1.28'),unit='m',offer='O-044',note='Zuschnitt aus Fusion-Messung 4×0,32 m.')
     add('BUY-SYS-057','10 Prüfstifte P75-E2',['SYS-057'],10,offer=cad_offers['SYS-057'])
-    for key in ['SYS-0'+str(k) for k in range(41,57)]:
+    for key in ['SYS-0'+str(k) for k in list(range(41,57))+[59,60]]:
         add('BUY-'+key,byid[key]['name'],[key],byid[key]['quantity'],offer=cad_offers[key])
     add('MAT-007','Aluprofil 40x16S Nut 8, Zuschnitt',ids(103),1,unit='Los',offer=cad_offers['CAD-103'])
     add('MAT-008','Aluprofil 80x16S Nut 8, Zuschnitt, Kandidat',ids(9),1,unit='Los',offer=cad_offers['CAD-009'])
@@ -446,6 +453,7 @@ def make_orders(parts):
     add('BUY-SW','Netzschalter Ø19 ONPOW LAS1A',ids(86),1,offer=cad_offers['CAD-086'])
     add('BUY-CAB','24 Sensorleitungen ifm EVC141',['SYS-016'],24,offer=cad_offers['SYS-016'])
     add('BUY-PIN','Prüfstifte P75-B1 (CAD-Spitze)',ids(115),10,offer=cad_offers['CAD-115'])
+    add('MAT-010','Acrylglas-Abdeckungen, Zuschnitt-Los',ids(7,8),1,unit='Los',offer=cad_offers['CAD-007'],estimate='31',note='Schätzung ca. 74 EUR/m² × 0,418 m² (zwischen 4- und 6-mm-Preis); exakter Preis im Konfigurator.')
     for n in (51,52,59,81,84):
         p=byid[f'CAD-{n:03}']
         add(f'BUY-C{n:03}',p['name'],[p['id']],p['quantity'],offer=cad_offers[p['id']])

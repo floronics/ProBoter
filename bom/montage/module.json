@@ -1420,18 +1420,21 @@
         {
           "scope": "base:1",
           "cad_name": "base_cover_long_side"
-        }
-      ],
-      "zusatz": [
+        },
         {
-          "teil": "Befestigung der Abdeckungen",
-          "menge": "offen",
-          "bezug": "SYS-029",
-          "grund": "Im CAD keine eigenen Schrauben (2 Kettenhalter-Schrauben M6×20 berühren eine Seitenabdeckung)."
+          "scope": "system",
+          "sys": "SYS-059"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-060"
         }
       ],
+      "zusatz": [],
       "entfernt": [],
-      "offen": []
+      "offen": [
+        "Acrylglas-Preis nur im Konfigurator von plattenzuschnitt24 ablesbar (Schätzung 31 EUR)."
+      ]
     }
   ]
 }

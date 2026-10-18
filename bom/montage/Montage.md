@@ -13,7 +13,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 11 | 1 | 0 | 6 | 0 | 0 |
 | [M08 Optik](#modul-08) | 8 | 22 | 4 | 0 | 1 | 3 | 0 | 0 |
 | [M09 Prüfspitzen](#modul-09) | 7 | 48 | 2 | 4 | 1 | 0 | 0 | 0 |
-| [M10 Verkleidung](#modul-10) | 2 | 4 | 0 | 0 | 2 | 0 | 0 | 0 |
+| [M10 Verkleidung](#modul-10) | 4 | 40 | 4 | 0 | 0 | 0 | 0 | 0 |
 
 <a id="modul-01"></a>
 
@@ -417,14 +417,14 @@ Abdeckungen oben und seitlich; laut Luis keine tragende Funktion.
 
 | ID / Teil | CAD-Name | Stück | Status | Beschaffungsart |
 | --- | --- | --- | --- | --- |
-| [CAD-007](../Teileliste.md#cad-007) Grundgestell: Abdeckung lang Seite | `base_cover_long_side` | 2 | Fertigung noch offen | Blech intern |
-| [CAD-008](../Teileliste.md#cad-008) Grundgestell: Abdeckung oben | `base_cover_top` | 2 | Fertigung noch offen | Blech intern |
+| [CAD-007](../Teileliste.md#cad-007) Grundgestell: Abdeckung lang Seite | `base_cover_long_side` | 2 | bestellfähig | Kaufteile |
+| [CAD-008](../Teileliste.md#cad-008) Grundgestell: Abdeckung oben | `base_cover_top` | 2 | bestellfähig | Kaufteile |
+| [SYS-059](../Teileliste.md#sys-059) Zylinderschraube DIN 912 M5×10 A2, Abdeckungen | nicht im CAD | 18 | bestellfähig | Kaufteile |
+| [SYS-060](../Teileliste.md#sys-060) Nutenstein I-Typ Nut 6, M5, Abdeckungen | nicht im CAD | 18 | bestellfähig | Kaufteile |
 
-**Zusätzlich nötig, nicht im CAD**
+**Offene Fragen**
 
-| Teil | Stück | Bezug | Grund |
-| --- | --- | --- | --- |
-| Befestigung der Abdeckungen | offen | SYS-029 | Im CAD keine eigenen Schrauben (2 Kettenhalter-Schrauben M6×20 berühren eine Seitenabdeckung). |
+- Acrylglas-Preis nur im Konfigurator von plattenzuschnitt24 ablesbar (Schätzung 31 EUR).
 
 ## Abdeckung
 

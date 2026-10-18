@@ -25,7 +25,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [K11 z_slide:2](#komp-11) | Z-Achse | 11 | 15 |
 | [K12 z_slide_long:1](#komp-12) | Z-Achse, lange Ausführung | 11 | 15 |
 | [K13 z_slide_long:2](#komp-13) | Z-Achse, lange Ausführung | 11 | 15 |
-| [K14 Nicht im CAD-Modell](#komp-14) | Systemteile ohne CAD-Körper | 58 | – |
+| [K14 Nicht im CAD-Modell](#komp-14) | Systemteile ohne CAD-Körper | 60 | – |
 
 <a id="komp-01"></a>
 
@@ -36,8 +36,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [CAD-003](#cad-003) Grundgestell: Rückseite Platte | direkt | `base_back_plate` | 1 | Fertigung noch offen |
 | [CAD-004](#cad-004) Grundgestell: Kabel Halter M3 flach | direkt | `base_cable_holder_m3_flat` | 2 | Fertigung spezifiziert |
 | [CAD-005](#cad-005) Grundgestell: Kabel Halter M4 | direkt | `base_cable_holder_m4` | 1 | Fertigung spezifiziert |
-| [CAD-007](#cad-007) Grundgestell: Abdeckung lang Seite | direkt | `base_cover_long_side` | 2 | Fertigung noch offen |
-| [CAD-008](#cad-008) Grundgestell: Abdeckung oben | direkt | `base_cover_top` | 2 | Fertigung noch offen |
+| [CAD-007](#cad-007) Grundgestell: Abdeckung lang Seite | direkt | `base_cover_long_side` | 2 | bestellfähig |
+| [CAD-008](#cad-008) Grundgestell: Abdeckung oben | direkt | `base_cover_top` | 2 | bestellfähig |
 | [CAD-009](#cad-009) Grundgestell: Schlepp Energiekette Halter | direkt | `base_drag_chain_holder` | 4 | teilweise geklärt |
 | [CAD-010](#cad-010) Schubladen-Dummyplatte | direkt | `base_drawer_dummy_plate` | 1 | nicht identifiziert |
 | [CAD-011](#cad-011) Grundgestell: Schublade lang Seite | direkt | `base_drawer_long_side` | 2 | bestellfähig |
@@ -549,6 +549,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [SYS-056](#sys-056) Zylinderschraube DIN 912 M5×10 A2, Kabelhalter M5 | 6 Stück | Kaufteile | bestellfähig |
 | [SYS-057](#sys-057) Prüfstifte P75-E2 Kegelspitze (Spitzenauswahl) | 10 Stück | Kaufteile | bestellfähig |
 | [SYS-058](#sys-058) Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl) | 10 Stück | Kaufteile | teilweise geklärt |
+| [SYS-059](#sys-059) Zylinderschraube DIN 912 M5×10 A2, Abdeckungen | 18 Stück | Kaufteile | bestellfähig |
+| [SYS-060](#sys-060) Nutenstein I-Typ Nut 6, M5, Abdeckungen | 18 Stück | Kaufteile | bestellfähig |
 
 # Details nach Beschaffungsart
 
@@ -556,6 +558,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 
 | ID / Teil | CAD / Fusion / Plan | Status | Geometrie / Werkstoff | Quelle und konkreter Klärbedarf |
 | --- | --- | --- | --- | --- |
+| <a id="cad-007"></a>**CAD-007** Grundgestell: Abdeckung lang Seite<br>`base_cover_long_side` | 2 / 2 / **2 Stück** | bestellfähig | 660.0 x 5.0 x 135.5; Acrylglas/PMMA XT 5 mm klar (Entscheidung Luis 18.10.2026) | Fusion-Messung: Rechteckplatte 660×135,5×5 mm ohne Bohrungen. Zuschnitt bei plattenzuschnitt 24 (C10000-AC05); Befestigungslöcher beim Aufbau bohren (SYS-059/060).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-010` |
+| <a id="cad-008"></a>**CAD-008** Grundgestell: Abdeckung oben<br>`base_cover_top` | 2 / 2 / **2 Stück** | bestellfähig | 656.0 x 5.0 x 182.5; Acrylglas/PMMA XT 5 mm klar (Entscheidung Luis 18.10.2026) | Fusion-Messung: Rechteckplatte 656×182,5×5 mm ohne Bohrungen. Zuschnitt bei plattenzuschnitt 24 (C10000-AC05); Befestigungslöcher beim Aufbau bohren (SYS-059/060).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-010` |
 | <a id="cad-023"></a>**CAD-023** Steuerplatine, ERSATZ: BIGTREETECH SKR 1.4 Turbo statt SKR V1.3<br>`bigtreetech_skr_v1_3` | 4 / 4 / **4 Stück** | bestellfähig | 109.67 x 1.55 x 84.3; nicht belegt | ORIGINAL AUSGETAUSCHT (Entscheidung Luis 17.10.2026): SKR V1.3 neu nicht lieferbar. SKR 1.4 Turbo: 110×85 mm, Löcher 102×76 (V1.3: 101,85×76,10), LPC1769, 5 Treibersteckplätze mit SPI. Marlin muss auf BOARD_BTT_SKR_V1_4_TURBO umgestellt werden; Endstop-, Treiber-CS- und SPI-MOSI-Pins ändern sich.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-016` |
 | <a id="cad-027"></a>**CAD-027** CPC MR12ML Führungswagen<br>`cpc_MR12ML` | 8 / 8 / **8 Stück** | bestellfähig | 47.6 x 10.0 x 27.0; nicht belegt | 8 Wagen MR12MLSSV0N für 2×600-mm-Schienen. CPC-Katalog SS-Ausführung: L 47,6, Körperhöhe 10, Breite 27, Lochbild 20×20 M3 = CAD und Fusion-Messung. Lieferbarkeit bei Motedis prüfen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-018` |
 | <a id="cad-028"></a>**CAD-028** DIN 466 Rändelmutter hoch M4<br>`din_466_knurled_nut_high_m4` | 8 / 8 / **10 Stück** | bestellfähig | 16.0 x 16.0 x 9.5; Edelstahl A1; A2 in DIN 466 nicht gefunden | Norm und Maße mit CAD abgeglichen; Artikel OS-466-1-040. DIN 466 M4: dk 16, m 9,5 = CAD. Nur A1 statt A2 lieferbar. Planmenge = CAD-Menge +10 %, mindestens +2 (Entscheidung 17.10.2026).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `N-028` |
@@ -654,6 +658,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="sys-056"></a>**SYS-056** Zylinderschraube DIN 912 M5×10 A2, Kabelhalter M5 | – / – / **6 Stück** | bestellfähig | offen; nicht belegt | Fusion: Kabelhalter 5,5 mm auf der Seitenplatte des X-Wagens (M5-Gewinde). Planmenge mit Reserve +10 %, mindestens +2.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-056` |
 | <a id="sys-057"></a>**SYS-057** Prüfstifte P75-E2 Kegelspitze (Spitzenauswahl) | – / – / **10 Stück** | bestellfähig | offen; nicht belegt | Spitzenauswahl nach Wunsch Luis (17.10.2026): zusätzlich Kegelspitzen; 8 + Reserve.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-057` |
 | <a id="sys-058"></a>**SYS-058** Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl) | – / – / **10 Stück** | teilweise geklärt | offen; nicht belegt | Wunsch Luis (17.10.2026). Flachspitzen-Code uneinheitlich (Peaktest: F flach, A konkav, D2 Kuppe); kein Lagerangebot gefunden, Spitzenzeichnung beim Händler anfordern.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `OPEN-SYS-058` |
+| <a id="sys-059"></a>**SYS-059** Zylinderschraube DIN 912 M5×10 A2, Abdeckungen | – / – / **18 Stück** | bestellfähig | offen; nicht belegt | Abdeckungen aus Acrylglas: beim Aufbau anzeichnen und bohren, je Platte 4 Schrauben (Entscheidung Luis 18.10.2026). Unterlegscheiben für Acryl empfohlen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-059` |
+| <a id="sys-060"></a>**SYS-060** Nutenstein I-Typ Nut 6, M5, Abdeckungen | – / – / **18 Stück** | bestellfähig | offen; nicht belegt | Gegenstück zu SYS-059.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-060` |
 
 ## 3D-Druck intern
 
@@ -702,8 +708,6 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | ID / Teil | CAD / Fusion / Plan | Status | Geometrie / Werkstoff | Quelle und konkreter Klärbedarf |
 | --- | --- | --- | --- | --- |
 | <a id="cad-003"></a>**CAD-003** Grundgestell: Rückseite Platte<br>`base_back_plate` | 1 / 1 / **1 Stück** | Fertigung noch offen | 650.0 x 3.0 x 270.0; Aluminium 3 mm (Entscheidung 17.10.2026), z. B. EN AW-5754 | 650×270×3 mm, 54 Bohrungen Ø3,4, 10 Bohrungen Ø4,5, 1 Bohrung Ø8. 6 Ø4,5-Bohrungen sitzen auf den langen Profilen (M4 + Nutenstein, siehe M01). Zuschnitt und Bohrungen intern; Zeichnung aus CAD ableiten.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
-| <a id="cad-007"></a>**CAD-007** Grundgestell: Abdeckung lang Seite<br>`base_cover_long_side` | 2 / 2 / **2 Stück** | Fertigung noch offen | 660.0 x 5.0 x 135.5; Stahl S235 vorgeschlagen; Abdeckungen alternativ Alublech, nicht freigegeben | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
-| <a id="cad-008"></a>**CAD-008** Grundgestell: Abdeckung oben<br>`base_cover_top` | 2 / 2 / **2 Stück** | Fertigung noch offen | 656.0 x 5.0 x 182.5; Stahl S235 vorgeschlagen; Abdeckungen alternativ Alublech, nicht freigegeben | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
 | <a id="cad-016"></a>**CAD-016** Grundgestell: Platte Adapter 1<br>`base_plate_adapter_1` | 2 / 2 / **2 Stück** | Fertigung noch offen | 130.4 x 10.0 x 91.0; Stahl- oder Aluminiumblech, Werkstattentscheidung | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
 | <a id="cad-017"></a>**CAD-017** Grundgestell: Platte Adapter 2<br>`base_plate_adapter_2` | 2 / 2 / **2 Stück** | Fertigung noch offen | 130.5 x 10.0 x 91.0; Stahl- oder Aluminiumblech, Werkstattentscheidung | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |
 | <a id="cad-018"></a>**CAD-018** Grundgestell: Platte Adapter links<br>`base_plate_adapter_left` | 2 / 2 / **2 Stück** | Fertigung noch offen | 162.0 x 10.0 x 67.079; Stahl- oder Aluminiumblech, Werkstattentscheidung | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-006` |

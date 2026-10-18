@@ -2,8 +2,8 @@
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-003,Grundgestell: Rückseite Platte,base_back_plate,1,Stück,ja,Blech intern,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-004,Grundgestell: Kabel Halter M3 flach,base_cable_holder_m3_flat,2,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-005,Grundgestell: Kabel Halter M4,base_cable_holder_m4,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-007,Grundgestell: Abdeckung lang Seite,base_cover_long_side,2,Stück,ja,Blech intern,Fertigung noch offen
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-008,Grundgestell: Abdeckung oben,base_cover_top,2,Stück,ja,Blech intern,Fertigung noch offen
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-007,Grundgestell: Abdeckung lang Seite,base_cover_long_side,2,Stück,ja,Kaufteile,bestellfähig
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-008,Grundgestell: Abdeckung oben,base_cover_top,2,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-009,Grundgestell: Schlepp Energiekette Halter,base_drag_chain_holder,4,Stück,ja,Weitere Fertigung,teilweise geklärt
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-010,Schubladen-Dummyplatte,base_drawer_dummy_plate,1,Stück,ja,Ungeklärte Teile,nicht identifiziert
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-011,Grundgestell: Schublade lang Seite,base_drawer_long_side,2,Stück,ja,Weitere Fertigung,bestellfähig
@@ -424,3 +424,5 @@ K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-055,"Nutenstein I-Typ
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-056,"Zylinderschraube DIN 912 M5×10 A2, Kabelhalter M5",,6,Stück,nein,Kaufteile,bestellfähig
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-057,Prüfstifte P75-E2 Kegelspitze (Spitzenauswahl),,10,Stück,nein,Kaufteile,bestellfähig
 K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-058,Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl),,10,Stück,nein,Kaufteile,teilweise geklärt
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-059,"Zylinderschraube DIN 912 M5×10 A2, Abdeckungen",,18,Stück,nein,Kaufteile,bestellfähig
+K14 Nicht im CAD-Modell,,Systemteile ohne CAD-Körper,,SYS-060,"Nutenstein I-Typ Nut 6, M5, Abdeckungen",,18,Stück,nein,Kaufteile,bestellfähig

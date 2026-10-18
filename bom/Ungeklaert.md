@@ -13,8 +13,6 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | ID / Teil | Bedarf | Nächsterkonkreter Schritt |
 | --- | --- | --- |
 | CAD-003 Grundgestell: Rückseite Platte | 1 Stück | 650×270×3 mm, 54 Bohrungen Ø3,4, 10 Bohrungen Ø4,5, 1 Bohrung Ø8. 6 Ø4,5-Bohrungen sitzen auf den langen Profilen (M4 + Nutenstein, siehe M01). Zuschnitt und Bohrungen intern; Zeichnung aus CAD ableiten. |
-| CAD-007 Grundgestell: Abdeckung lang Seite | 2 Stück | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen. |
-| CAD-008 Grundgestell: Abdeckung oben | 2 Stück | Hüllmaß siehe Geometrie. Blechdicke, Bohrbild/Gewinde, Biegeradius, Abwicklung und Kantenbearbeitung noch als Zeichnung festlegen. |
 | CAD-016 Grundgestell: Platte Adapter 1 | 2 Stück | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten. |
 | CAD-017 Grundgestell: Platte Adapter 2 | 2 Stück | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten. |
 | CAD-018 Grundgestell: Platte Adapter links | 2 Stück | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten. |
