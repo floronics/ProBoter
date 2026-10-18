@@ -5,7 +5,7 @@ Generiert aus `bestellliste.csv` + `montage/` · 131 Positionen · sortiert nach
 | Modul | Modulname | ID | Beschreibung | Distributor | Artikel | Stückzahl | Brutto | Prüfung | Link |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | M01 | Grundgerüst | BUY-C052 | Gelenkfuß M6×20 / Teller Ø40 mm | DOLD | DOLD / GF-K-10-PA-028 | 4 Stück | 6,00 € | Rückfrage | [Link](https://www.dold-mechatronik.de/index.php?a=91508) |
-| M01, M05 | Grundgerüst | BUY-C081 | Anschraubwinkel 30 / Nut 6 | DOLD | DOLD / 62385-BS | 26 Stück | 68,90 € | Preis korrigieren | [Link](https://www.dold-mechatronik.de/Winkel-30-I-Typ-Nut-6-inkl-Befestigungssatz) |
+| M01, M05 | Grundgerüst | BUY-C081 | Anschraubwinkel 30 / Nut 6 | DOLD | DOLD / 62385-BS | 26 Stück | 58,24 € | geprüft | [Link](https://www.dold-mechatronik.de/Winkel-30-I-Typ-Nut-6-inkl-Befestigungssatz) |
 | M01 | Grundgerüst | BUY-SYS-042 | Nutenstein I-Typ Nut 6, M4, Rückwand | DOLD | DOLD / 62347-VK | 6 Stück → 1×10 | 4,80 € | geprüft | [Link](https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M4) |
 | M01 | Grundgerüst | BUY-SYS-043 | Zylinderschraube DIN 912 M4×10 A2, Rückwand | SCHRAUBEN | Schrauben.Expert / 912 4 10 A2 | 6 Stück → 1×10 | 3,30 € | geprüft | [Link](https://schrauben-expert.de/Zylinderschraube-DIN-912-M4-x-10-mm-Edelstahl-A2) |
 | M01, M05 | Grundgerüst | MAT-002 | 30×30 Nut 6 Aluprofil, Zuschnitt-Los | DOLD | DOLD / 63009-Z | 1 Los | 93,68 € | geprüft | [Link](https://www.dold-mechatronik.de/Aluminiumprofil-30x30L-I-Typ-Nut-6-leicht-094kg-m-Zuschnitt-50-6000mm) |

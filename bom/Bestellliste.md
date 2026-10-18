@@ -8,9 +8,9 @@
 
 | Ergebnis | netto | brutto 19% |
 | --- | --- | --- |
-| 1. Summe belegter Webpreise bei Planmengen (einschließlich ungeprüfter Kandidaten) | 3.139,40 € | 3.735,98 € |
+| 1. Summe belegter Webpreise bei Planmengen (einschließlich ungeprüfter Kandidaten) | 3.130,44 € | 3.725,32 € |
 | Zusätzliche eigene Budgetschätzungen inklusive Frachtreserve | 826,09 € | 983,03 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.965,49 € | 4.719,01 € |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.956,53 € | 4.708,35 € |
 | 3. 21 noch unbezifferte Bestellpositionen | offen | offen |
 
 **Das vorläufige Total ist kein vollständiger Baupreis.** Die unbezifferten Platinen, Prüfkontakte, Sensoren und Kalibrierteile kommen hinzu. Ein vorhan dener Shoppreis beweist keine Austauschbarkeit. [Kostenmethodik](Kosten.md) trennt Preise, Mengenannahmen und offene Bedarfe.
@@ -88,7 +88,7 @@ TMC2130, Rollen, Lager und Kamerakandidaten besitzen konkrete Bezugsquellen, ben
 | **BUY-C051** Schubladengriff DOLD A-75873, Lochabstand 100 mm<br>CAD-051 | 1 Stück → 1 × 1 | [DOLD](https://www.dold-mechatronik.de/Buegelgriff-100mm-mit-Befestigungsbohrungen) / A-75873<br>DOLD: A-75873<br>laut Recherche lieferbar | 8,15 € brutto | 6,85 € / 8,15 € | Lochabstand 100, Höhe 49, Durchgangsbohrung Ø5,4 = CAD (Ø5,5 durch, 29 mm); Länge 112 statt 113 mm.  |
 | **BUY-C052** Gelenkfuß M6×20 / Teller Ø40 mm<br>CAD-052 | 4 Stück → 4 × 1 | [DOLD](https://www.dold-mechatronik.de/index.php?a=91508) / GF-K-10-PA-028<br>DOLD: GF-K-10-PA-028<br>sofort verfügbar; 3–4 Werktage | 1,50 € brutto | 5,04 € / 6,00 € | M6 und Teller Ø40 = CAD; Gewindelänge 20 aus CAD-Höhe nicht belegt, Traglast nicht angegeben.  |
 | **BUY-C059** Mean Well MHS012 Montagewinkel<br>CAD-059 | 4 Stück → 4 × 1 | [REICHELT](https://www.reichelt.de/de/de/shop/produkt/befestigungswinkel_fuer_schaltnetzteile-188580) / MHS-012<br>Mean Well: MHS012<br>ab Lager; 1–2 Werktage | 0,30 € brutto | 1,01 € / 1,20 € | 15×16,2×19,5 laut Zeichnung (CAD 15×16×19,2); 4 je RSP-200.  |
-| **BUY-C081** Anschraubwinkel 30 / Nut 6<br>CAD-081 | 26 Stück → 26 × 1 | [DOLD](https://www.dold-mechatronik.de/Winkel-30-I-Typ-Nut-6-inkl-Befestigungssatz) / 62385-BS<br>DOLD: 62385-BS<br>sofort verfügbar | 2,65 € brutto | 57,90 € / 68,90 € | 28×28×28 = CAD; Satz mit 2 Schrauben M6×12 und 2 Nutensteinen M6.  |
+| **BUY-C081** Anschraubwinkel 30 / Nut 6<br>CAD-081 | 26 Stück → 26 × 1 | [DOLD](https://www.dold-mechatronik.de/Winkel-30-I-Typ-Nut-6-inkl-Befestigungssatz) / 62385-BS<br>DOLD: 62385-BS<br>sofort verfügbar; 3–4 Werktage | 2,24 € brutto | 48,94 € / 58,24 € | 28×28×28 = CAD; Satz mit 2 Schrauben DIN 7380 M6×12 10.9 verzinkt (so belassen, Luis 18.10.2026) und 2 Nutensteinen M6. Staffelpreis 2,24 EUR ab 10 Stück (Einzelpreis 2,65 EUR).  |
 | **BUY-C084** Teleskopschiene 350 mm, Vollauszug<br>CAD-084 | 2 Stück → 1 × 2 | [DOLD](https://www.dold-mechatronik.de/Vollauszug-45kg-350mm-(1-Paar-Teleskopschienen)) / HS-4613-350<br>DOLD: HS-4613-350<br>sofort verfügbar; 3–4 Werktage | 10,84 € brutto | 9,11 € / 10,84 € | 350×45,7×12,7 (CAD 45,5); die zwei CAD-Schienen sind ein Paar.  |
 | **N-028** DIN 466 Rändelmutter hoch M4<br>CAD-028 | 10 Stück → 1 × 10 | [EISEN2000](https://www.eisenwaren2000.de/?a=82262) / OS-466-1-040<br>nicht angegeben: 4662040<br>sofort verfügbar; 2–5 Werktage | 16,10 € brutto | 13,53 € / 16,10 € | DIN 466 M4: dk 16, m 9,5 = CAD. Nur A1 statt A2 lieferbar. Preisstaffel: Kaufmenge = günstigste Staffel ≥ Planmenge. Festigkeitsklasse A2-70 nicht ausgewiesen.  |
 | **N-029** DIN 562 M3 Vierkantmutter<br>CAD-029 | 10 Stück → 1 × 25 | [EISEN2000](https://www.eisenwaren2000.de/?a=82353) / OS-562-2-0030<br>Schäfer+Peters (Händlerangabe): 56223<br>sofort verfügbar; 2–5 Werktage | 6,00 € brutto | 5,04 € / 6,00 € | DIN 562 M3: s 5,5, m 1,8 = CAD. Preisstaffel: Kaufmenge = günstigste Staffel ≥ Planmenge. Festigkeitsklasse A2-70 nicht ausgewiesen.  |

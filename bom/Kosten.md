@@ -10,11 +10,11 @@ im Shop bestätigen. Kein Warenkorb wurde bestellt.
 
 | Umfang | netto | brutto |
 | --- | --- | --- |
-| 1. Beobachtete Webpreise × geplante Bestellpackungen | 3.139,40 € | 3.735,98 € |
-| Davon Positionen mit Status bestellfähig | 2.867,41 € | 3.412,32 € |
+| 1. Beobachtete Webpreise × geplante Bestellpackungen | 3.130,44 € | 3.725,32 € |
+| Davon Positionen mit Status bestellfähig | 2.858,45 € | 3.401,66 € |
 | Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 271,99 € | 323,66 € |
 | Eigene Budgetschätzungen zusätzlich | 826,09 € | 983,03 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.965,49 € | 4.719,01 € |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.956,53 € | 4.708,35 € |
 | 3. Noch unbezifferte Positionen: 21 | nicht berechenbar | nicht berechenbar |
 
 **Der Gesamtpreis eines funktionierenden Nachbaus bleibt offen.** Die Summe unter 2
@@ -64,7 +64,7 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | BEFFUCHS | 9,41 € | 5,95 € | 15,36 € |
 | DAMEN | 370,09 € | 0,00 € | 370,09 € |
 | DIGIKEY | 175,55 € | 0,00 € | 175,55 € |
-| DOLD | 647,65 € | 335,00 € | 982,65 € |
+| DOLD | 636,99 € | 335,00 € | 971,99 € |
 | DOMOTICX | 3,60 € | 0,00 € | 3,60 € |
 | EISEN2000 | 113,65 € | 0,00 € | 113,65 € |
 | ELCO | 298,17 € | 0,00 € | 298,17 € |
