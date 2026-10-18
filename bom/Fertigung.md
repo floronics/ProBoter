@@ -121,7 +121,7 @@ Angebotspaket: separate STEP-Datei jeCAD-ID,2D-PDF mit Datumsstand/Revision, Mat
 
 | ID / Teil | Planmenge | CAD-Hülle mm / Volumen je Teil | Verfahren / Werkstoffbeleg | Offen |
 | --- | --- | --- | --- | --- |
-| CAD-075 Prüfspitzen-PCB, unbestückt | 4 Stück | 26.67 x 10.96 x 1.6 / 0.272651 cm³ | PCB erforderlich; Fertigungsdaten fehlen; FR4 1,6 mm vorgeschlagen; Dicke geometrisch belegt | 4 Stück; CAD nur Quader 26,67×10,96×1,6 mm ohne Daten. Entscheidung Luis 17.10.2026: Originaldaten bei SCHUTZWERK anfragen (noch nicht angefragt). |
+| CAD-075 Prüfspitzen-PCB, unbestückt | 4 Stück | 26.67 x 10.96 x 1.6 / 0.272651 cm³ | PCB erforderlich; Fertigungsdaten fehlen; FR4 1,6 mm vorgeschlagen; Dicke geometrisch belegt | 4 Stück; CAD nur Quader 26,67×10,96×1,6 mm ohne Daten. Entscheidung Luis 17.10.2026: Originaldaten bei SCHUTZWERK angefragt (Anfrage durch Luis versendet, Antwort offen). |
 | SYS-003 Signal-Multiplexer, unbestückte Leiterplatte | 1 Stück | offen / offen | Planungsbedarf; ../software/hardware-control/proboter/cli.py; nicht belegt | CAD-082 ist nur Platzhalter. Schaltplan/Gerber/Board-BOM fehlen; USB/9600Baud-Protokoll ist keine Schaltung. |
 | SYS-019 Sensor-Pegelanpassung / Eingangsschutz | 24 Kanäle | offen / offen | Planungsbedarf; ../firmware/Marlin/Configuration.h; nicht belegt | Bedarf abhängig von M8-Ausgang; 24 V/3,3 V-Interface. Keine Schaltung/BOM vorhan den; nicht blind 24Module bestellen. |
 | SYS-023 Signal-Multiplexer Bestückung | 1 Baugruppe | offen / offen | Planungsbedarf; ../software/hardware-control/proboter/cli.py; nicht belegt | MCU, USB/Versorgung, Schalter/Relais, Schutz, Stecker, Passives und Montage nach noch fehlendem Schaltplan. Keine Stückzahlen erfinden. |

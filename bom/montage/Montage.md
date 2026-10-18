@@ -402,7 +402,7 @@ Die 4 Prüfspitzen an den Z-Schlitten: Platine, Federkontakt, Kontakthülse und 
 
 **Offene Fragen**
 
-- Prüfspitzen-Platine CAD-075: Originaldaten bei SCHUTZWERK anfragen (Entscheidung Luis 17.10.2026; noch nicht angefragt).
+- Prüfspitzen-Platine CAD-075: Anfrage bei SCHUTZWERK ist raus (Luis), Antwort offen.
 - Aufnahmehülse R75 mit Drahtende: Bezugsquelle mit Preis fehlt.
 - Flachspitze P75: Code und Bezugsquelle fehlen; Spitzenzeichnung beim Händler anfordern.
 - MMCX-RG316: Kabellänge (1–1,5 m) und Gegenseite am Messgerät festlegen.
