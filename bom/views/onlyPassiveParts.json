@@ -1,0 +1,3302 @@
+{
+ "view": "onlyPassiveParts",
+ "document": "proboter",
+ "occurrences": [
+  {
+   "path": "base:1+base_back_plate:1",
+   "cad_name": "base_back_plate"
+  },
+  {
+   "path": "base:1+base_cable_holder_m3_flat:1",
+   "cad_name": "base_cable_holder_m3_flat"
+  },
+  {
+   "path": "base:1+base_cable_holder_m3_flat:2",
+   "cad_name": "base_cable_holder_m3_flat"
+  },
+  {
+   "path": "base:1+base_cable_holder_m4:1",
+   "cad_name": "base_cable_holder_m4"
+  },
+  {
+   "path": "base:1+base_cover_long_side:1",
+   "cad_name": "base_cover_long_side"
+  },
+  {
+   "path": "base:1+base_cover_long_side:2",
+   "cad_name": "base_cover_long_side"
+  },
+  {
+   "path": "base:1+base_cover_top:1",
+   "cad_name": "base_cover_top"
+  },
+  {
+   "path": "base:1+base_cover_top:2",
+   "cad_name": "base_cover_top"
+  },
+  {
+   "path": "base:1+base_drag_chain_holder:1",
+   "cad_name": "base_drag_chain_holder"
+  },
+  {
+   "path": "base:1+base_drag_chain_holder:2",
+   "cad_name": "base_drag_chain_holder"
+  },
+  {
+   "path": "base:1+base_drag_chain_holder:3",
+   "cad_name": "base_drag_chain_holder"
+  },
+  {
+   "path": "base:1+base_drag_chain_holder:4",
+   "cad_name": "base_drag_chain_holder"
+  },
+  {
+   "path": "base:1+base_drawer_dummy_plate:1",
+   "cad_name": "base_drawer_dummy_plate"
+  },
+  {
+   "path": "base:1+base_drawer_long_side:1",
+   "cad_name": "base_drawer_long_side"
+  },
+  {
+   "path": "base:1+base_drawer_long_side:2",
+   "cad_name": "base_drawer_long_side"
+  },
+  {
+   "path": "base:1+base_frame_long_side:1",
+   "cad_name": "base_frame_long_side"
+  },
+  {
+   "path": "base:1+base_frame_long_side:2",
+   "cad_name": "base_frame_long_side"
+  },
+  {
+   "path": "base:1+base_frame_long_side:3",
+   "cad_name": "base_frame_long_side"
+  },
+  {
+   "path": "base:1+base_frame_short:1",
+   "cad_name": "base_frame_short"
+  },
+  {
+   "path": "base:1+base_frame_short:2",
+   "cad_name": "base_frame_short"
+  },
+  {
+   "path": "base:1+base_frame_short:3",
+   "cad_name": "base_frame_short"
+  },
+  {
+   "path": "base:1+base_frame_short:4",
+   "cad_name": "base_frame_short"
+  },
+  {
+   "path": "base:1+base_frame_short:5",
+   "cad_name": "base_frame_short"
+  },
+  {
+   "path": "base:1+base_frame_short:6",
+   "cad_name": "base_frame_short"
+  },
+  {
+   "path": "base:1+base_frame_short:7",
+   "cad_name": "base_frame_short"
+  },
+  {
+   "path": "base:1+base_frame_short:8",
+   "cad_name": "base_frame_short"
+  },
+  {
+   "path": "base:1+base_frame_side:1",
+   "cad_name": "base_frame_side"
+  },
+  {
+   "path": "base:1+base_frame_side:2",
+   "cad_name": "base_frame_side"
+  },
+  {
+   "path": "base:1+base_plate_adapter:1+base_plate_adapter_1:1",
+   "cad_name": "base_plate_adapter_1"
+  },
+  {
+   "path": "base:1+base_plate_adapter:1+base_plate_adapter_2:1",
+   "cad_name": "base_plate_adapter_2"
+  },
+  {
+   "path": "base:1+base_plate_adapter:2+base_plate_adapter_1:1",
+   "cad_name": "base_plate_adapter_1"
+  },
+  {
+   "path": "base:1+base_plate_adapter:2+base_plate_adapter_2:1",
+   "cad_name": "base_plate_adapter_2"
+  },
+  {
+   "path": "base:1+base_plate_adapter_left:1",
+   "cad_name": "base_plate_adapter_left"
+  },
+  {
+   "path": "base:1+base_plate_adapter_left:2",
+   "cad_name": "base_plate_adapter_left"
+  },
+  {
+   "path": "base:1+base_plate_adapter_right:1",
+   "cad_name": "base_plate_adapter_right"
+  },
+  {
+   "path": "base:1+base_plate_adapter_right:2",
+   "cad_name": "base_plate_adapter_right"
+  },
+  {
+   "path": "base:1+base_vertical:1",
+   "cad_name": "base_vertical"
+  },
+  {
+   "path": "base:1+base_vertical:2",
+   "cad_name": "base_vertical"
+  },
+  {
+   "path": "base:1+base_vertical:3",
+   "cad_name": "base_vertical"
+  },
+  {
+   "path": "base:1+base_vertical:4",
+   "cad_name": "base_vertical"
+  },
+  {
+   "path": "base:1+cable_cover:1",
+   "cad_name": "cable_cover"
+  },
+  {
+   "path": "base:1+cable_cover:2",
+   "cad_name": "cable_cover"
+  },
+  {
+   "path": "base:1+cable_cover:3",
+   "cad_name": "cable_cover"
+  },
+  {
+   "path": "base:1+cable_cover:4",
+   "cad_name": "cable_cover"
+  },
+  {
+   "path": "base:1+camera_holder (1):1+camera_holder:1",
+   "cad_name": "camera_holder"
+  },
+  {
+   "path": "base:1+camera_holder (1):1+camera_holder_top:1",
+   "cad_name": "camera_holder_top"
+  },
+  {
+   "path": "base:1+din_7991_m6x14:1",
+   "cad_name": "din_7991_m6x14"
+  },
+  {
+   "path": "base:1+din_7991_m6x14:2",
+   "cad_name": "din_7991_m6x14"
+  },
+  {
+   "path": "base:1+din_7991_m6x14:3",
+   "cad_name": "din_7991_m6x14"
+  },
+  {
+   "path": "base:1+din_7991_m6x14:4",
+   "cad_name": "din_7991_m6x14"
+  },
+  {
+   "path": "base:1+din_7991_m6x14:5",
+   "cad_name": "din_7991_m6x14"
+  },
+  {
+   "path": "base:1+din_7991_m6x14:6",
+   "cad_name": "din_7991_m6x14"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:1",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:10",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:11",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:12",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:13",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:14",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:15",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:16",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:17",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:18",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:19",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:2",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:20",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:21",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:22",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:3",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:4",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:5",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:6",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:7",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:8",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+din_7991_m6x20:9",
+   "cad_name": "din_7991_m6x20"
+  },
+  {
+   "path": "base:1+handle_l100_dold:1",
+   "cad_name": "handle_l100_dold"
+  },
+  {
+   "path": "base:1+hinged_M6_40_dold:1",
+   "cad_name": "hinged_M6_40_dold"
+  },
+  {
+   "path": "base:1+hinged_M6_40_dold:2",
+   "cad_name": "hinged_M6_40_dold"
+  },
+  {
+   "path": "base:1+hinged_M6_40_dold:3",
+   "cad_name": "hinged_M6_40_dold"
+  },
+  {
+   "path": "base:1+hinged_M6_40_dold:4",
+   "cad_name": "hinged_M6_40_dold"
+  },
+  {
+   "path": "base:1+mean_well_MHS-012_mounting_bracket:1",
+   "cad_name": "mean_well_MHS-012_mounting_bracket"
+  },
+  {
+   "path": "base:1+mean_well_MHS-012_mounting_bracket:2",
+   "cad_name": "mean_well_MHS-012_mounting_bracket"
+  },
+  {
+   "path": "base:1+mean_well_MHS-012_mounting_bracket:3",
+   "cad_name": "mean_well_MHS-012_mounting_bracket"
+  },
+  {
+   "path": "base:1+mean_well_MHS-012_mounting_bracket:4",
+   "cad_name": "mean_well_MHS-012_mounting_bracket"
+  },
+  {
+   "path": "base:1+pcb_holder:1+din_466_knurled_nut_high_m4:1",
+   "cad_name": "din_466_knurled_nut_high_m4"
+  },
+  {
+   "path": "base:1+pcb_holder:1+din_466_knurled_nut_high_m4:2",
+   "cad_name": "din_466_knurled_nut_high_m4"
+  },
+  {
+   "path": "base:1+pcb_holder:1+din_466_knurled_nut_high_m4:3",
+   "cad_name": "din_466_knurled_nut_high_m4"
+  },
+  {
+   "path": "base:1+pcb_holder:1+din_466_knurled_nut_high_m4:4",
+   "cad_name": "din_466_knurled_nut_high_m4"
+  },
+  {
+   "path": "base:1+pcb_holder:1+din_466_knurled_nut_high_m4:5",
+   "cad_name": "din_466_knurled_nut_high_m4"
+  },
+  {
+   "path": "base:1+pcb_holder:1+din_466_knurled_nut_high_m4:6",
+   "cad_name": "din_466_knurled_nut_high_m4"
+  },
+  {
+   "path": "base:1+pcb_holder:1+din_466_knurled_nut_high_m4:7",
+   "cad_name": "din_466_knurled_nut_high_m4"
+  },
+  {
+   "path": "base:1+pcb_holder:1+din_466_knurled_nut_high_m4:8",
+   "cad_name": "din_466_knurled_nut_high_m4"
+  },
+  {
+   "path": "base:1+pcb_holder:1+din_912_m4x10:1",
+   "cad_name": "din_912_m4x10"
+  },
+  {
+   "path": "base:1+pcb_holder:1+din_933_m4x20:1",
+   "cad_name": "din_933_m4x20"
+  },
+  {
+   "path": "base:1+pcb_holder:1+din_933_m4x20:2",
+   "cad_name": "din_933_m4x20"
+  },
+  {
+   "path": "base:1+pcb_holder:1+din_933_m4x20:3",
+   "cad_name": "din_933_m4x20"
+  },
+  {
+   "path": "base:1+pcb_holder:1+din_933_m4x20:4",
+   "cad_name": "din_933_m4x20"
+  },
+  {
+   "path": "base:1+pcb_holder:1+din_933_m4x20:5",
+   "cad_name": "din_933_m4x20"
+  },
+  {
+   "path": "base:1+pcb_holder:1+din_933_m4x20:6",
+   "cad_name": "din_933_m4x20"
+  },
+  {
+   "path": "base:1+pcb_holder:1+din_933_m4x20:7",
+   "cad_name": "din_933_m4x20"
+  },
+  {
+   "path": "base:1+pcb_holder:1+din_933_m4x20:8",
+   "cad_name": "din_933_m4x20"
+  },
+  {
+   "path": "base:1+pcb_holder:1+pcb_holder_glider:1",
+   "cad_name": "pcb_holder_glider"
+  },
+  {
+   "path": "base:1+pcb_holder:1+pcb_holder_glider:2",
+   "cad_name": "pcb_holder_glider"
+  },
+  {
+   "path": "base:1+pcb_holder:1+pcb_holder_glider:3",
+   "cad_name": "pcb_holder_glider"
+  },
+  {
+   "path": "base:1+pcb_holder:1+pcb_holder_glider:4",
+   "cad_name": "pcb_holder_glider"
+  },
+  {
+   "path": "base:1+pcb_holder:1+pcb_holder_guiding_holder_round_d10:1",
+   "cad_name": "pcb_holder_guiding_holder_round_d10"
+  },
+  {
+   "path": "base:1+pcb_holder:1+pcb_holder_guiding_holder_round_d10:2",
+   "cad_name": "pcb_holder_guiding_holder_round_d10"
+  },
+  {
+   "path": "base:1+pcb_holder:1+pcb_holder_guiding_holder_round_d10:3",
+   "cad_name": "pcb_holder_guiding_holder_round_d10"
+  },
+  {
+   "path": "base:1+pcb_holder:1+pcb_holder_guiding_holder_round_d10:4",
+   "cad_name": "pcb_holder_guiding_holder_round_d10"
+  },
+  {
+   "path": "base:1+pcb_holder:1+pcb_holder_guiding_round:1",
+   "cad_name": "pcb_holder_guiding_round"
+  },
+  {
+   "path": "base:1+pcb_holder:1+pcb_holder_guiding_round:2",
+   "cad_name": "pcb_holder_guiding_round"
+  },
+  {
+   "path": "base:1+pcb_holder:1+pcb_holder_rect_rod:1",
+   "cad_name": "pcb_holder_rect_rod"
+  },
+  {
+   "path": "base:1+pcb_holder:1+pcb_holder_rect_rod:2",
+   "cad_name": "pcb_holder_rect_rod"
+  },
+  {
+   "path": "base:1+pcb_holder:1+pcb_holder_rod_short_round_d10:1",
+   "cad_name": "pcb_holder_rod_short_round_d10"
+  },
+  {
+   "path": "base:1+pcb_holder:1+pcb_holder_rod_short_round_d10:2",
+   "cad_name": "pcb_holder_rod_short_round_d10"
+  },
+  {
+   "path": "base:1+pcb_holder:1+pcb_holder_rod_short_round_d10_mirrored:1",
+   "cad_name": "pcb_holder_rod_short_round_d10_mirrored"
+  },
+  {
+   "path": "base:1+pcb_holder:1+pcb_holder_rod_short_round_d10_mirrored:2",
+   "cad_name": "pcb_holder_rod_short_round_d10_mirrored"
+  },
+  {
+   "path": "base:1+power_switch_holder:1",
+   "cad_name": "power_switch_holder"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:1",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:10",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:11",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:12",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:13",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:14",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:15",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:16",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:17",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:18",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:19",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:2",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:20",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:21",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:22",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:23",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:24",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:25",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:26",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:3",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:4",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:5",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:6",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:7",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:8",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+screw_on_bracket_30_6:9",
+   "cad_name": "screw_on_bracket_30_6"
+  },
+  {
+   "path": "base:1+signal_multiplexer_holder:1",
+   "cad_name": "signal_multiplexer_holder"
+  },
+  {
+   "path": "base:1+telescopic_bar_tsaa514613-350:1",
+   "cad_name": "telescopic_bar_tsaa514613-350"
+  },
+  {
+   "path": "base:1+telescopic_bar_tsaa514613-350:2",
+   "cad_name": "telescopic_bar_tsaa514613-350"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+base_nema_14_to_17_adapter:1",
+   "cad_name": "base_nema_14_to_17_adapter"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:1+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:1+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:1+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:1+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:1+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:1+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:1+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:1+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:1+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:1+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:1+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:2+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:2+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:2+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:2+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:2+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:2+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:2+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:2+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:2+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:2+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+belt_tightener_GT2:2+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+din_912_m3x18:1",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+din_912_m3x18:2",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+din_912_m3x18:3",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+din_912_m3x18:4",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+pulley_gt2_z16_6mm:1",
+   "cad_name": "pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:1+x_belt:1",
+   "cad_name": "x_belt"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+base_nema_14_to_17_adapter:1",
+   "cad_name": "base_nema_14_to_17_adapter"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:1+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:1+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:1+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:1+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:1+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:1+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:1+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:1+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:1+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:1+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:1+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:2+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:2+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:2+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:2+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:2+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:2+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:2+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:2+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:2+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:2+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+belt_tightener_GT2:2+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+din_912_m3x18:1",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+din_912_m3x18:2",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+din_912_m3x18:3",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+din_912_m3x18:4",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+pulley_gt2_z16_6mm:1",
+   "cad_name": "pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:2+x_belt:1",
+   "cad_name": "x_belt"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+base_nema_14_to_17_adapter:1",
+   "cad_name": "base_nema_14_to_17_adapter"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:1+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:1+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:1+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:1+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:1+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:1+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:1+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:1+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:1+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:1+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:1+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:2+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:2+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:2+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:2+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:2+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:2+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:2+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:2+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:2+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:2+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+belt_tightener_GT2:2+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+din_912_m3x18:1",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+din_912_m3x18:2",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+din_912_m3x18:3",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+din_912_m3x18:4",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+pulley_gt2_z16_6mm:1",
+   "cad_name": "pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:3+x_belt:1",
+   "cad_name": "x_belt"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+base_nema_14_to_17_adapter:1",
+   "cad_name": "base_nema_14_to_17_adapter"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:1+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:1+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:1+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:1+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:1+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:1+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:1+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:1+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:1+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:1+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:1+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:2+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:2+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:2+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:2+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:2+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:2+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:2+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:2+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:2+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:2+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+belt_tightener_GT2:2+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+din_912_m3x18:1",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+din_912_m3x18:2",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+din_912_m3x18:3",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+din_912_m3x18:4",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+pulley_gt2_z16_6mm:1",
+   "cad_name": "pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:4+x_belt:1",
+   "cad_name": "x_belt"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+base_nema_14_to_17_adapter:1",
+   "cad_name": "base_nema_14_to_17_adapter"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:1+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:1+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:1+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:1+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:1+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:1+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:1+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:1+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:1+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:1+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:1+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:2+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:2+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:2+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:2+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:2+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:2+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:2+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:2+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:2+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:2+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+belt_tightener_GT2:2+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+din_912_m3x18:1",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+din_912_m3x18:2",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+din_912_m3x18:3",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+din_912_m3x18:4",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+pulley_gt2_z16_6mm:1",
+   "cad_name": "pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:5+x_belt:1",
+   "cad_name": "x_belt"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+base_nema_14_to_17_adapter:1",
+   "cad_name": "base_nema_14_to_17_adapter"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:1+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:1+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:1+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:1+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:1+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:1+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:1+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:1+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:1+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:1+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:1+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:2+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:2+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:2+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:2+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:2+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:2+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:2+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:2+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:2+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:2+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+belt_tightener_GT2:2+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+din_912_m3x18:1",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+din_912_m3x18:2",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+din_912_m3x18:3",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+din_912_m3x18:4",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+pulley_gt2_z16_6mm:1",
+   "cad_name": "pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:6+x_belt:1",
+   "cad_name": "x_belt"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+base_nema_14_to_17_adapter:1",
+   "cad_name": "base_nema_14_to_17_adapter"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:1+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:1+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:1+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:1+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:1+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:1+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:1+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:1+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:1+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:1+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:1+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:2+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:2+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:2+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:2+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:2+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:2+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:2+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:2+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:2+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:2+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+belt_tightener_GT2:2+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+din_912_m3x18:1",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+din_912_m3x18:2",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+din_912_m3x18:3",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+din_912_m3x18:4",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+pulley_gt2_z16_6mm:1",
+   "cad_name": "pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:7+x_belt:1",
+   "cad_name": "x_belt"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+base_nema_14_to_17_adapter:1",
+   "cad_name": "base_nema_14_to_17_adapter"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:1+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:1+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:1+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:1+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:1+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:1+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:1+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:1+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:1+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:1+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:1+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:2+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:2+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:2+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:2+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:2+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:2+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:2+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:2+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:2+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:2+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+belt_tightener_GT2:2+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+din_912_m3x18:1",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+din_912_m3x18:2",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+din_912_m3x18:3",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+din_912_m3x18:4",
+   "cad_name": "din_912_m3x18"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+pulley_gt2_z16_6mm:1",
+   "cad_name": "pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "base:1+x_belt_drive:8+x_belt:1",
+   "cad_name": "x_belt"
+  },
+  {
+   "path": "base:1+x_guiding_cpc_MR12M:1",
+   "cad_name": "x_guiding_cpc_MR12M"
+  },
+  {
+   "path": "base:1+x_guiding_cpc_MR12M:2",
+   "cad_name": "x_guiding_cpc_MR12M"
+  },
+  {
+   "path": "base:1+x_motor_plate:1",
+   "cad_name": "x_motor_plate"
+  },
+  {
+   "path": "base:1+x_motor_plate_2:1",
+   "cad_name": "x_motor_plate_2"
+  },
+  {
+   "path": "x_slide:1+base_cable_holder_m5_flat:1",
+   "cad_name": "base_cable_holder_m5_flat"
+  },
+  {
+   "path": "x_slide:1+cpc_MR12ML:1",
+   "cad_name": "cpc_MR12ML"
+  },
+  {
+   "path": "x_slide:1+cpc_MR12ML:2",
+   "cad_name": "cpc_MR12ML"
+  },
+  {
+   "path": "x_slide:1+din_7991_m3x8:1",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:1+din_7991_m3x8:2",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:1+din_7991_m3x8:3",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:1+din_7991_m3x8:4",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:1+din_7991_m3x8:5",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:1+din_7991_m3x8:6",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:1+din_7991_m3x8:7",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:1+din_7991_m3x8:8",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:1+din_7991_m6x12:1",
+   "cad_name": "din_7991_m6x12"
+  },
+  {
+   "path": "x_slide:1+din_7991_m6x12:2",
+   "cad_name": "din_7991_m6x12"
+  },
+  {
+   "path": "x_slide:1+din_7991_m6x12:3",
+   "cad_name": "din_7991_m6x12"
+  },
+  {
+   "path": "x_slide:1+din_7991_m6x12:4",
+   "cad_name": "din_7991_m6x12"
+  },
+  {
+   "path": "x_slide:1+din_912_m3x10:12",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:1+din_912_m3x10:13",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:1+din_912_m3x10:14",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:1+din_912_m3x10:15",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:1+din_912_m5x10:1",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:1+din_912_m5x10:2",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:1+din_912_m5x10:3",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:1+din_912_m5x10:4",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:1+din_912_m5x10:5",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:1+din_912_m5x10:6",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:1+din_912_m5x10:7",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:1+din_912_m5x10:8",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:1+din_912_m5x14:1",
+   "cad_name": "din_912_m5x14"
+  },
+  {
+   "path": "x_slide:1+iso_8673_nut_m8:10",
+   "cad_name": "iso_8673_nut_m8"
+  },
+  {
+   "path": "x_slide:1+iso_8673_nut_m8:15",
+   "cad_name": "iso_8673_nut_m8"
+  },
+  {
+   "path": "x_slide:1+rod_holder_flange_d10_dold:1",
+   "cad_name": "rod_holder_flange_d10_dold"
+  },
+  {
+   "path": "x_slide:1+rod_holder_flange_d10_dold:2",
+   "cad_name": "rod_holder_flange_d10_dold"
+  },
+  {
+   "path": "x_slide:1+rod_holder_flange_d10_dold:3",
+   "cad_name": "rod_holder_flange_d10_dold"
+  },
+  {
+   "path": "x_slide:1+rod_holder_flange_d10_dold:4",
+   "cad_name": "rod_holder_flange_d10_dold"
+  },
+  {
+   "path": "x_slide:1+x_belt_holder:1",
+   "cad_name": "x_belt_holder"
+  },
+  {
+   "path": "x_slide:1+x_belt_holder_1:1",
+   "cad_name": "x_belt_holder_1"
+  },
+  {
+   "path": "x_slide:1+x_belt_holder_1:2",
+   "cad_name": "x_belt_holder_1"
+  },
+  {
+   "path": "x_slide:1+x_belt_holder_1:3",
+   "cad_name": "x_belt_holder_1"
+  },
+  {
+   "path": "x_slide:1+x_drag_chain_adapter:1",
+   "cad_name": "x_drag_chain_adapter"
+  },
+  {
+   "path": "x_slide:1+x_drag_chain_adapter:2",
+   "cad_name": "x_drag_chain_adapter"
+  },
+  {
+   "path": "x_slide:1+x_end_stop_holder_side_short:1",
+   "cad_name": "x_end_stop_holder_side_short"
+  },
+  {
+   "path": "x_slide:1+x_end_stop_holder_top_long:1",
+   "cad_name": "x_end_stop_holder_top_long"
+  },
+  {
+   "path": "x_slide:1+x_end_stop_top_long:1",
+   "cad_name": "x_end_stop_top_long"
+  },
+  {
+   "path": "x_slide:1+x_end_stop_top_short:1",
+   "cad_name": "x_end_stop_top_short"
+  },
+  {
+   "path": "x_slide:1+x_round_rail:1",
+   "cad_name": "x_round_rail"
+  },
+  {
+   "path": "x_slide:1+x_round_rail:2",
+   "cad_name": "x_round_rail"
+  },
+  {
+   "path": "x_slide:1+x_side_plate:1",
+   "cad_name": "x_side_plate"
+  },
+  {
+   "path": "x_slide:1+x_side_plate_moving:1",
+   "cad_name": "x_side_plate_moving"
+  },
+  {
+   "path": "x_slide:1+x_slide_inductive_endstop_adapter:1",
+   "cad_name": "x_slide_inductive_endstop_adapter"
+  },
+  {
+   "path": "x_slide:1+x_slide_inductive_endstop_adapter_mirrored:1",
+   "cad_name": "x_slide_inductive_endstop_adapter_mirrored"
+  },
+  {
+   "path": "x_slide:1+x_slide_stiffener_beam:1",
+   "cad_name": "x_slide_stiffener_beam"
+  },
+  {
+   "path": "x_slide:1+y_belt_drive:1+base_nema_14_to_17_adapter:2",
+   "cad_name": "base_nema_14_to_17_adapter"
+  },
+  {
+   "path": "x_slide:1+y_belt_drive:1+belt_tightener_GT2:3+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "x_slide:1+y_belt_drive:1+belt_tightener_GT2:3+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "x_slide:1+y_belt_drive:1+belt_tightener_GT2:3+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:1+y_belt_drive:1+belt_tightener_GT2:3+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:1+y_belt_drive:1+belt_tightener_GT2:3+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "x_slide:1+y_belt_drive:1+belt_tightener_GT2:3+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "x_slide:1+y_belt_drive:1+belt_tightener_GT2:3+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "x_slide:1+y_belt_drive:1+belt_tightener_GT2:3+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "x_slide:1+y_belt_drive:1+belt_tightener_GT2:3+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "x_slide:1+y_belt_drive:1+belt_tightener_GT2:3+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "x_slide:1+y_belt_drive:1+belt_tightener_GT2:3+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "x_slide:1+y_belt_drive:1+pulley_gt2_z16_6mm:2",
+   "cad_name": "pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "x_slide:1+y_belt_drive:1+y_belt:1",
+   "cad_name": "y_belt"
+  },
+  {
+   "path": "x_slide:2+base_cable_holder_m5_flat:1",
+   "cad_name": "base_cable_holder_m5_flat"
+  },
+  {
+   "path": "x_slide:2+cpc_MR12ML:1",
+   "cad_name": "cpc_MR12ML"
+  },
+  {
+   "path": "x_slide:2+cpc_MR12ML:2",
+   "cad_name": "cpc_MR12ML"
+  },
+  {
+   "path": "x_slide:2+din_7991_m3x8:1",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:2+din_7991_m3x8:2",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:2+din_7991_m3x8:3",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:2+din_7991_m3x8:4",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:2+din_7991_m3x8:5",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:2+din_7991_m3x8:6",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:2+din_7991_m3x8:7",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:2+din_7991_m3x8:8",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:2+din_7991_m6x12:1",
+   "cad_name": "din_7991_m6x12"
+  },
+  {
+   "path": "x_slide:2+din_7991_m6x12:2",
+   "cad_name": "din_7991_m6x12"
+  },
+  {
+   "path": "x_slide:2+din_7991_m6x12:3",
+   "cad_name": "din_7991_m6x12"
+  },
+  {
+   "path": "x_slide:2+din_7991_m6x12:4",
+   "cad_name": "din_7991_m6x12"
+  },
+  {
+   "path": "x_slide:2+din_912_m3x10:12",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:2+din_912_m3x10:13",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:2+din_912_m3x10:14",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:2+din_912_m3x10:15",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:2+din_912_m5x10:1",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:2+din_912_m5x10:2",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:2+din_912_m5x10:3",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:2+din_912_m5x10:4",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:2+din_912_m5x10:5",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:2+din_912_m5x10:6",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:2+din_912_m5x10:7",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:2+din_912_m5x10:8",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:2+din_912_m5x14:1",
+   "cad_name": "din_912_m5x14"
+  },
+  {
+   "path": "x_slide:2+iso_8673_nut_m8:10",
+   "cad_name": "iso_8673_nut_m8"
+  },
+  {
+   "path": "x_slide:2+iso_8673_nut_m8:15",
+   "cad_name": "iso_8673_nut_m8"
+  },
+  {
+   "path": "x_slide:2+rod_holder_flange_d10_dold:1",
+   "cad_name": "rod_holder_flange_d10_dold"
+  },
+  {
+   "path": "x_slide:2+rod_holder_flange_d10_dold:2",
+   "cad_name": "rod_holder_flange_d10_dold"
+  },
+  {
+   "path": "x_slide:2+rod_holder_flange_d10_dold:3",
+   "cad_name": "rod_holder_flange_d10_dold"
+  },
+  {
+   "path": "x_slide:2+rod_holder_flange_d10_dold:4",
+   "cad_name": "rod_holder_flange_d10_dold"
+  },
+  {
+   "path": "x_slide:2+x_belt_holder:1",
+   "cad_name": "x_belt_holder"
+  },
+  {
+   "path": "x_slide:2+x_belt_holder_1:1",
+   "cad_name": "x_belt_holder_1"
+  },
+  {
+   "path": "x_slide:2+x_belt_holder_1:2",
+   "cad_name": "x_belt_holder_1"
+  },
+  {
+   "path": "x_slide:2+x_belt_holder_1:3",
+   "cad_name": "x_belt_holder_1"
+  },
+  {
+   "path": "x_slide:2+x_drag_chain_adapter:1",
+   "cad_name": "x_drag_chain_adapter"
+  },
+  {
+   "path": "x_slide:2+x_drag_chain_adapter:2",
+   "cad_name": "x_drag_chain_adapter"
+  },
+  {
+   "path": "x_slide:2+x_end_stop_holder_side_short:1",
+   "cad_name": "x_end_stop_holder_side_short"
+  },
+  {
+   "path": "x_slide:2+x_end_stop_holder_top_long:1",
+   "cad_name": "x_end_stop_holder_top_long"
+  },
+  {
+   "path": "x_slide:2+x_end_stop_top_long:1",
+   "cad_name": "x_end_stop_top_long"
+  },
+  {
+   "path": "x_slide:2+x_end_stop_top_short:1",
+   "cad_name": "x_end_stop_top_short"
+  },
+  {
+   "path": "x_slide:2+x_round_rail:1",
+   "cad_name": "x_round_rail"
+  },
+  {
+   "path": "x_slide:2+x_round_rail:2",
+   "cad_name": "x_round_rail"
+  },
+  {
+   "path": "x_slide:2+x_side_plate:1",
+   "cad_name": "x_side_plate"
+  },
+  {
+   "path": "x_slide:2+x_side_plate_moving:1",
+   "cad_name": "x_side_plate_moving"
+  },
+  {
+   "path": "x_slide:2+x_slide_inductive_endstop_adapter:1",
+   "cad_name": "x_slide_inductive_endstop_adapter"
+  },
+  {
+   "path": "x_slide:2+x_slide_inductive_endstop_adapter_mirrored:1",
+   "cad_name": "x_slide_inductive_endstop_adapter_mirrored"
+  },
+  {
+   "path": "x_slide:2+x_slide_stiffener_beam:1",
+   "cad_name": "x_slide_stiffener_beam"
+  },
+  {
+   "path": "x_slide:2+y_belt_drive:1+base_nema_14_to_17_adapter:2",
+   "cad_name": "base_nema_14_to_17_adapter"
+  },
+  {
+   "path": "x_slide:2+y_belt_drive:1+belt_tightener_GT2:3+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "x_slide:2+y_belt_drive:1+belt_tightener_GT2:3+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "x_slide:2+y_belt_drive:1+belt_tightener_GT2:3+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:2+y_belt_drive:1+belt_tightener_GT2:3+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:2+y_belt_drive:1+belt_tightener_GT2:3+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "x_slide:2+y_belt_drive:1+belt_tightener_GT2:3+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "x_slide:2+y_belt_drive:1+belt_tightener_GT2:3+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "x_slide:2+y_belt_drive:1+belt_tightener_GT2:3+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "x_slide:2+y_belt_drive:1+belt_tightener_GT2:3+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "x_slide:2+y_belt_drive:1+belt_tightener_GT2:3+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "x_slide:2+y_belt_drive:1+belt_tightener_GT2:3+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "x_slide:2+y_belt_drive:1+pulley_gt2_z16_6mm:2",
+   "cad_name": "pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "x_slide:2+y_belt_drive:1+y_belt:1",
+   "cad_name": "y_belt"
+  },
+  {
+   "path": "x_slide:3+base_cable_holder_m5_flat:1",
+   "cad_name": "base_cable_holder_m5_flat"
+  },
+  {
+   "path": "x_slide:3+cpc_MR12ML:1",
+   "cad_name": "cpc_MR12ML"
+  },
+  {
+   "path": "x_slide:3+cpc_MR12ML:2",
+   "cad_name": "cpc_MR12ML"
+  },
+  {
+   "path": "x_slide:3+din_7991_m3x8:1",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:3+din_7991_m3x8:2",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:3+din_7991_m3x8:3",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:3+din_7991_m3x8:4",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:3+din_7991_m3x8:5",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:3+din_7991_m3x8:6",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:3+din_7991_m3x8:7",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:3+din_7991_m3x8:8",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:3+din_7991_m6x12:1",
+   "cad_name": "din_7991_m6x12"
+  },
+  {
+   "path": "x_slide:3+din_7991_m6x12:2",
+   "cad_name": "din_7991_m6x12"
+  },
+  {
+   "path": "x_slide:3+din_7991_m6x12:3",
+   "cad_name": "din_7991_m6x12"
+  },
+  {
+   "path": "x_slide:3+din_7991_m6x12:4",
+   "cad_name": "din_7991_m6x12"
+  },
+  {
+   "path": "x_slide:3+din_912_m3x10:12",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:3+din_912_m3x10:13",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:3+din_912_m3x10:14",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:3+din_912_m3x10:15",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:3+din_912_m5x10:1",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:3+din_912_m5x10:2",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:3+din_912_m5x10:3",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:3+din_912_m5x10:4",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:3+din_912_m5x10:5",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:3+din_912_m5x10:6",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:3+din_912_m5x10:7",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:3+din_912_m5x10:8",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:3+din_912_m5x14:1",
+   "cad_name": "din_912_m5x14"
+  },
+  {
+   "path": "x_slide:3+iso_8673_nut_m8:10",
+   "cad_name": "iso_8673_nut_m8"
+  },
+  {
+   "path": "x_slide:3+iso_8673_nut_m8:15",
+   "cad_name": "iso_8673_nut_m8"
+  },
+  {
+   "path": "x_slide:3+rod_holder_flange_d10_dold:1",
+   "cad_name": "rod_holder_flange_d10_dold"
+  },
+  {
+   "path": "x_slide:3+rod_holder_flange_d10_dold:2",
+   "cad_name": "rod_holder_flange_d10_dold"
+  },
+  {
+   "path": "x_slide:3+rod_holder_flange_d10_dold:3",
+   "cad_name": "rod_holder_flange_d10_dold"
+  },
+  {
+   "path": "x_slide:3+rod_holder_flange_d10_dold:4",
+   "cad_name": "rod_holder_flange_d10_dold"
+  },
+  {
+   "path": "x_slide:3+x_belt_holder:1",
+   "cad_name": "x_belt_holder"
+  },
+  {
+   "path": "x_slide:3+x_belt_holder_1:1",
+   "cad_name": "x_belt_holder_1"
+  },
+  {
+   "path": "x_slide:3+x_belt_holder_1:2",
+   "cad_name": "x_belt_holder_1"
+  },
+  {
+   "path": "x_slide:3+x_belt_holder_1:3",
+   "cad_name": "x_belt_holder_1"
+  },
+  {
+   "path": "x_slide:3+x_drag_chain_adapter:1",
+   "cad_name": "x_drag_chain_adapter"
+  },
+  {
+   "path": "x_slide:3+x_drag_chain_adapter:2",
+   "cad_name": "x_drag_chain_adapter"
+  },
+  {
+   "path": "x_slide:3+x_end_stop_holder_side_short:1",
+   "cad_name": "x_end_stop_holder_side_short"
+  },
+  {
+   "path": "x_slide:3+x_end_stop_holder_top_long:1",
+   "cad_name": "x_end_stop_holder_top_long"
+  },
+  {
+   "path": "x_slide:3+x_end_stop_top_long:1",
+   "cad_name": "x_end_stop_top_long"
+  },
+  {
+   "path": "x_slide:3+x_end_stop_top_short:1",
+   "cad_name": "x_end_stop_top_short"
+  },
+  {
+   "path": "x_slide:3+x_round_rail:1",
+   "cad_name": "x_round_rail"
+  },
+  {
+   "path": "x_slide:3+x_round_rail:2",
+   "cad_name": "x_round_rail"
+  },
+  {
+   "path": "x_slide:3+x_side_plate:1",
+   "cad_name": "x_side_plate"
+  },
+  {
+   "path": "x_slide:3+x_side_plate_moving:1",
+   "cad_name": "x_side_plate_moving"
+  },
+  {
+   "path": "x_slide:3+x_slide_inductive_endstop_adapter:1",
+   "cad_name": "x_slide_inductive_endstop_adapter"
+  },
+  {
+   "path": "x_slide:3+x_slide_inductive_endstop_adapter_mirrored:1",
+   "cad_name": "x_slide_inductive_endstop_adapter_mirrored"
+  },
+  {
+   "path": "x_slide:3+x_slide_stiffener_beam:1",
+   "cad_name": "x_slide_stiffener_beam"
+  },
+  {
+   "path": "x_slide:3+y_belt_drive:1+base_nema_14_to_17_adapter:2",
+   "cad_name": "base_nema_14_to_17_adapter"
+  },
+  {
+   "path": "x_slide:3+y_belt_drive:1+belt_tightener_GT2:3+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "x_slide:3+y_belt_drive:1+belt_tightener_GT2:3+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "x_slide:3+y_belt_drive:1+belt_tightener_GT2:3+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:3+y_belt_drive:1+belt_tightener_GT2:3+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:3+y_belt_drive:1+belt_tightener_GT2:3+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "x_slide:3+y_belt_drive:1+belt_tightener_GT2:3+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "x_slide:3+y_belt_drive:1+belt_tightener_GT2:3+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "x_slide:3+y_belt_drive:1+belt_tightener_GT2:3+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "x_slide:3+y_belt_drive:1+belt_tightener_GT2:3+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "x_slide:3+y_belt_drive:1+belt_tightener_GT2:3+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "x_slide:3+y_belt_drive:1+belt_tightener_GT2:3+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "x_slide:3+y_belt_drive:1+pulley_gt2_z16_6mm:2",
+   "cad_name": "pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "x_slide:3+y_belt_drive:1+y_belt:1",
+   "cad_name": "y_belt"
+  },
+  {
+   "path": "x_slide:4+base_cable_holder_m5_flat:1",
+   "cad_name": "base_cable_holder_m5_flat"
+  },
+  {
+   "path": "x_slide:4+cpc_MR12ML:1",
+   "cad_name": "cpc_MR12ML"
+  },
+  {
+   "path": "x_slide:4+cpc_MR12ML:2",
+   "cad_name": "cpc_MR12ML"
+  },
+  {
+   "path": "x_slide:4+din_7991_m3x8:1",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:4+din_7991_m3x8:2",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:4+din_7991_m3x8:3",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:4+din_7991_m3x8:4",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:4+din_7991_m3x8:5",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:4+din_7991_m3x8:6",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:4+din_7991_m3x8:7",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:4+din_7991_m3x8:8",
+   "cad_name": "din_7991_m3x8"
+  },
+  {
+   "path": "x_slide:4+din_7991_m6x12:1",
+   "cad_name": "din_7991_m6x12"
+  },
+  {
+   "path": "x_slide:4+din_7991_m6x12:2",
+   "cad_name": "din_7991_m6x12"
+  },
+  {
+   "path": "x_slide:4+din_7991_m6x12:3",
+   "cad_name": "din_7991_m6x12"
+  },
+  {
+   "path": "x_slide:4+din_7991_m6x12:4",
+   "cad_name": "din_7991_m6x12"
+  },
+  {
+   "path": "x_slide:4+din_912_m3x10:12",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:4+din_912_m3x10:13",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:4+din_912_m3x10:14",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:4+din_912_m3x10:15",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:4+din_912_m5x10:1",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:4+din_912_m5x10:2",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:4+din_912_m5x10:3",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:4+din_912_m5x10:4",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:4+din_912_m5x10:5",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:4+din_912_m5x10:6",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:4+din_912_m5x10:7",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:4+din_912_m5x10:8",
+   "cad_name": "din_912_m5x10"
+  },
+  {
+   "path": "x_slide:4+din_912_m5x14:1",
+   "cad_name": "din_912_m5x14"
+  },
+  {
+   "path": "x_slide:4+iso_8673_nut_m8:10",
+   "cad_name": "iso_8673_nut_m8"
+  },
+  {
+   "path": "x_slide:4+iso_8673_nut_m8:15",
+   "cad_name": "iso_8673_nut_m8"
+  },
+  {
+   "path": "x_slide:4+rod_holder_flange_d10_dold:1",
+   "cad_name": "rod_holder_flange_d10_dold"
+  },
+  {
+   "path": "x_slide:4+rod_holder_flange_d10_dold:2",
+   "cad_name": "rod_holder_flange_d10_dold"
+  },
+  {
+   "path": "x_slide:4+rod_holder_flange_d10_dold:3",
+   "cad_name": "rod_holder_flange_d10_dold"
+  },
+  {
+   "path": "x_slide:4+rod_holder_flange_d10_dold:4",
+   "cad_name": "rod_holder_flange_d10_dold"
+  },
+  {
+   "path": "x_slide:4+x_belt_holder:1",
+   "cad_name": "x_belt_holder"
+  },
+  {
+   "path": "x_slide:4+x_belt_holder_1:1",
+   "cad_name": "x_belt_holder_1"
+  },
+  {
+   "path": "x_slide:4+x_belt_holder_1:2",
+   "cad_name": "x_belt_holder_1"
+  },
+  {
+   "path": "x_slide:4+x_belt_holder_1:3",
+   "cad_name": "x_belt_holder_1"
+  },
+  {
+   "path": "x_slide:4+x_drag_chain_adapter:1",
+   "cad_name": "x_drag_chain_adapter"
+  },
+  {
+   "path": "x_slide:4+x_drag_chain_adapter:2",
+   "cad_name": "x_drag_chain_adapter"
+  },
+  {
+   "path": "x_slide:4+x_end_stop_holder_side_short:1",
+   "cad_name": "x_end_stop_holder_side_short"
+  },
+  {
+   "path": "x_slide:4+x_end_stop_holder_top_long:1",
+   "cad_name": "x_end_stop_holder_top_long"
+  },
+  {
+   "path": "x_slide:4+x_end_stop_top_long:1",
+   "cad_name": "x_end_stop_top_long"
+  },
+  {
+   "path": "x_slide:4+x_end_stop_top_short:1",
+   "cad_name": "x_end_stop_top_short"
+  },
+  {
+   "path": "x_slide:4+x_round_rail:1",
+   "cad_name": "x_round_rail"
+  },
+  {
+   "path": "x_slide:4+x_round_rail:2",
+   "cad_name": "x_round_rail"
+  },
+  {
+   "path": "x_slide:4+x_side_plate:1",
+   "cad_name": "x_side_plate"
+  },
+  {
+   "path": "x_slide:4+x_side_plate_moving:1",
+   "cad_name": "x_side_plate_moving"
+  },
+  {
+   "path": "x_slide:4+x_slide_inductive_endstop_adapter:1",
+   "cad_name": "x_slide_inductive_endstop_adapter"
+  },
+  {
+   "path": "x_slide:4+x_slide_inductive_endstop_adapter_mirrored:1",
+   "cad_name": "x_slide_inductive_endstop_adapter_mirrored"
+  },
+  {
+   "path": "x_slide:4+x_slide_stiffener_beam:1",
+   "cad_name": "x_slide_stiffener_beam"
+  },
+  {
+   "path": "x_slide:4+y_belt_drive:1+base_nema_14_to_17_adapter:2",
+   "cad_name": "base_nema_14_to_17_adapter"
+  },
+  {
+   "path": "x_slide:4+y_belt_drive:1+belt_tightener_GT2:3+belt_tightener_GT2_base:1",
+   "cad_name": "belt_tightener_GT2_base"
+  },
+  {
+   "path": "x_slide:4+y_belt_drive:1+belt_tightener_GT2:3+belt_tightener_GT2_wing:1",
+   "cad_name": "belt_tightener_GT2_wing"
+  },
+  {
+   "path": "x_slide:4+y_belt_drive:1+belt_tightener_GT2:3+din_912_m3x10:5",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:4+y_belt_drive:1+belt_tightener_GT2:3+din_912_m3x10:6",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "x_slide:4+y_belt_drive:1+belt_tightener_GT2:3+din_912_m3x16:3",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "x_slide:4+y_belt_drive:1+belt_tightener_GT2:3+din_912_m4x20:1",
+   "cad_name": "din_912_m4x20"
+  },
+  {
+   "path": "x_slide:4+y_belt_drive:1+belt_tightener_GT2:3+din_912_m4x30:5",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "x_slide:4+y_belt_drive:1+belt_tightener_GT2:3+iso_8673_nut_m3:7",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "x_slide:4+y_belt_drive:1+belt_tightener_GT2:3+iso_8673_nut_m4:7",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "x_slide:4+y_belt_drive:1+belt_tightener_GT2:3+iso_8673_nut_m4:8",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "x_slide:4+y_belt_drive:1+belt_tightener_GT2:3+return_pulley_gt2_z16_6mm:1",
+   "cad_name": "return_pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "x_slide:4+y_belt_drive:1+pulley_gt2_z16_6mm:2",
+   "cad_name": "pulley_gt2_z16_6mm"
+  },
+  {
+   "path": "x_slide:4+y_belt_drive:1+y_belt:1",
+   "cad_name": "y_belt"
+  },
+  {
+   "path": "y_slide (1):1+TR10x2_GT2_belt_adapter:2",
+   "cad_name": "TR10x2_GT2_belt_adapter"
+  },
+  {
+   "path": "y_slide (1):1+TR10x2_GT2_belt_adapter_cover:2",
+   "cad_name": "TR10x2_GT2_belt_adapter_cover"
+  },
+  {
+   "path": "y_slide (1):1+din_562_m4_square_nut:4",
+   "cad_name": "din_562_m4_square_nut"
+  },
+  {
+   "path": "y_slide (1):1+din_562_m4_square_nut:5",
+   "cad_name": "din_562_m4_square_nut"
+  },
+  {
+   "path": "y_slide (1):1+din_912_m3x14:2",
+   "cad_name": "din_912_m3x14"
+  },
+  {
+   "path": "y_slide (1):1+din_912_m3x16:4",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "y_slide (1):1+din_912_m3x16:5",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "y_slide (1):1+din_912_m3x20:2",
+   "cad_name": "din_912_m3x20"
+  },
+  {
+   "path": "y_slide (1):1+din_912_m3x8:11",
+   "cad_name": "din_912_m3x8"
+  },
+  {
+   "path": "y_slide (1):1+din_912_m3x8:12",
+   "cad_name": "din_912_m3x8"
+  },
+  {
+   "path": "y_slide (1):1+din_912_m3x8:13",
+   "cad_name": "din_912_m3x8"
+  },
+  {
+   "path": "y_slide (1):1+din_912_m3x8:14",
+   "cad_name": "din_912_m3x8"
+  },
+  {
+   "path": "y_slide (1):1+din_912_m4x30:6",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "y_slide (1):1+din_912_m4x30:7",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "y_slide (1):1+din_912_m4x30:8",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "y_slide (1):1+din_912_m4x30:9",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "y_slide (1):1+hiwin_slide_MGN12CZ0H:2",
+   "cad_name": "hiwin_slide_MGN12CZ0H"
+  },
+  {
+   "path": "y_slide (1):1+iso_8673_nut_m3:12",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "y_slide (1):1+iso_8673_nut_m3:13",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "y_slide (1):1+iso_8673_nut_m3:8",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "y_slide (1):1+iso_8673_nut_m3:9",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "y_slide (1):1+iso_8673_nut_m4:10",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide (1):1+iso_8673_nut_m4:11",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide (1):1+iso_8673_nut_m4:12",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide (1):1+iso_8673_nut_m4:14",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide (1):1+iso_8673_nut_m4:9",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide (1):1+pulley_gt2_9mm:3",
+   "cad_name": "pulley_gt2_9mm"
+  },
+  {
+   "path": "y_slide (1):1+pulley_gt2_9mm:4",
+   "cad_name": "pulley_gt2_9mm"
+  },
+  {
+   "path": "y_slide (1):1+rod_slide_d10_l19:5",
+   "cad_name": "rod_slide_d10_l19"
+  },
+  {
+   "path": "y_slide (1):1+rod_slide_d10_l19:6",
+   "cad_name": "rod_slide_d10_l19"
+  },
+  {
+   "path": "y_slide (1):1+rod_slide_d10_l19:7",
+   "cad_name": "rod_slide_d10_l19"
+  },
+  {
+   "path": "y_slide (1):1+rod_slide_d10_l19:8",
+   "cad_name": "rod_slide_d10_l19"
+  },
+  {
+   "path": "y_slide (1):1+y_camera_holder:1",
+   "cad_name": "y_camera_holder"
+  },
+  {
+   "path": "y_slide (1):1+y_slide:1",
+   "cad_name": "y_slide"
+  },
+  {
+   "path": "y_slide (1):1+y_slide_distance_rod:3",
+   "cad_name": "y_slide_distance_rod"
+  },
+  {
+   "path": "y_slide (1):1+y_slide_distance_rod:4",
+   "cad_name": "y_slide_distance_rod"
+  },
+  {
+   "path": "y_slide (1):1+y_slide_distance_tube_2mm:2",
+   "cad_name": "y_slide_distance_tube_2mm"
+  },
+  {
+   "path": "y_slide (1):1+y_slide_top:1",
+   "cad_name": "y_slide_top"
+  },
+  {
+   "path": "y_slide (1):1+z_drive_belt:2",
+   "cad_name": "z_drive_belt"
+  },
+  {
+   "path": "y_slide (1):2+TR10x2_GT2_belt_adapter:2",
+   "cad_name": "TR10x2_GT2_belt_adapter"
+  },
+  {
+   "path": "y_slide (1):2+TR10x2_GT2_belt_adapter_cover:2",
+   "cad_name": "TR10x2_GT2_belt_adapter_cover"
+  },
+  {
+   "path": "y_slide (1):2+din_562_m4_square_nut:4",
+   "cad_name": "din_562_m4_square_nut"
+  },
+  {
+   "path": "y_slide (1):2+din_562_m4_square_nut:5",
+   "cad_name": "din_562_m4_square_nut"
+  },
+  {
+   "path": "y_slide (1):2+din_912_m3x14:2",
+   "cad_name": "din_912_m3x14"
+  },
+  {
+   "path": "y_slide (1):2+din_912_m3x16:4",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "y_slide (1):2+din_912_m3x16:5",
+   "cad_name": "din_912_m3x16"
+  },
+  {
+   "path": "y_slide (1):2+din_912_m3x20:2",
+   "cad_name": "din_912_m3x20"
+  },
+  {
+   "path": "y_slide (1):2+din_912_m3x8:11",
+   "cad_name": "din_912_m3x8"
+  },
+  {
+   "path": "y_slide (1):2+din_912_m3x8:12",
+   "cad_name": "din_912_m3x8"
+  },
+  {
+   "path": "y_slide (1):2+din_912_m3x8:13",
+   "cad_name": "din_912_m3x8"
+  },
+  {
+   "path": "y_slide (1):2+din_912_m3x8:14",
+   "cad_name": "din_912_m3x8"
+  },
+  {
+   "path": "y_slide (1):2+din_912_m4x30:6",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "y_slide (1):2+din_912_m4x30:7",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "y_slide (1):2+din_912_m4x30:8",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "y_slide (1):2+din_912_m4x30:9",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "y_slide (1):2+hiwin_slide_MGN12CZ0H:2",
+   "cad_name": "hiwin_slide_MGN12CZ0H"
+  },
+  {
+   "path": "y_slide (1):2+iso_8673_nut_m3:12",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "y_slide (1):2+iso_8673_nut_m3:13",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "y_slide (1):2+iso_8673_nut_m3:8",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "y_slide (1):2+iso_8673_nut_m3:9",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "y_slide (1):2+iso_8673_nut_m4:10",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide (1):2+iso_8673_nut_m4:11",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide (1):2+iso_8673_nut_m4:12",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide (1):2+iso_8673_nut_m4:14",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide (1):2+iso_8673_nut_m4:9",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide (1):2+pulley_gt2_9mm:3",
+   "cad_name": "pulley_gt2_9mm"
+  },
+  {
+   "path": "y_slide (1):2+pulley_gt2_9mm:4",
+   "cad_name": "pulley_gt2_9mm"
+  },
+  {
+   "path": "y_slide (1):2+rod_slide_d10_l19:5",
+   "cad_name": "rod_slide_d10_l19"
+  },
+  {
+   "path": "y_slide (1):2+rod_slide_d10_l19:6",
+   "cad_name": "rod_slide_d10_l19"
+  },
+  {
+   "path": "y_slide (1):2+rod_slide_d10_l19:7",
+   "cad_name": "rod_slide_d10_l19"
+  },
+  {
+   "path": "y_slide (1):2+rod_slide_d10_l19:8",
+   "cad_name": "rod_slide_d10_l19"
+  },
+  {
+   "path": "y_slide (1):2+y_camera_holder:1",
+   "cad_name": "y_camera_holder"
+  },
+  {
+   "path": "y_slide (1):2+y_slide:1",
+   "cad_name": "y_slide"
+  },
+  {
+   "path": "y_slide (1):2+y_slide_distance_rod:3",
+   "cad_name": "y_slide_distance_rod"
+  },
+  {
+   "path": "y_slide (1):2+y_slide_distance_rod:4",
+   "cad_name": "y_slide_distance_rod"
+  },
+  {
+   "path": "y_slide (1):2+y_slide_distance_tube_2mm:2",
+   "cad_name": "y_slide_distance_tube_2mm"
+  },
+  {
+   "path": "y_slide (1):2+y_slide_top:1",
+   "cad_name": "y_slide_top"
+  },
+  {
+   "path": "y_slide (1):2+z_drive_belt:2",
+   "cad_name": "z_drive_belt"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+TR10x2_GT2_belt_adapter:1",
+   "cad_name": "TR10x2_GT2_belt_adapter"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+TR10x2_GT2_belt_adapter_cover:1",
+   "cad_name": "TR10x2_GT2_belt_adapter_cover"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+din_562_m4_square_nut:1",
+   "cad_name": "din_562_m4_square_nut"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+din_562_m4_square_nut:2",
+   "cad_name": "din_562_m4_square_nut"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+din_562_m4_square_nut:3",
+   "cad_name": "din_562_m4_square_nut"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+din_912_m3x14:1",
+   "cad_name": "din_912_m3x14"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+din_912_m3x20:1",
+   "cad_name": "din_912_m3x20"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+din_912_m3x30:1",
+   "cad_name": "din_912_m3x30"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+din_912_m3x8:1",
+   "cad_name": "din_912_m3x8"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+din_912_m3x8:2",
+   "cad_name": "din_912_m3x8"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+din_912_m3x8:3",
+   "cad_name": "din_912_m3x8"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+din_912_m3x8:4",
+   "cad_name": "din_912_m3x8"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+din_912_m4x30:1",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+din_912_m4x30:2",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+din_912_m4x30:3",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+din_912_m4x30:4",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+hiwin_slide_MGN12CZ0H:1",
+   "cad_name": "hiwin_slide_MGN12CZ0H"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+iso_8673_nut_m3:1",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+iso_8673_nut_m3:2",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+iso_8673_nut_m3:5",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+iso_8673_nut_m3:6",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+iso_8673_nut_m4:1",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+iso_8673_nut_m4:2",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+iso_8673_nut_m4:3",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+iso_8673_nut_m4:4",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+iso_8673_nut_m4:5",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+iso_8673_nut_m4:6",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+pulley_gt2_9mm:1",
+   "cad_name": "pulley_gt2_9mm"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+pulley_gt2_9mm:2",
+   "cad_name": "pulley_gt2_9mm"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+rod_slide_d10_l19:1",
+   "cad_name": "rod_slide_d10_l19"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+rod_slide_d10_l19:2",
+   "cad_name": "rod_slide_d10_l19"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+rod_slide_d10_l19:3",
+   "cad_name": "rod_slide_d10_l19"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+rod_slide_d10_l19:4",
+   "cad_name": "rod_slide_d10_l19"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+y_camera_holder_compact:1",
+   "cad_name": "y_camera_holder_compact"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+y_slide_distance_rod:1",
+   "cad_name": "y_slide_distance_rod"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+y_slide_distance_rod:2",
+   "cad_name": "y_slide_distance_rod"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+y_slide_distance_tube_2mm:1",
+   "cad_name": "y_slide_distance_tube_2mm"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+y_slide_mirrored:1",
+   "cad_name": "y_slide_mirrored"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+y_slide_mirrored_top:1",
+   "cad_name": "y_slide_mirrored_top"
+  },
+  {
+   "path": "y_slide_mirrored (1):1+z_drive_belt:1",
+   "cad_name": "z_drive_belt"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+TR10x2_GT2_belt_adapter:1",
+   "cad_name": "TR10x2_GT2_belt_adapter"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+TR10x2_GT2_belt_adapter_cover:1",
+   "cad_name": "TR10x2_GT2_belt_adapter_cover"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+din_562_m4_square_nut:1",
+   "cad_name": "din_562_m4_square_nut"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+din_562_m4_square_nut:2",
+   "cad_name": "din_562_m4_square_nut"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+din_562_m4_square_nut:3",
+   "cad_name": "din_562_m4_square_nut"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+din_912_m3x14:1",
+   "cad_name": "din_912_m3x14"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+din_912_m3x20:1",
+   "cad_name": "din_912_m3x20"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+din_912_m3x30:1",
+   "cad_name": "din_912_m3x30"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+din_912_m3x8:1",
+   "cad_name": "din_912_m3x8"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+din_912_m3x8:2",
+   "cad_name": "din_912_m3x8"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+din_912_m3x8:3",
+   "cad_name": "din_912_m3x8"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+din_912_m3x8:4",
+   "cad_name": "din_912_m3x8"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+din_912_m4x30:1",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+din_912_m4x30:2",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+din_912_m4x30:3",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+din_912_m4x30:4",
+   "cad_name": "din_912_m4x30"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+hiwin_slide_MGN12CZ0H:1",
+   "cad_name": "hiwin_slide_MGN12CZ0H"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+iso_8673_nut_m3:1",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+iso_8673_nut_m3:2",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+iso_8673_nut_m3:5",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+iso_8673_nut_m3:6",
+   "cad_name": "iso_8673_nut_m3"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+iso_8673_nut_m4:1",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+iso_8673_nut_m4:2",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+iso_8673_nut_m4:3",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+iso_8673_nut_m4:4",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+iso_8673_nut_m4:5",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+iso_8673_nut_m4:6",
+   "cad_name": "iso_8673_nut_m4"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+pulley_gt2_9mm:1",
+   "cad_name": "pulley_gt2_9mm"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+pulley_gt2_9mm:2",
+   "cad_name": "pulley_gt2_9mm"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+rod_slide_d10_l19:1",
+   "cad_name": "rod_slide_d10_l19"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+rod_slide_d10_l19:2",
+   "cad_name": "rod_slide_d10_l19"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+rod_slide_d10_l19:3",
+   "cad_name": "rod_slide_d10_l19"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+rod_slide_d10_l19:4",
+   "cad_name": "rod_slide_d10_l19"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+y_camera_holder_compact:1",
+   "cad_name": "y_camera_holder_compact"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+y_slide_distance_rod:1",
+   "cad_name": "y_slide_distance_rod"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+y_slide_distance_rod:2",
+   "cad_name": "y_slide_distance_rod"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+y_slide_distance_tube_2mm:1",
+   "cad_name": "y_slide_distance_tube_2mm"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+y_slide_mirrored:1",
+   "cad_name": "y_slide_mirrored"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+y_slide_mirrored_top:1",
+   "cad_name": "y_slide_mirrored_top"
+  },
+  {
+   "path": "y_slide_mirrored (1):2+z_drive_belt:1",
+   "cad_name": "z_drive_belt"
+  },
+  {
+   "path": "z_slide:1+din_562_m3_square_nut:2",
+   "cad_name": "din_562_m3_square_nut"
+  },
+  {
+   "path": "z_slide:1+din_912_m3x10:7",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "z_slide:1+hiwin_rail_MGNR12R150HM:1",
+   "cad_name": "hiwin_rail_MGNR12R150HM"
+  },
+  {
+   "path": "z_slide:1+z_drive_belt_holder_v3:1",
+   "cad_name": "z_drive_belt_holder_v3"
+  },
+  {
+   "path": "z_slide:1+z_slide_end_stop_trigger.psm:1",
+   "cad_name": "z_slide_end_stop_trigger.psm"
+  },
+  {
+   "path": "z_slide:2+din_562_m3_square_nut:2",
+   "cad_name": "din_562_m3_square_nut"
+  },
+  {
+   "path": "z_slide:2+din_912_m3x10:7",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "z_slide:2+hiwin_rail_MGNR12R150HM:1",
+   "cad_name": "hiwin_rail_MGNR12R150HM"
+  },
+  {
+   "path": "z_slide:2+z_drive_belt_holder_v3:1",
+   "cad_name": "z_drive_belt_holder_v3"
+  },
+  {
+   "path": "z_slide:2+z_slide_end_stop_trigger.psm:1",
+   "cad_name": "z_slide_end_stop_trigger.psm"
+  },
+  {
+   "path": "z_slide_long:1+din_562_m3_square_nut:4",
+   "cad_name": "din_562_m3_square_nut"
+  },
+  {
+   "path": "z_slide_long:1+din_912_m3x10:16",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "z_slide_long:1+hiwin_rail_MGNR12R150HM:2",
+   "cad_name": "hiwin_rail_MGNR12R150HM"
+  },
+  {
+   "path": "z_slide_long:1+z_drive_belt_holder_v3:2",
+   "cad_name": "z_drive_belt_holder_v3"
+  },
+  {
+   "path": "z_slide_long:1+z_slide_cable_holder:1",
+   "cad_name": "z_slide_cable_holder"
+  },
+  {
+   "path": "z_slide_long:1+z_slide_cable_holder:2",
+   "cad_name": "z_slide_cable_holder"
+  },
+  {
+   "path": "z_slide_long:1+z_slide_end_stop_trigger_mirrored.psm:1",
+   "cad_name": "z_slide_end_stop_trigger_mirrored.psm"
+  },
+  {
+   "path": "z_slide_long:2+din_562_m3_square_nut:4",
+   "cad_name": "din_562_m3_square_nut"
+  },
+  {
+   "path": "z_slide_long:2+din_912_m3x10:16",
+   "cad_name": "din_912_m3x10"
+  },
+  {
+   "path": "z_slide_long:2+hiwin_rail_MGNR12R150HM:2",
+   "cad_name": "hiwin_rail_MGNR12R150HM"
+  },
+  {
+   "path": "z_slide_long:2+z_drive_belt_holder_v3:2",
+   "cad_name": "z_drive_belt_holder_v3"
+  },
+  {
+   "path": "z_slide_long:2+z_slide_cable_holder:1",
+   "cad_name": "z_slide_cable_holder"
+  },
+  {
+   "path": "z_slide_long:2+z_slide_cable_holder:2",
+   "cad_name": "z_slide_cable_holder"
+  },
+  {
+   "path": "z_slide_long:2+z_slide_end_stop_trigger_mirrored.psm:1",
+   "cad_name": "z_slide_end_stop_trigger_mirrored.psm"
+  }
+ ]
+}

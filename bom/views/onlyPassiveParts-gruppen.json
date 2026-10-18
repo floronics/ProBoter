@@ -1,0 +1,902 @@
+[
+ {
+  "cad_name": "TR10x2_GT2_belt_adapter",
+  "id": "CAD-001",
+  "name": "Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter)",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "TR10x2_GT2_belt_adapter_cover",
+  "id": "CAD-002",
+  "name": "Y-Riemenklemme, Deckel",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "base_back_plate",
+  "id": "CAD-003",
+  "name": "Grundgestell: Rückseite Platte",
+  "stueck_in_ansicht": 1,
+  "beschaffung": "Eigenfertigung",
+  "technik": "Werkstatt: Platten aus Blech/Alu",
+  "status": "Fertigung noch offen"
+ },
+ {
+  "cad_name": "base_cable_holder_m3_flat",
+  "id": "CAD-004",
+  "name": "Grundgestell: Kabel Halter M3 flach",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "base_cable_holder_m4",
+  "id": "CAD-005",
+  "name": "Grundgestell: Kabel Halter M4",
+  "stueck_in_ansicht": 1,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "base_cable_holder_m5_flat",
+  "id": "CAD-006",
+  "name": "Grundgestell: Kabel Halter M5 flach",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "base_cover_long_side",
+  "id": "CAD-007",
+  "name": "Grundgestell: Abdeckung lang Seite",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "base_cover_top",
+  "id": "CAD-008",
+  "name": "Grundgestell: Abdeckung oben",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "base_drag_chain_holder",
+  "id": "CAD-009",
+  "name": "Grundgestell: Schlepp Energiekette Halter",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Bestellung",
+  "technik": "Zuschnitt vom Händler",
+  "status": "teilweise geklärt"
+ },
+ {
+  "cad_name": "base_drawer_dummy_plate",
+  "id": "CAD-010",
+  "name": "Schubladen-Dummyplatte",
+  "stueck_in_ansicht": 1,
+  "beschaffung": "Eigenfertigung",
+  "technik": "noch offen (Fertigung ungeklärt)",
+  "status": "nicht identifiziert"
+ },
+ {
+  "cad_name": "base_drawer_long_side",
+  "id": "CAD-011",
+  "name": "Grundgestell: Schublade lang Seite",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Bestellung",
+  "technik": "Zuschnitt vom Händler",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "base_frame_long_side",
+  "id": "CAD-012",
+  "name": "Grundgestell: Rahmen lang Seite",
+  "stueck_in_ansicht": 3,
+  "beschaffung": "Bestellung",
+  "technik": "Zuschnitt vom Händler",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "base_frame_short",
+  "id": "CAD-013",
+  "name": "Grundgestell: Rahmen kurz",
+  "stueck_in_ansicht": 8,
+  "beschaffung": "Bestellung",
+  "technik": "Zuschnitt vom Händler",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "base_frame_side",
+  "id": "CAD-014",
+  "name": "Grundgestell: Rahmen Seite",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Bestellung",
+  "technik": "Zuschnitt vom Händler",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "base_nema_14_to_17_adapter",
+  "id": "CAD-015",
+  "name": "Grundgestell: NEMA 14 auf 17 Adapter",
+  "stueck_in_ansicht": 12,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "base_plate_adapter_1",
+  "id": "CAD-016",
+  "name": "Grundgestell: Platte Adapter 1",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Eigenfertigung",
+  "technik": "Werkstatt: Platten aus Blech/Alu",
+  "status": "Fertigung noch offen"
+ },
+ {
+  "cad_name": "base_plate_adapter_2",
+  "id": "CAD-017",
+  "name": "Grundgestell: Platte Adapter 2",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Eigenfertigung",
+  "technik": "Werkstatt: Platten aus Blech/Alu",
+  "status": "Fertigung noch offen"
+ },
+ {
+  "cad_name": "base_plate_adapter_left",
+  "id": "CAD-018",
+  "name": "Grundgestell: Platte Adapter links",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Eigenfertigung",
+  "technik": "Werkstatt: Platten aus Blech/Alu",
+  "status": "Fertigung noch offen"
+ },
+ {
+  "cad_name": "base_plate_adapter_right",
+  "id": "CAD-019",
+  "name": "Grundgestell: Platte Adapter rechts",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Eigenfertigung",
+  "technik": "Werkstatt: Platten aus Blech/Alu",
+  "status": "Fertigung noch offen"
+ },
+ {
+  "cad_name": "base_vertical",
+  "id": "CAD-020",
+  "name": "Grundgestell: vertikal",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Bestellung",
+  "technik": "Zuschnitt vom Händler",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "belt_tightener_GT2_base",
+  "id": "CAD-021",
+  "name": "Riemen Spanner GT2 Basis",
+  "stueck_in_ansicht": 20,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "belt_tightener_GT2_wing",
+  "id": "CAD-022",
+  "name": "Riemen Spanner GT2 Flügel",
+  "stueck_in_ansicht": 20,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "cable_cover",
+  "id": "CAD-024",
+  "name": "Kabel Abdeckung",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "camera_holder",
+  "id": "CAD-025",
+  "name": "Kamera Halter",
+  "stueck_in_ansicht": 1,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "camera_holder_top",
+  "id": "CAD-026",
+  "name": "Kamera Halter oben",
+  "stueck_in_ansicht": 1,
+  "beschaffung": "Eigenfertigung",
+  "technik": "Werkstatt: Platten aus Blech/Alu",
+  "status": "Fertigung noch offen"
+ },
+ {
+  "cad_name": "cpc_MR12ML",
+  "id": "CAD-027",
+  "name": "CPC MR12ML Führungswagen",
+  "stueck_in_ansicht": 8,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_466_knurled_nut_high_m4",
+  "id": "CAD-028",
+  "name": "DIN 466 Rändelmutter hoch M4",
+  "stueck_in_ansicht": 8,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_562_m3_square_nut",
+  "id": "CAD-029",
+  "name": "DIN 562 M3 Vierkantmutter",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_562_m4_square_nut",
+  "id": "CAD-030",
+  "name": "DIN 562 M4 Vierkantmutter",
+  "stueck_in_ansicht": 10,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_7991_m3x8",
+  "id": "CAD-031",
+  "name": "DIN 7991 M3×8",
+  "stueck_in_ansicht": 32,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_7991_m6x12",
+  "id": "CAD-032",
+  "name": "DIN 7991 M6×12",
+  "stueck_in_ansicht": 16,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_7991_m6x14",
+  "id": "CAD-033",
+  "name": "DIN 7991 M6×14",
+  "stueck_in_ansicht": 6,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_7991_m6x20",
+  "id": "CAD-034",
+  "name": "DIN 7991 M6×20",
+  "stueck_in_ansicht": 22,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_912_m3x10",
+  "id": "CAD-035",
+  "name": "DIN 912 M3×10",
+  "stueck_in_ansicht": 60,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_912_m3x14",
+  "id": "CAD-037",
+  "name": "DIN 912 M3×14",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_912_m3x16",
+  "id": "CAD-038",
+  "name": "DIN 912 M3×16",
+  "stueck_in_ansicht": 24,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_912_m3x18",
+  "id": "CAD-039",
+  "name": "DIN 912 M3×18",
+  "stueck_in_ansicht": 32,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_912_m3x20",
+  "id": "CAD-040",
+  "name": "DIN 912 M3×20",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_912_m3x30",
+  "id": "CAD-041",
+  "name": "DIN 912 M3×30",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_912_m3x8",
+  "id": "CAD-042",
+  "name": "DIN 912 M3×8",
+  "stueck_in_ansicht": 16,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_912_m4x10",
+  "id": "CAD-043",
+  "name": "DIN 912 M4×10",
+  "stueck_in_ansicht": 1,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_912_m4x20",
+  "id": "CAD-044",
+  "name": "DIN 912 M4×20",
+  "stueck_in_ansicht": 20,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_912_m4x30",
+  "id": "CAD-045",
+  "name": "DIN 912 M4×30",
+  "stueck_in_ansicht": 36,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_912_m5x10",
+  "id": "CAD-046",
+  "name": "DIN 912 M5×10",
+  "stueck_in_ansicht": 32,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_912_m5x14",
+  "id": "CAD-047",
+  "name": "DIN 912 M5×14",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "din_933_m4x20",
+  "id": "CAD-048",
+  "name": "DIN 933 M4×20",
+  "stueck_in_ansicht": 8,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "handle_l100_dold",
+  "id": "CAD-051",
+  "name": "Schubladengriff DOLD A-75873, Lochabstand 100 mm",
+  "stueck_in_ansicht": 1,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "hinged_M6_40_dold",
+  "id": "CAD-052",
+  "name": "Gelenkfuß M6×20 / Teller Ø40 mm",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "hiwin_rail_MGNR12R150HM",
+  "id": "CAD-053",
+  "name": "HIWIN MGNR12R150HM, Z-Schiene 150 mm",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "hiwin_slide_MGN12CZ0H",
+  "id": "CAD-054",
+  "name": "HIWIN MGN12CZ0HM Z-Führungswagen",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "iso_8673_nut_m3",
+  "id": "CAD-056",
+  "name": "Sechskantmutter DIN 934 M3 A2",
+  "stueck_in_ansicht": 36,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "iso_8673_nut_m4",
+  "id": "CAD-057",
+  "name": "Sechskantmutter DIN 934 M4 A2",
+  "stueck_in_ansicht": 62,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "iso_8673_nut_m8",
+  "id": "CAD-058",
+  "name": "ISO 8673 Mutter M8",
+  "stueck_in_ansicht": 8,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "teilweise geklärt"
+ },
+ {
+  "cad_name": "mean_well_MHS-012_mounting_bracket",
+  "id": "CAD-059",
+  "name": "Mean Well MHS012 Montagewinkel",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "pcb_holder_glider",
+  "id": "CAD-067",
+  "name": "Platine Halter Gleiter",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "pcb_holder_guiding_holder_round_d10",
+  "id": "CAD-068",
+  "name": "Platine Halter Führung Halter rund d 10",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "pcb_holder_guiding_round",
+  "id": "CAD-069",
+  "name": "Platine Halter Führung rund",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Bestellung",
+  "technik": "Zuschnitt vom Händler",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "pcb_holder_rect_rod",
+  "id": "CAD-070",
+  "name": "Platine Halter rechteckig Stange",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Eigenfertigung",
+  "technik": "Werkstatt: Ablängen/Drehen aus Halbzeug",
+  "status": "Fertigung noch offen"
+ },
+ {
+  "cad_name": "pcb_holder_rod_short_round_d10",
+  "id": "CAD-071",
+  "name": "Platine Halter Stange kurz rund d 10",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "pcb_holder_rod_short_round_d10_mirrored",
+  "id": "CAD-072",
+  "name": "Platine Halter Stange kurz rund d 10 gespiegelt",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "power_switch_holder",
+  "id": "CAD-074",
+  "name": "Stromversorgung Schalter Halter",
+  "stueck_in_ansicht": 1,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "pulley_gt2_9mm",
+  "id": "CAD-076",
+  "name": "GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG",
+  "stueck_in_ansicht": 8,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "pulley_gt2_z16_6mm",
+  "id": "CAD-077",
+  "name": "GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm",
+  "stueck_in_ansicht": 12,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "return_pulley_gt2_z16_6mm",
+  "id": "CAD-078",
+  "name": "GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm",
+  "stueck_in_ansicht": 20,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "rod_holder_flange_d10_dold",
+  "id": "CAD-079",
+  "name": "SHF10 Flanschhalter fürØ10 mm Welle",
+  "stueck_in_ansicht": 16,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "rod_slide_d10_l19",
+  "id": "CAD-080",
+  "name": "GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm",
+  "stueck_in_ansicht": 16,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "screw_on_bracket_30_6",
+  "id": "CAD-081",
+  "name": "Anschraubwinkel 30 / Nut 6",
+  "stueck_in_ansicht": 26,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "signal_multiplexer_holder",
+  "id": "CAD-083",
+  "name": "Signal-Multiplexer Halter",
+  "stueck_in_ansicht": 1,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "telescopic_bar_tsaa514613-350",
+  "id": "CAD-084",
+  "name": "Teleskopschiene 350 mm, Vollauszug",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "x_belt",
+  "id": "CAD-087",
+  "name": "GT2-Riemen X, 6 mm breit",
+  "stueck_in_ansicht": 8,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "x_belt_holder",
+  "id": "CAD-088",
+  "name": "X-Achse Riemen Halter",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "x_belt_holder_1",
+  "id": "CAD-089",
+  "name": "X-Achse Riemen Halter 1",
+  "stueck_in_ansicht": 12,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "x_drag_chain_adapter",
+  "id": "CAD-090",
+  "name": "X-Achse Schlepp Energiekette Adapter",
+  "stueck_in_ansicht": 8,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "x_end_stop_holder_side_short",
+  "id": "CAD-091",
+  "name": "X-Achse Endschalter Halter Seite kurz",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "x_end_stop_holder_top_long",
+  "id": "CAD-092",
+  "name": "X-Achse Endschalter Halter oben lang",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "x_end_stop_top_long",
+  "id": "CAD-093",
+  "name": "X-Achse Endschalter oben lang",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Bestellung",
+  "technik": "Zuschnitt vom Händler",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "x_end_stop_top_short",
+  "id": "CAD-094",
+  "name": "X-Achse Endschalter oben kurz",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Bestellung",
+  "technik": "Zuschnitt vom Händler",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "x_guiding_cpc_MR12M",
+  "id": "CAD-095",
+  "name": "CPC MR12M Führungsschiene 600 mm",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "x_motor_plate",
+  "id": "CAD-096",
+  "name": "X-Achse Motor Platte",
+  "stueck_in_ansicht": 1,
+  "beschaffung": "Eigenfertigung",
+  "technik": "Werkstatt: Platten aus Blech/Alu",
+  "status": "Fertigung noch offen"
+ },
+ {
+  "cad_name": "x_motor_plate_2",
+  "id": "CAD-097",
+  "name": "X-Achse Motor Platte 2",
+  "stueck_in_ansicht": 1,
+  "beschaffung": "Eigenfertigung",
+  "technik": "Werkstatt: Platten aus Blech/Alu",
+  "status": "Fertigung noch offen"
+ },
+ {
+  "cad_name": "x_round_rail",
+  "id": "CAD-098",
+  "name": "X-Achse rund Schiene",
+  "stueck_in_ansicht": 8,
+  "beschaffung": "Bestellung",
+  "technik": "Zuschnitt vom Händler",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "x_side_plate",
+  "id": "CAD-099",
+  "name": "X-Achse Seite Platte",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Eigenfertigung",
+  "technik": "Werkstatt: Platten aus Blech/Alu",
+  "status": "Fertigung noch offen"
+ },
+ {
+  "cad_name": "x_side_plate_moving",
+  "id": "CAD-100",
+  "name": "X-Achse Seite Platte beweglich",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Eigenfertigung",
+  "technik": "Werkstatt: Platten aus Blech/Alu",
+  "status": "Fertigung noch offen"
+ },
+ {
+  "cad_name": "x_slide_inductive_endstop_adapter",
+  "id": "CAD-101",
+  "name": "X-Achse Schlitten induktiv Endschalter Adapter",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "x_slide_inductive_endstop_adapter_mirrored",
+  "id": "CAD-102",
+  "name": "X-Achse Schlitten induktiv Endschalter Adapter gespiegelt",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "x_slide_stiffener_beam",
+  "id": "CAD-103",
+  "name": "X-Achse Schlitten Versteifung Träger",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Bestellung",
+  "technik": "Zuschnitt vom Händler",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "y_belt",
+  "id": "CAD-104",
+  "name": "GT2-Riemen Y, 6 mm breit",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "y_camera_holder",
+  "id": "CAD-105",
+  "name": "Y-Achse Kamera Halter",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "y_camera_holder_compact",
+  "id": "CAD-106",
+  "name": "Y-Achse Kamera Halter kompakt",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "y_slide",
+  "id": "CAD-107",
+  "name": "Y-Achse Schlitten",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "y_slide_distance_rod",
+  "id": "CAD-108",
+  "name": "Y-Achse Schlitten Abstand Stange",
+  "stueck_in_ansicht": 8,
+  "beschaffung": "Eigenfertigung",
+  "technik": "Werkstatt: Ablängen/Drehen aus Halbzeug",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "y_slide_distance_tube_2mm",
+  "id": "CAD-109",
+  "name": "Y-Achse Schlitten Abstand Rohr 2 mm",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "y_slide_mirrored",
+  "id": "CAD-110",
+  "name": "Y-Achse Schlitten gespiegelt",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "y_slide_mirrored_top",
+  "id": "CAD-111",
+  "name": "Y-Achse Schlitten gespiegelt oben",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "y_slide_top",
+  "id": "CAD-112",
+  "name": "Y-Achse Schlitten oben",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "z_drive_belt",
+  "id": "CAD-113",
+  "name": "GT2-Riemen Z, 9 mm breit",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Bestellung",
+  "technik": "Kaufteil",
+  "status": "bestellfähig"
+ },
+ {
+  "cad_name": "z_drive_belt_holder_v3",
+  "id": "CAD-114",
+  "name": "Z-Achse Antrieb Riemen Halter v 3",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "z_slide_cable_holder",
+  "id": "CAD-118",
+  "name": "Z-Achse Schlitten Kabel Halter",
+  "stueck_in_ansicht": 4,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "z_slide_end_stop_trigger.psm",
+  "id": "CAD-119",
+  "name": "Z-Achse Schlitten Endschalter Auslöser",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ },
+ {
+  "cad_name": "z_slide_end_stop_trigger_mirrored.psm",
+  "id": "CAD-120",
+  "name": "Z-Achse Schlitten Endschalter Auslöser gespiegelt",
+  "stueck_in_ansicht": 2,
+  "beschaffung": "Eigenfertigung",
+  "technik": "3D-Druck (PETG)",
+  "status": "Fertigung spezifiziert"
+ }
+]
