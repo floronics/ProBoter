@@ -167,3 +167,6 @@ M10,Verkleidung,base:1,CAD-008,Grundgestell: Abdeckung oben,base_cover_top,2,2,b
 M10,Verkleidung,base:1,CAD-007,Grundgestell: Abdeckung lang Seite,base_cover_long_side,2,2,bestellfähig,Kaufteile,
 M10,Verkleidung,ohne CAD,SYS-059,"Zylinderschraube DIN 912 M5×10 A2, Abdeckungen",,18,18,bestellfähig,Kaufteile,
 M10,Verkleidung,ohne CAD,SYS-060,"Nutenstein I-Typ Nut 6, M5, Abdeckungen",,18,18,bestellfähig,Kaufteile,
+M12,Beleuchtung,ohne CAD,SYS-007,Weißer 24-V-LED-Streifen LUXULA LX700101,,1.9,1.9,bestellfähig,Kaufteile,
+M12,Beleuchtung,ohne CAD,SYS-008,"LED-Aluprofile Barthelme BARdolino mit Diffusor, Kappen, Klammern",,1,1,bestellfähig,Kaufteile,
+M12,Beleuchtung,ohne CAD,SYS-009,LED-Anschluss an den Heizbett-Ausgang der Licht-Steuerplatine,,1,1,teilweise geklärt,Kaufteile,

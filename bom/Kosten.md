@@ -10,11 +10,11 @@ im Shop bestätigen. Kein Warenkorb wurde bestellt.
 
 | Umfang | netto | brutto |
 | --- | --- | --- |
-| 1. Beobachtete Webpreise × geplante Bestellpackungen | 3.105,99 € | 3.696,23 € |
-| Davon Positionen mit Status bestellfähig | 2.828,16 € | 3.365,62 € |
-| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 277,83 € | 330,61 € |
-| Eigene Budgetschätzungen zusätzlich | 851,30 € | 1.013,03 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.957,29 € | 4.709,26 € |
+| 1. Beobachtete Webpreise × geplante Bestellpackungen | 3.143,43 € | 3.740,78 € |
+| Davon Positionen mit Status bestellfähig | 2.871,44 € | 3.417,12 € |
+| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 271,99 € | 323,66 € |
+| Eigene Budgetschätzungen zusätzlich | 826,09 € | 983,03 € |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.969,52 € | 4.723,81 € |
 | 3. Noch unbezifferte Positionen: 20 | nicht berechenbar | nicht berechenbar |
 
 **Der Gesamtpreis eines funktionierenden Nachbaus bleibt offen.** Die Summe unter 2
@@ -64,7 +64,7 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | BEFFUCHS | 9,41 € | 5,95 € | 15,36 € |
 | DAMEN | 370,09 € | 0,00 € | 370,09 € |
 | DIGIKEY | 175,55 € | 0,00 € | 175,55 € |
-| DOLD | 652,45 € | 365,00 € | 1.017,45 € |
+| DOLD | 652,45 € | 335,00 € | 987,45 € |
 | DOMOTICX | 3,60 € | 0,00 € | 3,60 € |
 | EISEN2000 | 113,65 € | 0,00 € | 113,65 € |
 | ELCO | 298,17 € | 0,00 € | 298,17 € |
@@ -74,7 +74,7 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | OFFEN | 0,00 € | 150,00 € | 150,00 € |
 | PLATTENZUSCHNITT24 | 0,00 € | 31,00 € | 31,00 € |
 | RBS | 457,90 € | 30,00 € | 487,90 € |
-| REICHELT | 94,44 € | 195,00 € | 289,44 € |
+| REICHELT | 138,99 € | 195,00 € | 333,99 € |
 | SCHRAUBEN | 103,10 € | 29,00 € | 132,10 € |
 | STEPPERONLINE | 0,00 € | 38,08 € | 38,08 € |
 | TINYTRONICS | 30,00 € | 0,00 € | 30,00 € |
@@ -94,7 +94,7 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | OPEN-SYS-003 | Signal-Multiplexer, unbestückte Leiterplatte | CAD-082 ist nur Platzhalter. Schaltplan/Gerber/Board-BOM fehlen; USB/9600Baud-Protokoll ist keine Schaltung. |
 | OPEN-SYS-005 | Innere Messing-Referenzzylinder | Je 1×Ø7/8/9/10 mm nach Reference Board.inner_brass_pin_position_map; Raster 11,95×19,95 mm. Endfläche auf Bezugsebene; Gesamtlänge, Einbau, Toleranzen und Messprotokoll fehlen. |
 | OPEN-SYS-006 | Kalibriermarker / matte Druckvorlage | 4 Hamming-Marker mit IDs 1/3/6/12 laut Reference Board, je 18,2×18,2 mm, Raster 60×80 mm. Mtracker-Format verwenden, keine beliebigen Ar Uco-Marker. Maßstab 1:1 und reale Abstände vermessen. |
-| OPEN-SYS-009 | LED-Anschluss an vorhan denen SKR-Ausgang | Configuration_adv.h:4396 setzt PROBOTER_LIGHT_CONTROL_PIN auf HEATER_BED_PIN; M376 steuert Helligkeit. Kein separater USB-LED-Controller nötig. Stecker/Leitungen, Strom und Flimmern prüfen; keine zusätzliche MOSFET-Platine pauschal kaufen. |
+| OPEN-SYS-009 | LED-Anschluss an den Heizbett-Ausgang der Licht-Steuerplatine | Configuration_adv.h:4396 setzt PROBOTER_LIGHT_CONTROL_PIN auf HEATER_BED_PIN; M376 steuert Helligkeit. Kein separater USB-LED-Controller nötig. Stecker/Leitungen, Strom und Flimmern prüfen; keine zusätzliche MOSFET-Platine pauschal kaufen. |
 | OPEN-SYS-017 | Sensor-Gegenstecker und Kontakte | 24 induktiv+4 optisch; bei steckerfertigem Beipack reduzieren. Keine generischen JST/Dupont ohne Rasterprüfung. |
 | OPEN-SYS-019 | Sensor-Pegelanpassung / Eingangsschutz | Bedarf abhängig von M8-Ausgang; 24 V/3,3 V-Interface. Keine Schaltung/BOM vorhan den; nicht blind 24Module bestellen. |
 | OPEN-SYS-023 | Signal-Multiplexer Bestückung | MCU, USB/Versorgung, Schalter/Relais, Schutz, Stecker, Passives und Montage nach noch fehlendem Schaltplan. Keine Stückzahlen erfinden. |

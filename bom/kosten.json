@@ -1,15 +1,15 @@
 {
   "web": {
-    "net": "3105.99",
-    "gross": "3696.23"
+    "net": "3143.43",
+    "gross": "3740.78"
   },
   "estimates": {
-    "net": "851.30",
-    "gross": "1013.03"
+    "net": "826.09",
+    "gross": "983.03"
   },
   "provisional": {
-    "net": "3957.29",
-    "gross": "4709.26"
+    "net": "3969.52",
+    "gross": "4723.81"
   },
   "date": "2026-10-16",
   "parts": 180,
@@ -39,8 +39,8 @@
   "status_counts": {
     "Fertigung spezifiziert": 37,
     "Fertigung noch offen": 23,
-    "bestellfähig": 85,
-    "teilweise geklärt": 29,
+    "bestellfähig": 87,
+    "teilweise geklärt": 27,
     "nicht identifiziert": 1,
     "nicht benötigt": 5
   }

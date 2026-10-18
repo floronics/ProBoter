@@ -14,6 +14,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | [M08 Optik](#modul-08) | 8 | 22 | 4 | 0 | 1 | 3 | 0 | 0 |
 | [M09 Prüfspitzen](#modul-09) | 7 | 48 | 2 | 4 | 1 | 0 | 0 | 0 |
 | [M10 Verkleidung](#modul-10) | 4 | 40 | 4 | 0 | 0 | 0 | 0 | 0 |
+| [M12 Beleuchtung](#modul-12) | 3 | 3.9 | 2 | 1 | 0 | 0 | 0 | 0 |
 
 <a id="modul-01"></a>
 
@@ -425,6 +426,25 @@ Abdeckungen oben und seitlich; laut Luis keine tragende Funktion.
 **Offene Fragen**
 
 - Acrylglas-Preis nur im Konfigurator von plattenzuschnitt24 ablesbar (Schätzung 31 EUR).
+
+<a id="modul-12"></a>
+
+## M12 Beleuchtung
+
+LED-Beleuchtung rundum oben innen am Rahmen, geschaltet und gedimmt über den Heizbett-Ausgang der Licht-Steuerplatine (Einheit 3, M376).
+
+*Am 18.10.2026 angelegt; keine CAD-Teile.*
+
+| ID / Teil | CAD-Name | Stück | Status | Beschaffungsart |
+| --- | --- | --- | --- | --- |
+| [SYS-007](../Teileliste.md#sys-007) Weißer 24-V-LED-Streifen LUXULA LX700101 | nicht im CAD | 1.9 | bestellfähig | Kaufteile |
+| [SYS-008](../Teileliste.md#sys-008) LED-Aluprofile Barthelme BARdolino mit Diffusor, Kappen, Klammern | nicht im CAD | 1 | bestellfähig | Kaufteile |
+| [SYS-009](../Teileliste.md#sys-009) LED-Anschluss an den Heizbett-Ausgang der Licht-Steuerplatine | nicht im CAD | 1 | teilweise geklärt | Kaufteile |
+
+**Offene Fragen**
+
+- Befestigung der BARdolino-Klammern am 30er-Profil (Schraube + Nutenstein) festlegen.
+- Anschlussleitung von der SKR zu den 4 Profilstücken (2-adrig, ca. 0,5 mm²) bei M11 Verkabelung mitplanen.
 
 ## Abdeckung
 

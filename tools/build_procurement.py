@@ -171,9 +171,9 @@ SYSTEM = [
 ('004','Kalibrier-Referenzkörper / Platte',1,'Stück','3D-Druck intern','RBS','Geometrie mit aktueller Software festlegen; Plattendicke5,1mm ist Konfigurationswert, keine validierte Zeichnung.',SOFTWARE),
 ('005','Innere Messing-Referenzzylinder',4,'Stück','Weitere Fertigung','DOLD','Je1×Ø7/8/9/10mm nach ReferenceBoard.inner_brass_pin_position_map; Raster11,95×19,95mm. Endfläche auf Bezugsebene; Gesamtlänge, Einbau, Toleranzen und Messprotokoll fehlen.','../software/hardware-control/proboter/tasks/utils/reference_board.py'),
 ('006','Kalibriermarker / matte Druckvorlage',1,'Satz','Weitere Fertigung','OFFEN','4Hamming-Marker mitIDs1/3/6/12 lautReferenceBoard, je18,2×18,2mm, Raster60×80mm. Mtracker-Format verwenden, keinebeliebigenArUco-Marker. Maßstab1:1 undrealeAbstände vermessen.','../software/hardware-control/proboter/tasks/utils/reference_board.py'),
-('007','Weißer24-V-LED-Streifen',2,'m','Kaufteile','REICHELT','2m vorläufig;5m-Rolle. Weiß4500K vorgeschlagen; Leistung, Flimmern und Lichtverteilung testen.',BLOG),
-('008','LED-Aluprofile, Diffusoren, Kappen, Halter',2,'m','Kaufteile','DOLD','8mm-Streifen aufnehmen, Wärmeabfuhr und Befestigung; genaue Aufteilung/Menge offen. Keine Doppelrechnung als Band.',BLOG),
-('009','LED-Anschluss an vorhandenen SKR-Ausgang',1,'Satz','Kaufteile','REICHELT','Configuration_adv.h:4396 setzt PROBOTER_LIGHT_CONTROL_PIN auf HEATER_BED_PIN; M376 steuert Helligkeit. Kein separater USB-LED-Controller nötig. Stecker/Leitungen, Strom und Flimmern prüfen; keine zusätzliche MOSFET-Platine pauschal kaufen.','../firmware/Marlin/Configuration_adv.h'),
+('007','Weißer 24-V-LED-Streifen LUXULA LX700101',1.9,'m','Kaufteile','REICHELT','Rundum oben innen am Rahmen (Entscheidung Luis 18.10.2026): 2×590 + 2×350 mm ≈ 1,9 m aus 5-m-Rolle. 4500 K, 28 W je 5 m ⇒ ca. 10,6 W / 0,44 A bei 1,9 m. PWM-Flimmern mit der Kamera testen.',BLOG),
+('008','LED-Aluprofile Barthelme BARdolino mit Diffusor, Kappen, Klammern',1,'Satz','Kaufteile','REICHELT','2 Profile 1 m flach, 2 Abdeckungen opal, 4 Endkappen, 6 Klammern; Klammern auf die Rahmenprofile schrauben (Entscheidung Luis 18.10.2026).',BLOG),
+('009','LED-Anschluss an den Heizbett-Ausgang der Licht-Steuerplatine',1,'Satz','Kaufteile','REICHELT','Configuration_adv.h:4396 setzt PROBOTER_LIGHT_CONTROL_PIN auf HEATER_BED_PIN; M376 steuert Helligkeit. Kein separater USB-LED-Controller nötig. Stecker/Leitungen, Strom und Flimmern prüfen; keine zusätzliche MOSFET-Platine pauschal kaufen.','../firmware/Marlin/Configuration_adv.h'),
 ('010','USB-Hub7Port aktiv',1,'Stück','Kaufteile','REICHELT','Steuergeräte am Hub; zwei separate Kamera-Hostports vorausgesetzt. Netzteil und Hubkabel enthalten.',SOFTWARE),
 ('011','USB-Kabel für4SKR',4,'Stück','Kaufteile','REICHELT','HostUSB-A auf BoardUSB-B bestätigen; Länge vorläufig2m jeBoard, Ports/Verlegung prüfen.',FIRMWARE),
 ('012','USB-Kabel für MUX/UART/Zielversorgung',3,'Stück','Kaufteile','REICHELT','3 Verbindungen aus Softwarekonfiguration, Geräteseite und enthaltene Kabel offen; nur nach Geräteauswahl kaufen.',SOFTWARE),
@@ -361,7 +361,7 @@ def make_parts():
         if group in ['PCB extern','3D-Druck intern','Weitere Fertigung']: status='Fertigung noch offen'
         if group=='Ungeklärte Teile': status='nicht identifiziert'
         if group=='Nicht benötigt': status='nicht benötigt'
-        if key in ('016','027','028','057','059','060','041','042','043','044','045','046','047','048','049','050','051','052','053','054','055','056'): status='bestellfähig'
+        if key in ('007','008','016','027','028','057','059','060','041','042','043','044','045','046','047','048','049','050','051','052','053','054','055','056'): status='bestellfähig'
         result.append(dict(id='SYS-'+key,name=title,cad_name='',cad_quantity='',fusion_quantity='',quantity=qty,
                            unit=unit,group=group,status=status,geometry_mm='',solid_volume_cm3='',
                            material='nicht belegt',process_evidence='Planungsbedarf; '+source,
@@ -425,7 +425,7 @@ def make_orders(parts):
     add('BUY-010','Übersichtskamera ELP-USBFHD01M-H100',['SYS-002'],1,offer='O-088',estimate=None)
     add('BUY-011','USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG Halter)',ids(85),1,offer='O-087')
     add('BUY-012','Aktiver7Port-USB-Hub',['SYS-010'],1,offer='O-013')
-    add('BUY-013','LED5m-Rolle fürgeplant2m',['SYS-007'],2,unit='m',offer='O-014')
+    add('BUY-013','LED-Streifen 5-m-Rolle für 1,9 m',['SYS-007'],D('1.9'),unit='m',offer='O-014')
     add('ALT-001','MR12MLVergleich, keine bestätigteCPC-Paarung',ids(27),8,offer='O-015',optional=True)
     add('ALT-002','MGN12CNachbauvergleich, keinHIWIN',ids(54),4,offer='O-016',optional=True)
     add('OPT-001','3zusätzlicheMikroskope',['SYS-033'],3,offer='O-012',optional=True,note='Nur Kamerapreis; zusätzliche Kabel, Halteränderung und USB-Topologie nicht kalkuliert.')
@@ -454,6 +454,7 @@ def make_orders(parts):
     add('BUY-CAB','24 Sensorleitungen ifm EVC141',['SYS-016'],24,offer=cad_offers['SYS-016'])
     add('BUY-PIN','Prüfstifte P75-B1 (CAD-Spitze)',ids(115),10,offer=cad_offers['CAD-115'])
     add('MAT-010','Acrylglas-Abdeckungen, Zuschnitt-Los',ids(7,8),1,unit='Los',offer=cad_offers['CAD-007'],estimate='31',note='Schätzung ca. 74 EUR/m² × 0,418 m² (zwischen 4- und 6-mm-Preis); exakter Preis im Konfigurator.')
+    add('BUY-LEDP','LED-Profilsatz BARdolino',['SYS-008'],1,unit='Satz',offer=cad_offers['SYS-008'])
     for n in (51,52,59,81,84):
         p=byid[f'CAD-{n:03}']
         add(f'BUY-C{n:03}',p['name'],[p['id']],p['quantity'],offer=cad_offers[p['id']])
@@ -467,7 +468,7 @@ def make_orders(parts):
     add('MAT-004','Präzisionswellen Ø10, Zuschnitt-Los',ids(69,98),1,unit='Los',offer='O-064')
     add('MAT-005','Versteifungsprofile40×16 undHalte-/Distanzstäbe',ids(70,108),1,unit='Los',estimate='100',note='Eigenes100EUR-Bruttobudget fürProfile4×436mm, Rechteck2×205mm, Ø8Trigger4×125+4×75mm, Ø4Stäbe8×70mm und4Distanzteile. Material/Profile noch klären.')
     add('MAT-006','Blechrohmaterial undVerschnitt',[p['id'] for p in parts if p['group']=='Blech intern'],1,unit='Los',estimate='200',note='Eigener200EUR-Bruttobudgettopf für3/5mmPlatten und noch nicht abgewickelteTeile. Kein Händlerangebot; Material/Flachzuschnitte noch nicht bestellfähig. InterneArbeits-/Maschinenzeit ausgeschlossen.')
-    for key,amount in [('008','30'),('011','20'),('012','15'),('013','15'),('014','64'),('015','25'),('018','60'),('020','35'),('021','15'),('022','60'),('025','20'),('029','35'),('030','20'),('031','35'),('032','30')]:
+    for key,amount in [('011','20'),('012','15'),('013','15'),('014','64'),('015','25'),('018','60'),('020','35'),('021','15'),('022','60'),('025','20'),('029','35'),('030','20'),('031','35'),('032','30')]:
         p=byid['SYS-'+key]
         add('BUD-S'+key,p['name'],[p['id']],1,unit='Los',estimate=amount,note='Eigener Gesamt-Budgetansatz fürden inTeileliste genanntenBedarf; kein konkretesArtikelangebot. Beipack undvorhandeneBestände abziehen.')
     # All remaining required rows remain explicit and unpriced, never implicit zeroes.

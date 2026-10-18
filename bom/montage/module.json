@@ -1435,6 +1435,32 @@
       "offen": [
         "Acrylglas-Preis nur im Konfigurator von plattenzuschnitt24 ablesbar (Schätzung 31 EUR)."
       ]
+    },
+    {
+      "id": "M12",
+      "name": "Beleuchtung",
+      "beschreibung": "LED-Beleuchtung rundum oben innen am Rahmen, geschaltet und gedimmt über den Heizbett-Ausgang der Licht-Steuerplatine (Einheit 3, M376).",
+      "stand": "Am 18.10.2026 angelegt; keine CAD-Teile.",
+      "teile": [
+        {
+          "scope": "system",
+          "sys": "SYS-007"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-008"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-009"
+        }
+      ],
+      "zusatz": [],
+      "entfernt": [],
+      "offen": [
+        "Befestigung der BARdolino-Klammern am 30er-Profil (Schraube + Nutenstein) festlegen.",
+        "Anschlussleitung von der SKR zu den 4 Profilstücken (2-adrig, ca. 0,5 mm²) bei M11 Verkabelung mitplanen."
+      ]
     }
   ]
 }
