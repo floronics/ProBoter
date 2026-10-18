@@ -205,7 +205,7 @@ SYSTEM = [
 ('038','Kalibrier-Kontaktleitungen und gemeinsame Messreferenz',1,'Satz','Kaufteile','TME','4SKR-Zentriereingänge P0_17 mitPull-up/aktivLow sowie Referenzkörper/Kontaktkreis verdrahten. Netzplan, Stecker, Länge undBezugspotenzial mitMultiplexer klären; keineVerbindung ungeprüft festlegen.','../firmware/Marlin/src/module/proboter.cpp'),
 ('039','Erhöhte Messing-Referenzzylinder',4,'Stück','Weitere Fertigung','OFFEN','WERKSTATT aus Messing-Rundstab Ø7 (Entscheidung Luis 18.10.2026): Raster 59,6×39,9 mm, Endflächen 6/8/10/12 mm über der Plattenoberfläche, in Türmen der Platte.','../software/hardware-control/proboter/tasks/utils/reference_board.py'),
 ('040','Äußere flache Messing-Referenzzylinder Ø7',4,'Stück','Weitere Fertigung','OFFEN','WERKSTATT aus Messing-Rundstab Ø7 (Entscheidung Luis 18.10.2026): Mittelpunkte (±54,95; 0) und (0; ±44,9) mm, bündig.','../software/hardware-control/proboter/tasks/utils/reference_board.py'),
-('041','Nutenstein I-Typ Nut 6, M6, Motorplatten',8,'Stück','Kaufteile','DOLD','Fusion-Kontaktanalyse M01: die 8 Senkschrauben M6×20 der Motorplatten greifen in die Nut der 60×30-Profile; im CAD kein Gegenstück.',CAD),
+('041','Nutenstein I-Typ Nut 6, M6, Motorplatten',0,'Stück','Nicht benötigt','OFFEN','Entfällt (Luis 18.10.2026): Fusion-Messung zeigt die 8 Senkschrauben M6×20 der Motorplatten in den Stirnseiten der 60×30-Profile auf den Kernbohrungen, nicht in der Nut. M6-Gewinde intern, siehe CAD-014.',CAD),
 ('042','Nutenstein I-Typ Nut 6, M4, Rückwand',6,'Stück','Kaufteile','DOLD','Fusion-Kontaktanalyse M01: 6 Bohrungen Ø4,5 der Rückwand liegen auf den langen Profilen; im CAD keine Befestigung.',CAD),
 ('043','Zylinderschraube DIN 912 M4×10 A2, Rückwand',6,'Stück','Kaufteile','SCHRAUBEN','Zu SYS-042; 3 mm Rückwand plus Nutenstein.',CAD),
 ('044','Nutenstein I-Typ Nut 6, M5, Griff',2,'Stück','Kaufteile','DOLD','Griff A-75873 mit Durchgangsbohrungen wird von vorn ins Schubladenprofil geschraubt.',CAD),
@@ -346,6 +346,8 @@ def make_parts():
             process_evidence='WERKSTATT: eigene Fertigung aus Stahl- oder Aluminiumblech (Entscheidung Luis 17.10.2026); Original lasergeschnitten (Blog)'
             material='Stahl- oder Aluminiumblech 5 mm, Werkstattentscheidung'
             note='5 mm Stahl, 550×135 mm. Fusion-Messung: 16 Kernlöcher Ø2,46 für M3-Gewinde (Riemenspanner), Senkungen für M6 und Ø22-Durchbrüche für die Motoren. Kontur und Bohrungen aus CAD; Gewinde und Senkungen intern. Zeichnung mit Lagetoleranzen der Führungsbohrungen fehlt.'
+        if key=='CAD-014':
+            note='Querschnitt und Länge aus CAD (2×650 mm). Beide Stirnseiten je 2× M6-Gewinde in die Kernbohrungen Ø5 (15/45 mm) für die Senkschrauben M6×20 der Motorplatten, ≥ 16 mm tief, intern schneiden (Entscheidung Luis 18.10.2026).'
         if key=='CAD-020':
             note='Querschnitt und Länge aus CAD (4×350 mm). Unten M6-Gewinde in die Kernbohrung Ø5 für die Gelenkfüße, intern schneiden (Entscheidung 17.10.2026). Profilserie siehe M01.'
         if key=='CAD-109':
@@ -362,7 +364,7 @@ def make_parts():
         if group=='Ungeklärte Teile': status='nicht identifiziert'
         if group=='Nicht benötigt': status='nicht benötigt'
         if key in ('005','006','037','039','040'): status='Fertigung spezifiziert'
-        if key in ('007','008','016','027','028','057','059','060','041','042','043','044','045','046','047','048','049','050','051','052','053','054','055','056'): status='bestellfähig'
+        if key in ('007','008','016','027','028','057','059','060','042','043','044','045','046','047','048','049','050','051','052','053','054','055','056'): status='bestellfähig'
         result.append(dict(id='SYS-'+key,name=title,cad_name='',cad_quantity='',fusion_quantity='',quantity=qty,
                            unit=unit,group=group,status=status,geometry_mm='',solid_volume_cm3='',
                            material='nicht belegt',process_evidence='Planungsbedarf; '+source,
@@ -445,7 +447,7 @@ def make_orders(parts):
     add('BUY-025','8 Anschlusssätze E2.10 breit',['SYS-028'],8,unit='Satz',offer='O-051')
     add('BUY-017','Z-Riemen 9 mm',ids(113),D('1.28'),unit='m',offer='O-044',note='Zuschnitt aus Fusion-Messung 4×0,32 m.')
     add('BUY-SYS-057','10 Prüfstifte P75-E2',['SYS-057'],10,offer=cad_offers['SYS-057'])
-    for key in ['SYS-0'+str(k) for k in list(range(41,57))+[59,60]]:
+    for key in ['SYS-0'+str(k) for k in list(range(42,57))+[59,60]]:
         add('BUY-'+key,byid[key]['name'],[key],byid[key]['quantity'],offer=cad_offers[key])
     add('MAT-007','Aluprofil 40x16S Nut 8, Zuschnitt',ids(103),1,unit='Los',offer=cad_offers['CAD-103'])
     add('MAT-008','Aluprofil 80x16S Nut 8, Zuschnitt, Kandidat',ids(9),1,unit='Los',offer=cad_offers['CAD-009'])

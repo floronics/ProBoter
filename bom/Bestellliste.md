@@ -8,9 +8,9 @@
 
 | Ergebnis | netto | brutto 19% |
 | --- | --- | --- |
-| 1. Summe belegter Webpreise bei Planmengen (einschließlich ungeprüfter Kandidaten) | 3.143,43 € | 3.740,78 € |
+| 1. Summe belegter Webpreise bei Planmengen (einschließlich ungeprüfter Kandidaten) | 3.139,40 € | 3.735,98 € |
 | Zusätzliche eigene Budgetschätzungen inklusive Frachtreserve | 826,09 € | 983,03 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.969,52 € | 4.723,81 € |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.965,49 € | 4.719,01 € |
 | 3. 21 noch unbezifferte Bestellpositionen | offen | offen |
 
 **Das vorläufige Total ist kein vollständiger Baupreis.** Die unbezifferten Platinen, Prüfkontakte, Sensoren und Kalibrierteile kommen hinzu. Ein vorhan dener Shoppreis beweist keine Austauschbarkeit. [Kostenmethodik](Kosten.md) trennt Preise, Mengenannahmen und offene Bedarfe.
@@ -60,7 +60,6 @@ TMC2130, Rollen, Lager und Kamerakandidaten besitzen konkrete Bezugsquellen, ben
 | **BUY-025** 8 Anschlusssätze E2.10 breit<br>SYS-028 | 8 Satz → 8 × 1 | [DIGIKEY](https://www.digikey.de/de/products/detail/igus/E2-100-20-34PZ/13157712) / E2-100-20-34PZ<br>igus: E2.100.20.34PZ<br>42 vorrätig | 6,76 € netto | 54,08 € / 64,36 € | Breite 27,4 = CAD-Anschlusskörper.  |
 | **BUY-017** Z-Riemen 9 mm<br>CAD-113 | 1,28 m → 2 × 1 | [RBS](https://www.roboter-bausatz.de/p/1-meter-gt2-zahnriemen-gates-ll2gt-rf-9mm) / RBS14040<br>Maker Mind (Shopangabe; Titel nennt Gates LL-2GT RF): LL-2GT RF 9 mm<br>sofort verfügbar; 1–3 Werktage | 8,69 € brutto | 14,61 € / 17,38 € | GT2, 9 mm breit = CAD. Bedarf 4×0,32 m. Zuschnitt aus Fusion-Messung 4×0,32 m. |
 | **BUY-SYS-057** 10 Prüfstifte P75-E2<br>SYS-057 | 10 Stück → 10 × 1 | [DOMOTICX](https://domoticx.net/webshop/pogo-pin-test-probe-075mm-conisch-p75-e2/) / P75-E2<br>nicht angegeben: P75-E2<br>nicht geprüft | 0,18 € brutto | 1,51 € / 1,80 € | Gleicher Körper wie P75-B1, Kegelspitze.  |
-| **BUY-SYS-041** Nutenstein I-Typ Nut 6, M6, Motorplatten<br>SYS-041 | 8 Stück → 1 × 10 | [DOLD](https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M6) / 62354-VK<br>DOLD: 62354-VK<br>sofort verfügbar | 4,80 € brutto | 4,03 € / 4,80 € | Passend zu I-Typ Nut 6; Staffelpreis 0,48 EUR ab 10 Stück.  |
 | **BUY-SYS-042** Nutenstein I-Typ Nut 6, M4, Rückwand<br>SYS-042 | 6 Stück → 1 × 10 | [DOLD](https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M4) / 62347-VK<br>DOLD: 62347-VK<br>sofort verfügbar | 4,80 € brutto | 4,03 € / 4,80 € | Passend zu I-Typ Nut 6; Staffelpreis 0,48 EUR ab 10 Stück.  |
 | **BUY-SYS-043** Zylinderschraube DIN 912 M4×10 A2, Rückwand<br>SYS-043 | 6 Stück → 1 × 10 | [SCHRAUBEN](https://schrauben-expert.de/Zylinderschraube-DIN-912-M4-x-10-mm-Edelstahl-A2) / 912 4 10 A2<br>Schrauben.Expert: 912 4 10 A2<br>Expresslager 1–4 Werktage | 3,30 € brutto | 2,77 € / 3,30 € | 3 mm Rückwand + Nutenstein; gleicher Artikel wie CAD-043, separat für die Rückwand.  |
 | **BUY-SYS-044** Nutenstein I-Typ Nut 6, M5, Griff<br>SYS-044 | 2 Stück → 2 × 1 | [DOLD](https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M5) / 62361-VK<br>DOLD: 62361-VK<br>sofort verfügbar | 0,89 € brutto | 1,50 € / 1,78 € | Für die Griffschrauben M5.  |

@@ -1,133 +1,132 @@
-﻿Modul;Modulname;ID;Beschreibung;CAD/SYS-IDs;Distributor;Hersteller;Artikel-Nr.;Bedarf;Einheit;Bestellmenge;Brutto EUR;Optional;Bestelllink
-M01;Grundgerüst;BUY-C052;Gelenkfuß M6×20 / Teller Ø40 mm;CAD-052;DOLD;DOLD;GF-K-10-PA-028;4;Stück;4;6,00;;https://www.dold-mechatronik.de/index.php?a=91508
-M01, M05;Grundgerüst;BUY-C081;Anschraubwinkel 30 / Nut 6;CAD-081;DOLD;DOLD;62385-BS;26;Stück;26;68,90;;https://www.dold-mechatronik.de/Winkel-30-I-Typ-Nut-6-inkl-Befestigungssatz
-M01;Grundgerüst;BUY-SYS-041;Nutenstein I-Typ Nut 6, M6, Motorplatten;SYS-041;DOLD;DOLD;62354-VK;8;Stück;10;4,80;;https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M6
-M01;Grundgerüst;BUY-SYS-042;Nutenstein I-Typ Nut 6, M4, Rückwand;SYS-042;DOLD;DOLD;62347-VK;6;Stück;10;4,80;;https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M4
-M01;Grundgerüst;BUY-SYS-043;Zylinderschraube DIN 912 M4×10 A2, Rückwand;SYS-043;SCHRAUBEN;Schrauben.Expert;912 4 10 A2;6;Stück;10;3,30;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M4-x-10-mm-Edelstahl-A2
-M01, M05;Grundgerüst;MAT-002;30×30 Nut 6 Aluprofil, Zuschnitt-Los;"CAD-011;CAD-012;CAD-013;CAD-020";DOLD;DOLD;63009-Z;1;Los;1;93,68;;https://www.dold-mechatronik.de/Aluminiumprofil-30x30L-I-Typ-Nut-6-leicht-094kg-m-Zuschnitt-50-6000mm
-M01;Grundgerüst;MAT-003;60×30 Nut 6 Aluprofil schwer, Zuschnitt;CAD-014;DOLD;DOLD;71370-Z;1;Los;1;43,00;;https://www.dold-mechatronik.de/Aluminiumprofil-30x60S-I-Typ-Nut-6-schwer-22kg-m-Zuschnitt-50-6000mm
-M01, M02, M08;Grundgerüst;MAT-006;Blechrohmaterial und Verschnitt;"CAD-003;CAD-016;CAD-017;CAD-018;CAD-019;CAD-026;CAD-096;CAD-097;CAD-099;CAD-100";DOLD;nicht festgelegt;offen;1;Los;1;200,00;;https://www.dold-mechatronik.de/
-M01, M02, M06;Grundgerüst;N-034;DIN 7991 M6×20;CAD-034;SCHRAUBEN;Schrauben.Expert;7991 6 20 A2;25;Stück;25;5,00;;https://schrauben-expert.de/Senkschraube-ISO-10642-M6-x-20-Edelstahl-A2
-M02;X-Achse;ALT-001;MR12MLVergleich, keine bestätigte CPC-Paarung;CAD-027;MOTEDIS;nicht bestätigt;6344;8;Stück;8;185,74;ja;https://www.motedis.com/de/Fuehrungswagen-Miniatur-MR12ML-SS-V0-N-Edelstahl
-M02;X-Achse;BUY-003;16 Flanschhalter SHF10;CAD-079;DOLD;DOLD;11260;16;Stück;16;62,40;;https://www.dold-mechatronik.de/Wellenhalter-Flansch-SHF10
-M02, M03;X-Achse;BUY-004;12 X/Y-Antriebsriemenscheiben;CAD-077;RBS;MakerMind;RBS10278;12;Stück;12;11,40;;https://www.roboter-bausatz.de/p/gt2-riemenscheibe-z16-5mm-bohrung-6mm-riemen
-M02, M03;X-Achse;BUY-005;20 Umlenkrollen 6 mm, 8,5 mm breit;CAD-078;TINYTRONICS;nicht angegeben;002225;20;Stück;20;30,00;;https://www.tinytronics.nl/en/mechanics-and-actuators/parts/pulleys/gt2-16-pulley-16-teeth-3mm-axis-with-ball-bearing
-M02, M03;X-Achse;BUY-007;X/Y-Riemen 6 mm,2 Rollen à10 m;"CAD-087;CAD-104";DOLD;DOLD;46194-VKV / Variante10m;20;m;20;50,00;;https://www.dold-mechatronik.de/Zahnriemen-GT2-Breite-6mm-Meterware-Laenge-10-Meter
-M02, M03;X-Achse;BUY-014;12 NEMA17 Originalmotoren;CAD-064;NANOTEC;Nanotec;ST4118M1804-A;12;Stück;12;445,54;;https://www.nanotec.com/eu/de/produkte/363-st4118m1804-a
-M02;X-Achse;BUY-018;8 CPC-Führungswagen MR12ML;CAD-027;MOTEDIS;CPC;6344;8;Stück;8;195,26;;https://www.motedis.com/de/Fuehrungswagen-Miniatur-MR12ML-SS-V0-N-Edelstahl
-M02;X-Achse;BUY-019;2 CPC-Schienen MR12M 600 mm;CAD-095;MOTEDIS;CPC;MR12M-N-600;2;Stück;2;119,40;;https://www.motedis.com/de/Edelstahl-Profilschienenfuehrung-Miniatur-MR12M-N-L-600mm
-M02, M03, M04, M05, M06, M07, M08;X-Achse;MAT-001;PETG für CAD-Druckteile plus Kalibrierkörper;"CAD-001;CAD-002;CAD-004;CAD-005;CAD-006;CAD-015;CAD-021;CAD-022;CAD-024;CAD-025;CAD-067;CAD-068;CAD-071;CAD-072;CAD-074;CAD-083;CAD-088;CAD-089;CAD-090;CAD-091;CAD-092;CAD-101;CAD-102;CAD-105;CAD-106;CAD-107;CAD-109;CAD-110;CAD-111;CAD-112;CAD-114;CAD-116;CAD-117;CAD-118;CAD-119;CAD-120";RBS;yourDroid;RBS13444;3,832601334532;kg;4;47,80;;https://www.roboter-bausatz.de/p/yourdroid-petg-filament-schwarz-1.75mm-1kg
-M02, M05;X-Achse;MAT-004;Präzisionswellen Ø10, Zuschnitt-Los;"CAD-069;CAD-098";DOLD;DOLD (über voelkner.de);D25160720;1;Los;1;83,64;;https://www.voelkner.de/products/10394662/Praezisionswelle-10mm-h6-Edelstahl-X46CR13-Linearwellen-geschliffen-und-gehaertet.-ZUSCHNITT-18-EUR-m-0-60-EUR-pro-Schnitt-1950mm.html
-M02;X-Achse;MAT-007;Aluprofil 40x 16S Nut 8, Zuschnitt;CAD-103;DOLD;DOLD;60879-Z;1;Los;1;29,03;;https://www.dold-mechatronik.de/Aluminiumprofil-40x16S-I-Typ-Nut-8
-M02;X-Achse;N-031;DIN 7991 M3×8;CAD-031;EISEN2000;nicht angegeben;OS-7991-2-030008;36;Stück;100;5,00;;https://www.eisenwaren2000.de/?a=84924
-M02;X-Achse;N-032;DIN 7991 M6×12;CAD-032;SCHRAUBEN;Schrauben.Expert;7991 6 12 A2;18;Stück;25;5,00;;https://schrauben-expert.de/Senkschraube-ISO-10642-M6-x-12-Edelstahl-A2
-M02, M03, M04, M07;X-Achse;N-035;DIN 912 M3×10;CAD-035;EISEN2000;nicht angegeben;OS-912-2-030010;84;Stück;100;5,00;;https://www.eisenwaren2000.de/?a=85293
-M02, M03;X-Achse;N-038;DIN 912 M3×16;CAD-038;EISEN2000;nicht angegeben;OS-912-2-030016;31;Stück;50;10,50;;https://www.eisenwaren2000.de/?a=85296
-M02;X-Achse;N-039;DIN 912 M3×18;CAD-039;EISEN2000;nicht angegeben;OS-912-2-030018;36;Stück;50;10,50;;https://www.eisenwaren2000.de/?a=85297
-M02, M04;X-Achse;N-042;DIN 912 M3×8;CAD-042;EISEN2000;nicht angegeben;OS-912-2-030008;58;Stück;100;5,00;;https://www.eisenwaren2000.de/?a=85292
-M02, M03;X-Achse;N-044;DIN 912 M4×20;CAD-044;SCHRAUBEN;Schrauben.Expert;912 4 20 A2;22;Stück;25;5,00;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M4-x-20-mm-Edelstahl-A2
-M02, M03;X-Achse;N-045;DIN 912 M4×30;CAD-045;SCHRAUBEN;Schrauben.Expert;912 4 30 A2;40;Stück;50;6,00;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M4-x-30-mm-Edelstahl-A2
-M02;X-Achse;N-046;DIN 912 M5×10;CAD-046;SCHRAUBEN;Schrauben.Expert;912 5 10 A2;36;Stück;50;6,00;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M5-x-10-mm-Edelstahl-A2
-M02;X-Achse;N-047;DIN 912 M5×14;CAD-047;SCHRAUBEN;Schrauben.Expert;912 5 14 A2;6;Stück;10;3,30;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M5-x-14-mm-Edelstahl-A2
-M02, M03, M04, M07, M08;X-Achse;N-056;Sechskantmutter DIN 934 M3 A2;CAD-056;SCHRAUBEN;Schrauben.Expert;934 3 A2;49;Stück;50;6,00;;https://schrauben-expert.de/Sechskantmutter-DIN-934-M3-Edelstahl-V2A
-M02, M03;X-Achse;N-057;Sechskantmutter DIN 934 M4 A2;CAD-057;SCHRAUBEN;Schrauben.Expert;934 4 A2;71;Stück;100;7,00;;https://schrauben-expert.de/Sechskantmutter-DIN-934-M4-Edelstahl-V2A
-M03;Y-Achse;BUY-022;16 Gleitbuchsen RJ4JP-01-10;CAD-080;DOLD;igus;RJ4JP-01-10;16;Stück;16;61,12;;https://www.dold-mechatronik.de/index.php?a=216047
-M03, M05;Y-Achse;MAT-005;Versteifungsprofile 40×16 und Halte-/Distanzstäbe;"CAD-070;CAD-108";DOLD;nicht festgelegt;offen;1;Los;1;100,00;;https://www.dold-mechatronik.de/
-M03, M04;Y-Achse;N-030;DIN 562 M4 Vierkantmutter;CAD-030;EISEN2000;Schäfer+Peters (Händlerangabe);OS-562-2-0040;14;Stück;25;6,25;;https://www.eisenwaren2000.de/?a=82354
-M03, M08;Y-Achse;N-041;DIN 912 M3×30;CAD-041;EISEN2000;nicht angegeben;OS-912-2-030030;10;Stück;10;7,90;;https://www.eisenwaren2000.de/?a=85301
-M04;Z-Achse;ALT-002;MGN12CNachbauvergleich, kein HIWIN;CAD-054;DOLD;DOLD;MGN12C;4;Stück;4;48,00;ja;https://www.dold-mechatronik.de/Linear-carriage-MGN12C
-M04;Z-Achse;BUY-006;8 Z-Zahnscheiben 9 mm, Ersatz mit Halteranpassung;CAD-076;RBS;nicht angegeben;RBS12867;8;Stück;8;10,32;;https://www.roboter-bausatz.de/p/gt2-riemenscheibe-16-zaehne-5mm-bohrung-fuer-10mm-zahnriemen
-M04;Z-Achse;BUY-015;4 NEMA14 Z-Motoren, ERSATZ STEPPERONLINE 14HS13-0804S;CAD-063;STEPPERONLINE;STEPPERONLINE;14HS13-0804S;4;Stück;4;38,08;;https://www.omc-stepperonline.com/de/nema-14-bipolar-1-8deg-18ncm-25-5oz-in-0-8a-5-74v-35x35x34mm-4-draehte-14hs13-0804s
-M04;Z-Achse;BUY-017;Z-Riemen 9 mm;CAD-113;RBS;"MakerMind (Shopangabe; Titel nennt Gates LL-2GT RF)";RBS14040;1,28;m;2;17,38;;https://www.roboter-bausatz.de/p/1-meter-gt2-zahnriemen-gates-ll2gt-rf-9mm
-M04;Z-Achse;BUY-020;4 HIWIN-Schienen 150 mm;CAD-053;DAMEN;HIWIN;3449;4;Stück;4;222,53;;https://www.damencnc.com/en/hiwin-profile-rails-narrow-type-mgnr-12-hm/a1945
-M04;Z-Achse;BUY-021;4 HIWIN-Wagen MGN12C;CAD-054;DAMEN;HIWIN;3455;4;Stück;4;147,56;;https://www.damencnc.com/en/hiwin-carriage-mgn-narrow-type-mgn-12-c-z0-hm-short/a1947
-M04;Z-Achse;N-029;DIN 562 M3 Vierkantmutter;CAD-029;EISEN2000;Schäfer+Peters (Händlerangabe);OS-562-2-0030;10;Stück;25;6,00;;https://www.eisenwaren2000.de/?a=82353
-M04;Z-Achse;N-040;DIN 912 M3×20;CAD-040;EISEN2000;nicht angegeben;OS-912-2-030020;6;Stück;6;8,40;;https://www.eisenwaren2000.de/?a=85298
-M05;Schublade und Platinenhalter;BUY-C051;Schubladengriff DOLD A-75873, Lochabstand 100 mm;CAD-051;DOLD;DOLD;A-75873;1;Stück;1;8,15;;https://www.dold-mechatronik.de/Buegelgriff-100mm-mit-Befestigungsbohrungen
-M05;Schublade und Platinenhalter;BUY-C084;Teleskopschiene 350 mm, Vollauszug;CAD-084;DOLD;DOLD;HS-4613-350;2;Stück;2;10,84;;https://www.dold-mechatronik.de/Vollauszug-45kg-350mm-(1-Paar-Teleskopschienen)
-M05;Schublade und Platinenhalter;BUY-SYS-044;Nutenstein I-Typ Nut 6, M5, Griff;SYS-044;DOLD;DOLD;62361-VK;2;Stück;2;1,78;;https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M5
-M05;Schublade und Platinenhalter;BUY-SYS-045;Zylinderschraube DIN 912 M5×35 A2, Griff;SYS-045;SCHRAUBEN;Schrauben.Expert;912 5 35 A2;2;Stück;10;3,30;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M5-x-35-mm-Edelstahl-A2
-M05;Schublade und Platinenhalter;BUY-SYS-046;Zylinderschraube DIN 912 M4×10 A2, Wellenhalter;SYS-046;SCHRAUBEN;Schrauben.Expert;912 4 10 A2;7;Stück;10;3,30;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M4-x-10-mm-Edelstahl-A2
-M05;Schublade und Platinenhalter;BUY-SYS-047;Nutenstein I-Typ Nut 6, M4, Wellenhalter;SYS-047;DOLD;DOLD;62347-VK;8;Stück;10;4,80;;https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M4
-M05;Schublade und Platinenhalter;BUY-SYS-048;Linsenkopfschraube ISO 7380-1 M4×8 A2, Teleskopschienen;SYS-048;SCHRAUBEN;Schrauben.Expert;7380-1 4 8 A2;12;Stück;25;5,00;;https://schrauben-expert.de/Linsenkopfschraube-ISO-7380-1-M4-x-8-Edelstahl-A2
-M05;Schublade und Platinenhalter;BUY-SYS-049;Nutenstein I-Typ Nut 6, M4, Teleskopschienen;SYS-049;DOLD;DOLD;62347-VK;12;Stück;20;9,60;;https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M4
-M05;Schublade und Platinenhalter;N-028;DIN 466 Rändelmutter hoch M4;CAD-028;EISEN2000;nicht angegeben;OS-466-1-040;10;Stück;10;16,10;;https://www.eisenwaren2000.de/?a=82262
-M05;Schublade und Platinenhalter;N-033;DIN 7991 M6×14;CAD-033;SCHRAUBEN;Schrauben.Expert;7991 6 14 A2;8;Stück;10;3,30;;https://schrauben-expert.de/Senkschraube-ISO-10642-M6-x-14-Edelstahl-A2
-M05;Schublade und Platinenhalter;N-043;DIN 912 M4×10;CAD-043;SCHRAUBEN;Schrauben.Expert;912 4 10 A2;3;Stück;10;3,30;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M4-x-10-mm-Edelstahl-A2
-M05;Schublade und Platinenhalter;N-048;DIN 933 M4×20;CAD-048;SCHRAUBEN;Schrauben.Expert;933 4 20 A2;10;Stück;10;3,30;;https://schrauben-expert.de/Sechskantschraube-DIN-933-M4-x-20-Edelstahl-V2A
-M05;Schublade und Platinenhalter;OPEN-CAD-010;Schubladen-Dummyplatte;CAD-010;DOLD;nicht festgelegt;offen;1;Stück;1;;;https://www.dold-mechatronik.de/
-M06;Kabelführung;BUY-008;Kurze Energieketten, 192 Glieder;CAD-049;IGUS;igus;E2i.10.10.028.0;192;Glied;192;107,39;;https://www.igus.de/product/series-E2i-10?artNr=E2i.10.10.028.0
-M06;Kabelführung;BUY-023;Lange Energieketten, 112 Glieder;CAD-050;IGUS;igus;E2I.10.20.028.0;112;Glied;112;65,31;;https://www.igus.de/product/series-E2i-10?artNr=E2I.10.20.028.0
-M06;Kabelführung;BUY-024;16 Anschlusssätze E2.10 schmal;SYS-027;DIGIKEY;igus;E2-100-10-34PZ;16;Satz;16;111,19;;https://www.digikey.de/de/products/detail/igus/E2-100-10-34PZ/13157727
-M06;Kabelführung;BUY-025;8 Anschlusssätze E2.10 breit;SYS-028;DIGIKEY;igus;E2-100-20-34PZ;8;Satz;8;64,36;;https://www.digikey.de/de/products/detail/igus/E2-100-20-34PZ/13157712
-M06;Kabelführung;BUY-SYS-050;Zylinderschraube DIN 912 M3×8 A2, Kabelhalter M3;SYS-050;EISEN2000;nicht angegeben;OS-912-2-030008;4;Stück;100;5,00;;https://www.eisenwaren2000.de/?a=85292
-M06;Kabelführung;BUY-SYS-051;Zylinderschraube DIN 912 M3×10 A2, igus-Kettenanschlüsse;SYS-051;EISEN2000;nicht angegeben;OS-912-2-030010;106;Stück;200;10,00;;https://www.eisenwaren2000.de/?a=85293
-M06;Kabelführung;BUY-SYS-052;Zylinderschraube DIN 912 M3×12 A2, Z-Kabelhalter;SYS-052;EISEN2000;nicht angegeben;OS-912-2-030012;6;Stück;50;6,50;;https://www.eisenwaren2000.de/?a=85294
-M06;Kabelführung;BUY-SYS-053;Sechskantmutter DIN 934 M3 A2, Kabelführung;SYS-053;SCHRAUBEN;Schrauben.Expert;934 3 A2;111;Stück;150;18,00;;https://schrauben-expert.de/Sechskantmutter-DIN-934-M3-Edelstahl-V2A
-M06;Kabelführung;BUY-SYS-054;Linsenkopfschraube ISO 7380-1 M4×8 A2, Kabelführung;SYS-054;SCHRAUBEN;Schrauben.Expert;7380-1 4 8 A2;11;Stück;25;5,00;;https://schrauben-expert.de/Linsenkopfschraube-ISO-7380-1-M4-x-8-Edelstahl-A2
-M06;Kabelführung;BUY-SYS-055;Nutenstein I-Typ Nut 6, M4, Kabelhalter;SYS-055;DOLD;DOLD;62347-VK;3;Stück;10;4,80;;https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M4
-M06;Kabelführung;BUY-SYS-056;Zylinderschraube DIN 912 M5×10 A2, Kabelhalter M5;SYS-056;SCHRAUBEN;Schrauben.Expert;912 5 10 A2;6;Stück;50;6,00;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M5-x-10-mm-Edelstahl-A2
-M06;Kabelführung;MAT-008;Aluprofil 80x 16S Nut 8, Zuschnitt, Kandidat;CAD-009;DOLD;DOLD;60886-Z;1;Los;1;74,80;;https://www.dold-mechatronik.de/Aluminiumprofil-80x16S-I-Typ-Nut-8
-M07;Elektrik und Sensorik;BUD-S011;USB-Kabel für 4 SKR;SYS-011;REICHELT;nicht festgelegt;offen;1;Los;1;20,00;;https://www.reichelt.de/
-M07;Elektrik und Sensorik;BUD-S012;USB-Kabel für MUX/UART/Zielversorgung;SYS-012;REICHELT;nicht festgelegt;offen;1;Los;1;15,00;;https://www.reichelt.de/
-M07;Elektrik und Sensorik;BUD-S013;Bewegliche Kameraleitung / USB-Verlängerung;SYS-013;REICHELT;nicht festgelegt;offen;1;Los;1;15,00;;https://www.reichelt.de/
-M07;Elektrik und Sensorik;BUD-S014;Motorleitungen 4adrig;SYS-014;TME;nicht festgelegt;offen;1;Los;1;64,00;;https://www.tme.eu/de/
-M07;Elektrik und Sensorik;BUD-S015;Motor-Gegenstecker und Crimpkontakte;SYS-015;TME;nicht festgelegt;offen;1;Los;1;25,00;;https://www.tme.eu/de/
-M07;Elektrik und Sensorik;BUD-S018;24-V-Verteilung, Sicherungen, Klemmen, Leitungen;SYS-018;REICHELT;nicht festgelegt;offen;1;Los;1;60,00;;https://www.reichelt.de/
-M07;Elektrik und Sensorik;BUD-S020;Netzeinspeisung, Leitung, Sicherung und Zugentlastung;SYS-020;REICHELT;nicht festgelegt;offen;1;Los;1;35,00;;https://www.reichelt.de/
-M07;Elektrik und Sensorik;BUD-S021;Schutzleiter, Ringkabelschuhe und Klemmenabdeckung;SYS-021;REICHELT;nicht festgelegt;offen;1;Los;1;15,00;;https://www.reichelt.de/
-M07;Elektrik und Sensorik;BUD-S025;USB-UART-Adapter;SYS-025;TME;nicht festgelegt;offen;1;Los;1;20,00;;https://www.tme.eu/de/
-M07;Elektrik und Sensorik;BUD-S032;Controller-Befestigung und Kühlung;SYS-032;RBS;nicht festgelegt;offen;1;Los;1;30,00;;https://www.roboter-bausatz.de/
-M07;Elektrik und Sensorik;BUY-001;Netzteil 24 V;CAD-060;REICHELT;Mean Well;MW RSP-200-24;1;Stück;1;42,50;;https://www.reichelt.de/de/de/shop/produkt/schaltnetzteil_geschlossen_200_w_24_v_8_4_a-147909
-M07;Elektrik und Sensorik;BUY-002;16 TMC2130 aus 4 Viererpacks;SYS-001;RBS;BIGTREETECH;RBS13024;16;Stück;16;159,80;;https://www.roboter-bausatz.de/p/4x-tmc2130-spi-schrittmotortreiber
-M07;Elektrik und Sensorik;BUY-009;4 optische Endstops inkl 1 m Kabel;CAD-065;RBS;MakerMind;RBS12901;4;Stück;4;11,40;;https://www.roboter-bausatz.de/p/optischer-endschalter-endstop-mit-1m-kabel
-M07;Elektrik und Sensorik;BUY-012;Aktiver 7Port-USB-Hub;SYS-010;REICHELT;D-Link;D-LINK DUB H7;1;Stück;1;25,90;;https://www.reichelt.de/de/de/shop/produkt/usb_2_0_7-port_hub_mit_netzteil_schwarz-131488
-M07;Elektrik und Sensorik;BUY-016;4 Steuerplatinen SKR 1.4 Turbo (ERSATZ);CAD-023;RBS;BIGTREETECH;RBS13645;4;Stück;4;199,80;;https://www.roboter-bausatz.de/p/btt-skr-1.4-turbo-32-bit-mainboard
-M07;Elektrik und Sensorik;BUY-C059;Mean Well MHS012 Montagewinkel;CAD-059;REICHELT;Mean Well;MHS-012;4;Stück;4;1,20;;https://www.reichelt.de/de/de/shop/produkt/befestigungswinkel_fuer_schaltnetzteile-188580
-M07;Elektrik und Sensorik;BUY-CAB;24 Sensorleitungen ifm EVC141;SYS-016;AUTOMATION24;ifm;EVC141;24;Stück;24;396,98;;https://www.automation24.de/m8-sensorleitung-ifm-electronic-evc141
-M07;Elektrik und Sensorik;BUY-SEN;24 induktive Sensoren ELCO NI4-M08-ON6L-Q8;CAD-055;ELCO;ELCO;NI4-M08-ON6L-Q8;24;Stück;24;298,17;;https://shop.elco-automation.de/NI4-M08-ON6L-Q8
-M07;Elektrik und Sensorik;BUY-SW;Netzschalter Ø19 ONPOW LAS1 A;CAD-086;REICHELT;ONPOW;VS LAS1A-ZG24;1;Stück;1;11,94;;https://www.reichelt.de/de/de/shop/produkt/av-schalter_ip67_22_19_mm_5a-250v_gn-108422
-M07;Elektrik und Sensorik;MAT-009;Auslöserstäbe Ø8 Cf 53, Zuschnitt;"CAD-093;CAD-094";DOLD;DOLD;PW-CF53-8-h6-Z;1;Los;1;14,29;;https://www.dold-mechatronik.de/Praezisionswelle-8mm-h6-geschliffen-und-gehaertet-Material-CF53-Zuschnitt
-M07;Elektrik und Sensorik;N-036;DIN 912 M3×12;CAD-036;EISEN2000;nicht angegeben;OS-912-2-030012;10;Stück;50;6,50;;https://www.eisenwaren2000.de/?a=85294
-M07;Elektrik und Sensorik;N-058;ISO 8673 Mutter M8;CAD-058;BEFFUCHS;Schäfer+Peters;24122 08 1;53;Stück;100;9,41;;https://www.befestigungsfuchs.de/eisenwaren/muttern/sechskantmuttern/100-sechskantmuttern-mf8-sw13-feingewinde-1mm-edelstahl-a4-80-din-934
-M07;Elektrik und Sensorik;OPEN-SYS-017;Sensor-Gegenstecker und Kontakte;SYS-017;TME;nicht festgelegt;offen;28;Satz;28;;;https://www.tme.eu/de/
-M07;Elektrik und Sensorik;OPEN-SYS-019;Sensor-Pegelanpassung / Eingangsschutz;SYS-019;BETA;nicht festgelegt;offen;24;Kanäle;24;;;https://de.beta-layout.com/leiterplatten/
-M07;Elektrik und Sensorik;OPEN-SYS-026;Zielplatinen-Versorgungscontroller;SYS-026;BETA;nicht festgelegt;offen;1;Baugruppe;1;;;https://de.beta-layout.com/leiterplatten/
-M07;Elektrik und Sensorik;OPEN-SYS-038;Kalibrier-Kontaktleitungen und gemeinsame Messreferenz;SYS-038;TME;nicht festgelegt;offen;1;Satz;1;;;https://www.tme.eu/de/
-M08;Optik;BUD-S029;Profil-Nutensteine und Zusatzbefestigung;SYS-029;DOLD;nicht festgelegt;offen;1;Los;1;35,00;;https://www.dold-mechatronik.de/
-M08;Optik;BUY-010;Übersichtskamera ELP-USBFHD01M-H100;SYS-002;ELP;ELP;ELP-USBFHD01M-H100;1;Stück;1;;;https://www.elpcctv.com/elp-full-hd-1080p-usb-camera-module-usb20-ov2710-color-sensor-support-mjpeg-with-36mm-lens-p-203.html
-M08;Optik;BUY-011;USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG Halter);CAD-085;VOELKNER;Toolcraft;D929041;1;Stück;1;57,99;;https://www.voelkner.de/products/1177903/TOOLCRAFT-USB-Mikroskop-2-Megapixel-Digitale-Vergroesserung-max.-200-x.html
-M08;Optik;N-037;DIN 912 M3×14;CAD-037;EISEN2000;nicht angegeben;OS-912-2-030014;6;Stück;100;5,00;;https://www.eisenwaren2000.de/?a=85295
-M08;Optik;OPT-001;3zusätzliche Mikroskope;SYS-033;REICHELT;Reflecta;REFLECTA 66146;3;Stück;3;164,97;ja;https://www.reichelt.de/de/de/shop/produkt/digital_mikroskop_50-_1000x_wifi_2_0-380934
-M09;Prüfspitzen;BUD-S022;Messkoax und instrumentenseitige Adapter;SYS-022;TME;nicht festgelegt;offen;1;Los;1;60,00;;https://www.tme.eu/de/
-M09;Prüfspitzen;BUY-PIN;Prüfstifte P75-B1 (CAD-Spitze);CAD-115;DOMOTICX;nicht angegeben;CON-0032-P75B1;10;Stück;10;1,80;;https://domoticx.net/webshop/pogo-pin-test-probe-0-75mm-punt-p75-b1
-M09;Prüfspitzen;BUY-SYS-057;10 Prüfstifte P75-E2;SYS-057;DOMOTICX;nicht angegeben;P75-E2;10;Stück;10;1,80;;https://domoticx.net/webshop/pogo-pin-test-probe-075mm-conisch-p75-e2/
-M09;Prüfspitzen;OPEN-CAD-061;MMCX-Stecker gerade mit RG316, offenes Ende;CAD-061;OFFEN;nicht festgelegt;offen;4;Stück;4;;;
-M09;Prüfspitzen;OPEN-CAD-062;MMCX-Stecker gewinkelt mit RG316, offenes Ende;CAD-062;OFFEN;nicht festgelegt;offen;4;Stück;4;;;
-M09;Prüfspitzen;OPEN-CAD-073;Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W);CAD-073;OFFEN;nicht festgelegt;offen;8;Stück;8;;;
-M09;Prüfspitzen;OPEN-CAD-075;Prüfspitzen-PCB, unbestückt;CAD-075;BETA;nicht festgelegt;offen;4;Stück;4;;;https://de.beta-layout.com/leiterplatten/
-M09;Prüfspitzen;OPEN-SYS-003;Signal-Multiplexer, unbestückte Leiterplatte;SYS-003;BETA;nicht festgelegt;offen;1;Stück;1;;;https://de.beta-layout.com/leiterplatten/
-M09;Prüfspitzen;OPEN-SYS-023;Signal-Multiplexer Bestückung;SYS-023;BETA;nicht festgelegt;offen;1;Baugruppe;1;;;https://de.beta-layout.com/leiterplatten/
-M09;Prüfspitzen;OPEN-SYS-024;Prüfspitzen-PCB Bestückung;SYS-024;BETA;nicht festgelegt;offen;4;Baugruppen;4;;;https://de.beta-layout.com/leiterplatten/
-M09;Prüfspitzen;OPEN-SYS-058;Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl);SYS-058;OFFEN;nicht festgelegt;offen;10;Stück;10;;;
-M10;Verkleidung;BUY-SYS-059;Zylinderschraube DIN 912 M5×10 A2, Abdeckungen;SYS-059;SCHRAUBEN;Schrauben.Expert;912 5 10 A2;18;Stück;50;6,00;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M5-x-10-mm-Edelstahl-A2
-M10;Verkleidung;BUY-SYS-060;Nutenstein I-Typ Nut 6, M5, Abdeckungen;SYS-060;DOLD;DOLD;62361-VK;18;Stück;18;16,02;;https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M5
-M10;Verkleidung;MAT-010;Acrylglas-Abdeckungen, Zuschnitt-Los;"CAD-007;CAD-008";PLATTENZUSCHNITT24;nicht angegeben;C10000-AC05;1;Los;1;31,00;;https://www.plattenzuschnitt24.de/Acrylglas-XT-5mm-transparent.html
-M12;Beleuchtung;BUY-013;LED-Streifen 5-m-Rolle für 1,9 m;SYS-007;REICHELT;LUXULA;LUXULA LX700101;1,9;m;5;6,95;;https://www.reichelt.de/de/de/shop/produkt/led-streifen_5_meter_4500_k_120_led_m_24_v_8_mm-365051
-M12;Beleuchtung;BUY-LEDP;LED-Profilsatz BARdolino;SYS-008;REICHELT;Barthelme;BARDOLINO P1MF + A1MO + EKSF + HKS;1;Satz;1;44,55;;https://www.reichelt.de/de/de/shop/produkt/bardolino_flach_profil_alu_eloxiert_1m-122169
-M12;Beleuchtung;OPEN-SYS-009;LED-Anschluss an den Heizbett-Ausgang der Licht-Steuerplatine;SYS-009;REICHELT;nicht festgelegt;offen;1;Satz;1;;;https://www.reichelt.de/
-M13;Kalibrierung;OPEN-SYS-004;Kalibrier-Referenzplatte, Alu schwarz;SYS-004;OFFEN;nicht festgelegt;offen;1;Stück;1;;;
-M13;Kalibrierung;OPEN-SYS-005;Innere Messing-Referenzzylinder Ø7/8/9/10;SYS-005;OFFEN;nicht festgelegt;offen;4;Stück;4;;;
-M13;Kalibrierung;OPEN-SYS-006;Kalibriermarker, in die Platte graviert;SYS-006;OFFEN;nicht festgelegt;offen;1;Satz;1;;;
-M13;Kalibrierung;OPEN-SYS-037;Weiße äußere Kalibrierreferenzen Ø10;SYS-037;OFFEN;nicht festgelegt;offen;4;Stück;4;;;
-M13;Kalibrierung;OPEN-SYS-039;Erhöhte Messing-Referenzzylinder;SYS-039;OFFEN;nicht festgelegt;offen;4;Stück;4;;;
-M13;Kalibrierung;OPEN-SYS-040;Äußere flache Messing-Referenzzylinder Ø7;SYS-040;OFFEN;nicht festgelegt;offen;4;Stück;4;;;
-allg.;ohne Modul;BUD-S030;Scheiben, Sicherungselemente, Distanzteile;SYS-030;SCHRAUBEN;nicht festgelegt;offen;1;Los;1;20,00;;https://schrauben-expert.de/
-allg.;ohne Modul;BUD-S031;Lötzinn, Schrumpfschlauch, Binder, Labels, Kleber;SYS-031;REICHELT;nicht festgelegt;offen;1;Los;1;35,00;;https://www.reichelt.de/
-Versand;Versand und Gebühren;FEE-001;Rechnungskaufgebühr Schrauben.Expert;;SCHRAUBEN;nicht festgelegt;offen;1;Gebühr;1;5,00;;https://schrauben-expert.de/Zahlungsmoeglichkeiten
-Versand;Versand und Gebühren;SHIP-BEFFUCHS;Befestigungsfuchs Versand Deutschland;;BEFFUCHS;nicht festgelegt;offen;1;Sendung;1;5,95;;https://www.befestigungsfuchs.de/
-Versand;Versand und Gebühren;SHIP-EISEN2000;Eisenwaren 2000 Versand Deutschland;;EISEN2000;nicht festgelegt;offen;1;Sendung;1;0,00;;https://www.eisenwaren2000.de/
-Versand;Versand und Gebühren;SHIP-RBS;RBS Sammelversand Deutschland;;RBS;nicht festgelegt;offen;1;Sendung;1;0,00;;https://www.roboter-bausatz.de/c/information/versand-und-zahlung/
-Versand;Versand und Gebühren;SHIP-REICHELT;Reichelt DHL Deutschland bis 10 kg;;REICHELT;nicht festgelegt;offen;1;Sendung;1;5,95;;https://www.reichelt.de/versandkosten
-Versand;Versand und Gebühren;SHIP-REST;Frachtreserve fürübrige Lieferanten;;OFFEN;nicht festgelegt;offen;1;Budget;1;150,00;;
-Versand;Versand und Gebühren;SHIP-SCHRAUBEN;Schrauben.Expert Versand Deutschland;;SCHRAUBEN;nicht festgelegt;offen;1;Sendung;1;4,00;;https://schrauben-expert.de/
+﻿Modul;Modulname;ID;Beschreibung;CAD/SYS-IDs;Distributor;Hersteller;Artikel-Nr.;Bedarf;Einheit;Bestellmenge;Brutto EUR;Optional;Prüfstatus;Prüfnotiz;Bestelllink
+M01;Grundgerüst;BUY-C052;Gelenkfuß M6×20 / Teller Ø40 mm;CAD-052;DOLD;DOLD;GF-K-10-PA-028;4;Stück;4;6,00;;Rückfrage;Shop 18.10.: Variante M6×20/Teller 40 zeigt 1,50 €, Stückliste der Variante summiert 0,87+1,50+0,10 = 2,47 €. Preis im Warenkorb klären. Material Stahl verzinkt + PA, Traglast nicht angegeben.;https://www.dold-mechatronik.de/index.php?a=91508
+M01, M05;Grundgerüst;BUY-C081;Anschraubwinkel 30 / Nut 6;CAD-081;DOLD;DOLD;62385-BS;26;Stück;26;68,90;;Preis korrigieren;Shop 18.10.: Staffel ab 10 Stk 2,24 € → 26 × 2,24 = 58,24 € statt 68,90 €. Satzschrauben DIN 7380 M6×12 10.9 verzinkt (nicht A2).;https://www.dold-mechatronik.de/Winkel-30-I-Typ-Nut-6-inkl-Befestigungssatz
+M01;Grundgerüst;BUY-SYS-042;Nutenstein I-Typ Nut 6, M4, Rückwand;SYS-042;DOLD;DOLD;62347-VK;6;Stück;10;4,80;;geprüft;Shop 18.10.: 62347-VK, 0,48 € ab 10, sofort verfügbar. Stahl verzinkt.;https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M4
+M01;Grundgerüst;BUY-SYS-043;Zylinderschraube DIN 912 M4×10 A2, Rückwand;SYS-043;SCHRAUBEN;Schrauben.Expert;912 4 10 A2;6;Stück;10;3,30;;geprüft;Shop 18.10.: Mindestabnahme 10 × 0,33 €. Länge: 3 mm Rückwand + 7 mm in Nut (Nuttiefe 9,9 mm) → passt, Bohrungen liegen mittig auf der Nut der langen Profile. Bündeln mit N-043 → ab 25 Stk 0,20 €.;https://schrauben-expert.de/Zylinderschraube-DIN-912-M4-x-10-mm-Edelstahl-A2
+M01, M05;Grundgerüst;MAT-002;30×30 Nut 6 Aluprofil, Zuschnitt-Los;"CAD-011;CAD-012;CAD-013;CAD-020";DOLD;DOLD;63009-Z;1;Los;1;93,68;;geprüft;Shop 18.10.: 12,00 €/m + 0,50 €/Schnitt bestätigt, 4–5 Werktage. Option: M6-Gewinde ab Werk für CAD-020 (Gelenkfüße) statt intern.;https://www.dold-mechatronik.de/Aluminiumprofil-30x30L-I-Typ-Nut-6-leicht-094kg-m-Zuschnitt-50-6000mm
+M01;Grundgerüst;MAT-003;60×30 Nut 6 Aluprofil schwer, Zuschnitt;CAD-014;DOLD;DOLD;71370-Z;1;Los;1;43,00;;geprüft;Shop 18.10.: 30,00 €/m + 2,00 €/Schnitt bestätigt, 2,204 kg/m, 4–5 Werktage.;https://www.dold-mechatronik.de/Aluminiumprofil-30x60S-I-Typ-Nut-6-schwer-22kg-m-Zuschnitt-50-6000mm
+M01, M02, M08;Grundgerüst;MAT-006;Blechrohmaterial und Verschnitt;"CAD-003;CAD-016;CAD-017;CAD-018;CAD-019;CAD-026;CAD-096;CAD-097;CAD-099;CAD-100";DOLD;nicht festgelegt;offen;1;Los;1;200,00;;offen;Kein Shopartikel. M01-Anteil: Rückwand 650×270×3 Alu, 2 Motorplatten 550×135×5 Stahl. Material/Bezug entscheiden.;https://www.dold-mechatronik.de/
+M01, M02, M06;Grundgerüst;N-034;DIN 7991 M6×20;CAD-034;SCHRAUBEN;Schrauben.Expert;7991 6 20 A2;25;Stück;25;5,00;;geprüft;"Shop 18.10.: 25 × 0,20 € = 5,00 €. Länge Fusion 18.10.: 5 mm Motorplatte + 15 mm Einschraubtiefe im Kern-Gewinde → passt; Gewinde ≥ 16 mm tief schneiden.";https://schrauben-expert.de/Senkschraube-ISO-10642-M6-x-20-Edelstahl-A2
+M02;X-Achse;ALT-001;MR12MLVergleich, keine bestätigte CPC-Paarung;CAD-027;MOTEDIS;nicht bestätigt;6344;8;Stück;8;185,74;ja;offen;;https://www.motedis.com/de/Fuehrungswagen-Miniatur-MR12ML-SS-V0-N-Edelstahl
+M02;X-Achse;BUY-003;16 Flanschhalter SHF10;CAD-079;DOLD;DOLD;11260;16;Stück;16;62,40;;offen;;https://www.dold-mechatronik.de/Wellenhalter-Flansch-SHF10
+M02, M03;X-Achse;BUY-004;12 X/Y-Antriebsriemenscheiben;CAD-077;RBS;MakerMind;RBS10278;12;Stück;12;11,40;;offen;;https://www.roboter-bausatz.de/p/gt2-riemenscheibe-z16-5mm-bohrung-6mm-riemen
+M02, M03;X-Achse;BUY-005;20 Umlenkrollen 6 mm, 8,5 mm breit;CAD-078;TINYTRONICS;nicht angegeben;002225;20;Stück;20;30,00;;offen;;https://www.tinytronics.nl/en/mechanics-and-actuators/parts/pulleys/gt2-16-pulley-16-teeth-3mm-axis-with-ball-bearing
+M02, M03;X-Achse;BUY-007;X/Y-Riemen 6 mm,2 Rollen à10 m;"CAD-087;CAD-104";DOLD;DOLD;46194-VKV / Variante10m;20;m;20;50,00;;offen;;https://www.dold-mechatronik.de/Zahnriemen-GT2-Breite-6mm-Meterware-Laenge-10-Meter
+M02, M03;X-Achse;BUY-014;12 NEMA17 Originalmotoren;CAD-064;NANOTEC;Nanotec;ST4118M1804-A;12;Stück;12;445,54;;offen;;https://www.nanotec.com/eu/de/produkte/363-st4118m1804-a
+M02;X-Achse;BUY-018;8 CPC-Führungswagen MR12ML;CAD-027;MOTEDIS;CPC;6344;8;Stück;8;195,26;;offen;;https://www.motedis.com/de/Fuehrungswagen-Miniatur-MR12ML-SS-V0-N-Edelstahl
+M02;X-Achse;BUY-019;2 CPC-Schienen MR12M 600 mm;CAD-095;MOTEDIS;CPC;MR12M-N-600;2;Stück;2;119,40;;offen;;https://www.motedis.com/de/Edelstahl-Profilschienenfuehrung-Miniatur-MR12M-N-L-600mm
+M02, M03, M04, M05, M06, M07, M08;X-Achse;MAT-001;PETG für CAD-Druckteile plus Kalibrierkörper;"CAD-001;CAD-002;CAD-004;CAD-005;CAD-006;CAD-015;CAD-021;CAD-022;CAD-024;CAD-025;CAD-067;CAD-068;CAD-071;CAD-072;CAD-074;CAD-083;CAD-088;CAD-089;CAD-090;CAD-091;CAD-092;CAD-101;CAD-102;CAD-105;CAD-106;CAD-107;CAD-109;CAD-110;CAD-111;CAD-112;CAD-114;CAD-116;CAD-117;CAD-118;CAD-119;CAD-120";RBS;yourDroid;RBS13444;3,832601334532;kg;4;47,80;;offen;;https://www.roboter-bausatz.de/p/yourdroid-petg-filament-schwarz-1.75mm-1kg
+M02, M05;X-Achse;MAT-004;Präzisionswellen Ø10, Zuschnitt-Los;"CAD-069;CAD-098";DOLD;DOLD (über voelkner.de);D25160720;1;Los;1;83,64;;offen;;https://www.voelkner.de/products/10394662/Praezisionswelle-10mm-h6-Edelstahl-X46CR13-Linearwellen-geschliffen-und-gehaertet.-ZUSCHNITT-18-EUR-m-0-60-EUR-pro-Schnitt-1950mm.html
+M02;X-Achse;MAT-007;Aluprofil 40x 16S Nut 8, Zuschnitt;CAD-103;DOLD;DOLD;60879-Z;1;Los;1;29,03;;offen;;https://www.dold-mechatronik.de/Aluminiumprofil-40x16S-I-Typ-Nut-8
+M02;X-Achse;N-031;DIN 7991 M3×8;CAD-031;EISEN2000;nicht angegeben;OS-7991-2-030008;36;Stück;100;5,00;;offen;;https://www.eisenwaren2000.de/?a=84924
+M02;X-Achse;N-032;DIN 7991 M6×12;CAD-032;SCHRAUBEN;Schrauben.Expert;7991 6 12 A2;18;Stück;25;5,00;;offen;;https://schrauben-expert.de/Senkschraube-ISO-10642-M6-x-12-Edelstahl-A2
+M02, M03, M04, M07;X-Achse;N-035;DIN 912 M3×10;CAD-035;EISEN2000;nicht angegeben;OS-912-2-030010;84;Stück;100;5,00;;offen;;https://www.eisenwaren2000.de/?a=85293
+M02, M03;X-Achse;N-038;DIN 912 M3×16;CAD-038;EISEN2000;nicht angegeben;OS-912-2-030016;31;Stück;50;10,50;;offen;;https://www.eisenwaren2000.de/?a=85296
+M02;X-Achse;N-039;DIN 912 M3×18;CAD-039;EISEN2000;nicht angegeben;OS-912-2-030018;36;Stück;50;10,50;;offen;;https://www.eisenwaren2000.de/?a=85297
+M02, M04;X-Achse;N-042;DIN 912 M3×8;CAD-042;EISEN2000;nicht angegeben;OS-912-2-030008;58;Stück;100;5,00;;offen;;https://www.eisenwaren2000.de/?a=85292
+M02, M03;X-Achse;N-044;DIN 912 M4×20;CAD-044;SCHRAUBEN;Schrauben.Expert;912 4 20 A2;22;Stück;25;5,00;;offen;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M4-x-20-mm-Edelstahl-A2
+M02, M03;X-Achse;N-045;DIN 912 M4×30;CAD-045;SCHRAUBEN;Schrauben.Expert;912 4 30 A2;40;Stück;50;6,00;;offen;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M4-x-30-mm-Edelstahl-A2
+M02;X-Achse;N-046;DIN 912 M5×10;CAD-046;SCHRAUBEN;Schrauben.Expert;912 5 10 A2;36;Stück;50;6,00;;offen;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M5-x-10-mm-Edelstahl-A2
+M02;X-Achse;N-047;DIN 912 M5×14;CAD-047;SCHRAUBEN;Schrauben.Expert;912 5 14 A2;6;Stück;10;3,30;;offen;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M5-x-14-mm-Edelstahl-A2
+M02, M03, M04, M07, M08;X-Achse;N-056;Sechskantmutter DIN 934 M3 A2;CAD-056;SCHRAUBEN;Schrauben.Expert;934 3 A2;49;Stück;50;6,00;;offen;;https://schrauben-expert.de/Sechskantmutter-DIN-934-M3-Edelstahl-V2A
+M02, M03;X-Achse;N-057;Sechskantmutter DIN 934 M4 A2;CAD-057;SCHRAUBEN;Schrauben.Expert;934 4 A2;71;Stück;100;7,00;;offen;;https://schrauben-expert.de/Sechskantmutter-DIN-934-M4-Edelstahl-V2A
+M03;Y-Achse;BUY-022;16 Gleitbuchsen RJ4JP-01-10;CAD-080;DOLD;igus;RJ4JP-01-10;16;Stück;16;61,12;;offen;;https://www.dold-mechatronik.de/index.php?a=216047
+M03, M05;Y-Achse;MAT-005;Versteifungsprofile 40×16 und Halte-/Distanzstäbe;"CAD-070;CAD-108";DOLD;nicht festgelegt;offen;1;Los;1;100,00;;offen;;https://www.dold-mechatronik.de/
+M03, M04;Y-Achse;N-030;DIN 562 M4 Vierkantmutter;CAD-030;EISEN2000;Schäfer+Peters (Händlerangabe);OS-562-2-0040;14;Stück;25;6,25;;offen;;https://www.eisenwaren2000.de/?a=82354
+M03, M08;Y-Achse;N-041;DIN 912 M3×30;CAD-041;EISEN2000;nicht angegeben;OS-912-2-030030;10;Stück;10;7,90;;offen;;https://www.eisenwaren2000.de/?a=85301
+M04;Z-Achse;ALT-002;MGN12CNachbauvergleich, kein HIWIN;CAD-054;DOLD;DOLD;MGN12C;4;Stück;4;48,00;ja;offen;;https://www.dold-mechatronik.de/Linear-carriage-MGN12C
+M04;Z-Achse;BUY-006;8 Z-Zahnscheiben 9 mm, Ersatz mit Halteranpassung;CAD-076;RBS;nicht angegeben;RBS12867;8;Stück;8;10,32;;offen;;https://www.roboter-bausatz.de/p/gt2-riemenscheibe-16-zaehne-5mm-bohrung-fuer-10mm-zahnriemen
+M04;Z-Achse;BUY-015;4 NEMA14 Z-Motoren, ERSATZ STEPPERONLINE 14HS13-0804S;CAD-063;STEPPERONLINE;STEPPERONLINE;14HS13-0804S;4;Stück;4;38,08;;offen;;https://www.omc-stepperonline.com/de/nema-14-bipolar-1-8deg-18ncm-25-5oz-in-0-8a-5-74v-35x35x34mm-4-draehte-14hs13-0804s
+M04;Z-Achse;BUY-017;Z-Riemen 9 mm;CAD-113;RBS;"MakerMind (Shopangabe; Titel nennt Gates LL-2GT RF)";RBS14040;1,28;m;2;17,38;;offen;;https://www.roboter-bausatz.de/p/1-meter-gt2-zahnriemen-gates-ll2gt-rf-9mm
+M04;Z-Achse;BUY-020;4 HIWIN-Schienen 150 mm;CAD-053;DAMEN;HIWIN;3449;4;Stück;4;222,53;;offen;;https://www.damencnc.com/en/hiwin-profile-rails-narrow-type-mgnr-12-hm/a1945
+M04;Z-Achse;BUY-021;4 HIWIN-Wagen MGN12C;CAD-054;DAMEN;HIWIN;3455;4;Stück;4;147,56;;offen;;https://www.damencnc.com/en/hiwin-carriage-mgn-narrow-type-mgn-12-c-z0-hm-short/a1947
+M04;Z-Achse;N-029;DIN 562 M3 Vierkantmutter;CAD-029;EISEN2000;Schäfer+Peters (Händlerangabe);OS-562-2-0030;10;Stück;25;6,00;;offen;;https://www.eisenwaren2000.de/?a=82353
+M04;Z-Achse;N-040;DIN 912 M3×20;CAD-040;EISEN2000;nicht angegeben;OS-912-2-030020;6;Stück;6;8,40;;offen;;https://www.eisenwaren2000.de/?a=85298
+M05;Schublade und Platinenhalter;BUY-C051;Schubladengriff DOLD A-75873, Lochabstand 100 mm;CAD-051;DOLD;DOLD;A-75873;1;Stück;1;8,15;;offen;;https://www.dold-mechatronik.de/Buegelgriff-100mm-mit-Befestigungsbohrungen
+M05;Schublade und Platinenhalter;BUY-C084;Teleskopschiene 350 mm, Vollauszug;CAD-084;DOLD;DOLD;HS-4613-350;2;Stück;2;10,84;;offen;;https://www.dold-mechatronik.de/Vollauszug-45kg-350mm-(1-Paar-Teleskopschienen)
+M05;Schublade und Platinenhalter;BUY-SYS-044;Nutenstein I-Typ Nut 6, M5, Griff;SYS-044;DOLD;DOLD;62361-VK;2;Stück;2;1,78;;offen;;https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M5
+M05;Schublade und Platinenhalter;BUY-SYS-045;Zylinderschraube DIN 912 M5×35 A2, Griff;SYS-045;SCHRAUBEN;Schrauben.Expert;912 5 35 A2;2;Stück;10;3,30;;offen;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M5-x-35-mm-Edelstahl-A2
+M05;Schublade und Platinenhalter;BUY-SYS-046;Zylinderschraube DIN 912 M4×10 A2, Wellenhalter;SYS-046;SCHRAUBEN;Schrauben.Expert;912 4 10 A2;7;Stück;10;3,30;;offen;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M4-x-10-mm-Edelstahl-A2
+M05;Schublade und Platinenhalter;BUY-SYS-047;Nutenstein I-Typ Nut 6, M4, Wellenhalter;SYS-047;DOLD;DOLD;62347-VK;8;Stück;10;4,80;;offen;;https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M4
+M05;Schublade und Platinenhalter;BUY-SYS-048;Linsenkopfschraube ISO 7380-1 M4×8 A2, Teleskopschienen;SYS-048;SCHRAUBEN;Schrauben.Expert;7380-1 4 8 A2;12;Stück;25;5,00;;offen;;https://schrauben-expert.de/Linsenkopfschraube-ISO-7380-1-M4-x-8-Edelstahl-A2
+M05;Schublade und Platinenhalter;BUY-SYS-049;Nutenstein I-Typ Nut 6, M4, Teleskopschienen;SYS-049;DOLD;DOLD;62347-VK;12;Stück;20;9,60;;offen;;https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M4
+M05;Schublade und Platinenhalter;N-028;DIN 466 Rändelmutter hoch M4;CAD-028;EISEN2000;nicht angegeben;OS-466-1-040;10;Stück;10;16,10;;offen;;https://www.eisenwaren2000.de/?a=82262
+M05;Schublade und Platinenhalter;N-033;DIN 7991 M6×14;CAD-033;SCHRAUBEN;Schrauben.Expert;7991 6 14 A2;8;Stück;10;3,30;;offen;;https://schrauben-expert.de/Senkschraube-ISO-10642-M6-x-14-Edelstahl-A2
+M05;Schublade und Platinenhalter;N-043;DIN 912 M4×10;CAD-043;SCHRAUBEN;Schrauben.Expert;912 4 10 A2;3;Stück;10;3,30;;offen;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M4-x-10-mm-Edelstahl-A2
+M05;Schublade und Platinenhalter;N-048;DIN 933 M4×20;CAD-048;SCHRAUBEN;Schrauben.Expert;933 4 20 A2;10;Stück;10;3,30;;offen;;https://schrauben-expert.de/Sechskantschraube-DIN-933-M4-x-20-Edelstahl-V2A
+M05;Schublade und Platinenhalter;OPEN-CAD-010;Schubladen-Dummyplatte;CAD-010;DOLD;nicht festgelegt;offen;1;Stück;1;;;offen;;https://www.dold-mechatronik.de/
+M06;Kabelführung;BUY-008;Kurze Energieketten, 192 Glieder;CAD-049;IGUS;igus;E2i.10.10.028.0;192;Glied;192;107,39;;offen;;https://www.igus.de/product/series-E2i-10?artNr=E2i.10.10.028.0
+M06;Kabelführung;BUY-023;Lange Energieketten, 112 Glieder;CAD-050;IGUS;igus;E2I.10.20.028.0;112;Glied;112;65,31;;offen;;https://www.igus.de/product/series-E2i-10?artNr=E2I.10.20.028.0
+M06;Kabelführung;BUY-024;16 Anschlusssätze E2.10 schmal;SYS-027;DIGIKEY;igus;E2-100-10-34PZ;16;Satz;16;111,19;;offen;;https://www.digikey.de/de/products/detail/igus/E2-100-10-34PZ/13157727
+M06;Kabelführung;BUY-025;8 Anschlusssätze E2.10 breit;SYS-028;DIGIKEY;igus;E2-100-20-34PZ;8;Satz;8;64,36;;offen;;https://www.digikey.de/de/products/detail/igus/E2-100-20-34PZ/13157712
+M06;Kabelführung;BUY-SYS-050;Zylinderschraube DIN 912 M3×8 A2, Kabelhalter M3;SYS-050;EISEN2000;nicht angegeben;OS-912-2-030008;4;Stück;100;5,00;;offen;;https://www.eisenwaren2000.de/?a=85292
+M06;Kabelführung;BUY-SYS-051;Zylinderschraube DIN 912 M3×10 A2, igus-Kettenanschlüsse;SYS-051;EISEN2000;nicht angegeben;OS-912-2-030010;106;Stück;200;10,00;;offen;;https://www.eisenwaren2000.de/?a=85293
+M06;Kabelführung;BUY-SYS-052;Zylinderschraube DIN 912 M3×12 A2, Z-Kabelhalter;SYS-052;EISEN2000;nicht angegeben;OS-912-2-030012;6;Stück;50;6,50;;offen;;https://www.eisenwaren2000.de/?a=85294
+M06;Kabelführung;BUY-SYS-053;Sechskantmutter DIN 934 M3 A2, Kabelführung;SYS-053;SCHRAUBEN;Schrauben.Expert;934 3 A2;111;Stück;150;18,00;;offen;;https://schrauben-expert.de/Sechskantmutter-DIN-934-M3-Edelstahl-V2A
+M06;Kabelführung;BUY-SYS-054;Linsenkopfschraube ISO 7380-1 M4×8 A2, Kabelführung;SYS-054;SCHRAUBEN;Schrauben.Expert;7380-1 4 8 A2;11;Stück;25;5,00;;offen;;https://schrauben-expert.de/Linsenkopfschraube-ISO-7380-1-M4-x-8-Edelstahl-A2
+M06;Kabelführung;BUY-SYS-055;Nutenstein I-Typ Nut 6, M4, Kabelhalter;SYS-055;DOLD;DOLD;62347-VK;3;Stück;10;4,80;;offen;;https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M4
+M06;Kabelführung;BUY-SYS-056;Zylinderschraube DIN 912 M5×10 A2, Kabelhalter M5;SYS-056;SCHRAUBEN;Schrauben.Expert;912 5 10 A2;6;Stück;50;6,00;;offen;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M5-x-10-mm-Edelstahl-A2
+M06;Kabelführung;MAT-008;Aluprofil 80x 16S Nut 8, Zuschnitt, Kandidat;CAD-009;DOLD;DOLD;60886-Z;1;Los;1;74,80;;offen;;https://www.dold-mechatronik.de/Aluminiumprofil-80x16S-I-Typ-Nut-8
+M07;Elektrik und Sensorik;BUD-S011;USB-Kabel für 4 SKR;SYS-011;REICHELT;nicht festgelegt;offen;1;Los;1;20,00;;offen;;https://www.reichelt.de/
+M07;Elektrik und Sensorik;BUD-S012;USB-Kabel für MUX/UART/Zielversorgung;SYS-012;REICHELT;nicht festgelegt;offen;1;Los;1;15,00;;offen;;https://www.reichelt.de/
+M07;Elektrik und Sensorik;BUD-S013;Bewegliche Kameraleitung / USB-Verlängerung;SYS-013;REICHELT;nicht festgelegt;offen;1;Los;1;15,00;;offen;;https://www.reichelt.de/
+M07;Elektrik und Sensorik;BUD-S014;Motorleitungen 4adrig;SYS-014;TME;nicht festgelegt;offen;1;Los;1;64,00;;offen;;https://www.tme.eu/de/
+M07;Elektrik und Sensorik;BUD-S015;Motor-Gegenstecker und Crimpkontakte;SYS-015;TME;nicht festgelegt;offen;1;Los;1;25,00;;offen;;https://www.tme.eu/de/
+M07;Elektrik und Sensorik;BUD-S018;24-V-Verteilung, Sicherungen, Klemmen, Leitungen;SYS-018;REICHELT;nicht festgelegt;offen;1;Los;1;60,00;;offen;;https://www.reichelt.de/
+M07;Elektrik und Sensorik;BUD-S020;Netzeinspeisung, Leitung, Sicherung und Zugentlastung;SYS-020;REICHELT;nicht festgelegt;offen;1;Los;1;35,00;;offen;;https://www.reichelt.de/
+M07;Elektrik und Sensorik;BUD-S021;Schutzleiter, Ringkabelschuhe und Klemmenabdeckung;SYS-021;REICHELT;nicht festgelegt;offen;1;Los;1;15,00;;offen;;https://www.reichelt.de/
+M07;Elektrik und Sensorik;BUD-S025;USB-UART-Adapter;SYS-025;TME;nicht festgelegt;offen;1;Los;1;20,00;;offen;;https://www.tme.eu/de/
+M07;Elektrik und Sensorik;BUD-S032;Controller-Befestigung und Kühlung;SYS-032;RBS;nicht festgelegt;offen;1;Los;1;30,00;;offen;;https://www.roboter-bausatz.de/
+M07;Elektrik und Sensorik;BUY-001;Netzteil 24 V;CAD-060;REICHELT;Mean Well;MW RSP-200-24;1;Stück;1;42,50;;offen;;https://www.reichelt.de/de/de/shop/produkt/schaltnetzteil_geschlossen_200_w_24_v_8_4_a-147909
+M07;Elektrik und Sensorik;BUY-002;16 TMC2130 aus 4 Viererpacks;SYS-001;RBS;BIGTREETECH;RBS13024;16;Stück;16;159,80;;offen;;https://www.roboter-bausatz.de/p/4x-tmc2130-spi-schrittmotortreiber
+M07;Elektrik und Sensorik;BUY-009;4 optische Endstops inkl 1 m Kabel;CAD-065;RBS;MakerMind;RBS12901;4;Stück;4;11,40;;offen;;https://www.roboter-bausatz.de/p/optischer-endschalter-endstop-mit-1m-kabel
+M07;Elektrik und Sensorik;BUY-012;Aktiver 7Port-USB-Hub;SYS-010;REICHELT;D-Link;D-LINK DUB H7;1;Stück;1;25,90;;offen;;https://www.reichelt.de/de/de/shop/produkt/usb_2_0_7-port_hub_mit_netzteil_schwarz-131488
+M07;Elektrik und Sensorik;BUY-016;4 Steuerplatinen SKR 1.4 Turbo (ERSATZ);CAD-023;RBS;BIGTREETECH;RBS13645;4;Stück;4;199,80;;offen;;https://www.roboter-bausatz.de/p/btt-skr-1.4-turbo-32-bit-mainboard
+M07;Elektrik und Sensorik;BUY-C059;Mean Well MHS012 Montagewinkel;CAD-059;REICHELT;Mean Well;MHS-012;4;Stück;4;1,20;;offen;;https://www.reichelt.de/de/de/shop/produkt/befestigungswinkel_fuer_schaltnetzteile-188580
+M07;Elektrik und Sensorik;BUY-CAB;24 Sensorleitungen ifm EVC141;SYS-016;AUTOMATION24;ifm;EVC141;24;Stück;24;396,98;;offen;;https://www.automation24.de/m8-sensorleitung-ifm-electronic-evc141
+M07;Elektrik und Sensorik;BUY-SEN;24 induktive Sensoren ELCO NI4-M08-ON6L-Q8;CAD-055;ELCO;ELCO;NI4-M08-ON6L-Q8;24;Stück;24;298,17;;offen;;https://shop.elco-automation.de/NI4-M08-ON6L-Q8
+M07;Elektrik und Sensorik;BUY-SW;Netzschalter Ø19 ONPOW LAS1 A;CAD-086;REICHELT;ONPOW;VS LAS1A-ZG24;1;Stück;1;11,94;;offen;;https://www.reichelt.de/de/de/shop/produkt/av-schalter_ip67_22_19_mm_5a-250v_gn-108422
+M07;Elektrik und Sensorik;MAT-009;Auslöserstäbe Ø8 Cf 53, Zuschnitt;"CAD-093;CAD-094";DOLD;DOLD;PW-CF53-8-h6-Z;1;Los;1;14,29;;offen;;https://www.dold-mechatronik.de/Praezisionswelle-8mm-h6-geschliffen-und-gehaertet-Material-CF53-Zuschnitt
+M07;Elektrik und Sensorik;N-036;DIN 912 M3×12;CAD-036;EISEN2000;nicht angegeben;OS-912-2-030012;10;Stück;50;6,50;;offen;;https://www.eisenwaren2000.de/?a=85294
+M07;Elektrik und Sensorik;N-058;ISO 8673 Mutter M8;CAD-058;BEFFUCHS;Schäfer+Peters;24122 08 1;53;Stück;100;9,41;;offen;;https://www.befestigungsfuchs.de/eisenwaren/muttern/sechskantmuttern/100-sechskantmuttern-mf8-sw13-feingewinde-1mm-edelstahl-a4-80-din-934
+M07;Elektrik und Sensorik;OPEN-SYS-017;Sensor-Gegenstecker und Kontakte;SYS-017;TME;nicht festgelegt;offen;28;Satz;28;;;offen;;https://www.tme.eu/de/
+M07;Elektrik und Sensorik;OPEN-SYS-019;Sensor-Pegelanpassung / Eingangsschutz;SYS-019;BETA;nicht festgelegt;offen;24;Kanäle;24;;;offen;;https://de.beta-layout.com/leiterplatten/
+M07;Elektrik und Sensorik;OPEN-SYS-026;Zielplatinen-Versorgungscontroller;SYS-026;BETA;nicht festgelegt;offen;1;Baugruppe;1;;;offen;;https://de.beta-layout.com/leiterplatten/
+M07;Elektrik und Sensorik;OPEN-SYS-038;Kalibrier-Kontaktleitungen und gemeinsame Messreferenz;SYS-038;TME;nicht festgelegt;offen;1;Satz;1;;;offen;;https://www.tme.eu/de/
+M08;Optik;BUD-S029;Profil-Nutensteine und Zusatzbefestigung;SYS-029;DOLD;nicht festgelegt;offen;1;Los;1;35,00;;offen;;https://www.dold-mechatronik.de/
+M08;Optik;BUY-010;Übersichtskamera ELP-USBFHD01M-H100;SYS-002;ELP;ELP;ELP-USBFHD01M-H100;1;Stück;1;;;offen;;https://www.elpcctv.com/elp-full-hd-1080p-usb-camera-module-usb20-ov2710-color-sensor-support-mjpeg-with-36mm-lens-p-203.html
+M08;Optik;BUY-011;USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG Halter);CAD-085;VOELKNER;Toolcraft;D929041;1;Stück;1;57,99;;offen;;https://www.voelkner.de/products/1177903/TOOLCRAFT-USB-Mikroskop-2-Megapixel-Digitale-Vergroesserung-max.-200-x.html
+M08;Optik;N-037;DIN 912 M3×14;CAD-037;EISEN2000;nicht angegeben;OS-912-2-030014;6;Stück;100;5,00;;offen;;https://www.eisenwaren2000.de/?a=85295
+M08;Optik;OPT-001;3zusätzliche Mikroskope;SYS-033;REICHELT;Reflecta;REFLECTA 66146;3;Stück;3;164,97;ja;offen;;https://www.reichelt.de/de/de/shop/produkt/digital_mikroskop_50-_1000x_wifi_2_0-380934
+M09;Prüfspitzen;BUD-S022;Messkoax und instrumentenseitige Adapter;SYS-022;TME;nicht festgelegt;offen;1;Los;1;60,00;;offen;;https://www.tme.eu/de/
+M09;Prüfspitzen;BUY-PIN;Prüfstifte P75-B1 (CAD-Spitze);CAD-115;DOMOTICX;nicht angegeben;CON-0032-P75B1;10;Stück;10;1,80;;offen;;https://domoticx.net/webshop/pogo-pin-test-probe-0-75mm-punt-p75-b1
+M09;Prüfspitzen;BUY-SYS-057;10 Prüfstifte P75-E2;SYS-057;DOMOTICX;nicht angegeben;P75-E2;10;Stück;10;1,80;;offen;;https://domoticx.net/webshop/pogo-pin-test-probe-075mm-conisch-p75-e2/
+M09;Prüfspitzen;OPEN-CAD-061;MMCX-Stecker gerade mit RG316, offenes Ende;CAD-061;OFFEN;nicht festgelegt;offen;4;Stück;4;;;offen;;
+M09;Prüfspitzen;OPEN-CAD-062;MMCX-Stecker gewinkelt mit RG316, offenes Ende;CAD-062;OFFEN;nicht festgelegt;offen;4;Stück;4;;;offen;;
+M09;Prüfspitzen;OPEN-CAD-073;Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W);CAD-073;OFFEN;nicht festgelegt;offen;8;Stück;8;;;offen;;
+M09;Prüfspitzen;OPEN-CAD-075;Prüfspitzen-PCB, unbestückt;CAD-075;BETA;nicht festgelegt;offen;4;Stück;4;;;offen;;https://de.beta-layout.com/leiterplatten/
+M09;Prüfspitzen;OPEN-SYS-003;Signal-Multiplexer, unbestückte Leiterplatte;SYS-003;BETA;nicht festgelegt;offen;1;Stück;1;;;offen;;https://de.beta-layout.com/leiterplatten/
+M09;Prüfspitzen;OPEN-SYS-023;Signal-Multiplexer Bestückung;SYS-023;BETA;nicht festgelegt;offen;1;Baugruppe;1;;;offen;;https://de.beta-layout.com/leiterplatten/
+M09;Prüfspitzen;OPEN-SYS-024;Prüfspitzen-PCB Bestückung;SYS-024;BETA;nicht festgelegt;offen;4;Baugruppen;4;;;offen;;https://de.beta-layout.com/leiterplatten/
+M09;Prüfspitzen;OPEN-SYS-058;Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl);SYS-058;OFFEN;nicht festgelegt;offen;10;Stück;10;;;offen;;
+M10;Verkleidung;BUY-SYS-059;Zylinderschraube DIN 912 M5×10 A2, Abdeckungen;SYS-059;SCHRAUBEN;Schrauben.Expert;912 5 10 A2;18;Stück;50;6,00;;offen;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M5-x-10-mm-Edelstahl-A2
+M10;Verkleidung;BUY-SYS-060;Nutenstein I-Typ Nut 6, M5, Abdeckungen;SYS-060;DOLD;DOLD;62361-VK;18;Stück;18;16,02;;offen;;https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M5
+M10;Verkleidung;MAT-010;Acrylglas-Abdeckungen, Zuschnitt-Los;"CAD-007;CAD-008";PLATTENZUSCHNITT24;nicht angegeben;C10000-AC05;1;Los;1;31,00;;offen;;https://www.plattenzuschnitt24.de/Acrylglas-XT-5mm-transparent.html
+M12;Beleuchtung;BUY-013;LED-Streifen 5-m-Rolle für 1,9 m;SYS-007;REICHELT;LUXULA;LUXULA LX700101;1,9;m;5;6,95;;offen;;https://www.reichelt.de/de/de/shop/produkt/led-streifen_5_meter_4500_k_120_led_m_24_v_8_mm-365051
+M12;Beleuchtung;BUY-LEDP;LED-Profilsatz BARdolino;SYS-008;REICHELT;Barthelme;BARDOLINO P1MF + A1MO + EKSF + HKS;1;Satz;1;44,55;;offen;;https://www.reichelt.de/de/de/shop/produkt/bardolino_flach_profil_alu_eloxiert_1m-122169
+M12;Beleuchtung;OPEN-SYS-009;LED-Anschluss an den Heizbett-Ausgang der Licht-Steuerplatine;SYS-009;REICHELT;nicht festgelegt;offen;1;Satz;1;;;offen;;https://www.reichelt.de/
+M13;Kalibrierung;OPEN-SYS-004;Kalibrier-Referenzplatte, Alu schwarz;SYS-004;OFFEN;nicht festgelegt;offen;1;Stück;1;;;offen;;
+M13;Kalibrierung;OPEN-SYS-005;Innere Messing-Referenzzylinder Ø7/8/9/10;SYS-005;OFFEN;nicht festgelegt;offen;4;Stück;4;;;offen;;
+M13;Kalibrierung;OPEN-SYS-006;Kalibriermarker, in die Platte graviert;SYS-006;OFFEN;nicht festgelegt;offen;1;Satz;1;;;offen;;
+M13;Kalibrierung;OPEN-SYS-037;Weiße äußere Kalibrierreferenzen Ø10;SYS-037;OFFEN;nicht festgelegt;offen;4;Stück;4;;;offen;;
+M13;Kalibrierung;OPEN-SYS-039;Erhöhte Messing-Referenzzylinder;SYS-039;OFFEN;nicht festgelegt;offen;4;Stück;4;;;offen;;
+M13;Kalibrierung;OPEN-SYS-040;Äußere flache Messing-Referenzzylinder Ø7;SYS-040;OFFEN;nicht festgelegt;offen;4;Stück;4;;;offen;;
+allg.;ohne Modul;BUD-S030;Scheiben, Sicherungselemente, Distanzteile;SYS-030;SCHRAUBEN;nicht festgelegt;offen;1;Los;1;20,00;;offen;;https://schrauben-expert.de/
+allg.;ohne Modul;BUD-S031;Lötzinn, Schrumpfschlauch, Binder, Labels, Kleber;SYS-031;REICHELT;nicht festgelegt;offen;1;Los;1;35,00;;offen;;https://www.reichelt.de/
+Versand;Versand und Gebühren;FEE-001;Rechnungskaufgebühr Schrauben.Expert;;SCHRAUBEN;nicht festgelegt;offen;1;Gebühr;1;5,00;;offen;;https://schrauben-expert.de/Zahlungsmoeglichkeiten
+Versand;Versand und Gebühren;SHIP-BEFFUCHS;Befestigungsfuchs Versand Deutschland;;BEFFUCHS;nicht festgelegt;offen;1;Sendung;1;5,95;;offen;;https://www.befestigungsfuchs.de/
+Versand;Versand und Gebühren;SHIP-EISEN2000;Eisenwaren 2000 Versand Deutschland;;EISEN2000;nicht festgelegt;offen;1;Sendung;1;0,00;;offen;;https://www.eisenwaren2000.de/
+Versand;Versand und Gebühren;SHIP-RBS;RBS Sammelversand Deutschland;;RBS;nicht festgelegt;offen;1;Sendung;1;0,00;;offen;;https://www.roboter-bausatz.de/c/information/versand-und-zahlung/
+Versand;Versand und Gebühren;SHIP-REICHELT;Reichelt DHL Deutschland bis 10 kg;;REICHELT;nicht festgelegt;offen;1;Sendung;1;5,95;;offen;;https://www.reichelt.de/versandkosten
+Versand;Versand und Gebühren;SHIP-REST;Frachtreserve fürübrige Lieferanten;;OFFEN;nicht festgelegt;offen;1;Budget;1;150,00;;offen;;
+Versand;Versand und Gebühren;SHIP-SCHRAUBEN;Schrauben.Expert Versand Deutschland;;SCHRAUBEN;nicht festgelegt;offen;1;Sendung;1;4,00;;offen;;https://schrauben-expert.de/

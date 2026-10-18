@@ -4,7 +4,7 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 
 | Modul | Positionen | Stück | bestellfähig | teilweise geklärt | Fertigung noch offen | Fertigung spezifiziert | nicht identifiziert | nicht benötigt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [M01 Grundgerüst](#modul-01) | 13 | 70 | 10 | 0 | 3 | 0 | 0 | 0 |
+| [M01 Grundgerüst](#modul-01) | 12 | 62 | 9 | 0 | 3 | 0 | 0 | 0 |
 | [M02 X-Achse](#modul-02) | 33 | 434 | 22 | 0 | 6 | 5 | 0 | 0 |
 | [M03 Y-Achse](#modul-03) | 27 | 168 | 17 | 0 | 0 | 10 | 0 | 0 |
 | [M04 Z-Achse](#modul-04) | 20 | 100 | 14 | 0 | 0 | 6 | 0 | 0 |
@@ -34,7 +34,6 @@ Tragender Rahmen ohne Elektrik, ohne Halter für elektrische Teile, ohne Achsen,
 | [CAD-034](../Teileliste.md#cad-034) DIN 7991 M6×20 | `din_7991_m6x20` | 8 von 22 | bestellfähig; 8 von 22 verbinden die Motorplatten mit den 60×30-Profilen; 8 halten die Adapterplatten (X-Antrieb), 6 die Kettenhalter. | Kaufteile |
 | [CAD-052](../Teileliste.md#cad-052) Gelenkfuß M6×20 / Teller Ø40 mm | `hinged_M6_40_dold` | 4 | bestellfähig | Kaufteile |
 | [CAD-081](../Teileliste.md#cad-081) Anschraubwinkel 30 / Nut 6 | `screw_on_bracket_30_6` | 18 von 26 | bestellfähig; 18 von 26 verbinden Rahmenprofile; 8 gehören zur Schublade. | Kaufteile |
-| [SYS-041](../Teileliste.md#sys-041) Nutenstein I-Typ Nut 6, M6, Motorplatten | nicht im CAD | 8 | bestellfähig | Kaufteile |
 | [SYS-042](../Teileliste.md#sys-042) Nutenstein I-Typ Nut 6, M4, Rückwand | nicht im CAD | 6 | bestellfähig | Kaufteile |
 | [SYS-043](../Teileliste.md#sys-043) Zylinderschraube DIN 912 M4×10 A2, Rückwand | nicht im CAD | 6 | bestellfähig | Kaufteile |
 | [CAD-003](../Teileliste.md#cad-003) Grundgestell: Rückseite Platte | `base_back_plate` | 1 | Fertigung noch offen | Blech intern |
