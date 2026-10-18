@@ -8,9 +8,9 @@
 
 | Ergebnis | netto | brutto 19% |
 | --- | --- | --- |
-| 1. Summe belegter Webpreise bei Planmengen (einschließlich ungeprüfter Kandidaten) | 3.130,44 € | 3.725,32 € |
+| 1. Summe belegter Webpreise bei Planmengen (einschließlich ungeprüfter Kandidaten) | 3.133,70 € | 3.729,20 € |
 | Zusätzliche eigene Budgetschätzungen inklusive Frachtreserve | 826,09 € | 983,03 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.956,53 € | 4.708,35 € |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.959,79 € | 4.712,23 € |
 | 3. 21 noch unbezifferte Bestellpositionen | offen | offen |
 
 **Das vorläufige Total ist kein vollständiger Baupreis.** Die unbezifferten Platinen, Prüfkontakte, Sensoren und Kalibrierteile kommen hinzu. Ein vorhan dener Shoppreis beweist keine Austauschbarkeit. [Kostenmethodik](Kosten.md) trennt Preise, Mengenannahmen und offene Bedarfe.
@@ -86,7 +86,7 @@ TMC2130, Rollen, Lager und Kamerakandidaten besitzen konkrete Bezugsquellen, ben
 | **BUY-PIN** Prüfstifte P75-B1 (CAD-Spitze)<br>CAD-115 | 10 Stück → 10 × 1 | [DOMOTICX](https://domoticx.net/webshop/pogo-pin-test-probe-0-75mm-punt-p75-b1) / CON-0032-P75B1<br>nicht angegeben: P75-B1<br>239 auf Lager | 0,18 € brutto | 1,51 € / 1,80 € | Ø1,0 × 16,5 mm, 3 A, Hub 2,5 mm = CAD (Ø1 × 16,6, 30°-Spitze). Federkraft nicht angegeben.  |
 | **BUY-LEDP** LED-Profilsatz BARdolino<br>SYS-008 | 1 Satz → 1 × 1 | [REICHELT](https://www.reichelt.de/de/de/shop/produkt/bardolino_flach_profil_alu_eloxiert_1m-122169) / BARDOLINO P1MF + A1MO + EKSF + HKS<br>Barthelme: 62399201 / 62399301 / 62398614 / 50990090<br>ab Lager, 1–2 Werktage | 44,55 € brutto | 37,44 € / 44,55 € | 2×6,65 + 2×4,60 + 2×8,55 + 3×1,65 EUR. Je 1-m-Profil ein 590- und ein 350-mm-Stück. Außen 18,4×13 mm für 8-mm-Streifen; Innenbreite im Datenblatt prüfen.  |
 | **BUY-C051** Schubladengriff DOLD A-75873, Lochabstand 100 mm<br>CAD-051 | 1 Stück → 1 × 1 | [DOLD](https://www.dold-mechatronik.de/Buegelgriff-100mm-mit-Befestigungsbohrungen) / A-75873<br>DOLD: A-75873<br>laut Recherche lieferbar | 8,15 € brutto | 6,85 € / 8,15 € | Lochabstand 100, Höhe 49, Durchgangsbohrung Ø5,4 = CAD (Ø5,5 durch, 29 mm); Länge 112 statt 113 mm.  |
-| **BUY-C052** Gelenkfuß M6×20 / Teller Ø40 mm<br>CAD-052 | 4 Stück → 4 × 1 | [DOLD](https://www.dold-mechatronik.de/index.php?a=91508) / GF-K-10-PA-028<br>DOLD: GF-K-10-PA-028<br>sofort verfügbar; 3–4 Werktage | 1,50 € brutto | 5,04 € / 6,00 € | M6 und Teller Ø40 = CAD; Gewindelänge 20 aus CAD-Höhe nicht belegt, Traglast nicht angegeben.  |
+| **BUY-C052** Gelenkfuß M6×20 / Teller Ø40 mm<br>CAD-052 | 4 Stück → 4 × 1 | [DOLD](https://www.dold-mechatronik.de/index.php?a=91508) / GF-K-10-PA-028<br>DOLD: GF-K-10-PA-028<br>sofort verfügbar; 3–4 Werktage | 2,47 € brutto | 8,30 € / 9,88 € | M6×20 und Teller Ø40 = CAD (Fusion-Messung). Preis vorsichtshalber als Summe der Variantenteile angesetzt: Teller 0,87 + Gewindestange 1,50 + Mutter DIN 439 0,10 EUR; Shop zeigt 1,50 EUR (Luis 18.10.2026). Stahl verzinkt + PA, Traglast nicht angegeben.  |
 | **BUY-C059** Mean Well MHS012 Montagewinkel<br>CAD-059 | 4 Stück → 4 × 1 | [REICHELT](https://www.reichelt.de/de/de/shop/produkt/befestigungswinkel_fuer_schaltnetzteile-188580) / MHS-012<br>Mean Well: MHS012<br>ab Lager; 1–2 Werktage | 0,30 € brutto | 1,01 € / 1,20 € | 15×16,2×19,5 laut Zeichnung (CAD 15×16×19,2); 4 je RSP-200.  |
 | **BUY-C081** Anschraubwinkel 30 / Nut 6<br>CAD-081 | 26 Stück → 26 × 1 | [DOLD](https://www.dold-mechatronik.de/Winkel-30-I-Typ-Nut-6-inkl-Befestigungssatz) / 62385-BS<br>DOLD: 62385-BS<br>sofort verfügbar; 3–4 Werktage | 2,24 € brutto | 48,94 € / 58,24 € | 28×28×28 = CAD; Satz mit 2 Schrauben DIN 7380 M6×12 10.9 verzinkt (so belassen, Luis 18.10.2026) und 2 Nutensteinen M6. Staffelpreis 2,24 EUR ab 10 Stück (Einzelpreis 2,65 EUR).  |
 | **BUY-C084** Teleskopschiene 350 mm, Vollauszug<br>CAD-084 | 2 Stück → 1 × 2 | [DOLD](https://www.dold-mechatronik.de/Vollauszug-45kg-350mm-(1-Paar-Teleskopschienen)) / HS-4613-350<br>DOLD: HS-4613-350<br>sofort verfügbar; 3–4 Werktage | 10,84 € brutto | 9,11 € / 10,84 € | 350×45,7×12,7 (CAD 45,5); die zwei CAD-Schienen sind ein Paar.  |
