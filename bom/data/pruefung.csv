@@ -56,7 +56,8 @@ BUY-PIN;offen;;
 MAT-010;offen;;
 BUY-LEDP;offen;;
 BUY-C051;offen;;
-BUY-C052;geprüft;2026-10-18;Shop 18.10.: Variante zeigt 1,50 €, Variantenteile summieren 2,47 €. Vorsichtshalber 2,47 € angesetzt (Luis 18.10.2026); Preis beim Bestellen im Warenkorb prüfen. Gewinde M6 in die Kernbohrung von CAD-020, ≥ 20 mm tief.
+BUY-C052;geprüft;2026-10-18;Shop 18.10.: Variante zeigt 1,50 €, Variantenteile summieren 2,47 €. Vorsichtshalber 2,47 € angesetzt (Luis 18.10.2026); Preis beim Bestellen im Warenkorb prüfen. Gewinde M6 in die Kernbohrung von CAD-020, ≥ 20 mm tief.
+
 BUY-C059;offen;;
 BUY-C081;geprüft;2026-10-18;Shop 18.10.: Staffelpreis ab 10 Stk 2,24 € übernommen (26 × 2,24 = 58,24 €). Satzschrauben DIN 7380 M6×12 10.9 verzinkt bleiben (Luis 18.10.2026).
 
@@ -89,7 +90,7 @@ MAT-002;geprüft;2026-10-18;Shop 18.10.: 12,00 €/m + 0,50 €/Schnitt bestäti
 MAT-003;geprüft;2026-10-18;Shop 18.10.: 30,00 €/m + 2,00 €/Schnitt bestätigt, 2,204 kg/m, 4–5 Werktage.
 MAT-004;offen;;
 MAT-005;offen;;
-MAT-006;offen;2026-10-18;Kein Shopartikel. M01-Anteil: Rückwand 650×270×3 Alu, 2 Motorplatten 550×135×5 Stahl. Material/Bezug entscheiden.
+MAT-006;offen (Werkstatt);2026-10-18;Sonderanfertigung, bleibt offen (Luis 18.10.2026). M01: 2 Motorplatten 550×135×5 (Kontur, 134 Innenkonturen, Langlöcher) + Rückwand 650×270×3 (Langlöcher). DOLD-Shop nur Rechteck-Zuschnitt 5 mm Alu mit Bohrungen; Optionen: DOLD-Anfrage mit STEP, Online-Laserdienst (DXF) oder Werkstatt-CNC.
 BUD-S011;offen;;
 BUD-S012;offen;;
 BUD-S013;offen;;
