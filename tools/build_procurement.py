@@ -354,7 +354,7 @@ def make_parts():
         if group in ['PCB extern','3D-Druck intern','Weitere Fertigung']: status='Fertigung noch offen'
         if group=='Ungeklärte Teile': status='nicht identifiziert'
         if group=='Nicht benötigt': status='nicht benötigt'
-        if key in ('016','057','041','042','043','044','045','046','047','048','049','050','051','052','053','054','055','056'): status='bestellfähig'
+        if key in ('016','027','028','057','041','042','043','044','045','046','047','048','049','050','051','052','053','054','055','056'): status='bestellfähig'
         result.append(dict(id='SYS-'+key,name=title,cad_name='',cad_quantity='',fusion_quantity='',quantity=qty,
                            unit=unit,group=group,status=status,geometry_mm='',solid_volume_cm3='',
                            material='nicht belegt',process_evidence='Planungsbedarf; '+source,

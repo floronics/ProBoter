@@ -517,8 +517,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [SYS-024](#sys-024) Prüfspitzen-PCB Bestückung | 4 Baugruppen | PCB extern | Fertigung noch offen |
 | [SYS-025](#sys-025) USB-UART-Adapter | 1 Stück | Kaufteile | teilweise geklärt |
 | [SYS-026](#sys-026) Zielplatinen-Versorgungscontroller | 1 Baugruppe | PCB extern | Fertigung noch offen |
-| [SYS-027](#sys-027) Energieketten-Endanschlüsse schmal | 16 Sätze | Kaufteile | teilweise geklärt |
-| [SYS-028](#sys-028) Energieketten-Endanschlüsse breit | 8 Sätze | Kaufteile | teilweise geklärt |
+| [SYS-027](#sys-027) Energieketten-Endanschlüsse schmal | 16 Sätze | Kaufteile | bestellfähig |
+| [SYS-028](#sys-028) Energieketten-Endanschlüsse breit | 8 Sätze | Kaufteile | bestellfähig |
 | [SYS-029](#sys-029) Profil-Nutensteine und Zusatzbefestigung | 1 Satz | Kaufteile | teilweise geklärt |
 | [SYS-030](#sys-030) Scheiben, Sicherungselemente, Distanzteile | 1 Satz | Kaufteile | teilweise geklärt |
 | [SYS-031](#sys-031) Lötzinn, Schrumpfschlauch, Binder, Labels, Kleber | 1 Satz | Kaufteile | teilweise geklärt |
@@ -629,8 +629,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="sys-021"></a>**SYS-021** Schutzleiter, Ringkabelschuhe und Klemmenabdeckung | – / – / **1 Satz** | teilweise geklärt | offen; nicht belegt | Metallrahmen/Netzteil erden; Querschnitt, Anschlusspunkte und Prüfverfahren in Stromlaufplan dokumentieren.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUD-S021` |
 | <a id="sys-022"></a>**SYS-022** Messkoax und instrumentenseitige Adapter | – / – / **4 Kanäle** | teilweise geklärt | offen; nicht belegt | Vorhan dene Messgeräte verwenden; BNC/SMA/MMCX und Impedanz gerätespezifisch. CAD-MM CX-Stecker 61/62 sind separat, hier nur Kabel und Instrumentadapter.<br>[Beleg](../software/hardware-control/proboter/cli.py); Kostenzeile `BUD-S022` |
 | <a id="sys-025"></a>**SYS-025** USB-UART-Adapter | – / – / **1 Stück** | teilweise geklärt | offen; nicht belegt | Software setzt Adapter voraus; Pegel, Isolation, Pinout und Zielversorgung prüfen; Laborausstattung ggf. gegenrechnen.<br>[Beleg](../software/hardware-control/proboter/cli.py); Kostenzeile `BUD-S025` |
-| <a id="sys-027"></a>**SYS-027** Energieketten-Endanschlüsse schmal | – / – / **16 Sätze** | teilweise geklärt | offen; nicht belegt | igus E2.100.10.34PZ, beidseitig schwenkbar mit Zugentlastung; Breite 17,4 = Anschlusskörper im CAD (Fusion-Messung).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-024` |
-| <a id="sys-028"></a>**SYS-028** Energieketten-Endanschlüsse breit | – / – / **8 Sätze** | teilweise geklärt | offen; nicht belegt | igus E2.100.20.34PZ; Breite 27,4 = Anschlusskörper im CAD (Fusion-Messung).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-025` |
+| <a id="sys-027"></a>**SYS-027** Energieketten-Endanschlüsse schmal | – / – / **16 Sätze** | bestellfähig | offen; nicht belegt | igus E2.100.10.34PZ, beidseitig schwenkbar mit Zugentlastung; Breite 17,4 = Anschlusskörper im CAD (Fusion-Messung).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-024` |
+| <a id="sys-028"></a>**SYS-028** Energieketten-Endanschlüsse breit | – / – / **8 Sätze** | bestellfähig | offen; nicht belegt | igus E2.100.20.34PZ; Breite 27,4 = Anschlusskörper im CAD (Fusion-Messung).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-025` |
 | <a id="sys-029"></a>**SYS-029** Profil-Nutensteine und Zusatzbefestigung | – / – / **1 Satz** | teilweise geklärt | offen; nicht belegt | Nut 6/Profilserie klären; 26Winkel plus Halter. CAD-Vierkantmuttern 29/30 und mitgelieferte Winkelsätze abziehen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUD-S029` |
 | <a id="sys-030"></a>**SYS-030** Scheiben, Sicherungselemente, Distanzteile | – / – / **1 Satz** | teilweise geklärt | offen; nicht belegt | Ergänzungsbedarf je Verschraubung/Idler; CAD-Normteile und Sensor-Beipack abziehen. Stückzahlen noch offen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUD-S030` |
 | <a id="sys-031"></a>**SYS-031** Lötzinn, Schrumpfschlauch, Binder, Labels, Kleber | – / – / **1 Satz** | teilweise geklärt | offen; nicht belegt | Verbrauchsmaterialbudget; vorhan dene Bestände später abziehen. Werkzeuge nicht enthalten.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUD-S031` |

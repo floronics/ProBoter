@@ -11,8 +11,8 @@ im Shop bestätigen. Kein Warenkorb wurde bestellt.
 | Umfang | netto | brutto |
 | --- | --- | --- |
 | 1. Beobachtete Webpreise × geplante Bestellpackungen | 3.087,49 € | 3.674,21 € |
-| Davon Positionen mit Status bestellfähig | 2.662,14 € | 3.168,05 € |
-| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 425,35 € | 506,16 € |
+| Davon Positionen mit Status bestellfähig | 2.809,66 € | 3.343,60 € |
+| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 277,83 € | 330,61 € |
 | Eigene Budgetschätzungen zusätzlich | 825,25 € | 982,03 € |
 | 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.912,74 € | 4.656,24 € |
 | 3. Noch unbezifferte Positionen: 20 | nicht berechenbar | nicht berechenbar |

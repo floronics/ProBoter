@@ -64,8 +64,6 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | SYS-021 Schutzleiter, Ringkabelschuhe und Klemmenabdeckung | 1 Satz | Metallrahmen/Netzteil erden; Querschnitt, Anschlusspunkte und Prüfverfahren in Stromlaufplan dokumentieren. |
 | SYS-022 Messkoax und instrumentenseitige Adapter | 4 Kanäle | Vorhan dene Messgeräte verwenden; BNC/SMA/MMCX und Impedanz gerätespezifisch. CAD-MM CX-Stecker 61/62 sind separat, hier nur Kabel und Instrumentadapter. |
 | SYS-025 USB-UART-Adapter | 1 Stück | Software setzt Adapter voraus; Pegel, Isolation, Pinout und Zielversorgung prüfen; Laborausstattung ggf. gegenrechnen. |
-| SYS-027 Energieketten-Endanschlüsse schmal | 16 Sätze | igus E2.100.10.34PZ, beidseitig schwenkbar mit Zugentlastung; Breite 17,4 = Anschlusskörper im CAD (Fusion-Messung). |
-| SYS-028 Energieketten-Endanschlüsse breit | 8 Sätze | igus E2.100.20.34PZ; Breite 27,4 = Anschlusskörper im CAD (Fusion-Messung). |
 | SYS-029 Profil-Nutensteine und Zusatzbefestigung | 1 Satz | Nut 6/Profilserie klären; 26Winkel plus Halter. CAD-Vierkantmuttern 29/30 und mitgelieferte Winkelsätze abziehen. |
 | SYS-030 Scheiben, Sicherungselemente, Distanzteile | 1 Satz | Ergänzungsbedarf je Verschraubung/Idler; CAD-Normteile und Sensor-Beipack abziehen. Stückzahlen noch offen. |
 | SYS-031 Lötzinn, Schrumpfschlauch, Binder, Labels, Kleber | 1 Satz | Verbrauchsmaterialbudget; vorhan dene Bestände später abziehen. Werkzeuge nicht enthalten. |
