@@ -1,0 +1,120 @@
+﻿Gruppe;ID;CAD-Name;Bezeichnung;Vorkommen in Fusion;Begründung
+1 3D-Druckteile;CAD-001;TR10x2_GT2_belt_adapter;Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter);4;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-002;TR10x2_GT2_belt_adapter_cover;Y-Riemenklemme, Deckel;4;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-004;base_cable_holder_m3_flat;Grundgestell: Kabel Halter M3 flach;2;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-005;base_cable_holder_m4;Grundgestell: Kabel Halter M4;1;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-006;base_cable_holder_m5_flat;Grundgestell: Kabel Halter M5 flach;4;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-015;base_nema_14_to_17_adapter;Grundgestell: NEMA 14 auf 17 Adapter;12;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-016;base_plate_adapter_1;Grundgestell: Platte Adapter 1;2;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-017;base_plate_adapter_2;Grundgestell: Platte Adapter 2;2;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-018;base_plate_adapter_left;Grundgestell: Platte Adapter links;2;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-019;base_plate_adapter_right;Grundgestell: Platte Adapter rechts;2;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-021;belt_tightener_GT2_base;Riemen Spanner GT2 Basis;20;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-022;belt_tightener_GT2_wing;Riemen Spanner GT2 Flügel;20;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-024;cable_cover;Kabel Abdeckung;4;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-025;camera_holder;Kamera Halter;1;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-026;camera_holder_top;Kamera Halter oben;1;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-067;pcb_holder_glider;Platine Halter Gleiter;4;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-068;pcb_holder_guiding_holder_round_d10;Platine Halter Führung Halter rund d 10;4;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-071;pcb_holder_rod_short_round_d10;Platine Halter Stange kurz rund d 10;2;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-072;pcb_holder_rod_short_round_d10_mirrored;Platine Halter Stange kurz rund d 10 gespiegelt;2;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-074;power_switch_holder;Stromversorgung Schalter Halter;1;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-083;signal_multiplexer_holder;Signal-Multiplexer Halter;1;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-088;x_belt_holder;X-Achse Riemen Halter;4;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-089;x_belt_holder_1;X-Achse Riemen Halter 1;12;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-090;x_drag_chain_adapter;X-Achse Schlepp Energiekette Adapter;8;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-091;x_end_stop_holder_side_short;X-Achse Endschalter Halter Seite kurz;4;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-092;x_end_stop_holder_top_long;X-Achse Endschalter Halter oben lang;4;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-101;x_slide_inductive_endstop_adapter;X-Achse Schlitten induktiv Endschalter Adapter;4;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-102;x_slide_inductive_endstop_adapter_mirrored;X-Achse Schlitten induktiv Endschalter Adapter gespiegelt;4;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-105;y_camera_holder;Y-Achse Kamera Halter;2;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-106;y_camera_holder_compact;Y-Achse Kamera Halter kompakt;2;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-107;y_slide;Y-Achse Schlitten;2;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-109;y_slide_distance_tube_2mm;Y-Achse Schlitten Abstand Rohr 2 mm;4;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-110;y_slide_mirrored;Y-Achse Schlitten gespiegelt;2;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-111;y_slide_mirrored_top;Y-Achse Schlitten gespiegelt oben;2;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-112;y_slide_top;Y-Achse Schlitten oben;2;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-114;z_drive_belt_holder_v3;Z-Achse Antrieb Riemen Halter v 3;4;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-116;z_probe_tip_pcb_holder;Z-Achse Prüfspitze Platine Halter;2;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-117;z_probe_tip_pcb_holder_long;Z-Achse Prüfspitze Platine Halter lang;2;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-118;z_slide_cable_holder;Z-Achse Schlitten Kabel Halter;4;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-119;z_slide_end_stop_trigger.psm;Z-Achse Schlitten Endschalter Auslöser;2;Teileliste: 3D-Druck intern
+1 3D-Druckteile;CAD-120;z_slide_end_stop_trigger_mirrored.psm;Z-Achse Schlitten Endschalter Auslöser gespiegelt;2;Teileliste: 3D-Druck intern
+2 Fertigung;CAD-003;base_back_plate;Grundgestell: Rückseite Platte;1;Teileliste: Blech intern
+2 Fertigung;CAD-009;base_drag_chain_holder;Grundgestell: Schlepp Energiekette Halter;4;Teileliste: Weitere Fertigung
+2 Fertigung;CAD-069;pcb_holder_guiding_round;Platine Halter Führung rund;2;Teileliste: Weitere Fertigung
+2 Fertigung;CAD-070;pcb_holder_rect_rod;Platine Halter rechteckig Stange;2;Teileliste: Weitere Fertigung
+2 Fertigung;CAD-075;probe_tip_pcb;Prüfspitzen-PCB, unbestückt;4;Teileliste: PCB extern
+2 Fertigung;CAD-082;signal_multiplexer_dummy;Multiplexer-Platzhalter im CAD;1;Multiplexer-Platine, JLCPCB (SYS-003/023)
+2 Fertigung;CAD-093;x_end_stop_top_long;X-Achse Endschalter oben lang;4;Teileliste: Weitere Fertigung
+2 Fertigung;CAD-094;x_end_stop_top_short;X-Achse Endschalter oben kurz;4;Teileliste: Weitere Fertigung
+2 Fertigung;CAD-096;x_motor_plate;X-Achse Motor Platte;1;Teileliste: Blech intern
+2 Fertigung;CAD-097;x_motor_plate_2;X-Achse Motor Platte 2;1;Teileliste: Blech intern
+2 Fertigung;CAD-099;x_side_plate;X-Achse Seite Platte;4;Teileliste: Blech intern
+2 Fertigung;CAD-100;x_side_plate_moving;X-Achse Seite Platte beweglich;4;Teileliste: Blech intern
+2 Fertigung;CAD-108;y_slide_distance_rod;Y-Achse Schlitten Abstand Stange;8;Teileliste: Weitere Fertigung
+3 DOLD-Angebot;CAD-011;base_drawer_long_side;Grundgestell: Schublade lang Seite;2;Angebot AN2026-104489: 63009-Z Profil 30x30L, 564 mm
+3 DOLD-Angebot;CAD-012;base_frame_long_side;Grundgestell: Rahmen lang Seite;3;Angebot AN2026-104489: 63009-Z Profil 30x30L, 590 mm
+3 DOLD-Angebot;CAD-013;base_frame_short;Grundgestell: Rahmen kurz;8;Angebot AN2026-104489: 63009-Z Profil 30x30L, 350 mm
+3 DOLD-Angebot;CAD-014;base_frame_side;Grundgestell: Rahmen Seite;2;Angebot AN2026-104489: 63016-Z Profil 30x60L, 650 mm
+3 DOLD-Angebot;CAD-020;base_vertical;Grundgestell: vertikal;4;Angebot AN2026-104489: 63009-Z Profil 30x30L, 350 mm
+3 DOLD-Angebot;CAD-027;cpc_MR12ML;CPC MR12ML Führungswagen;8;Angebot AN2026-104489: MR12 MN-SS-V0-N Linearwagen
+3 DOLD-Angebot;CAD-035;din_912_m3x10;DIN 912 M3×10;76;Angebot AN2026-104489: DIN912-3x10
+3 DOLD-Angebot;CAD-036;din_912_m3x12;DIN 912 M3×12;8;Angebot AN2026-104489: DIN912-3x12
+3 DOLD-Angebot;CAD-051;handle_l100_dold;Schubladengriff DOLD A-75873, Lochabstand 100 mm;1;Angebot AN2026-104489: A-75873 Bügelgriff 100 mm
+3 DOLD-Angebot;CAD-052;hinged_M6_40_dold;Gelenkfuß M6×20 / Teller Ø40 mm;4;Angebot AN2026-104489: GF-K-10-PA-032 Gelenkfuß
+3 DOLD-Angebot;CAD-053;hiwin_rail_MGNR12R150HM;HIWIN MGNR12R150HM, Z-Schiene 150 mm;4;Angebot AN2026-104489: 78553-150 Linearführung MR12M, 150 mm
+3 DOLD-Angebot;CAD-054;hiwin_slide_MGN12CZ0H;HIWIN MGN12CZ0HM Z-Führungswagen;4;Angebot AN2026-104489: MR12 MN-SS-V0-N Linearwagen (statt HIWIN MGN12)
+3 DOLD-Angebot;CAD-057;iso_8673_nut_m4;Sechskantmutter DIN 934 M4 A2;64;Angebot AN2026-104489: DIN934-M4 (CAD-Name ISO 8673 ist DIN 934)
+3 DOLD-Angebot;CAD-077;pulley_gt2_z16_6mm;GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm;12;Angebot AN2026-104489: 46088 Zahnriemenrad GT2 16 Z
+3 DOLD-Angebot;CAD-078;return_pulley_gt2_z16_6mm;GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm;20;Angebot AN2026-104489: 46132 Umlenkrolle GT2 16 Z
+3 DOLD-Angebot;CAD-080;rod_slide_d10_l19;GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm;16;Angebot AN2026-104489: 76993-VK igus RJMP-01-10
+3 DOLD-Angebot;CAD-081;screw_on_bracket_30_6;Anschraubwinkel 30 / Nut 6;26;Angebot AN2026-104489: 62392-BSA Winkel 30 I-Typ Nut 6
+3 DOLD-Angebot;CAD-087;x_belt;GT2-Riemen X, 6 mm breit;8;Angebot AN2026-104489: 46194 Zahnriemen GT2 6 mm
+3 DOLD-Angebot;CAD-098;x_round_rail;X-Achse rund Schiene;8;Angebot AN2026-104489: 32067-STL-GW-450 Präzisionswelle Ø10 h6, 450 mm
+3 DOLD-Angebot;CAD-103;x_slide_stiffener_beam;X-Achse Schlitten Versteifung Träger;4;Angebot AN2026-104489: 60879-Z Profil 40x16S, 436 mm
+3 DOLD-Angebot;CAD-104;y_belt;GT2-Riemen Y, 6 mm breit;4;Angebot AN2026-104489: 46194 Zahnriemen GT2 6 mm
+4 SCHUTZWERK-BOM übrige;CAD-010;base_drawer_dummy_plate;Schubladen-Dummyplatte;1;SCHUTZWERK-BOM: Schubladenplatte
+4 SCHUTZWERK-BOM übrige;CAD-023;bigtreetech_skr_v1_3;Steuerplatine, ERSATZ: BIGTREETECH SKR 1.4 Turbo statt SKR V1.3;4;SCHUTZWERK-BOM: Smoothieboard ohne Stepper Treiber
+4 SCHUTZWERK-BOM übrige;CAD-031;din_7991_m3x8;DIN 7991 M3×8;32;SCHUTZWERK-BOM: Zylinderschraube DIN7991, M3x8
+4 SCHUTZWERK-BOM übrige;CAD-032;din_7991_m6x12;DIN 7991 M6×12;16;SCHUTZWERK-BOM: Zylinderschraube DIN7991, M6x12
+4 SCHUTZWERK-BOM übrige;CAD-034;din_7991_m6x20;DIN 7991 M6×20;22;SCHUTZWERK-BOM: Zylinderschraube DIN912, M6x20
+4 SCHUTZWERK-BOM übrige;CAD-038;din_912_m3x16;DIN 912 M3×16;28;SCHUTZWERK-BOM: Zylinderschraube DIN912, M3x16
+4 SCHUTZWERK-BOM übrige;CAD-040;din_912_m3x20;DIN 912 M3×20;4;SCHUTZWERK-BOM: Zylinderschraube DIN912, M3x20
+4 SCHUTZWERK-BOM übrige;CAD-042;din_912_m3x8;DIN 912 M3×8;52;SCHUTZWERK-BOM: Zylinderschraube DIN912, M3x8
+4 SCHUTZWERK-BOM übrige;CAD-044;din_912_m4x20;DIN 912 M4×20;20;SCHUTZWERK-BOM: Zylinderschraube DIN7984, M4x20
+4 SCHUTZWERK-BOM übrige;CAD-045;din_912_m4x30;DIN 912 M4×30;36;SCHUTZWERK-BOM: Zylinderschraube DIN912, M4x30
+4 SCHUTZWERK-BOM übrige;CAD-046;din_912_m5x10;DIN 912 M5×10;32;SCHUTZWERK-BOM: Zylinderschraube DIN912, M5x10
+4 SCHUTZWERK-BOM übrige;CAD-049;drag_chain_0_24m_E2i_10_10_028_0_4;igus E2i.10.10.028.0, 16 kurze Abschnitte;16;SCHUTZWERK-BOM: Energieketten
+4 SCHUTZWERK-BOM übrige;CAD-050;drag_chain_0_28m_E2i_10_20_028_0_igus;igus E2i.10.20.028.0, 8 lange Abschnitte;8;SCHUTZWERK-BOM: Energieketten
+4 SCHUTZWERK-BOM übrige;CAD-055;inductive_proximity_sensor_m8;Induktiver Näherungsschalter ELCO NI4-M08-ON6L-Q8 (AUSWAHL, Original unbekannt);24;SCHUTZWERK-BOM: Endschalter induktiv M8 / M12
+4 SCHUTZWERK-BOM übrige;CAD-060;mean_well_RSP-200-24;Mean Well RSP-200-24 Netzteil,24 V/8,4 A;1;SCHUTZWERK-BOM: Schaltnetzteil 24V, 8,4A, 200W
+4 SCHUTZWERK-BOM übrige;CAD-061;mmcx_male_end;MMCX-Stecker gerade mit RG316, offenes Ende;4;SCHUTZWERK-BOM: Kabel Probe
+4 SCHUTZWERK-BOM übrige;CAD-062;mmcx_male_end_with_angle;MMCX-Stecker gewinkelt mit RG316, offenes Ende;4;SCHUTZWERK-BOM: Kabel Probe
+4 SCHUTZWERK-BOM übrige;CAD-063;nanotec_nema_14_ST3518M1004-A;NEMA14 Z-Motor, ERSATZ: STEPPERONLINE 14HS13-0804S statt Nanotec ST3518M1004-A;8;SCHUTZWERK-BOM: Schrittmotor Nanotec NEMA 14 - ST3518M1004-A
+4 SCHUTZWERK-BOM übrige;CAD-065;optical_endstop;Optischer Endschalter 11×35 mm;4;SCHUTZWERK-BOM: 6 Stück optische Endstops mit Kabel
+4 SCHUTZWERK-BOM übrige;CAD-076;pulley_gt2_9mm;GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG;8;SCHUTZWERK-BOM: Zahnriemenrad GT2 6mm, 16 Zähne
+4 SCHUTZWERK-BOM übrige;CAD-079;rod_holder_flange_d10_dold;SHF10 Flanschhalter fürØ10 mm Welle;16;SCHUTZWERK-BOM: Wellenhalter Flansch SHF10
+4 SCHUTZWERK-BOM übrige;CAD-084;telescopic_bar_tsaa514613-350;Teleskopschiene 350 mm, Vollauszug;2;SCHUTZWERK-BOM: Teleskopauszug TS-A 514613-350mm mit Arretierung
+4 SCHUTZWERK-BOM übrige;CAD-095;x_guiding_cpc_MR12M;CPC MR12M Führungsschiene 600 mm;2;SCHUTZWERK-BOM: Profilschienenführung, MR12, 600mm, Edelstahl
+4 SCHUTZWERK-BOM übrige;CAD-113;z_drive_belt;GT2-Riemen Z, 9 mm breit;4;SCHUTZWERK-BOM: Zahnriemen GT2, 6mm, 1m
+4 SCHUTZWERK-BOM übrige;CAD-115;z_pogo_pin;Federkontakt P75-B1 (Nadelspitze, wie CAD);8;SCHUTZWERK-BOM: Probespitze
+5 Nicht zugeordnet;CAD-007;base_cover_long_side;Grundgestell: Abdeckung lang Seite;2;Teileliste: Kaufteile
+5 Nicht zugeordnet;CAD-008;base_cover_top;Grundgestell: Abdeckung oben;2;Teileliste: Kaufteile
+5 Nicht zugeordnet;CAD-028;din_466_knurled_nut_high_m4;DIN 466 Rändelmutter hoch M4;8;Teileliste: Kaufteile
+5 Nicht zugeordnet;CAD-029;din_562_m3_square_nut;DIN 562 M3 Vierkantmutter;8;Teileliste: Kaufteile
+5 Nicht zugeordnet;CAD-030;din_562_m4_square_nut;DIN 562 M4 Vierkantmutter;12;Teileliste: Kaufteile
+5 Nicht zugeordnet;CAD-033;din_7991_m6x14;DIN 7991 M6×14;6;Teileliste: Kaufteile
+5 Nicht zugeordnet;CAD-037;din_912_m3x14;DIN 912 M3×14;4;Teileliste: Kaufteile
+5 Nicht zugeordnet;CAD-039;din_912_m3x18;DIN 912 M3×18;32;Teileliste: Kaufteile
+5 Nicht zugeordnet;CAD-041;din_912_m3x30;DIN 912 M3×30;8;Teileliste: Kaufteile
+5 Nicht zugeordnet;CAD-043;din_912_m4x10;DIN 912 M4×10;1;Teileliste: Kaufteile
+5 Nicht zugeordnet;CAD-047;din_912_m5x14;DIN 912 M5×14;4;Teileliste: Kaufteile
+5 Nicht zugeordnet;CAD-048;din_933_m4x20;DIN 933 M4×20;8;Teileliste: Kaufteile
+5 Nicht zugeordnet;CAD-056;iso_8673_nut_m3;Sechskantmutter DIN 934 M3 A2;44;Teileliste: Kaufteile
+5 Nicht zugeordnet;CAD-058;iso_8673_nut_m8;ISO 8673 Mutter M8;48;Teileliste: Kaufteile
+5 Nicht zugeordnet;CAD-059;mean_well_MHS-012_mounting_bracket;Mean Well MHS012 Montagewinkel;4;Teileliste: Kaufteile
+5 Nicht zugeordnet;CAD-066;pcb_dummy;Prüfobjekt-Platzhalter im CAD;1;Teileliste: Nicht benötigt
+5 Nicht zugeordnet;CAD-073;plug_sleeve_P75-2_W;Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W);8;Teileliste: Kaufteile
+5 Nicht zugeordnet;CAD-085;usb_microscope;Bewegliches USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG);4;Teileliste: Kaufteile
+5 Nicht zugeordnet;CAD-086;vandalism_switch_d19;Netzschalter Ø19 ONPOW LAS1 A-ZG24, rastend;1;Teileliste: Kaufteile
