@@ -1,0 +1,47 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/home/sdiepold/projects/mess-multiplexer/mux.kicad_sch</h1>
+    <p>Do 04 Feb 2021 13:23:34 CET</p>
+    <p>Eeschema 5.99.0-unknown-2b9f7d6150~106~ubuntu20.04.1</p>
+    <p><b>Component Count:</b>76</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1, C2</td><td>2</td><td>100nF</td><td>Device:C</td><td>Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J_Pad1.25x1.05mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C3</td><td>1</td><td>C</td><td>Device:C</td><td>Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J_Pad1.25x1.05mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C4, C5, C6, C7</td><td>4</td><td>1uF</td><td>Device:CP</td><td>Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J_Pad1.25x1.05mm_HandSolder</td><td>Polarized capacitor</td><td></td></tr>
+    <tr><td>C8</td><td>1</td><td>C</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>D1, D2, D3</td><td>3</td><td>LED</td><td>Device:LED</td><td>LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z6.0mm</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>D4</td><td>1</td><td>D_Schottky</td><td>Device:D_Schottky</td><td>Diode_SMD:D_SOD-123</td><td>Schottky diode</td><td></td></tr>
+    <tr><td>D6</td><td>1</td><td>SP0504BAHT</td><td>Power_Protection:SP0504BAHT</td><td>Package_TO_SOT_SMD:SOT-23-5</td><td>TVS Diode Array, 5.5V Standoff, 4 Channels, SOT-23-5 package</td><td></td></tr>
+    <tr><td>D8, D11, D12, D13</td><td>4</td><td>D</td><td>Device:D</td><td>Diode_SMD:D_0805_2012Metric</td><td>Diode</td><td></td></tr>
+    <tr><td>D9, D10</td><td>2</td><td>LED</td><td>Device:LED</td><td>LED_SMD:LED_0805_2012Metric</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>D14</td><td>1</td><td>5v TVS</td><td>Device:D_TVS</td><td>Diode_SMD:D_0805_2012Metric</td><td>Bidirectional transient-voltage-suppression diode</td><td></td></tr>
+    <tr><td>J1, J2, J3, J4, J9, J10</td><td>6</td><td>Conn_Coaxial</td><td>Connector:Conn_Coaxial</td><td>Connector_Coaxial:SMA_Molex_73251-2200_Horizontal</td><td>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</td><td></td></tr>
+    <tr><td>J5</td><td>1</td><td>Conn_02x04_Odd_Even</td><td>Connector_Generic:Conn_02x04_Odd_Even</td><td>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Horizontal</td><td>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J6</td><td>1</td><td>Jack-DC</td><td>Connector:Jack-DC</td><td>Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002</td><td>DC Barrel Jack</td><td></td></tr>
+    <tr><td>J7, J8, J13, J14, J15, J16</td><td>6</td><td>Conn_01x03_Male</td><td>Connector:Conn_01x03_Male</td><td>Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J11</td><td>1</td><td>USB_B</td><td>Connector:USB_B</td><td>Connector_USB:USB_B_Lumberg_2411_02_Horizontal</td><td>USB Type B connector</td><td></td></tr>
+    <tr><td>J12</td><td>1</td><td>DB9_Female_MountingHoles</td><td>Connector:DB9_Female_MountingHoles</td><td>Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm</td><td>9-pin female D-SUB connector, Mounting Hole</td><td></td></tr>
+    <tr><td>J17</td><td>1</td><td>Conn_02x04_Odd_Even</td><td>Connector_Generic:Conn_02x04_Odd_Even</td><td>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</td><td>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J18</td><td>1</td><td>Conn_02x03_Odd_Even</td><td>Connector_Generic:Conn_02x03_Odd_Even</td><td>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</td><td>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J19</td><td>1</td><td>Conn_01x02_Male</td><td>Connector:Conn_01x02_Male</td><td>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>K1, K2, K3, K4, K5, K7</td><td>6</td><td>6-1462037-3</td><td>relais:6-1462037-3</td><td>relais:6-1462037-3</td><td></td><td></td></tr>
+    <tr><td>Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10</td><td>10</td><td>Q_NMOS_GSD</td><td>Device:Q_NMOS_GSD</td><td>Package_TO_SOT_SMD:SOT-23</td><td>N-MOSFET transistor, gate/source/drain</td><td></td></tr>
+    <tr><td>R1, R2, R4, R5, R6, R7, R8, R9, R13, R15</td><td>10</td><td>100</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R3, R10, R11, R12</td><td>4</td><td>R</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>RN1, RN2, RN3</td><td>3</td><td>R_Pack04</td><td>Device:R_Pack04</td><td>Resistor_SMD:R_Array_Convex_4x0603</td><td>4 resistor network, parallel topology</td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>ATmega328PB-AU</td><td>MCU_Microchip_ATmega:ATmega328PB-AU</td><td>Package_QFP:TQFP-32_7x7mm_P0.8mm</td><td>20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32</td><td></td></tr>
+    <tr><td>U2</td><td>1</td><td>FT232RL</td><td>Interface_USB:FT232RL</td><td>Package_SO:SSOP-28_5.3x10.2mm_P0.65mm</td><td>USB to Serial Interface, SSOP-28</td><td></td></tr>
+    <tr><td>U3</td><td>1</td><td>MAX232</td><td>Interface_UART:MAX232</td><td>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</td><td>Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C</td><td></td></tr>
+    <tr><td>Y1</td><td>1</td><td>Crystal_GND2</td><td>Device:Crystal_GND2</td><td>Crystal:Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering</td><td>Three pin crystal, GND on pin 2</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
