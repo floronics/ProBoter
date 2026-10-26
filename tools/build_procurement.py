@@ -172,9 +172,9 @@ SYSTEM = [
 ('001','TMC2130 SPI Treibermodule',16,'Stück','Kaufteile','RBS','4 je SKR für X/X2/Y/Z. RBS13024: 4 Treiber mit Kühlkörpern und Kabel, SPI-Pins laut Fotos vorgelötet. Revision nicht angegeben; SPI-Modus laut Datenblatt per Lötbrücke CFG4/CFG5 prüfen.',FIRMWARE),
 ('002','Stationäre Übersichtskamera ELP-USBFHD01M-H100',1,'Stück','Kaufteile','ELP','Gewählt (Luis 17.10.2026): ELP-USBFHD01M-H100, 1080p, UVC, 100°, Preis auf Anfrage; Lochraster beim Kauf bestätigen. Fusion-Messung: Halter CAD-025 hat 4 M2-Bohrungen im Raster 28×28 mm = 32×32-mm-USB-Platinenkamera (z. B. ELP, 1080p, UVC, M12-Objektiv), keine Webcam (Entscheidung Luis 17.10.2026). Logitech C920 passt nicht.',BLOG),
 ('003','Signal-Multiplexer, unbestückte Leiterplatte',1,'Stück','PCB extern','JLCPCB','SCHUTZWERK-Original: 4 Lagen, Gerber hardware/signal-multiplexer/hardware/gerber1.1/gerber1.1.zip (deckungsgleich mit mux.kicad_pcb, geprüft 26.10.2026). Bei JLCPCB bestellen.','../hardware/signal-multiplexer/hardware/mux.kicad_pcb'),
-('004','Kalibrier-Referenzplatte, Alu schwarz',1,'Stück','Weitere Fertigung','OFFEN','WERKSTATT (Entscheidung Luis 18.10.2026): Alu gefräst/gebohrt, schwarz eloxiert oder lackiert. Dicke 5,1 mm (cli.py); Größe ca. 130×110 mm aus software/docu/images/calibration_plate_top.png geschätzt. 4 Türme für die erhöhten Stifte; Marker eingraviert. Zeichnung aus den Software-Maßen erstellen.','../software/hardware-control/proboter/cli.py'),
+('004','Kalibrier-Referenzplatte, Alu schwarz',1,'Stück','Nicht benötigt','OFFEN','ERSETZT durch Druckteil SYS-061 (SCHUTZWERK-Original, Entscheidung Luis 26.10.2026). Bisheriger Plan: WERKSTATT (Entscheidung Luis 18.10.2026): Alu gefräst/gebohrt, schwarz eloxiert oder lackiert. Dicke 5,1 mm (cli.py); Größe ca. 130×110 mm aus software/docu/images/calibration_plate_top.png geschätzt. 4 Türme für die erhöhten Stifte; Marker eingraviert. Zeichnung aus den Software-Maßen erstellen.','../software/hardware-control/proboter/cli.py'),
 ('005','Innere Messing-Referenzzylinder Ø7/8/9/10',4,'Stück','Weitere Fertigung','OFFEN','WERKSTATT aus Messing-Rundstab (Entscheidung Luis 18.10.2026): je 1× Ø7/8/9/10 mm, Raster 11,95×19,95 mm, Endfläche bündig mit der Plattenoberfläche. Länge = Plattendicke 5,1 mm plus Einpresstiefe.','../software/hardware-control/proboter/tasks/utils/reference_board.py'),
-('006','Kalibriermarker, in die Platte graviert',1,'Satz','Weitere Fertigung','OFFEN','Hamming-Marker IDs 1/3/6/12 (mtracker-Format), je 18,2×18,2 mm, Raster 60×80 mm; weiß in die schwarze Platte lasern/gravieren (Entscheidung Luis 18.10.2026).','../software/hardware-control/proboter/tasks/utils/reference_board.py'),
+('006','Kalibriermarker, in die Platte graviert',1,'Satz','Nicht benötigt','OFFEN','ERSETZT durch Druckteil SYS-062 (SCHUTZWERK-Original, Entscheidung Luis 26.10.2026). Bisheriger Plan: Hamming-Marker IDs 1/3/6/12 (mtracker-Format), je 18,2×18,2 mm, Raster 60×80 mm; weiß in die schwarze Platte lasern/gravieren (Entscheidung Luis 18.10.2026).','../software/hardware-control/proboter/tasks/utils/reference_board.py'),
 ('007','Weißer 24-V-LED-Streifen LUXULA LX700101',1.9,'m','Kaufteile','REICHELT','Rundum oben innen am Rahmen (Entscheidung Luis 18.10.2026): 2×590 + 2×350 mm ≈ 1,9 m aus 5-m-Rolle. 4500 K, 28 W je 5 m ⇒ ca. 10,6 W / 0,44 A bei 1,9 m. PWM-Flimmern mit der Kamera testen.',BLOG),
 ('008','LED-Aluprofile Barthelme BARdolino mit Diffusor, Kappen, Klammern',1,'Satz','Kaufteile','REICHELT','2 Profile 1 m flach, 2 Abdeckungen opal, 4 Endkappen, 6 Klammern; Klammern auf die Rahmenprofile schrauben (Entscheidung Luis 18.10.2026).',BLOG),
 ('009','LED-Anschluss an den Heizbett-Ausgang der Licht-Steuerplatine',1,'Satz','Kaufteile','REICHELT','Configuration_adv.h:4396 setzt PROBOTER_LIGHT_CONTROL_PIN auf HEATER_BED_PIN; M376 steuert Helligkeit. Kein separater USB-LED-Controller nötig. Stecker/Leitungen, Strom und Flimmern prüfen; keine zusätzliche MOSFET-Platine pauschal kaufen.','../firmware/Marlin/Configuration_adv.h'),
@@ -205,7 +205,7 @@ SYSTEM = [
 ('034','Host-PC, Messgeräte und Werkzeuge',1,'Bestand','Nicht benötigt','OFFEN','Vom Käufer vorhanden; Kosten ausgeschlossen. Software nennt PicoScopePS5000a; bestehendes Gerät/Hostkompatibilität prüfen.',SOFTWARE),
 ('035','Z-Antriebsriemenscheibe / integrierter Adapter',0,'Stück','Nicht benötigt','OFFEN','Entfällt: Fusion-Messung zeigt die Antriebsrolle als CAD-076 koaxial auf der Ø5-Motorwelle. CAD-001/002 sind keine Riemenscheiben.',FIRMWARE),
 ('036','USB-/Versorgungsanschlüsse der Kalibrierung',1,'Prüfung','Nicht benötigt','OFFEN','Passive Referenzplatte benötigt nach veröffentlichtem Konzept keine eigene USB-Elektronik; kein zusätzliches Gerät.',BLOG),
-('037','Weiße äußere Kalibrierreferenzen Ø10',4,'Stück','Weitere Fertigung','OFFEN','WERKSTATT aus weißem POM-Rundstab, Ø ca. 10 mm aus der Abbildung geschätzt (Entscheidung Luis 18.10.2026). Raster 109,9×89,8 mm, bündig.','../software/hardware-control/proboter/model/reference_board_config.py'),
+('037','Weiße äußere Kalibrierreferenzen Ø10',4,'Stück','Nicht benötigt','OFFEN','ERSETZT durch Druckteil SYS-063 (SCHUTZWERK-Original, Entscheidung Luis 26.10.2026). Bisheriger Plan: WERKSTATT aus weißem POM-Rundstab, Ø ca. 10 mm aus der Abbildung geschätzt (Entscheidung Luis 18.10.2026). Raster 109,9×89,8 mm, bündig.','../software/hardware-control/proboter/model/reference_board_config.py'),
 ('038','Kalibrier-Kontaktleitungen und gemeinsame Messreferenz',1,'Satz','Kaufteile','TME','4SKR-Zentriereingänge P0_17 mitPull-up/aktivLow sowie Referenzkörper/Kontaktkreis verdrahten. Netzplan, Stecker, Länge undBezugspotenzial mitMultiplexer klären; keineVerbindung ungeprüft festlegen.','../firmware/Marlin/src/module/proboter.cpp'),
 ('039','Erhöhte Messing-Referenzzylinder',4,'Stück','Weitere Fertigung','OFFEN','WERKSTATT aus Messing-Rundstab Ø7 (Entscheidung Luis 18.10.2026): Raster 59,6×39,9 mm, Endflächen 6/8/10/12 mm über der Plattenoberfläche, in Türmen der Platte.','../software/hardware-control/proboter/tasks/utils/reference_board.py'),
 ('040','Äußere flache Messing-Referenzzylinder Ø7',4,'Stück','Weitere Fertigung','OFFEN','WERKSTATT aus Messing-Rundstab Ø7 (Entscheidung Luis 18.10.2026): Mittelpunkte (±54,95; 0) und (0; ±44,9) mm, bündig.','../software/hardware-control/proboter/tasks/utils/reference_board.py'),
@@ -229,7 +229,28 @@ SYSTEM = [
 ('058','Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl)',10,'Stück','Kaufteile','OFFEN','Wunsch Luis (17.10.2026). Flachspitzen-Code uneinheitlich (Peaktest: F flach, A konkav, D2 Kuppe); kein Lagerangebot gefunden, Spitzenzeichnung beim Händler anfordern.',CAD),
 ('059','Zylinderschraube DIN 912 M5×10 A2, Abdeckungen',18,'Stück','Kaufteile','SCHRAUBEN','Abdeckungen aus Acrylglas: beim Aufbau anzeichnen und bohren, je Platte 4 Schrauben (Entscheidung Luis 18.10.2026). Unterlegscheiben für Acryl empfohlen.',CAD),
 ('060','Nutenstein I-Typ Nut 6, M5, Abdeckungen',18,'Stück','Kaufteile','DOLD','Gegenstück zu SYS-059.',CAD),
+('061','Kalibrierplatte Version 4, Druck',1,'Stück','3D-Druck intern','RBS','SCHUTZWERK-Original calibration_plate_v4 (Baugruppe calibration_plate.asm), 110×130×17 mm, ersetzt die Alu-Platte SYS-004 (Entscheidung Luis 26.10.2026). Bohrungen für Ø7/8/9/10 Messingstifte und 4× Ø10,1 für SYS-063 vorhanden.','../hardware/cad'),
+('062','Kalibrier-Markereinlagen IDs 1/3/6/12, Druck',4,'Stück','3D-Druck intern','RBS','calibration_plate_marker_fill_001/003/006/012, je 18,2×18,2×1,9 mm, weiß in die schwarze Platte (Farbwechsel/Einleger). Ersetzt die Gravur SYS-006 (Entscheidung Luis 26.10.2026).','../hardware/cad'),
+('063','Kalibrierstifte, Druck',4,'Stück','3D-Druck intern','RBS','calibration_plate_pin Ø10×8 mm (Stufen Ø7/Ø5), 4× in calibration_plate.asm. Passt in die 4 Bohrungen Ø10,1 der Platte, vermutlich die weißen Außenreferenzen; ersetzt SYS-037 (bei SCHUTZWERK bestätigen).','../hardware/cad'),
+('064','Schleppkettenhalter Schublade, gestellseitig, Druck',1,'Stück','3D-Druck intern','RBS','base_drawer_drag_chain_holder aus Baugruppe drawer_drag_chain (Entscheidung Luis 26.10.2026).','../hardware/cad'),
+('065','Schleppkettenhalter Schublade, schubladenseitig, Druck',1,'Stück','3D-Druck intern','RBS','drawer_drag_chain_holder aus Baugruppe drawer_drag_chain (Entscheidung Luis 26.10.2026).','../hardware/cad'),
+('066','Netzbuchsenhalter Schublade, Druck',1,'Stück','3D-Druck intern','RBS','base_drawer_power_plug_socket, 102×24×30 mm (Entscheidung Luis 26.10.2026). Buchsentyp bei SCHUTZWERK anfragen.','../hardware/cad'),
+('067','Gehäuse Zielplatinen-Versorgungsschalter, Druck',1,'Stück','3D-Druck intern','RBS','target_power_switch, 95×28×75 mm; Gehäuse für SYS-026 (Entscheidung Luis 26.10.2026).','../hardware/cad'),
+('068','Deckel Zielplatinen-Versorgungsschalter, Druck',1,'Stück','3D-Druck intern','RBS','target_power_switch_top, 95×75×6 mm (Entscheidung Luis 26.10.2026).','../hardware/cad'),
+('069','Gehäuse Kleinnetzteil, Druck',1,'Stück','3D-Druck intern','RBS','base_power_supply_housing, 80×50×25 mm (Entscheidung Luis 26.10.2026). Inhalt bei SCHUTZWERK anfragen.','../hardware/cad'),
+('070','Deckel Kleinnetzteil, Druck',1,'Stück','3D-Druck intern','RBS','base_power_supply_housing_top, 50×50×2,5 mm (Entscheidung Luis 26.10.2026).','../hardware/cad'),
+('071','Raspberry-Pi-4-Halter, Druck',1,'Stück','3D-Druck intern','RBS','base_raspberry_pi_4_adapter, 97×72×5 mm, in base.asm referenziert (Entscheidung Luis 26.10.2026). Ob ein Raspberry Pi 4 verbaut wird, bei SCHUTZWERK anfragen.','../hardware/cad'),
+('072','Halter Höhennivellier-Taster (Hilfsmittel), Druck',1,'Stück','3D-Druck intern','RBS','utils_height_leveling_probe_holder, 45×20×32 mm (Entscheidung Luis 26.10.2026).','../hardware/cad'),
+('073','Energiekette Schublade igus E2C.10.10.028.0, 0,5 m',2,'Stück','Kaufteile','IGUS','drag_chain_0_5m_E2C_10_10_028_0 in drawer_drag_chain.asm: 2 Ketten je 25 Glieder (Fusion-Messung) mit Anschlüssen E2.100.10.56PZ.A1 (SYS-074) (Entscheidung Luis 26.10.2026).','../hardware/cad'),
+('074','Anschlusssatz igus E2.100.10.56PZ.A1, Schubladenkette',2,'Satz','Kaufteile','IGUS','Anschlüsse zu SYS-073, laut CAD-Dateiname (Entscheidung Luis 26.10.2026).','../hardware/cad'),
 ]
+
+# Parts that exist only in SCHUTZWERK's Solid Edge CAD (hardware/cad), measured in Fusion
+SE_GEOMETRY = {v['file']: v for v in json.loads((BOM/'evidence/solidedge-geometry.json').read_text(encoding='utf-8')).values()}
+SE_FILES = {'061':'calibration_plate_v4','062':'calibration_plate_marker_fill_001','063':'calibration_plate_pin',
+            '064':'base_drawer_drag_chain_holder','065':'drawer_drag_chain_holder','066':'base_drawer_power_plug_socket',
+            '067':'target_power_switch','068':'target_power_switch_top','069':'base_power_supply_housing',
+            '070':'base_power_supply_housing_top','071':'base_raspberry_pi_4_adapter','072':'utils_height_leveling_probe_holder'}
 
 def make_parts():
     global NORM_OFFERS
@@ -369,11 +390,15 @@ def make_parts():
         if group in ['PCB extern','3D-Druck intern','Weitere Fertigung']: status='Fertigung noch offen'
         if group=='Ungeklärte Teile': status='nicht identifiziert'
         if group=='Nicht benötigt': status='nicht benötigt'
-        if key in ('005','006','037','039','040'): status='Fertigung spezifiziert'
+        if key in ('005','006','037','039','040') and group!='Nicht benötigt': status='Fertigung spezifiziert'
         if key in ('007','008','016','027','028','057','059','060','042','043','044','045','046','047','048','049','050','051','052','053','054','055','056'): status='bestellfähig'
+        se=SE_GEOMETRY.get(SE_FILES.get(key,''),{})
+        if se and group=='3D-Druck intern': status='Fertigung spezifiziert'
         result.append(dict(id='SYS-'+key,name=title,cad_name='',cad_quantity='',fusion_quantity='',quantity=qty,
-                           unit=unit,group=group,status=status,geometry_mm='',solid_volume_cm3='',
-                           material='nicht belegt',process_evidence='Planungsbedarf; '+source,
+                           unit=unit,group=group,status=status,geometry_mm=' x '.join(f'{v:g}' for v in se['size_mm']) if se else '',
+                           solid_volume_cm3=str(se['volume_cm3']) if se else '',
+                           material='PETG' if se and group=='3D-Druck intern' else 'nicht belegt',
+                           process_evidence=('3D-Druck intern, Geometrie aus Solid Edge '+SE_FILES[key]+'.par; ' if se else 'Planungsbedarf; ')+source,
                            supplier=supplier,issue=note,source=source,cost_id=''))
     for p in result:
         for k in ['name','material','process_evidence','issue']:

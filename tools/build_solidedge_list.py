@@ -58,6 +58,31 @@ ONLY_SE = {
     'mean_well_HRPG-1000-24': 'Netzteil 1000 W, nicht im Gesamtmodell (verbaut: RSP-200-24)',
     'raspberry_pi_4_dummy': 'Platzhalter Raspberry Pi 4',
 }
+# Decision per Solid-Edge-only part (Luis 26.10.2026)
+NOT_NEEDED_OLD = 'nicht benötigt: ältere Variante/Duplikat, nicht im Gesamtmodell'
+DECISION = {
+    'calibration_plate_v4': 'drucken: SYS-061', 'calibration_plate_pin': 'drucken: SYS-063',
+    'calibration_plate_marker_fill_001': 'drucken: SYS-062', 'calibration_plate_marker_fill_003': 'drucken: SYS-062',
+    'calibration_plate_marker_fill_006': 'drucken: SYS-062', 'calibration_plate_marker_fill_012': 'drucken: SYS-062',
+    'calibration_plate': 'nicht benötigt: Altstand, Baugruppe nutzt v4', 'calibration_plate_v2': 'nicht benötigt: Altstand, Baugruppe nutzt v4',
+    'calibration_plate_v3': 'nicht benötigt: Altstand, Baugruppe nutzt v4', 'calibration_plate_marker_fill': 'nicht benötigt: nicht in calibration_plate.asm',
+    'base_drawer_drag_chain_holder': 'drucken: SYS-064', 'drawer_drag_chain_holder': 'drucken: SYS-065',
+    'base_drawer_power_plug_socket': 'drucken: SYS-066',
+    'drag_chain_0_5m_E2C_10_10_028_0___E2_100_10_56PZ_A1_1': 'kaufen: SYS-073/074',
+    'drag_chain_0_5m_E2C_10_10_028_0___E2_100_10_56PZ_A1_2': 'kaufen: SYS-073/074',
+    'target_power_switch': 'drucken: SYS-067', 'target_power_switch_top': 'drucken: SYS-068',
+    'base_power_supply_housing': 'drucken: SYS-069', 'base_power_supply_housing_top': 'drucken: SYS-070',
+    'base_raspberry_pi_4_adapter': 'drucken: SYS-071', 'raspberry_pi_4_dummy': 'offen: Raspberry Pi 4 bei SCHUTZWERK anfragen',
+    'utils_height_leveling_probe_holder': 'drucken: SYS-072',
+    'z_pogo_pin_holder': 'nicht benötigt: ältere Prüfspitze, aktuell Spitzen-PCB', 'z_pogo_pin_holder_cover': 'nicht benötigt: ältere Prüfspitze, aktuell Spitzen-PCB',
+    'z_pogo_pin_holder_long': 'nicht benötigt: ältere Prüfspitze, aktuell Spitzen-PCB', 'z_pogo_pin_holder_long_mirrored': 'nicht benötigt: ältere Prüfspitze, aktuell Spitzen-PCB',
+    'x_motor_plate_raw': 'Rohteil, über MAT-006', 'x_motor_plate_2_raw': 'Rohteil, über MAT-006',
+    'x_side_plate_raw': 'Rohteil, über MAT-006', 'x_side_plate_moving_raw': 'Rohteil, über MAT-006',
+    'mean_well_HRPG-1000-24': 'nicht benötigt: RSP-200-24 verbaut',
+    'motor_adapter_nema_17': NOT_NEEDED_OLD, 'base_nema_14_belt_drive_adapter_motor': NOT_NEEDED_OLD,
+    'x_end_stop_holder_side_long': NOT_NEEDED_OLD, 'y_camera_holder_mirrored': NOT_NEEDED_OLD,
+    'pcb_holder_glider_slim_long': NOT_NEEDED_OLD,
+}
 CONFLICT_NOTES = {
     'base_drag_chain_holder': 'liegt in printed_parts, ist aber 650 mm lang, Material Alu 7075, zusätzlich .psm und Zeichnung in mechanical_parts: nicht am Stück druckbar, bleibt Alu-Flachprofil',
     'signal_multiplexer_dummy': 'erledigt: echte Platine in hardware/signal-multiplexer, Bestellung SYS-003/023 bei JLCPCB',
@@ -115,6 +140,7 @@ def main():
             'Hülle mm': ' x '.join(f'{v:g}' for v in g['size_mm']) if g and g.get('size_mm') else '',
             'Volumen cm³': f"{g['volume_cm3']:g}" if g and 'volume_cm3' in g else '',
             'Abgleich': check, 'Hinweis': note,
+            'Entscheidung': DECISION.get(name, '') if check == 'NUR SOLID EDGE' else '',
         })
 
     with (BOM / 'SolidEdge-Teileliste.csv').open('w', encoding='utf-8-sig', newline='') as f:
@@ -150,8 +176,8 @@ def main():
         L += [f'## {title}', '', table(in_model, cols), '']
         if only:
             L += [f'### Nur als Solid-Edge-Datei, nicht im Gesamtmodell ({len(only)})', '',
-                  'Nicht in der Bestell-/Druckplanung. Bedarf je Teil entscheiden.', '',
-                  table(only, ['Datei', 'Hülle mm', 'Volumen cm³', 'Hinweis']), '']
+                  'Bedarf am 26.10.2026 mit Luis entschieden; benötigte Teile stehen als SYS-Positionen in der Teileliste.', '',
+                  table(only, ['Datei', 'Hülle mm', 'Volumen cm³', 'Hinweis', 'Entscheidung']), '']
     (BOM / 'SolidEdge-Teileliste.md').write_text('\n'.join(L).rstrip() + '\n', encoding='utf-8')
     print(count)
 

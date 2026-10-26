@@ -9,13 +9,13 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | [M03 Y-Achse](#modul-03) | 27 | 168 | 17 | 0 | 0 | 10 | 0 | 0 |
 | [M04 Z-Achse](#modul-04) | 20 | 100 | 14 | 0 | 0 | 6 | 0 | 0 |
 | [M05 Schublade und Platinenhalter](#modul-05) | 21 | 96 | 15 | 0 | 1 | 4 | 1 | 0 |
-| [M06 Kabelführung](#modul-06) | 17 | 304 | 10 | 1 | 0 | 6 | 0 | 0 |
-| [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 11 | 1 | 0 | 6 | 0 | 0 |
+| [M06 Kabelführung](#modul-06) | 21 | 310 | 10 | 3 | 0 | 8 | 0 | 0 |
+| [M07 Elektrik und Sensorik](#modul-07) | 24 | 150 | 11 | 1 | 0 | 12 | 0 | 0 |
 | [M08 Optik](#modul-08) | 8 | 22 | 4 | 0 | 0 | 4 | 0 | 0 |
-| [M09 Prüfspitzen](#modul-09) | 7 | 48 | 2 | 4 | 1 | 0 | 0 | 0 |
+| [M09 Prüfspitzen](#modul-09) | 8 | 49 | 2 | 4 | 1 | 1 | 0 | 0 |
 | [M10 Verkleidung](#modul-10) | 4 | 40 | 4 | 0 | 0 | 0 | 0 | 0 |
 | [M12 Beleuchtung](#modul-12) | 3 | 3.9 | 2 | 1 | 0 | 0 | 0 | 0 |
-| [M13 Kalibrierung](#modul-13) | 6 | 18 | 0 | 0 | 1 | 5 | 0 | 0 |
+| [M13 Kalibrierung](#modul-13) | 6 | 21 | 0 | 0 | 0 | 6 | 0 | 0 |
 
 <a id="modul-01"></a>
 
@@ -284,12 +284,16 @@ Energieketten mit Haltern und Adaptern sowie Kabelhalter und Kabelabdeckungen. M
 | [SYS-055](../Teileliste.md#sys-055) Nutenstein I-Typ Nut 6, M4, Kabelhalter | nicht im CAD | 3 | bestellfähig | Kaufteile |
 | [SYS-056](../Teileliste.md#sys-056) Zylinderschraube DIN 912 M5×10 A2, Kabelhalter M5 | nicht im CAD | 6 | bestellfähig | Kaufteile |
 | [CAD-009](../Teileliste.md#cad-009) Grundgestell: Schlepp Energiekette Halter | `base_drag_chain_holder` | 4 | teilweise geklärt | Weitere Fertigung |
+| [SYS-073](../Teileliste.md#sys-073) Energiekette Schublade igus E2C.10.10.028.0, 0,5 m | nicht im CAD | 2 | teilweise geklärt | Kaufteile |
+| [SYS-074](../Teileliste.md#sys-074) Anschlusssatz igus E2.100.10.56PZ.A1, Schubladenkette | nicht im CAD | 2 | teilweise geklärt | Kaufteile |
 | [CAD-004](../Teileliste.md#cad-004) Grundgestell: Kabel Halter M3 flach | `base_cable_holder_m3_flat` | 2 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-005](../Teileliste.md#cad-005) Grundgestell: Kabel Halter M4 | `base_cable_holder_m4` | 1 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-006](../Teileliste.md#cad-006) Grundgestell: Kabel Halter M5 flach | `base_cable_holder_m5_flat` | 4 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-024](../Teileliste.md#cad-024) Kabel Abdeckung | `cable_cover` | 4 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-090](../Teileliste.md#cad-090) X-Achse Schlepp Energiekette Adapter | `x_drag_chain_adapter` | 8 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-118](../Teileliste.md#cad-118) Z-Achse Schlitten Kabel Halter | `z_slide_cable_holder` | 4 | Fertigung spezifiziert | 3D-Druck intern |
+| [SYS-064](../Teileliste.md#sys-064) Schleppkettenhalter Schublade, gestellseitig, Druck | nicht im CAD | 1 | Fertigung spezifiziert | 3D-Druck intern |
+| [SYS-065](../Teileliste.md#sys-065) Schleppkettenhalter Schublade, schubladenseitig, Druck | nicht im CAD | 1 | Fertigung spezifiziert | 3D-Druck intern |
 
 **Zusätzlich nötig, nicht im CAD**
 
@@ -330,6 +334,12 @@ Netzteil, Steuerplatinen, Bedientaster, Multiplexer-Halter, induktive Sensoren u
 | [CAD-092](../Teileliste.md#cad-092) X-Achse Endschalter Halter oben lang | `x_end_stop_holder_top_long` | 4 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-101](../Teileliste.md#cad-101) X-Achse Schlitten induktiv Endschalter Adapter | `x_slide_inductive_endstop_adapter` | 4 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-102](../Teileliste.md#cad-102) X-Achse Schlitten induktiv Endschalter Adapter gespiegelt | `x_slide_inductive_endstop_adapter_mirrored` | 4 | Fertigung spezifiziert | 3D-Druck intern |
+| [SYS-066](../Teileliste.md#sys-066) Netzbuchsenhalter Schublade, Druck | nicht im CAD | 1 | Fertigung spezifiziert | 3D-Druck intern |
+| [SYS-067](../Teileliste.md#sys-067) Gehäuse Zielplatinen-Versorgungsschalter, Druck | nicht im CAD | 1 | Fertigung spezifiziert | 3D-Druck intern |
+| [SYS-068](../Teileliste.md#sys-068) Deckel Zielplatinen-Versorgungsschalter, Druck | nicht im CAD | 1 | Fertigung spezifiziert | 3D-Druck intern |
+| [SYS-069](../Teileliste.md#sys-069) Gehäuse Kleinnetzteil, Druck | nicht im CAD | 1 | Fertigung spezifiziert | 3D-Druck intern |
+| [SYS-070](../Teileliste.md#sys-070) Deckel Kleinnetzteil, Druck | nicht im CAD | 1 | Fertigung spezifiziert | 3D-Druck intern |
+| [SYS-071](../Teileliste.md#sys-071) Raspberry-Pi-4-Halter, Druck | nicht im CAD | 1 | Fertigung spezifiziert | 3D-Druck intern |
 
 **Zusätzlich nötig, nicht im CAD**
 
@@ -394,6 +404,7 @@ Die 4 Prüfspitzen an den Z-Schlitten: Platine, Federkontakt, Kontakthülse und 
 | [CAD-073](../Teileliste.md#cad-073) Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W) | `plug_sleeve_P75-2_W` | 8 | teilweise geklärt | Kaufteile |
 | [SYS-058](../Teileliste.md#sys-058) Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl) | nicht im CAD | 10 | teilweise geklärt | Kaufteile |
 | [CAD-075](../Teileliste.md#cad-075) Prüfspitzen-PCB, unbestückt | `probe_tip_pcb` | 4 | Fertigung noch offen | PCB extern |
+| [SYS-072](../Teileliste.md#sys-072) Halter Höhennivellier-Taster (Hilfsmittel), Druck | nicht im CAD | 1 | Fertigung spezifiziert | 3D-Druck intern |
 
 **Zusätzlich nötig, nicht im CAD**
 
@@ -450,30 +461,33 @@ LED-Beleuchtung rundum oben innen am Rahmen, geschaltet und gedimmt über den He
 
 ## M13 Kalibrierung
 
-Kalibrier-Referenzplatte mit Messing- und weißen Referenzstiften und Hamming-Markern; Maße aus der Software (cli.py, reference_board.py) und der Abbildung software/docu/images/calibration_plate.png.
+Gedruckte Kalibrierplatte v4 (SCHUTZWERK-Original) mit Messing-Referenzstiften, gedruckten weißen Außenstiften und Hamming-Markereinlagen; Maße aus calibration_plate.asm und der Software (cli.py, reference_board.py).
 
-*Am 18.10.2026 angelegt; Fertigung in der eigenen Werkstatt.*
+*Am 18.10.2026 angelegt; am 26.10.2026 auf die gedruckte SCHUTZWERK-Platte umgestellt.*
 
 | ID / Teil | CAD-Name | Stück | Status | Beschaffungsart |
 | --- | --- | --- | --- | --- |
-| [SYS-004](../Teileliste.md#sys-004) Kalibrier-Referenzplatte, Alu schwarz | nicht im CAD | 1 | Fertigung noch offen | Weitere Fertigung |
 | [SYS-005](../Teileliste.md#sys-005) Innere Messing-Referenzzylinder Ø7/8/9/10 | nicht im CAD | 4 | Fertigung spezifiziert | Weitere Fertigung |
-| [SYS-006](../Teileliste.md#sys-006) Kalibriermarker, in die Platte graviert | nicht im CAD | 1 | Fertigung spezifiziert | Weitere Fertigung |
-| [SYS-037](../Teileliste.md#sys-037) Weiße äußere Kalibrierreferenzen Ø10 | nicht im CAD | 4 | Fertigung spezifiziert | Weitere Fertigung |
 | [SYS-039](../Teileliste.md#sys-039) Erhöhte Messing-Referenzzylinder | nicht im CAD | 4 | Fertigung spezifiziert | Weitere Fertigung |
 | [SYS-040](../Teileliste.md#sys-040) Äußere flache Messing-Referenzzylinder Ø7 | nicht im CAD | 4 | Fertigung spezifiziert | Weitere Fertigung |
+| [SYS-061](../Teileliste.md#sys-061) Kalibrierplatte Version 4, Druck | nicht im CAD | 1 | Fertigung spezifiziert | 3D-Druck intern |
+| [SYS-062](../Teileliste.md#sys-062) Kalibrier-Markereinlagen IDs 1/3/6/12, Druck | nicht im CAD | 4 | Fertigung spezifiziert | 3D-Druck intern |
+| [SYS-063](../Teileliste.md#sys-063) Kalibrierstifte, Druck | nicht im CAD | 4 | Fertigung spezifiziert | 3D-Druck intern |
 
 **Zusätzlich nötig, nicht im CAD**
 
 | Teil | Stück | Bezug | Grund |
 | --- | --- | --- | --- |
-| Messing-Rundstab Ø7, Ø8, Ø9, Ø10 und weißer POM-Rundstab Ø10 | je ca. 100 mm | SYS-005/037/039/040 | Rohmaterial für die Werkstatt; noch kein Artikel ausgewählt. |
-| Alu-Platte ca. 140×120×(5,1 + Turmhöhe) mm | 1 | SYS-004 | Rohmaterial; Turmhöhe bis 12 mm über Oberfläche. |
+| Messing-Rundstab Ø7, Ø8, Ø9, Ø10 | je ca. 100 mm | SYS-005/039/040 | Rohmaterial für die Werkstatt; noch kein Artikel ausgewählt. |
+
+**Bei der Prüfung aus dem Modul genommen**
+
+- SYS-004 Alu-Platte, SYS-006 gravierte Marker und SYS-037 weiße POM-Referenzen: ersetzt durch die SCHUTZWERK-Druckteile SYS-061/062/063 (Entscheidung Luis 26.10.2026).
 
 **Offene Fragen**
 
-- Plattengröße und Ø der weißen Referenzen sind aus der Abbildung geschätzt; vor der Fertigung Zeichnung erstellen.
-- Rohmaterial (Messing, POM, Alu) noch nicht ausgewählt.
+- Plattendicke 17 mm gegen Softwareparameter (cli.py: 5,1 mm) prüfen.
+- Messing-Rohmaterial noch nicht ausgewählt.
 
 ## Abdeckung
 

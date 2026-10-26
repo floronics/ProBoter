@@ -15,7 +15,7 @@ M02, M03;X-Achse;BUY-007;X/Y-Riemen 6 mm,2 Rollen à10 m;"CAD-087;CAD-104";DOLD;
 M02, M03;X-Achse;BUY-014;12 NEMA17 Originalmotoren;CAD-064;NANOTEC;Nanotec;ST4118M1804-A;12;Stück;12;445,54;;offen;;https://www.nanotec.com/eu/de/produkte/363-st4118m1804-a
 M02;X-Achse;BUY-018;8 CPC-Führungswagen MR12ML;CAD-027;MOTEDIS;CPC;6344;8;Stück;8;195,26;;offen;;https://www.motedis.com/de/Fuehrungswagen-Miniatur-MR12ML-SS-V0-N-Edelstahl
 M02;X-Achse;BUY-019;2 CPC-Schienen MR12M 600 mm;CAD-095;MOTEDIS;CPC;MR12M-N-600;2;Stück;2;119,40;;offen;;https://www.motedis.com/de/Edelstahl-Profilschienenfuehrung-Miniatur-MR12M-N-L-600mm
-M02, M03, M04, M05, M06, M07, M08;X-Achse;MAT-001;PETG für CAD-Druckteile plus Kalibrierkörper;"CAD-001;CAD-002;CAD-004;CAD-005;CAD-006;CAD-015;CAD-016;CAD-017;CAD-018;CAD-019;CAD-021;CAD-022;CAD-024;CAD-025;CAD-026;CAD-067;CAD-068;CAD-071;CAD-072;CAD-074;CAD-083;CAD-088;CAD-089;CAD-090;CAD-091;CAD-092;CAD-101;CAD-102;CAD-105;CAD-106;CAD-107;CAD-109;CAD-110;CAD-111;CAD-112;CAD-114;CAD-116;CAD-117;CAD-118;CAD-119;CAD-120";RBS;yourDroid;RBS13444;4,60694120368;kg;5;59,75;;offen;;https://www.roboter-bausatz.de/p/yourdroid-petg-filament-schwarz-1.75mm-1kg
+M02, M03, M04, M05, M06, M07, M08, M09, M13;X-Achse;MAT-001;PETG für CAD-Druckteile plus Kalibrierkörper;"CAD-001;CAD-002;CAD-004;CAD-005;CAD-006;CAD-015;CAD-016;CAD-017;CAD-018;CAD-019;CAD-021;CAD-022;CAD-024;CAD-025;CAD-026;CAD-067;CAD-068;CAD-071;CAD-072;CAD-074;CAD-083;CAD-088;CAD-089;CAD-090;CAD-091;CAD-092;CAD-101;CAD-102;CAD-105;CAD-106;CAD-107;CAD-109;CAD-110;CAD-111;CAD-112;CAD-114;CAD-116;CAD-117;CAD-118;CAD-119;CAD-120;SYS-061;SYS-062;SYS-063;SYS-064;SYS-065;SYS-066;SYS-067;SYS-068;SYS-069;SYS-070;SYS-071;SYS-072";RBS;yourDroid;RBS13444;5,05229667568;kg;6;71,70;;offen;;https://www.roboter-bausatz.de/p/yourdroid-petg-filament-schwarz-1.75mm-1kg
 M02, M05;X-Achse;MAT-004;Präzisionswellen Ø10, Zuschnitt-Los;"CAD-069;CAD-098";DOLD;DOLD (über voelkner.de);D25160720;1;Los;1;83,64;;offen;;https://www.voelkner.de/products/10394662/Praezisionswelle-10mm-h6-Edelstahl-X46CR13-Linearwellen-geschliffen-und-gehaertet.-ZUSCHNITT-18-EUR-m-0-60-EUR-pro-Schnitt-1950mm.html
 M02;X-Achse;MAT-007;Aluprofil 40x 16S Nut 8, Zuschnitt;CAD-103;DOLD;DOLD;60879-Z;1;Los;1;29,03;;offen;;https://www.dold-mechatronik.de/Aluminiumprofil-40x16S-I-Typ-Nut-8
 M02;X-Achse;N-031;DIN 7991 M3×8;CAD-031;EISEN2000;nicht angegeben;OS-7991-2-030008;36;Stück;100;5,00;;offen;;https://www.eisenwaren2000.de/?a=84924
@@ -67,6 +67,8 @@ M06;Kabelführung;BUY-SYS-054;Linsenkopfschraube ISO 7380-1 M4×8 A2, Kabelführ
 M06;Kabelführung;BUY-SYS-055;Nutenstein I-Typ Nut 6, M4, Kabelhalter;SYS-055;DOLD;DOLD;62347-VK;3;Stück;10;4,80;;offen;;https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M4
 M06;Kabelführung;BUY-SYS-056;Zylinderschraube DIN 912 M5×10 A2, Kabelhalter M5;SYS-056;SCHRAUBEN;Schrauben.Expert;912 5 10 A2;6;Stück;50;6,00;;offen;;https://schrauben-expert.de/Zylinderschraube-DIN-912-M5-x-10-mm-Edelstahl-A2
 M06;Kabelführung;MAT-008;Aluprofil 80x 16S Nut 8, Zuschnitt, Kandidat;CAD-009;DOLD;DOLD;60886-Z;1;Los;1;74,80;;offen;;https://www.dold-mechatronik.de/Aluminiumprofil-80x16S-I-Typ-Nut-8
+M06;Kabelführung;OPEN-SYS-073;Energiekette Schublade igus E2C.10.10.028.0, 0,5 m;SYS-073;IGUS;nicht festgelegt;offen;2;Stück;2;;;offen;;https://www.igus.de/
+M06;Kabelführung;OPEN-SYS-074;Anschlusssatz igus E2.100.10.56PZ.A1, Schubladenkette;SYS-074;IGUS;nicht festgelegt;offen;2;Satz;2;;;offen;;https://www.igus.de/
 M07;Elektrik und Sensorik;BUD-S011;USB-Kabel für 4 SKR;SYS-011;REICHELT;nicht festgelegt;offen;1;Los;1;20,00;;offen;;https://www.reichelt.de/
 M07;Elektrik und Sensorik;BUD-S012;USB-Kabel für MUX/UART/Zielversorgung;SYS-012;REICHELT;nicht festgelegt;offen;1;Los;1;15,00;;offen;;https://www.reichelt.de/
 M07;Elektrik und Sensorik;BUD-S013;Bewegliche Kameraleitung / USB-Verlängerung;SYS-013;REICHELT;nicht festgelegt;offen;1;Los;1;15,00;;offen;;https://www.reichelt.de/
@@ -115,10 +117,7 @@ M10;Verkleidung;MAT-010;Acrylglas-Abdeckungen, Zuschnitt-Los;"CAD-007;CAD-008";P
 M12;Beleuchtung;BUY-013;LED-Streifen 5-m-Rolle für 1,9 m;SYS-007;REICHELT;LUXULA;LUXULA LX700101;1,9;m;5;6,95;;offen;;https://www.reichelt.de/de/de/shop/produkt/led-streifen_5_meter_4500_k_120_led_m_24_v_8_mm-365051
 M12;Beleuchtung;BUY-LEDP;LED-Profilsatz BARdolino;SYS-008;REICHELT;Barthelme;BARDOLINO P1MF + A1MO + EKSF + HKS;1;Satz;1;44,55;;offen;;https://www.reichelt.de/de/de/shop/produkt/bardolino_flach_profil_alu_eloxiert_1m-122169
 M12;Beleuchtung;OPEN-SYS-009;LED-Anschluss an den Heizbett-Ausgang der Licht-Steuerplatine;SYS-009;REICHELT;nicht festgelegt;offen;1;Satz;1;;;offen;;https://www.reichelt.de/
-M13;Kalibrierung;OPEN-SYS-004;Kalibrier-Referenzplatte, Alu schwarz;SYS-004;OFFEN;nicht festgelegt;offen;1;Stück;1;;;offen;;
 M13;Kalibrierung;OPEN-SYS-005;Innere Messing-Referenzzylinder Ø7/8/9/10;SYS-005;OFFEN;nicht festgelegt;offen;4;Stück;4;;;offen;;
-M13;Kalibrierung;OPEN-SYS-006;Kalibriermarker, in die Platte graviert;SYS-006;OFFEN;nicht festgelegt;offen;1;Satz;1;;;offen;;
-M13;Kalibrierung;OPEN-SYS-037;Weiße äußere Kalibrierreferenzen Ø10;SYS-037;OFFEN;nicht festgelegt;offen;4;Stück;4;;;offen;;
 M13;Kalibrierung;OPEN-SYS-039;Erhöhte Messing-Referenzzylinder;SYS-039;OFFEN;nicht festgelegt;offen;4;Stück;4;;;offen;;
 M13;Kalibrierung;OPEN-SYS-040;Äußere flache Messing-Referenzzylinder Ø7;SYS-040;OFFEN;nicht festgelegt;offen;4;Stück;4;;;offen;;
 allg.;ohne Modul;BUD-S030;Scheiben, Sicherungselemente, Distanzteile;SYS-030;SCHRAUBEN;nicht festgelegt;offen;1;Los;1;20,00;;offen;;https://schrauben-expert.de/

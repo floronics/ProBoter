@@ -56,38 +56,38 @@ Stand 26.10.2026. Quelle: SCHUTZWERK-CAD in [hardware/cad](../hardware/cad) (Sol
 
 ### Nur als Solid-Edge-Datei, nicht im Gesamtmodell (28)
 
-Nicht in der Bestell-/Druckplanung. Bedarf je Teil entscheiden.
+Bedarf am 26.10.2026 mit Luis entschieden; benötigte Teile stehen als SYS-Positionen in der Teileliste.
 
-| Datei | Hülle mm | Volumen cm³ | Hinweis |
-|---|---|---|---|
-| base_drawer_drag_chain_holder.par | 52 x 30 x 10 | 10.374 | Schleppkettenhalter Schublade, ältere/alternative Variante |
-| base_drawer_power_plug_socket.par | 102 x 24 x 30 | 30.008 | Halter Netzbuchse in der Schublade |
-| base_nema_14_belt_drive_adapter_motor.par | 35 x 40 x 45 | 14.157 | NEMA14-Adapter Riemenantrieb, ältere Variante |
-| base_power_supply_housing.par | 80 x 50 x 25 | 26.362 | Gehäuse kleines Netzteil (Baugruppe base_power_supply) |
-| base_power_supply_housing_top.par | 50 x 50 x 2.5 | 6.008 | Deckel dazu |
-| base_raspberry_pi_4_adapter.par | 97 x 72 x 5 | 34.47 | Halteplatte Raspberry Pi 4 |
-| calibration_plate.par | 148 x 198 x 18 | 106.636 | Kalibrierplatte v1 (gedruckt) |
-| calibration_plate_marker_fill.par | 18.2 x 1.9 x 18.2 | 0.527 | Markereinlage (Farbwechsel-Druck) |
-| calibration_plate_marker_fill_001.par | 18.2 x 1.9 x 18.2 | 0.527 | Markereinlage ID 1 |
-| calibration_plate_marker_fill_003.par | 18.2 x 1.9 x 18.2 | 0.51 | Markereinlage ID 3 |
-| calibration_plate_marker_fill_006.par | 18.2 x 1.9 x 18.2 | 0.51 | Markereinlage ID 6 |
-| calibration_plate_marker_fill_012.par | 18.2 x 1.9 x 18.2 | 0.527 | Markereinlage ID 12 |
-| calibration_plate_pin.par | 10 x 10 x 8 | 0.316 | Kalibrierstift |
-| calibration_plate_v2.par | 138 x 178 x 17 | 112.03 | Kalibrierplatte v2 |
-| calibration_plate_v3.par | 100 x 140 x 17 | 66.626 | Kalibrierplatte v3 |
-| calibration_plate_v4.par | 110 x 130 x 17 | 65.476 | Kalibrierplatte v4, neueste |
-| drawer_drag_chain_holder.par | 120 x 25 x 40 | 31.445 | Schleppkettenhalter Schublade (Baugruppe drawer_drag_chain) |
-| motor_adapter_nema_17.par | 40 x 45 x 52 | 20.243 | gleiche Geometrie wie base_nema_14_to_17_adapter (Duplikat) |
-| pcb_holder_glider_slim_long.par | 44 x 15 x 18 | 8.024 | schmaler, langer Platinenhalter-Gleiter (Variante) |
-| target_power_switch.par | 95 x 28 x 75 | 48.525 | Gehäuse Zielplatinen-Versorgungsschalter |
-| target_power_switch_top.par | 95 x 75 x 6 | 24.043 | Deckel dazu |
-| utils_height_leveling_probe_holder.par | 45 x 20 x 32 | 12.145 | Hilfsmittel: Halter für Höhennivellier-Taster |
-| x_end_stop_holder_side_long.par | 12 x 69 x 54 | 10.953 | X-Endschalterhalter seitlich, lange Variante |
-| y_camera_holder_mirrored.par | 50.82 x 51 x 35 | 23.701 | Y-Kamerahalter gespiegelt |
-| z_pogo_pin_holder.par | 16 x 20.97 x 79.35 | 11.664 | Pogo-Pin-Halter (Prüfspitze ohne PCB) |
-| z_pogo_pin_holder_cover.par | 16 x 1 x 4 | 0.052 | Deckel dazu |
-| z_pogo_pin_holder_long.par | 16 x 53.39 x 108.6 | 16.198 | Pogo-Pin-Halter lang |
-| z_pogo_pin_holder_long_mirrored.par | 16 x 53.39 x 108.6 | 16.198 | Pogo-Pin-Halter lang, gespiegelt |
+| Datei | Hülle mm | Volumen cm³ | Hinweis | Entscheidung |
+|---|---|---|---|---|
+| base_drawer_drag_chain_holder.par | 52 x 30 x 10 | 10.374 | Schleppkettenhalter Schublade, ältere/alternative Variante | drucken: SYS-064 |
+| base_drawer_power_plug_socket.par | 102 x 24 x 30 | 30.008 | Halter Netzbuchse in der Schublade | drucken: SYS-066 |
+| base_nema_14_belt_drive_adapter_motor.par | 35 x 40 x 45 | 14.157 | NEMA14-Adapter Riemenantrieb, ältere Variante | nicht benötigt: ältere Variante/Duplikat, nicht im Gesamtmodell |
+| base_power_supply_housing.par | 80 x 50 x 25 | 26.362 | Gehäuse kleines Netzteil (Baugruppe base_power_supply) | drucken: SYS-069 |
+| base_power_supply_housing_top.par | 50 x 50 x 2.5 | 6.008 | Deckel dazu | drucken: SYS-070 |
+| base_raspberry_pi_4_adapter.par | 97 x 72 x 5 | 34.47 | Halteplatte Raspberry Pi 4 | drucken: SYS-071 |
+| calibration_plate.par | 148 x 198 x 18 | 106.636 | Kalibrierplatte v1 (gedruckt) | nicht benötigt: Altstand, Baugruppe nutzt v4 |
+| calibration_plate_marker_fill.par | 18.2 x 1.9 x 18.2 | 0.527 | Markereinlage (Farbwechsel-Druck) | nicht benötigt: nicht in calibration_plate.asm |
+| calibration_plate_marker_fill_001.par | 18.2 x 1.9 x 18.2 | 0.527 | Markereinlage ID 1 | drucken: SYS-062 |
+| calibration_plate_marker_fill_003.par | 18.2 x 1.9 x 18.2 | 0.51 | Markereinlage ID 3 | drucken: SYS-062 |
+| calibration_plate_marker_fill_006.par | 18.2 x 1.9 x 18.2 | 0.51 | Markereinlage ID 6 | drucken: SYS-062 |
+| calibration_plate_marker_fill_012.par | 18.2 x 1.9 x 18.2 | 0.527 | Markereinlage ID 12 | drucken: SYS-062 |
+| calibration_plate_pin.par | 10 x 10 x 8 | 0.316 | Kalibrierstift | drucken: SYS-063 |
+| calibration_plate_v2.par | 138 x 178 x 17 | 112.03 | Kalibrierplatte v2 | nicht benötigt: Altstand, Baugruppe nutzt v4 |
+| calibration_plate_v3.par | 100 x 140 x 17 | 66.626 | Kalibrierplatte v3 | nicht benötigt: Altstand, Baugruppe nutzt v4 |
+| calibration_plate_v4.par | 110 x 130 x 17 | 65.476 | Kalibrierplatte v4, neueste | drucken: SYS-061 |
+| drawer_drag_chain_holder.par | 120 x 25 x 40 | 31.445 | Schleppkettenhalter Schublade (Baugruppe drawer_drag_chain) | drucken: SYS-065 |
+| motor_adapter_nema_17.par | 40 x 45 x 52 | 20.243 | gleiche Geometrie wie base_nema_14_to_17_adapter (Duplikat) | nicht benötigt: ältere Variante/Duplikat, nicht im Gesamtmodell |
+| pcb_holder_glider_slim_long.par | 44 x 15 x 18 | 8.024 | schmaler, langer Platinenhalter-Gleiter (Variante) | nicht benötigt: ältere Variante/Duplikat, nicht im Gesamtmodell |
+| target_power_switch.par | 95 x 28 x 75 | 48.525 | Gehäuse Zielplatinen-Versorgungsschalter | drucken: SYS-067 |
+| target_power_switch_top.par | 95 x 75 x 6 | 24.043 | Deckel dazu | drucken: SYS-068 |
+| utils_height_leveling_probe_holder.par | 45 x 20 x 32 | 12.145 | Hilfsmittel: Halter für Höhennivellier-Taster | drucken: SYS-072 |
+| x_end_stop_holder_side_long.par | 12 x 69 x 54 | 10.953 | X-Endschalterhalter seitlich, lange Variante | nicht benötigt: ältere Variante/Duplikat, nicht im Gesamtmodell |
+| y_camera_holder_mirrored.par | 50.82 x 51 x 35 | 23.701 | Y-Kamerahalter gespiegelt | nicht benötigt: ältere Variante/Duplikat, nicht im Gesamtmodell |
+| z_pogo_pin_holder.par | 16 x 20.97 x 79.35 | 11.664 | Pogo-Pin-Halter (Prüfspitze ohne PCB) | nicht benötigt: ältere Prüfspitze, aktuell Spitzen-PCB |
+| z_pogo_pin_holder_cover.par | 16 x 1 x 4 | 0.052 | Deckel dazu | nicht benötigt: ältere Prüfspitze, aktuell Spitzen-PCB |
+| z_pogo_pin_holder_long.par | 16 x 53.39 x 108.6 | 16.198 | Pogo-Pin-Halter lang | nicht benötigt: ältere Prüfspitze, aktuell Spitzen-PCB |
+| z_pogo_pin_holder_long_mirrored.par | 16 x 53.39 x 108.6 | 16.198 | Pogo-Pin-Halter lang, gespiegelt | nicht benötigt: ältere Prüfspitze, aktuell Spitzen-PCB |
 
 ## Mechanik und Werkstatt (mechanical_parts)
 
@@ -135,14 +135,14 @@ Nicht in der Bestell-/Druckplanung. Bedarf je Teil entscheiden.
 
 ### Nur als Solid-Edge-Datei, nicht im Gesamtmodell (4)
 
-Nicht in der Bestell-/Druckplanung. Bedarf je Teil entscheiden.
+Bedarf am 26.10.2026 mit Luis entschieden; benötigte Teile stehen als SYS-Positionen in der Teileliste.
 
-| Datei | Hülle mm | Volumen cm³ | Hinweis |
-|---|---|---|---|
-| x_motor_plate_2_raw.par | 550 x 5 x 135 | 331.193 | Rohteil zur gefrästen Motorplatte CAD-097 |
-| x_motor_plate_raw.par | 550 x 5 x 135 | 331.33 | Rohteil zur gefrästen Motorplatte CAD-096 |
-| x_side_plate_moving_raw.par | 55 x 5 x 166.5 | 41.898 | Rohteil zur gefrästen Seitenplatte CAD-100 |
-| x_side_plate_raw.par | 55 x 5 x 166.5 | 41.091 | Rohteil zur gefrästen Seitenplatte CAD-099; SE-Material: Aluminium, 7075-T6 |
+| Datei | Hülle mm | Volumen cm³ | Hinweis | Entscheidung |
+|---|---|---|---|---|
+| x_motor_plate_2_raw.par | 550 x 5 x 135 | 331.193 | Rohteil zur gefrästen Motorplatte CAD-097 | Rohteil, über MAT-006 |
+| x_motor_plate_raw.par | 550 x 5 x 135 | 331.33 | Rohteil zur gefrästen Motorplatte CAD-096 | Rohteil, über MAT-006 |
+| x_side_plate_moving_raw.par | 55 x 5 x 166.5 | 41.898 | Rohteil zur gefrästen Seitenplatte CAD-100 | Rohteil, über MAT-006 |
+| x_side_plate_raw.par | 55 x 5 x 166.5 | 41.091 | Rohteil zur gefrästen Seitenplatte CAD-099; SE-Material: Aluminium, 7075-T6 | Rohteil, über MAT-006 |
 
 ## Kaufteile (standard_parts)
 
@@ -203,14 +203,14 @@ Nicht in der Bestell-/Druckplanung. Bedarf je Teil entscheiden.
 
 ### Nur als Solid-Edge-Datei, nicht im Gesamtmodell (4)
 
-Nicht in der Bestell-/Druckplanung. Bedarf je Teil entscheiden.
+Bedarf am 26.10.2026 mit Luis entschieden; benötigte Teile stehen als SYS-Positionen in der Teileliste.
 
-| Datei | Hülle mm | Volumen cm³ | Hinweis |
-|---|---|---|---|
-| drag_chain_0_5m_E2C_10_10_028_0___E2_100_10_56PZ_A1_1.par |  |  | Energiekette 0,5 m, nicht im Gesamtmodell |
-| drag_chain_0_5m_E2C_10_10_028_0___E2_100_10_56PZ_A1_2.par |  |  | Energiekette 0,5 m, nicht im Gesamtmodell |
-| mean_well_HRPG-1000-24 .par |  |  | Netzteil 1000 W, nicht im Gesamtmodell (verbaut: RSP-200-24) |
-| raspberry_pi_4_dummy.par |  |  | Platzhalter Raspberry Pi 4 |
+| Datei | Hülle mm | Volumen cm³ | Hinweis | Entscheidung |
+|---|---|---|---|---|
+| drag_chain_0_5m_E2C_10_10_028_0___E2_100_10_56PZ_A1_1.par |  |  | Energiekette 0,5 m, nicht im Gesamtmodell | kaufen: SYS-073/074 |
+| drag_chain_0_5m_E2C_10_10_028_0___E2_100_10_56PZ_A1_2.par |  |  | Energiekette 0,5 m, nicht im Gesamtmodell | kaufen: SYS-073/074 |
+| mean_well_HRPG-1000-24 .par |  |  | Netzteil 1000 W, nicht im Gesamtmodell (verbaut: RSP-200-24) | nicht benötigt: RSP-200-24 verbaut |
+| raspberry_pi_4_dummy.par |  |  | Platzhalter Raspberry Pi 4 | offen: Raspberry Pi 4 bei SCHUTZWERK anfragen |
 
 ## Leiterplatten (pcbs)
 

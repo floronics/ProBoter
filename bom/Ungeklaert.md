@@ -20,7 +20,6 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | CAD-099 X-Achse Seite Platte | 4 Stück | 5 mm Seitenplatte des X-Wagens 55×166,5 mm. Fräszeichnung aus hardware/cad (.par/.dft) ableiten. |
 | CAD-100 X-Achse Seite Platte beweglich | 4 Stück | 5 mm Seitenplatte des X-Wagens 55×166,5 mm. Fräszeichnung aus hardware/cad (.par/.dft) ableiten. |
 | SYS-003 Signal-Multiplexer, unbestückte Leiterplatte | 1 Stück | SCHUTZWERK-Original: 4 Lagen, Gerber hardware/signal-multiplexer/hardware/gerber 1.1/gerber 1.1.zip (deckungsgleich mit mux.kicad_pcb, geprüft 26.10.2026). Bei JLCPCB bestellen. |
-| SYS-004 Kalibrier-Referenzplatte, Alu schwarz | 1 Stück | WERKSTATT (Entscheidung Luis 18.10.2026): Alu gefräst/gebohrt, schwarz eloxiert oder lackiert. Dicke 5,1 mm (cli.py); Größe ca. 130×110 mm aus software/docu/images/calibration_plate_top.png geschätzt. 4 Türme für die erhöhten Stifte; Marker eingraviert. Zeichnung aus den Software-Maßen erstellen. |
 | SYS-019 Sensor-Pegelanpassung / Eingangsschutz | 24 Kanäle | Bedarf abhängig von M8-Ausgang; 24 V/3,3 V-Interface. Keine Schaltung/BOM vorhan den; nicht blind 24Module bestellen. |
 | SYS-023 Signal-Multiplexer Bestückung | 1 Baugruppe | Board-BOM hardware/signal-multiplexer/hardware/mux.csv (76 Bauteile, u. a. 6 Relais TE 6-1462037-3, SMA, USB-B, DB9). Bestückung bei JLCPCB oder selbst; MPNs/LCSC-Nummern noch zuordnen. |
 | SYS-024 Prüfspitzen-PCB Bestückung | 4 Baugruppen | CAD-MM CX/Federkontakte separat; zusätzliche Buchsen und Bauteile erst aus Schaltplan. Unbestückte Platine CAD-075 nicht erneut zählen. |
@@ -56,6 +55,8 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | SYS-032 Controller-Befestigung und Kühlung | 1 Satz | Abstandshalter, Isolierung, ggf.Lüfter; SKR/TMC-Beipack und thermische Auslegung prüfen. |
 | SYS-038 Kalibrier-Kontaktleitungen und gemeinsame Messreferenz | 1 Satz | 4 SKR-Zentriereingänge P0_17 mit Pull-up/aktiv Low sowie Referenzkörper/Kontaktkreis verdrahten. Netzplan, Stecker, Länge und Bezugspotenzial mit Multiplexer klären; keine Verbindung ungeprüft festlegen. |
 | SYS-058 Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl) | 10 Stück | Wunsch Luis (17.10.2026). Flachspitzen-Code uneinheitlich (Peaktest: F flach, A konkav, D2 Kuppe); kein Lagerangebot gefunden, Spitzenzeichnung beim Händler anfordern. |
+| SYS-073 Energiekette Schublade igus E2C.10.10.028.0, 0,5 m | 2 Stück | drag_chain_0_5m_E2C_10_10_028_0 in drawer_drag_chain.asm: 2 Ketten je 25 Glieder (Fusion-Messung) mit Anschlüssen E2.100.10.56PZ.A1 (SYS-074) (Entscheidung Luis 26.10.2026). |
+| SYS-074 Anschlusssatz igus E2.100.10.56PZ.A1, Schubladenkette | 2 Satz | Anschlüsse zu SYS-073, laut CAD-Dateiname (Entscheidung Luis 26.10.2026). |
 
 ## Reihenfolge zum Schließen der Lücken
 

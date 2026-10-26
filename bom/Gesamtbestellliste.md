@@ -1,6 +1,6 @@
 # Gesamtbestellliste (alle Bestellpositionen)
 
-Generiert aus `bestellliste.csv` + `montage/` · 131 Positionen · sortiert nach Modul. Bei mehreren Modulen wird nach dem ersten einsortiert. „allg.“ = Systemteil ohne Modulzuordnung. [CSV](Gesamtbestellliste.csv)
+Generiert aus `bestellliste.csv` + `montage/` · 130 Positionen · sortiert nach Modul. Bei mehreren Modulen wird nach dem ersten einsortiert. „allg.“ = Systemteil ohne Modulzuordnung. [CSV](Gesamtbestellliste.csv)
 
 | Modul | Modulname | ID | Beschreibung | Distributor | Artikel | Stückzahl | Brutto | Prüfung | Link |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20,7 +20,7 @@ Generiert aus `bestellliste.csv` + `montage/` · 131 Positionen · sortiert nach
 | M02, M03 | X-Achse | BUY-014 | 12 NEMA17 Originalmotoren | NANOTEC | Nanotec / ST4118M1804-A | 12 Stück | 445,54 € | offen | [Link](https://www.nanotec.com/eu/de/produkte/363-st4118m1804-a) |
 | M02 | X-Achse | BUY-018 | 8 CPC-Führungswagen MR12ML | MOTEDIS | CPC / 6344 | 8 Stück | 195,26 € | offen | [Link](https://www.motedis.com/de/Fuehrungswagen-Miniatur-MR12ML-SS-V0-N-Edelstahl) |
 | M02 | X-Achse | BUY-019 | 2 CPC-Schienen MR12M 600 mm | MOTEDIS | CPC / MR12M-N-600 | 2 Stück | 119,40 € | offen | [Link](https://www.motedis.com/de/Edelstahl-Profilschienenfuehrung-Miniatur-MR12M-N-L-600mm) |
-| M02, M03, M04, M05, M06, M07, M08 | X-Achse | MAT-001 | PETG für CAD-Druckteile plus Kalibrierkörper | RBS | yourDroid / RBS13444 | 4,60694120368 kg | 59,75 € | offen | [Link](https://www.roboter-bausatz.de/p/yourdroid-petg-filament-schwarz-1.75mm-1kg) |
+| M02, M03, M04, M05, M06, M07, M08, M09, M13 | X-Achse | MAT-001 | PETG für CAD-Druckteile plus Kalibrierkörper | RBS | yourDroid / RBS13444 | 5,05229667568 kg | 71,70 € | offen | [Link](https://www.roboter-bausatz.de/p/yourdroid-petg-filament-schwarz-1.75mm-1kg) |
 | M02, M05 | X-Achse | MAT-004 | Präzisionswellen Ø10, Zuschnitt-Los | DOLD | DOLD (über voelkner.de) / D25160720 | 1 Los | 83,64 € | offen | [Link](https://www.voelkner.de/products/10394662/Praezisionswelle-10mm-h6-Edelstahl-X46CR13-Linearwellen-geschliffen-und-gehaertet.-ZUSCHNITT-18-EUR-m-0-60-EUR-pro-Schnitt-1950mm.html) |
 | M02 | X-Achse | MAT-007 | Aluprofil 40x 16S Nut 8, Zuschnitt | DOLD | DOLD / 60879-Z | 1 Los | 29,03 € | offen | [Link](https://www.dold-mechatronik.de/Aluminiumprofil-40x16S-I-Typ-Nut-8) |
 | M02 | X-Achse | N-031 | DIN 7991 M3×8 | EISEN2000 | nicht angegeben / OS-7991-2-030008 | 36 Stück → 1×100 | 5,00 € | offen | [Link](https://www.eisenwaren2000.de/?a=84924) |
@@ -72,6 +72,8 @@ Generiert aus `bestellliste.csv` + `montage/` · 131 Positionen · sortiert nach
 | M06 | Kabelführung | BUY-SYS-055 | Nutenstein I-Typ Nut 6, M4, Kabelhalter | DOLD | DOLD / 62347-VK | 3 Stück → 1×10 | 4,80 € | offen | [Link](https://www.dold-mechatronik.de/Nutenstein-mit-Steg-I-Typ-Nut-6-Gewindedurchmesser-M4) |
 | M06 | Kabelführung | BUY-SYS-056 | Zylinderschraube DIN 912 M5×10 A2, Kabelhalter M5 | SCHRAUBEN | Schrauben.Expert / 912 5 10 A2 | 6 Stück → 1×50 | 6,00 € | offen | [Link](https://schrauben-expert.de/Zylinderschraube-DIN-912-M5-x-10-mm-Edelstahl-A2) |
 | M06 | Kabelführung | MAT-008 | Aluprofil 80x 16S Nut 8, Zuschnitt, Kandidat | DOLD | DOLD / 60886-Z | 1 Los | 74,80 € | offen | [Link](https://www.dold-mechatronik.de/Aluminiumprofil-80x16S-I-Typ-Nut-8) |
+| M06 | Kabelführung | OPEN-SYS-073 | Energiekette Schublade igus E2C.10.10.028.0, 0,5 m | IGUS | nicht festgelegt / offen | 2 Stück | offen | offen | [Link](https://www.igus.de/) |
+| M06 | Kabelführung | OPEN-SYS-074 | Anschlusssatz igus E2.100.10.56PZ.A1, Schubladenkette | IGUS | nicht festgelegt / offen | 2 Satz | offen | offen | [Link](https://www.igus.de/) |
 | M07 | Elektrik und Sensorik | BUD-S011 | USB-Kabel für 4 SKR | REICHELT | nicht festgelegt / offen | 1 Los | 20,00 € | offen | [Link](https://www.reichelt.de/) |
 | M07 | Elektrik und Sensorik | BUD-S012 | USB-Kabel für MUX/UART/Zielversorgung | REICHELT | nicht festgelegt / offen | 1 Los | 15,00 € | offen | [Link](https://www.reichelt.de/) |
 | M07 | Elektrik und Sensorik | BUD-S013 | Bewegliche Kameraleitung / USB-Verlängerung | REICHELT | nicht festgelegt / offen | 1 Los | 15,00 € | offen | [Link](https://www.reichelt.de/) |
@@ -120,10 +122,7 @@ Generiert aus `bestellliste.csv` + `montage/` · 131 Positionen · sortiert nach
 | M12 | Beleuchtung | BUY-013 | LED-Streifen 5-m-Rolle für 1,9 m | REICHELT | LUXULA / LUXULA LX700101 | 1,9 m → 1×5 | 6,95 € | offen | [Link](https://www.reichelt.de/de/de/shop/produkt/led-streifen_5_meter_4500_k_120_led_m_24_v_8_mm-365051) |
 | M12 | Beleuchtung | BUY-LEDP | LED-Profilsatz BARdolino | REICHELT | Barthelme / BARDOLINO P1MF + A1MO + EKSF + HKS | 1 Satz | 44,55 € | offen | [Link](https://www.reichelt.de/de/de/shop/produkt/bardolino_flach_profil_alu_eloxiert_1m-122169) |
 | M12 | Beleuchtung | OPEN-SYS-009 | LED-Anschluss an den Heizbett-Ausgang der Licht-Steuerplatine | REICHELT | nicht festgelegt / offen | 1 Satz | offen | offen | [Link](https://www.reichelt.de/) |
-| M13 | Kalibrierung | OPEN-SYS-004 | Kalibrier-Referenzplatte, Alu schwarz | OFFEN | nicht festgelegt / offen | 1 Stück | offen | offen | – |
 | M13 | Kalibrierung | OPEN-SYS-005 | Innere Messing-Referenzzylinder Ø7/8/9/10 | OFFEN | nicht festgelegt / offen | 4 Stück | offen | offen | – |
-| M13 | Kalibrierung | OPEN-SYS-006 | Kalibriermarker, in die Platte graviert | OFFEN | nicht festgelegt / offen | 1 Satz | offen | offen | – |
-| M13 | Kalibrierung | OPEN-SYS-037 | Weiße äußere Kalibrierreferenzen Ø10 | OFFEN | nicht festgelegt / offen | 4 Stück | offen | offen | – |
 | M13 | Kalibrierung | OPEN-SYS-039 | Erhöhte Messing-Referenzzylinder | OFFEN | nicht festgelegt / offen | 4 Stück | offen | offen | – |
 | M13 | Kalibrierung | OPEN-SYS-040 | Äußere flache Messing-Referenzzylinder Ø7 | OFFEN | nicht festgelegt / offen | 4 Stück | offen | offen | – |
 | allg. | ohne Modul | BUD-S030 | Scheiben, Sicherungselemente, Distanzteile | SCHRAUBEN | nicht festgelegt / offen | 1 Los | 20,00 € | offen | [Link](https://schrauben-expert.de/) |

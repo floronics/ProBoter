@@ -25,7 +25,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [K11 z_slide:2](#komp-11) | Z-Achse | 11 | 15 |
 | [K12 z_slide_long:1](#komp-12) | Z-Achse, lange Ausführung | 11 | 15 |
 | [K13 z_slide_long:2](#komp-13) | Z-Achse, lange Ausführung | 11 | 15 |
-| [K14 Nicht im CAD-Modell](#komp-14) | Systemteile ohne CAD-Körper | 60 | – |
+| [K14 Nicht im CAD-Modell](#komp-14) | Systemteile ohne CAD-Körper | 74 | – |
 
 <a id="komp-01"></a>
 
@@ -494,9 +494,9 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [SYS-001](#sys-001) TMC2130 SPI Treibermodule | 16 Stück | Kaufteile | teilweise geklärt |
 | [SYS-002](#sys-002) Stationäre Übersichtskamera ELP-USBFHD01M-H100 | 1 Stück | Kaufteile | teilweise geklärt |
 | [SYS-003](#sys-003) Signal-Multiplexer, unbestückte Leiterplatte | 1 Stück | PCB extern | Fertigung noch offen |
-| [SYS-004](#sys-004) Kalibrier-Referenzplatte, Alu schwarz | 1 Stück | Weitere Fertigung | Fertigung noch offen |
+| [SYS-004](#sys-004) Kalibrier-Referenzplatte, Alu schwarz | 1 Stück | Nicht benötigt | nicht benötigt |
 | [SYS-005](#sys-005) Innere Messing-Referenzzylinder Ø7/8/9/10 | 4 Stück | Weitere Fertigung | Fertigung spezifiziert |
-| [SYS-006](#sys-006) Kalibriermarker, in die Platte graviert | 1 Satz | Weitere Fertigung | Fertigung spezifiziert |
+| [SYS-006](#sys-006) Kalibriermarker, in die Platte graviert | 1 Satz | Nicht benötigt | nicht benötigt |
 | [SYS-007](#sys-007) Weißer 24-V-LED-Streifen LUXULA LX700101 | 1,9 m | Kaufteile | bestellfähig |
 | [SYS-008](#sys-008) LED-Aluprofile Barthelme BARdolino mit Diffusor, Kappen, Klammern | 1 Satz | Kaufteile | bestellfähig |
 | [SYS-009](#sys-009) LED-Anschluss an den Heizbett-Ausgang der Licht-Steuerplatine | 1 Satz | Kaufteile | teilweise geklärt |
@@ -527,7 +527,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [SYS-034](#sys-034) Host-PC, Messgeräte und Werkzeuge | 1 Bestand | Nicht benötigt | nicht benötigt |
 | [SYS-035](#sys-035) Z-Antriebsriemenscheibe / integrierter Adapter | 0 Stück | Nicht benötigt | nicht benötigt |
 | [SYS-036](#sys-036) USB-/Versorgungsanschlüsse der Kalibrierung | 1 Prüfung | Nicht benötigt | nicht benötigt |
-| [SYS-037](#sys-037) Weiße äußere Kalibrierreferenzen Ø10 | 4 Stück | Weitere Fertigung | Fertigung spezifiziert |
+| [SYS-037](#sys-037) Weiße äußere Kalibrierreferenzen Ø10 | 4 Stück | Nicht benötigt | nicht benötigt |
 | [SYS-038](#sys-038) Kalibrier-Kontaktleitungen und gemeinsame Messreferenz | 1 Satz | Kaufteile | teilweise geklärt |
 | [SYS-039](#sys-039) Erhöhte Messing-Referenzzylinder | 4 Stück | Weitere Fertigung | Fertigung spezifiziert |
 | [SYS-040](#sys-040) Äußere flache Messing-Referenzzylinder Ø7 | 4 Stück | Weitere Fertigung | Fertigung spezifiziert |
@@ -551,6 +551,20 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | [SYS-058](#sys-058) Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl) | 10 Stück | Kaufteile | teilweise geklärt |
 | [SYS-059](#sys-059) Zylinderschraube DIN 912 M5×10 A2, Abdeckungen | 18 Stück | Kaufteile | bestellfähig |
 | [SYS-060](#sys-060) Nutenstein I-Typ Nut 6, M5, Abdeckungen | 18 Stück | Kaufteile | bestellfähig |
+| [SYS-061](#sys-061) Kalibrierplatte Version 4, Druck | 1 Stück | 3D-Druck intern | Fertigung spezifiziert |
+| [SYS-062](#sys-062) Kalibrier-Markereinlagen IDs 1/3/6/12, Druck | 4 Stück | 3D-Druck intern | Fertigung spezifiziert |
+| [SYS-063](#sys-063) Kalibrierstifte, Druck | 4 Stück | 3D-Druck intern | Fertigung spezifiziert |
+| [SYS-064](#sys-064) Schleppkettenhalter Schublade, gestellseitig, Druck | 1 Stück | 3D-Druck intern | Fertigung spezifiziert |
+| [SYS-065](#sys-065) Schleppkettenhalter Schublade, schubladenseitig, Druck | 1 Stück | 3D-Druck intern | Fertigung spezifiziert |
+| [SYS-066](#sys-066) Netzbuchsenhalter Schublade, Druck | 1 Stück | 3D-Druck intern | Fertigung spezifiziert |
+| [SYS-067](#sys-067) Gehäuse Zielplatinen-Versorgungsschalter, Druck | 1 Stück | 3D-Druck intern | Fertigung spezifiziert |
+| [SYS-068](#sys-068) Deckel Zielplatinen-Versorgungsschalter, Druck | 1 Stück | 3D-Druck intern | Fertigung spezifiziert |
+| [SYS-069](#sys-069) Gehäuse Kleinnetzteil, Druck | 1 Stück | 3D-Druck intern | Fertigung spezifiziert |
+| [SYS-070](#sys-070) Deckel Kleinnetzteil, Druck | 1 Stück | 3D-Druck intern | Fertigung spezifiziert |
+| [SYS-071](#sys-071) Raspberry-Pi-4-Halter, Druck | 1 Stück | 3D-Druck intern | Fertigung spezifiziert |
+| [SYS-072](#sys-072) Halter Höhennivellier-Taster (Hilfsmittel), Druck | 1 Stück | 3D-Druck intern | Fertigung spezifiziert |
+| [SYS-073](#sys-073) Energiekette Schublade igus E2C.10.10.028.0, 0,5 m | 2 Stück | Kaufteile | teilweise geklärt |
+| [SYS-074](#sys-074) Anschlusssatz igus E2.100.10.56PZ.A1, Schubladenkette | 2 Satz | Kaufteile | teilweise geklärt |
 
 # Details nach Beschaffungsart
 
@@ -659,6 +673,8 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="sys-058"></a>**SYS-058** Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl) | – / – / **10 Stück** | teilweise geklärt | offen; nicht belegt | Wunsch Luis (17.10.2026). Flachspitzen-Code uneinheitlich (Peaktest: F flach, A konkav, D2 Kuppe); kein Lagerangebot gefunden, Spitzenzeichnung beim Händler anfordern.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `OPEN-SYS-058` |
 | <a id="sys-059"></a>**SYS-059** Zylinderschraube DIN 912 M5×10 A2, Abdeckungen | – / – / **18 Stück** | bestellfähig | offen; nicht belegt | Abdeckungen aus Acrylglas: beim Aufbau anzeichnen und bohren, je Platte 4 Schrauben (Entscheidung Luis 18.10.2026). Unterlegscheiben für Acryl empfohlen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-059` |
 | <a id="sys-060"></a>**SYS-060** Nutenstein I-Typ Nut 6, M5, Abdeckungen | – / – / **18 Stück** | bestellfähig | offen; nicht belegt | Gegenstück zu SYS-059.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `BUY-SYS-060` |
+| <a id="sys-073"></a>**SYS-073** Energiekette Schublade igus E2C.10.10.028.0, 0,5 m | – / – / **2 Stück** | teilweise geklärt | offen; nicht belegt | drag_chain_0_5m_E2C_10_10_028_0 in drawer_drag_chain.asm: 2 Ketten je 25 Glieder (Fusion-Messung) mit Anschlüssen E2.100.10.56PZ.A1 (SYS-074) (Entscheidung Luis 26.10.2026).<br>[Beleg](../hardware/cad); Kostenzeile `OPEN-SYS-073` |
+| <a id="sys-074"></a>**SYS-074** Anschlusssatz igus E2.100.10.56PZ.A1, Schubladenkette | – / – / **2 Satz** | teilweise geklärt | offen; nicht belegt | Anschlüsse zu SYS-073, laut CAD-Dateiname (Entscheidung Luis 26.10.2026).<br>[Beleg](../hardware/cad); Kostenzeile `OPEN-SYS-074` |
 
 ## 3D-Druck intern
 
@@ -705,6 +721,18 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="cad-118"></a>**CAD-118** Z-Achse Schlitten Kabel Halter<br>`z_slide_cable_holder` | 4 / 4 / **4 Stück** | Fertigung spezifiziert | 16.0 x 8.0 x 10.0; PETG vorgeschlagen; Importmaterial Stahl ist kein Nachweis | Geometrie vorhan den; Druckorientierung, Passungen, Befestigung und Belastbarkeit festlegen. Volumen siehe CSV; kein Slicerbedarf.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
 | <a id="cad-119"></a>**CAD-119** Z-Achse Schlitten Endschalter Auslöser<br>`z_slide_end_stop_trigger.psm` | 2 / 2 / **2 Stück** | Fertigung spezifiziert | 9.05 x 22.5 x 15.0; PETG (Entscheidung Luis 17.10.2026); Original Blechteil | Auslöser für den optischen Z-Endschalter, keine Last. Statt Blech als PETG-Druckteil (Entscheidung 17.10.2026).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
 | <a id="cad-120"></a>**CAD-120** Z-Achse Schlitten Endschalter Auslöser gespiegelt<br>`z_slide_end_stop_trigger_mirrored.psm` | 2 / 2 / **2 Stück** | Fertigung spezifiziert | 9.05 x 22.5 x 15.0; PETG (Entscheidung Luis 17.10.2026); Original Blechteil | Auslöser für den optischen Z-Endschalter, keine Last. Statt Blech als PETG-Druckteil (Entscheidung 17.10.2026).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-001` |
+| <a id="sys-061"></a>**SYS-061** Kalibrierplatte Version 4, Druck | – / – / **1 Stück** | Fertigung spezifiziert | 110 x 130 x 17; PETG | SCHUTZWERK-Original calibration_plate_v 4 (Baugruppe calibration_plate.asm), 110×130×17 mm, ersetzt die Alu-Platte SYS-004 (Entscheidung Luis 26.10.2026). Bohrungen für Ø7/8/9/10 Messingstifte und 4× Ø10,1 für SYS-063 vorhan den.<br>[Beleg](../hardware/cad); Kostenzeile `MAT-001` |
+| <a id="sys-062"></a>**SYS-062** Kalibrier-Markereinlagen IDs 1/3/6/12, Druck | – / – / **4 Stück** | Fertigung spezifiziert | 18.2 x 1.9 x 18.2; PETG | calibration_plate_marker_fill_001/003/006/012, je 18,2×18,2×1,9 mm, weiß in die schwarze Platte (Farbwechsel/Einleger). Ersetzt die Gravur SYS-006 (Entscheidung Luis 26.10.2026).<br>[Beleg](../hardware/cad); Kostenzeile `MAT-001` |
+| <a id="sys-063"></a>**SYS-063** Kalibrierstifte, Druck | – / – / **4 Stück** | Fertigung spezifiziert | 10 x 10 x 8; PETG | calibration_plate_pin Ø10×8 mm (Stufen Ø7/Ø5), 4× in calibration_plate.asm. Passt in die 4 Bohrungen Ø10,1 der Platte, vermutlich die weißen Außenreferenzen; ersetzt SYS-037 (bei SCHUTZWERK bestätigen).<br>[Beleg](../hardware/cad); Kostenzeile `MAT-001` |
+| <a id="sys-064"></a>**SYS-064** Schleppkettenhalter Schublade, gestellseitig, Druck | – / – / **1 Stück** | Fertigung spezifiziert | 52 x 30 x 10; PETG | base_drawer_drag_chain_holder aus Baugruppe drawer_drag_chain (Entscheidung Luis 26.10.2026).<br>[Beleg](../hardware/cad); Kostenzeile `MAT-001` |
+| <a id="sys-065"></a>**SYS-065** Schleppkettenhalter Schublade, schubladenseitig, Druck | – / – / **1 Stück** | Fertigung spezifiziert | 120 x 25 x 40; PETG | drawer_drag_chain_holder aus Baugruppe drawer_drag_chain (Entscheidung Luis 26.10.2026).<br>[Beleg](../hardware/cad); Kostenzeile `MAT-001` |
+| <a id="sys-066"></a>**SYS-066** Netzbuchsenhalter Schublade, Druck | – / – / **1 Stück** | Fertigung spezifiziert | 102 x 24 x 30; PETG | base_drawer_power_plug_socket, 102×24×30 mm (Entscheidung Luis 26.10.2026). Buchsentyp bei SCHUTZWERK anfragen.<br>[Beleg](../hardware/cad); Kostenzeile `MAT-001` |
+| <a id="sys-067"></a>**SYS-067** Gehäuse Zielplatinen-Versorgungsschalter, Druck | – / – / **1 Stück** | Fertigung spezifiziert | 95 x 28 x 75; PETG | target_power_switch, 95×28×75 mm; Gehäuse für SYS-026 (Entscheidung Luis 26.10.2026).<br>[Beleg](../hardware/cad); Kostenzeile `MAT-001` |
+| <a id="sys-068"></a>**SYS-068** Deckel Zielplatinen-Versorgungsschalter, Druck | – / – / **1 Stück** | Fertigung spezifiziert | 95 x 75 x 6; PETG | target_power_switch_top, 95×75×6 mm (Entscheidung Luis 26.10.2026).<br>[Beleg](../hardware/cad); Kostenzeile `MAT-001` |
+| <a id="sys-069"></a>**SYS-069** Gehäuse Kleinnetzteil, Druck | – / – / **1 Stück** | Fertigung spezifiziert | 80 x 50 x 25; PETG | base_power_supply_housing, 80×50×25 mm (Entscheidung Luis 26.10.2026). Inhalt bei SCHUTZWERK anfragen.<br>[Beleg](../hardware/cad); Kostenzeile `MAT-001` |
+| <a id="sys-070"></a>**SYS-070** Deckel Kleinnetzteil, Druck | – / – / **1 Stück** | Fertigung spezifiziert | 50 x 50 x 2.5; PETG | base_power_supply_housing_top, 50×50×2,5 mm (Entscheidung Luis 26.10.2026).<br>[Beleg](../hardware/cad); Kostenzeile `MAT-001` |
+| <a id="sys-071"></a>**SYS-071** Raspberry-Pi-4-Halter, Druck | – / – / **1 Stück** | Fertigung spezifiziert | 97 x 72 x 5; PETG | base_raspberry_pi_4_adapter, 97×72×5 mm, in base.asm referenziert (Entscheidung Luis 26.10.2026). Ob ein Raspberry Pi 4 verbaut wird, bei SCHUTZWERK anfragen.<br>[Beleg](../hardware/cad); Kostenzeile `MAT-001` |
+| <a id="sys-072"></a>**SYS-072** Halter Höhennivellier-Taster (Hilfsmittel), Druck | – / – / **1 Stück** | Fertigung spezifiziert | 45 x 20 x 32; PETG | utils_height_leveling_probe_holder, 45×20×32 mm (Entscheidung Luis 26.10.2026).<br>[Beleg](../hardware/cad); Kostenzeile `MAT-001` |
 
 ## Blech intern
 
@@ -738,10 +766,7 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | <a id="cad-098"></a>**CAD-098** X-Achse rund Schiene<br>`x_round_rail` | 8 / 8 / **8 Stück** | bestellfähig | 10.0 x 450.0 x 10.0; je Teil vorgeschlagen, siehe Fertigung.md | Querschnitt und Länge aus CAD; Profilserie, Toleranzen, Endbearbeitung/Bohrungen festlegen.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-004` |
 | <a id="cad-103"></a>**CAD-103** X-Achse Schlitten Versteifung Träger<br>`x_slide_stiffener_beam` | 4 / 4 / **4 Stück** | bestellfähig | 40.0 x 436.0 x 16.0; Aluminium, DOLD 40x 16S I-Typ Nut 8 | DOLD 40x 16S I-Typ Nut 8 schwer (60879-Z) im Zuschnitt: 1,178 kg/m ≈ 436 mm² (CAD 446 mm²), Kern Ø5 für M6 = CAD. M6-Gewinde in die Stirnseiten selbst schneiden.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-007` |
 | <a id="cad-108"></a>**CAD-108** Y-Achse Schlitten Abstand Stange<br>`y_slide_distance_rod` | 8 / 8 / **8 Stück** | Fertigung spezifiziert | 4.0 x 70.0 x 4.0; Silberstahl 1.2210 Ø4 h 6 | Fusion-Messung: massiver Rundstab Ø4×70 mm, Fasen an beiden Enden, ohne Gewinde. Werkstatt: aus Ø4-h 6-Silberstahl (1.2210) ablängen und anfasen (Entscheidung Luis 17.10.2026).<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `MAT-005` |
-| <a id="sys-004"></a>**SYS-004** Kalibrier-Referenzplatte, Alu schwarz | – / – / **1 Stück** | Fertigung noch offen | offen; nicht belegt | WERKSTATT (Entscheidung Luis 18.10.2026): Alu gefräst/gebohrt, schwarz eloxiert oder lackiert. Dicke 5,1 mm (cli.py); Größe ca. 130×110 mm aus software/docu/images/calibration_plate_top.png geschätzt. 4 Türme für die erhöhten Stifte; Marker eingraviert. Zeichnung aus den Software-Maßen erstellen.<br>[Beleg](../software/hardware-control/proboter/cli.py); Kostenzeile `OPEN-SYS-004` |
 | <a id="sys-005"></a>**SYS-005** Innere Messing-Referenzzylinder Ø7/8/9/10 | – / – / **4 Stück** | Fertigung spezifiziert | offen; nicht belegt | WERKSTATT aus Messing-Rundstab (Entscheidung Luis 18.10.2026): je 1× Ø7/8/9/10 mm, Raster 11,95×19,95 mm, Endfläche bündig mit der Plattenoberfläche. Länge = Plattendicke 5,1 mm plus Einpresstiefe.<br>[Beleg](../software/hardware-control/proboter/tasks/utils/reference_board.py); Kostenzeile `OPEN-SYS-005` |
-| <a id="sys-006"></a>**SYS-006** Kalibriermarker, in die Platte graviert | – / – / **1 Satz** | Fertigung spezifiziert | offen; nicht belegt | Hamming-Marker IDs 1/3/6/12 (mtracker-Format), je 18,2×18,2 mm, Raster 60×80 mm; weiß in die schwarze Platte lasern/gravieren (Entscheidung Luis 18.10.2026).<br>[Beleg](../software/hardware-control/proboter/tasks/utils/reference_board.py); Kostenzeile `OPEN-SYS-006` |
-| <a id="sys-037"></a>**SYS-037** Weiße äußere Kalibrierreferenzen Ø10 | – / – / **4 Stück** | Fertigung spezifiziert | offen; nicht belegt | WERKSTATT aus weißem POM-Rundstab, Ø ca. 10 mm aus der Abbildung geschätzt (Entscheidung Luis 18.10.2026). Raster 109,9×89,8 mm, bündig.<br>[Beleg](../software/hardware-control/proboter/model/reference_board_config.py); Kostenzeile `OPEN-SYS-037` |
 | <a id="sys-039"></a>**SYS-039** Erhöhte Messing-Referenzzylinder | – / – / **4 Stück** | Fertigung spezifiziert | offen; nicht belegt | WERKSTATT aus Messing-Rundstab Ø7 (Entscheidung Luis 18.10.2026): Raster 59,6×39,9 mm, Endflächen 6/8/10/12 mm über der Plattenoberfläche, in Türmen der Platte.<br>[Beleg](../software/hardware-control/proboter/tasks/utils/reference_board.py); Kostenzeile `OPEN-SYS-039` |
 | <a id="sys-040"></a>**SYS-040** Äußere flache Messing-Referenzzylinder Ø7 | – / – / **4 Stück** | Fertigung spezifiziert | offen; nicht belegt | WERKSTATT aus Messing-Rundstab Ø7 (Entscheidung Luis 18.10.2026): Mittelpunkte (±54,95; 0) und (0; ±44,9) mm, bündig.<br>[Beleg](../software/hardware-control/proboter/tasks/utils/reference_board.py); Kostenzeile `OPEN-SYS-040` |
 
@@ -774,7 +799,10 @@ Die 13 übergeordneten Komponenten sind die obersten Einbauten im Fusion-Modell;
 | --- | --- | --- | --- | --- |
 | <a id="cad-066"></a>**CAD-066** Prüfobjekt-Platzhalter im CAD<br>`pcb_dummy` | 1 / 1 / **0 Stück** | nicht benötigt | 200.0 x 300.0 x 50.0; nicht belegt | CAD-Prüfobjekt, kein Maschinenteil.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `ausgeschlossen/optional` |
 | <a id="cad-082"></a>**CAD-082** Multiplexer-Platzhalter im CAD<br>`signal_multiplexer_dummy` | 1 / 1 / **0 Stück** | nicht benötigt | 110.0 x 40.0 x 100.0; nicht belegt | Nur Platzhalter; reale Multiplexer-Platine (hardware/signal-multiplexer) und Bestückung unter SYS-003/023 erfasst.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `ausgeschlossen/optional` |
+| <a id="sys-004"></a>**SYS-004** Kalibrier-Referenzplatte, Alu schwarz | – / – / **1 Stück** | nicht benötigt | offen; nicht belegt | ERSETZT durch Druckteil SYS-061 (SCHUTZWERK-Original, Entscheidung Luis 26.10.2026). Bisheriger Plan: WERKSTATT (Entscheidung Luis 18.10.2026): Alu gefräst/gebohrt, schwarz eloxiert oder lackiert. Dicke 5,1 mm (cli.py); Größe ca. 130×110 mm aus software/docu/images/calibration_plate_top.png geschätzt. 4 Türme für die erhöhten Stifte; Marker eingraviert. Zeichnung aus den Software-Maßen erstellen.<br>[Beleg](../software/hardware-control/proboter/cli.py); Kostenzeile `ausgeschlossen/optional` |
+| <a id="sys-006"></a>**SYS-006** Kalibriermarker, in die Platte graviert | – / – / **1 Satz** | nicht benötigt | offen; nicht belegt | ERSETZT durch Druckteil SYS-062 (SCHUTZWERK-Original, Entscheidung Luis 26.10.2026). Bisheriger Plan: Hamming-Marker IDs 1/3/6/12 (mtracker-Format), je 18,2×18,2 mm, Raster 60×80 mm; weiß in die schwarze Platte lasern/gravieren (Entscheidung Luis 18.10.2026).<br>[Beleg](../software/hardware-control/proboter/tasks/utils/reference_board.py); Kostenzeile `ausgeschlossen/optional` |
 | <a id="sys-034"></a>**SYS-034** Host-PC, Messgeräte und Werkzeuge | – / – / **1 Bestand** | nicht benötigt | offen; nicht belegt | Vom Käufer vorhan den; Kosten ausgeschlossen. Software nennt Pico Scope PS5000a; bestehendes Gerät/Hostkompatibilität prüfen.<br>[Beleg](../software/hardware-control/proboter/cli.py); Kostenzeile `ausgeschlossen/optional` |
 | <a id="sys-035"></a>**SYS-035** Z-Antriebsriemenscheibe / integrierter Adapter | – / – / **0 Stück** | nicht benötigt | offen; nicht belegt | Entfällt: Fusion-Messung zeigt die Antriebsrolle als CAD-076 koaxial auf der Ø5-Motorwelle. CAD-001/002 sind keine Riemenscheiben.<br>[Beleg](../firmware/Marlin/Configuration.h); Kostenzeile `ausgeschlossen/optional` |
 | <a id="sys-036"></a>**SYS-036** USB-/Versorgungsanschlüsse der Kalibrierung | – / – / **1 Prüfung** | nicht benötigt | offen; nicht belegt | Passive Referenzplatte benötigt nach veröffentlichtem Konzept keine eigene USB-Elektronik; kein zusätzliches Gerät.<br>[Beleg](https://www.schutzwerk.com/en/blog/proboter-02/); Kostenzeile `ausgeschlossen/optional` |
+| <a id="sys-037"></a>**SYS-037** Weiße äußere Kalibrierreferenzen Ø10 | – / – / **4 Stück** | nicht benötigt | offen; nicht belegt | ERSETZT durch Druckteil SYS-063 (SCHUTZWERK-Original, Entscheidung Luis 26.10.2026). Bisheriger Plan: WERKSTATT aus weißem POM-Rundstab, Ø ca. 10 mm aus der Abbildung geschätzt (Entscheidung Luis 18.10.2026). Raster 109,9×89,8 mm, bündig.<br>[Beleg](../software/hardware-control/proboter/model/reference_board_config.py); Kostenzeile `ausgeschlossen/optional` |
 | <a id="sys-041"></a>**SYS-041** Nutenstein I-Typ Nut 6, M6, Motorplatten | – / – / **0 Stück** | nicht benötigt | offen; nicht belegt | Entfällt (Luis 18.10.2026): Fusion-Messung zeigt die 8 Senkschrauben M6×20 der Motorplatten in den Stirnseiten der 60×30-Profile auf den Kernbohrungen, nicht in der Nut. M6-Gewinde intern, siehe CAD-014.<br>[Beleg](evidence/cad-geometry.csv); Kostenzeile `ausgeschlossen/optional` |

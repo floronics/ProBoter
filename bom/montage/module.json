@@ -1050,6 +1050,22 @@
         {
           "scope": "system",
           "sys": "SYS-056"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-064"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-065"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-073"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-074"
         }
       ],
       "zusatz": [
@@ -1210,6 +1226,30 @@
           "sub": "",
           "cad_name": "din_912_m3x10",
           "hinweis": "Endschalter-Adapter und Flanschhalter am X-Wagen."
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-066"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-067"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-068"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-069"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-070"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-071"
         }
       ],
       "zusatz": [
@@ -1385,6 +1425,10 @@
         {
           "scope": "system",
           "sys": "SYS-058"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-072"
         }
       ],
       "zusatz": [
@@ -1461,13 +1505,9 @@
     {
       "id": "M13",
       "name": "Kalibrierung",
-      "beschreibung": "Kalibrier-Referenzplatte mit Messing- und weißen Referenzstiften und Hamming-Markern; Maße aus der Software (cli.py, reference_board.py) und der Abbildung software/docu/images/calibration_plate.png.",
-      "stand": "Am 18.10.2026 angelegt; Fertigung in der eigenen Werkstatt.",
+      "beschreibung": "Gedruckte Kalibrierplatte v4 (SCHUTZWERK-Original) mit Messing-Referenzstiften, gedruckten weißen Außenstiften und Hamming-Markereinlagen; Maße aus calibration_plate.asm und der Software (cli.py, reference_board.py).",
+      "stand": "Am 18.10.2026 angelegt; am 26.10.2026 auf die gedruckte SCHUTZWERK-Platte umgestellt.",
       "teile": [
-        {
-          "scope": "system",
-          "sys": "SYS-004"
-        },
         {
           "scope": "system",
           "sys": "SYS-005"
@@ -1482,31 +1522,31 @@
         },
         {
           "scope": "system",
-          "sys": "SYS-037"
+          "sys": "SYS-061"
         },
         {
           "scope": "system",
-          "sys": "SYS-006"
+          "sys": "SYS-062"
+        },
+        {
+          "scope": "system",
+          "sys": "SYS-063"
         }
       ],
       "zusatz": [
         {
-          "teil": "Messing-Rundstab Ø7, Ø8, Ø9, Ø10 und weißer POM-Rundstab Ø10",
+          "teil": "Messing-Rundstab Ø7, Ø8, Ø9, Ø10",
           "menge": "je ca. 100 mm",
-          "bezug": "SYS-005/037/039/040",
+          "bezug": "SYS-005/039/040",
           "grund": "Rohmaterial für die Werkstatt; noch kein Artikel ausgewählt."
-        },
-        {
-          "teil": "Alu-Platte ca. 140×120×(5,1 + Turmhöhe) mm",
-          "menge": 1,
-          "bezug": "SYS-004",
-          "grund": "Rohmaterial; Turmhöhe bis 12 mm über Oberfläche."
         }
       ],
-      "entfernt": [],
+      "entfernt": [
+        "SYS-004 Alu-Platte, SYS-006 gravierte Marker und SYS-037 weiße POM-Referenzen: ersetzt durch die SCHUTZWERK-Druckteile SYS-061/062/063 (Entscheidung Luis 26.10.2026)."
+      ],
       "offen": [
-        "Plattengröße und Ø der weißen Referenzen sind aus der Abbildung geschätzt; vor der Fertigung Zeichnung erstellen.",
-        "Rohmaterial (Messing, POM, Alu) noch nicht ausgewählt."
+        "Plattendicke 17 mm gegen Softwareparameter (cli.py: 5,1 mm) prüfen.",
+        "Messing-Rohmaterial noch nicht ausgewählt."
       ]
     }
   ]
