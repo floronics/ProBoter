@@ -12,10 +12,10 @@ M01,Grundgerüst,base:1,CAD-052,Gelenkfuß M6×20 / Teller Ø40 mm,hinged_M6_40_
 M01,Grundgerüst,ohne CAD,SYS-042,"Nutenstein I-Typ Nut 6, M4, Rückwand",,6,6,bestellfähig,Kaufteile,
 M01,Grundgerüst,ohne CAD,SYS-043,"Zylinderschraube DIN 912 M4×10 A2, Rückwand",,6,6,bestellfähig,Kaufteile,
 M02,X-Achse,base:1,CAD-095,CPC MR12M Führungsschiene 600 mm,x_guiding_cpc_MR12M,2,2,bestellfähig,Kaufteile,
-M02,X-Achse,base:1,CAD-016,Grundgestell: Platte Adapter 1,base_plate_adapter_1,2,2,Fertigung noch offen,Blech intern,
-M02,X-Achse,base:1,CAD-017,Grundgestell: Platte Adapter 2,base_plate_adapter_2,2,2,Fertigung noch offen,Blech intern,
-M02,X-Achse,base:1,CAD-018,Grundgestell: Platte Adapter links,base_plate_adapter_left,2,2,Fertigung noch offen,Blech intern,
-M02,X-Achse,base:1,CAD-019,Grundgestell: Platte Adapter rechts,base_plate_adapter_right,2,2,Fertigung noch offen,Blech intern,
+M02,X-Achse,base:1,CAD-016,Grundgestell: Platte Adapter 1,base_plate_adapter_1,2,2,Fertigung spezifiziert,3D-Druck intern,
+M02,X-Achse,base:1,CAD-017,Grundgestell: Platte Adapter 2,base_plate_adapter_2,2,2,Fertigung spezifiziert,3D-Druck intern,
+M02,X-Achse,base:1,CAD-018,Grundgestell: Platte Adapter links,base_plate_adapter_left,2,2,Fertigung spezifiziert,3D-Druck intern,
+M02,X-Achse,base:1,CAD-019,Grundgestell: Platte Adapter rechts,base_plate_adapter_right,2,2,Fertigung spezifiziert,3D-Druck intern,
 M02,X-Achse,base:1,CAD-034,DIN 7991 M6×20,din_7991_m6x20,8,22,bestellfähig,Kaufteile,8 von 22 befestigen die Adapterplatten an den Motorplatten.
 M02,X-Achse,base:1+x_belt_drive,CAD-015,Grundgestell: NEMA 14 auf 17 Adapter,base_nema_14_to_17_adapter,8,8,Fertigung spezifiziert,3D-Druck intern,
 M02,X-Achse,base:1+x_belt_drive,CAD-064,Nanotec ST4118M1804-A NEMA17 X/Y-Motor,nanotec_nema_17_ST4118M1804-A,8,8,bestellfähig,Kaufteile,
@@ -154,7 +154,7 @@ M08,Optik,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1
 M08,Optik,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-041,DIN 912 M3×30,din_912_m3x30,4,8,bestellfähig,Kaufteile,4 von 8 halten den Kamerahalter.
 M08,Optik,y_slide (1):1;y_slide (1):2;y_slide_mirrored (1):1;y_slide_mirrored (1):2,CAD-056,Sechskantmutter DIN 934 M3 A2,iso_8673_nut_m3,4,24,bestellfähig,Kaufteile,4 von 24 am Kamerahalter.
 M08,Optik,base:1,CAD-025,Kamera Halter,camera_holder,1,1,Fertigung spezifiziert,3D-Druck intern,
-M08,Optik,base:1,CAD-026,Kamera Halter oben,camera_holder_top,1,1,Fertigung noch offen,Blech intern,
+M08,Optik,base:1,CAD-026,Kamera Halter oben,camera_holder_top,1,1,Fertigung spezifiziert,3D-Druck intern,
 M09,Prüfspitzen,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2,CAD-075,"Prüfspitzen-PCB, unbestückt",probe_tip_pcb,4,4,Fertigung noch offen,PCB extern,
 M09,Prüfspitzen,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2,CAD-115,"Federkontakt P75-B1 (Nadelspitze, wie CAD)",z_pogo_pin,8,8,bestellfähig,Kaufteile,
 M09,Prüfspitzen,z_slide:1;z_slide:2;z_slide_long:1;z_slide_long:2,CAD-073,Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W),plug_sleeve_P75-2_W,8,8,teilweise geklärt,Kaufteile,

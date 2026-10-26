@@ -10,8 +10,8 @@ K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CA
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-012,Grundgestell: Rahmen lang Seite,base_frame_long_side,3,Stück,ja,Weitere Fertigung,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-013,Grundgestell: Rahmen kurz,base_frame_short,8,Stück,ja,Weitere Fertigung,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-014,Grundgestell: Rahmen Seite,base_frame_side,2,Stück,ja,Weitere Fertigung,bestellfähig
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-018,Grundgestell: Platte Adapter links,base_plate_adapter_left,2,Stück,ja,Blech intern,Fertigung noch offen
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-019,Grundgestell: Platte Adapter rechts,base_plate_adapter_right,2,Stück,ja,Blech intern,Fertigung noch offen
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-018,Grundgestell: Platte Adapter links,base_plate_adapter_left,2,Stück,ja,3D-Druck intern,Fertigung spezifiziert
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-019,Grundgestell: Platte Adapter rechts,base_plate_adapter_right,2,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-020,Grundgestell: vertikal,base_vertical,4,Stück,ja,Weitere Fertigung,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-023,"Steuerplatine, ERSATZ: BIGTREETECH SKR 1.4 Turbo statt SKR V1.3",bigtreetech_skr_v1_3,4,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-024,Kabel Abdeckung,cable_cover,4,Stück,ja,3D-Druck intern,Fertigung spezifiziert
@@ -34,10 +34,10 @@ K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CA
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-095,CPC MR12M Führungsschiene 600 mm,x_guiding_cpc_MR12M,2,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-096,X-Achse Motor Platte,x_motor_plate,1,Stück,ja,Blech intern,Fertigung noch offen
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",,CAD-097,X-Achse Motor Platte 2,x_motor_plate_2,1,Stück,ja,Blech intern,Fertigung noch offen
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",base_plate_adapter,CAD-016,Grundgestell: Platte Adapter 1,base_plate_adapter_1,2,Stück,ja,Blech intern,Fertigung noch offen
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",base_plate_adapter,CAD-017,Grundgestell: Platte Adapter 2,base_plate_adapter_2,2,Stück,ja,Blech intern,Fertigung noch offen
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",base_plate_adapter,CAD-016,Grundgestell: Platte Adapter 1,base_plate_adapter_1,2,Stück,ja,3D-Druck intern,Fertigung spezifiziert
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",base_plate_adapter,CAD-017,Grundgestell: Platte Adapter 2,base_plate_adapter_2,2,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",camera_holder,CAD-025,Kamera Halter,camera_holder,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
-K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",camera_holder,CAD-026,Kamera Halter oben,camera_holder_top,1,Stück,ja,Blech intern,Fertigung noch offen
+K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",camera_holder,CAD-026,Kamera Halter oben,camera_holder_top,1,Stück,ja,3D-Druck intern,Fertigung spezifiziert
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",pcb_holder,CAD-028,DIN 466 Rändelmutter hoch M4,din_466_knurled_nut_high_m4,8,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",pcb_holder,CAD-043,DIN 912 M4×10,din_912_m4x10,1,Stück,ja,Kaufteile,bestellfähig
 K01 base:1,base:1,"Grundgestell mit X-Antrieben, Platinen- und Kamerahalter",pcb_holder,CAD-048,DIN 933 M4×20,din_933_m4x20,8,Stück,ja,Kaufteile,bestellfähig

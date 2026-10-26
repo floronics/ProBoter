@@ -13,21 +13,16 @@ Die Liste enthältjede offene Position, auch teilweise bekannte Standardteile. E
 | ID / Teil | Bedarf | Nächsterkonkreter Schritt |
 | --- | --- | --- |
 | CAD-003 Grundgestell: Rückseite Platte | 1 Stück | 650×270×3 mm, 54 Bohrungen Ø3,4, 10 Bohrungen Ø4,5, 1 Bohrung Ø8. 6 Ø4,5-Bohrungen sitzen auf den langen Profilen (M4 + Nutenstein, siehe M01). Zuschnitt und Bohrungen intern; Zeichnung aus CAD ableiten. |
-| CAD-016 Grundgestell: Platte Adapter 1 | 2 Stück | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten. |
-| CAD-017 Grundgestell: Platte Adapter 2 | 2 Stück | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten. |
-| CAD-018 Grundgestell: Platte Adapter links | 2 Stück | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten. |
-| CAD-019 Grundgestell: Platte Adapter rechts | 2 Stück | 10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten. Zeichnung aus CAD ableiten. |
-| CAD-026 Kamera Halter oben | 1 Stück | Halterplatte der Übersichtskamera, 104×56,6×5 mm, 4 Bohrungen Ø5,5. Zeichnung aus CAD ableiten. |
 | CAD-070 Platine Halter rechteckig Stange | 2 Stück | ABWEICHUNG (Entscheidung Luis 17.10.2026): CAD-Vierkantrohr 11,5×11,5×1,5×205 mm (Fusion-Messung) wird durch Alu-Vierkantrohr 12×12×1 mm ersetzt (keine Last; 12×12×1,5 in DE/EU nicht gefunden); gedruckte Schieber CAD-067 auf 12 mm anpassen. Bezugsquelle z. B. e Bay metalexpres (Al Mg Si 0,5, ab 500 mm), Preis und Lager noch prüfen. |
 | CAD-075 Prüfspitzen-PCB, unbestückt | 4 Stück | 4 Stück; CAD nur Quader 26,67×10,96×1,6 mm ohne Daten. Entscheidung Luis 17.10.2026: Originaldaten bei SCHUTZWERK angefragt (Anfrage durch Luis versendet, Antwort offen). |
 | CAD-096 X-Achse Motor Platte | 1 Stück | 5 mm Stahl, 550×135 mm. Fusion-Messung: 16 Kernlöcher Ø2,46 für M3-Gewinde (Riemenspanner), Senkungen für M6 und Ø22-Durchbrüche für die Motoren. Kontur und Bohrungen aus CAD; Gewinde und Senkungen intern. Zeichnung mit Lagetoleranzen der Führungsbohrungen fehlt. |
 | CAD-097 X-Achse Motor Platte 2 | 1 Stück | 5 mm Stahl, 550×135 mm. Fusion-Messung: 16 Kernlöcher Ø2,46 für M3-Gewinde (Riemenspanner), Senkungen für M6 und Ø22-Durchbrüche für die Motoren. Kontur und Bohrungen aus CAD; Gewinde und Senkungen intern. Zeichnung mit Lagetoleranzen der Führungsbohrungen fehlt. |
-| CAD-099 X-Achse Seite Platte | 4 Stück | 5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten. Zeichnung aus CAD ableiten. |
-| CAD-100 X-Achse Seite Platte beweglich | 4 Stück | 5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten. Zeichnung aus CAD ableiten. |
-| SYS-003 Signal-Multiplexer, unbestückte Leiterplatte | 1 Stück | CAD-082 ist nur Platzhalter. Schaltplan/Gerber/Board-BOM fehlen; USB/9600Baud-Protokoll ist keine Schaltung. |
+| CAD-099 X-Achse Seite Platte | 4 Stück | 5 mm Seitenplatte des X-Wagens 55×166,5 mm. Fräszeichnung aus hardware/cad (.par/.dft) ableiten. |
+| CAD-100 X-Achse Seite Platte beweglich | 4 Stück | 5 mm Seitenplatte des X-Wagens 55×166,5 mm. Fräszeichnung aus hardware/cad (.par/.dft) ableiten. |
+| SYS-003 Signal-Multiplexer, unbestückte Leiterplatte | 1 Stück | SCHUTZWERK-Original: 4 Lagen, Gerber hardware/signal-multiplexer/hardware/gerber 1.1/gerber 1.1.zip (deckungsgleich mit mux.kicad_pcb, geprüft 26.10.2026). Bei JLCPCB bestellen. |
 | SYS-004 Kalibrier-Referenzplatte, Alu schwarz | 1 Stück | WERKSTATT (Entscheidung Luis 18.10.2026): Alu gefräst/gebohrt, schwarz eloxiert oder lackiert. Dicke 5,1 mm (cli.py); Größe ca. 130×110 mm aus software/docu/images/calibration_plate_top.png geschätzt. 4 Türme für die erhöhten Stifte; Marker eingraviert. Zeichnung aus den Software-Maßen erstellen. |
 | SYS-019 Sensor-Pegelanpassung / Eingangsschutz | 24 Kanäle | Bedarf abhängig von M8-Ausgang; 24 V/3,3 V-Interface. Keine Schaltung/BOM vorhan den; nicht blind 24Module bestellen. |
-| SYS-023 Signal-Multiplexer Bestückung | 1 Baugruppe | MCU, USB/Versorgung, Schalter/Relais, Schutz, Stecker, Passives und Montage nach noch fehlendem Schaltplan. Keine Stückzahlen erfinden. |
+| SYS-023 Signal-Multiplexer Bestückung | 1 Baugruppe | Board-BOM hardware/signal-multiplexer/hardware/mux.csv (76 Bauteile, u. a. 6 Relais TE 6-1462037-3, SMA, USB-B, DB9). Bestückung bei JLCPCB oder selbst; MPNs/LCSC-Nummern noch zuordnen. |
 | SYS-024 Prüfspitzen-PCB Bestückung | 4 Baugruppen | CAD-MM CX/Federkontakte separat; zusätzliche Buchsen und Bauteile erst aus Schaltplan. Unbestückte Platine CAD-075 nicht erneut zählen. |
 | SYS-026 Zielplatinen-Versorgungscontroller | 1 Baugruppe | Softwareziel /dev/proboter_target-power-controller; Schaltung, Firmware/Hardware und Kabel fehlen. Separat vom RSP-Netzteil. |
 

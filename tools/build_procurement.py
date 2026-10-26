@@ -53,6 +53,7 @@ SUPPLIER_URL = {
     'ELP': 'https://www.elpcctv.com/',
     'DOMOTICX': 'https://domoticx.net/',
     'PLATTENZUSCHNITT24': 'https://www.plattenzuschnitt24.de/',
+    'JLCPCB': 'https://jlcpcb.com/',
     'OFFEN': '',
 }
 
@@ -109,9 +110,12 @@ def ids(*numbers):
     return [f'CAD-{n:03}' for n in numbers]
 
 # Routing decisions. These are proposals unless the part's evidence says otherwise.
-SHEET = ids(3,16,17,18,19,26,96,97,99,100)
+SHEET = ids(3,96,97,99,100)
 CNC = []  # adapter plates moved to the workshop (decision 17.10.2026)
-WORKSHOP = ids(3,16,17,18,19,96,97,99,100)
+WORKSHOP = ids(3,96,97,99,100)
+# In SCHUTZWERK's Solid Edge folder printed_parts, so printed (decision 26.10.2026)
+PRINTED_SE = ids(16,17,18,19,26)
+MILLED = ids(96,97,99,100)
 STOCK = ids(9,11,12,13,14,20,69,70,93,94,98,103,108)
 PCB = ids(75)
 UNIDENTIFIED = ids(10)
@@ -167,7 +171,7 @@ DETAIL = {
 SYSTEM = [
 ('001','TMC2130 SPI Treibermodule',16,'Stück','Kaufteile','RBS','4 je SKR für X/X2/Y/Z. RBS13024: 4 Treiber mit Kühlkörpern und Kabel, SPI-Pins laut Fotos vorgelötet. Revision nicht angegeben; SPI-Modus laut Datenblatt per Lötbrücke CFG4/CFG5 prüfen.',FIRMWARE),
 ('002','Stationäre Übersichtskamera ELP-USBFHD01M-H100',1,'Stück','Kaufteile','ELP','Gewählt (Luis 17.10.2026): ELP-USBFHD01M-H100, 1080p, UVC, 100°, Preis auf Anfrage; Lochraster beim Kauf bestätigen. Fusion-Messung: Halter CAD-025 hat 4 M2-Bohrungen im Raster 28×28 mm = 32×32-mm-USB-Platinenkamera (z. B. ELP, 1080p, UVC, M12-Objektiv), keine Webcam (Entscheidung Luis 17.10.2026). Logitech C920 passt nicht.',BLOG),
-('003','Signal-Multiplexer, unbestückte Leiterplatte',1,'Stück','PCB extern','BETA','CAD-082 ist nur Platzhalter. Schaltplan/Gerber/Board-BOM fehlen; USB/9600Baud-Protokoll ist keine Schaltung.',SOFTWARE),
+('003','Signal-Multiplexer, unbestückte Leiterplatte',1,'Stück','PCB extern','JLCPCB','SCHUTZWERK-Original: 4 Lagen, Gerber hardware/signal-multiplexer/hardware/gerber1.1/gerber1.1.zip (deckungsgleich mit mux.kicad_pcb, geprüft 26.10.2026). Bei JLCPCB bestellen.','../hardware/signal-multiplexer/hardware/mux.kicad_pcb'),
 ('004','Kalibrier-Referenzplatte, Alu schwarz',1,'Stück','Weitere Fertigung','OFFEN','WERKSTATT (Entscheidung Luis 18.10.2026): Alu gefräst/gebohrt, schwarz eloxiert oder lackiert. Dicke 5,1 mm (cli.py); Größe ca. 130×110 mm aus software/docu/images/calibration_plate_top.png geschätzt. 4 Türme für die erhöhten Stifte; Marker eingraviert. Zeichnung aus den Software-Maßen erstellen.','../software/hardware-control/proboter/cli.py'),
 ('005','Innere Messing-Referenzzylinder Ø7/8/9/10',4,'Stück','Weitere Fertigung','OFFEN','WERKSTATT aus Messing-Rundstab (Entscheidung Luis 18.10.2026): je 1× Ø7/8/9/10 mm, Raster 11,95×19,95 mm, Endfläche bündig mit der Plattenoberfläche. Länge = Plattendicke 5,1 mm plus Einpresstiefe.','../software/hardware-control/proboter/tasks/utils/reference_board.py'),
 ('006','Kalibriermarker, in die Platte graviert',1,'Satz','Weitere Fertigung','OFFEN','Hamming-Marker IDs 1/3/6/12 (mtracker-Format), je 18,2×18,2 mm, Raster 60×80 mm; weiß in die schwarze Platte lasern/gravieren (Entscheidung Luis 18.10.2026).','../software/hardware-control/proboter/tasks/utils/reference_board.py'),
@@ -187,7 +191,7 @@ SYSTEM = [
 ('020','Netzeinspeisung, Leitung, Sicherung und Zugentlastung',1,'Satz','Kaufteile','REICHELT','230V-Anschluss an offenes Netzteil: Anschlussmodul, Netzleitung, Sicherungshalter und geschützter Kabelweg planen.',CAD),
 ('021','Schutzleiter, Ringkabelschuhe und Klemmenabdeckung',1,'Satz','Kaufteile','REICHELT','Metallrahmen/Netzteil erden; Querschnitt, Anschlusspunkte und Prüfverfahren in Stromlaufplan dokumentieren.',CAD),
 ('022','Messkoax und instrumentenseitige Adapter',4,'Kanäle','Kaufteile','TME','Vorhandene Messgeräte verwenden; BNC/SMA/MMCX und Impedanz gerätespezifisch. CAD-MM CX-Stecker61/62 sind separat, hier nur Kabel und Instrumentadapter.',SOFTWARE),
-('023','Signal-Multiplexer Bestückung',1,'Baugruppe','PCB extern','BETA','MCU, USB/Versorgung, Schalter/Relais, Schutz, Stecker, Passives und Montage nach noch fehlendem Schaltplan. Keine Stückzahlen erfinden.',SOFTWARE),
+('023','Signal-Multiplexer Bestückung',1,'Baugruppe','PCB extern','JLCPCB','Board-BOM hardware/signal-multiplexer/hardware/mux.csv (76 Bauteile, u. a. 6 Relais TE 6-1462037-3, SMA, USB-B, DB9). Bestückung bei JLCPCB oder selbst; MPNs/LCSC-Nummern noch zuordnen.','../hardware/signal-multiplexer/hardware/mux.csv'),
 ('024','Prüfspitzen-PCB Bestückung',4,'Baugruppen','PCB extern','BETA','CAD-MM CX/Federkontakte separat; zusätzliche Buchsen und Bauteile erst aus Schaltplan. Unbestückte PlatineCAD-075 nicht erneut zählen.',CAD),
 ('025','USB-UART-Adapter',1,'Stück','Kaufteile','TME','Software setzt Adapter voraus; Pegel, Isolation, Pinout und Zielversorgung prüfen; Laborausstattung ggf. gegenrechnen.',SOFTWARE),
 ('026','Zielplatinen-Versorgungscontroller',1,'Baugruppe','PCB extern','BETA','Softwareziel /dev/proboter_target-power-controller; Schaltung, Firmware/Hardware und Kabel fehlen. Separat vom RSP-Netzteil.',SOFTWARE),
@@ -257,6 +261,10 @@ def make_parts():
                 note = '5mm geometrische Dicke; Kontur und Bohrungen aus CAD, Gewinde/Senkungen und Bezugs-/Lagetoleranzen fehlen. Entgraten vor Montage.'
             if key in ids(119,120):
                 note = 'CAD .psm und dünner Körper sprechen für Blech; Dicke, Biegung und Sensor-Triggerwirkung nachweisen. Hüllmaß ist keine Abwicklung.'
+        if key in PRINTED_SE:
+            group, status, supplier = '3D-Druck intern', 'Fertigung noch offen', 'RBS'
+            material = 'PETG; SCHUTZWERK-Original liegt in printed_parts (hardware/cad)'
+            note = 'Druckteil laut SCHUTZWERK-Solid-Edge-Ordner printed_parts (Entscheidung Luis 26.10.2026, vorher Werkstattplatte). Geometrie aus hardware/cad bzw. STEP.'
         if key in ids(7,8):
             group, status, supplier = 'Kaufteile', 'bestellfähig', 'PLATTENZUSCHNITT24'
             material='Acrylglas/PMMA XT 5 mm klar (Entscheidung Luis 18.10.2026)'
@@ -287,7 +295,7 @@ def make_parts():
             group, status = 'Ungeklärte Teile','nicht identifiziert'
         if key in EXCLUDED:
             group, status, supplier = 'Nicht benötigt','nicht benötigt','OFFEN'
-            note = 'CAD-Prüfobjekt, kein Maschinenteil.' if key=='CAD-066' else 'Nur Platzhalter; reale Multiplexer-Platine und Bestückung unterSYS-003/023 erfasst.'
+            note = 'CAD-Prüfobjekt, kein Maschinenteil.' if key=='CAD-066' else 'Nur Platzhalter; reale Multiplexer-Platine (hardware/signal-multiplexer) und Bestückung unter SYS-003/023 erfasst.'
         if int(key[-3:]) in DETAIL:
             title, note, supplier = DETAIL[int(key[-3:])]
         if key in NORM:
@@ -316,18 +324,16 @@ def make_parts():
         if group=='3D-Druck intern':
             status='Fertigung spezifiziert'
             process_evidence='3D-Druck intern, PETG, Geometrie als STL aus dem CAD (Entscheidung Luis 17.10.2026)'
-        if key in ids(16,17,18,19,99,100):
-            material='Stahl- oder Aluminiumblech, Werkstattentscheidung'
-            process_evidence='WERKSTATT: eigene Fertigung (Entscheidung Luis 17.10.2026)'
-            note=('10 mm Platte mit Stufen auf 5 mm und 90°-Senkungen; trägt die X-Riemenantriebe. Fräsen oder aus zwei 5-mm-Platten.' if key in ids(16,17,18,19) else '5 mm Seitenplatte des X-Wagens, im Original lasergeschnitten.')+' Zeichnung aus CAD ableiten.'
+        if key in MILLED:
+            material='Stahl- oder Aluminiumplatte 5 mm, Werkstattentscheidung'
+            process_evidence='WERKSTATT: selbst gefräst (Luis 26.10.2026); Rohteil-Modell *_raw in hardware/cad/mechanical_parts'
+            note=('5 mm Motorhalteplatte 550×135 mm.' if key in ids(96,97) else '5 mm Seitenplatte des X-Wagens 55×166,5 mm.')+' Fräszeichnung aus hardware/cad (.par/.dft) ableiten.'
         if key=='CAD-070':
             note='ABWEICHUNG (Entscheidung Luis 17.10.2026): CAD-Vierkantrohr 11,5×11,5×1,5×205 mm (Fusion-Messung) wird durch Alu-Vierkantrohr 12×12×1 mm ersetzt (keine Last; 12×12×1,5 in DE/EU nicht gefunden); gedruckte Schieber CAD-067 auf 12 mm anpassen. Bezugsquelle z. B. eBay metalexpres (AlMgSi0,5, ab 500 mm), Preis und Lager noch prüfen.'
             material='Aluminium-Vierkantrohr 12×12×1 (AlMgSi0,5)'
         if key in ids(93,94):
             material='Stahl Ø8 h6, magnetisch (Cf53), kein Edelstahl A2'
             note='Fusion-Messung: Rundstab Ø8 × '+('125' if key=='CAD-093' else '75')+' mm; Auslöser für die induktiven Sensoren, daher magnetischer Stahl. Zuschnitt kaufen (Luis 17.10.2026); Anbieter mit Preis noch offen (z. B. Motedis Cf53 h6).'
-        if key=='CAD-026':
-            process_evidence='WERKSTATT: eigene Fertigung (Entscheidung Luis 17.10.2026)'
             note='Halterplatte der Übersichtskamera, 104×56,6×5 mm, 4 Bohrungen Ø5,5. Zeichnung aus CAD ableiten.'
         if key=='CAD-108':
             note='Fusion-Messung: massiver Rundstab Ø4×70 mm, Fasen an beiden Enden, ohne Gewinde. Werkstatt: aus Ø4-h6-Silberstahl (1.2210) ablängen und anfasen (Entscheidung Luis 17.10.2026).'
@@ -343,8 +349,8 @@ def make_parts():
             process_evidence='WERKSTATT: eigene Fertigung aus Blech oder Aluminium (Entscheidung Luis 17.10.2026)'
             note='650×270×3 mm, 54 Bohrungen Ø3,4, 10 Bohrungen Ø4,5, 1 Bohrung Ø8. 6 Ø4,5-Bohrungen sitzen auf den langen Profilen (M4 + Nutenstein, siehe M01). Zuschnitt und Bohrungen intern; Zeichnung aus CAD ableiten.'
         if key in ids(96,97):
-            process_evidence='WERKSTATT: eigene Fertigung aus Stahl- oder Aluminiumblech (Entscheidung Luis 17.10.2026); Original lasergeschnitten (Blog)'
-            material='Stahl- oder Aluminiumblech 5 mm, Werkstattentscheidung'
+            process_evidence='WERKSTATT: selbst gefräst (Luis 26.10.2026); Rohteil-Modell *_raw in hardware/cad/mechanical_parts; Original lasergeschnitten (Blog)'
+            material='Stahl- oder Aluminiumplatte 5 mm, Werkstattentscheidung'
             note='5 mm Stahl, 550×135 mm. Fusion-Messung: 16 Kernlöcher Ø2,46 für M3-Gewinde (Riemenspanner), Senkungen für M6 und Ø22-Durchbrüche für die Motoren. Kontur und Bohrungen aus CAD; Gewinde und Senkungen intern. Zeichnung mit Lagetoleranzen der Führungsbohrungen fehlt.'
         if key=='CAD-014':
             note='Querschnitt und Länge aus CAD (2×650 mm). Beide Stirnseiten je 2× M6-Gewinde in die Kernbohrungen Ø5 (15/45 mm) für die Senkschrauben M6×20 der Motorplatten, ≥ 16 mm tief, intern schneiden (Entscheidung Luis 18.10.2026).'
@@ -763,7 +769,7 @@ Der Fusion-Import setzt nahezu überall „Stahl“; das ist kein Materialbeleg.
         '3D-Druck intern': '''PETG als nichtleitender Ausgangsvorschlag; bei wärmeren Motorhaltern ggf. temperaturfesteren Werkstoff testen. Originalwerkstoff unbekannt. 0,2-mm-Schichthöhe, vier Außenwände und 40–60% Infill sind ausschließlich Versuchsvorschläge. Führungs-/Lagersitze mit Probekörper und gegebenenfalls Nacharbeit qualifizieren; Gewinde/Inserts nur nach Zeichnung. Druckrichtung nach Kraftfluss, Stützen und Bauräumen festlegen. Keine pauschale Passung aus Hüllmaßen ableiten.
 
 Materialkalkulation: Summe der CAD-Vollvolumen × Planmenge × angenommene Dichte1,27g/cm³, plus20% für Stützen/Fehldrucke; zusätzlich1kg für Kalibrierkörper/Versuche. Auf volle1kg-Rollen gerundet. Das ist ein bewusst konservativer Budgetansatz, kein Slicerresultat. Der echte Materialbedarf hängt von Infill, Wänden und Orientierung ab. Arbeitszeit/Maschinenkosten sind ausgeschlossen.''',
-        'Blech intern': '''Die Basis-Motorplatten und Schlitten-Seitenteile sind durch Blog/Thesis als Laserteile belegt; andere Verfahren/Materialien bleiben Vorschläge. Für Basisplatten Stahl, z.B.S235, vorschlagen; Sorte und Beschichtung sind nicht belegt. Abdeckungen können andere Werkstoffe erfordern. Dicke beiCAD-003 geometrisch3mm, CAD-007/008/026/096/097/099/100 geometrisch5mm. CAD-024 ist3mm dick; Kettenhalter und Trigger benötigen eine gesonderte Dicken-/Biegeprüfung.
+        'Blech intern': '''Die Basis-Motorplatten und Schlitten-Seitenteile sind durch Blog/Thesis als Laserteile belegt; andere Verfahren/Materialien bleiben Vorschläge. Für Basisplatten Stahl, z.B.S235, vorschlagen; Sorte und Beschichtung sind nicht belegt. Abdeckungen können andere Werkstoffe erfordern. Dicke beiCAD-003 geometrisch3mm, CAD-007/008/096/097/099/100 geometrisch5mm. Motorhalteplatten CAD-096/097 und Seitenplatten CAD-099/100 werden selbst gefräst (Luis 26.10.2026). CAD-024 ist3mm dick; Kettenhalter und Trigger benötigen eine gesonderte Dicken-/Biegeprüfung.
 
 Für jede Variante: Flachkontur/DXF, Lochliste, Gewinde/Senkungen, Biegeradien/-winkel, Bezugsflächen, Entgratung und Korrosionsschutz festlegen. Die beiden5mm-Motorplatten und8Seitenteile belegen zusammen mindestens0,22176m² rechteckige Hüllfläche; die beidenSeitendeckel undTopdeckel weitere0,41822m².3mm-Rückwand0,17550m², vierKabeldeckel0,005104m². Das sind Flächen ohne Verschachtelung, Schnittfugen, weitereBleche oder Biegeabwicklungen. Der200EUR-Materialansatz ist eine eigene Schätzung, keine Zuschnittbestellung.''',
         'CNC extern': '''Vier Varianten, je2Stück =8Adapterplatten. CNC-Fräsen aus ENAW-6082T6,10mm-Ausgangsdicke ist ein Vorschlag. Prüfen, ob Lasern/Wasserstrahl plus Nacharbeit technisch genügt; dadurch kann sich der Preis ändern.
@@ -774,7 +780,7 @@ Angebotspaket: separate STEP-Datei jeCAD-ID,2D-PDF mit Datumsstand/Revision, Mat
 **Wellen:** CAD-098:8×Ø10×450 undCAD-069:2×Ø10×356,8 =4313,6mm netto. CF53h6 als Vorschlag, gehärtet/geschliffen nur passend zur gewählten Buchse. Enden entgraten; Längentoleranzen festlegen.5m Budgetmaterial. CAD-103:4×40×16×436mm Profilhülle; Hohlquerschnitt/Material noch identifizieren. CAD-070:2×11,5×11,5×205mm, CAD-108:8×Ø4×70mm, CAD-093/094: je4Triggerstäbe Ø8×125/75mm. CAD-109:4Distanzteile, Name2mm gegen geometrisch3mm auflösen.
 
 **Kalibrierung:** Messingzylinder drehen/ablängen und Stirnflächen vermessen. Der aktuelle ReferenceBoard-Code unterscheidet vier innere ZylinderØ7/8/9/10, viererhöhteØ7 (Höhenniveaus6/8/10/12mm) undvieräußereØ7 aufGrundniveau; zusätzlich vierweißeReferenzen. Siehe SYS-005/037/039/040. Durchmesser7mm deräußerenGruppen kommen ausderCode-Skizze, nicht auseinerFertigungszeichnung. Thesis und spätererSoftwarestand sindverschiedeneVersionen. `inner_brass_pin_width=11.95`, `height=19.95` sowie `raised_brass_pin_width=59.6`, `height=39.9` sindRaster-/Abstandswerte, keineZylinderdurchmesser. ÄußereMessingpins liegenaufdenAchsen, weißePins andenEcken desRasters109,9×89,8mm. Marker18,2×18,2 undMarker-Raster60×80mm, Hamming-IDs1/3/6/12. Gesamtlänge/Einstecktiefe ist nichtEndflächenhöhe. TatsächlicheGeometrie vermessen undinSoftware hinterlegen; keinevollständigeFertigungszeichnung alleinausdenParametern behaupten.''',
-        'PCB extern': '''**Keine Gerber/Schaltpläne/elektronischen Stücklisten im veröffentlichten Hardware-Verzeichnis gefunden.** STEP enthält äußerePlattenkörper, keine Leiterbahnen. Betroffen: vierPrüfspitzen-PCBs, einMultiplexer, eventuell24KanäleSensorinterface und der inSoftware konfigurierteZielversorgungscontroller. Platinen undBestückung sind eigeneZeilen; CAD-082 alsDummy wirdnichtnochmals bestellt. CAD-Stecker/Federkontakte nicht nochmals inPCBA-Budget aufnehmen.
+        'PCB extern': '''**Signal-Multiplexer:** SCHUTZWERK-KiCad-Projekt mit Gerber liegt in `hardware/signal-multiplexer` (Bestellstand gerber1.1, Fertigung bei JLCPCB). **Für die übrigen Platinen keine Gerber/Schaltpläne gefunden.** STEP enthält äußerePlattenkörper, keine Leiterbahnen. Betroffen: vierPrüfspitzen-PCBs, eventuell24KanäleSensorinterface und der inSoftware konfigurierteZielversorgungscontroller. Platinen undBestückung sind eigeneZeilen; CAD-082 alsDummy wirdnichtnochmals bestellt. CAD-Stecker/Federkontakte nicht nochmals inPCBA-Budget aufnehmen.
 
 [BetaLAYOUT](https://de.beta-layout.com/leiterplatten/) als deutscherFertiger. VorAngebot nötig: geprüfterSchaltplan, Gerber/Bohrdaten oder nativesPCB-Projekt, Lagenaufbau/Kupfer/Dicke, Bestückungs-BOM mitMPNs, Positionsdatei/CPL, Polungen, Panel-/Mengenangaben, E-Test undFunktionsprüfvorschrift. FR4/1,6mm ist nur einVorschlag (Prüfspitzen-Dicke geometrisch1,6mm); Lagenzahl/Kupferstärke fehlen. BareBoards, Stencil, Bauteile, Rüstkosten undBestückung getrennt anbietenlassen. KeineDevelopmentkosten oderPCBA-Preise erfunden.'''
     }

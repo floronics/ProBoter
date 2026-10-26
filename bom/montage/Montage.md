@@ -5,13 +5,13 @@ Schrittweiser Aufbau in logisch zusammengehörigen Modulen. Definition in [modul
 | Modul | Positionen | Stück | bestellfähig | teilweise geklärt | Fertigung noch offen | Fertigung spezifiziert | nicht identifiziert | nicht benötigt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [M01 Grundgerüst](#modul-01) | 12 | 62 | 9 | 0 | 3 | 0 | 0 | 0 |
-| [M02 X-Achse](#modul-02) | 33 | 434 | 22 | 0 | 6 | 5 | 0 | 0 |
+| [M02 X-Achse](#modul-02) | 33 | 434 | 22 | 0 | 2 | 9 | 0 | 0 |
 | [M03 Y-Achse](#modul-03) | 27 | 168 | 17 | 0 | 0 | 10 | 0 | 0 |
 | [M04 Z-Achse](#modul-04) | 20 | 100 | 14 | 0 | 0 | 6 | 0 | 0 |
 | [M05 Schublade und Platinenhalter](#modul-05) | 21 | 96 | 15 | 0 | 1 | 4 | 1 | 0 |
 | [M06 Kabelführung](#modul-06) | 17 | 304 | 10 | 1 | 0 | 6 | 0 | 0 |
 | [M07 Elektrik und Sensorik](#modul-07) | 18 | 144 | 11 | 1 | 0 | 6 | 0 | 0 |
-| [M08 Optik](#modul-08) | 8 | 22 | 4 | 0 | 1 | 3 | 0 | 0 |
+| [M08 Optik](#modul-08) | 8 | 22 | 4 | 0 | 0 | 4 | 0 | 0 |
 | [M09 Prüfspitzen](#modul-09) | 7 | 48 | 2 | 4 | 1 | 0 | 0 | 0 |
 | [M10 Verkleidung](#modul-10) | 4 | 40 | 4 | 0 | 0 | 0 | 0 | 0 |
 | [M12 Beleuchtung](#modul-12) | 3 | 3.9 | 2 | 1 | 0 | 0 | 0 | 0 |
@@ -89,13 +89,13 @@ X-Führungen und 8 X-Riemenantriebe auf den Motorplatten sowie die 4 X-Wagen als
 | [CAD-095](../Teileliste.md#cad-095) CPC MR12M Führungsschiene 600 mm | `x_guiding_cpc_MR12M` | 2 | bestellfähig | Kaufteile |
 | [CAD-098](../Teileliste.md#cad-098) X-Achse rund Schiene | `x_round_rail` | 8 | bestellfähig | Weitere Fertigung |
 | [CAD-103](../Teileliste.md#cad-103) X-Achse Schlitten Versteifung Träger | `x_slide_stiffener_beam` | 4 | bestellfähig | Weitere Fertigung |
-| [CAD-016](../Teileliste.md#cad-016) Grundgestell: Platte Adapter 1 | `base_plate_adapter_1` | 2 | Fertigung noch offen | Blech intern |
-| [CAD-017](../Teileliste.md#cad-017) Grundgestell: Platte Adapter 2 | `base_plate_adapter_2` | 2 | Fertigung noch offen | Blech intern |
-| [CAD-018](../Teileliste.md#cad-018) Grundgestell: Platte Adapter links | `base_plate_adapter_left` | 2 | Fertigung noch offen | Blech intern |
-| [CAD-019](../Teileliste.md#cad-019) Grundgestell: Platte Adapter rechts | `base_plate_adapter_right` | 2 | Fertigung noch offen | Blech intern |
 | [CAD-099](../Teileliste.md#cad-099) X-Achse Seite Platte | `x_side_plate` | 4 | Fertigung noch offen | Blech intern |
 | [CAD-100](../Teileliste.md#cad-100) X-Achse Seite Platte beweglich | `x_side_plate_moving` | 4 | Fertigung noch offen | Blech intern |
 | [CAD-015](../Teileliste.md#cad-015) Grundgestell: NEMA 14 auf 17 Adapter | `base_nema_14_to_17_adapter` | 8 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-016](../Teileliste.md#cad-016) Grundgestell: Platte Adapter 1 | `base_plate_adapter_1` | 2 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-017](../Teileliste.md#cad-017) Grundgestell: Platte Adapter 2 | `base_plate_adapter_2` | 2 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-018](../Teileliste.md#cad-018) Grundgestell: Platte Adapter links | `base_plate_adapter_left` | 2 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-019](../Teileliste.md#cad-019) Grundgestell: Platte Adapter rechts | `base_plate_adapter_right` | 2 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-021](../Teileliste.md#cad-021) Riemen Spanner GT2 Basis | `belt_tightener_GT2_base` | 16 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-022](../Teileliste.md#cad-022) Riemen Spanner GT2 Flügel | `belt_tightener_GT2_wing` | 16 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-088](../Teileliste.md#cad-088) X-Achse Riemen Halter | `x_belt_holder` | 4 | Fertigung spezifiziert | 3D-Druck intern |
@@ -361,8 +361,8 @@ Bewegliches USB-Mikroskop mit Haltern an den Y-Schlitten und die Übersichtskame
 | [CAD-041](../Teileliste.md#cad-041) DIN 912 M3×30 | `din_912_m3x30` | 4 von 8 | bestellfähig; 4 von 8 halten den Kamerahalter. | Kaufteile |
 | [CAD-056](../Teileliste.md#cad-056) Sechskantmutter DIN 934 M3 A2 | `iso_8673_nut_m3` | 4 von 24 | bestellfähig; 4 von 24 am Kamerahalter. | Kaufteile |
 | [CAD-085](../Teileliste.md#cad-085) Bewegliches USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG) | `usb_microscope` | 4 | bestellfähig; CAD zeigt 4, geplant ist 1 (3 optional). | Kaufteile |
-| [CAD-026](../Teileliste.md#cad-026) Kamera Halter oben | `camera_holder_top` | 1 | Fertigung noch offen | Blech intern |
 | [CAD-025](../Teileliste.md#cad-025) Kamera Halter | `camera_holder` | 1 | Fertigung spezifiziert | 3D-Druck intern |
+| [CAD-026](../Teileliste.md#cad-026) Kamera Halter oben | `camera_holder_top` | 1 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-105](../Teileliste.md#cad-105) Y-Achse Kamera Halter | `y_camera_holder` | 2 | Fertigung spezifiziert | 3D-Druck intern |
 | [CAD-106](../Teileliste.md#cad-106) Y-Achse Kamera Halter kompakt | `y_camera_holder_compact` | 2 | Fertigung spezifiziert | 3D-Druck intern |
 

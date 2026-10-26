@@ -10,7 +10,7 @@ Generiert aus `bestellliste.csv` + `montage/` · 131 Positionen · sortiert nach
 | M01 | Grundgerüst | BUY-SYS-043 | Zylinderschraube DIN 912 M4×10 A2, Rückwand | SCHRAUBEN | Schrauben.Expert / 912 4 10 A2 | 6 Stück → 1×10 | 3,30 € | geprüft | [Link](https://schrauben-expert.de/Zylinderschraube-DIN-912-M4-x-10-mm-Edelstahl-A2) |
 | M01, M05 | Grundgerüst | MAT-002 | 30×30 Nut 6 Aluprofil, Zuschnitt-Los | DOLD | DOLD / 63009-Z | 1 Los | 93,68 € | geprüft | [Link](https://www.dold-mechatronik.de/Aluminiumprofil-30x30L-I-Typ-Nut-6-leicht-094kg-m-Zuschnitt-50-6000mm) |
 | M01 | Grundgerüst | MAT-003 | 60×30 Nut 6 Aluprofil schwer, Zuschnitt | DOLD | DOLD / 71370-Z | 1 Los | 43,00 € | geprüft | [Link](https://www.dold-mechatronik.de/Aluminiumprofil-30x60S-I-Typ-Nut-6-schwer-22kg-m-Zuschnitt-50-6000mm) |
-| M01, M02, M08 | Grundgerüst | MAT-006 | Blechrohmaterial und Verschnitt | DOLD | nicht festgelegt / offen | 1 Los | 200,00 € | offen (Werkstatt) | [Link](https://www.dold-mechatronik.de/) |
+| M01, M02 | Grundgerüst | MAT-006 | Blechrohmaterial und Verschnitt | DOLD | nicht festgelegt / offen | 1 Los | 200,00 € | offen (Werkstatt) | [Link](https://www.dold-mechatronik.de/) |
 | M01, M02, M06 | Grundgerüst | N-034 | DIN 7991 M6×20 | SCHRAUBEN | Schrauben.Expert / 7991 6 20 A2 | 25 Stück → 1×25 | 5,00 € | geprüft | [Link](https://schrauben-expert.de/Senkschraube-ISO-10642-M6-x-20-Edelstahl-A2) |
 | M02 | X-Achse | ALT-001 | MR12MLVergleich, keine bestätigte CPC-Paarung *(optional)* | MOTEDIS | nicht bestätigt / 6344 | 8 Stück | 185,74 € | offen | [Link](https://www.motedis.com/de/Fuehrungswagen-Miniatur-MR12ML-SS-V0-N-Edelstahl) |
 | M02 | X-Achse | BUY-003 | 16 Flanschhalter SHF10 | DOLD | DOLD / 11260 | 16 Stück | 62,40 € | offen | [Link](https://www.dold-mechatronik.de/Wellenhalter-Flansch-SHF10) |
@@ -20,7 +20,7 @@ Generiert aus `bestellliste.csv` + `montage/` · 131 Positionen · sortiert nach
 | M02, M03 | X-Achse | BUY-014 | 12 NEMA17 Originalmotoren | NANOTEC | Nanotec / ST4118M1804-A | 12 Stück | 445,54 € | offen | [Link](https://www.nanotec.com/eu/de/produkte/363-st4118m1804-a) |
 | M02 | X-Achse | BUY-018 | 8 CPC-Führungswagen MR12ML | MOTEDIS | CPC / 6344 | 8 Stück | 195,26 € | offen | [Link](https://www.motedis.com/de/Fuehrungswagen-Miniatur-MR12ML-SS-V0-N-Edelstahl) |
 | M02 | X-Achse | BUY-019 | 2 CPC-Schienen MR12M 600 mm | MOTEDIS | CPC / MR12M-N-600 | 2 Stück | 119,40 € | offen | [Link](https://www.motedis.com/de/Edelstahl-Profilschienenfuehrung-Miniatur-MR12M-N-L-600mm) |
-| M02, M03, M04, M05, M06, M07, M08 | X-Achse | MAT-001 | PETG für CAD-Druckteile plus Kalibrierkörper | RBS | yourDroid / RBS13444 | 3,832601334532 kg | 47,80 € | offen | [Link](https://www.roboter-bausatz.de/p/yourdroid-petg-filament-schwarz-1.75mm-1kg) |
+| M02, M03, M04, M05, M06, M07, M08 | X-Achse | MAT-001 | PETG für CAD-Druckteile plus Kalibrierkörper | RBS | yourDroid / RBS13444 | 4,60694120368 kg | 59,75 € | offen | [Link](https://www.roboter-bausatz.de/p/yourdroid-petg-filament-schwarz-1.75mm-1kg) |
 | M02, M05 | X-Achse | MAT-004 | Präzisionswellen Ø10, Zuschnitt-Los | DOLD | DOLD (über voelkner.de) / D25160720 | 1 Los | 83,64 € | offen | [Link](https://www.voelkner.de/products/10394662/Praezisionswelle-10mm-h6-Edelstahl-X46CR13-Linearwellen-geschliffen-und-gehaertet.-ZUSCHNITT-18-EUR-m-0-60-EUR-pro-Schnitt-1950mm.html) |
 | M02 | X-Achse | MAT-007 | Aluprofil 40x 16S Nut 8, Zuschnitt | DOLD | DOLD / 60879-Z | 1 Los | 29,03 € | offen | [Link](https://www.dold-mechatronik.de/Aluminiumprofil-40x16S-I-Typ-Nut-8) |
 | M02 | X-Achse | N-031 | DIN 7991 M3×8 | EISEN2000 | nicht angegeben / OS-7991-2-030008 | 36 Stück → 1×100 | 5,00 € | offen | [Link](https://www.eisenwaren2000.de/?a=84924) |
@@ -110,8 +110,8 @@ Generiert aus `bestellliste.csv` + `montage/` · 131 Positionen · sortiert nach
 | M09 | Prüfspitzen | OPEN-CAD-062 | MMCX-Stecker gewinkelt mit RG316, offenes Ende | OFFEN | nicht festgelegt / offen | 4 Stück | offen | offen | – |
 | M09 | Prüfspitzen | OPEN-CAD-073 | Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W) | OFFEN | nicht festgelegt / offen | 8 Stück | offen | offen | – |
 | M09 | Prüfspitzen | OPEN-CAD-075 | Prüfspitzen-PCB, unbestückt | BETA | nicht festgelegt / offen | 4 Stück | offen | offen | [Link](https://de.beta-layout.com/leiterplatten/) |
-| M09 | Prüfspitzen | OPEN-SYS-003 | Signal-Multiplexer, unbestückte Leiterplatte | BETA | nicht festgelegt / offen | 1 Stück | offen | offen | [Link](https://de.beta-layout.com/leiterplatten/) |
-| M09 | Prüfspitzen | OPEN-SYS-023 | Signal-Multiplexer Bestückung | BETA | nicht festgelegt / offen | 1 Baugruppe | offen | offen | [Link](https://de.beta-layout.com/leiterplatten/) |
+| M09 | Prüfspitzen | OPEN-SYS-003 | Signal-Multiplexer, unbestückte Leiterplatte | JLCPCB | nicht festgelegt / offen | 1 Stück | offen | offen | [Link](https://jlcpcb.com/) |
+| M09 | Prüfspitzen | OPEN-SYS-023 | Signal-Multiplexer Bestückung | JLCPCB | nicht festgelegt / offen | 1 Baugruppe | offen | offen | [Link](https://jlcpcb.com/) |
 | M09 | Prüfspitzen | OPEN-SYS-024 | Prüfspitzen-PCB Bestückung | BETA | nicht festgelegt / offen | 4 Baugruppen | offen | offen | [Link](https://de.beta-layout.com/leiterplatten/) |
 | M09 | Prüfspitzen | OPEN-SYS-058 | Prüfstifte P75 Flachspitze zum Bestromen von Pads (Spitzenauswahl) | OFFEN | nicht festgelegt / offen | 10 Stück | offen | offen | – |
 | M10 | Verkleidung | BUY-SYS-059 | Zylinderschraube DIN 912 M5×10 A2, Abdeckungen | SCHRAUBEN | Schrauben.Expert / 912 5 10 A2 | 18 Stück → 1×50 | 6,00 € | offen | [Link](https://schrauben-expert.de/Zylinderschraube-DIN-912-M5-x-10-mm-Edelstahl-A2) |

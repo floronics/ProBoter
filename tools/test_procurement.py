@@ -54,7 +54,7 @@ class ProcurementTests(unittest.TestCase):
         printed=[p for p in self.parts if p['group']=='3D-Druck intern']
         self.assertTrue(printed)
         self.assertEqual({p['cost_id'] for p in printed},{'MAT-001'})
-        self.assertEqual(self.byid['MAT-001']['order_packs'],4)
+        self.assertEqual(self.byid['MAT-001']['order_packs'],5)  # adapter plates printed since 26.10.2026
 
     def test_components_cover_every_cad_part_once(self):
         validate(self.parts,self.orders,self.components)

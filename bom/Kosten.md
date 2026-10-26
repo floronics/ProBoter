@@ -10,11 +10,11 @@ im Shop bestätigen. Kein Warenkorb wurde bestellt.
 
 | Umfang | netto | brutto |
 | --- | --- | --- |
-| 1. Beobachtete Webpreise × geplante Bestellpackungen | 3.133,70 € | 3.729,20 € |
+| 1. Beobachtete Webpreise × geplante Bestellpackungen | 3.143,74 € | 3.741,15 € |
 | Davon Positionen mit Status bestellfähig | 2.861,71 € | 3.405,54 € |
-| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 271,99 € | 323,66 € |
+| Davon übrige Material-/Kandidatenpreise mit offenen Prüfungen | 282,03 € | 335,61 € |
 | Eigene Budgetschätzungen zusätzlich | 826,09 € | 983,03 € |
-| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.959,79 € | 4.712,23 € |
+| 2. Vorläufiger Gesamtbedarf des bezifferten Umfangs | 3.969,83 € | 4.724,18 € |
 | 3. Noch unbezifferte Positionen: 21 | nicht berechenbar | nicht berechenbar |
 
 **Der Gesamtpreis eines funktionierenden Nachbaus bleibt offen.** Die Summe unter 2
@@ -73,7 +73,7 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | NANOTEC | 445,54 € | 0,00 € | 445,54 € |
 | OFFEN | 0,00 € | 150,00 € | 150,00 € |
 | PLATTENZUSCHNITT24 | 0,00 € | 31,00 € | 31,00 € |
-| RBS | 457,90 € | 30,00 € | 487,90 € |
+| RBS | 469,85 € | 30,00 € | 499,85 € |
 | REICHELT | 138,99 € | 195,00 € | 333,99 € |
 | SCHRAUBEN | 103,10 € | 29,00 € | 132,10 € |
 | STEPPERONLINE | 0,00 € | 38,08 € | 38,08 € |
@@ -91,14 +91,14 @@ Die bevorzugten Ansprechpartner für unbezifferte Zeilen stehen in der Bestellli
 | OPEN-CAD-062 | MMCX-Stecker gewinkelt mit RG316, offenes Ende | rf-connectors.pl PT_MMCX MLS030Q: gewinkelt, RG316, offen, 30 cm, 33,95 zł. Für 1–1,5 m Sonderlänge anfragen oder MMCX–SMA 1 m kürzen. |
 | OPEN-CAD-073 | Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W) | Fusion-Messung: Ø1,2 × 25,4 mm, Drahtende Ø0,6 × 5 mm = R75-Aufnahmehülse für P75 (Bohrung ca. 1,4 mm). Kein EU-Angebot mit Preis gefunden; Peaktest R75-Serie nur auf Anfrage. |
 | OPEN-CAD-075 | Prüfspitzen-PCB, unbestückt | 4 Stück; CAD nur Quader 26,67×10,96×1,6 mm ohne Daten. Entscheidung Luis 17.10.2026: Originaldaten bei SCHUTZWERK angefragt (Anfrage durch Luis versendet, Antwort offen). |
-| OPEN-SYS-003 | Signal-Multiplexer, unbestückte Leiterplatte | CAD-082 ist nur Platzhalter. Schaltplan/Gerber/Board-BOM fehlen; USB/9600Baud-Protokoll ist keine Schaltung. |
+| OPEN-SYS-003 | Signal-Multiplexer, unbestückte Leiterplatte | SCHUTZWERK-Original: 4 Lagen, Gerber hardware/signal-multiplexer/hardware/gerber 1.1/gerber 1.1.zip (deckungsgleich mit mux.kicad_pcb, geprüft 26.10.2026). Bei JLCPCB bestellen. |
 | OPEN-SYS-004 | Kalibrier-Referenzplatte, Alu schwarz | WERKSTATT (Entscheidung Luis 18.10.2026): Alu gefräst/gebohrt, schwarz eloxiert oder lackiert. Dicke 5,1 mm (cli.py); Größe ca. 130×110 mm aus software/docu/images/calibration_plate_top.png geschätzt. 4 Türme für die erhöhten Stifte; Marker eingraviert. Zeichnung aus den Software-Maßen erstellen. |
 | OPEN-SYS-005 | Innere Messing-Referenzzylinder Ø7/8/9/10 | WERKSTATT aus Messing-Rundstab (Entscheidung Luis 18.10.2026): je 1× Ø7/8/9/10 mm, Raster 11,95×19,95 mm, Endfläche bündig mit der Plattenoberfläche. Länge = Plattendicke 5,1 mm plus Einpresstiefe. |
 | OPEN-SYS-006 | Kalibriermarker, in die Platte graviert | Hamming-Marker IDs 1/3/6/12 (mtracker-Format), je 18,2×18,2 mm, Raster 60×80 mm; weiß in die schwarze Platte lasern/gravieren (Entscheidung Luis 18.10.2026). |
 | OPEN-SYS-009 | LED-Anschluss an den Heizbett-Ausgang der Licht-Steuerplatine | Configuration_adv.h:4396 setzt PROBOTER_LIGHT_CONTROL_PIN auf HEATER_BED_PIN; M376 steuert Helligkeit. Kein separater USB-LED-Controller nötig. Stecker/Leitungen, Strom und Flimmern prüfen; keine zusätzliche MOSFET-Platine pauschal kaufen. |
 | OPEN-SYS-017 | Sensor-Gegenstecker und Kontakte | 24 induktiv+4 optisch; bei steckerfertigem Beipack reduzieren. Keine generischen JST/Dupont ohne Rasterprüfung. |
 | OPEN-SYS-019 | Sensor-Pegelanpassung / Eingangsschutz | Bedarf abhängig von M8-Ausgang; 24 V/3,3 V-Interface. Keine Schaltung/BOM vorhan den; nicht blind 24Module bestellen. |
-| OPEN-SYS-023 | Signal-Multiplexer Bestückung | MCU, USB/Versorgung, Schalter/Relais, Schutz, Stecker, Passives und Montage nach noch fehlendem Schaltplan. Keine Stückzahlen erfinden. |
+| OPEN-SYS-023 | Signal-Multiplexer Bestückung | Board-BOM hardware/signal-multiplexer/hardware/mux.csv (76 Bauteile, u. a. 6 Relais TE 6-1462037-3, SMA, USB-B, DB9). Bestückung bei JLCPCB oder selbst; MPNs/LCSC-Nummern noch zuordnen. |
 | OPEN-SYS-024 | Prüfspitzen-PCB Bestückung | CAD-MM CX/Federkontakte separat; zusätzliche Buchsen und Bauteile erst aus Schaltplan. Unbestückte Platine CAD-075 nicht erneut zählen. |
 | OPEN-SYS-026 | Zielplatinen-Versorgungscontroller | Softwareziel /dev/proboter_target-power-controller; Schaltung, Firmware/Hardware und Kabel fehlen. Separat vom RSP-Netzteil. |
 | OPEN-SYS-037 | Weiße äußere Kalibrierreferenzen Ø10 | WERKSTATT aus weißem POM-Rundstab, Ø ca. 10 mm aus der Abbildung geschätzt (Entscheidung Luis 18.10.2026). Raster 109,9×89,8 mm, bündig. |
