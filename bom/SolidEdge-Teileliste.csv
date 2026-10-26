@@ -1,0 +1,176 @@
+﻿Ordner;Datei;Art;Fertigung laut Ordner;ID;Bezeichnung;Menge Gesamtmodell;Planmenge;Unsere Gruppe;Hülle mm;Volumen cm³;Abgleich;Hinweis
+cad;pcb_dummy.par;Teil;Gesamtmodell;CAD-066;Prüfobjekt-Platzhalter im CAD;1;0;Nicht benötigt;;;OK;Prüfling im Modell, kein Maschinenteil
+cad;probotor.asm;Baugruppe;Gesamtmodell;;;;;;;;Baugruppe;
+mechanical_parts;base.asm;Baugruppe;Werkstatt/Zuschnitt;;;1;;;;;Baugruppe;
+mechanical_parts;base_back_plate.par;Teil;Werkstatt/Zuschnitt;CAD-003;Grundgestell: Rückseite Platte;1;1;Blech intern;650 x 3 x 270;519.941;OK;
+mechanical_parts;base_cover_long_side.par;Teil;Werkstatt/Zuschnitt;CAD-007;Grundgestell: Abdeckung lang Seite;2;2;Kaufteile;660 x 5 x 135.5;444.939;OK;
+mechanical_parts;base_cover_top.par;Teil;Werkstatt/Zuschnitt;CAD-008;Grundgestell: Abdeckung oben;2;2;Kaufteile;656 x 5 x 182.5;594.206;OK;
+mechanical_parts;base_drawer_dummy_plate.par;Teil;Werkstatt/Zuschnitt;CAD-010;Schubladen-Dummyplatte;1;1;Ungeklärte Teile;564 x 410 x 12;1586.78;OK;Material im Solid-Edge-Modell: Birke 12 mm (Schubladenboden)
+mechanical_parts;base_drawer_long_side.par;Teil;Werkstatt/Zuschnitt;CAD-011;Grundgestell: Schublade lang Seite;2;2;Weitere Fertigung;30 x 564 x 30;313.87;OK;
+mechanical_parts;base_frame_long_side.par;Teil;Werkstatt/Zuschnitt;CAD-012;Grundgestell: Rahmen lang Seite;3;3;Weitere Fertigung;30 x 590 x 30;328.339;OK;
+mechanical_parts;base_frame_short.par;Teil;Werkstatt/Zuschnitt;CAD-013;Grundgestell: Rahmen kurz;8;8;Weitere Fertigung;30 x 350 x 30;194.777;OK;
+mechanical_parts;base_frame_side.par;Teil;Werkstatt/Zuschnitt;CAD-014;Grundgestell: Rahmen Seite;2;2;Weitere Fertigung;30 x 650 x 60;790.967;OK;
+mechanical_parts;base_plate_adapter.asm;Baugruppe;Werkstatt/Zuschnitt;;;2;;;;;Baugruppe;
+mechanical_parts;base_power_supply.asm;Baugruppe;Werkstatt/Zuschnitt;;;;;;;;Baugruppe;
+mechanical_parts;base_vertical.par;Teil;Werkstatt/Zuschnitt;CAD-020;Grundgestell: vertikal;4;4;Weitere Fertigung;30 x 350 x 30;194.777;OK;
+mechanical_parts;belt_tightener_GT2.asm;Baugruppe;Werkstatt/Zuschnitt;;;20;;;;;Baugruppe;
+mechanical_parts;camera_holder.asm;Baugruppe;Werkstatt/Zuschnitt;CAD-025;Kamera Halter;1;1;3D-Druck intern;;;Baugruppe;
+mechanical_parts;drawer_drag_chain.asm;Baugruppe;Werkstatt/Zuschnitt;;;;;;;;Baugruppe;
+mechanical_parts;pcb_holder.asm;Baugruppe;Werkstatt/Zuschnitt;;;1;;;;;Baugruppe;
+mechanical_parts;pcb_holder_guiding_round.par;Teil;Werkstatt/Zuschnitt;CAD-069;Platine Halter Führung rund;2;2;Weitere Fertigung;10 x 356.8 x 10;28.023;OK;
+mechanical_parts;pcb_holder_rect_rod.par;Teil;Werkstatt/Zuschnitt;CAD-070;Platine Halter rechteckig Stange;2;2;Weitere Fertigung;11.5 x 205 x 11.5;12.3;OK;
+mechanical_parts;target_power_switch.asm;Baugruppe;Werkstatt/Zuschnitt;;;;;;;;Baugruppe;Gehäuse Zielplatinen-Versorgungsschalter
+mechanical_parts;x_belt.par;Teil;Werkstatt/Zuschnitt;CAD-087;GT2-Riemen X, 6 mm breit;8;8;Kaufteile;710.3 x 6 x 11.3;11.833;OK;
+mechanical_parts;x_belt_drive.asm;Baugruppe;Werkstatt/Zuschnitt;;;8;;;;;Baugruppe;
+mechanical_parts;x_end_stop_top_long.par;Teil;Werkstatt/Zuschnitt;CAD-093;X-Achse Endschalter oben lang;4;4;Weitere Fertigung;125 x 8 x 8;6.277;OK;
+mechanical_parts;x_end_stop_top_short.par;Teil;Werkstatt/Zuschnitt;CAD-094;X-Achse Endschalter oben kurz;4;4;Weitere Fertigung;75 x 8 x 8;3.764;OK;
+mechanical_parts;x_guiding_cpc_MR12M.par;Teil;Werkstatt/Zuschnitt;CAD-095;CPC MR12M Führungsschiene 600 mm;2;2;Kaufteile;600 x 7.5 x 12;49.819;OK;
+mechanical_parts;x_motor_plate.par;Teil;Werkstatt/Zuschnitt;CAD-096;X-Achse Motor Platte;1;1;Blech intern;550 x 5 x 135;328.519;OK;
+mechanical_parts;x_motor_plate_2.par;Teil;Werkstatt/Zuschnitt;CAD-097;X-Achse Motor Platte 2;1;1;Blech intern;550 x 5 x 135;328.382;OK;
+mechanical_parts;x_motor_plate_2_raw.par;Teil;Werkstatt/Zuschnitt;;;;;;550 x 5 x 135;331.193;NUR SOLID EDGE;Rohteil zur gefrästen Motorplatte CAD-097
+mechanical_parts;x_motor_plate_raw.par;Teil;Werkstatt/Zuschnitt;;;;;;550 x 5 x 135;331.33;NUR SOLID EDGE;Rohteil zur gefrästen Motorplatte CAD-096
+mechanical_parts;x_round_rail.par;Teil;Werkstatt/Zuschnitt;CAD-098;X-Achse rund Schiene;8;8;Weitere Fertigung;10 x 450 x 10;35.335;OK;
+mechanical_parts;x_side_plate.par;Teil;Werkstatt/Zuschnitt;CAD-099;X-Achse Seite Platte;4;4;Blech intern;55 x 5 x 166.5;40.663;OK;SE-Material: S355MC
+mechanical_parts;x_side_plate_moving.par;Teil;Werkstatt/Zuschnitt;CAD-100;X-Achse Seite Platte beweglich;4;4;Blech intern;55 x 5 x 166.5;41.473;OK;SE-Material: S355MC
+mechanical_parts;x_side_plate_moving_raw.par;Teil;Werkstatt/Zuschnitt;;;;;;55 x 5 x 166.5;41.898;NUR SOLID EDGE;Rohteil zur gefrästen Seitenplatte CAD-100
+mechanical_parts;x_side_plate_raw.par;Teil;Werkstatt/Zuschnitt;;;;;;55 x 5 x 166.5;41.091;NUR SOLID EDGE;"Rohteil zur gefrästen Seitenplatte CAD-099; SE-Material: Aluminium, 7075-T6"
+mechanical_parts;x_slide.asm;Baugruppe;Werkstatt/Zuschnitt;;;4;;;;;Baugruppe;
+mechanical_parts;x_slide_stiffener_beam.par;Teil;Werkstatt/Zuschnitt;CAD-103;X-Achse Schlitten Versteifung Träger;4;4;Weitere Fertigung;40 x 436 x 16;194.502;OK;
+mechanical_parts;y_belt.par;Teil;Werkstatt/Zuschnitt;CAD-104;GT2-Riemen Y, 6 mm breit;4;4;Kaufteile;503.3 x 6 x 11.3;8.406;OK;
+mechanical_parts;y_belt_drive.asm;Baugruppe;Werkstatt/Zuschnitt;;;4;;;;;Baugruppe;
+mechanical_parts;y_slide.asm;Baugruppe;Werkstatt/Zuschnitt;CAD-107;Y-Achse Schlitten;2;2;3D-Druck intern;;;Baugruppe;
+mechanical_parts;y_slide_distance_rod.par;Teil;Werkstatt/Zuschnitt;CAD-108;Y-Achse Schlitten Abstand Stange;8;8;Weitere Fertigung;4 x 70 x 4;0.877;OK;
+mechanical_parts;y_slide_mirrored.asm;Baugruppe;Werkstatt/Zuschnitt;CAD-110;Y-Achse Schlitten gespiegelt;2;2;3D-Druck intern;;;Baugruppe;
+mechanical_parts;z_drive_belt.par;Teil;Werkstatt/Zuschnitt;CAD-113;GT2-Riemen Z, 9 mm breit;4;4;Kaufteile;11.3 x 9 x 119.3;3.07;OK;
+mechanical_parts;z_slide.asm;Baugruppe;Werkstatt/Zuschnitt;;;2;;;;;Baugruppe;
+mechanical_parts;z_slide_long.asm;Baugruppe;Werkstatt/Zuschnitt;;;2;;;;;Baugruppe;
+pcbs;probe_tip.asm;Baugruppe;Leiterplatte;;;2;;;;;Baugruppe;
+pcbs;probe_tip_pcb.par;Teil;Leiterplatte;CAD-075;Prüfspitzen-PCB, unbestückt;4;4;PCB extern;26.67 x 10.96 x 1.6;0.273;OK;
+pcbs;probe_tip_with_angle.asm;Baugruppe;Leiterplatte;;;2;;;;;Baugruppe;
+printed_parts;base_cable_holder_m3_flat.par;Teil;3D-Druck;CAD-004;Grundgestell: Kabel Halter M3 flach;2;2;3D-Druck intern;18 x 10 x 8;0.966;OK;
+printed_parts;base_cable_holder_m4.par;Teil;3D-Druck;CAD-005;Grundgestell: Kabel Halter M4;1;1;3D-Druck intern;18 x 12 x 10.5;1.508;OK;
+printed_parts;base_cable_holder_m5_flat.par;Teil;3D-Druck;CAD-006;Grundgestell: Kabel Halter M5 flach;4;4;3D-Druck intern;18 x 14 x 10;1.497;OK;
+printed_parts;base_drag_chain_holder.par;Teil;3D-Druck;CAD-009;Grundgestell: Schlepp Energiekette Halter;4;4;Weitere Fertigung;80 x 650 x 16;606.011;ABWEICHUNG;liegt in printed_parts, ist aber 650 mm lang, Material Alu 7075, zusätzlich .psm und Zeichnung in mechanical_parts: nicht am Stück druckbar, bleibt Alu-Flachprofil
+printed_parts;base_drawer_drag_chain_holder.par;Teil;3D-Druck;;;;;;52 x 30 x 10;10.374;NUR SOLID EDGE;Schleppkettenhalter Schublade, ältere/alternative Variante
+printed_parts;base_drawer_power_plug_socket.par;Teil;3D-Druck;;;;;;102 x 24 x 30;30.008;NUR SOLID EDGE;Halter Netzbuchse in der Schublade
+printed_parts;base_nema_14_belt_drive_adapter_motor.par;Teil;3D-Druck;;;;;;35 x 40 x 45;14.157;NUR SOLID EDGE;NEMA14-Adapter Riemenantrieb, ältere Variante
+printed_parts;base_nema_14_to_17_adapter.par;Teil;3D-Druck;CAD-015;Grundgestell: NEMA 14 auf 17 Adapter;12;12;3D-Druck intern;40 x 45 x 52;20.243;OK;
+printed_parts;base_plate_adapter_1.par;Teil;3D-Druck;CAD-016;Grundgestell: Platte Adapter 1;2;2;3D-Druck intern;130.4 x 10 x 91;75.205;OK;
+printed_parts;base_plate_adapter_2.par;Teil;3D-Druck;CAD-017;Grundgestell: Platte Adapter 2;2;2;3D-Druck intern;130.5 x 10 x 91;74.712;OK;
+printed_parts;base_plate_adapter_left.par;Teil;3D-Druck;CAD-018;Grundgestell: Platte Adapter links;2;2;3D-Druck intern;162 x 10 x 67.08;49.256;OK;
+printed_parts;base_plate_adapter_right.par;Teil;3D-Druck;CAD-019;Grundgestell: Platte Adapter rechts;2;2;3D-Druck intern;162 x 10 x 67.08;49.256;OK;
+printed_parts;base_power_supply_housing.par;Teil;3D-Druck;;;;;;80 x 50 x 25;26.362;NUR SOLID EDGE;Gehäuse kleines Netzteil (Baugruppe base_power_supply)
+printed_parts;base_power_supply_housing_top.par;Teil;3D-Druck;;;;;;50 x 50 x 2.5;6.008;NUR SOLID EDGE;Deckel dazu
+printed_parts;base_raspberry_pi_4_adapter.par;Teil;3D-Druck;;;;;;97 x 72 x 5;34.47;NUR SOLID EDGE;Halteplatte Raspberry Pi 4
+printed_parts;belt_tightener_GT2_base.par;Teil;3D-Druck;CAD-021;Riemen Spanner GT2 Basis;20;20;3D-Druck intern;44 x 35 x 20;10.843;OK;
+printed_parts;belt_tightener_GT2_wing.par;Teil;3D-Druck;CAD-022;Riemen Spanner GT2 Flügel;20;20;3D-Druck intern;40 x 20 x 10;4.904;OK;
+printed_parts;cable_cover.par;Teil;3D-Druck;CAD-024;Kabel Abdeckung;4;4;3D-Druck intern;22 x 58 x 3;1.121;OK;
+printed_parts;calibration_plate.asm;Baugruppe;3D-Druck;;;;;;148 x 198 x 18;106.636;Baugruppe;Kalibrierplatte v1 (gedruckt)
+printed_parts;calibration_plate.par;Teil;3D-Druck;;;;;;148 x 198 x 18;106.636;NUR SOLID EDGE;Kalibrierplatte v1 (gedruckt)
+printed_parts;calibration_plate_marker_fill.par;Teil;3D-Druck;;;;;;18.2 x 1.9 x 18.2;0.527;NUR SOLID EDGE;Markereinlage (Farbwechsel-Druck)
+printed_parts;calibration_plate_marker_fill_001.par;Teil;3D-Druck;;;;;;18.2 x 1.9 x 18.2;0.527;NUR SOLID EDGE;Markereinlage ID 1
+printed_parts;calibration_plate_marker_fill_003.par;Teil;3D-Druck;;;;;;18.2 x 1.9 x 18.2;0.51;NUR SOLID EDGE;Markereinlage ID 3
+printed_parts;calibration_plate_marker_fill_006.par;Teil;3D-Druck;;;;;;18.2 x 1.9 x 18.2;0.51;NUR SOLID EDGE;Markereinlage ID 6
+printed_parts;calibration_plate_marker_fill_012.par;Teil;3D-Druck;;;;;;18.2 x 1.9 x 18.2;0.527;NUR SOLID EDGE;Markereinlage ID 12
+printed_parts;calibration_plate_pin.par;Teil;3D-Druck;;;;;;10 x 10 x 8;0.316;NUR SOLID EDGE;Kalibrierstift
+printed_parts;calibration_plate_v2.par;Teil;3D-Druck;;;;;;138 x 178 x 17;112.03;NUR SOLID EDGE;Kalibrierplatte v2
+printed_parts;calibration_plate_v3.par;Teil;3D-Druck;;;;;;100 x 140 x 17;66.626;NUR SOLID EDGE;Kalibrierplatte v3
+printed_parts;calibration_plate_v4.par;Teil;3D-Druck;;;;;;110 x 130 x 17;65.476;NUR SOLID EDGE;Kalibrierplatte v4, neueste
+printed_parts;camera_holder.par;Teil;3D-Druck;CAD-025;Kamera Halter;1;1;3D-Druck intern;37 x 42 x 19;7.664;OK;
+printed_parts;camera_holder_top.par;Teil;3D-Druck;CAD-026;Kamera Halter oben;1;1;3D-Druck intern;104 x 56.63 x 5;11.238;OK;
+printed_parts;drawer_drag_chain_holder.par;Teil;3D-Druck;;;;;;120 x 25 x 40;31.445;NUR SOLID EDGE;Schleppkettenhalter Schublade (Baugruppe drawer_drag_chain)
+printed_parts;motor_adapter_nema_17.par;Teil;3D-Druck;;;;;;40 x 45 x 52;20.243;NUR SOLID EDGE;gleiche Geometrie wie base_nema_14_to_17_adapter (Duplikat)
+printed_parts;pcb_holder_glider.par;Teil;3D-Druck;CAD-067;Platine Halter Gleiter;4;4;3D-Druck intern;24 x 30 x 18;7.265;OK;
+printed_parts;pcb_holder_glider_slim_long.par;Teil;3D-Druck;;;;;;44 x 15 x 18;8.024;NUR SOLID EDGE;schmaler, langer Platinenhalter-Gleiter (Variante)
+printed_parts;pcb_holder_guiding_holder_round_d10.par;Teil;3D-Druck;CAD-068;Platine Halter Führung Halter rund d 10;4;4;3D-Druck intern;37 x 14 x 26.5;6.962;OK;
+printed_parts;pcb_holder_rod_short_round_d10.par;Teil;3D-Druck;CAD-071;Platine Halter Stange kurz rund d 10;2;2;3D-Druck intern;30 x 30 x 18;9.311;OK;
+printed_parts;pcb_holder_rod_short_round_d10_mirrored.par;Teil;3D-Druck;CAD-072;Platine Halter Stange kurz rund d 10 gespiegelt;2;2;3D-Druck intern;30 x 30 x 18;9.311;OK;
+printed_parts;power_switch_holder.par;Teil;3D-Druck;CAD-074;Stromversorgung Schalter Halter;1;1;3D-Druck intern;65 x 30 x 41;22.245;OK;
+printed_parts;signal_multiplexer_holder.par;Teil;3D-Druck;CAD-083;Signal-Multiplexer Halter;1;1;3D-Druck intern;117 x 103 x 45;35.447;OK;
+printed_parts;target_power_switch.par;Teil;3D-Druck;;;;;;95 x 28 x 75;48.525;NUR SOLID EDGE;Gehäuse Zielplatinen-Versorgungsschalter
+printed_parts;target_power_switch_top.par;Teil;3D-Druck;;;;;;95 x 75 x 6;24.043;NUR SOLID EDGE;Deckel dazu
+printed_parts;TR10x2_GT2_belt_adapter.par;Teil;3D-Druck;CAD-001;Y-Riemenklemme (CAD-Name TR10x 2 GT2 Adapter);4;4;3D-Druck intern;15 x 20 x 22;3.982;OK;
+printed_parts;TR10x2_GT2_belt_adapter_cover.par;Teil;3D-Druck;CAD-002;Y-Riemenklemme, Deckel;4;4;3D-Druck intern;7 x 20 x 20.49;1.77;OK;
+printed_parts;utils_height_leveling_probe_holder.par;Teil;3D-Druck;;;;;;45 x 20 x 32;12.145;NUR SOLID EDGE;Hilfsmittel: Halter für Höhennivellier-Taster
+printed_parts;x_belt_holder.par;Teil;3D-Druck;CAD-088;X-Achse Riemen Halter;4;4;3D-Druck intern;47 x 20 x 44;14.729;OK;
+printed_parts;x_belt_holder_1.par;Teil;3D-Druck;CAD-089;X-Achse Riemen Halter 1;12;12;3D-Druck intern;35 x 20 x 44;12.473;OK;
+printed_parts;x_drag_chain_adapter.par;Teil;3D-Druck;CAD-090;X-Achse Schlepp Energiekette Adapter;8;8;3D-Druck intern;45.7 x 30 x 7;5.763;OK;
+printed_parts;x_end_stop_holder_side_long.par;Teil;3D-Druck;;;;;;12 x 69 x 54;10.953;NUR SOLID EDGE;X-Endschalterhalter seitlich, lange Variante
+printed_parts;x_end_stop_holder_side_short.par;Teil;3D-Druck;CAD-091;X-Achse Endschalter Halter Seite kurz;4;4;3D-Druck intern;12 x 68.5 x 12;6.097;OK;
+printed_parts;x_end_stop_holder_top_long.par;Teil;3D-Druck;CAD-092;X-Achse Endschalter Halter oben lang;4;4;3D-Druck intern;15 x 98.5 x 18.2;13.721;OK;
+printed_parts;x_slide_inductive_endstop_adapter.par;Teil;3D-Druck;CAD-101;X-Achse Schlitten induktiv Endschalter Adapter;4;4;3D-Druck intern;20.5 x 50 x 48.5;12.154;OK;
+printed_parts;x_slide_inductive_endstop_adapter_mirrored.par;Teil;3D-Druck;CAD-102;X-Achse Schlitten induktiv Endschalter Adapter gespiegelt;4;4;3D-Druck intern;20.5 x 50 x 48.5;12.154;OK;
+printed_parts;y_camera_holder.par;Teil;3D-Druck;CAD-105;Y-Achse Kamera Halter;2;2;3D-Druck intern;50.82 x 51 x 35;23.701;OK;
+printed_parts;y_camera_holder_compact.par;Teil;3D-Druck;CAD-106;Y-Achse Kamera Halter kompakt;2;2;3D-Druck intern;55.98 x 42 x 40;14.609;OK;
+printed_parts;y_camera_holder_mirrored.par;Teil;3D-Druck;;;;;;50.82 x 51 x 35;23.701;NUR SOLID EDGE;Y-Kamerahalter gespiegelt
+printed_parts;y_slide.par;Teil;3D-Druck;CAD-107;Y-Achse Schlitten;2;2;3D-Druck intern;65 x 19.8 x 136;83.211;OK;SE-Material: Aluminium, 7075-T6
+printed_parts;y_slide_distance_tube_2mm.par;Teil;3D-Druck;CAD-109;Y-Achse Schlitten Abstand Rohr 2 mm;4;4;3D-Druck intern;3 x 10 x 10;0.1;OK;
+printed_parts;y_slide_mirrored.par;Teil;3D-Druck;CAD-110;Y-Achse Schlitten gespiegelt;2;2;3D-Druck intern;65 x 19.8 x 136;83.211;OK;SE-Material: Aluminium, 7075-T6
+printed_parts;y_slide_mirrored_top.par;Teil;3D-Druck;CAD-111;Y-Achse Schlitten gespiegelt oben;2;2;3D-Druck intern;65 x 14 x 82;44.19;OK;
+printed_parts;y_slide_top.par;Teil;3D-Druck;CAD-112;Y-Achse Schlitten oben;2;2;3D-Druck intern;65 x 14 x 82;44.19;OK;
+printed_parts;z_drive_belt_holder_v3.par;Teil;3D-Druck;CAD-114;Z-Achse Antrieb Riemen Halter v 3;4;4;3D-Druck intern;35 x 15 x 35;8.112;OK;
+printed_parts;z_pogo_pin_holder.par;Teil;3D-Druck;;;;;;16 x 20.97 x 79.35;11.664;NUR SOLID EDGE;Pogo-Pin-Halter (Prüfspitze ohne PCB)
+printed_parts;z_pogo_pin_holder_cover.par;Teil;3D-Druck;;;;;;16 x 1 x 4;0.052;NUR SOLID EDGE;Deckel dazu
+printed_parts;z_pogo_pin_holder_long.par;Teil;3D-Druck;;;;;;16 x 53.39 x 108.6;16.198;NUR SOLID EDGE;Pogo-Pin-Halter lang
+printed_parts;z_pogo_pin_holder_long_mirrored.par;Teil;3D-Druck;;;;;;16 x 53.39 x 108.6;16.198;NUR SOLID EDGE;Pogo-Pin-Halter lang, gespiegelt
+printed_parts;z_probe_tip_pcb_holder.par;Teil;3D-Druck;CAD-116;Z-Achse Prüfspitze Platine Halter;2;2;3D-Druck intern;79.38 x 16 x 12;8.592;OK;
+printed_parts;z_probe_tip_pcb_holder_long.par;Teil;3D-Druck;CAD-117;Z-Achse Prüfspitze Platine Halter lang;2;2;3D-Druck intern;103.41 x 16 x 55;16.319;OK;
+printed_parts;z_slide_cable_holder.par;Teil;3D-Druck;CAD-118;Z-Achse Schlitten Kabel Halter;4;4;3D-Druck intern;16 x 8 x 10;0.763;OK;
+printed_parts;z_slide_end_stop_trigger.psm.par;Teil;3D-Druck;CAD-119;Z-Achse Schlitten Endschalter Auslöser;2;2;3D-Druck intern;9.05 x 22.5 x 15;0.31;OK;
+printed_parts;z_slide_end_stop_trigger_mirrored.psm.par;Teil;3D-Druck;CAD-120;Z-Achse Schlitten Endschalter Auslöser gespiegelt;2;2;3D-Druck intern;9.05 x 22.5 x 15;0.31;OK;
+standard_parts;bigtreetech_skr_v1_3.par;Teil;Kaufteil;CAD-023;Steuerplatine, ERSATZ: BIGTREETECH SKR 1.4 Turbo statt SKR V1.3;4;4;Kaufteile;;;OK;
+standard_parts;cpc_MR12ML.par;Teil;Kaufteil;CAD-027;CPC MR12ML Führungswagen;8;8;Kaufteile;;;OK;
+standard_parts;din_466_knurled_nut_high_m4.par;Teil;Kaufteil;CAD-028;DIN 466 Rändelmutter hoch M4;8;10;Kaufteile;;;OK;
+standard_parts;din_562_m3_square_nut.par;Teil;Kaufteil;CAD-029;DIN 562 M3 Vierkantmutter;8;10;Kaufteile;;;OK;
+standard_parts;din_562_m4_square_nut.par;Teil;Kaufteil;CAD-030;DIN 562 M4 Vierkantmutter;12;14;Kaufteile;;;OK;
+standard_parts;din_7991_m3x8.par;Teil;Kaufteil;CAD-031;DIN 7991 M3×8;32;36;Kaufteile;;;OK;
+standard_parts;din_7991_m6x12.par;Teil;Kaufteil;CAD-032;DIN 7991 M6×12;16;18;Kaufteile;;;OK;
+standard_parts;din_7991_m6x14.par;Teil;Kaufteil;CAD-033;DIN 7991 M6×14;6;8;Kaufteile;;;OK;
+standard_parts;din_7991_m6x20.par;Teil;Kaufteil;CAD-034;DIN 7991 M6×20;22;25;Kaufteile;;;OK;
+standard_parts;din_912_m3x10.par;Teil;Kaufteil;CAD-035;DIN 912 M3×10;76;84;Kaufteile;;;OK;
+standard_parts;din_912_m3x12.par;Teil;Kaufteil;CAD-036;DIN 912 M3×12;8;10;Kaufteile;;;OK;
+standard_parts;din_912_m3x14.par;Teil;Kaufteil;CAD-037;DIN 912 M3×14;4;6;Kaufteile;;;OK;
+standard_parts;din_912_m3x16.par;Teil;Kaufteil;CAD-038;DIN 912 M3×16;28;31;Kaufteile;;;OK;
+standard_parts;din_912_m3x18.par;Teil;Kaufteil;CAD-039;DIN 912 M3×18;32;36;Kaufteile;;;OK;
+standard_parts;din_912_m3x20.par;Teil;Kaufteil;CAD-040;DIN 912 M3×20;4;6;Kaufteile;;;OK;
+standard_parts;din_912_m3x30.par;Teil;Kaufteil;CAD-041;DIN 912 M3×30;8;10;Kaufteile;;;OK;
+standard_parts;din_912_m3x8.par;Teil;Kaufteil;CAD-042;DIN 912 M3×8;52;58;Kaufteile;;;OK;
+standard_parts;din_912_m4x10.par;Teil;Kaufteil;CAD-043;DIN 912 M4×10;1;3;Kaufteile;;;OK;
+standard_parts;din_912_m4x20.par;Teil;Kaufteil;CAD-044;DIN 912 M4×20;20;22;Kaufteile;;;OK;
+standard_parts;din_912_m4x30.par;Teil;Kaufteil;CAD-045;DIN 912 M4×30;36;40;Kaufteile;;;OK;
+standard_parts;din_912_m5x10.par;Teil;Kaufteil;CAD-046;DIN 912 M5×10;32;36;Kaufteile;;;OK;
+standard_parts;din_912_m5x14.par;Teil;Kaufteil;CAD-047;DIN 912 M5×14;4;6;Kaufteile;;;OK;
+standard_parts;din_933_m4x20.par;Teil;Kaufteil;CAD-048;DIN 933 M4×20;8;10;Kaufteile;;;OK;
+standard_parts;drag_chain_0_24m_E2i_10_10_028_0_4.par;Teil;Kaufteil;CAD-049;igus E2i.10.10.028.0, 16 kurze Abschnitte;16;16;Kaufteile;;;OK;
+standard_parts;drag_chain_0_28m_E2i_10_20_028_0_igus.par;Teil;Kaufteil;CAD-050;igus E2i.10.20.028.0, 8 lange Abschnitte;8;8;Kaufteile;;;OK;
+standard_parts;drag_chain_0_5m_E2C_10_10_028_0___E2_100_10_56PZ_A1_1.par;Teil;Kaufteil;;;;;;;;NUR SOLID EDGE;Energiekette 0,5 m, nicht im Gesamtmodell
+standard_parts;drag_chain_0_5m_E2C_10_10_028_0___E2_100_10_56PZ_A1_2.par;Teil;Kaufteil;;;;;;;;NUR SOLID EDGE;Energiekette 0,5 m, nicht im Gesamtmodell
+standard_parts;handle_l100_dold.par;Teil;Kaufteil;CAD-051;Schubladengriff DOLD A-75873, Lochabstand 100 mm;1;1;Kaufteile;;;OK;
+standard_parts;hinged_M6_40_dold.par;Teil;Kaufteil;CAD-052;Gelenkfuß M6×20 / Teller Ø40 mm;4;4;Kaufteile;;;OK;
+standard_parts;hiwin_rail_MGNR12R150HM.par;Teil;Kaufteil;CAD-053;HIWIN MGNR12R150HM, Z-Schiene 150 mm;4;4;Kaufteile;;;OK;
+standard_parts;hiwin_slide_MGN12CZ0H.par;Teil;Kaufteil;CAD-054;HIWIN MGN12CZ0HM Z-Führungswagen;4;4;Kaufteile;;;OK;
+standard_parts;inductive_proximity_sensor_m8.par;Teil;Kaufteil;CAD-055;Induktiver Näherungsschalter ELCO NI4-M08-ON6L-Q8 (AUSWAHL, Original unbekannt);24;24;Kaufteile;;;OK;
+standard_parts;iso_8673_nut_m3.par;Teil;Kaufteil;CAD-056;Sechskantmutter DIN 934 M3 A2;44;49;Kaufteile;;;OK;
+standard_parts;iso_8673_nut_m4.par;Teil;Kaufteil;CAD-057;Sechskantmutter DIN 934 M4 A2;64;71;Kaufteile;;;OK;
+standard_parts;iso_8673_nut_m8.par;Teil;Kaufteil;CAD-058;ISO 8673 Mutter M8;48;53;Kaufteile;;;OK;
+standard_parts;mean_well_HRPG-1000-24 .par;Teil;Kaufteil;;;;;;;;NUR SOLID EDGE;Netzteil 1000 W, nicht im Gesamtmodell (verbaut: RSP-200-24)
+standard_parts;mean_well_MHS-012_mounting_bracket.par;Teil;Kaufteil;CAD-059;Mean Well MHS012 Montagewinkel;4;4;Kaufteile;;;OK;
+standard_parts;mean_well_RSP-200-24.par;Teil;Kaufteil;CAD-060;Mean Well RSP-200-24 Netzteil,24 V/8,4 A;1;1;Kaufteile;;;OK;
+standard_parts;mmcx_male_end.par;Teil;Kaufteil;CAD-061;MMCX-Stecker gerade mit RG316, offenes Ende;4;4;Kaufteile;;;OK;
+standard_parts;mmcx_male_end_with_angle.par;Teil;Kaufteil;CAD-062;MMCX-Stecker gewinkelt mit RG316, offenes Ende;4;4;Kaufteile;;;OK;
+standard_parts;nanotec_nema_14_ST3518M1004-A.par;Teil;Kaufteil;CAD-063;NEMA14 Z-Motor, ERSATZ: STEPPERONLINE 14HS13-0804S statt Nanotec ST3518M1004-A;8;4;Kaufteile;;;OK;
+standard_parts;nanotec_nema_17_ST4118M1804-A.par;Teil;Kaufteil;CAD-064;Nanotec ST4118M1804-A NEMA17 X/Y-Motor;12;12;Kaufteile;;;OK;
+standard_parts;optical_endstop.par;Teil;Kaufteil;CAD-065;Optischer Endschalter 11×35 mm;4;4;Kaufteile;;;OK;
+standard_parts;plug_sleeve_P75-2_W.par;Teil;Kaufteil;CAD-073;Aufnahmehülse R75 mit Drahtende (CAD: P75-2_W);8;8;Kaufteile;;;OK;
+standard_parts;pulley_gt2_9mm.par;Teil;Kaufteil;CAD-076;GT2-Zahnscheibe Z16 / 9 mm / Bohrung 5 mm, ANPASSUNG;8;8;Kaufteile;;;OK;
+standard_parts;pulley_gt2_z16_6mm.par;Teil;Kaufteil;CAD-077;GT2-Antriebsriemenscheibe Z16 / 6 mm / Bohrung 5 mm;12;12;Kaufteile;;;OK;
+standard_parts;raspberry_pi_4_dummy.par;Teil;Kaufteil;;;;;;;;NUR SOLID EDGE;Platzhalter Raspberry Pi 4
+standard_parts;return_pulley_gt2_z16_6mm.par;Teil;Kaufteil;CAD-078;GT2-Umlenkrolle Z16 / 6 mm / Bohrung 3 mm;20;20;Kaufteile;;;OK;
+standard_parts;rod_holder_flange_d10_dold.par;Teil;Kaufteil;CAD-079;SHF10 Flanschhalter fürØ10 mm Welle;16;16;Kaufteile;;;OK;
+standard_parts;rod_slide_d10_l19.par;Teil;Kaufteil;CAD-080;GleitbuchseØ10 innen / Ø19 außen / Länge 29 mm;16;16;Kaufteile;;;OK;
+standard_parts;screw_on_bracket_30_6.par;Teil;Kaufteil;CAD-081;Anschraubwinkel 30 / Nut 6;26;26;Kaufteile;;;OK;
+standard_parts;signal_multiplexer_dummy.par;Teil;Kaufteil;CAD-082;Multiplexer-Platzhalter im CAD;1;0;Nicht benötigt;;;OK;erledigt: echte Platine in hardware/signal-multiplexer, Bestellung SYS-003/023 bei JLCPCB
+standard_parts;telescopic_bar_tsaa514613-350.par;Teil;Kaufteil;CAD-084;Teleskopschiene 350 mm, Vollauszug;2;2;Kaufteile;;;OK;
+standard_parts;usb_microscope.par;Teil;Kaufteil;CAD-085;Bewegliches USB-Mikroskop Toolcraft 2 MP (AUSWAHL, ANPASSUNG);4;1;Kaufteile;;;OK;
+standard_parts;vandalism_switch_d19.par;Teil;Kaufteil;CAD-086;Netzschalter Ø19 ONPOW LAS1 A-ZG24, rastend;1;1;Kaufteile;;;OK;
+standard_parts;z_pogo_pin.par;Teil;Kaufteil;CAD-115;Federkontakt P75-B1 (Nadelspitze, wie CAD);8;8;Kaufteile;;;OK;
