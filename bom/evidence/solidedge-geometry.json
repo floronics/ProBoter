@@ -1,0 +1,1685 @@
+{
+ "mechanical_parts/base_back_plate": {
+  "all_bodies": 1,
+  "area_cm2": 3551.27,
+  "file": "base_back_plate",
+  "folder": "mechanical_parts",
+  "holes": 65,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   650.0,
+   3.0,
+   270.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 519.941
+ },
+ "mechanical_parts/base_cover_long_side": {
+  "all_bodies": 1,
+  "area_cm2": 1860.4,
+  "file": "base_cover_long_side",
+  "folder": "mechanical_parts",
+  "holes": 0,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   660.0,
+   5.0,
+   135.5
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 444.939
+ },
+ "mechanical_parts/base_cover_top": {
+  "all_bodies": 1,
+  "area_cm2": 2462.85,
+  "file": "base_cover_top",
+  "folder": "mechanical_parts",
+  "holes": 0,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   656.0,
+   5.0,
+   182.5
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 594.206
+ },
+ "mechanical_parts/base_drawer_dummy_plate": {
+  "all_bodies": 1,
+  "area_cm2": 3045.04,
+  "file": "base_drawer_dummy_plate",
+  "folder": "mechanical_parts",
+  "holes": 10,
+  "materials": [
+   "Holz, Birke"
+  ],
+  "size_mm": [
+   564.0,
+   410.0,
+   12.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 1586.778
+ },
+ "mechanical_parts/base_drawer_long_side": {
+  "all_bodies": 1,
+  "area_cm2": 1315.69,
+  "file": "base_drawer_long_side",
+  "folder": "mechanical_parts",
+  "holes": 5,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   30.0,
+   564.0,
+   30.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 313.87
+ },
+ "mechanical_parts/base_frame_long_side": {
+  "all_bodies": 1,
+  "area_cm2": 1375.83,
+  "file": "base_frame_long_side",
+  "folder": "mechanical_parts",
+  "holes": 5,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   30.0,
+   590.0,
+   30.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 328.339
+ },
+ "mechanical_parts/base_frame_short": {
+  "all_bodies": 1,
+  "area_cm2": 820.7,
+  "file": "base_frame_short",
+  "folder": "mechanical_parts",
+  "holes": 5,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   30.0,
+   350.0,
+   30.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 194.777
+ },
+ "mechanical_parts/base_frame_side": {
+  "all_bodies": 1,
+  "area_cm2": 2414.19,
+  "file": "base_frame_side",
+  "folder": "mechanical_parts",
+  "holes": 6,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   30.0,
+   650.0,
+   60.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 790.967
+ },
+ "mechanical_parts/base_vertical": {
+  "all_bodies": 1,
+  "area_cm2": 820.7,
+  "file": "base_vertical",
+  "folder": "mechanical_parts",
+  "holes": 5,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   30.0,
+   350.0,
+   30.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 194.777
+ },
+ "mechanical_parts/pcb_holder_guiding_round": {
+  "all_bodies": 1,
+  "area_cm2": 113.66,
+  "file": "pcb_holder_guiding_round",
+  "folder": "mechanical_parts",
+  "holes": 1,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   10.0,
+   356.8,
+   10.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 28.023
+ },
+ "mechanical_parts/pcb_holder_rect_rod": {
+  "all_bodies": 1,
+  "area_cm2": 165.2,
+  "file": "pcb_holder_rect_rod",
+  "folder": "mechanical_parts",
+  "holes": 0,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   11.5,
+   205.0,
+   11.5
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 12.3
+ },
+ "mechanical_parts/x_belt": {
+  "all_bodies": 1,
+  "area_cm2": 210.94,
+  "file": "x_belt",
+  "folder": "mechanical_parts",
+  "holes": 4,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   710.3,
+   6.0,
+   11.3
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 11.833
+ },
+ "mechanical_parts/x_end_stop_top_long": {
+  "all_bodies": 1,
+  "area_cm2": 32.27,
+  "file": "x_end_stop_top_long",
+  "folder": "mechanical_parts",
+  "holes": 1,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   125.0,
+   8.0,
+   8.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 6.277
+ },
+ "mechanical_parts/x_end_stop_top_short": {
+  "all_bodies": 1,
+  "area_cm2": 19.7,
+  "file": "x_end_stop_top_short",
+  "folder": "mechanical_parts",
+  "holes": 1,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   75.0,
+   8.0,
+   8.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 3.764
+ },
+ "mechanical_parts/x_guiding_cpc_MR12M": {
+  "all_bodies": 1,
+  "area_cm2": 255.21,
+  "file": "x_guiding_cpc_MR12M",
+  "folder": "mechanical_parts",
+  "holes": 14,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   600.0,
+   7.5,
+   12.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 49.819
+ },
+ "mechanical_parts/x_motor_plate": {
+  "all_bodies": 1,
+  "area_cm2": 1548.78,
+  "file": "x_motor_plate",
+  "folder": "mechanical_parts",
+  "holes": 161,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   550.0,
+   5.0,
+   135.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 328.519
+ },
+ "mechanical_parts/x_motor_plate_2": {
+  "all_bodies": 1,
+  "area_cm2": 1548.93,
+  "file": "x_motor_plate_2",
+  "folder": "mechanical_parts",
+  "holes": 161,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   550.0,
+   5.0,
+   135.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 328.382
+ },
+ "mechanical_parts/x_motor_plate_2_raw": {
+  "all_bodies": 1,
+  "area_cm2": 1554.2,
+  "file": "x_motor_plate_2_raw",
+  "folder": "mechanical_parts",
+  "holes": 161,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   550.0,
+   5.0,
+   135.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 331.193
+ },
+ "mechanical_parts/x_motor_plate_raw": {
+  "all_bodies": 1,
+  "area_cm2": 1554.05,
+  "file": "x_motor_plate_raw",
+  "folder": "mechanical_parts",
+  "holes": 161,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   550.0,
+   5.0,
+   135.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 331.33
+ },
+ "mechanical_parts/x_round_rail": {
+  "all_bodies": 1,
+  "area_cm2": 142.75,
+  "file": "x_round_rail",
+  "folder": "mechanical_parts",
+  "holes": 1,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   10.0,
+   450.0,
+   10.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 35.335
+ },
+ "mechanical_parts/x_side_plate": {
+  "all_bodies": 1,
+  "area_cm2": 208.6,
+  "file": "x_side_plate",
+  "folder": "mechanical_parts",
+  "holes": 29,
+  "materials": [
+   "S355MC"
+  ],
+  "size_mm": [
+   55.0,
+   5.0,
+   166.5
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 40.663
+ },
+ "mechanical_parts/x_side_plate_moving": {
+  "all_bodies": 1,
+  "area_cm2": 210.62,
+  "file": "x_side_plate_moving",
+  "folder": "mechanical_parts",
+  "holes": 32,
+  "materials": [
+   "S355MC"
+  ],
+  "size_mm": [
+   55.0,
+   5.0,
+   166.5
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 41.473
+ },
+ "mechanical_parts/x_side_plate_moving_raw": {
+  "all_bodies": 1,
+  "area_cm2": 211.44,
+  "file": "x_side_plate_moving_raw",
+  "folder": "mechanical_parts",
+  "holes": 32,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   55.0,
+   5.0,
+   166.5
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 41.898
+ },
+ "mechanical_parts/x_side_plate_raw": {
+  "all_bodies": 1,
+  "area_cm2": 209.41,
+  "file": "x_side_plate_raw",
+  "folder": "mechanical_parts",
+  "holes": 29,
+  "materials": [
+   "Aluminium, 7075-T6"
+  ],
+  "size_mm": [
+   55.0,
+   5.0,
+   166.5
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 41.091
+ },
+ "mechanical_parts/x_slide_stiffener_beam": {
+  "all_bodies": 1,
+  "area_cm2": 775.21,
+  "file": "x_slide_stiffener_beam",
+  "folder": "mechanical_parts",
+  "holes": 18,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   40.0,
+   436.0,
+   16.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 194.502
+ },
+ "mechanical_parts/y_belt": {
+  "all_bodies": 1,
+  "area_cm2": 149.84,
+  "file": "y_belt",
+  "folder": "mechanical_parts",
+  "holes": 4,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   503.3,
+   6.0,
+   11.3
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 8.406
+ },
+ "mechanical_parts/y_slide_distance_rod": {
+  "all_bodies": 1,
+  "area_cm2": 8.97,
+  "file": "y_slide_distance_rod",
+  "folder": "mechanical_parts",
+  "holes": 1,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   4.0,
+   70.0,
+   4.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 0.877
+ },
+ "mechanical_parts/z_drive_belt": {
+  "all_bodies": 1,
+  "area_cm2": 51.31,
+  "file": "z_drive_belt",
+  "folder": "mechanical_parts",
+  "holes": 4,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   11.3,
+   9.0,
+   119.3
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 3.07
+ },
+ "pcbs/probe_tip_pcb": {
+  "all_bodies": 1,
+  "area_cm2": 4.64,
+  "file": "probe_tip_pcb",
+  "folder": "pcbs",
+  "holes": 0,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   26.67,
+   10.96,
+   1.6
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 0.273
+ },
+ "printed_parts/TR10x2_GT2_belt_adapter": {
+  "all_bodies": 1,
+  "area_cm2": 27.59,
+  "file": "TR10x2_GT2_belt_adapter",
+  "folder": "printed_parts",
+  "holes": 5,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   15.0,
+   20.0,
+   22.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 3.982
+ },
+ "printed_parts/TR10x2_GT2_belt_adapter_cover": {
+  "all_bodies": 1,
+  "area_cm2": 12.96,
+  "file": "TR10x2_GT2_belt_adapter_cover",
+  "folder": "printed_parts",
+  "holes": 3,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   7.0,
+   20.0,
+   20.49
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 1.77
+ },
+ "printed_parts/base_cable_holder_m3_flat": {
+  "all_bodies": 1,
+  "area_cm2": 9.35,
+  "file": "base_cable_holder_m3_flat",
+  "folder": "printed_parts",
+  "holes": 12,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   18.0,
+   10.0,
+   8.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 0.966
+ },
+ "printed_parts/base_cable_holder_m4": {
+  "all_bodies": 1,
+  "area_cm2": 11.92,
+  "file": "base_cable_holder_m4",
+  "folder": "printed_parts",
+  "holes": 14,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   18.0,
+   12.0,
+   10.5
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 1.508
+ },
+ "printed_parts/base_cable_holder_m5_flat": {
+  "all_bodies": 1,
+  "area_cm2": 13.32,
+  "file": "base_cable_holder_m5_flat",
+  "folder": "printed_parts",
+  "holes": 14,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   18.0,
+   14.0,
+   10.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 1.497
+ },
+ "printed_parts/base_drag_chain_holder": {
+  "all_bodies": 1,
+  "area_cm2": 1902.35,
+  "file": "base_drag_chain_holder",
+  "folder": "printed_parts",
+  "holes": 32,
+  "materials": [
+   "Aluminium, 7075-T6"
+  ],
+  "size_mm": [
+   80.0,
+   650.0,
+   16.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 606.011
+ },
+ "printed_parts/base_drawer_drag_chain_holder": {
+  "all_bodies": 1,
+  "area_cm2": 48.91,
+  "file": "base_drawer_drag_chain_holder",
+  "folder": "printed_parts",
+  "holes": 4,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   52.0,
+   30.0,
+   10.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 10.374
+ },
+ "printed_parts/base_drawer_power_plug_socket": {
+  "all_bodies": 1,
+  "area_cm2": 128.45,
+  "file": "base_drawer_power_plug_socket",
+  "folder": "printed_parts",
+  "holes": 7,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   102.0,
+   24.0,
+   30.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 30.008
+ },
+ "printed_parts/base_nema_14_belt_drive_adapter_motor": {
+  "all_bodies": 1,
+  "area_cm2": 82.0,
+  "file": "base_nema_14_belt_drive_adapter_motor",
+  "folder": "printed_parts",
+  "holes": 21,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   35.0,
+   40.0,
+   45.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 14.157
+ },
+ "printed_parts/base_nema_14_to_17_adapter": {
+  "all_bodies": 1,
+  "area_cm2": 110.36,
+  "file": "base_nema_14_to_17_adapter",
+  "folder": "printed_parts",
+  "holes": 21,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   40.0,
+   45.0,
+   52.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 20.243
+ },
+ "printed_parts/base_plate_adapter_1": {
+  "all_bodies": 1,
+  "area_cm2": 252.62,
+  "file": "base_plate_adapter_1",
+  "folder": "printed_parts",
+  "holes": 11,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   130.4,
+   10.0,
+   91.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 75.205
+ },
+ "printed_parts/base_plate_adapter_2": {
+  "all_bodies": 1,
+  "area_cm2": 250.17,
+  "file": "base_plate_adapter_2",
+  "folder": "printed_parts",
+  "holes": 11,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   130.5,
+   10.0,
+   91.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 74.712
+ },
+ "printed_parts/base_plate_adapter_left": {
+  "all_bodies": 1,
+  "area_cm2": 160.88,
+  "file": "base_plate_adapter_left",
+  "folder": "printed_parts",
+  "holes": 4,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   162.0,
+   10.0,
+   67.08
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 49.256
+ },
+ "printed_parts/base_plate_adapter_right": {
+  "all_bodies": 1,
+  "area_cm2": 160.88,
+  "file": "base_plate_adapter_right",
+  "folder": "printed_parts",
+  "holes": 4,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   162.0,
+   10.0,
+   67.08
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 49.256
+ },
+ "printed_parts/base_power_supply_housing": {
+  "all_bodies": 1,
+  "area_cm2": 154.64,
+  "file": "base_power_supply_housing",
+  "folder": "printed_parts",
+  "holes": 17,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   80.0,
+   50.0,
+   25.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 26.362
+ },
+ "printed_parts/base_power_supply_housing_top": {
+  "all_bodies": 1,
+  "area_cm2": 55.15,
+  "file": "base_power_supply_housing_top",
+  "folder": "printed_parts",
+  "holes": 8,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   50.0,
+   50.0,
+   2.5
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 6.008
+ },
+ "printed_parts/base_raspberry_pi_4_adapter": {
+  "all_bodies": 1,
+  "area_cm2": 158.41,
+  "file": "base_raspberry_pi_4_adapter",
+  "folder": "printed_parts",
+  "holes": 7,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   97.0,
+   72.0,
+   5.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 34.47
+ },
+ "printed_parts/belt_tightener_GT2_base": {
+  "all_bodies": 1,
+  "area_cm2": 58.02,
+  "file": "belt_tightener_GT2_base",
+  "folder": "printed_parts",
+  "holes": 11,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   44.0,
+   35.0,
+   20.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 10.843
+ },
+ "printed_parts/belt_tightener_GT2_wing": {
+  "all_bodies": 1,
+  "area_cm2": 34.58,
+  "file": "belt_tightener_GT2_wing",
+  "folder": "printed_parts",
+  "holes": 6,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   40.0,
+   20.0,
+   10.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 4.904
+ },
+ "printed_parts/cable_cover": {
+  "all_bodies": 1,
+  "area_cm2": 23.57,
+  "file": "cable_cover",
+  "folder": "printed_parts",
+  "holes": 16,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   22.0,
+   58.0,
+   3.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 1.121
+ },
+ "printed_parts/calibration_plate": {
+  "all_bodies": 1,
+  "area_cm2": 527.03,
+  "file": "calibration_plate",
+  "folder": "printed_parts",
+  "holes": 66,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   148.0,
+   198.0,
+   18.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 106.636
+ },
+ "printed_parts/calibration_plate_marker_fill": {
+  "all_bodies": 1,
+  "area_cm2": 8.07,
+  "file": "calibration_plate_marker_fill",
+  "folder": "printed_parts",
+  "holes": 0,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   18.2,
+   1.9,
+   18.2
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 0.527
+ },
+ "printed_parts/calibration_plate_marker_fill_001": {
+  "all_bodies": 1,
+  "area_cm2": 7.95,
+  "file": "calibration_plate_marker_fill_001",
+  "folder": "printed_parts",
+  "holes": 0,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   18.2,
+   1.9,
+   18.2
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 0.527
+ },
+ "printed_parts/calibration_plate_marker_fill_003": {
+  "all_bodies": 1,
+  "area_cm2": 7.89,
+  "file": "calibration_plate_marker_fill_003",
+  "folder": "printed_parts",
+  "holes": 0,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   18.2,
+   1.9,
+   18.2
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 0.51
+ },
+ "printed_parts/calibration_plate_marker_fill_006": {
+  "all_bodies": 1,
+  "area_cm2": 7.89,
+  "file": "calibration_plate_marker_fill_006",
+  "folder": "printed_parts",
+  "holes": 0,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   18.2,
+   1.9,
+   18.2
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 0.51
+ },
+ "printed_parts/calibration_plate_marker_fill_012": {
+  "all_bodies": 1,
+  "area_cm2": 8.07,
+  "file": "calibration_plate_marker_fill_012",
+  "folder": "printed_parts",
+  "holes": 0,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   18.2,
+   1.9,
+   18.2
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 0.527
+ },
+ "printed_parts/calibration_plate_pin": {
+  "all_bodies": 1,
+  "area_cm2": 3.34,
+  "file": "calibration_plate_pin",
+  "folder": "printed_parts",
+  "holes": 3,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   10.0,
+   10.0,
+   8.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 0.316
+ },
+ "printed_parts/calibration_plate_v2": {
+  "all_bodies": 1,
+  "area_cm2": 535.71,
+  "file": "calibration_plate_v2",
+  "folder": "printed_parts",
+  "holes": 40,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   138.0,
+   178.0,
+   17.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 112.03
+ },
+ "printed_parts/calibration_plate_v3": {
+  "all_bodies": 1,
+  "area_cm2": 329.49,
+  "file": "calibration_plate_v3",
+  "folder": "printed_parts",
+  "holes": 36,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   100.0,
+   140.0,
+   17.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 66.626
+ },
+ "printed_parts/calibration_plate_v4": {
+  "all_bodies": 1,
+  "area_cm2": 341.31,
+  "file": "calibration_plate_v4",
+  "folder": "printed_parts",
+  "holes": 36,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   110.0,
+   130.0,
+   17.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 65.476
+ },
+ "printed_parts/camera_holder": {
+  "all_bodies": 1,
+  "area_cm2": 81.56,
+  "file": "camera_holder",
+  "folder": "printed_parts",
+  "holes": 24,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   37.0,
+   42.0,
+   19.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 7.664
+ },
+ "printed_parts/camera_holder_top": {
+  "all_bodies": 1,
+  "area_cm2": 86.46,
+  "file": "camera_holder_top",
+  "folder": "printed_parts",
+  "holes": 11,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   104.0,
+   56.63,
+   5.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 11.238
+ },
+ "printed_parts/drawer_drag_chain_holder": {
+  "all_bodies": 1,
+  "area_cm2": 106.97,
+  "file": "drawer_drag_chain_holder",
+  "folder": "printed_parts",
+  "holes": 4,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   120.0,
+   25.0,
+   40.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 31.445
+ },
+ "printed_parts/motor_adapter_nema_17": {
+  "all_bodies": 1,
+  "area_cm2": 110.36,
+  "file": "motor_adapter_nema_17",
+  "folder": "printed_parts",
+  "holes": 21,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   40.0,
+   45.0,
+   52.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 20.243
+ },
+ "printed_parts/pcb_holder_glider": {
+  "all_bodies": 1,
+  "area_cm2": 48.52,
+  "file": "pcb_holder_glider",
+  "folder": "printed_parts",
+  "holes": 10,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   24.0,
+   30.0,
+   18.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 7.265
+ },
+ "printed_parts/pcb_holder_glider_slim_long": {
+  "all_bodies": 1,
+  "area_cm2": 38.96,
+  "file": "pcb_holder_glider_slim_long",
+  "folder": "printed_parts",
+  "holes": 10,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   44.0,
+   15.0,
+   18.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 8.024
+ },
+ "printed_parts/pcb_holder_guiding_holder_round_d10": {
+  "all_bodies": 1,
+  "area_cm2": 31.09,
+  "file": "pcb_holder_guiding_holder_round_d10",
+  "folder": "printed_parts",
+  "holes": 11,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   37.0,
+   14.0,
+   26.5
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 6.962
+ },
+ "printed_parts/pcb_holder_rod_short_round_d10": {
+  "all_bodies": 1,
+  "area_cm2": 53.38,
+  "file": "pcb_holder_rod_short_round_d10",
+  "folder": "printed_parts",
+  "holes": 11,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   30.0,
+   30.0,
+   18.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 9.311
+ },
+ "printed_parts/pcb_holder_rod_short_round_d10_mirrored": {
+  "all_bodies": 1,
+  "area_cm2": 53.38,
+  "file": "pcb_holder_rod_short_round_d10_mirrored",
+  "folder": "printed_parts",
+  "holes": 11,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   30.0,
+   30.0,
+   18.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 9.311
+ },
+ "printed_parts/power_switch_holder": {
+  "all_bodies": 1,
+  "area_cm2": 124.45,
+  "file": "power_switch_holder",
+  "folder": "printed_parts",
+  "holes": 3,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   65.0,
+   30.0,
+   41.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 22.245
+ },
+ "printed_parts/signal_multiplexer_holder": {
+  "all_bodies": 1,
+  "area_cm2": 254.88,
+  "file": "signal_multiplexer_holder",
+  "folder": "printed_parts",
+  "holes": 4,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   117.0,
+   103.0,
+   45.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 35.447
+ },
+ "printed_parts/target_power_switch": {
+  "all_bodies": 1,
+  "area_cm2": 341.99,
+  "file": "target_power_switch",
+  "folder": "printed_parts",
+  "holes": 26,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   95.0,
+   28.0,
+   75.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 48.525
+ },
+ "printed_parts/target_power_switch_top": {
+  "all_bodies": 1,
+  "area_cm2": 156.92,
+  "file": "target_power_switch_top",
+  "folder": "printed_parts",
+  "holes": 13,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   95.0,
+   75.0,
+   6.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 24.043
+ },
+ "printed_parts/utils_height_leveling_probe_holder": {
+  "all_bodies": 1,
+  "area_cm2": 50.23,
+  "file": "utils_height_leveling_probe_holder",
+  "folder": "printed_parts",
+  "holes": 5,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   45.0,
+   20.0,
+   32.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 12.145
+ },
+ "printed_parts/x_belt_holder": {
+  "all_bodies": 1,
+  "area_cm2": 90.15,
+  "file": "x_belt_holder",
+  "folder": "printed_parts",
+  "holes": 8,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   47.0,
+   20.0,
+   44.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 14.729
+ },
+ "printed_parts/x_belt_holder_1": {
+  "all_bodies": 1,
+  "area_cm2": 70.49,
+  "file": "x_belt_holder_1",
+  "folder": "printed_parts",
+  "holes": 4,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   35.0,
+   20.0,
+   44.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 12.473
+ },
+ "printed_parts/x_drag_chain_adapter": {
+  "all_bodies": 1,
+  "area_cm2": 31.86,
+  "file": "x_drag_chain_adapter",
+  "folder": "printed_parts",
+  "holes": 3,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   45.7,
+   30.0,
+   7.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 5.763
+ },
+ "printed_parts/x_end_stop_holder_side_long": {
+  "all_bodies": 1,
+  "area_cm2": 58.4,
+  "file": "x_end_stop_holder_side_long",
+  "folder": "printed_parts",
+  "holes": 5,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   12.0,
+   69.0,
+   54.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 10.953
+ },
+ "printed_parts/x_end_stop_holder_side_short": {
+  "all_bodies": 1,
+  "area_cm2": 34.52,
+  "file": "x_end_stop_holder_side_short",
+  "folder": "printed_parts",
+  "holes": 3,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   12.0,
+   68.5,
+   12.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 6.097
+ },
+ "printed_parts/x_end_stop_holder_top_long": {
+  "all_bodies": 1,
+  "area_cm2": 68.19,
+  "file": "x_end_stop_holder_top_long",
+  "folder": "printed_parts",
+  "holes": 7,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   15.0,
+   98.5,
+   18.2
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 13.721
+ },
+ "printed_parts/x_slide_inductive_endstop_adapter": {
+  "all_bodies": 1,
+  "area_cm2": 46.36,
+  "file": "x_slide_inductive_endstop_adapter",
+  "folder": "printed_parts",
+  "holes": 5,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   20.5,
+   50.0,
+   48.5
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 12.154
+ },
+ "printed_parts/x_slide_inductive_endstop_adapter_mirrored": {
+  "all_bodies": 1,
+  "area_cm2": 46.36,
+  "file": "x_slide_inductive_endstop_adapter_mirrored",
+  "folder": "printed_parts",
+  "holes": 5,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   20.5,
+   50.0,
+   48.5
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 12.154
+ },
+ "printed_parts/y_camera_holder": {
+  "all_bodies": 1,
+  "area_cm2": 110.03,
+  "file": "y_camera_holder",
+  "folder": "printed_parts",
+  "holes": 10,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   50.82,
+   51.0,
+   35.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 23.701
+ },
+ "printed_parts/y_camera_holder_compact": {
+  "all_bodies": 1,
+  "area_cm2": 76.68,
+  "file": "y_camera_holder_compact",
+  "folder": "printed_parts",
+  "holes": 13,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   55.98,
+   42.0,
+   40.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 14.609
+ },
+ "printed_parts/y_camera_holder_mirrored": {
+  "all_bodies": 1,
+  "area_cm2": 110.03,
+  "file": "y_camera_holder_mirrored",
+  "folder": "printed_parts",
+  "holes": 10,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   50.82,
+   51.0,
+   35.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 23.701
+ },
+ "printed_parts/y_slide": {
+  "all_bodies": 1,
+  "area_cm2": 264.09,
+  "file": "y_slide",
+  "folder": "printed_parts",
+  "holes": 49,
+  "materials": [
+   "Aluminium, 7075-T6"
+  ],
+  "size_mm": [
+   65.0,
+   19.8,
+   136.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 83.211
+ },
+ "printed_parts/y_slide_distance_tube_2mm": {
+  "all_bodies": 1,
+  "area_cm2": 2.02,
+  "file": "y_slide_distance_tube_2mm",
+  "folder": "printed_parts",
+  "holes": 2,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   3.0,
+   10.0,
+   10.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 0.1
+ },
+ "printed_parts/y_slide_mirrored": {
+  "all_bodies": 1,
+  "area_cm2": 264.09,
+  "file": "y_slide_mirrored",
+  "folder": "printed_parts",
+  "holes": 49,
+  "materials": [
+   "Aluminium, 7075-T6"
+  ],
+  "size_mm": [
+   65.0,
+   19.8,
+   136.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 83.211
+ },
+ "printed_parts/y_slide_mirrored_top": {
+  "all_bodies": 1,
+  "area_cm2": 174.13,
+  "file": "y_slide_mirrored_top",
+  "folder": "printed_parts",
+  "holes": 25,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   65.0,
+   14.0,
+   82.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 44.19
+ },
+ "printed_parts/y_slide_top": {
+  "all_bodies": 1,
+  "area_cm2": 174.13,
+  "file": "y_slide_top",
+  "folder": "printed_parts",
+  "holes": 25,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   65.0,
+   14.0,
+   82.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 44.19
+ },
+ "printed_parts/z_drive_belt_holder_v3": {
+  "all_bodies": 1,
+  "area_cm2": 41.29,
+  "file": "z_drive_belt_holder_v3",
+  "folder": "printed_parts",
+  "holes": 14,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   35.0,
+   15.0,
+   35.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 8.112
+ },
+ "printed_parts/z_pogo_pin_holder": {
+  "all_bodies": 2,
+  "area_cm2": 67.92,
+  "file": "z_pogo_pin_holder",
+  "folder": "printed_parts",
+  "holes": 4,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   16.0,
+   20.97,
+   79.35
+  ],
+  "solid_bodies": 2,
+  "volume_cm3": 11.664
+ },
+ "printed_parts/z_pogo_pin_holder_cover": {
+  "all_bodies": 1,
+  "area_cm2": 1.64,
+  "file": "z_pogo_pin_holder_cover",
+  "folder": "printed_parts",
+  "holes": 2,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   16.0,
+   1.0,
+   4.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 0.052
+ },
+ "printed_parts/z_pogo_pin_holder_long": {
+  "all_bodies": 1,
+  "area_cm2": 75.55,
+  "file": "z_pogo_pin_holder_long",
+  "folder": "printed_parts",
+  "holes": 4,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   16.0,
+   53.39,
+   108.6
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 16.198
+ },
+ "printed_parts/z_pogo_pin_holder_long_mirrored": {
+  "all_bodies": 1,
+  "area_cm2": 75.55,
+  "file": "z_pogo_pin_holder_long_mirrored",
+  "folder": "printed_parts",
+  "holes": 4,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   16.0,
+   53.39,
+   108.6
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 16.198
+ },
+ "printed_parts/z_probe_tip_pcb_holder": {
+  "all_bodies": 1,
+  "area_cm2": 56.7,
+  "file": "z_probe_tip_pcb_holder",
+  "folder": "printed_parts",
+  "holes": 8,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   79.38,
+   16.0,
+   12.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 8.592
+ },
+ "printed_parts/z_probe_tip_pcb_holder_long": {
+  "all_bodies": 1,
+  "area_cm2": 82.47,
+  "file": "z_probe_tip_pcb_holder_long",
+  "folder": "printed_parts",
+  "holes": 4,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   103.41,
+   16.0,
+   55.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 16.319
+ },
+ "printed_parts/z_slide_cable_holder": {
+  "all_bodies": 1,
+  "area_cm2": 8.2,
+  "file": "z_slide_cable_holder",
+  "folder": "printed_parts",
+  "holes": 3,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   16.0,
+   8.0,
+   10.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 0.763
+ },
+ "printed_parts/z_slide_end_stop_trigger.psm": {
+  "all_bodies": 1,
+  "area_cm2": 5.56,
+  "file": "z_slide_end_stop_trigger.psm",
+  "folder": "printed_parts",
+  "holes": 2,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   9.05,
+   22.5,
+   15.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 0.31
+ },
+ "printed_parts/z_slide_end_stop_trigger_mirrored.psm": {
+  "all_bodies": 1,
+  "area_cm2": 5.56,
+  "file": "z_slide_end_stop_trigger_mirrored.psm",
+  "folder": "printed_parts",
+  "holes": 2,
+  "materials": [
+   "Stahl"
+  ],
+  "size_mm": [
+   9.05,
+   22.5,
+   15.0
+  ],
+  "solid_bodies": 1,
+  "volume_cm3": 0.31
+ }
+}
